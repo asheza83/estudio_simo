@@ -63,6 +63,10 @@ export function buscarArticulo(texto) {
 }
 
 export function mostrarArticulo(numeroArticulo) {
+    // Ocultar botón subir de la ley
+    const btnSubirLey = document.getElementById('btn-subir-ley');
+    if (btnSubirLey) btnSubirLey.style.display = 'none';
+    
     // Ocultar botón subir de la biblioteca
     const btnSubirBiblio = document.getElementById('btn-subir-biblioteca');
     if (btnSubirBiblio) btnSubirBiblio.style.display = 'none';
@@ -72,7 +76,7 @@ export function mostrarArticulo(numeroArticulo) {
     if (indicadorBiblio) indicadorBiblio.remove();
     
     const articulosLista = leyActual.articulos || leyActual.articulosDestacados || [];
-const articuloInfo = articulosLista.find(art => art.numero === numeroArticulo);
+    const articuloInfo = articulosLista.find(art => art.numero === numeroArticulo);
 
     let textoArticulo = "";
     
@@ -156,7 +160,7 @@ const articuloInfo = articulosLista.find(art => art.numero === numeroArticulo);
     <button id="btn-subir" style="position:fixed; bottom:30px; right:30px; width:50px; height:50px; background:var(--azul); color:white; border:none; border-radius:50%; font-size:1.5rem; cursor:pointer; box-shadow:0 4px 12px rgba(0,0,0,0.3); display:none; z-index:1001;" onclick="var m = document.getElementById('modal-scroll'); if(m) m.scrollTo({top:0, behavior:'smooth'});">↑</button>
     `;
 
-    setTimeout(() => {
+       setTimeout(() => {
         const modalScroll = document.getElementById('modal-scroll');
         const btnSubir = document.getElementById('btn-subir');
         
@@ -171,10 +175,9 @@ const articuloInfo = articulosLista.find(art => art.numero === numeroArticulo);
         }
     }, 100);
     
-    // Asegurar que el botón subir de la ley esté oculto al abrir el popup
-    const btnSubirLeyOcultar = document.getElementById('btn-subir-ley');
-    if (btnSubirLeyOcultar) btnSubirLeyOcultar.style.display = 'none';
-
+    // Agregar clase al body para ocultar el botón subir
+    document.body.classList.add('modal-abierto');
+    
     document.body.appendChild(modalDiv);
 }
 
@@ -182,15 +185,8 @@ export function cerrarModal() {
     const modal = document.getElementById('modalArticulo');
     if (modal) modal.remove();
     
-    const btnSubirBiblio = document.getElementById('btn-subir-biblioteca');
-    if (btnSubirBiblio && window.scrollY > 300) {
-        btnSubirBiblio.style.display = 'block';
-    }
-
-    const btnSubirLey = document.getElementById('btn-subir-ley');
-    if (btnSubirLey && window.scrollY > 300) {
-        btnSubirLey.style.display = 'block';
-    }
+    // Eliminar clase del body para mostrar el botón subir
+    document.body.classList.remove('modal-abierto');
     
     document.body.style.overflow = '';
 }

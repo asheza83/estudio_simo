@@ -93,3 +93,8 @@
 .config-btn:hover {
   background-color: var(--azul-hover);
 }
+
+/* Ocultar botón subir cuando el popup está abierto */
+body.modal-abierto #btn-subir-biblioteca {
+    display: none !important;
+}
