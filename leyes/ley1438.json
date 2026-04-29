@@ -1,42 +1,12 @@
 {
   "id": "ley1438",
   "nombre": "Ley 1438 de 2011",
+  "totalArticulos": 78,
+  "relevantesEnfermeria": 12,
   "tituloCompleto": "Por medio de la cual se reforma el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones",
   "fecha": "19 de enero de 2011",
   "estado": "Vigente (con modificaciones)",
-  "resumen": "La Ley 1438 de 2011 reformó el SGSSS fortaleciendo la Atención Primaria en Salud (APS) como estrategia central. Creó las Redes Integradas de Servicios de Salud, fortaleció las ESE, estableció la evaluación por competencias del talento humano en salud, definió la participación social en salud y creó el Plan Decenal de Salud Pública.",
-  "indice": [
-    {
-      "libro": "Título I",
-      "nombre": "Disposiciones generales",
-      "articulos": [1, 2, 3, 4, 5, 6]
-    },
-    {
-      "libro": "Título II",
-      "nombre": "Funciones y competencias",
-      "articulos": [7, 8, 9]
-    },
-    {
-      "libro": "Título III",
-      "nombre": "Atención Primaria en Salud (APS)",
-      "articulos": [10, 11, 12, 13]
-    },
-    {
-      "libro": "Título IV",
-      "nombre": "Redes Integradas de Servicios de Salud",
-      "articulos": [60, 61, 62, 63, 64]
-    },
-    {
-      "libro": "Título V",
-      "nombre": "Talento Humano en Salud",
-      "articulos": [71, 72, 73, 74, 75]
-    },
-    {
-      "libro": "Título VI",
-      "nombre": "Participación Social en Salud",
-      "articulos": [132, 133, 134, 135, 136]
-    }
-  ],
+  "resumen": "...",
   "articulosDestacados": [
     {
       "numero": "Artículo 1",
@@ -88,6 +58,5 @@
       "descripcion": "Participación social en salud y control ciudadano",
       "texto": "Los usuarios del SGSSS tienen derecho a participar en la gestión y control del sistema a través de: Asociaciones de Usuarios, Veedurías Ciudadanas, y Comités de Participación Comunitaria (COPACO). Estos mecanismos permiten vigilar la calidad de los servicios y el cumplimiento de los derechos en salud."
     }
-  ],
-  "textoCompleto": "Ley 1438 de 2011 - Texto completo\n\n(El texto completo de la Ley 1438 de 2011 se puede consultar en el sitio web del Ministerio de Salud y Protección Social. Se incluye un resumen de los artículos más relevantes para el concurso de enfermería.)\n\n"
+  ]
 }

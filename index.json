@@ -7,7 +7,9 @@
       "tipo": "ley",
       "descripcion": "Crea el Sistema General de Seguridad Social en Salud (SGSSS)",
       "archivo": "leyes/ley100.json",
-      "enlace": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/ley-100-de-1993.pdf"
+      "enlace": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/ley-100-de-1993.pdf",
+      "totalArticulos": 280,
+      "relevantesEnfermeria": 32
     },
     {
       "id": "ley1438",
@@ -15,7 +17,9 @@
       "tipo": "ley",
       "descripcion": "Reforma el SGSSS con enfoque en Atención Primaria en Salud (APS)",
       "archivo": "leyes/ley1438.json",
-      "enlace": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/ley-1438-de-2011.pdf"
+      "enlace": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/ley-1438-de-2011.pdf",
+      "totalArticulos": 78,
+      "relevantesEnfermeria": 12
     }
   ],
   "_nota": "Para buscar enlaces de otras leyes en minsalud: buscar en Google 'minsalud.gov.co [nombre de la ley] filetype:pdf'. Ejemplo: 'minsalud.gov.co ley 1122 de 2007 filetype:pdf'"

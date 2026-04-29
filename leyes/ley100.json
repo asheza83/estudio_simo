@@ -1,6 +1,8 @@
 {
   "id": "ley100",
   "nombre": "Ley 100 de 1993",
+  "totalArticulos": 280,
+  "relevantesEnfermeria": 32,
   "tituloCompleto": "Por la cual se crea el sistema de seguridad social integral y se dictan otras disposiciones",
   "fecha": "23 de diciembre de 1993",
   "estado": "Vigente (con modificaciones)",
