@@ -188,6 +188,16 @@ export function cerrarModal() {
     // Eliminar clase del body para mostrar el botón subir
     document.body.classList.remove('modal-abierto');
     
+    // Forzar verificación del botón subir después de cerrar el popup
+    const btnSubir = document.getElementById('btn-subir-biblioteca');
+    if (btnSubir) {
+        if (window.scrollY > 300) {
+            btnSubir.style.display = 'block';
+        } else {
+            btnSubir.style.display = 'none';
+        }
+    }
+    
     document.body.style.overflow = '';
 }
 
