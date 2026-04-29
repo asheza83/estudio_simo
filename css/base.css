@@ -1,0 +1,121 @@
+/* ============================================
+   BASE - Variables, reset, body, contenedor
+   ============================================ */
+
+/* Clases para tamaño de letra */
+body.font-small { font-size: 14px; }
+body.font-normal { font-size: 16px; }
+body.font-large { font-size: 18px; }
+body.font-xlarge { font-size: 20px; }
+
+/* Ajustes específicos para que los elementos hereden correctamente */
+body.font-small .glosario-termino,
+body.font-small .glosario-definicion,
+body.font-small .pregunta-texto,
+body.font-small .opcion label,
+body.font-small .grupo-titulo,
+body.font-small .boton-ley,
+body.font-small .articulo-item,
+body.font-small .resumen-tabla td,
+body.font-small .resumen-tabla th,
+body.font-small .estadisticas p,
+body.font-small .feedback,
+body.font-small .letra-btn,
+body.font-small .config-section label,
+body.font-small .config-btn,
+body.font-small .modal-header h3 { font-size: inherit; }
+
+body.font-normal .glosario-termino,
+body.font-normal .glosario-definicion,
+body.font-normal .pregunta-texto,
+body.font-normal .opcion label,
+body.font-normal .grupo-titulo,
+body.font-normal .boton-ley,
+body.font-normal .articulo-item,
+body.font-normal .resumen-tabla td,
+body.font-normal .resumen-tabla th,
+body.font-normal .estadisticas p,
+body.font-normal .feedback,
+body.font-normal .letra-btn,
+body.font-normal .config-section label,
+body.font-normal .config-btn,
+body.font-normal .modal-header h3 { font-size: inherit; }
+
+body.font-large .glosario-termino,
+body.font-large .glosario-definicion,
+body.font-large .pregunta-texto,
+body.font-large .opcion label,
+body.font-large .grupo-titulo,
+body.font-large .boton-ley,
+body.font-large .articulo-item,
+body.font-large .resumen-tabla td,
+body.font-large .resumen-tabla th,
+body.font-large .estadisticas p,
+body.font-large .feedback,
+body.font-large .letra-btn,
+body.font-large .config-section label,
+body.font-large .config-btn,
+body.font-large .modal-header h3 { font-size: inherit; }
+
+body.font-xlarge .glosario-termino,
+body.font-xlarge .glosario-definicion,
+body.font-xlarge .pregunta-texto,
+body.font-xlarge .opcion label,
+body.font-xlarge .grupo-titulo,
+body.font-xlarge .boton-ley,
+body.font-xlarge .articulo-item,
+body.font-xlarge .resumen-tabla td,
+body.font-xlarge .resumen-tabla th,
+body.font-xlarge .estadisticas p,
+body.font-xlarge .feedback,
+body.font-xlarge .letra-btn,
+body.font-xlarge .config-section label,
+body.font-xlarge .config-btn,
+body.font-xlarge .modal-header h3 { font-size: inherit; }
+
+/* Variables globales - Modo claro (por defecto) */
+:root {
+  --bg-principal: #f8f9fa;
+  --bg-secundario: #ffffff;
+  --texto-principal: #212529;
+  --texto-secundario: #6c757d;
+  --borde: #dee2e6;
+  --azul: #0d6efd;
+  --azul-hover: #0b5ed7;
+  --exito: #198754;
+  --error: #dc3545;
+  --advertencia: #ffc107;
+  --sombra: rgba(0, 0, 0, 0.1);
+}
+
+/* Modo oscuro */
+body.dark-mode {
+  --bg-principal: #1a1a2e;
+  --bg-secundario: #16213e;
+  --texto-principal: #e0e0e0;
+  --texto-secundario: #b0b0b0;
+  --borde: #2a2a4a;
+  --sombra: rgba(0, 0, 0, 0.3);
+}
+
+/* Reset y base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-principal);
+  color: var(--texto-principal);
+  transition: background-color 0.3s, color 0.3s;
+  line-height: 1.5;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}

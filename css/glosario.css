@@ -1,0 +1,71 @@
+/* ============================================
+   GLOSARIO - Lista, términos, definiciones
+   ============================================ */
+
+/* Glosario */
+.glosario-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.glosario-item {
+  padding: 12px;
+  background-color: var(--bg-principal);
+  border-radius: 8px;
+  border-left: 4px solid var(--azul);
+}
+
+.glosario-termino {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: var(--azul);
+  margin-bottom: 5px;
+}
+
+.glosario-definicion {
+  color: var(--texto-secundario);
+  font-size: 0.9rem;
+}
+
+/* Estilos para el glosario mejorado */
+.letra-btn {
+  background-color: var(--bg-principal);
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s;
+  color: var(--texto-principal);
+}
+
+.letra-btn.active {
+  background-color: var(--azul);
+  color: white;
+  border-color: var(--azul);
+}
+
+.letra-btn:hover:not(.active) {
+  background-color: var(--borde);
+}
+
+#paginacionContainer button {
+  background-color: var(--azul);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+#paginacionContainer button:disabled {
+  background-color: var(--texto-secundario);
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+#paginacionContainer span {
+  color: var(--texto-principal);
+}

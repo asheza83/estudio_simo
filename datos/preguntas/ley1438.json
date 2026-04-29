@@ -1,0 +1,97 @@
+{
+  "version": "2.0",
+  "leyReferencia": "ley1438",
+  "totalPreguntas": 10,
+  "preguntas": [
+    {
+      "id": 21,
+      "texto": "¿Cuál es la estrategia central que establece la Ley 1438 de 2011 para el SGSSS?",
+      "respuestaCorrecta": "Atención Primaria en Salud (APS)",
+      "distractores": ["Redes Integradas de Servicios", "Gestión del riesgo en salud", "Participación social en salud"],
+      "tema": "APS",
+      "explicacion": "La Ley 1438 de 2011 establece la APS como estrategia central del SGSSS, siendo la puerta de entrada de la población a los servicios de salud.",
+      "leyReferencia": "ley1438"
+    },
+    {
+      "id": 22,
+      "texto": "¿Cómo se denominan los equipos interdisciplinarios que atienden a una población asignada según la Ley 1438 de 2011?",
+      "respuestaCorrecta": "Equipos Básicos de Salud (EBS)",
+      "distractores": ["Unidades de Atención Primaria", "Grupos de Salud Comunitaria", "Comités de Vigilancia Epidemiológica"],
+      "tema": "APS",
+      "explicacion": "Los EBS están conformados por médicos, enfermeros y auxiliares que realizan visitas domiciliarias e identifican riesgos de salud de la población a cargo.",
+      "leyReferencia": "ley1438"
+    },
+    {
+      "id": 23,
+      "texto": "Según la Ley 1438 de 2011, ¿cómo debe ingresar el personal de salud a las ESE?",
+      "respuestaCorrecta": "Por concurso de méritos con evaluación de competencias",
+      "distractores": ["Por designación del gerente de la ESE", "Por elección de la junta directiva", "Por antigüedad en el sector salud"],
+      "tema": "Carrera administrativa",
+      "explicacion": "La Ley 1438 establece que el ingreso a las ESE se rige por las normas de carrera administrativa, con concurso de méritos y evaluación de competencias.",
+      "leyReferencia": "ley1438"
+    },
+    {
+      "id": 24,
+      "texto": "¿Qué son las Redes Integradas de Servicios de Salud según la Ley 1438 de 2011?",
+      "respuestaCorrecta": "Conjunto de organizaciones que prestan servicios coordinados entre niveles de atención",
+      "distractores": ["Asociaciones de EPS e IPS privadas", "Grupos de atención exclusiva para régimen subsidiado", "Unidades móviles de atención rural"],
+      "tema": "Redes integradas",
+      "explicacion": "Las redes integradas articulan IPS de baja, mediana y alta complejidad para garantizar continuidad, referencia y contrarreferencia de pacientes.",
+      "leyReferencia": "ley1438"
+    },
+    {
+      "id": 25,
+      "texto": "¿Qué mecanismos de participación social en salud establece la Ley 1438 de 2011?",
+      "respuestaCorrecta": "Asociaciones de Usuarios, Veedurías y Comités de Participación Comunitaria",
+      "distractores": ["Sindicatos de trabajadores de la salud", "Consejos Municipales de Salud", "Juntas Directivas de las ESE"],
+      "tema": "Participación social",
+      "explicacion": "Los usuarios participan en la gestión y control del sistema a través de Asociaciones de Usuarios, Veedurías Ciudadanas y COPACO.",
+      "leyReferencia": "ley1438"
+    },
+    {
+      "id": 26,
+      "texto": "¿Qué rol cumple enfermería en la gestión del riesgo en salud según la Ley 1438 de 2011?",
+      "respuestaCorrecta": "Clasificación de pacientes, seguimiento de crónicos y coordinación de cuidados",
+      "distractores": ["Auditoría financiera de las EPS", "Formulación de políticas de salud pública", "Administración de recursos del SGSSS"],
+      "tema": "Rol de enfermería",
+      "explicacion": "Enfermería cumple un rol fundamental en la clasificación de pacientes, seguimiento de enfermedades crónicas y coordinación de cuidados en todos los niveles de atención.",
+      "leyReferencia": "ley1438"
+    },
+    {
+      "id": 27,
+      "texto": "¿Qué principio adicional introdujo la Ley 1438 de 2011 al SGSSS?",
+      "respuestaCorrecta": "Enfoque familiar y comunitario",
+      "distractores": ["Gratuidad universal", "Atención exclusiva hospitalaria", "Libre competencia entre EPS"],
+      "tema": "Principios",
+      "explicacion": "La Ley 1438 introdujo el enfoque familiar y comunitario, donde la atención se organiza por grupos familiares y comunidades, no solo por individuos.",
+      "leyReferencia": "ley1438"
+    },
+    {
+      "id": 28,
+      "texto": "Según la Ley 1438 de 2011, ¿qué deben garantizar las instituciones de salud a su talento humano?",
+      "respuestaCorrecta": "Formación continua y educación permanente",
+      "distractores": ["Auxilio de transporte y alimentación", "Vivienda fiscal para funcionarios", "Jornada laboral de 6 horas diarias"],
+      "tema": "Talento humano",
+      "explicacion": "Las instituciones deben garantizar programas de formación continua y educación permanente, con énfasis en APS, calidad y humanización del servicio.",
+      "leyReferencia": "ley1438"
+    },
+    {
+      "id": 29,
+      "texto": "¿Qué función tienen los Equipos Básicos de Salud (EBS) según la Ley 1438 de 2011?",
+      "respuestaCorrecta": "Identificar riesgos de salud, realizar visitas domiciliarias y coordinar la atención",
+      "distractores": ["Supervisar las finanzas de las EPS", "Autorizar traslados de pacientes a otras ciudades", "Elaborar el Plan Decenal de Salud Pública"],
+      "tema": "APS",
+      "explicacion": "Los EBS identifican riesgos de salud de la población a cargo, realizan visitas domiciliarias y coordinan la atención con las redes integradas de servicios.",
+      "leyReferencia": "ley1438"
+    },
+    {
+      "id": 30,
+      "texto": "¿Quién define la política de Atención Primaria en Salud (APS) según la Ley 1438?",
+      "respuestaCorrecta": "Ministerio de Salud y Protección Social",
+      "distractores": ["Las EPS de cada departamento", "La Superintendencia Nacional de Salud", "Los Equipos Básicos de Salud"],
+      "tema": "APS",
+      "explicacion": "El Ministerio de Salud y Protección Social es el encargado de definir la política de APS como estrategia de coordinación intersectorial.",
+      "leyReferencia": "ley1438"
+    }
+  ]
+}

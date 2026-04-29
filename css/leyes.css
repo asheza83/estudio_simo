@@ -1,0 +1,129 @@
+/* ============================================
+   LEYES - Vista de ley, buscador, artículos
+   ============================================ */
+
+/* Vista de ley */
+.boton-volver {
+  background-color: #0d6efd;
+  border: 1px solid var(--borde);
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: white;
+}
+
+.boton-volver:hover {
+  background-color: var(--borde);
+}
+
+.buscador {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  background-color: var(--bg-principal);
+  color: var(--texto-principal);
+  font-size: 1rem;
+}
+
+.articulo-item {
+  padding: 12px;
+  margin: 8px 0;
+  background-color: var(--bg-principal);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.articulo-item:hover {
+  background-color: var(--azul);
+  color: white;
+}
+
+.texto-completo {
+  white-space: pre-wrap;
+  line-height: 1.6;
+  background-color: var(--bg-principal);
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: 0.95rem;
+}
+
+/* Buscador con fondo azul */
+.buscador-container {
+    background: var(--azul);
+    padding: 16px;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.buscador-container label {
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.buscador-container .buscador {
+    border: none;
+    background: white;
+    color: #212529;
+}
+
+/* Animación de apertura del popup */
+#modalArticulo {
+    animation: fadeIn 0.2s ease;
+}
+
+/* Contenido del popup */
+#modalArticulo > div:first-child {
+    animation: slideUp 0.25s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.articulo-item,
+.boton-ley,
+.boton-volver,
+.tab-button {
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.articulo-item:active {
+    outline: none;
+    background-color: var(--bg-principal);
+    -webkit-tap-highlight-color: transparent;
+}
+
+#resultadosBusqueda {
+    padding: 4px;
+    margin-top: 8px;
+}
+
+.articulo-numero {
+    color: var(--azul);
+}
+
+.articulo-fragmento {
+    font-size: 0.85rem;
+    color: var(--texto-secundario);
+    margin-top: 4px;
+}
+
+.articulo-item:hover .articulo-numero,
+.articulo-item:hover .articulo-fragmento {
+    color: white;
+}

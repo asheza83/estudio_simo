@@ -1,0 +1,150 @@
+/* ============================================
+   RESPONSIVE - MÓVILES Y TABLETS
+   ============================================ */
+
+/* Tablets (pantallas entre 768px y 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  #logoText {
+    font-size: 1rem;
+  }
+  #logoIcon {
+    font-size: 1.3rem;
+  }
+  .dark-mode-toggle {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+}
+
+/* ============================================
+   MÓVILES (hasta 768px)
+   ============================================ */
+@media (max-width: 768px) {
+  #logoIcon {
+    display: inline-block;
+  }
+  #logoText {
+    display: inline-block;
+    font-size: 1.2rem;
+  }
+  .logo::after {
+    display: none;
+  }
+  .dark-mode-toggle {
+    font-size: 1rem;
+    padding: 6px 12px;
+  }
+  .dark-mode-toggle::before {
+    content: none;
+  }
+  
+  /* Pestañas siempre horizontales con scroll */
+  .tabs {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    position: sticky;
+    top: 70px;
+    z-index: 99;
+    border-radius: 0 0 12px 12px;
+    border: 1px solid var(--borde);
+    border-top: none;
+    background-color: var(--bg-secundario);
+  }
+  .tabs::-webkit-scrollbar {
+    display: none;
+  }
+  .tab-button {
+    flex-shrink: 0;
+    white-space: nowrap;
+    font-size: 0.9rem;
+    padding: 12px 14px;
+  }
+}
+
+/* Ajuste para portrait (el header es más alto) */
+@media (max-width: 768px) and (orientation: portrait) {
+  .tabs {
+    top: 115px;
+  }
+}
+
+/* Móviles muy pequeños (menos de 480px) */
+@media (max-width: 479px) {
+  #logoText {
+    font-size: 1.1rem;
+  }
+  .tab-button {
+    font-size: 0.8rem;
+    padding: 10px 12px;
+  }
+}
+
+@media (max-width: 900px) and (orientation: landscape) {
+  .filtro-select {
+    font-size: 0.9rem;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+  }
+  
+  .filtro-select option {
+    font-size: 0.85rem;
+    padding: 6px;
+  }
+}
+
+/* ============================================
+   GLOSARIO (estilos móviles)
+   ============================================ */
+@media (max-width: 768px) {
+  .letra-btn {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+  .glosario-termino {
+    font-size: 1rem;
+  }
+  .glosario-definicion {
+    font-size: 0.85rem;
+  }
+  #paginacionContainer button {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Contenedor de artículo seleccionado */
+#articuloSeleccionado {
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ============================================
+   TABLA DE RESULTADOS - SCROLL EN MÓVIL
+   ============================================ */
+@media (max-width: 768px) {
+  .resumen-tabla {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  
+  .resumen-tabla th,
+  .resumen-tabla td {
+    font-size: 0.85rem;
+    padding: 8px 10px;
+  }
+}

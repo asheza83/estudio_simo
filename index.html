@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <title>ESTUDIO SIMO | Enfermería</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header con logo y botón de ajustes -->
+        <div class="header">
+            <div class="logo" id="logoContainer">
+                <span id="logoIcon">🏥</span>
+                <span id="logoText">ESTUDIO SIMO | ENFERMERÍA</span>
+            </div>
+            <button id="configBtn" class="dark-mode-toggle">⚙️ Ajustes</button>
+        </div>
+
+        <!-- Pestañas de navegación -->
+        <div class="tabs" id="tabsContainer">
+            <button class="tab-button active" onclick="cambiarPestana('tab-biblioteca')">📚 Biblioteca</button>
+            <button class="tab-button" onclick="cambiarPestana('tab-preguntas')">📝 Preguntas</button>
+            <button class="tab-button" onclick="cambiarPestana('tab-glosario'); mostrarGlosario();">📖 Glosario</button>
+        </div>
+
+        <!-- Contenido de las pestañas -->
+        <div id="tab-biblioteca" class="tab-content active">
+            <div id="contenido-ley">
+                <div class="leyes-menu">
+                    <div class="grupo-leyes">
+                        <div class="grupo-titulo">📌 Cargando...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pestaña de Preguntas -->
+        <div id="tab-preguntas" class="tab-content">
+            <div id="preguntas-inicio">
+                <p style="text-align:center; margin-bottom:16px;">Selecciona la norma que quieres estudiar y presiona COMENZAR EXAMEN.</p>
+                <select id="filtro-ley-inicio" class="filtro-select">
+                    <option value="">📋 Selecciona las preguntas a realizar...</option>
+                </select>
+                <button id="btn-comenzar-examen" class="boton-reiniciar" onclick="iniciarExamenDesdeSelect()">🎲 COMENZAR EXAMEN</button>
+            </div>
+            <div id="preguntas-examen" style="display:none;">
+                <div id="progreso-preguntas" style="margin-bottom: 15px; font-weight: bold;"></div>
+                <div id="preguntas-container"></div>
+            </div>
+        </div>
+
+        <div id="tab-glosario" class="tab-content">
+            <div id="contenido-glosario">
+                <p>Cargando glosario...</p>
+            </div>
+        </div>
+
+        <!-- Modal de configuración -->
+        <div id="configModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>⚙️ Ajustes</h3>
+                    <button id="closeModalBtn" class="modal-close">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="config-section">
+                        <label>🌓 Modo oscuro</label>
+                        <button id="modalDarkModeToggle" class="config-btn">🌙 Activar</button>
+                    </div>
+                    <div class="config-section">
+                        <label>🔤 Tamaño de letra</label>
+                        <div style="display: flex; gap: 10px;">
+                            <button id="modalFontDecrease" class="config-btn">A-</button>
+                            <button id="modalFontIncrease" class="config-btn">A+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+    <script>
+        function cambiarPestana(pestanaId) {
+            if (pestanaId !== 'tab-preguntas' && typeof preguntarGuardarExamen === 'function') {
+                const hayExamen = preguntarGuardarExamen();
+                if (hayExamen) return;
+            }
+            
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            document.querySelectorAll('.tab-button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.getElementById(pestanaId).classList.add('active');
+            event.target.classList.add('active');
+            
+            if (pestanaId === 'tab-glosario') {
+                if (typeof mostrarGlosario === 'function') {
+                    mostrarGlosario();
+                }
+            }
+            
+            if (pestanaId === 'tab-preguntas' && typeof verificarExamenGuardado === 'function') {
+                verificarExamenGuardado();
+            }
+        }
+        
+        function volverAlMenu() {
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            document.querySelectorAll('.tab-button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.getElementById('tab-biblioteca').classList.add('active');
+            document.querySelector('.tab-button:first-child').classList.add('active');
+            
+            if (typeof mostrarPantallaPrincipal === 'function') {
+                mostrarPantallaPrincipal();
+            }
+        }
+        
+        function irAPrincipalDesdePreguntas() {
+            volverAlMenu();
+        }
+        
+        window.cambiarPestana = cambiarPestana;
+        window.volverAlMenu = volverAlMenu;
+        window.irAPrincipalDesdePreguntas = irAPrincipalDesdePreguntas;
+    </script>
+</body>
+</html>

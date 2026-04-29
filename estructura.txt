@@ -1,0 +1,4 @@
+html += `<button class="boton-volver" style="margin-top:20px;" id="btnTextoCompleto" onclick="toggleTextoCompleto()">📄 MÁS INFORMACIÓN</button>`;
+html += `<div id="textoCompleto" style="display:none;" class="texto-completo">${ley.textoCompleto.replace(/\n/g, '<br>')}`;
+html += `<p style="margin-top:12px; font-size:0.85rem;">📎 Texto oficial completo: <a href="https://www.minsalud.gov.co/salud/Paginas/Normatividad.aspx" target="_blank" style="color:var(--azul);">Ministerio de Salud y Protección Social</a></p>`;
+html += `</div>`;

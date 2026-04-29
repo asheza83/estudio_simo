@@ -1,0 +1,175 @@
+{
+  "id": "ley100",
+  "nombre": "Ley 100 de 1993",
+  "tituloCompleto": "Por la cual se crea el sistema de seguridad social integral y se dictan otras disposiciones",
+  "fecha": "23 de diciembre de 1993",
+  "estado": "Vigente (con modificaciones)",
+  "resumen": "La Ley 100 de 1993 creó el Sistema General de Seguridad Social Integral (SGSSI) en Colombia, que incluye tres sistemas principales: Pensiones, Salud y Riesgos Laborales. En materia de salud, creó el Sistema General de Seguridad Social en Salud (SGSSS) con dos regímenes: Contributivo (para quienes tienen capacidad de pago) y Subsidiado (para población pobre no asegurada). También creó las EPS (Entidades Promotoras de Salud) e IPS (Instituciones Prestadoras de Servicios de Salud).",
+  "articulos": [
+    {
+      "numero": "Artículo 1",
+      "descripcion": "Crea el Sistema de Seguridad Social Integral",
+      "texto": "Créase el Sistema de Seguridad Social Integral que incluye tres componentes: el Sistema General de Pensiones, el Sistema General de Seguridad Social en Salud (SGSSS) y el Sistema General de Riesgos Laborales. Este sistema es un servicio público obligatorio dirigido por el Estado con la participación de entidades públicas y privadas."
+    },
+    {
+      "numero": "Artículo 2",
+      "descripcion": "Principios del sistema de seguridad social",
+      "texto": "Define los principios fundamentales del sistema: eficiencia, universalidad, solidaridad, integralidad, unidad y participación. Estos orientan todo el funcionamiento de la seguridad social en Colombia."
+    },
+    {
+      "numero": "Artículo 3",
+      "descripcion": "Derecho a la seguridad social",
+      "texto": "Establece que el Estado garantiza a todos los habitantes el derecho a la seguridad social dentro de los términos previstos por la ley y bajo la dirección, coordinación y control estatal."
+    },
+    {
+      "numero": "Artículo 4",
+      "descripcion": "Servicio público de seguridad social",
+      "texto": "Indica que la seguridad social es un servicio público obligatorio, dirigido, coordinado y controlado por el Estado, pero que también puede ser prestado por entidades públicas y privadas."
+    },
+    {
+      "numero": "Artículo 5",
+      "descripcion": "Dirección del sistema",
+      "texto": "Señala que el Estado dirige, coordina y controla el sistema de seguridad social, garantizando que funcione de manera adecuada y que cumpla su finalidad social."
+    },
+    {
+      "numero": "Artículo 6",
+      "descripcion": "Objetivos del sistema",
+      "texto": "Presenta los principales objetivos del sistema, como proteger a las personas frente a riesgos que afecten su salud, ingresos o bienestar, y asegurar condiciones mínimas de protección social."
+    },
+    {
+      "numero": "Artículo 7",
+      "descripcion": "Ámbito de acción del sistema",
+      "texto": "Establece que el sistema cubre contingencias económicas, de salud y servicios sociales complementarios, según las condiciones definidas en la ley para cada componente."
+    },
+    {
+      "numero": "Artículo 8",
+      "descripcion": "Conformación del sistema",
+      "texto": "Explica que el sistema está integrado por entidades públicas y privadas, normas y procedimientos relacionados con salud, pensiones, riesgos laborales y servicios sociales complementarios."
+    },
+    {
+      "numero": "Artículo 9",
+      "descripcion": "Destinación de recursos",
+      "texto": "Prohíbe que los recursos de la seguridad social sean utilizados para fines diferentes a los propios del sistema, garantizando su protección y destinación exclusiva."
+    },
+    {
+      "numero": "Artículo 152",
+      "descripcion": "Definición y naturaleza del SGSSS",
+      "texto": "El SGSSS es el conjunto de instituciones, normas y procedimientos para garantizar el derecho a la salud de todos los habitantes del territorio nacional. Es administrado por el Ministerio de Salud y Protección Social, y opera a través de EPS e IPS bajo los principios de universalidad, solidaridad, integralidad, unidad, participación, equidad, calidad, eficiencia y sostenibilidad."
+    },
+    {
+      "numero": "Artículo 153",
+      "descripcion": "Principios del SGSSS",
+      "texto": "Los nueve principios del SGSSS son:<br><br><strong>1. Universalidad:</strong> Todos los habitantes deben estar afiliados al SGSSS.<br><strong>2. Solidaridad:</strong> Los afiliados con mayor capacidad de pago contribuyen a financiar a los de menor capacidad.<br><strong>3. Integralidad:</strong> El sistema garantiza atención en todas las fases de la enfermedad.<br><strong>4. Unidad:</strong> El sistema es único para todos los afiliados.<br><strong>5. Participación:</strong> La comunidad participa en la dirección del sistema.<br><strong>6. Equidad:</strong> No hay discriminación en el acceso a los servicios.<br><strong>7. Calidad:</strong> Los servicios deben ser oportunos y con estándares de calidad.<br><strong>8. Eficiencia:</strong> Los recursos se utilizan de manera óptima.<br><strong>9. Sostenibilidad:</strong> El sistema debe ser financieramente viable."
+    },
+    {
+      "numero": "Artículo 154",
+      "descripcion": "Definiciones clave del SGSSS",
+      "texto": "Define los conceptos básicos del sistema:<br><br><strong>EPS</strong> (Entidad Promotora de Salud): organiza y garantiza la prestación de servicios de salud.<br><strong>IPS</strong> (Institución Prestadora de Servicios de Salud): presta directamente los servicios de salud.<br><strong>UPC</strong> (Unidad de Pago por Capitación): valor anual reconocido por cada afiliado.<br><strong>PBS</strong> (Plan de Beneficios en Salud, antes POS): conjunto de servicios, tecnologías y medicamentos garantizados."
+    },
+    {
+      "numero": "Artículo 155",
+      "descripcion": "Ámbito de aplicación del SGSSS",
+      "texto": "El SGSSS aplica a todos los residentes en Colombia sin discriminación alguna. La afiliación es obligatoria para todos los habitantes del territorio nacional."
+    },
+    {
+      "numero": "Artículo 156",
+      "descripcion": "Derechos y deberes de los afiliados",
+      "texto": "<strong>Derechos de los afiliados:</strong><br>• Recibir atención integral, oportuna y de calidad.<br>• Elegir libremente su EPS e IPS dentro de la red disponible.<br>• Ser tratados con respeto y dignidad.<br>• Recibir información clara sobre sus derechos y deberes.<br><br><strong>Deberes de los afiliados:</strong><br>• Afiliarse con su núcleo familiar.<br>• Cuidar los recursos del sistema.<br>• Cumplir las normas y recomendaciones del sistema de salud."
+    },
+    {
+      "numero": "Artículo 157",
+      "descripcion": "Afiliación obligatoria al SGSSS",
+      "texto": "Todo residente en Colombia debe estar afiliado al SGSSS. Los trabajadores dependientes se afilian a través de su empleador. Los independientes lo hacen directamente. La población sin capacidad de pago se afilia al Régimen Subsidiado mediante el SISBÉN. Las EPS están obligadas a aceptar a todo solicitante."
+    },
+    {
+      "numero": "Artículo 158",
+      "descripcion": "Períodos mínimos de cotización",
+      "texto": "Para acceder a servicios de salud en el Régimen Contributivo se requieren períodos mínimos de cotización. En casos de urgencia, las EPS e IPS están obligadas a prestar atención sin exigir períodos previos. Los trabajadores independientes deben cotizar sobre el 40% de sus ingresos."
+    },
+    {
+      "numero": "Artículo 159",
+      "descripcion": "Cotizaciones al SGSSS",
+      "texto": "La cotización total al SGSSS es del 12.5% sobre el Ingreso Base de Cotización (IBC). El empleador aporta el 8.5% y el trabajador el 4%. Para trabajadores independientes con ingresos superiores a un salario mínimo, la cotización se calcula sobre el 40% de sus ingresos."
+    },
+    {
+      "numero": "Artículo 160",
+      "descripcion": "Ingreso Base de Cotización (IBC)",
+      "texto": "El IBC para salud es el mismo utilizado para el Sistema General de Pensiones. Para trabajadores dependientes corresponde al salario mensual. Para independientes es el 40% de sus ingresos. La base mínima es un salario mínimo legal mensual vigente (SMLMV)."
+    },
+    {
+      "numero": "Artículo 162",
+      "descripcion": "Plan de Beneficios en Salud (PBS)",
+      "texto": "El Plan de Beneficios en Salud (PBS) es el conjunto de servicios, tecnologías y medicamentos que el sistema garantiza a todos los afiliados. Incluye consultas médicas, exámenes, hospitalización, cirugías, medicamentos y atención de urgencias. Es igual para todos los afiliados sin importar su régimen."
+    },
+    {
+      "numero": "Artículo 171",
+      "descripcion": "Ministerio de Salud como entidad rectora",
+      "texto": "El Ministerio de Salud y Protección Social es la entidad rectora del sector salud. Sus funciones incluyen:<br><br>• Formular políticas de salud.<br>• Expedir normas y regular el SGSSS.<br>• Supervisar EPS e IPS.<br>• Definir el Plan de Beneficios en Salud (PBS).<br>• Coordinar con entidades territoriales la prestación de servicios."
+    },
+    {
+      "numero": "Artículo 180",
+      "descripcion": "Definición y requisitos de las EPS",
+      "texto": "Las EPS son entidades públicas, privadas o mixtas autorizadas por la Superintendencia Nacional de Salud. Deben cumplir los siguientes requisitos:<br><br>• Tener personería jurídica reconocida por el Estado.<br>• Afiliar y registrar la población al SGSSS.<br>• Recaudar las cotizaciones de sus afiliados.<br>• Coordinar y controlar los servicios de salud con las IPS.<br>• Mantener una red de prestadores habilitada.<br>• Acreditar capacidad técnica, científica y financiera.<br>• Garantizar un número mínimo de afiliados para operación viable."
+    },
+    {
+      "numero": "Artículo 182",
+      "descripcion": "Definición de IPS",
+      "texto": "Las IPS son hospitales, clínicas, centros de salud y demás establecimientos que prestan directamente servicios de salud a los afiliados. Pueden ser públicas, privadas o mixtas. Las Empresas Sociales del Estado (ESE) son IPS públicas. Deben cumplir los requisitos de habilitación definidos por el Ministerio de Salud."
+    },
+    {
+      "numero": "Artículo 190",
+      "descripcion": "Creación de las ESE",
+      "texto": "Las Empresas Sociales del Estado (ESE) son entidades descentralizadas del orden nacional, departamental o municipal, con personería jurídica, patrimonio propio y autonomía administrativa. Fueron creadas para prestar servicios de salud de manera directa como IPS públicas dentro del SGSSS."
+    },
+    {
+      "numero": "Artículo 191",
+      "descripcion": "Naturaleza jurídica de las ESE",
+      "texto": "Las ESE son establecimientos públicos del sector salud, organizados como entidades descentralizadas con régimen legal propio. Se rigen por el derecho público en su organización y funcionamiento. Su objetivo es prestar servicios de salud con calidad y eficiencia como parte del SGSSS."
+    },
+    {
+      "numero": "Artículo 192",
+      "descripcion": "Dirección y administración de las ESE",
+      "texto": "La dirección de las ESE está a cargo de Juntas Directivas y Gerentes. Los gerentes son designados por el Jefe de la entidad territorial respectiva (Gobernador o Alcalde). Su selección debe basarse en criterios de mérito, capacidad y experiencia en administración de servicios de salud, conforme a las normas de carrera administrativa."
+    },
+    {
+      "numero": "Artículo 193",
+      "descripcion": "Régimen laboral en ESE",
+      "texto": "Los trabajadores de la salud vinculados a las ESE tienen un régimen laboral especial:<br><br><strong>Empleados públicos:</strong> Quienes ocupan cargos directivos o de confianza.<br><strong>Trabajadores oficiales:</strong> Los demás cargos asistenciales y administrativos.<br><br>Los concursos de méritos para acceder a cargos de carrera administrativa en ESE se rigen por los principios de igualdad, mérito y oportunidad, y son administrados por la CNSC a través de la plataforma SIMO."
+    },
+    {
+      "numero": "Artículo 194",
+      "descripcion": "Patrimonio y recursos de las ESE",
+      "texto": "El patrimonio de las ESE está conformado por:<br><br>• Recursos del presupuesto nacional, departamental o municipal.<br>• Rentas propias por venta de servicios de salud.<br>• Aportes de cooperación internacional.<br>• Donaciones y otros ingresos autorizados por ley.<br><br>Las ESE deben garantizar su sostenibilidad financiera y reinvertir los excedentes en mejorar la calidad del servicio."
+    },
+    {
+      "numero": "Artículo 202",
+      "descripcion": "Régimen Contributivo",
+      "texto": "El Régimen Contributivo es para trabajadores dependientes e independientes con capacidad de pago. La cotización total es del 12.5% del IBC (8.5% empleador + 4% trabajador). Cubre al trabajador y su núcleo familiar (cónyuge e hijos hasta 25 años si estudian)."
+    },
+    {
+      "numero": "Artículo 204",
+      "descripcion": "Distribución de la cotización",
+      "texto": "La cotización al Régimen Contributivo se distribuye así:<br><br>• El empleador aporta el 8.5% del IBC.<br>• El trabajador aporta el 4% del IBC.<br>• Total: 12.5% del IBC.<br><br>Los pensionados cotizan el 12% sobre su mesada pensional. Los trabajadores independientes asumen la totalidad del 12.5% sobre el 40% de sus ingresos."
+    },
+    {
+      "numero": "Artículo 211",
+      "descripcion": "Régimen Subsidiado",
+      "texto": "El Régimen Subsidiado es para la población pobre no asegurada y sin capacidad de pago, identificada mediante el SISBÉN. Es financiado por el Estado con recursos del presupuesto nacional, transferencias de los municipios, cotizaciones solidarias del Régimen Contributivo (1.5%) y otras fuentes. Garantiza el acceso al PBS."
+    },
+    {
+      "numero": "Artículo 214",
+      "descripcion": "Unidad de Pago por Capitación (UPC)",
+      "texto": "La UPC es el valor anual que el sistema reconoce a las EPS por cada afiliado para cubrir las prestaciones del PBS. Su valor se fija considerando edad, sexo y ubicación geográfica. En el Régimen Subsidiado, la UPC-S es parcialmente subsidiada por el Estado. La ADRES gira la UPC a las EPS."
+    },
+    {
+      "numero": "Artículo 218",
+      "descripcion": "ADRES (antes FOSYGA)",
+      "texto": "La ADRES (Administradora de los Recursos del SGSSS), antes FOSYGA, es la entidad encargada de recaudar, administrar, girar y controlar los recursos del sistema de salud. Maneja las cotizaciones de empleadores y trabajadores, y transfiere los recursos a las EPS según la UPC de cada afiliado."
+    },
+    {
+      "numero": "Artículo 230",
+      "descripcion": "Superintendencia Nacional de Salud",
+      "texto": "La Superintendencia Nacional de Salud es la entidad encargada de la inspección, vigilancia y control del SGSSS. Supervisa a las EPS, IPS, ESE y demás entidades del sector. Puede imponer sanciones, intervenir entidades y garantizar los derechos de los afiliados al sistema de salud."
+    }
+  ]
+}

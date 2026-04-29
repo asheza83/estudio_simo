@@ -1,0 +1,57 @@
+/* ============================================
+   BIBLIOTECA - Menú de leyes
+   ============================================ */
+
+/* Menú de leyes */
+.leyes-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.grupo-leyes {
+  margin-bottom: 20px;
+}
+
+.grupo-titulo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--azul);
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--borde);
+}
+
+.boton-ley {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 14px 16px;
+  margin-bottom: 8px;
+  background-color: var(--bg-principal);
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: var(--texto-principal);
+  transition: all 0.2s;
+}
+
+.boton-ley:hover {
+  background-color: var(--azul);
+  color: white;
+  transform: translateX(5px);
+}
+
+.boton-preguntas {
+  background-color: var(--azul);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.boton-preguntas:hover {
+  background-color: var(--azul-hover);
+  transform: none;
+}

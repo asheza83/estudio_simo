@@ -1,0 +1,769 @@
+/* ============================================
+   ESTUDIO SIMO - ENFERMERÍA
+   Estilos principales + Modo oscuro + Responsive
+   ============================================ */
+
+/* Clases para tamaño de letra - FUERA del :root */
+body.font-small { font-size: 14px; }
+body.font-normal { font-size: 16px; }
+body.font-large { font-size: 18px; }
+body.font-xlarge { font-size: 20px; }
+
+/* Ajustes específicos para que los elementos hereden correctamente */
+body.font-small .glosario-termino,
+body.font-small .glosario-definicion,
+body.font-small .pregunta-texto,
+body.font-small .opcion label,
+body.font-small .grupo-titulo,
+body.font-small .boton-ley,
+body.font-small .articulo-item,
+body.font-small .resumen-tabla td,
+body.font-small .resumen-tabla th,
+body.font-small .estadisticas p,
+body.font-small .feedback,
+body.font-small .letra-btn,
+body.font-small .config-section label,
+body.font-small .config-btn,
+body.font-small .modal-header h3 { font-size: inherit; }
+
+body.font-normal .glosario-termino,
+body.font-normal .glosario-definicion,
+body.font-normal .pregunta-texto,
+body.font-normal .opcion label,
+body.font-normal .grupo-titulo,
+body.font-normal .boton-ley,
+body.font-normal .articulo-item,
+body.font-normal .resumen-tabla td,
+body.font-normal .resumen-tabla th,
+body.font-normal .estadisticas p,
+body.font-normal .feedback,
+body.font-normal .letra-btn,
+body.font-normal .config-section label,
+body.font-normal .config-btn,
+body.font-normal .modal-header h3 { font-size: inherit; }
+
+body.font-large .glosario-termino,
+body.font-large .glosario-definicion,
+body.font-large .pregunta-texto,
+body.font-large .opcion label,
+body.font-large .grupo-titulo,
+body.font-large .boton-ley,
+body.font-large .articulo-item,
+body.font-large .resumen-tabla td,
+body.font-large .resumen-tabla th,
+body.font-large .estadisticas p,
+body.font-large .feedback,
+body.font-large .letra-btn,
+body.font-large .config-section label,
+body.font-large .config-btn,
+body.font-large .modal-header h3 { font-size: inherit; }
+
+body.font-xlarge .glosario-termino,
+body.font-xlarge .glosario-definicion,
+body.font-xlarge .pregunta-texto,
+body.font-xlarge .opcion label,
+body.font-xlarge .grupo-titulo,
+body.font-xlarge .boton-ley,
+body.font-xlarge .articulo-item,
+body.font-xlarge .resumen-tabla td,
+body.font-xlarge .resumen-tabla th,
+body.font-xlarge .estadisticas p,
+body.font-xlarge .feedback,
+body.font-xlarge .letra-btn,
+body.font-xlarge .config-section label,
+body.font-xlarge .config-btn,
+body.font-xlarge .modal-header h3 { font-size: inherit; }
+
+/* Variables globales - Modo claro (por defecto) */
+:root {
+  --bg-principal: #f8f9fa;
+  --bg-secundario: #ffffff;
+  --texto-principal: #212529;
+  --texto-secundario: #6c757d;
+  --borde: #dee2e6;
+  --azul: #0d6efd;
+  --azul-hover: #0b5ed7;
+  --exito: #198754;
+  --error: #dc3545;
+  --advertencia: #ffc107;
+  --sombra: rgba(0, 0, 0, 0.1);
+}
+
+/* Modo oscuro */
+body.dark-mode {
+  --bg-principal: #1a1a2e;
+  --bg-secundario: #16213e;
+  --texto-principal: #e0e0e0;
+  --texto-secundario: #b0b0b0;
+  --borde: #2a2a4a;
+  --sombra: rgba(0, 0, 0, 0.3);
+}
+
+/* Reset y base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-principal);
+  color: var(--texto-principal);
+  transition: background-color 0.3s, color 0.3s;
+  line-height: 1.5;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* Header */
+.header {
+  background-color: var(--azul);
+  color: white;
+  padding: 16px;
+  border-radius: 12px 12px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Sombra sutil al hacer scroll para el header pegajoso */
+.header.sticky-shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo span {
+  font-size: 1.8rem;
+}
+
+/* Botón de ajustes */
+.dark-mode-toggle {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 50px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+  color: white !important;
+}
+
+.dark-mode-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Pestañas */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--bg-secundario);
+  border-radius: 0 0 12px 12px;
+  overflow: hidden;
+  border: 1px solid var(--borde);
+  border-top: none;
+  position: sticky;
+  top: 70px;
+  z-index: 99;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 14px 12px;
+  background-color: var(--bg-secundario);
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--texto-secundario);
+  transition: all 0.3s;
+  border-bottom: 3px solid transparent;
+}
+
+.tab-button:hover {
+  background-color: var(--bg-principal);
+  color: var(--azul);
+}
+
+.tab-button.active {
+  color: var(--azul);
+  border-bottom-color: var(--azul);
+}
+
+/* Contenido de pestañas */
+.tab-content {
+  display: none;
+  padding: 20px;
+  background-color: var(--bg-secundario);
+  border: 1px solid var(--borde);
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Menú de leyes (Biblioteca) */
+.leyes-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.grupo-leyes {
+  margin-bottom: 20px;
+}
+
+.grupo-titulo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--azul);
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--borde);
+}
+
+.boton-ley {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 14px 16px;
+  margin-bottom: 8px;
+  background-color: var(--bg-principal);
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  color: var(--texto-principal);
+  transition: all 0.2s;
+}
+
+.boton-ley:hover {
+  background-color: var(--azul);
+  color: white;
+  transform: translateX(5px);
+}
+
+.boton-preguntas {
+  background-color: var(--azul);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.boton-preguntas:hover {
+  background-color: var(--azul-hover);
+  transform: none;
+}
+
+/* Vista de ley */
+.boton-volver {
+  background-color: var(--bg-principal);
+  border: 1px solid var(--borde);
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: var(--texto-principal);
+}
+
+.boton-volver:hover {
+  background-color: var(--borde);
+}
+
+.buscador {
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  background-color: var(--bg-principal);
+  color: var(--texto-principal);
+  font-size: 1rem;
+}
+
+.articulo-item {
+  padding: 12px;
+  margin: 8px 0;
+  background-color: var(--bg-principal);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.articulo-item:hover {
+  background-color: var(--azul);
+  color: white;
+}
+
+.texto-completo {
+  white-space: pre-wrap;
+  line-height: 1.6;
+  background-color: var(--bg-principal);
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: 0.95rem;
+}
+
+/* Sección de preguntas */
+.pregunta-card {
+  background-color: var(--bg-principal);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.pregunta-texto {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.opcion {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background-color: var(--bg-secundario);
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.opcion:hover {
+  background-color: var(--borde);
+}
+
+.opcion input {
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.opcion label {
+  flex: 1;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.feedback {
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.feedback-exito {
+  background-color: rgba(25, 135, 84, 0.2);
+  border: 1px solid var(--exito);
+  color: var(--exito);
+}
+
+.feedback-error {
+  background-color: rgba(220, 53, 69, 0.2);
+  border: 1px solid var(--error);
+  color: var(--error);
+}
+
+.boton-siguiente {
+  background-color: var(--azul);
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.boton-siguiente:hover {
+  background-color: var(--azul-hover);
+}
+
+.boton-siguiente:disabled {
+  background-color: var(--texto-secundario);
+  cursor: not-allowed;
+}
+
+/* Resumen final */
+.resumen-tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.resumen-tabla th,
+.resumen-tabla td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--borde);
+}
+
+.resumen-tabla th {
+  background-color: var(--azul);
+  color: white;
+}
+
+.intento-1 {
+  color: var(--exito);
+  font-weight: bold;
+}
+
+.intento-multiple {
+  color: var(--advertencia);
+  font-weight: bold;
+}
+
+.aprendizaje-icono {
+  font-size: 1.2rem;
+}
+
+.estadisticas {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: var(--bg-principal);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.boton-reiniciar {
+  background-color: var(--azul);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+/* Glosario */
+.glosario-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.glosario-item {
+  padding: 12px;
+  background-color: var(--bg-principal);
+  border-radius: 8px;
+  border-left: 4px solid var(--azul);
+}
+
+.glosario-termino {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: var(--azul);
+  margin-bottom: 5px;
+}
+
+.glosario-definicion {
+  color: var(--texto-secundario);
+  font-size: 0.9rem;
+}
+
+/* Modal de configuración */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: var(--bg-secundario);
+  border-radius: 16px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 20px var(--sombra);
+  animation: modalFadeIn 0.3s ease;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--borde);
+}
+
+.modal-header h3 {
+  margin: 0;
+  color: var(--texto-principal);
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--texto-secundario);
+  transition: color 0.2s;
+}
+
+.modal-close:hover {
+  color: var(--error);
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.config-section {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.config-section label {
+  font-weight: bold;
+  color: var(--texto-principal);
+}
+
+.config-btn {
+  background-color: var(--azul);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.config-btn:hover {
+  background-color: var(--azul-hover);
+}
+
+/* ============================================
+   RESPONSIVE - MÓVILES
+   ============================================ */
+
+/* Tablets (pantallas entre 768px y 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  #logoText {
+    font-size: 1rem;
+  }
+  #logoIcon {
+    font-size: 1.3rem;
+  }
+  .dark-mode-toggle {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+}
+
+/* ============================================
+   MÓVILES HORIZONTALES (LANDSCAPE) - MÁS ESPACIO, MOSTRAR COMPLETO
+   ============================================ */
+@media (max-width: 900px) and (orientation: landscape) {
+  #logoIcon {
+    display: inline-block;
+  }
+  #logoText {
+    display: inline-block;
+    font-size: 0.8rem;
+  }
+  .dark-mode-toggle {
+    font-size: 0.7rem;
+    padding: 5px 8px;
+  }
+  .dark-mode-toggle::before {
+    content: none;
+  }
+}
+
+/* ============================================
+   MÓVILES VERTICALES (RETRATO) - POCO ESPACIO, OPTIMIZAR
+   ============================================ */
+@media (max-width: 768px) and (orientation: portrait) {
+  #logoIcon {
+    display: none;
+  }
+  #logoText {
+    display: inline-block;
+    font-size: 0.65rem;
+  }
+  .dark-mode-toggle {
+    font-size: 0;
+    padding: 5px 8px;
+  }
+  .dark-mode-toggle::before {
+    content: "⚙️";
+    font-size: 1rem;
+  }
+}
+
+/* ============================================
+   MENÚ HAMBURGUESA (VERSIÓN QUE FUNCIONA)
+   ============================================ */
+.menu-toggle {
+    display: none;
+    background-color: var(--azul);
+    color: white;
+    border: none;
+    font-size: 1.8rem;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border-radius: 0;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+        position: sticky;
+        top: 70px;
+        z-index: 99;
+    }
+    
+    .tabs {
+        display: none;
+        flex-direction: column;
+        position: sticky;
+        top: 120px;
+        z-index: 98;
+        background-color: var(--bg-secundario);
+        width: 100%;
+        border-radius: 0 0 12px 12px;
+        box-shadow: 0 4px 10px var(--sombra);
+    }
+    
+    .tabs.open {
+        display: flex;
+    }
+    
+    .tab-button {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        border-bottom: 1px solid var(--borde);
+    }
+    
+    .tab-button::before {
+        display: none;
+    }
+}
+
+/* Móviles muy pequeños (menos de 480px) */
+@media (max-width: 479px) and (orientation: portrait) {
+  #logoText {
+    font-size: 0.55rem;
+  }
+  .tab-button {
+    padding: 8px;
+    font-size: 0.65rem;
+  }
+}
+
+/* Estilos para el glosario mejorado */
+.letra-btn {
+    background-color: var(--bg-principal);
+    border: 1px solid var(--borde);
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s;
+    color: var(--texto-principal);
+}
+
+.letra-btn.active {
+    background-color: var(--azul);
+    color: white;
+    border-color: var(--azul);
+}
+
+.letra-btn:hover:not(.active) {
+    background-color: var(--borde);
+}
+
+#paginacionContainer button {
+    background-color: var(--azul);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+#paginacionContainer button:disabled {
+    background-color: var(--texto-secundario);
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+#paginacionContainer span {
+    color: var(--texto-principal);
+}
+
+/* Contenedor de artículo seleccionado */
+#articuloSeleccionado {
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
