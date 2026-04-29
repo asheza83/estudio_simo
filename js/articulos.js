@@ -71,8 +71,9 @@ export function mostrarArticulo(numeroArticulo) {
     const indicadorBiblio = document.getElementById('indicador-scroll-biblio');
     if (indicadorBiblio) indicadorBiblio.remove();
     
-    const articuloInfo = leyActual.articulosDestacados?.find(art => art.numero === numeroArticulo);
-    
+    const articulosLista = leyActual.articulos || leyActual.articulosDestacados || [];
+const articuloInfo = articulosLista.find(art => art.numero === numeroArticulo);
+
     let textoArticulo = "";
     
     if (articuloInfo && articuloInfo.texto) {
