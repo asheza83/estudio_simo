@@ -20,9 +20,9 @@ export async function mostrarGlosario() {
         const container = document.getElementById('contenido-glosario');
         
         let html = `
-            <div style="margin-bottom: 20px;">
-                🔍 Buscar (Por término, o por palabra - De ENTER para buscar)
-                <input type="text" id="buscadorGlosario" class="buscador" placeholder="Escriba el término (mínimo 3 letras)" style="width: 100%; padding: 12px;">
+            <div style="background: var(--azul); padding: 16px; border-radius: 12px; margin-bottom: 20px;">
+                <label for="buscadorGlosario" style="color: white; font-weight: bold; font-size: 1rem; display: block; margin-bottom: 8px;">🔍 Buscar término (presiona Enter para buscar)</label>
+                <input type="text" id="buscadorGlosario" class="buscador" placeholder="Escriba el término (mínimo 3 letras)" style="width: 100%; padding: 12px; border: none; border-radius: 8px; font-size: 1rem; background: white; color: #212529;">
             </div>`;
 
             html += `
@@ -254,6 +254,15 @@ export function cambiarPagina(direccion) {
     if (nuevaPagina >= 1 && nuevaPagina <= totalPaginas) {
         setPaginaActual(nuevaPagina);
         actualizarListaGlosario();
+        
+        // Scroll suave al inicio del glosario (igual que en ejecutarBusqueda y aplicarFiltros)
+        setTimeout(() => {
+            const glosarioLista = document.getElementById('glosarioLista');
+            if (glosarioLista) {
+                const top = glosarioLista.getBoundingClientRect().top + window.scrollY - 270;
+                window.scrollTo({ top: top, behavior: 'smooth' });
+            }
+        }, 200);
     }
 }
 
