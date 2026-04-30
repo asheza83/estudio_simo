@@ -49,12 +49,6 @@ export function mostrarVistaLey() {
         html += `<div style="margin-top:20px; white-space:pre-wrap; line-height:1.6;">${ley.textoCompleto.replace(/\n/g, '<br>')}</div>`;
     }
 
-    // Enlace al texto oficial
-    const leyInfo = leyesDisponibles.find(l => l.id === ley.id);
-    if (leyInfo && leyInfo.enlace) {
-        html += `<p style="margin-top:12px; font-size:1.3rem;">📎 Texto oficial completo: <a href="${leyInfo.enlace}" target="_blank" style="color:var(--azul);">Consultar en línea</a></p>`;
-    }
-
     // Botón Subir
     html += `
     <button id="btn-subir-ley" style="position:fixed; bottom:30px; right:30px; width:50px; height:50px; background:var(--azul); color:white; border:none; border-radius:50%; font-size:1.5rem; cursor:pointer; box-shadow:0 4px 12px rgba(0,0,0,0.3); display:none; z-index:1001;" onclick="window.scrollTo({top:0, behavior:'smooth'})">↑</button>
