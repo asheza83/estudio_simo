@@ -148,3 +148,38 @@
     padding: 8px 10px;
   }
 }
+
+/* ============================================
+   COMPENSACIÓN PARA CONTENIDO DEBAJO DE TABS STICKY
+   ============================================ */
+
+/* Contenedores principales de las pestañas */
+#estudio-container,
+#tests-container,
+#glosario-container,
+.pestana-contenido {
+    padding-top: 25px;
+    scroll-margin-top: 100px;
+}
+
+/* En móviles, el tabs ocupa más espacio */
+@media (max-width: 768px) {
+    #estudio-container,
+    #tests-container,
+    #glosario-container,
+    .pestana-contenido {
+        padding-top: 80px;
+        scroll-margin-top: 140px;
+    }
+}
+
+/* En portrait (header más alto), más padding aún */
+@media (max-width: 768px) and (orientation: portrait) {
+    #estudio-container,
+    #tests-container,
+    #glosario-container,
+    .pestana-contenido {
+        padding-top: 100px;
+        scroll-margin-top: 160px;
+    }
+}
