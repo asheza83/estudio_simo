@@ -11,7 +11,7 @@ import { mostrarGlosario, filtrarPorLetra, cambiarPagina } from './glosario.js';
 import { cargarLey } from './leyes.js';
 import { mostrarArticulo, buscarArticuloPorNumero, buscarArticulo, cerrarModal, filtrarArticulos } from './articulos.js';
 import { mostrarError } from './utils.js';
-import { inicializarPreguntas, seleccionarOpcion, siguientePregunta, verificarRespuesta, mostrarInicioPreguntas, preguntarGuardarExamen, verificarExamenGuardado, guardarExamen, descartarExamen, comenzarNuevoExamen, continuarExamen, iniciarExamenDesdeSelect } from './preguntas.js';
+import { inicializarPreguntas, seleccionarOpcion, siguientePregunta, mostrarInicioPreguntas, preguntarGuardarExamen, verificarExamenGuardado, guardarExamen, descartarExamen, comenzarNuevoExamen, continuarExamen, iniciarExamenDesdeSelect } from './preguntas.js';
 // ============================================
 // EXPONER FUNCIONES GLOBALMENTE
 // ============================================
@@ -31,7 +31,6 @@ window.irAPrincipalDesdePreguntas = irAPrincipalDesdePreguntas;
 window.seleccionarOpcion = seleccionarOpcion;
 window.filtrarArticulos = filtrarArticulos;  // ← Agrega esta línea
 window.siguientePregunta = siguientePregunta;
-window.verificarRespuesta = verificarRespuesta;
 
 window.mostrarInicioPreguntas = mostrarInicioPreguntas;
 window.preguntarGuardarExamen = preguntarGuardarExamen;

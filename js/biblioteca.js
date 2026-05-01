@@ -43,8 +43,8 @@ export function mostrarPantallaPrincipal() {
             grupo.leyes.forEach(ley => {
             html += `<button class="boton-ley" onclick="cargarLey('${ley.id}')">
                 📄 ${ley.nombre}
-                <span style="display: block; font-size: 1rem; font-weight: normal; margin-top: 5px;">
-                    📊 Total: ${ley.totalArticulos || '?'} artículos <br/>🩺 Relevantes: ${ley.relevantesEnfermeria || '?'}
+                <span style="display: block; font-size: 1.2rem; font-weight: normal; margin-top: 5px;">
+                    📊 Total: ${ley.totalArticulos || '?'} artículos <br/>🩺 Relevantes para enfermería: ${ley.relevantesEnfermeria || '?'}
                 </span>
             </button>`;
             });

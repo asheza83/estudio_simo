@@ -1,6 +1,6 @@
 // ============================================
 // MÓDULO: preguntas.js
-// Sistema completo de preguntas (v5 - flujo guardar/continuar)
+// Sistema completo de preguntas (v6 - CORREGIDO)
 // ============================================
 
 import { 
@@ -33,7 +33,11 @@ export function mostrarInicioPreguntas() {
             select.innerHTML += `<option value="${ley.id}">${ley.nombre}</option>`;
         });
         
-        select.addEventListener('change', function() {
+        // Remover event listeners previos para evitar duplicados
+        const newSelect = select.cloneNode(true);
+        select.parentNode.replaceChild(newSelect, select);
+        
+        newSelect.addEventListener('change', function() {
             const btn = document.getElementById('btn-comenzar-examen');
             filtroLeyActual = this.value;
             if (btn) {
@@ -76,8 +80,8 @@ function mostrarModalContinuar() {
             <p style="margin: 12px 0;"><strong>${nombreLey}</strong></p>
             <p style="margin: 8px 0;">Pregunta ${examenGuardado.preguntaIndex + 1} de ${examenGuardado.totalPreguntas}</p>
             <hr style="border: 1px solid var(--borde); margin: 16px 0;">
-            <button class="boton-reiniciar" onclick="continuarExamen()" style="margin-bottom: 10px;">▶ CONTINUAR EXAMEN</button>
-            <button class="boton-reiniciar" onclick="comenzarNuevoExamen()">🔄 COMENZAR NUEVO</button>
+            <button class="boton-reiniciar" onclick="window.continuarExamen()" style="margin-bottom: 10px;">▶ CONTINUAR EXAMEN</button>
+            <button class="boton-reiniciar" onclick="window.comenzarNuevoExamen()">🔄 COMENZAR NUEVO</button>
         </div>
     `;
 }
@@ -114,9 +118,10 @@ export function inicializarPreguntas(leyFiltro = null) {
     if (examen) examen.style.display = 'block';
     
     const preguntasMezcladas = [...preguntasDisponibles].sort(() => Math.random() - 0.5);
-    setPreguntasActuales(preguntasMezcladas.slice(0, PREGUNTAS_POR_SESION));
+    const nuevasPreguntas = preguntasMezcladas.slice(0, PREGUNTAS_POR_SESION);
+    setPreguntasActuales(nuevasPreguntas);
     setPreguntaActualIndex(0);
-    setRespuestasUsuario(preguntasActuales.map(() => ({
+    setRespuestasUsuario(nuevasPreguntas.map(() => ({
         intentos: 0,
         respondida: false,
         respuestaFinal: null,
@@ -130,7 +135,11 @@ export function inicializarPreguntas(leyFiltro = null) {
 
 export function comenzarNuevoExamen() {
     examenGuardado = null;
-    mostrarInicioPreguntas();
+    setPreguntasActuales([]);
+    setPreguntaActualIndex(0);
+    setRespuestasUsuario([]);
+    filtroLeyActual = '';
+    volverAInicioPreguntas();
 }
 
 export function continuarExamen() {
@@ -176,8 +185,8 @@ export function preguntarGuardarExamen() {
             <p style="margin: 8px 0;">Pregunta ${preguntaActualIndex + 1} de ${preguntasActuales.length}</p>
             <p style="margin: 12px 0;">¿Qué deseas hacer?</p>
             <hr style="border: 1px solid var(--borde); margin: 16px 0;">
-            <button class="boton-reiniciar" onclick="guardarExamen()" style="margin-bottom: 10px;">💾 GUARDAR AVANCE</button>
-            <button class="boton-reiniciar" onclick="descartarExamen()">🗑️ DESCARTAR EXAMEN</button>
+            <button class="boton-reiniciar" onclick="window.guardarExamen()" style="margin-bottom: 10px;">💾 GUARDAR AVANCE</button>
+            <button class="boton-reiniciar" onclick="window.descartarExamen()">🗑️ DESCARTAR EXAMEN</button>
         </div>
     `;
     
@@ -199,12 +208,17 @@ export function descartarExamen() {
     setPreguntasActuales([]);
     setPreguntaActualIndex(0);
     setRespuestasUsuario([]);
+    filtroLeyActual = '';
+    volverAInicioPreguntas();
 }
 
 // ============================================
 // SELECCIONAR OPCIÓN
 // ============================================
 export function seleccionarOpcion(indice) {
+    const respuesta = respuestasUsuario[preguntaActualIndex];
+    if (respuesta.respondida) return;
+    
     document.getElementById('btn-siguiente').disabled = false;
     window.opcionSeleccionada = indice;
 }
@@ -213,10 +227,14 @@ export function seleccionarOpcion(indice) {
 // VERIFICAR RESPUESTA
 // ============================================
 export function siguientePregunta() {
+    const respuesta = respuestasUsuario[preguntaActualIndex];
+    
+    // Evitar verificar si ya respondió
+    if (respuesta.respondida) return;
+    
     if (window.opcionSeleccionada === undefined) return;
     
     const pregunta = preguntasActuales[preguntaActualIndex];
-    const respuesta = respuestasUsuario[preguntaActualIndex];
     const opcionSeleccionada = respuesta.opcionesMostradas[window.opcionSeleccionada];
     
     respuesta.intentos++;
@@ -283,10 +301,17 @@ function mostrarPregunta() {
         return;
     }
     
+    // Limpiar selección anterior
+    window.opcionSeleccionada = undefined;
+    
     const pregunta = preguntasActuales[preguntaActualIndex];
     const respuesta = respuestasUsuario[preguntaActualIndex];
-    const opciones = generarOpciones(pregunta);
-    respuesta.opcionesMostradas = opciones;
+    
+    // Generar opciones SOLO si no existen
+    if (!respuesta.opcionesMostradas) {
+        respuesta.opcionesMostradas = generarOpciones(pregunta);
+    }
+    const opciones = respuesta.opcionesMostradas;
     
     const container = document.getElementById('preguntas-container');
     
@@ -297,25 +322,41 @@ function mostrarPregunta() {
     `;
     
     opciones.forEach((opcion, idx) => {
+        const isDisabled = respuesta.respondida;
+        const disabledAttr = isDisabled ? 'style="opacity:0.5; pointer-events:none;"' : '';
+        const radioDisabled = isDisabled ? 'disabled' : '';
+        const onclickAttr = isDisabled ? '' : `onclick="window.seleccionarOpcion(${idx})"`;
+        
         html += `
-            <div class="opcion" onclick="seleccionarOpcion(${idx})">
-                <input type="radio" name="pregunta" id="opcion_${idx}" value="${opcion.texto.replace(/"/g, '&quot;')}">
+            <div class="opcion" ${onclickAttr} ${disabledAttr}>
+                <input type="radio" name="pregunta" id="opcion_${idx}" value="${opcion.texto.replace(/"/g, '&quot;')}" ${radioDisabled}>
                 <label for="opcion_${idx}">${opcion.texto}</label>
             </div>
         `;
     });
     
+    // Mostrar feedback si ya respondió
+    const feedbackHtml = respuesta.respondida ? `
+        <div id="feedback-${preguntaActualIndex}" class="feedback feedback-exito" style="display:block;">
+            ✅ Correcto. ${respuesta.respuestaFinal}
+        </div>
+    ` : `<div id="feedback-${preguntaActualIndex}" class="feedback" style="display:none;"></div>`;
+    
+    const btnDisabled = respuesta.respondida ? 'disabled' : '';
+    const btnText = respuesta.respondida ? 'SIGUIENTE →' : 'VERIFICAR';
+    const btnAction = respuesta.respondida ? 'window.avanzarSiguientePregunta()' : 'window.siguientePregunta()';
+    
     html += `
             </div>
-            <div id="feedback-${preguntaActualIndex}" class="feedback" style="display:none;"></div>
-            <button class="boton-siguiente" id="btn-siguiente" onclick="siguientePregunta()" disabled>VERIFICAR</button>
+            ${feedbackHtml}
+            <button class="boton-siguiente" id="btn-siguiente" onclick="${btnAction}" ${btnDisabled}>${btnText}</button>
         </div>
     `;
     
     container.innerHTML = html;
     window.scrollTo({top: 0, behavior: 'smooth'});
     
-    // Animación de entrada (solo si no es la primera pregunta)
+    // Animación de entrada
     if (preguntaActualIndex > 0) {
         const preguntaCard = container.querySelector('.pregunta-card');
         if (preguntaCard) {
@@ -331,7 +372,7 @@ function mostrarPregunta() {
 }
 
 // ============================================
-// AVANZAR
+// AVANZAR SIGUIENTE PREGUNTA
 // ============================================
 function avanzarSiguientePregunta() {
     const newIndex = preguntaActualIndex + 1;
@@ -356,12 +397,11 @@ function actualizarProgreso() {
         progreso.innerHTML = `
             <div style="display:flex; justify-content:space-between; align-items:center;">
                 <span>📝 <strong>${nombreLey}</strong></span>
-                <button onclick="comenzarNuevoExamen()" style="background:#dc3545; border:none; color:white; padding:6px 12px; border-radius:6px; cursor:pointer; font-size:0.85rem; font-weight:bold;">❌ Cancelar</button>
+                <button onclick="window.comenzarNuevoExamen()" style="background:#dc3545; border:none; color:white; padding:6px 12px; border-radius:6px; cursor:pointer; font-size:0.85rem; font-weight:bold;">❌ Cancelar</button>
             </div>
             <div style="margin-top:4px;">Pregunta ${preguntaActualIndex + 1} de ${preguntasActuales.length}</div>
         `;
         
-        // Animación de entrada (solo si no es la primera)
         if (preguntaActualIndex > 0) {
             progreso.style.opacity = '0';
             progreso.style.transform = 'translateY(10px)';
@@ -379,8 +419,10 @@ function actualizarProgreso() {
 // ============================================
 function mostrarResumenFinal() {
     const container = document.getElementById('preguntas-container');
+    const examenDiv = document.getElementById('preguntas-examen');
     
-    // Limpiar el progreso
+    if (examenDiv) examenDiv.style.display = 'block';
+    
     const progreso = document.getElementById('progreso-preguntas');
     if (progreso) progreso.innerHTML = '';
     
@@ -426,12 +468,12 @@ function mostrarResumenFinal() {
     html += `
             <hr style="border: 1px solid var(--borde); margin: 12px 0;">
             <div style="margin-top: 16px; display: flex; flex-direction: column; gap: 10px;">
-                <button class="boton-reiniciar" onclick="inicializarPreguntas('${filtroLeyActual}')">🔄 REPETIR EXAMEN</button>
-                <button class="boton-reiniciar" onclick="comenzarNuevoExamen()">📋 CAMBIAR DE NORMA</button>
+                <button class="boton-reiniciar" onclick="window.inicializarPreguntas('${filtroLeyActual}')">🔄 REPETIR EXAMEN</button>
+                <button class="boton-reiniciar" onclick="window.volverAInicioPreguntas()">📋 CAMBIAR DE NORMA</button>            
             </div>
         </div>
         
-        <button id="btn-subir-resumen" style="position:fixed; bottom:30px; right:30px; width:50px; height:50px; background:var(--azul); color:white; border:none; border-radius:50%; font-size:1.5rem; cursor:pointer; box-shadow:0 4px 12px rgba(0,0,0,0.3); display:none; z-index:1001;" onclick="document.getElementById('resumen-scroll').scrollIntoView({top:0, behavior:'smooth'})">↑</button>
+        <button id="btn-subir-resumen" style="position:fixed; bottom:30px; right:30px; width:50px; height:50px; background:var(--azul); color:white; border:none; border-radius:50%; font-size:1.5rem; cursor:pointer; box-shadow:0 4px 12px rgba(0,0,0,0.3); display:none; z-index:1001;" onclick="document.getElementById('resumen-scroll').scrollIntoView({behavior:'smooth'})">↑</button>
     `;
     
     container.innerHTML = html;
@@ -456,13 +498,25 @@ function mostrarResumenFinal() {
     }, 100);
 }
 
-// ============================================
-// EXPORTACIONES Y FUNCIONES GLOBALES
-// ============================================
-export function verificarRespuesta() {
-    siguientePregunta();
+export function volverAInicioPreguntas() {
+    const inicio = document.getElementById('preguntas-inicio');
+    const examen = document.getElementById('preguntas-examen');
+    
+    if (inicio) inicio.style.display = 'block';
+    if (examen) examen.style.display = 'none';
+    
+    setPreguntasActuales([]);
+    setPreguntaActualIndex(0);
+    setRespuestasUsuario([]);
+    examenGuardado = null;
+    filtroLeyActual = '';
+    
+    mostrarInicioPreguntas();
 }
 
+// ============================================
+// FUNCIONES DE UTILIDAD
+// ============================================
 export function hayExamenEnCurso() {
     return preguntasActuales.length > 0 && preguntaActualIndex < preguntasActuales.length;
 }
@@ -473,8 +527,11 @@ export function iniciarExamenDesdeSelect() {
         inicializarPreguntas(select.value);
     }
 }
-window.iniciarExamenDesdeSelect = iniciarExamenDesdeSelect;
 
+// ============================================
+// EXPOSICIÓN GLOBAL (para onclick en HTML)
+// ============================================
+window.iniciarExamenDesdeSelect = iniciarExamenDesdeSelect;
 window.mostrarInicioPreguntas = mostrarInicioPreguntas;
 window.verificarExamenGuardado = verificarExamenGuardado;
 window.inicializarPreguntas = inicializarPreguntas;
@@ -483,3 +540,7 @@ window.comenzarNuevoExamen = comenzarNuevoExamen;
 window.guardarExamen = guardarExamen;
 window.descartarExamen = descartarExamen;
 window.preguntarGuardarExamen = preguntarGuardarExamen;
+window.volverAInicioPreguntas = volverAInicioPreguntas;
+window.seleccionarOpcion = seleccionarOpcion;
+window.siguientePregunta = siguientePregunta;
+window.avanzarSiguientePregunta = avanzarSiguientePregunta;
