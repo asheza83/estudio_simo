@@ -17,125 +17,180 @@
             <button id="configBtn" class="dark-mode-toggle">⚙️ Ajustes</button>
         </div>
 
-        <!-- Pestañas de navegación -->
+        <!-- Pestañas de navegación (SOLO 3) -->
         <div class="tabs" id="tabsContainer">
-            <button class="tab-button active" onclick="cambiarPestana('tab-simo')">SIMO</button>
-            <button class="tab-button" onclick="cambiarPestana('tab-biblioteca')">Normas</button>
+            <button class="tab-button active" onclick="cambiarPestana('tab-estudio')">Estudio SIMO</button>
             <button class="tab-button" onclick="cambiarPestana('tab-preguntas')">Tests</button>
             <button class="tab-button" onclick="cambiarPestana('tab-glosario'); mostrarGlosario();">Glosario</button>
         </div>
 
-        <!-- Pestaña SIMO -->
-        <div id="tab-simo" class="tab-content active">
-            <div id="contenido-simo">
-                <div style="background-color: var(--azul); color: white; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
-                    <h2 style="margin: 0 0 5px 0;">📋 Convocatoria SIMO - ESE 2</h2>
-                    <p style="margin: 0;">Información actualizada para el concurso de méritos en Empresas Sociales del Estado</p>
+        <!-- ============================================ -->
+        <!-- PESTAÑA ESTUDIO SIMO -->
+        <!-- ============================================ -->
+        <div id="tab-estudio" class="tab-content active">
+            <div id="contenido-estudio">
+
+                <!-- SELECTOR -->
+                <div style="background-color: var(--azul); color: white; padding: 12px; border-radius: 10px; margin-bottom: 20px;">
+                    <label for="seccionEstudio" style="font-weight: bold; margin-right: 10px;">📌 Selecciona qué quieres estudiar:</label>
+                    <select id="seccionEstudio" style="padding: 8px; border-radius: 8px; border: none; font-size: 0.9rem;">
+                        <option value="inicio">🏠 Inicio - Visión general</option>
+                        <option value="simo">📋 Información de la convocatoria SIMO</option>
+                        <option value="normas">📚 Normas del sector salud</option>
+                        <option value="casos">🩺 Casos prácticos y dilemas éticos</option>
+                    </select>
                 </div>
 
-                <h3>📌 ¿Qué es SIMO?</h3>
-                <p>SIMO (Sistema de Apoyo para la Igualdad, el Mérito y la Oportunidad) es la plataforma tecnológica administrada por la <strong>Comisión Nacional del Servicio Civil (CNSC)</strong> de Colombia para concursos de méritos en empleos públicos de carrera administrativa.</p>
+                <!-- SECCIÓN INICIO (por defecto) -->
+                <div id="seccion-inicio" class="seccion-estudio">
+                    <div style="background-color: var(--azul); color: white; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <h2 style="margin: 0 0 5px 0;">📚 Bienvenido a Estudio SIMO</h2>
+                        <p style="margin: 0;">Preparación integral para el concurso de méritos en Empresas Sociales del Estado (ESE)</p>
+                    </div>
 
-                <h3>📌 Convocatoria ESE 2</h3>
-                <ul>
-                    <li><strong>Nombre:</strong> Empresas Sociales del Estado 2</li>
-                    <li><strong>Estado:</strong> Anunciada, en etapa de divulgación</li>
-                    <li><strong>Inscripciones:</strong> Segundo semestre de 2026 (julio - agosto aproximadamente)</li>
-                    <li><strong>Vacantes totales:</strong> 2.477 en 72 ESE del país</li>
-                    <li><strong>Modalidades:</strong></li>
-                    <ul>
-                        <li>Ascenso general: 184 vacantes</li>
-                        <li>Ascenso discapacidad: 3 vacantes</li>
-                        <li>Abierto general: 2.293 vacantes</li>
-                        <li>Abierto discapacidad: 194 vacantes</li>
-                    </ul>
-                </ul>
+                    <h3>🎯 ¿Qué encontrarás aquí?</h3>
+                    <p>Esta sección está diseñada para prepararte en las diferentes competencias que evalúa SIMO en enfermería. Haz clic en las opciones del selector para acceder a cada área:</p>
 
-                <h3>📌 ¿Qué evalúa SIMO?</h3>
-                <p>El concurso de méritos para enfermería en ESE (Empresas Sociales del Estado) consta de varias pruebas diseñadas para evaluar la idoneidad de los aspirantes. Estas pruebas son obligatorias y se aplican a todos los participantes en convocatorias abiertas o de ascenso. A continuación, se describen cada una de ellas:</p>
-                
-                <ul>
-                                        <li><strong>📖 Prueba de competencias básicas:</strong> Evalúa habilidades fundamentales que todo servidor público debe poseer, independientemente del cargo al que aspire. Incluye razonamiento lógico para resolver problemas cotidianos, lectura crítica para interpretar textos normativos, matemáticas básicas para manejo de datos estadísticos en salud, y comprensión de textos para entender informes clínicos y administrativos. Esta prueba es eliminatoria y suele ser la primera en aplicarse.<br><br>
-                    <strong>Ejemplos:</strong>
-                    <ul style="margin-top: 5px;">
-                        <li><em>Razonamiento lógico:</em> "Si en un hospital hay 3 enfermeras por cada 10 pacientes, ¿cuántas enfermeras se necesitan para 50 pacientes?"</li>
-                        <li><em>Lectura crítica:</em> Análisis de un fragmento de la Ley 100 para identificar su propósito principal.</li>
-                        <li><em>Comprensión de textos:</em> Interpretar un resumen de historia clínica para extraer datos clave del paciente.</li>
-                        <li><em>Matemáticas básicas:</em> Calcular el porcentaje de ocupación de camas en una unidad de cuidados intensivos.</li>
-                    </ul></li>
-                    
-                    <li><strong>🩺 Prueba de competencias funcionales:</strong> Se enfoca en los conocimientos específicos que debe tener un profesional de enfermería para desempeñarse en una ESE. Incluye el Sistema General de Seguridad Social en Salud (SGSSS), normatividad del sector (Ley 100, Ley 1438, Decreto 780, etc.), procesos de atención en enfermería, manejo de historias clínicas, protocolos de bioseguridad, y conocimientos sobre el Plan de Beneficios en Salud (PBS). También puede incluir casos prácticos de atención al paciente.<br><br>
-                    <strong>Ejemplos:</strong>
-                    <ul style="margin-top: 5px;">
-                        <li><em>Normatividad:</em> "Según la Ley 100 de 1993, ¿cuál es el porcentaje de cotización al SGSSS para un trabajador dependiente?"</li>
-                        <li><em>Proceso de atención:</em> "Ordene cronológicamente las etapas del proceso de atención de enfermería (PAE): ejecución, valoración, diagnóstico, planeación, evaluación."</li>
-                        <li><em>PBS:</em> "¿Qué servicios cubre el Plan de Beneficios en Salud para un paciente con hipertensión?"</li>
-                        <li><em>Caso práctico:</em> "Paciente de 65 años con diabetes tipo 2 no controlada llega a urgencias. ¿Cuál es la prioridad inicial?"</li>
-                    </ul></li>
-                    
-                    <li><strong>🤝 Prueba de competencias comportamentales:</strong> Mide las actitudes y valores del aspirante en el entorno laboral. Evalúa la ética profesional frente a dilemas comunes en el ejercicio de la enfermería, la capacidad de trabajar en equipo con médicos, auxiliares y administrativos, la orientación al servicio al paciente y sus familiares, y la responsabilidad en el cumplimiento de turnos, protocolos y registros clínicos. También se valora la empatía, la comunicación asertiva y la resiliencia frente a situaciones de estrés.<br><br>
-                    <strong>Ejemplos:</strong>
-                    <ul style="margin-top: 5px;">
-                        <li><em>Ética profesional:</em> "Un compañero comete un error en la administración de un medicamento. ¿Qué haría?"</li>
-                        <li><em>Trabajo en equipo:</em> "Durante un paro cardiorrespiratorio, hay confusión entre los miembros del equipo. ¿Cómo actúa?"</li>
-                        <li><em>Orientación al servicio:</em> "Un familiar de un paciente le exige información médica que usted no puede revelar. ¿Cómo maneja la situación?"</li>
-                        <li><em>Estrés laboral:</em> "Tiene tres pacientes en estado crítico al mismo tiempo. ¿Cómo prioriza sus acciones?"</li>
-                    </ul></li>
-                    
-                    <li><strong>📄 Valoración de antecedentes:</strong> Consiste en la verificación y calificación de los documentos que el aspirante carga en la plataforma SIMO. Se otorgan puntos por títulos de educación formal (pregrado, especializaciones, maestrías), experiencia laboral específica en el sector salud (años y tipo de contrato), cursos y diplomados relacionados con enfermería, certificaciones adicionales (BLS, ACLS, manejo de equipos médicos), publicaciones científicas o participación en investigaciones, y docencia universitaria en áreas de la salud. Esta etapa es fundamental para diferenciar a los aspirantes con mayor trayectoria.</li>
-                </ul>
+                    <div style="display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0;">
+                        <div style="flex: 1; min-width: 200px; background: var(--bg-principal); padding: 15px; border-radius: 12px; border-top: 4px solid var(--azul);">
+                            <h4 style="margin: 0 0 10px 0;">📋 SIMO</h4>
+                            <p style="font-size: 1.2rem;">Información de la convocatoria ESE 2: fechas, vacantes, requisitos, qué evalúa cada prueba y enlaces útiles para verificar antecedentes.</p>
+                        </div>
+                        <div style="flex: 1; min-width: 200px; background: var(--bg-principal); padding: 15px; border-radius: 12px; border-top: 4px solid var(--azul);">
+                            <h4 style="margin: 0 0 10px 0;">📚 Normas</h4>
+                            <p style="font-size: 1.2rem;">Resúmenes de las leyes, decretos y resoluciones más relevantes para enfermería. Incluye buscador para encontrar artículos específicos.</p>
+                        </div>
+                        <div style="flex: 1; min-width: 200px; background: var(--bg-principal); padding: 15px; border-radius: 12px; border-top: 4px solid var(--azul);">
+                            <h4 style="margin: 0 0 10px 0;">🩺 Casos prácticos</h4>
+                            <p style="font-size: 1.2rem;">Situaciones reales clasificadas por tipo de competencia: básicas (lógica, matemáticas), funcionales (normas) y comportamentales (ética, trabajo en equipo).</p>
+                        </div>
+                    </div>
 
-                <h3>📌 Contenido específico para enfermería</h3>
-                <ul>
-                    <li>Sistema General de Seguridad Social en Salud (SGSSS)</li>
-                    <li>Ley 100 de 1993, Ley 1122 de 2007, Ley 1438 de 2011, Ley 1751 de 2015</li>
-                    <li>Decreto 780 de 2016 (Decreto Único Reglamentario)</li>
-                    <li>Resoluciones sobre talento humano, calidad, historia clínica</li>
-                    <li>Rol del enfermero en la Atención Primaria en Salud (APS)</li>
-                    <li>Gestión del riesgo, cuidado integral, humanización del servicio</li>
-                </ul>
-
-                <h3>📌 Requisitos para enfermería</h3>
-                <ul>
-                    <li>Título de enfermero(a)</li>
-                    <li>Tarjeta profesional vigente</li>
-                    <li>Experiencia según el cargo (si aplica)</li>
-                    <li>Registro en la plataforma SIMO</li>
-                </ul>
-
-                <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 15px; margin: 20px 0; border-radius: 8px;">
-                    <strong>⚠️ Antes de inscribirte, verifica:</strong>
-                    <ul style="margin-top: 10px;">
-                        <li>Antecedentes disciplinarios en la <strong>Procuraduría</strong></li>
-                        <li>Antecedentes judiciales en la <strong>Policía Nacional</strong></li>
-                        <li>Responsabilidad fiscal en la <strong>Contraloría</strong></li>
-                    </ul>
-                </div>
-
-                <h3>📌 Enlaces útiles</h3>
-                <ul>
-                    <li><a href="https://simo.cnsc.gov.co" target="_blank" rel="noopener noreferrer">🔗 Plataforma SIMO</a></li>
-                    <li><a href="https://www.cnsc.gov.co" target="_blank" rel="noopener noreferrer">🔗 Página oficial CNSC</a></li>
-                    <li><a href="https://www.procuraduria.gov.co" target="_blank" rel="noopener noreferrer">🔗 Consulta de antecedentes - Procuraduría</a></li>
-                    <li><a href="https://antecedentes.policia.gov.co:7005/WebJudicial/antecedentes.xhtml" target="_blank" rel="noopener noreferrer">🔗 Consulta de antecedentes - Policía</a></li>
-                    <li><a href="https://www.contraloria.gov.co/web/guest/persona-natural" target="_blank" rel="noopener noreferrer">🔗 Consulta de antecedentes fiscales - Contraloría</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Contenido de las pestañas -->
-        <div id="tab-biblioteca" class="tab-content">
-            <div id="contenido-ley">
-                <div class="leyes-menu">
-                    <div class="grupo-leyes">
-                        <div class="grupo-titulo">📌 Cargando...</div>
+                    <div style="background-color: rgba(13, 110, 253, 0.05); border-left: 3px solid var(--azul); padding: 12px; border-radius: 8px; margin: 20px 0;">
+                        <p style="margin: 0; font-size: 1.2rem;">
+                            <strong>📌 Tipos de pruebas SIMO:</strong><br><br>
+                            <strong>📖 Competencias básicas:</strong> Razonamiento lógico, lectura crítica, matemáticas, comprensión de textos.<br>
+                            <strong>🩺 Competencias funcionales:</strong> Normatividad del sector salud, SGSSS, PAE, PBS.<br>
+                            <strong>🤝 Competencias comportamentales:</strong> Ética, trabajo en equipo, orientación al servicio.<br>
+                            <strong>📄 Valoración de antecedentes:</strong> Títulos, experiencia, cursos, certificaciones.
+                        </p>
                     </div>
                 </div>
+
+                <!-- SECCIÓN SIMO (convocatoria) -->
+                <div id="seccion-simo" class="seccion-estudio" style="display: none;">
+                    <div style="background-color: var(--azul); color: white; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <h2 style="margin: 0 0 5px 0;">📋 Convocatoria SIMO - ESE 2</h2>
+                        <p style="margin: 0;">Información actualizada para el concurso de méritos en Empresas Sociales del Estado</p>
+                    </div>
+
+                    <h3>📌 ¿Qué es SIMO?</h3>
+                    <p>SIMO (Sistema de Apoyo para la Igualdad, el Mérito y la Oportunidad) es la plataforma tecnológica administrada por la <strong>Comisión Nacional del Servicio Civil (CNSC)</strong> de Colombia para concursos de méritos en empleos públicos de carrera administrativa.</p>
+
+                    <h3>📌 Convocatoria ESE 2</h3>
+                    <ul>
+                        <li><strong>Nombre:</strong> Empresas Sociales del Estado 2</li>
+                        <li><strong>Estado:</strong> Anunciada, en etapa de divulgación</li>
+                        <li><strong>Inscripciones:</strong> Segundo semestre de 2026 (julio - agosto aproximadamente)</li>
+                        <li><strong>Vacantes totales:</strong> 2.477 en 72 ESE del país</li>
+                        <li><strong>Modalidades:</strong></li>
+                        <ul>
+                            <li>Ascenso general: 184 vacantes</li>
+                            <li>Ascenso discapacidad: 3 vacantes</li>
+                            <li>Abierto general: 2.293 vacantes</li>
+                            <li>Abierto discapacidad: 194 vacantes</li>
+                        </ul>
+                    </ul>
+
+                    <h3>📌 ¿Qué evalúa SIMO?</h3>
+                    <p>El concurso de méritos para enfermería en ESE consta de varias pruebas obligatorias:</p>
+                    <ul>
+                        <li><strong>📖 Prueba de competencias básicas:</strong> Razonamiento lógico, lectura crítica, matemáticas, comprensión de textos.<br>
+                        <em>Ejemplo:</em> "Si en un hospital hay 3 enfermeras por cada 10 pacientes, ¿cuántas se necesitan para 50 pacientes?"</li>
+                        <li><strong>🩺 Prueba de competencias funcionales:</strong> Normatividad del sector salud, SGSSS, PAE, PBS.<br>
+                        <em>Ejemplo:</em> "Según la Ley 100, ¿cuál es el porcentaje de cotización al SGSSS?"</li>
+                        <li><strong>🤝 Prueba de competencias comportamentales:</strong> Ética, trabajo en equipo, orientación al servicio.<br>
+                        <em>Ejemplo:</em> "Un compañero comete un error en la medicación. ¿Qué haría?"</li>
+                        <li><strong>📄 Valoración de antecedentes:</strong> Títulos, experiencia, cursos, certificaciones, publicaciones.</li>
+                    </ul>
+
+                    <h3>📌 Contenido específico para enfermería</h3>
+                    <ul>
+                        <li>Sistema General de Seguridad Social en Salud (SGSSS)</li>
+                        <li>Ley 100 de 1993, Ley 1122 de 2007, Ley 1438 de 2011, Ley 1751 de 2015</li>
+                        <li>Decreto 780 de 2016 (Decreto Único Reglamentario)</li>
+                        <li>Resoluciones sobre talento humano, calidad, historia clínica</li>
+                        <li>Rol del enfermero en la Atención Primaria en Salud (APS)</li>
+                    </ul>
+
+                    <h3>📌 Requisitos para enfermería</h3>
+                    <ul>
+                        <li>Título de enfermero(a)</li>
+                        <li>Tarjeta profesional vigente</li>
+                        <li>Experiencia según el cargo (si aplica)</li>
+                        <li>Registro en la plataforma SIMO</li>
+                    </ul>
+
+                    <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 15px; margin: 20px 0; border-radius: 8px;">
+                        <strong>⚠️ Antes de inscribirte, verifica:</strong>
+                        <ul style="margin-top: 10px;">
+                            <li>Antecedentes disciplinarios en la <strong>Procuraduría</strong></li>
+                            <li>Antecedentes judiciales en la <strong>Policía Nacional</strong></li>
+                            <li>Responsabilidad fiscal en la <strong>Contraloría</strong></li>
+                        </ul>
+                    </div>
+
+                    <h3>📌 Enlaces útiles</h3>
+                    <ul>
+                        <li><a href="https://simo.cnsc.gov.co" target="_blank" rel="noopener noreferrer">🔗 Plataforma SIMO</a></li>
+                        <li><a href="https://www.cnsc.gov.co" target="_blank" rel="noopener noreferrer">🔗 Página oficial CNSC</a></li>
+                        <li><a href="https://www.procuraduria.gov.co/Pages/certificado-antecedentes.aspx" target="_blank" rel="noopener noreferrer">🔗 Consulta de antecedentes - Procuraduría</a></li>
+                        <li><a href="https://antecedentes.policia.gov.co:7005/WebJudicial/" target="_blank" rel="noopener noreferrer">🔗 Consulta de antecedentes - Policía</a></li>
+                        <li><a href="https://www.contraloria.gov.co/web/guest/boletin-responsables-fiscales" target="_blank" rel="noopener noreferrer">🔗 Consulta de antecedentes fiscales - Contraloría</a></li>
+                    </ul>
+                </div>
+
+                <!-- SECCIÓN NORMAS (leyes) -->
+                <div id="seccion-normas" class="seccion-estudio" style="display: none;">
+                    <div id="contenido-ley">
+                        <div class="leyes-menu">
+                            <div class="grupo-leyes">
+                                <div class="grupo-titulo">📌 Cargando...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECCIÓN CASOS PRÁCTICOS -->
+                <div id="seccion-casos" class="seccion-estudio" style="display: none;">
+                    <div id="casos-container">
+                        <p>Cargando casos prácticos...</p>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        <!-- Pestaña de Preguntas -->
+        <!-- ============================================ -->
+        <!-- PESTAÑA TESTS -->
+        <!-- ============================================ -->
         <div id="tab-preguntas" class="tab-content">
+            <div style="background-color: var(--azul); color: white; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                <h2 style="margin: 0 0 5px 0;">📝 Prueba de competencias funcionales</h2>
+                <p style="margin: 0;">Esta sección evalúa tus conocimientos sobre la normatividad del sector salud (Ley 100, Ley 1438, decretos, resoluciones).</p>
+            </div>
+            
+            <div style="background-color: rgba(13, 110, 253, 0.05); border-left: 3px solid var(--azul); padding: 12px; border-radius: 8px; margin-bottom: 20px;">
+                <p style="margin: 0; font-size: 1.2rem;">
+                    <strong>📌 ¿Qué incluye este test?</strong><br>
+                    • Preguntas sobre leyes, decretos y resoluciones del SGSSS<br>
+                    • 5 preguntas aleatorias por examen<br>
+                    • Feedback inmediato al responder<br>
+                    • Resumen final con estadísticas<br><br>
+                    <strong>⚠️ Nota:</strong> Las competencias básicas (razonamiento lógico, matemáticas, lectura crítica) y las competencias comportamentales (ética, trabajo en equipo) no se evalúan en esta sección.
+                </p>
+            </div>
+            
             <div id="preguntas-inicio">
                 <p style="text-align:center; margin-bottom:16px;">Selecciona la norma que quieras estudiar y presiona COMENZAR EXAMEN.</p>
                 <select id="filtro-ley-inicio" class="filtro-select">
@@ -149,6 +204,9 @@
             </div>
         </div>
 
+        <!-- ============================================ -->
+        <!-- PESTAÑA GLOSARIO -->
+        <!-- ============================================ -->
         <div id="tab-glosario" class="tab-content">
             <div id="contenido-glosario">
                 <p>Cargando glosario...</p>
@@ -180,8 +238,37 @@
 
     </div>
 
+    <script type="module" src="js/casos.js"></script>
     <script type="module" src="js/app.js"></script>
     <script>
+        // Inicializar selector de secciones en Estudio SIMO
+        document.addEventListener('DOMContentLoaded', function() {
+            const selector = document.getElementById('seccionEstudio');
+            if (selector) {
+                const secciones = document.querySelectorAll('.seccion-estudio');
+                secciones.forEach(sec => sec.style.display = 'none');
+                document.getElementById('seccion-inicio').style.display = 'block';
+                
+                selector.addEventListener('change', function() {
+                    secciones.forEach(sec => sec.style.display = 'none');
+                    const seleccion = this.value;
+                    if (seleccion === 'casos') {
+                        if (typeof window.cargarCasos === 'function') {
+                            window.cargarCasos();
+                        }
+                    }
+                    if (seleccion === 'normas') {
+                        setTimeout(function() {
+                            if (typeof mostrarPantallaPrincipal === 'function') {
+                                mostrarPantallaPrincipal();
+                            }
+                        }, 50);
+                    }
+                    document.getElementById(`seccion-${seleccion}`).style.display = 'block';
+                });
+            }
+        });
+        
         function cambiarPestana(pestanaId) {
             if (pestanaId !== 'tab-preguntas' && typeof preguntarGuardarExamen === 'function') {
                 const hayExamen = preguntarGuardarExamen();
@@ -215,7 +302,7 @@
             document.querySelectorAll('.tab-button').forEach(btn => {
                 btn.classList.remove('active');
             });
-            document.getElementById('tab-biblioteca').classList.add('active');
+            document.getElementById('tab-estudio').classList.add('active');
             document.querySelector('.tab-button:first-child').classList.add('active');
             
             if (typeof mostrarPantallaPrincipal === 'function') {

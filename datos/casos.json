@@ -1,0 +1,93 @@
+{
+  "version": "1.0",
+  "casos": [
+    {
+      "id": 1,
+      "titulo": "Cálculo de personal de enfermería",
+      "situacion": "En un hospital hay 3 enfermeras por cada 10 pacientes. ¿Cuántas enfermeras se necesitan para atender a 50 pacientes?",
+      "respuesta": "Se necesitan 15 enfermeras. La relación es 3 enfermeras × (50 pacientes ÷ 10 pacientes) = 3 × 5 = 15 enfermeras.",
+      "categoria": "competencias-basicas",
+      "tipo": "Razonamiento lógico - matemático"
+    },
+    {
+      "id": 2,
+      "titulo": "Análisis de fragmento de la Ley 100",
+      "situacion": "Un fragmento de la Ley 100 de 1993 describe los principios del SGSSS. Identifique cuál de los siguientes NO es un principio establecido en la ley.",
+      "respuesta": "La gratuidad total no es un principio del SGSSS. Los principios son: universalidad, solidaridad, integralidad, unidad, participación, equidad, calidad, eficiencia y sostenibilidad.",
+      "categoria": "competencias-basicas",
+      "tipo": "Lectura crítica"
+    },
+    {
+      "id": 3,
+      "titulo": "Interpretación de historia clínica",
+      "situacion": "En un resumen de historia clínica se lee: 'Paciente de 65 años, hipertenso, diabético tipo 2, acude por disnea y dolor torácico'. ¿Cuál es la prioridad inicial del enfermero(a)?",
+      "respuesta": "La prioridad inicial es evaluar la función respiratoria y cardiovascular del paciente (frecuencia respiratoria, saturación de oxígeno, frecuencia cardíaca, presión arterial), y notificar al médico de inmediato.",
+      "categoria": "competencias-basicas",
+      "tipo": "Comprensión de textos - priorización clínica"
+    },
+    {
+      "id": 4,
+      "titulo": "Porcentaje de ocupación hospitalaria",
+      "situacion": "Una unidad de cuidados intensivos tiene 12 camas. En un día determinado, hay 9 pacientes ocupando camas. ¿Cuál es el porcentaje de ocupación?",
+      "respuesta": "El porcentaje de ocupación es del 75%. Cálculo: (9 pacientes / 12 camas) × 100 = 75%.",
+      "categoria": "competencias-basicas",
+      "tipo": "Matemáticas básicas - porcentajes"
+    },
+    {
+      "id": 5,
+      "titulo": "Cirugía no incluida en el PBS",
+      "situacion": "Un paciente afiliado al Régimen Subsidiado requiere una cirugía que no está incluida en el PBS. La EPS se niega a autorizarla. ¿Cuál es el procedimiento para garantizar el derecho a la salud?",
+      "respuesta": "El paciente puede interponer una tutela. La Corte Constitucional ha establecido que cuando un servicio no está en el PBS pero es necesario para la vida o integridad, debe ser autorizado. El personal de enfermería debe documentar la negativa de la EPS y apoyar al paciente en el proceso de tutela.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - derechos en salud"
+    },
+    {
+      "id": 6,
+      "titulo": "Porcentaje de cotización al SGSSS",
+      "situacion": "Según la Ley 100 de 1993, ¿cuál es el porcentaje total de cotización al SGSSS para un trabajador dependiente?",
+      "respuesta": "La cotización total es del 12.5% sobre el Ingreso Base de Cotización (IBC), distribuido así: el empleador aporta el 8.5% y el trabajador el 4%.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - cotizaciones"
+    },
+    {
+      "id": 7,
+      "titulo": "Etapas del Proceso de Atención de Enfermería (PAE)",
+      "situacion": "Ordene cronológicamente las etapas del PAE: ejecución, valoración, diagnóstico, planeación, evaluación.",
+      "respuesta": "El orden correcto es: 1. Valoración, 2. Diagnóstico, 3. Planeación, 4. Ejecución, 5. Evaluación.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Proceso de atención de enfermería"
+    },
+    {
+      "id": 8,
+      "titulo": "Error en administración de medicamento",
+      "situacion": "Un compañero enfermero comete un error en la administración de un medicamento, pero nadie se da cuenta. El paciente no sufrió daño aparente. ¿Qué haría usted?",
+      "respuesta": "Debe reportar el error al jefe inmediato o al comité de seguridad del paciente. El reporte no es para sancionar, sino para identificar fallas en el sistema y prevenir futuros errores. La ética profesional exige transparencia.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética profesional"
+    },
+    {
+      "id": 9,
+      "titulo": "Confusión en paro cardiorrespiratorio",
+      "situacion": "Durante un paro cardiorrespiratorio, hay confusión entre los miembros del equipo sobre las funciones de cada uno. Como enfermero(a), ¿cómo actúa?",
+      "respuesta": "Debe recordar las funciones asignadas en el código de paro: compresiones torácicas, vía aérea, acceso venoso, registro de eventos y tiempos. Si hay confusión, asigne roles claros: 'Fulano, compresiones. Zutana, vía aérea. Mengana, registro'.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Trabajo en equipo - respuesta a emergencias"
+    },
+    {
+      "id": 10,
+      "titulo": "Solicitud de información médica por familiar",
+      "situacion": "Un familiar de un paciente le exige información médica que usted no puede revelar por confidencialidad. ¿Cómo maneja la situación?",
+      "respuesta": "Explique respetuosamente que la información médica es confidencial y solo puede ser revelada al paciente o a su representante legal autorizado. Ofrezca acompañarlo a hablar con el médico tratante.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Orientación al servicio - comunicación asertiva"
+    },
+    {
+      "id": 11,
+      "titulo": "Priorización de pacientes en estado crítico",
+      "situacion": "Tiene tres pacientes en estado crítico al mismo tiempo. ¿Cómo prioriza sus acciones?",
+      "respuesta": "Aplique el triaje: priorice al paciente con mayor riesgo vital inminente (paro respiratorio, hemorragia activa, inconsciencia). Use la clasificación ABCDE (vía aérea, respiración, circulación, discapacidad, exposición).",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Estrés laboral - priorización"
+    }
+  ]
+}
