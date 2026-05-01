@@ -31,11 +31,11 @@ export async function cargarCasos() {
             <div style="margin-bottom: 16px;">
                 <p style="font-weight: bold; margin-bottom: 8px;">📂 Filtrar por competencia:</p>
                 <div id="categoriasCasos" style="display: flex; flex-wrap: wrap; gap: 6px;">
-                    <button class="letra-btn active" data-categoria="todos" onclick="filtrarCasosPorCategoria('todos')" style="font-size: 1rem;">TODAS</button>
-                    <button class="letra-btn" data-categoria="competencias-basicas" onclick="filtrarCasosPorCategoria('competencias-basicas')" style="font-size: 1rem;">📖 Básicas</button>
-                    <button class="letra-btn" data-categoria="competencias-funcionales" onclick="filtrarCasosPorCategoria('competencias-funcionales')" style="font-size: 1rem;">🩺 Funcionales</button>
-                    <button class="letra-btn" data-categoria="competencias-comportamentales" onclick="filtrarCasosPorCategoria('competencias-comportamentales')" style="font-size: 1rem;">🤝 Comportamentales</button>
-                </div>
+                <button class="letra-btn active" data-categoria="todos" onclick="filtrarCasosPorCategoria('todos')" style="font-size: 1rem;">TODAS</button>
+                <button class="letra-btn" data-categoria="competencias-basicas" onclick="filtrarCasosPorCategoria('competencias-basicas')" style="font-size: 1rem;">📖 Básicas</button>
+                <button class="letra-btn" data-categoria="competencias-funcionales" onclick="filtrarCasosPorCategoria('competencias-funcionales')" style="font-size: 1rem;">🩺 Funcionales</button>
+                <button class="letra-btn" data-categoria="competencias-comportamentales" onclick="filtrarCasosPorCategoria('competencias-comportamentales')" style="font-size: 1rem;">🤝 Comportamentales</button>
+            </div>
             </div>
             <div id="casos-lista" style="transition: opacity 0.3s ease-in-out;"></div>
             <div id="paginacionCasos" style="display: flex; justify-content: center; align-items: center; gap: 15px; margin-top: 20px; padding-bottom: 20px;"></div>
@@ -71,69 +71,57 @@ function actualizarListaCasos() {
     const endIndex = startIndex + CASOS_POR_PAGINA;
     const casosPagina = filtrados.slice(startIndex, endIndex);
     
-    // Aplicar efecto fade out
+    // Generar contenido directamente (sin fade)
     const container = document.getElementById('casos-lista');
     if (!container) return;
     
-    // Fade out
-    container.style.opacity = '0';
+    // Resetear opacidad (sin animación)
+    container.style.transition = 'none';
+    container.style.opacity = '1';
     
-    setTimeout(() => {
-        // Generar nuevo contenido
-        if (casosPagina.length === 0) {
-            container.innerHTML = '<p style="text-align: center; padding: 40px;">📭 No hay casos en esta categoría.</p>';
-        } else {
-            let html = '';
-            casosPagina.forEach(caso => {
-                let badgeColor = '';
-                let badgeText = '';
-                
-                switch (caso.categoria) {
-                    case 'competencias-basicas':
-                        badgeColor = '#6c757d';
-                        badgeText = '📖 Básicas';
-                        break;
-                    case 'competencias-funcionales':
-                        badgeColor = '#0d6efd';
-                        badgeText = '🩺 Funcionales';
-                        break;
-                    case 'competencias-comportamentales':
-                        badgeColor = '#198754';
-                        badgeText = '🤝 Comportamentales';
-                        break;
-                }
-                
-                html += `
-                    <div style="background-color: var(--bg-principal); padding: 15px; border-radius: 12px; margin-bottom: 20px; border-left: 4px solid var(--azul); transition: transform 0.2s, box-shadow 0.2s;">
-                        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-bottom: 10px;">
-                            <h4 style="margin: 0;">📋 ${caso.titulo}</h4>
-                            <span style="background: ${badgeColor}; color: white; padding: 4px 10px; border-radius: 20px; font-size: 1rem;">${badgeText}</span>
-                        </div>
-                        <p><strong>Situación:</strong> ${caso.situacion}</p>
-                        <details>
-                            <summary style="cursor: pointer; color: var(--azul); font-weight: bold;">👁️ Ver respuesta orientativa</summary>
-                            <p style="margin-top: 10px; padding: 10px; background: rgba(13,110,253,0.1); border-radius: 8px;">${caso.respuesta}</p>
-                        </details>
+    // Generar nuevo contenido
+    if (casosPagina.length === 0) {
+        container.innerHTML = '<p style="text-align: center; padding: 40px;">📭 No hay casos en esta categoría.</p>';
+    } else {
+        let html = '';
+        casosPagina.forEach(caso => {
+            let badgeColor = '';
+            let badgeText = '';
+            
+            switch (caso.categoria) {
+                case 'competencias-basicas':
+                    badgeColor = '#6c757d';
+                    badgeText = '📖 Básicas';
+                    break;
+                case 'competencias-funcionales':
+                    badgeColor = '#0d6efd';
+                    badgeText = '🩺 Funcionales';
+                    break;
+                case 'competencias-comportamentales':
+                    badgeColor = '#198754';
+                    badgeText = '🤝 Comportamentales';
+                    break;
+            }
+            
+            html += `
+                <div style="background-color: var(--bg-principal); padding: 15px; border-radius: 12px; margin-bottom: 20px; border-left: 4px solid var(--azul); transition: transform 0.2s, box-shadow 0.2s;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-bottom: 10px;">
+                        <h4 style="margin: 0;">📋 ${caso.titulo}</h4>
+                        <span style="background: ${badgeColor}; color: white; padding: 4px 10px; border-radius: 20px; font-size: 1rem;">${badgeText}</span>
                     </div>
-                `;
-            });
-            container.innerHTML = html;
-        }
-        
-        // Fade in
-        container.style.opacity = '1';
-        
-        // Scroll suave al inicio de la lista de casos
-        const casosContainer = document.getElementById('casos-container');
-        if (casosContainer) {
-            const offset = 80; // Espacio adicional para no quedar pegado al borde
-            const elementPosition = casosContainer.getBoundingClientRect().top + window.pageYOffset;
-            window.scrollTo({
-                top: elementPosition - offset,
-                behavior: 'smooth'
-            });
-        }
-    }, 200); // 200ms de fade out
+                    <p><strong>Situación:</strong> ${caso.situacion}</p>
+                    <details>
+                        <summary style="cursor: pointer; color: var(--azul); font-weight: bold;">👁️ Ver respuesta orientativa</summary>
+                        <p style="margin-top: 10px; padding: 10px; background: rgba(13,110,253,0.1); border-radius: 8px;">${caso.respuesta}</p>
+                    </details>
+                </div>
+            `;
+        });
+        container.innerHTML = html;
+    }
+    
+    // Restaurar transición para futuros fades (opcional)
+    container.style.transition = 'opacity 0.3s ease-in-out';
     
     // Actualizar paginación
     actualizarPaginacion(totalPaginas);
@@ -206,19 +194,6 @@ window.filtrarCasosPorCategoria = function(categoria) {
     });
     
     actualizarListaCasos();
-    
-    // Scroll suave al inicio de la lista de casos
-    setTimeout(() => {
-        const casosLista = document.getElementById('casos-lista');
-        if (casosLista) {
-            const offset = 200; // Espacio para ver el título del filtro
-            const elementPosition = casosLista.getBoundingClientRect().top + window.pageYOffset;
-            window.scrollTo({
-                top: elementPosition - offset,
-                behavior: 'smooth'
-            });
-        }
-    }, 250); // Espera a que termine el fade (200ms + 50ms extra)
 };
 
 window.cargarCasos = cargarCasos;

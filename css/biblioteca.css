@@ -55,3 +55,12 @@
   background-color: var(--azul-hover);
   transform: none;
 }
+
+/* Efecto fade para cambio de secciones */
+.seccion-estudio {
+    transition: opacity 0.1s ease-in-out;
+}
+
+.seccion-estudio.fade-out {
+    opacity: 0;
+}

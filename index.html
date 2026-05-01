@@ -20,7 +20,7 @@
         <!-- Pestañas de navegación (SOLO 3) -->
         <div class="tabs" id="tabsContainer">
             <button class="tab-button active" onclick="cambiarPestana('tab-estudio')">Estudio SIMO</button>
-            <button class="tab-button" onclick="cambiarPestana('tab-preguntas')">Tests</button>
+            <button class="tab-button" onclick="cambiarPestana('tab-preguntas')">Preguntas</button>
             <button class="tab-button" onclick="cambiarPestana('tab-glosario'); mostrarGlosario();">Glosario</button>
         </div>
 
@@ -247,22 +247,40 @@
                 document.getElementById('seccion-inicio').style.display = 'block';
                 
                 selector.addEventListener('change', function() {
-                    secciones.forEach(sec => sec.style.display = 'none');
-                    const seleccion = this.value;
-                    if (seleccion === 'casos') {
-                        if (typeof window.cargarCasos === 'function') {
-                            window.cargarCasos();
-                        }
-                    }
-                    if (seleccion === 'normas') {
-                        setTimeout(function() {
-                            if (typeof mostrarPantallaPrincipal === 'function') {
-                                mostrarPantallaPrincipal();
-                            }
-                        }, 50);
-                    }
-                    document.getElementById(`seccion-${seleccion}`).style.display = 'block';
-                });
+    const seleccion = this.value;
+    const secciones = document.querySelectorAll('.seccion-estudio');
+    
+    // Fade out
+    secciones.forEach(sec => {
+        sec.classList.add('fade-out');
+    });
+    
+    setTimeout(() => {
+        // Ocultar y resetear
+        secciones.forEach(sec => {
+            sec.style.display = 'none';
+            sec.classList.remove('fade-out');
+        });
+        
+        // Mostrar nueva sección
+        const seccionMostrar = document.getElementById(`seccion-${seleccion}`);
+        if (seccionMostrar) {
+            seccionMostrar.style.display = 'block';
+        }
+        
+        // Cargar contenido dinámico
+        if (seleccion === 'casos') {
+            if (typeof window.cargarCasos === 'function') {
+                window.cargarCasos();
+            }
+        }
+        if (seleccion === 'normas') {
+            if (typeof mostrarPantallaPrincipal === 'function') {
+                mostrarPantallaPrincipal();
+            }
+        }
+    }, 150);
+});
             }
         });
         
