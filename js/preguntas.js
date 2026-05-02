@@ -418,7 +418,7 @@ function actualizarProgreso() {
         progreso.innerHTML = `
             <div style="display:flex; justify-content:space-between; align-items:center;">
                 <span>📝 <strong>${nombreLey}</strong></span>
-                <button onclick="window.comenzarNuevoExamen()" style="background:#dc3545; border:none; color:white; padding:6px 12px; border-radius:6px; cursor:pointer; font-size:0.85rem; font-weight:bold;">❌ Cancelar</button>
+<button onclick="window.comenzarNuevoExamen()" style="background:#dc3545; border:none; color:white; padding:6px 12px; border-radius:6px; cursor:pointer; font-size:0.85rem; font-weight:bold;">❌ Cancelar examen</button>            
             </div>
             <div style="margin-top:4px;">Pregunta ${preguntaActualIndex + 1} de ${preguntasActuales.length}</div>
         `;
