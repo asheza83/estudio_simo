@@ -26,7 +26,11 @@ export async function mostrarGlosario() {
         const container = document.getElementById('contenido-glosario');
         
         let html = `
-            <div style="background: var(--azul); padding: 16px; border-radius: 12px; margin-bottom: 20px;">
+            <div style="background: rgba(13, 110, 253, 0.05); border-left: 3px solid var(--azul); padding: 10px 14px; border-radius: 8px; margin-bottom: 16px; font-size: 1.3rem; color: var(--texto-secundario);">
+                💡 Escribe una palabra (mínimo 3 letras) y presiona Enter para buscar, o usa los filtros por categoría o letra para encontrar términos específicos. El botón ↑ que aparece al hacer scroll te ayuda a volver arriba rápidamente.
+            </div>`;
+
+            html += `<div style="background: var(--azul); padding: 16px; border-radius: 12px; margin-bottom: 20px;">
                 <label for="buscadorGlosario" style="color: white; font-weight: bold; font-size: 1rem; display: block; margin-bottom: 8px;">🔍 Buscar término o palabra (presiona Enter para buscar)</label>
                 <input type="text" id="buscadorGlosario" class="buscador" placeholder="Escriba el término o palabra (mínimo 3 letras)" style="width: 100%; padding: 12px; border: none; border-radius: 8px; font-size: 1rem; background: white; color: #212529;">
             </div>`;
