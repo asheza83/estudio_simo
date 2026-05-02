@@ -248,40 +248,40 @@
                 document.getElementById('seccion-inicio').style.display = 'block';
                 
                 selector.addEventListener('change', function() {
-    const seleccion = this.value;
-    const secciones = document.querySelectorAll('.seccion-estudio');
-    
-    // Fade out
-    secciones.forEach(sec => {
-        sec.classList.add('fade-out');
-    });
-    
-    setTimeout(() => {
-        // Ocultar y resetear
-        secciones.forEach(sec => {
-            sec.style.display = 'none';
-            sec.classList.remove('fade-out');
-        });
-        
-        // Mostrar nueva sección
-        const seccionMostrar = document.getElementById(`seccion-${seleccion}`);
-        if (seccionMostrar) {
-            seccionMostrar.style.display = 'block';
-        }
-        
-        // Cargar contenido dinámico
-        if (seleccion === 'casos') {
-            if (typeof window.cargarCasos === 'function') {
-                window.cargarCasos();
-            }
-        }
-        if (seleccion === 'normas') {
-            if (typeof mostrarPantallaPrincipal === 'function') {
-                mostrarPantallaPrincipal();
-            }
-        }
-    }, 150);
-});
+                    const seleccion = this.value;
+                    const secciones = document.querySelectorAll('.seccion-estudio');
+                    
+                    // Fade out
+                    secciones.forEach(sec => {
+                        sec.classList.add('fade-out');
+                    });
+                    
+                    setTimeout(() => {
+                        // Ocultar y resetear
+                        secciones.forEach(sec => {
+                            sec.style.display = 'none';
+                            sec.classList.remove('fade-out');
+                        });
+                        
+                        // Mostrar nueva sección
+                        const seccionMostrar = document.getElementById(`seccion-${seleccion}`);
+                        if (seccionMostrar) {
+                            seccionMostrar.style.display = 'block';
+                        }
+                        
+                        // Cargar contenido dinámico
+                        if (seleccion === 'casos') {
+                            if (typeof window.cargarCasos === 'function') {
+                                window.cargarCasos();
+                            }
+                        }
+                        if (seleccion === 'normas') {
+                            if (typeof mostrarPantallaPrincipal === 'function') {
+                                mostrarPantallaPrincipal();
+                            }
+                        }
+                    }, 150);
+                });
             }
         });
         

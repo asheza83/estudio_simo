@@ -88,6 +88,11 @@ export async function mostrarGlosario() {
         console.error('Error cargando glosario:', error);
         document.getElementById('contenido-glosario').innerHTML = '<p style="color:red;">❌ Error al cargar el glosario. Verifica que el archivo datos/glosario.json exista.</p>';
     }
+
+    // Al final de la función, después de actualizarListaGlosario()
+    setTimeout(() => {
+        window.scrollTo(0, 0);
+    }, 200);
 }
 
 function ejecutarBusqueda() {
