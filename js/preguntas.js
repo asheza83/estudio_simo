@@ -1,6 +1,6 @@
 // ============================================
 // MÓDULO: preguntas.js
-// Sistema completo de preguntas (v6 - CORREGIDO)
+// Sistema completo de preguntas (v6 - CORREGIDO CON OCULTAMIENTO)
 // ============================================
 
 import { 
@@ -12,6 +12,23 @@ import { leyesDisponibles } from './estado.js';
 
 let filtroLeyActual = '';
 let examenGuardado = null;
+
+// ============================================
+// FUNCIONES PARA OCULTAR/MOSTRAR CONTENIDO DESCRIPTIVO
+// ============================================
+function ocultarContenidoDescriptivo() {
+    const descripcionPrueba = document.getElementById('descripcion-prueba');
+    const infoTest = document.getElementById('info-test');
+    if (descripcionPrueba) descripcionPrueba.style.display = 'none';
+    if (infoTest) infoTest.style.display = 'none';
+}
+
+function restaurarContenidoDescriptivo() {
+    const descripcionPrueba = document.getElementById('descripcion-prueba');
+    const infoTest = document.getElementById('info-test');
+    if (descripcionPrueba) descripcionPrueba.style.display = 'block';
+    if (infoTest) infoTest.style.display = 'block';
+}
 
 // ============================================
 // PANTALLA INICIAL - SELECTOR DE LEY
@@ -112,6 +129,9 @@ export function inicializarPreguntas(leyFiltro = null) {
         return;
     }
     
+    // Ocultar contenido descriptivo
+    ocultarContenidoDescriptivo();
+    
     const inicio = document.getElementById('preguntas-inicio');
     const examen = document.getElementById('preguntas-examen');
     if (inicio) inicio.style.display = 'none';
@@ -139,7 +159,9 @@ export function comenzarNuevoExamen() {
     setPreguntaActualIndex(0);
     setRespuestasUsuario([]);
     filtroLeyActual = '';
-    volverAInicioPreguntas();
+    
+    restaurarContenidoDescriptivo();
+    mostrarInicioPreguntas();
 }
 
 export function continuarExamen() {
@@ -149,6 +171,9 @@ export function continuarExamen() {
     }
     
     filtroLeyActual = examenGuardado.leyId;
+    
+    // Ocultar contenido descriptivo
+    ocultarContenidoDescriptivo();
     
     const inicio = document.getElementById('preguntas-inicio');
     const examen = document.getElementById('preguntas-examen');
@@ -209,7 +234,9 @@ export function descartarExamen() {
     setPreguntaActualIndex(0);
     setRespuestasUsuario([]);
     filtroLeyActual = '';
-    volverAInicioPreguntas();
+    
+    restaurarContenidoDescriptivo();
+    mostrarInicioPreguntas();
 }
 
 // ============================================
@@ -229,9 +256,7 @@ export function seleccionarOpcion(indice) {
 export function siguientePregunta() {
     const respuesta = respuestasUsuario[preguntaActualIndex];
     
-    // Evitar verificar si ya respondió
     if (respuesta.respondida) return;
-    
     if (window.opcionSeleccionada === undefined) return;
     
     const pregunta = preguntasActuales[preguntaActualIndex];
@@ -301,13 +326,11 @@ function mostrarPregunta() {
         return;
     }
     
-    // Limpiar selección anterior
     window.opcionSeleccionada = undefined;
     
     const pregunta = preguntasActuales[preguntaActualIndex];
     const respuesta = respuestasUsuario[preguntaActualIndex];
     
-    // Generar opciones SOLO si no existen
     if (!respuesta.opcionesMostradas) {
         respuesta.opcionesMostradas = generarOpciones(pregunta);
     }
@@ -335,7 +358,6 @@ function mostrarPregunta() {
         `;
     });
     
-    // Mostrar feedback si ya respondió
     const feedbackHtml = respuesta.respondida ? `
         <div id="feedback-${preguntaActualIndex}" class="feedback feedback-exito" style="display:block;">
             ✅ Correcto. ${respuesta.respuestaFinal}
@@ -356,7 +378,6 @@ function mostrarPregunta() {
     container.innerHTML = html;
     window.scrollTo({top: 0, behavior: 'smooth'});
     
-    // Animación de entrada
     if (preguntaActualIndex > 0) {
         const preguntaCard = container.querySelector('.pregunta-card');
         if (preguntaCard) {
@@ -469,7 +490,7 @@ function mostrarResumenFinal() {
             <hr style="border: 1px solid var(--borde); margin: 12px 0;">
             <div style="margin-top: 16px; display: flex; flex-direction: column; gap: 10px;">
                 <button class="boton-reiniciar" onclick="window.inicializarPreguntas('${filtroLeyActual}')">🔄 REPETIR EXAMEN</button>
-                <button class="boton-reiniciar" onclick="window.volverAInicioPreguntas()">📋 CAMBIAR DE NORMA</button>            
+                <button class="boton-reiniciar" onclick="window.comenzarNuevoExamen()">📋 CAMBIAR DE NORMA</button>            
             </div>
         </div>
         
@@ -511,6 +532,7 @@ export function volverAInicioPreguntas() {
     examenGuardado = null;
     filtroLeyActual = '';
     
+    restaurarContenidoDescriptivo();
     mostrarInicioPreguntas();
 }
 
