@@ -41,10 +41,10 @@ export function mostrarPantallaPrincipal() {
             html += `<div class="grupo-leyes">`;
             html += `<div class="grupo-titulo">${grupo.titulo}</div>`;
             grupo.leyes.forEach(ley => {
-            html += `<button class="boton-ley" onclick="cargarLey('${ley.id}')">
+            html += `<button class="boton-ley" style="display: block; font-size: 1.3rem;" onclick="cargarLey('${ley.id}')">
                 📄 ${ley.nombre}
-                <span style="display: block; font-size: 1.2rem; font-weight: normal; margin-top: 5px;">
-                    📊 Total: ${ley.totalArticulos || '?'} artículos <br/>🩺 Relevantes para enfermería: ${ley.relevantesEnfermeria || '?'}
+                <span style="display: block; font-size: 1.1rem; font-weight: normal; margin-top: 5px;">
+                    📊 Total: ${ley.totalArticulos || '?'} artículos <br/>🩺 Relevantes (enfermería): ${ley.relevantesEnfermeria || '?'}  artículos 
                 </span>
             </button>`;
             });

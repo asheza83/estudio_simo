@@ -111,7 +111,7 @@ function actualizarListaCasos() {
                     </div>
                     <p><strong>Situación:</strong> ${caso.situacion}</p>
                     <details>
-                        <summary style="cursor: pointer; color: var(--azul); font-weight: bold;">👁️ Ver respuesta orientativa</summary>
+                        <summary style="cursor: pointer; color: var(--azul); font-weight: bold; font-size:1.3em;">👁️ Ver respuesta orientativa</summary>
                         <p style="margin-top: 10px; padding: 10px; background: rgba(13,110,253,0.1); border-radius: 8px;">${caso.respuesta}</p>
                     </details>
                 </div>
