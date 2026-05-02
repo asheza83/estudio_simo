@@ -10,6 +10,12 @@ import {
     setGlosarioData, setGlosarioFiltrado, setLetraActual, setPaginaActual
 } from './estado.js';
 
+function resaltarTexto(texto, terminoBusqueda) {
+    if (!terminoBusqueda || terminoBusqueda.trim() === '') return texto;
+    const regex = new RegExp(`(${terminoBusqueda.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+    return texto.replace(regex, '<mark style="background-color: #ffc107; color: #000; padding: 0 2px; border-radius: 3px;">$1</mark>');
+}
+
 export async function mostrarGlosario() {
     try {
         const response = await fetch('datos/glosario.json');
@@ -221,16 +227,29 @@ function actualizarListaGlosario() {
     const paginados = glosarioFiltrado.slice(startIndex, endIndex);
     const totalPaginas = Math.ceil(glosarioFiltrado.length / TERMINOS_POR_PAGINA);
     
+    // Obtener término de búsqueda
+    const buscador = document.getElementById('buscadorGlosario');
+    const terminoBusqueda = buscador ? buscador.value.trim() : '';
+    
     let html = '<div class="glosario-lista">';
     
     if (paginados.length === 0) {
         html += '<p style="text-align: center; padding: 40px;">📭 No se encontraron términos o palabras.</p>';
     } else {
         paginados.forEach(item => {
+            let terminoMostrar = item.termino;
+            let definicionMostrar = item.definicion;
+            
+            // Resaltar si hay búsqueda activa
+            if (terminoBusqueda) {
+                terminoMostrar = resaltarTexto(item.termino, terminoBusqueda);
+                definicionMostrar = resaltarTexto(item.definicion, terminoBusqueda);
+            }
+            
             html += `
                 <div class="glosario-item">
-                    <div class="glosario-termino">${item.termino}</div>
-                    <div class="glosario-definicion">${item.definicion}</div>
+                    <div class="glosario-termino">${terminoMostrar}</div>
+                    <div class="glosario-definicion">${definicionMostrar}</div>
                 </div>
             `;
         });
