@@ -247,6 +247,7 @@ export function seleccionarOpcion(indice) {
     if (respuesta.respondida) return;
     
     document.getElementById('btn-siguiente').disabled = false;
+    document.getElementById('btn-siguiente').style.display = 'block';  // ← Agregar esta línea
     window.opcionSeleccionada = indice;
 }
 
@@ -364,14 +365,14 @@ function mostrarPregunta() {
         </div>
     ` : `<div id="feedback-${preguntaActualIndex}" class="feedback" style="display:none;"></div>`;
     
-    const btnDisabled = respuesta.respondida ? 'disabled' : '';
     const btnText = respuesta.respondida ? 'SIGUIENTE →' : 'VERIFICAR';
     const btnAction = respuesta.respondida ? 'window.avanzarSiguientePregunta()' : 'window.siguientePregunta()';
+    const btnStyle = (!respuesta.respondida && window.opcionSeleccionada === undefined) ? 'style="display: none;"' : '';
     
     html += `
             </div>
             ${feedbackHtml}
-            <button class="boton-siguiente" id="btn-siguiente" onclick="${btnAction}" ${btnDisabled}>${btnText}</button>
+            <button class="boton-siguiente" id="btn-siguiente" onclick="${btnAction}" ${btnStyle}>${btnText}</button>
         </div>
     `;
     
