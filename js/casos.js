@@ -52,7 +52,7 @@ export async function cargarCasos() {
     }
 }
 
-function actualizarListaCasos() {
+function actualizarListaCasos() {  
     // Filtrar por categoría
     const filtrados = categoriaActual === 'todos' 
         ? casosData 

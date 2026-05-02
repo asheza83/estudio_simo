@@ -24,7 +24,7 @@ export function mostrarPantallaPrincipal() {
     
     leyesDisponibles.forEach(ley => {
         if (grupos[ley.tipo]) {
-            grupos[ley.tipo].leyes.push(ley);
+            grupos[ley.tipo].leyes.push(ley); 
         }
     });
     
