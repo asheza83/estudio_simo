@@ -21,8 +21,8 @@ export async function mostrarGlosario() {
         
         let html = `
             <div style="background: var(--azul); padding: 16px; border-radius: 12px; margin-bottom: 20px;">
-                <label for="buscadorGlosario" style="color: white; font-weight: bold; font-size: 1rem; display: block; margin-bottom: 8px;">🔍 Buscar término (presiona Enter para buscar)</label>
-                <input type="text" id="buscadorGlosario" class="buscador" placeholder="Escriba el término (mínimo 3 letras)" style="width: 100%; padding: 12px; border: none; border-radius: 8px; font-size: 1rem; background: white; color: #212529;">
+                <label for="buscadorGlosario" style="color: white; font-weight: bold; font-size: 1rem; display: block; margin-bottom: 8px;">🔍 Buscar término o palabra (presiona Enter para buscar)</label>
+                <input type="text" id="buscadorGlosario" class="buscador" placeholder="Escriba el término o palabra (mínimo 3 letras)" style="width: 100%; padding: 12px; border: none; border-radius: 8px; font-size: 1rem; background: white; color: #212529;">
             </div>`;
 
             html += `
@@ -32,7 +32,7 @@ export async function mostrarGlosario() {
                         <button class="letra-btn active" data-categoria="TODAS" onclick="filtrarPorCategoria('TODAS')">TODAS</button>
                         <button class="letra-btn" data-categoria="siglas" onclick="filtrarPorCategoria('siglas')">Siglas</button>
                         <button class="letra-btn" data-categoria="entidades" onclick="filtrarPorCategoria('entidades')">Entidades</button>
-                        <button class="letra-btn" data-categoria="terminos" onclick="filtrarPorCategoria('terminos')">Términos</button>
+                        <button class="letra-btn" data-categoria="terminos" onclick="filtrarPorCategoria('terminos')">Términos o palabra</button>
                         <button class="letra-btn" data-categoria="principios" onclick="filtrarPorCategoria('principios')">Principios</button>
                         <button class="letra-btn" data-categoria="carrera" onclick="filtrarPorCategoria('carrera')">Carrera</button>
                     </div>
@@ -224,7 +224,7 @@ function actualizarListaGlosario() {
     let html = '<div class="glosario-lista">';
     
     if (paginados.length === 0) {
-        html += '<p style="text-align: center; padding: 40px;">📭 No se encontraron términos.</p>';
+        html += '<p style="text-align: center; padding: 40px;">📭 No se encontraron términos o palabras.</p>';
     } else {
         paginados.forEach(item => {
             html += `
