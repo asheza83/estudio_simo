@@ -32,7 +32,7 @@
     },
     {
       "id": 24,
-      "texto": "¿Qué son las Redes Integradas de Servicios de Salud según la Ley 1438 de 2011?",
+      "texto": "¿Qué son las Redes Integradas de Servicios de Salud (RIS) según la Ley 1438 de 2011?",
       "respuestaCorrecta": "Conjunto de organizaciones que prestan servicios coordinados entre niveles de atención",
       "distractores": ["Asociaciones de EPS e IPS privadas", "Grupos de atención exclusiva para régimen subsidiado", "Unidades móviles de atención rural"],
       "tema": "Redes integradas",
@@ -45,7 +45,7 @@
       "respuestaCorrecta": "Asociaciones de Usuarios, Veedurías y Comités de Participación Comunitaria",
       "distractores": ["Sindicatos de trabajadores de la salud", "Consejos Municipales de Salud", "Juntas Directivas de las ESE"],
       "tema": "Participación social",
-      "explicacion": "Los usuarios participan en la gestión y control del sistema a través de Asociaciones de Usuarios, Veedurías Ciudadanas y COPACO.",
+"explicacion": "Los usuarios participan en la gestión y control del sistema a través de Asociaciones de Usuarios, Veedurías Ciudadanas y COPACO (Comités de Participación Comunitaria).",
       "leyReferencia": "ley1438"
     },
     {
