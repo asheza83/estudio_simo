@@ -146,6 +146,7 @@
     { "termino": "Provisionalidad", "definicion": "Situación de quien ocupa un cargo de carrera sin haber superado concurso, mientras se realiza la convocatoria correspondiente.", "categoria": "carrera" },
     { "termino": "Talento Humano en Salud", "definicion": "Conjunto de profesionales, técnicos y auxiliares que prestan servicios de salud, regulado por la Ley 1438 y la Resolución 1444 de 2025.", "categoria": "carrera" },
     { "termino": "Trabajador Oficial", "definicion": "Persona que presta servicios a una entidad pública en actividades de construcción y sostenimiento de obras, con régimen laboral diferente al empleado público.", "categoria": "carrera" },
+    { "termino": "Auxilio de transporte", "definicion": "Beneficio económico que recibe el trabajador para cubrir los costos de desplazamiento desde su lugar de residencia al sitio de trabajo. Para funcionarios públicos, está regulado por la Ley 100 de 1993 y decretos reglamentarios. En el sector salud, aplica al personal asistencial y administrativo según la normativa laboral vigente.", "categoria": "terminos", "siglas": null },
     { "termino": "Vacancia Definitiva", "definicion": "Situación de un empleo público que queda sin titular por renuncia, jubilación, muerte o destitución, y debe proveerse por concurso.", "categoria": "carrera" }
   ]
 }
