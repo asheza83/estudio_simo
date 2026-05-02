@@ -23,7 +23,7 @@
     },
     {
       "id": 23,
-      "texto": "Según la Ley 1438 de 2011, ¿cómo debe ingresar el personal de salud a las ESE?",
+      "texto": "Según la Ley 1438 de 2011, ¿Cómo debe ingresar el personal de salud a las ESE?",
       "respuestaCorrecta": "Por concurso de méritos con evaluación de competencias",
       "distractores": ["Por designación del gerente de la ESE", "Por elección de la junta directiva", "Por antigüedad en el sector salud"],
       "tema": "Carrera administrativa",
@@ -68,7 +68,7 @@
     },
     {
       "id": 28,
-      "texto": "Según la Ley 1438 de 2011, ¿qué deben garantizar las instituciones de salud a su talento humano?",
+      "texto": "Según la Ley 1438 de 2011, ¿Qué deben garantizar las instituciones de salud a su talento humano?",
       "respuestaCorrecta": "Formación continua y educación permanente",
       "distractores": ["Auxilio de transporte y alimentación", "Vivienda fiscal para funcionarios", "Jornada laboral de 6 horas diarias"],
       "tema": "Talento humano",

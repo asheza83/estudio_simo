@@ -14,7 +14,7 @@
     },
     {
       "id": 2,
-      "texto": "Según la Ley 100 de 1993, ¿cuál es el régimen de afiliación para un trabajador dependiente con capacidad de pago?",
+      "texto": "Según la Ley 100 de 1993, ¿Cuál es el régimen de afiliación para un trabajador dependiente con capacidad de pago?",
       "respuestaCorrecta": "Régimen Contributivo",
       "distractores": ["Régimen Subsidiado", "Régimen Especial", "Régimen de Pensiones"],
       "tema": "Regímenes de afiliación",
@@ -59,7 +59,7 @@
     },
     {
       "id": 7,
-      "texto": "Según la Ley 100 de 1993, ¿a quiénes está dirigido el Régimen Subsidiado?",
+      "texto": "Según la Ley 100 de 1993, ¿A quiénes está dirigido el Régimen Subsidiado?",
       "respuestaCorrecta": "Población pobre no asegurada sin capacidad de pago",
       "distractores": ["Trabajadores dependientes", "Servidores públicos", "Pensionados con ingresos altos"],
       "tema": "Regímenes de afiliación",
