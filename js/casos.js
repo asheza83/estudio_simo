@@ -21,8 +21,8 @@ export async function cargarCasos() {
         
         let html = `
             <div style="background-color: var(--azul); color: white; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
-                <h2 style="margin: 0 0 5px 0;">🩺 Casos prácticos y dilemas éticos</h2>
-                <p style="margin: 0;">Situaciones reales que evalúa SIMO en competencias funcionales y comportamentales</p>
+                <h3 style="margin: 0 0 5px 0;font-size: 1.1em">🩺 Casos prácticos y dilemas éticos</h3>
+                <p style="margin: 0; font-size: 1em"">Situaciones reales que evalúa SIMO en competencias funcionales y comportamentales</p>
             </div>
         `;
         
@@ -84,7 +84,7 @@ function actualizarListaCasos() {
         container.innerHTML = '<p style="text-align: center; padding: 40px;">📭 No hay casos en esta categoría.</p>';
     } else {
         let html = '';
-        casosPagina.forEach(caso => {
+        casosPagina.forEach((caso, index) => {
             let badgeColor = '';
             let badgeText = '';
             
@@ -106,7 +106,7 @@ function actualizarListaCasos() {
             html += `
                 <div style="background-color: var(--bg-principal); padding: 15px; border-radius: 12px; margin-bottom: 20px; border-left: 4px solid var(--azul); transition: transform 0.2s, box-shadow 0.2s;">
                     <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-bottom: 10px;">
-                        <h4 style="margin: 0;">📋 ${caso.titulo}</h4>
+                        <h4 style="margin: 0;">${startIndex + index + 1}. ${caso.titulo}</h4>                        
                         <span style="background: ${badgeColor}; color: white; padding: 4px 10px; border-radius: 20px; font-size: 1rem;">${badgeText}</span>
                     </div>
                     <p><strong>Situación:</strong> ${caso.situacion}</p>
