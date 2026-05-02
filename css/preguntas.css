@@ -160,3 +160,16 @@
   appearance: auto;
   -webkit-appearance: auto;
 }
+
+/* Estilo para botón Comenzar examen deshabilitado */
+#btn-comenzar-examen:disabled {
+    background-color: #6c757d !important;
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+#btn-comenzar-examen:disabled:hover {
+    background-color: #6c757d !important;
+    transform: none;
+}
