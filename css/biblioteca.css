@@ -64,3 +64,69 @@
 .seccion-estudio.fade-out {
     opacity: 0;
 }
+
+/* ============================================
+   ESTANDARIZACIÓN DE TAMAÑOS DE TEXTO
+   ============================================ */
+
+/* Tamaños base */
+body, .seccion-estudio, .tab-content {
+    font-size: 16px;
+}
+
+/* Encabezados consistentes */
+h2 {
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin: 0 0 10px 0;
+}
+
+/* Párrafos y texto normal */
+p, li, .seccion-estudio p, .seccion-estudio li {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Texto destacado */
+strong, b {
+    font-weight: bold;
+}
+
+/* Tarjetas de información */
+.seccion-estudio > div p {
+    font-size: 0.95rem;
+}
+
+/* Selector */
+#seccionEstudio {
+    font-size: 0.9rem;
+}
+
+/* Ajustes para móvil */
+@media (max-width: 768px) {
+    body, .seccion-estudio, .tab-content {
+        font-size: 14px;
+    }
+    
+    h2 {
+        font-size: 1.6rem;
+    }
+    
+    h3 {
+        font-size: 1.3rem;
+    }
+    
+    h4 {
+        font-size: 1.1rem;
+    }
+}

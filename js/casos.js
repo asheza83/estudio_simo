@@ -21,11 +21,11 @@ export async function cargarCasos() {
         
         let html = `
             <div style="background-color: var(--azul); color: white; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
-                <h3 style="margin: 0 0 5px 0;font-size: 1.1em">🩺 Casos prácticos y dilemas éticos</h3>
-                <p style="margin: 0; font-size: 1em"">Situaciones reales que evalúa SIMO en competencias funcionales y comportamentales</p>
+                <h3 style="margin: 0 0 5px 0;">🩺 Casos prácticos y dilemas éticos</h3>
+                <p style="margin: 0;">Situaciones reales que evalúa SIMO en competencias funcionales y comportamentales</p>
             </div>
         `;
-        
+
         // Filtros por categoría
         html += `
             <div style="margin-bottom: 16px;">
