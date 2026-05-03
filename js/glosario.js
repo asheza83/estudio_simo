@@ -82,6 +82,10 @@ export async function mostrarGlosario() {
                 });
             }
         }, 100);
+
+        setTimeout(() => {
+            window.scrollTo(0, 0);
+        }, 200);
         
         const buscador = document.getElementById('buscadorGlosario');
         if (buscador) {
