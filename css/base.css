@@ -119,3 +119,21 @@ body {
   margin: 0 auto;
   padding: 16px;
 }
+
+/* Mejora para modo oscuro en respuestas de casos */
+body.dark-mode .caso-details p {
+    background-color: #2a2a4a !important;
+    border-left: 3px solid var(--azul);
+    color: #e0e0e0;
+}
+
+.caso-summary {
+    cursor: pointer;
+    color: var(--azul);
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.caso-summary:hover {
+    color: var(--azul-hover);
+}

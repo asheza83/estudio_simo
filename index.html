@@ -340,6 +340,23 @@
         function irAPrincipalDesdePreguntas() {
             volverAlMenu();
         }
+
+        // Cambiar texto del summary cuando se abre/cierra
+        document.addEventListener('click', function(e) {
+            const summary = e.target.closest('.caso-summary');
+            if (summary) {
+                const details = summary.closest('.caso-details');
+                if (details) {
+                    setTimeout(() => {
+                        if (details.open) {
+                            summary.innerHTML = '🙈 Ocultar respuesta';
+                        } else {
+                            summary.innerHTML = '👁️ Ver respuesta orientativa';
+                        }
+                    }, 10);
+                }
+            }
+        });
         
         window.cambiarPestana = cambiarPestana;
         window.volverAlMenu = volverAlMenu;

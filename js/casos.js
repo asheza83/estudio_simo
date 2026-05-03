@@ -110,9 +110,9 @@ function actualizarListaCasos() {
                         <span style="background: ${badgeColor}; color: white; padding: 4px 10px; border-radius: 20px; font-size: 1rem;">${badgeText}</span>
                     </div>
                     <p><strong>Situación:</strong> ${caso.situacion}</p>
-                    <details>
-                        <summary style="cursor: pointer; color: var(--azul); font-weight: bold; font-size:1.3em;">👁️ Ver respuesta orientativa</summary>
-                        <p style="margin-top: 10px; padding: 10px; background: rgba(13,110,253,0.1); border-radius: 8px;">${caso.respuesta}</p>
+                    <details class="caso-details">
+                        <summary class="caso-summary">👁️ Ver respuesta orientativa</summary>
+                        <p style="margin-top: 10px; padding: 12px; background-color: var(--bg-secundario); border-left: 3px solid var(--azul); border-radius: 8px; color: var(--texto-principal);">${caso.respuesta}</p>
                     </details>
                 </div>
             `;
@@ -192,6 +192,7 @@ window.filtrarCasosPorCategoria = function(categoria) {
             btn.classList.add('active');
         }
     });
+    
     
     actualizarListaCasos();
 };
