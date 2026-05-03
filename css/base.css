@@ -122,7 +122,7 @@ body {
 
 /* Mejora para modo oscuro en respuestas de casos */
 body.dark-mode .caso-details p {
-    background-color: #2a2a4a !important;
+    background-color: #478ce6 !important;
     border-left: 3px solid var(--azul);
     color: #e0e0e0;
 }
