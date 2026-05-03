@@ -11,7 +11,7 @@ import { mostrarError } from './utils.js';
 export async function cargarLey(leyId) {
     try {
         const ley = leyesDisponibles.find(l => l.id === leyId);
-        const response = await fetch(ley.archivo);
+        const response = await fetch(`datos/leyes/${ley.id}.json`);
         const data = await response.json();
         setLeyActual(data);
         mostrarVistaLey();

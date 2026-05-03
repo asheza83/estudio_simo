@@ -1,0 +1,53 @@
+Listado de rutas de carpetas
+El n£mero de serie del volumen es 3447-529D
+C:.
+³   estructura.txt
+³   index.html
+³   index.json
+³   
+ÃÄÄÄcss
+³       base.css
+³       biblioteca.css
+³       estilos.css
+³       estilo_css.txt
+³       glosario.css
+³       header.css
+³       leyes.css
+³       main.css
+³       modal.css
+³       preguntas.css
+³       responsive.css
+³       tabs.css
+³       
+ÃÄÄÄdatos
+³   ³   casos.json
+³   ³   glosario.json
+³   ³   preguntas.json.bak
+³   ³   
+³   ÀÄÄÄpreguntas
+³       ÃÄÄÄbasicas
+³       ÃÄÄÄcomportamentales
+³       ÀÄÄÄfuncionales
+³               ley100.json
+³               ley1438.json
+³               
+ÃÄÄÄimg
+ÃÄÄÄjs
+³       ajustes.js
+³       app.js
+³       articulos.js
+³       biblioteca.js
+³       casos.js
+³       estado.js
+³       glosario.js
+³       leyes.js
+³       navegacion.js
+³       preguntas.js
+³       utils.js
+³       
+ÀÄÄÄleyes
+    ³   ley100.json
+    ³   ley1438.json
+    ³   
+    ÃÄÄÄbasicas
+    ÀÄÄÄcomportamentales

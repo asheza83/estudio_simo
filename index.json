@@ -6,7 +6,7 @@
       "nombre": "Ley 100 de 1993",
       "tipo": "ley",
       "descripcion": "Crea el Sistema General de Seguridad Social en Salud (SGSSS)",
-      "archivo": "leyes/ley100.json",
+      "archivo": "funcionales/ley100.json",
       "totalArticulos": 280,
       "relevantesEnfermeria": 32
     },
@@ -15,7 +15,7 @@
       "nombre": "Ley 1438 de 2011",
       "tipo": "ley",
       "descripcion": "Reforma el SGSSS con enfoque en Atención Primaria en Salud (APS)",
-      "archivo": "leyes/ley1438.json",
+      "archivo": "funcionales/ley1438.json",
       "totalArticulos": 78,
       "relevantesEnfermeria": 12
     }

@@ -58,7 +58,7 @@ async function cargarDatosIniciales() {
         let todasLasPreguntas = [];
         for (const ley of dataIndex.leyes) {
             try {
-                const response = await fetch(`datos/preguntas/${ley.id}.json`);
+                const response = await fetch(`datos/preguntas/${ley.archivo}`);
                 const data = await response.json();
                 todasLasPreguntas = todasLasPreguntas.concat(data.preguntas);
             } catch (e) {
