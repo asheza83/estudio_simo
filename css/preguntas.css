@@ -60,15 +60,17 @@
 }
 
 .feedback-exito {
-  background-color: rgba(25, 135, 84, 0.2);
-  border: 1px solid var(--exito);
-  color: var(--exito);
+  background-color: rgba(25, 135, 84, 0.85);
+  border-left: 4px solid var(--exito);
+  color: #ffffff;
+  font-weight: 500;
 }
 
 .feedback-error {
-  background-color: rgba(220, 53, 69, 0.2);
-  border: 1px solid var(--error);
-  color: var(--error);
+  background-color: rgba(220, 53, 69, 0.85);
+  border-left: 4px solid var(--error);
+  color: #ffffff;
+  font-weight: 500;
 }
 
 /* Botón Verificar - ESTILO ÚNICO */
