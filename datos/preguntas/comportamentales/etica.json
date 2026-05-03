@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "categoria": "comportamentales",
+  "subcategoria": "etica",
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "Un compañero comete un error en la administración de un medicamento. El paciente no sufre daño. ¿Qué debe hacer?",
+      "respuestaCorrecta": "Reportar el error al jefe inmediato",
+      "distractores": ["Ocultarlo para evitar problemas", "Ignorarlo", "Hablar solo con el compañero"],
+      "explicacion": "La ética profesional exige reportar errores para mejorar los sistemas de seguridad del paciente.",
+      "subcategoria": "etica"
+    },
+    {
+      "id": 2,
+      "texto": "Durante una emergencia, hay confusión entre los miembros del equipo sobre las funciones. ¿Cómo actúa como enfermero(a)?",
+      "respuestaCorrecta": "Asignar roles claros: compresiones, vía aérea, acceso venoso, registro",
+      "distractores": ["Esperar instrucciones del médico", "Hacer solo lo que sabe", "Salir a buscar ayuda"],
+      "explicacion": "En emergencias, el trabajo en equipo requiere comunicación clara y asignación de roles para una respuesta efectiva.",
+      "subcategoria": "etica"
+    }
+  ]
+}

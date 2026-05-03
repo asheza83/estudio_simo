@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "categoria": "comportamentales",
+  "subcategoria": "orientacion-servicio",
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "Un familiar de un paciente le exige información médica que usted no puede revelar por confidencialidad. ¿Cómo maneja la situación?",
+      "respuestaCorrecta": "Explicar respetuosamente que la información es confidencial y ofrecer hablar con el médico",
+      "distractores": ["Dar la información para evitar conflicto", "Ignorar al familiar", "Llamar a seguridad"],
+      "explicacion": "La orientación al servicio combina respeto por el usuario con cumplimiento de normas éticas y legales.",
+      "subcategoria": "orientacion-servicio"
+    }
+  ]
+}

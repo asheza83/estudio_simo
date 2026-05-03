@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "categoria": "basicas",
+  "subcategoria": "matematicas",
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "Si una dosis de medicamento es 5 ml por cada 10 kg de peso, ¿cuántos ml necesita un paciente de 70 kg?",
+      "respuestaCorrecta": "35 ml",
+      "distractores": ["30 ml", "40 ml", "25 ml"],
+      "explicacion": "Cálculo: (70 kg ÷ 10 kg) × 5 ml = 7 × 5 = 35 ml.",
+      "subcategoria": "matematicas"
+    }
+  ]
+}

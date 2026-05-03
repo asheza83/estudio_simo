@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "categoria": "basicas",
+  "subcategoria": "logicas",
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "Si un hospital tiene 4 enfermeras para 12 pacientes, ¿cuántas enfermeras se necesitan para 36 pacientes?",
+      "respuestaCorrecta": "12",
+      "distractores": ["8", "10", "14"],
+      "explicacion": "La proporción es 4 enfermeras para 12 pacientes = 1 enfermera por cada 3 pacientes. Para 36 pacientes: 36 ÷ 3 = 12 enfermeras.",
+      "subcategoria": "logicas"
+    },
+    {
+      "id": 2,
+      "texto": "Si todas las enfermeras deben tener tarjeta profesional, y Ana es enfermera, entonces:",
+      "respuestaCorrecta": "Ana debe tener tarjeta profesional",
+      "distractores": ["Ana no necesita tarjeta", "Ana es médica", "La tarjeta es opcional"],
+      "explicacion": "Es un silogismo básico: si todos los miembros de un grupo cumplen una condición, cada miembro individual la cumple.",
+      "subcategoria": "logicas"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "categoria": "basicas",
+  "subcategoria": "lectura-critica",
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "Lea el siguiente texto: 'El SGSSS garantiza atención en salud a todos los colombianos.' ¿Cuál es la idea principal?",
+      "respuestaCorrecta": "El SGSSS garantiza atención en salud universal",
+      "distractores": ["Solo atiende a trabajadores", "Es un seguro privado", "No cubre enfermedades graves"],
+      "explicacion": "La frase indica que el sistema garantiza atención a todos los colombianos, lo que significa universalidad.",
+      "subcategoria": "lectura-critica"
+    }
+  ]
+}

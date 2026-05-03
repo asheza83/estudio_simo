@@ -1,6 +1,6 @@
 // ============================================
 // MÓDULO: preguntas.js
-// Sistema completo de preguntas (v6 - CORREGIDO CON OCULTAMIENTO)
+// Sistema completo de preguntas (v7 - CON SELECTS ANIDADOS)
 // ============================================
 
 import { 
@@ -12,6 +12,39 @@ import { leyesDisponibles } from './estado.js';
 
 let filtroLeyActual = '';
 let examenGuardado = null;
+
+// Configuración de subcategorías por tipo de competencia
+const subcategoriasConfig = {
+    funcionales: [
+        { id: "ley100", nombre: "📄 Ley 100 de 1993" },
+        { id: "ley1438", nombre: "📄 Ley 1438 de 2011" }
+    ],
+    basicas: [
+        { id: "logicas", nombre: "🧠 Razonamiento lógico" },
+        { id: "matematicas", nombre: "🔢 Matemáticas aplicadas" },
+        { id: "lecturacritica", nombre: "📖 Lectura crítica" }  // ← Agregar
+    ],
+    comportamentales: [
+        { id: "etica", nombre: "⚖️ Ética profesional" },
+        { id: "trabajoequipo", nombre: "🤝 Trabajo en equipo" },        // ← Agregar
+        { id: "orientacionservicio", nombre: "🎯 Orientación al servicio" }  // ← Agregar
+    ]
+};
+
+// Mapa de rutas de archivos
+const rutasArchivos = {
+    // Funcionales
+    ley100: "funcionales/ley100.json",
+    ley1438: "funcionales/ley1438.json",
+    // Básicas
+    logicas: "basicas/logicas.json",
+    matematicas: "basicas/matematicas.json",
+    lecturacritica: "basicas/lectura-critica.json",
+    // Comportamentales
+    etica: "comportamentales/etica.json",
+    orientacionservicio: "comportamentales/orientacion-servicio.json",
+    trabajoequipo: "comportamentales/trabajo-equipo.json"
+};
 
 // ============================================
 // FUNCIONES PARA OCULTAR/MOSTRAR CONTENIDO DESCRIPTIVO
@@ -31,7 +64,41 @@ function restaurarContenidoDescriptivo() {
 }
 
 // ============================================
-// PANTALLA INICIAL - SELECTOR DE LEY
+// INICIALIZAR SELECTS ANIDADOS
+// ============================================
+export function inicializarSelectsCompetencias() {
+    const tipoSelect = document.getElementById('tipo-competencia');
+    const subcategoriaSelect = document.getElementById('subcategoria-competencia');
+    const btnExamen = document.getElementById('btn-comenzar-examen');
+    
+    if (!tipoSelect || !subcategoriaSelect) return;
+    
+    tipoSelect.addEventListener('change', function() {
+        const tipo = this.value;
+        
+        if (tipo && subcategoriasConfig[tipo]) {
+            subcategoriaSelect.innerHTML = '<option value="">Selecciona una subcategoría...</option>';
+            subcategoriasConfig[tipo].forEach(sub => {
+                subcategoriaSelect.innerHTML += `<option value="${sub.id}">${sub.nombre}</option>`;
+            });
+            subcategoriaSelect.style.display = 'block';
+            subcategoriaSelect.disabled = false;
+            btnExamen.disabled = true;
+        } else {
+            subcategoriaSelect.style.display = 'none';
+            subcategoriaSelect.disabled = true;
+            btnExamen.disabled = true;
+        }
+    });
+    
+    subcategoriaSelect.addEventListener('change', function() {
+        const btnExamen = document.getElementById('btn-comenzar-examen');
+        btnExamen.disabled = (this.value === '');
+    });
+}
+
+// ============================================
+// PANTALLA INICIAL
 // ============================================
 export function mostrarInicioPreguntas() {
     const inicio = document.getElementById('preguntas-inicio');
@@ -43,31 +110,8 @@ export function mostrarInicioPreguntas() {
     filtroLeyActual = '';
     examenGuardado = null;
     
-    const select = document.getElementById('filtro-ley-inicio');
-    if (select) {
-        select.innerHTML = '<option value="">📋 Selecciona las preguntas a realizar...</option>';
-        leyesDisponibles.forEach(ley => {
-            select.innerHTML += `<option value="${ley.id}">${ley.nombre}</option>`;
-        });
-        
-        // Remover event listeners previos para evitar duplicados
-        const newSelect = select.cloneNode(true);
-        select.parentNode.replaceChild(newSelect, select);
-        
-        newSelect.addEventListener('change', function() {
-            const btn = document.getElementById('btn-comenzar-examen');
-            filtroLeyActual = this.value;
-            if (btn) {
-                btn.disabled = (this.value === '' || this.value === null);
-            }
-        });
-    }
-    
-    const btn = document.getElementById('btn-comenzar-examen');
-    if (btn) {
-        btn.disabled = true;
-        filtroLeyActual = '';
-    }
+    // Inicializar selects anidados
+    inicializarSelectsCompetencias();
 }
 
 // ============================================
@@ -104,28 +148,41 @@ function mostrarModalContinuar() {
 }
 
 // ============================================
-// COMENZAR NUEVO EXAMEN
+// CARGAR PREGUNTAS DESDE ARCHIVO JSON
 // ============================================
-export function inicializarPreguntas(leyFiltro = null) {
-    if (!leyFiltro) {
-        const select = document.getElementById('filtro-ley-inicio');
-        leyFiltro = select ? select.value : filtroLeyActual;
+async function cargarPreguntasDesdeArchivo(archivoId) {
+    const ruta = rutasArchivos[archivoId];
+    if (!ruta) return null;
+    
+    try {
+        const response = await fetch(`datos/preguntas/${ruta}`);
+        const data = await response.json();
+        return data.preguntas || [];
+    } catch (error) {
+        console.error(`Error cargando preguntas de ${archivoId}:`, error);
+        return null;
+    }
+}
+
+// ============================================
+// INICIALIZAR EXAMEN
+// ============================================
+export async function inicializarPreguntas(archivoId = null) {
+    if (!archivoId) {
+        const subcategoriaSelect = document.getElementById('subcategoria-competencia');
+        archivoId = subcategoriaSelect ? subcategoriaSelect.value : null;
     }
     
-    if (!leyFiltro) return;
+    if (!archivoId) return;
     
-    filtroLeyActual = leyFiltro;
+    filtroLeyActual = archivoId;
     examenGuardado = null;
     
-    if (!preguntasBanco || preguntasBanco.length === 0) {
-        document.getElementById('preguntas-container').innerHTML = '<p>❌ Error: No hay preguntas disponibles.</p>';
-        return;
-    }
+    // Cargar preguntas desde el archivo correspondiente
+    const preguntas = await cargarPreguntasDesdeArchivo(archivoId);
     
-    const preguntasDisponibles = preguntasBanco.filter(p => p.leyReferencia === filtroLeyActual);
-    
-    if (preguntasDisponibles.length === 0) {
-        document.getElementById('preguntas-container').innerHTML = '<p>❌ No hay preguntas disponibles para esta norma.</p>';
+    if (!preguntas || preguntas.length === 0) {
+        document.getElementById('preguntas-container').innerHTML = '<p>❌ No hay preguntas disponibles para esta subcategoría.</p>';
         return;
     }
     
@@ -137,7 +194,7 @@ export function inicializarPreguntas(leyFiltro = null) {
     if (inicio) inicio.style.display = 'none';
     if (examen) examen.style.display = 'block';
     
-    const preguntasMezcladas = [...preguntasDisponibles].sort(() => Math.random() - 0.5);
+    const preguntasMezcladas = [...preguntas].sort(() => Math.random() - 0.5);
     const nuevasPreguntas = preguntasMezcladas.slice(0, PREGUNTAS_POR_SESION);
     setPreguntasActuales(nuevasPreguntas);
     setPreguntaActualIndex(0);
@@ -172,7 +229,6 @@ export function continuarExamen() {
     
     filtroLeyActual = examenGuardado.leyId;
     
-    // Ocultar contenido descriptivo
     ocultarContenidoDescriptivo();
     
     const inicio = document.getElementById('preguntas-inicio');
@@ -200,13 +256,12 @@ export function preguntarGuardarExamen() {
     const container = document.getElementById('preguntas-examen');
     if (container) container.style.display = 'block';
     
-    const ley = leyesDisponibles.find(l => l.id === filtroLeyActual);
-    const nombreLey = ley ? ley.nombre : filtroLeyActual;
+    const nombreExamen = filtroLeyActual;
     
     container.innerHTML = `
         <div class="pregunta-card" style="text-align: center;">
             <h3>⚠️ Tienes un examen en curso</h3>
-            <p style="margin: 12px 0;"><strong>${nombreLey}</strong></p>
+            <p style="margin: 12px 0;"><strong>${nombreExamen}</strong></p>
             <p style="margin: 8px 0;">Pregunta ${preguntaActualIndex + 1} de ${preguntasActuales.length}</p>
             <p style="margin: 12px 0;">¿Qué deseas hacer?</p>
             <hr style="border: 1px solid var(--borde); margin: 16px 0;">
@@ -247,7 +302,7 @@ export function seleccionarOpcion(indice) {
     if (respuesta.respondida) return;
     
     document.getElementById('btn-siguiente').disabled = false;
-    document.getElementById('btn-siguiente').style.display = 'block';  // ← Agregar esta línea
+    document.getElementById('btn-siguiente').style.display = 'block';
     window.opcionSeleccionada = indice;
 }
 
@@ -412,14 +467,33 @@ function avanzarSiguientePregunta() {
 
 function actualizarProgreso() {
     const progreso = document.getElementById('progreso-preguntas');
-    const ley = leyesDisponibles.find(l => l.id === filtroLeyActual);
-    const nombreLey = ley ? ley.nombre : '';
     
     if (progreso) {
+        // Buscar el nombre en leyesDisponibles para funcionales
+        let nombreMostrar = filtroLeyActual;
+        const leyEncontrada = leyesDisponibles.find(l => l.id === filtroLeyActual);
+        if (leyEncontrada) {
+            nombreMostrar = leyEncontrada.nombre;
+        } else {
+            // Para competencias básicas y comportamentales, usar nombres legibles
+            const nombresCompetencias = {
+                // Básicas
+                logicas: "Razonamiento lógico",
+                lecturacritica: "Lectura Crítica",
+                matematicas: "Matemáticas aplicadas",
+
+                // Comportamentales
+                etica: "Ética profesional",
+                orientacionservicio: "Orientación al Servicio",
+                trabajoequipo: "Trabajo en Equipo"
+            };
+            nombreMostrar = nombresCompetencias[filtroLeyActual] || filtroLeyActual;
+        }
+        
         progreso.innerHTML = `
             <div style="display:flex; justify-content:space-between; align-items:center;">
-                <span>📝 <strong>${nombreLey}</strong></span>
-<button onclick="window.comenzarNuevoExamen()" style="background:#dc3545; border:none; color:white; padding:6px 12px; border-radius:6px; cursor:pointer; font-size:0.85rem; font-weight:bold;">❌ Cancelar examen</button>            
+                <span>📝 <strong>${nombreMostrar}</strong></span>
+                <button onclick="window.comenzarNuevoExamen()" style="background:#dc3545; border:none; color:white; padding:6px 12px; border-radius:6px; cursor:pointer; font-size:0.85rem; font-weight:bold;">❌ Cancelar examen</button>            
             </div>
             <div style="margin-top:4px;">Pregunta ${preguntaActualIndex + 1} de ${preguntasActuales.length}</div>
         `;
@@ -491,7 +565,7 @@ function mostrarResumenFinal() {
             <hr style="border: 1px solid var(--borde); margin: 12px 0;">
             <div style="margin-top: 16px; display: flex; flex-direction: column; gap: 10px;">
                 <button class="boton-reiniciar" onclick="window.inicializarPreguntas('${filtroLeyActual}')">🔄 REPETIR EXAMEN</button>
-                <button class="boton-reiniciar" onclick="window.comenzarNuevoExamen()">📋 CAMBIAR DE NORMA</button>            
+                <button class="boton-reiniciar" onclick="window.comenzarNuevoExamen()">📋 CAMBIAR DE COMPETENCIA</button>            
             </div>
         </div>
         
@@ -545,9 +619,9 @@ export function hayExamenEnCurso() {
 }
 
 export function iniciarExamenDesdeSelect() {
-    const select = document.getElementById('filtro-ley-inicio');
-    if (select && select.value) {
-        inicializarPreguntas(select.value);
+    const subcategoriaSelect = document.getElementById('subcategoria-competencia');
+    if (subcategoriaSelect && subcategoriaSelect.value) {
+        inicializarPreguntas(subcategoriaSelect.value);
     }
 }
 

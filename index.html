@@ -172,35 +172,46 @@
         <!-- PESTAÑA TESTS -->
         <!-- ============================================ -->
         <div id="tab-preguntas" class="tab-content">
-    <div id="descripcion-prueba" style="background-color: var(--azul); color: white; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
-        <h2 style="margin: 0 0 5px 0;">📝 Prueba de competencias funcionales</h2>
-        <p style="margin: 0;">Esta sección evalúa tus conocimientos sobre la normatividad del sector salud (Ley 100, Ley 1438, decretos, resoluciones).</p>
-    </div>
-    
-    <div id="info-test" style="background-color: rgba(13, 110, 253, 0.05); border-left: 3px solid var(--azul); padding: 12px; border-radius: 8px; margin-bottom: 20px;">
-        <p style="margin: 0;">
-            <strong>📌 ¿Qué incluye este test?</strong><br>
-            • Preguntas sobre leyes, decretos y resoluciones del SGSSS<br>
-            • 5 preguntas aleatorias por examen<br>
-            • Feedback inmediato al responder<br>
-            • Resumen final con estadísticas<br><br>
-            <strong>⚠️ Nota:</strong> Las competencias básicas (razonamiento lógico, matemáticas, lectura crítica) y las competencias comportamentales (ética, trabajo en equipo) no se evalúan en esta sección.
-        </p>
-    </div>
-    
-    <div id="preguntas-inicio">
-        <p style="text-align:center; margin-bottom:16px;">Selecciona la norma que quieras estudiar y presiona COMENZAR EXAMEN.</p>
-        <select id="filtro-ley-inicio" class="filtro-select">
-            <option value="">📋 Selecciona las preguntas a realizar...</option>
-        </select>
-        <button id="btn-comenzar-examen" class="boton-reiniciar" onclick="iniciarExamenDesdeSelect()">🎲 COMENZAR EXAMEN</button>
-    </div>
-    
-    <div id="preguntas-examen" style="display:none;">
-        <div id="progreso-preguntas" style="margin-bottom: 15px; font-weight: bold;"></div>
-        <div id="preguntas-container"></div>
-    </div>
-</div>
+            <div id="descripcion-prueba" style="background-color: var(--azul); color: white; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                <h2 style="margin: 0 0 5px 0;">📝 Prueba de competencias funcionales</h2>
+                <p style="margin: 0;">Esta sección evalúa tus conocimientos sobre la normatividad del sector salud (Ley 100, Ley 1438, decretos, resoluciones).</p>
+            </div>
+            
+            <div id="info-test" style="background-color: rgba(13, 110, 253, 0.05); border-left: 3px solid var(--azul); padding: 12px; border-radius: 8px; margin-bottom: 20px;">
+                <p style="margin: 0;">
+                    <strong>📌 ¿Qué incluye este test?</strong><br>
+                    • Preguntas sobre leyes, decretos y resoluciones del SGSSS<br>
+                    • 5 preguntas aleatorias por examen<br>
+                    • Feedback inmediato al responder<br>
+                    • Resumen final con estadísticas<br><br>
+                    <strong>⚠️ Nota:</strong> Las competencias básicas (razonamiento lógico, matemáticas, lectura crítica) y las competencias comportamentales (ética, trabajo en equipo) no se evalúan en esta sección.
+                </p>
+            </div>
+            
+            <div id="preguntas-inicio">
+                <p style="text-align:center; margin-bottom:16px;">Selecciona el tipo de competencia y la subcategoría para comenzar el examen:</p>
+                
+                <!-- Selector 1: Tipo de competencia -->
+                <select id="tipo-competencia" class="filtro-select" style="margin-bottom: 10px;">
+                    <option value="">📋 Selecciona el tipo de competencia...</option>
+                    <option value="funcionales">🩺 Competencias funcionales (Leyes)</option>
+                    <option value="basicas">📖 Competencias básicas (Lógica, Matemáticas, Lectura Crítica)</option>
+                    <option value="comportamentales">🤝 Competencias comportamentales (Ética, Orientación al Servicio, Trabano en Equipo)</option>
+                </select>
+                
+                <!-- Selector 2: Subcategoría (oculto al inicio) -->
+                <select id="subcategoria-competencia" class="filtro-select" style="display: none;">
+                    <option value="">Primero selecciona el tipo de competencia</option>
+                </select>
+                
+                <button id="btn-comenzar-examen" class="boton-reiniciar" onclick="iniciarExamenDesdeSelect()" disabled>🎲 COMENZAR EXAMEN</button>
+            </div>
+            
+            <div id="preguntas-examen" style="display:none;">
+                <div id="progreso-preguntas" style="margin-bottom: 15px; font-weight: bold;"></div>
+                <div id="preguntas-container"></div>
+            </div>
+        </div>
 
         <!-- ============================================ -->
         <!-- PESTAÑA GLOSARIO -->

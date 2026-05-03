@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "categoria": "comportamentales",
+  "subcategoria": "trabajo-equipo",
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "Durante una emergencia, hay confusión entre los miembros del equipo sobre las funciones. ¿Cómo actúa como enfermero(a)?",
+      "respuestaCorrecta": "Asignar roles claros: compresiones, vía aérea, acceso venoso, registro",
+      "distractores": ["Esperar instrucciones del médico", "Hacer solo lo que sabe", "Salir a buscar ayuda"],
+      "explicacion": "En emergencias, el trabajo en equipo requiere comunicación clara y asignación de roles para una respuesta efectiva.",
+      "subcategoria": "trabajo-equipo"
+    }
+  ]
+}
