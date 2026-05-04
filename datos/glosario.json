@@ -158,6 +158,11 @@
     { "termino": "Clonazepam", "definicion": "Benzodiazepina utilizada como anticonvulsivante y ansiolítico. En salud mental, se emplea para tratar trastornos de ansiedad, pánico y crisis epilépticas.", "categoria": "terminos" },
     { "termino": "Liofilizado", "definicion": "Producto farmacéutico que ha sido deshidratado mediante congelación y sublimación para conservar su estabilidad, requiriendo reconstitución antes de su administración.", "categoria": "terminos" },
     { "termino": "Reconstitución", "definicion": "Procedimiento de agregar un diluyente (generalmente agua estéril) a un medicamento liofilizado para obtener una solución inyectable lista para administrar.", "categoria": "terminos" },
-    { "termino": "Antipsicótico", "definicion": "Medicamento utilizado para tratar síntomas psicóticos como alucinaciones, delirios o agitación severa. Incluye haloperidol, olanzapina, risperidona, entre otros.", "categoria": "terminos" }
+    { "termino": "Antipsicótico", "definicion": "Medicamento utilizado para tratar síntomas psicóticos como alucinaciones, delirios o agitación severa. Incluye haloperidol, olanzapina, risperidona, entre otros.", "categoria": "terminos" },
+    { "termino": "Riesgo inminente", "definicion": "Situación en la que existe una amenaza inmediata y grave para la vida o la integridad física de una persona, justificando la adopción de medidas urgentes incluso sin consentimiento.", "categoria": "terminos" },
+    { "termino": "Agitación psicomotriz", "definicion": "Estado de excesiva actividad motora asociada a tensión interna, inquietud y respuesta aumentada a estímulos externos, común en trastornos psiquiátricos agudos.", "categoria": "terminos" },
+    { "termino": "Verborragia", "definicion": "Alteración del lenguaje caracterizada por un flujo excesivo de palabras, a menudo incontrolable, asociada a estados maníacos o crisis psicóticas.", "categoria": "terminos" },
+    { "termino": "Código de seguridad", "definicion": "Protocolo de activación inmediata en situaciones de riesgo para la seguridad del paciente o del personal, movilizando al equipo correspondiente según el tipo de emergencia.", "categoria": "terminos" },
+    { "termino": "Evento adverso", "definicion": "Situación no deseada durante la atención en salud que resulta en daño al paciente, pudiendo ser prevenible mediante protocolos adecuados.", "categoria": "terminos" }
   ]
 }

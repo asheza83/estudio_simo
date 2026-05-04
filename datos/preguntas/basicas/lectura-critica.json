@@ -5,11 +5,203 @@
   "preguntas": [
     {
       "id": 1,
-      "texto": "Lea el siguiente texto: 'El SGSSS garantiza atención en salud a todos los colombianos.' ¿Cuál es la idea principal?",
-      "respuestaCorrecta": "El SGSSS garantiza atención en salud universal",
-      "distractores": ["Solo atiende a trabajadores", "Es un seguro privado", "No cubre enfermedades graves"],
-      "explicacion": "La frase indica que el sistema garantiza atención a todos los colombianos, lo que significa universalidad.",
-      "subcategoria": "lectura-critica"
+      "texto": "Lea el siguiente fragmento del protocolo de HOMERIS: 'Ante un paciente con agitación psicomotriz severa, el personal de enfermería debe activar el código de seguridad, retirar objetos peligrosos del entorno y mantener una distancia de seguridad mientras se espera la orden médica.' ¿Cuál de las siguientes opciones describe el ORDEN correcto de las acciones?",
+      "respuestaCorrecta": "Activar código, retirar objetos, mantener distancia, esperar orden médica",
+      "explicacionCorrecta": "El texto establece el orden: primero activar código de seguridad, luego retirar objetos peligrosos, después mantener distancia y finalmente esperar la orden médica.",
+      "distractores": [
+        {
+          "texto": "Mantener distancia, activar código, retirar objetos, esperar orden",
+          "explicacion": "Es incorrecta porque el texto indica que mantener distancia es posterior a las primeras acciones, no la primera."
+        },
+        {
+          "texto": "Esperar orden, activar código, retirar objetos, mantener distancia",
+          "explicacion": "Es incorrecta porque esperar la orden médica es la última acción, no la primera."
+        },
+        {
+          "texto": "Retirar objetos, activar código, esperar orden, mantener distancia",
+          "explicacion": "Es incorrecta porque activar el código es la primera acción, no la segunda."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "texto": "Lea el siguiente texto: 'La Ley 1616 de 2013 garantiza el derecho a la salud mental de todos los colombianos. Esta ley establece que la atención debe ser integral, intersectorial y basada en la comunidad. Además, prohíbe cualquier forma de discriminación hacia las personas con trastornos mentales.' ¿Qué características de la atención establece esta ley?",
+      "respuestaCorrecta": "Integral, intersectorial y basada en la comunidad",
+      "explicacionCorrecta": "El texto menciona explícitamente que la atención debe ser 'integral, intersectorial y basada en la comunidad'.",
+      "distractores": [
+        {
+          "texto": "Hospitalaria, especializada y centralizada",
+          "explicacion": "Es incorrecta porque el texto enfatiza el enfoque comunitario, no hospitalario centralizado."
+        },
+        {
+          "texto": "Privada, voluntaria y con costo compartido",
+          "explicacion": "Es incorrecta porque el texto no menciona carácter privado ni costos."
+        },
+        {
+          "texto": "Urgente, inmediata y exclusiva para crisis",
+          "explicacion": "Es incorrecta porque la ley busca atención integral, no solo para crisis."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "texto": "Lea el siguiente extracto de una historia clínica de HOMERIS: 'Paciente de 34 años, ingresado por crisis psicótica aguda. Antecedentes de consumo de sustancias psicoactivas. Al ingreso se encuentra desorientado, con alucinaciones auditivas y verborragia. Se inicia tratamiento con risperidona 2 mg cada 12 horas.' ¿Cuál es el síntoma que NO está presente en el paciente según el texto?",
+      "respuestaCorrecta": "Apatía",
+      "explicacionCorrecta": "El texto describe desorientación, alucinaciones auditivas y verborragia. No menciona apatía en ningún momento.",
+      "distractores": [
+        {
+          "texto": "Desorientación",
+          "explicacion": "Es incorrecta porque el texto menciona explícitamente que 'se encuentra desorientado'."
+        },
+        {
+          "texto": "Alucinaciones auditivas",
+          "explicacion": "Es incorrecta porque el texto menciona 'con alucinaciones auditivas'."
+        },
+        {
+          "texto": "Verborragia",
+          "explicacion": "Es incorrecta porque el texto menciona 'y verborragia' como síntoma presente."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "texto": "Lea el siguiente aviso del Ministerio de Salud: 'A partir del 1 de enero de 2025, todas las IPS deberán implementar el nuevo sistema de historia clínica electrónica interoperable. Las entidades que no cumplan con esta disposición dentro del plazo establecido serán sujetas a sanciones económicas.' ¿Qué se puede inferir sobre las IPS que cumplan con la disposición?",
+      "respuestaCorrecta": "No recibirán sanciones económicas",
+      "explicacionCorrecta": "Se infiere que si las sanciones son para quienes NO cumplen, quienes sí cumplen no serán sancionados.",
+      "distractores": [
+        {
+          "texto": "Recibirán un incentivo económico",
+          "explicacion": "Es incorrecta porque el texto no menciona ningún incentivo para quienes cumplan."
+        },
+        {
+          "texto": "Tendrán prioridad en auditorías",
+          "explicacion": "Es incorrecta porque el texto no menciona prioridad alguna."
+        },
+        {
+          "texto": "Podrán operar sin restricciones",
+          "explicacion": "Es incorrecta porque operar sin restricciones es la condición normal, no una inferencia específica."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "texto": "Lea el siguiente fragmento de un artículo del Código Deontológico de Enfermería: 'El profesional de enfermería respetará la confidencialidad de la información del paciente, excepto cuando exista riesgo inminente para la vida del paciente o de terceros.' ¿En cuál de las siguientes situaciones el profesional DEBE romper la confidencialidad según el texto?",
+      "respuestaCorrecta": "El paciente amenaza con herir a otro paciente",
+      "explicacionCorrecta": "Existe riesgo inminente para un tercero, lo cual es una excepción a la confidencialidad según el texto.",
+      "distractores": [
+        {
+          "texto": "El familiar del paciente solicita información",
+          "explicacion": "Es incorrecta porque la solicitud familiar no es una excepción mencionada en el texto."
+        },
+        {
+          "texto": "El paciente tiene una enfermedad terminal",
+          "explicacion": "Es incorrecta porque enfermedad terminal no implica riesgo inminente para otros."
+        },
+        {
+          "texto": "El médico tratante lo solicita",
+          "explicacion": "Es incorrecta porque la orden médica no es excepción a la confidencialidad."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "texto": "Lea el siguiente texto sobre el Plan de Beneficios en Salud (PBS): 'El PBS garantiza servicios de promoción, prevención, diagnóstico, tratamiento y rehabilitación. Los servicios excluidos requieren autorización previa de la EPS.' ¿Qué se requiere para acceder a un servicio excluido del PBS?",
+      "respuestaCorrecta": "Autorización previa de la EPS",
+      "explicacionCorrecta": "El texto indica explícitamente que los servicios excluidos 'requieren autorización previa de la EPS'.",
+      "distractores": [
+        {
+          "texto": "Un fallo de tutela",
+          "explicacion": "Es incorrecta porque la tutela es un recurso legal, no el requisito mencionado en el texto."
+        },
+        {
+          "texto": "Pago particular del servicio",
+          "explicacion": "Es incorrecta porque el texto no menciona pago particular como alternativa a la autorización."
+        },
+        {
+          "texto": "Orden del Ministerio de Salud",
+          "explicacion": "Es incorrecta porque no se menciona intervención ministerial en ese proceso."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "texto": "Lea el siguiente mensaje del Comité de Calidad de HOMERIS: 'El ausentismo laboral en el piso de hospitalización aumentó un 12% en el último trimestre. Se recomienda fortalecer los programas de bienestar laboral y revisar las cargas de trabajo.' ¿Qué problema busca solucionar el comité con sus recomendaciones?",
+      "respuestaCorrecta": "El aumento del ausentismo laboral",
+      "explicacionCorrecta": "El texto menciona que el ausentismo aumentó un 12% y las recomendaciones están dirigidas a mejorar las condiciones laborales para reducir ese ausentismo.",
+      "distractores": [
+        {
+          "texto": "La falta de personal calificado",
+          "explicacion": "Es incorrecta porque el texto no menciona falta de calificación del personal."
+        },
+        {
+          "texto": "El bajo rendimiento laboral",
+          "explicacion": "Es incorrecta porque el texto no menciona rendimiento laboral, solo ausentismo."
+        },
+        {
+          "texto": "La mala calidad de atención",
+          "explicacion": "Es incorrecta porque el texto no relaciona directamente ausentismo con calidad de atención."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "texto": "Lea el siguiente fragmento del informe de incidentes de HOMERIS: 'Se reportó un evento adverso en la administración de medicamentos: dosis incorrecta de haloperidol (10 mg en lugar de 5 mg). El paciente no presentó complicaciones. Se recomienda verificar doblemente la dosis antes de administrar.' ¿Qué medida correctiva se sugiere implementar?",
+      "respuestaCorrecta": "Verificar doblemente la dosis antes de administrar",
+      "explicacionCorrecta": "El texto recomienda 'verificar doblemente la dosis antes de administrar' como medida preventiva.",
+      "distractores": [
+        {
+          "texto": "Suspender la administración de haloperidol",
+          "explicacion": "Es incorrecta porque el texto no sugiere suspender el medicamento, sino mejorar el proceso."
+        },
+        {
+          "texto": "Capacitar solo al personal involucrado",
+          "explicacion": "Es incorrecta porque la recomendación es sobre el proceso, no sobre capacitación individual."
+        },
+        {
+          "texto": "Administrar siempre la dosis menor",
+          "explicacion": "Es incorrecta porque la dosis debe ser la indicada, no siempre la menor."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "texto": "Lea el siguiente texto: 'Según la Resolución 1444 de 2025, los auxiliares de enfermería deben realizar un curso de actualización cada 3 años para mantener su certificación vigente. El incumplimiento de esta obligación será causal de inhabilitación temporal.' ¿Cuál es la consecuencia de no realizar el curso de actualización?",
+      "respuestaCorrecta": "Inhabilitación temporal",
+      "explicacionCorrecta": "El texto indica que el incumplimiento 'será causal de inhabilitación temporal'.",
+      "distractores": [
+        {
+          "texto": "Pérdida definitiva de la certificación",
+          "explicacion": "Es incorrecta porque el texto especifica 'inhabilitación temporal', no definitiva."
+        },
+        {
+          "texto": "Multa económica",
+          "explicacion": "Es incorrecta porque el texto no menciona multa como consecuencia."
+        },
+        {
+          "texto": "Realizar el curso de forma intensiva",
+          "explicacion": "Es incorrecta porque la inhabilitación es la consecuencia, no una oportunidad de recuperación."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "texto": "Lea el siguiente extracto del manual de bioseguridad de HOMERIS: 'El lavado de manos debe realizarse antes y después de cada contacto con el paciente. En procedimientos invasivos, además del lavado, deben usarse guantes estériles.' ¿En qué situaciones se requiere el uso de guantes estériles?",
+      "respuestaCorrecta": "En procedimientos invasivos",
+      "explicacionCorrecta": "El texto indica que 'en procedimientos invasivos, además del lavado, deben usarse guantes estériles'.",
+      "distractores": [
+        {
+          "texto": "Antes de cada contacto con el paciente",
+          "explicacion": "Es incorrecta porque antes de cada contacto solo se requiere lavado de manos, no guantes estériles."
+        },
+        {
+          "texto": "Después de cada contacto con el paciente",
+          "explicacion": "Es incorrecta porque el texto no menciona uso de guantes estériles después del contacto."
+        },
+        {
+          "texto": "En procedimientos no invasivos",
+          "explicacion": "Es incorrecta porque el texto especifica que es solo en procedimientos invasivos."
+        }
+      ]
     }
   ]
 }
