@@ -171,6 +171,9 @@
     { "termino": "Consentimiento informado", "definicion": "Derecho del paciente a recibir información clara sobre su diagnóstico y tratamiento antes de autorizar cualquier procedimiento médico. En salud mental, puede implicar evaluación de capacidad de decisión.", "categoria": "terminos" },
     { "termino": "Confidencialidad", "definicion": "Obligación legal y ética del personal de salud de proteger la información privada del paciente contenida en la historia clínica.", "categoria": "principios" },
     { "termino": "Autonomía", "definicion": "Principio ético que reconoce el derecho del paciente a tomar decisiones informadas sobre su salud, respetando sus valores y preferencias.", "categoria": "principios" },
-    { "termino": "Trastorno límite de la personalidad", "definicion": "Trastorno psiquiátrico caracterizado por inestabilidad emocional, relaciones interpersonales intensas, impulsividad y alteración de la autoimagen.", "categoria": "terminos" }
+    { "termino": "Trastorno límite de la personalidad", "definicion": "Trastorno psiquiátrico caracterizado por inestabilidad emocional, relaciones interpersonales intensas, impulsividad y alteración de la autoimagen.", "categoria": "terminos" },
+    { "termino": "Validación emocional", "definicion": "Técnica de comunicación que reconoce y acepta las emociones del paciente sin juzgarlas, fundamental en la atención de salud mental para reducir la ansiedad y construir confianza.", "categoria": "terminos" },
+    { "termino": "Contención verbal", "definicion": "Estrategia de manejo de crisis que utiliza la comunicación calmada y no confrontacional para reducir la agitación del paciente evitando la contención mecánica.", "categoria": "terminos" },
+    { "termino": "Adherencia terapéutica", "definicion": "Grado en que el paciente sigue las indicaciones médicas (medicación, seguimiento, cambios de hábitos). La orientación al servicio mejora la adherencia mediante comunicación clara y apoyo.", "categoria": "terminos" }
   ]
 }

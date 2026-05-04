@@ -5,11 +5,203 @@
   "preguntas": [
     {
       "id": 1,
-      "texto": "Un familiar de un paciente le exige información médica que usted no puede revelar por confidencialidad. ¿Cómo maneja la situación?",
-      "respuestaCorrecta": "Explicar respetuosamente que la información es confidencial y ofrecer hablar con el médico",
-      "distractores": ["Dar la información para evitar conflicto", "Ignorar al familiar", "Llamar a seguridad"],
-      "explicacion": "La orientación al servicio combina respeto por el usuario con cumplimiento de normas éticas y legales.",
-      "subcategoria": "orientacion-servicio"
+      "texto": "Un familiar de un paciente psiquiátrico se queja insistentemente porque no le permiten ingresar alimentos desde fuera. La norma hospitalaria lo prohíbe por riesgo de interacciones medicamentosas. ¿Cuál es la mejor respuesta del enfermero?",
+      "respuestaCorrecta": "Explicar la norma hospitalaria y ofrecer alternativas permitidas desde el servicio de nutrición",
+      "explicacionCorrecta": "La orientación al servicio combina explicación clara de normas con ofrecimiento de alternativas viables, no imposición ni evasión.",
+      "distractores": [
+        {
+          "texto": "Ignorar la queja y cambiar de tema",
+          "explicacion": "Incorrecto. Ignorar no resuelve la preocupación del familiar y daña la confianza en el servicio."
+        },
+        {
+          "texto": "Permitir el ingreso para evitar el conflicto",
+          "explicacion": "Incorrecto. Ceder sin explicación viola normas de seguridad y puede generar expectativas incorrectas."
+        },
+        {
+          "texto": "Remitir al familiar a otro funcionario sin dar respuesta",
+          "explicacion": "Incorrecto. Derivar sin explicación previa es evasivo y no proporciona solución inmediata."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "texto": "Un paciente con trastorno depresivo le dice: 'Nadie me entiende, ¿para qué sigo viniendo?' ¿Cuál es la respuesta más adecuada?",
+      "respuestaCorrecta": "Reconocer su malestar y ofrecer escucha activa para identificar preocupaciones específicas",
+      "explicacionCorrecta": "La orientación al servicio en salud mental requiere validar el malestar del paciente y explorar sus expectativas, no minimizar ni generalizar.",
+      "distractores": [
+        {
+          "texto": "Decirle que todos los pacientes se sienten igual al principio",
+          "explicacion": "Incorrecto. Minimiza su experiencia única y no aborda su malestar específico."
+        },
+        {
+          "texto": "Preguntarle si desea suspender el tratamiento",
+          "explicacion": "Incorrecto. Ofrecer suspensión como primera opción comunica desinterés por resolver sus dudas."
+        },
+        {
+          "texto": "Responderle que debe tener paciencia con el proceso",
+          "explicacion": "Incorrecto. Generaliza sin reconocer su sufrimiento actual ni explorar causas."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "texto": "Un paciente psiquiátrico se niega a tomar su medicación y se muestra irritable. ¿Cuál es la acción inicial más adecuada?",
+      "respuestaCorrecta": "Preguntar sobre la razón de su negativa y explorar alternativas viables",
+      "explicacionCorrecta": "La orientación al servicio implica comprender la causa de la negativa antes de imponer el tratamiento, buscando soluciones colaborativas.",
+      "distractores": [
+        {
+          "texto": "Notificar al médico y esperar instrucciones",
+          "explicacion": "Incorrecto. Delegar sin intentar comprender al paciente pospone la solución y puede aumentar su irritabilidad."
+        },
+        {
+          "texto": "Administrar la medicación por vía alternativa sin consultar",
+          "explicacion": "Incorrecto. Actuar sin validar con el paciente vulnera su autonomía y puede dañar la relación terapéutica."
+        },
+        {
+          "texto": "Documentar la negativa y suspender la medicación",
+          "explicacion": "Incorrecto. Suspender sin explorar alternativas puede poner en riesgo la estabilidad clínica del paciente."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "texto": "Un paciente se queja del tiempo de espera para ser atendido. El servicio está congestionado por alta demanda. ¿Cómo responde el profesional?",
+      "respuestaCorrecta": "Disculparse por la demora, explicar la situación actual y priorizar según urgencia",
+      "explicacionCorrecta": "La orientación al servicio exige disculpa genuina, transparencia sobre la situación y acciones para mitigar la espera, no evasión ni justificación defensiva.",
+      "distractores": [
+        {
+          "texto": "Informar que la demora no es responsabilidad de enfermería",
+          "explicacion": "Incorrecto. Evadir responsabilidad daña la confianza del usuario en el servicio."
+        },
+        {
+          "texto": "Acelerar su atención para silenciar la queja",
+          "explicacion": "Incorrecto. Priorizar a quien se queja puede ser injusto con otros pacientes."
+        },
+        {
+          "texto": "Solicitar al paciente que espere sin más explicación",
+          "explicacion": "Incorrecto. No aborda su malestar ni proporciona información que reduzca su ansiedad."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "texto": "Un paciente pregunta sobre un resultado de examen que aún no está disponible. El médico responsable no se encuentra. ¿Qué hace el enfermero?",
+      "respuestaCorrecta": "Explicar que solo el médico puede interpretar resultados y ofrecer agendar seguimiento",
+      "explicacionCorrecta": "La orientación al servicio implica dar información clara sobre los límites de la propia función y ofrecer alternativas concretas, no inventar ni posponer indefinidamente.",
+      "distractores": [
+        {
+          "texto": "Intentar interpretar el resultado si lo encuentra accesible",
+          "explicacion": "Incorrecto. Actuar fuera de las funciones propias puede generar errores y comprometer la seguridad."
+        },
+        {
+          "texto": "Decir que el médico es el único que sabe y retirarse",
+          "explicacion": "Incorrecto. La respuesta es evasiva y no ofrece ninguna alternativa al paciente."
+        },
+        {
+          "texto": "Entregar el resultado sin explicación ni seguimiento",
+          "explicacion": "Incorrecto. Abandona al paciente sin orientación sobre el significado del resultado."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "texto": "Un familiar quiere hablar con el médico sobre el diagnóstico del paciente, pero el médico está en una urgencia. ¿Cómo maneja la situación?",
+      "respuestaCorrecta": "Registrar la solicitud, explicar la situación actual y ofrecer contacto al finalizar la urgencia",
+      "explicacionCorrecta": "La orientación al servicio incluye recibir solicitudes, comunicar tiempos realistas y hacer seguimiento, no rechazar sin solución.",
+      "distractores": [
+        {
+          "texto": "Negarse a recibir la solicitud por falta de tiempo",
+          "explicacion": "Incorrecto. Rechazar sin alternativas genera frustración y desconfianza en el servicio."
+        },
+        {
+          "texto": "Decir que hable con otro funcionario desconocido",
+          "explicacion": "Incorrecto. Derivar sin propósito ni conocimiento del destino no resuelve."
+        },
+        {
+          "texto": "Prometer que el médico llamará en minutos sin certeza",
+          "explicacion": "Incorrecto. Generar falsas expectativas puede empeorar la situación si no se cumple."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "texto": "Un paciente con trastorno de ansiedad pregunta repetidamente la misma información sobre su tratamiento. ¿Cuál es la mejor respuesta?",
+      "respuestaCorrecta": "Responder con paciencia y verificar su comprensión nuevamente",
+      "explicacionCorrecta": "La orientación al servicio en salud mental requiere paciencia y verificación de comprensión, especialmente con pacientes ansiosos, no irritabilidad ni mecanización.",
+      "distractores": [
+        {
+          "texto": "Responder con fastidio y pedir que preste atención",
+          "explicacion": "Incorrecto. La irritabilidad aumenta la ansiedad del paciente y deteriora la comunicación."
+        },
+        {
+          "texto": "Responder solo la primera vez y luego ignorar",
+          "explicacion": "Incorrecto. Ignorar no resuelve la necesidad subyacente de seguridad del paciente."
+        },
+        {
+          "texto": "Entregar la información por escrito sin más explicación",
+          "explicacion": "Incorrecto. No verifica si el material escrito es comprendido por el paciente."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "texto": "Un paciente agradece el trato recibido. ¿Cómo debe responder el profesional de enfermería para reforzar una buena orientación al servicio?",
+      "respuestaCorrecta": "Agradecer el reconocimiento y expresar satisfacción por haber ayudado",
+      "explicacionCorrecta": "Recibir adecuadamente los elogios refuerza la motivación del profesional y la confianza del paciente, sin falsa modestia ni indiferencia.",
+      "distractores": [
+        {
+          "texto": "Decir que solo hace su trabajo",
+          "explicacion": "Incorrecto. Restar importancia al agradecimiento puede minimizar el esfuerzo del paciente por expresarlo."
+        },
+        {
+          "texto": "Ignorar el agradecimiento para no parecer arrogante",
+          "explicacion": "Incorrecto. Ignorar puede interpretarse como indiferencia hacia el paciente."
+        },
+        {
+          "texto": "Responder que siempre trata bien a todos",
+          "explicacion": "Incorrecto. Una respuesta genérica resta valor al elogio específico del paciente."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "texto": "Un paciente psiquiátrico en crisis verbal intenta golpear la puerta. ¿Cómo actúa el personal para protegerlo sin empeorar la situación?",
+      "respuestaCorrecta": "Hablar calmadamente, ofrecer un espacio seguro y validar su malestar",
+      "explicacionCorrecta": "La orientación al servicio en crisis implica contención verbal y validación emocional, no confrontación ni abandono, priorizando la seguridad sin estigmatizar.",
+      "distractores": [
+        {
+          "texto": "Inmovilizarlo inmediatamente sin diálogo previo",
+          "explicacion": "Incorrecto. La inmovilización sin intento de contención verbal puede exacerbar la crisis."
+        },
+        {
+          "texto": "Dejarlo solo para que se calme",
+          "explicacion": "Incorrecto. Abandonar al paciente en crisis puede aumentar su descontrol."
+        },
+        {
+          "texto": "Sujetar la puerta sin dirigirle la palabra",
+          "explicacion": "Incorrecto. La contención física sin comunicación no resuelve la causa emocional de la crisis."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "texto": "Un paciente con discapacidad cognitiva leve tiene dificultad para recordar las indicaciones del alta. ¿Cuál es la conducta más adecuada del enfermero?",
+      "respuestaCorrecta": "Repetir las instrucciones con lenguaje claro y entregar resumen escrito al retirarse",
+      "explicacionCorrecta": "La orientación al servicio exige adaptar la comunicación a las capacidades del paciente, asegurando comprensión mediante refuerzo verbal y escrito, no frustración ni abandono.",
+      "distractores": [
+        {
+          "texto": "Dar las instrucciones una sola vez con lenguaje complejo",
+          "explicacion": "Incorrecto. No garantiza la comprensión en pacientes con dificultades cognitivas."
+        },
+        {
+          "texto": "Entregar las indicaciones a un familiar sin confirmar entendimiento",
+          "explicacion": "Incorrecto. No verifica la comprensión del paciente ni garantiza su adherencia."
+        },
+        {
+          "texto": "Solicitar que repita las indicaciones sin apoyos escritos",
+          "explicacion": "Incorrecto. Exigir repetición sin apoyos es frustrante y no asegura recordatorio posterior."
+        }
+      ]
     }
   ]
 }
