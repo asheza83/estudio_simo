@@ -96,11 +96,11 @@ export async function buscarEnLeyes(texto) {
     
     for (const leyInfo of leyesDisponibles) {
         try {
-            const response = await fetch(leyInfo.archivo);
+            const response = await fetch(`datos/leyes/${leyInfo.id}.json`);
             const leyData = await response.json();
             
-            if (leyData.articulosDestacados) {
-                leyData.articulosDestacados.forEach(art => {
+            if (leyData.articulos) {
+                leyData.articulos.forEach(art => {
                     const buscarEn = (art.numero + ' ' + art.descripcion + ' ' + (art.texto || '')).toLowerCase();
                     if (buscarEn.includes(termino)) {
                         resultados.push({
@@ -124,7 +124,7 @@ export async function buscarEnLeyes(texto) {
         `;
     } else {
         let html = `<div style="background: rgba(13, 110, 253, 0.05); border: 2px solid var(--azul); border-radius: 12px; padding: 16px;">
-    <h3 style="color: var(--texto-principal); margin: 0 0 12px 0;">📋 ${resultados.length} resultado(s) encontrados:</h3>`;
+    <h3 style="color: var(--texto-principal); margin: 0 0 12px 0;">📋 ${resultados.length} resultado(s) encontrados que contienen la palabra "${texto.trim()}":</h3>`;
     
         resultados.forEach(r => {
             const fragmento = r.texto.substring(0, 120) + '...';
