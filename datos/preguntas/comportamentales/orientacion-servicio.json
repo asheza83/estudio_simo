@@ -200,6 +200,206 @@
         {
           "texto": "Solicitar que repita las indicaciones sin apoyos escritos",
           "explicacion": "Incorrecto. Exigir repetición sin apoyos es frustrante y no asegura recordatorio posterior."
+        }        
+      ]
+    },
+    {
+      "id": 11,
+      "texto": "Un paciente psiquiátrico con trastorno de ansiedad social no quiere salir de su habitación para recibir atención. El equipo debe realizar una evaluación diaria de signos vitales. ¿Cuál es la mejor respuesta del enfermero?",
+      "respuestaCorrecta": "Ofrecer realizar la evaluación dentro de su habitación hoy y trabajar gradualmente para que salga en próximas ocasiones",
+      "explicacionCorrecta": "La orientación al servicio adapta los procedimientos a las necesidades del paciente sin descuidar la atención clínica, usando un enfoque gradual y respetuoso.",
+      "distractores": [
+        {
+          "texto": "Forzarlo a salir porque la evaluación debe hacerse en el área común",
+          "explicacion": "Incorrecto. Forzar aumenta la ansiedad y daña la confianza en el servicio."
+        },
+        {
+          "texto": "Saltarse la evaluación hoy y documentar 'paciente no colabora'",
+          "explicacion": "Incorrecto. Omite la atención necesaria sin buscar alternativa."
+        },
+        {
+          "texto": "Pedir al médico que lo obligue a salir",
+          "explicacion": "Incorrecto. Derivar sin intentar una solución respetuosa no resuelve."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "texto": "Un familiar llama por teléfono preguntando por el estado de salud de un paciente. No puede desplazarse al hospital. El paciente ha autorizado por escrito dar información a ese familiar. ¿Cómo debe responder el enfermero?",
+      "respuestaCorrecta": "Verificar la identidad del familiar y dar la información autorizada de manera clara y empática",
+      "explicacionCorrecta": "La orientación al servicio incluye facilitar la comunicación cuando existe autorización previa, asegurando la verificación de identidad para proteger la confidencialidad.",
+      "distractores": [
+        {
+          "texto": "Decir que no puede dar información por teléfono aunque haya autorización",
+          "explicacion": "Incorrecto. La autorización por escrito permite la comunicación telefónica con las debidas verificaciones."
+        },
+        {
+          "texto": "Dar la información sin verificar identidad por ser familiar",
+          "explicacion": "Incorrecto. La confidencialidad exige verificar identidad incluso con autorización."
+        },
+        {
+          "texto": "Informar que debe venir personalmente aunque haya autorización",
+          "explicacion": "Incorrecto. No considera las limitaciones del familiar ni la autorización existente."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "texto": "Un paciente con trastorno obsesivo-compulsivo le pregunta la misma información sobre su tratamiento por quinta vez en el día. Se nota angustiado. ¿Cuál es la mejor respuesta?",
+      "respuestaCorrecta": "Responder con paciencia y ofrecerle un resumen escrito para que lo consulte cuando lo necesite",
+      "explicacionCorrecta": "La orientación al servicio en pacientes ansiosos implica paciencia y herramientas que reduzcan su angustia, como resúmenes escritos, sin mostrar irritabilidad.",
+      "distractores": [
+        {
+          "texto": "Decirle que ya ha preguntado muchas veces y que debe recordar",
+          "explicacion": "Incorrecto. La reprimenda aumenta la angustia y daña la relación terapéutica."
+        },
+        {
+          "texto": "Ignorar la pregunta para que aprenda a recordar solo",
+          "explicacion": "Incorrecto. Ignorar no resuelve la compulsión del paciente."
+        },
+        {
+          "texto": "Derivarlo a psicología sin responder la pregunta",
+          "explicacion": "Incorrecto. No resuelve su necesidad inmediata de información."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "texto": "Un paciente fue dado de alta hace 3 días y llama angustiado porque olvidó cómo tomar un medicamento nuevo. El enfermero que lo atendió no está disponible. ¿Cómo actúa quien recibe la llamada?",
+      "respuestaCorrecta": "Consultar la historia clínica, verificar la indicación y explicar al paciente con calma",
+      "explicacionCorrecta": "La orientación al servicio implica resolver la necesidad del paciente aunque no sea el profesional que lo atendió inicialmente, usando los registros clínicos disponibles.",
+      "distractores": [
+        {
+          "texto": "Decir que no estaba presente y no puede ayudarlo",
+          "explicacion": "Incorrecto. Abandona al paciente sin intentar resolver usando los registros."
+        },
+        {
+          "texto": "Pedirle que llame más tarde cuando esté el enfermero original",
+          "explicacion": "Incorrecto. Posterga innecesariamente la resolución de una duda urgente."
+        },
+        {
+          "texto": "Recomendarle que suspenda el medicamento hasta consultar",
+          "explicacion": "Incorrecto. Suspender sin indicación médica puede ser peligroso."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "texto": "Un paciente con discapacidad intelectual necesita un procedimiento que le causa miedo. Tiene dificultad para entender las explicaciones complejas. ¿Cuál es la mejor estrategia del enfermero?",
+      "respuestaCorrecta": "Usar lenguaje sencillo, mostrar los instrumentos y explicar paso a paso con calma",
+      "explicacionCorrecta": "La orientación al servicio adapta la comunicación a la capacidad de comprensión del paciente, usando lenguaje claro y mostrando los procedimientos para reducir el miedo.",
+      "distractores": [
+        {
+          "texto": "Explicar con términos técnicos y esperar que comprenda",
+          "explicacion": "Incorrecto. No se adapta a sus necesidades cognitivas."
+        },
+        {
+          "texto": "Realizar el procedimiento sin explicación para no angustiarlo",
+          "explicacion": "Incorrecto. La falta de explicación viola el consentimiento informado."
+        },
+        {
+          "texto": "Pedir a un familiar que lo distraiga mientras se hace el procedimiento",
+          "explicacion": "Incorrecto. La distracción no reemplaza la información adecuada."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "texto": "Un paciente psiquiátrico en fase de recuperación quiere colaborar con el aseo de su habitación. La norma institucional dice que el aseo lo hace el personal de servicios generales. ¿Cómo maneja la situación el enfermero?",
+      "respuestaCorrecta": "Agradecer su disposición y permitirle colaborar en tareas simples acompañado, sin delegar completamente",
+      "explicacionCorrecta": "La orientación al servicio fomenta la autonomía y participación del paciente en su recuperación, adaptando las normas a sus necesidades terapéuticas cuando sea posible.",
+      "distractores": [
+        {
+          "texto": "Prohibirle rotundamente porque es trabajo de otro personal",
+          "explicacion": "Incorrecto. No considera el valor terapéutico de la participación."
+        },
+        {
+          "texto": "Delegar todo el aseo para motivarlo",
+          "explicacion": "Incorrecto. Puede exponerlo a riesgos o frustración si no tiene capacidad completa."
+        },
+        {
+          "texto": "Ignorar su oferta y no dar ninguna respuesta",
+          "explicacion": "Incorrecto. Ignorar desmotiva al paciente en su proceso de recuperación."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "texto": "Un paciente psiquiátrico establece una fuerte relación de dependencia con una auxiliar de enfermería específica. Llora y se angustia cuando ella no está. ¿Cómo debe manejar el equipo esta situación?",
+      "respuestaCorrecta": "Fortalecer gradualmente la relación con otros miembros del equipo y explicar que todos pueden ayudarle",
+      "explicacionCorrecta": "La orientación al servicio debe evitar la dependencia excesiva, promoviendo la confianza en todo el equipo para garantizar atención continua.",
+      "distractores": [
+        {
+          "texto": "Asignar siempre a esa auxiliar para evitarle angustia",
+          "explicacion": "Incorrecto. Refuerza la dependencia y no es sostenible para los descansos o ausencias."
+        },
+        {
+          "texto": "Separar completamente a la auxiliar del paciente",
+          "explicacion": "Incorrecto. Puede ser traumático y no resuelve la causa."
+        },
+        {
+          "texto": "Ignorar la angustia del paciente cuando ella no está",
+          "explicacion": "Incorrecto. Ignorar no ayuda a construir nuevas relaciones de confianza."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "texto": "Un paciente psiquiátrico está estable y próximo al alta. Expresa miedo de 'fracasar' afuera y pregunta si puede quedarse más tiempo. No hay indicación médica para prolongar la hospitalización. ¿Cómo responde el enfermero?",
+      "respuestaCorrecta": "Reconocer sus miedos, ofrecer opciones de seguimiento ambulatorio y coordinar con trabajo social",
+      "explicacionCorrecta": "La orientación al servicio incluye validar los miedos del paciente y ofrecer apoyos en el siguiente nivel de atención, sin prolongar hospitalizaciones innecesarias.",
+      "distractores": [
+        {
+          "texto": "Decirle que debe irse porque ya no hay indicación médica",
+          "explicacion": "Incorrecto. Minimiza sus miedos sin ofrecer alternativas."
+        },
+        {
+          "texto": "Apoyar la extensión de la hospitalización por compasión",
+          "explicacion": "Incorrecto. Hospitalización innecesaria puede ser contraproducente y costosa."
+        },
+        {
+          "texto": "Derivarlo al médico sin dar ninguna respuesta",
+          "explicacion": "Incorrecto. No ofrece orientación inmediata sobre los miedos expresados."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "texto": "Un paciente psiquiátrico se queja de que otro paciente lo insulta constantemente. Usted no ha presenciado los insultos, pero el paciente está claramente afectado. ¿Qué debe hacer?",
+      "respuestaCorrecta": "Registrar la queja, observar la situación y mediar entre ambos pacientes para establecer límites claros",
+      "explicacionCorrecta": "La orientación al servicio exige tomar en serio las quejas de los pacientes, investigar sin prejuicios y mediar para garantizar un ambiente de respeto mutuo.",
+      "distractores": [
+        {
+          "texto": "Ignorar porque no lo ha presenciado personalmente",
+          "explicacion": "Incorrecto. Ignorar la queja del paciente daña la confianza en el servicio."
+        },
+        {
+          "texto": "Separar al paciente quejoso sin investigar",
+          "explicacion": "Incorrecto. Desplazar a la víctima es una solución injusta."
+        },
+        {
+          "texto": "Decirle que debe aprender a convivir con otros pacientes",
+          "explicacion": "Incorrecto. Desestima su malestar sin abordar el conflicto."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "texto": "Un paciente psiquiátrico con trastorno bipolar en fase maníaca habla excesivamente y no permite que otros pacientes participen en la terapia grupal. El grupo está molesto. ¿Cómo actúa el enfermero facilitador?",
+      "respuestaCorrecta": "Interrumpir respetuosamente, recordar la regla de turnos de palabra y ofrecer contención individual después de la sesión",
+      "explicacionCorrecta": "La orientación al servicio en terapia grupal exige equilibrar las necesidades del paciente que monopoliza con las del resto del grupo, usando contención firme pero respetuosa y ofreciendo atención individual complementaria.",
+      "distractores": [
+        {
+          "texto": "Permitir que siga hablando para no afectar su estado de ánimo",
+          "explicacion": "Incorrecto. Desatiende las necesidades del resto del grupo."
+        },
+        {
+          "texto": "Sacarlo de la sesión sin explicación",
+          "explicacion": "Incorrecto. La exclusión no es educativa ni terapéutica."
+        },
+        {
+          "texto": "Suspender la terapia grupal por su causa",
+          "explicacion": "Incorrecto. Una sola persona no debe privar al grupo del tratamiento."
         }
       ]
     }

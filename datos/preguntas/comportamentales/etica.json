@@ -200,6 +200,206 @@
         {
           "texto": "Reportar al compañero inmediatamente a recursos humanos",
           "explicacion": "Es incorrecta porque es desproporcionado no intentar corregir primero en el momento."
+        },
+        {
+          "id": 11,
+          "texto": "Un paciente con trastorno de personalidad límite le dice: 'Si no me cambia de habitación, me voy a autolesionar'. ¿Cuál es la conducta más ética del profesional de enfermería?",
+          "respuestaCorrecta": "Escuchar la solicitud, evaluar el riesgo y ofrecer alternativas viables sin ceder a chantajes",
+          "explicacionCorrecta": "La ética profesional exige no ceder a manipulaciones que pongan en riesgo al paciente, pero sí evaluar el riesgo real y buscar soluciones colaborativas.",
+          "distractores": [
+            {
+              "texto": "Cambiarlo de habitación inmediatamente para evitar la autolesión",
+              "explicacion": "Es incorrecta porque ceder al chantaje refuerza conductas manipulativas y no resuelve la causa."
+            },
+            {
+              "texto": "Ignorar la amenaza por considerarla solo un chantaje",
+              "explicacion": "Es incorrecta porque minimiza el riesgo real de autolesión."
+            },
+            {
+              "texto": "Aplicar contención mecánica preventiva",
+              "explicacion": "Es incorrecta porque es desproporcionado sin intentar antes otras estrategias."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "texto": "Usted descubre que un compañero está tomando fotografías de pacientes con su celular personal sin autorización. Él dice que es para 'recordar casos interesantes'. ¿Qué debe hacer?",
+          "respuestaCorrecta": "Explicar la violación de confidencialidad y reportar el hecho a supervisión",
+          "explicacionCorrecta": "Tomar fotografías de pacientes sin consentimiento viola la confidencialidad y la Ley de Protección de Datos. Es obligación reportarlo.",
+          "distractores": [
+            {
+              "texto": "Ignorar porque no hay mala intención aparente",
+              "explicacion": "Es incorrecta porque la intención no justifica la violación de derechos del paciente."
+            },
+            {
+              "texto": "Pedirle que borre las fotos y no decir nada más",
+              "explicacion": "Es incorrecta porque el reporte formal es necesario para prevenir reincidencia."
+            },
+            {
+              "texto": "Solicitar copia de las fotos para 'documentación'",
+              "explicacion": "Es incorrecta porque repetiría la falta ética."
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "texto": "Un paciente con esquizofrenia crónica rechaza la medicación antipsicótica porque dice que 'le nubla la mente'. El medicamento es claramente necesario para evitar descompensaciones. ¿Qué debe priorizar el profesional?",
+          "respuestaCorrecta": "Explorar las razones del rechazo y negociar dosis o alternativa tolerable",
+          "explicacionCorrecta": "La ética exige respetar la autonomía del paciente, buscar causas de rechazo y negociar alternativas, no imponer sin diálogo.",
+          "distractores": [
+            {
+              "texto": "Administrar la medicación por vía intramuscular sin avisar",
+              "explicacion": "Es incorrecta porque viola el consentimiento informado y la confidencialidad."
+            },
+            {
+              "texto": "Suspender la medicación para evitar conflictos",
+              "explicacion": "Es incorrecta porque pone en riesgo la estabilidad clínica del paciente."
+            },
+            {
+              "texto": "Contactar a la familia para que ellos decidan",
+              "explicacion": "Es incorrecta porque la decisión no debe delegarse sin evaluar la capacidad del paciente."
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "texto": "Durante la pandemia, se asignan recursos limitados de protección personal. Un compañero toma más de lo necesario para 'guardar' para después. Otros se quedan sin los implementos para el turno. ¿Qué acción es más ética?",
+          "respuestaCorrecta": "Hablar con el compañero sobre la distribución equitativa y reportar si persiste",
+          "explicacionCorrecta": "La ética profesional exige equidad en recursos limitados, especialmente cuando afecta la seguridad de otros compañeros y pacientes.",
+          "distractores": [
+            {
+              "texto": "Ignorar para evitar conflictos con el compañero",
+              "explicacion": "Es incorrecta porque permite una injusticia que afecta a otros."
+            },
+            {
+              "texto": "Tomar también más de lo necesario para no quedarse sin",
+              "explicacion": "Es incorrecta porque empeora el problema del acaparamiento."
+            },
+            {
+              "texto": "Denunciar anónimamente sin hablar primero con él",
+              "explicacion": "Es incorrecta porque se debe intentar resolver directamente antes de escalar."
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "texto": "Un paciente psiquiátrico estable le regala una caja de bombones al equipo de enfermería como agradecimiento. La norma institucional prohíbe recibir regalos de pacientes. ¿Qué debe hacer?",
+          "respuestaCorrecta": "Agradecer la intención, explicar la norma institucional y rechazar gentilmente",
+          "explicacionCorrecta": "La ética profesional exige cumplir las normas institucionales sin dañar la relación terapéutica, explicando las razones del rechazo.",
+          "distractores": [
+            {
+              "texto": "Aceptar el regalo porque es de bajo valor económico",
+              "explicacion": "Es incorrecta aunque sea de bajo valor, la norma prohíbe cualquier regalo."
+            },
+            {
+              "texto": "Aceptar a escondidas para no herir al paciente",
+              "explicacion": "Es incorrecta porque ocultar la acción no la justifica éticamente."
+            },
+            {
+              "texto": "Recibir el regalo y no reportarlo",
+              "explicacion": "Es incorrecta porque viola la norma y crea precedente."
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "texto": "Un paciente con trastorno depresivo mayor se niega a recibir visitas de su familia, aunque estos insisten en verlo. La familia le pide que intervenga para convencer al paciente. ¿Cómo actúa éticamente?",
+          "respuestaCorrecta": "Respetar la voluntad del paciente y explicar a la familia que la decisión es del paciente",
+          "explicacionCorrecta": "La autonomía del paciente prevalece, incluso sobre los deseos familiares, siempre que el paciente tenga capacidad de decisión.",
+          "distractores": [
+            {
+              "texto": "Convencer al paciente para que reciba a la familia",
+              "explicacion": "Es incorrecta porque presiona al paciente en contra de su voluntad."
+            },
+            {
+              "texto": "Permitir la visita sin decirle al paciente",
+              "explicacion": "Es incorrecta porque viola la confidencialidad y la autonomía."
+            },
+            {
+              "texto": "Ignorar a la familia sin dar explicación",
+              "explicacion": "Es incorrecta porque no resuelve la situación ni orienta a la familia."
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "texto": "Usted sabe que un compañero llega a trabajar bajo efectos del alcohol. Nadie más lo ha notado. El compañero es buen profesional cuando está sobrio. ¿Qué debe hacer?",
+          "respuestaCorrecta": "Hablar con él en privado y reportar a supervisión si persiste o hay riesgo inmediato",
+          "explicacionCorrecta": "Trabajar bajo efectos de alcohol pone en riesgo a los pacientes. Se debe abordar directamente y reportar si no hay solución, priorizando la seguridad.",
+          "distractores": [
+            {
+              "texto": "Ignorar para no perjudicar a su compañero",
+              "explicacion": "Es incorrecta porque prioriza la lealtad al compañero sobre la seguridad del paciente."
+            },
+            {
+              "texto": "Reportar inmediatamente sin hablar con él",
+              "explicacion": "Es incorrecta porque es desproporcionado no intentar resolver primero con diálogo."
+            },
+            {
+              "texto": "Cubrirlo para que no lo descubran",
+              "explicacion": "Es incorrecta porque facilita una conducta peligrosa."
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "texto": "Se le solicita realizar un procedimiento para el cual no tiene entrenamiento formal, pero ha visto hacerlo muchas veces. El médico insiste en que lo haga porque 'es sencillo'. ¿Qué debe hacer?",
+          "respuestaCorrecta": "Declinar respetuosamente argumentando falta de entrenamiento formal",
+          "explicacionCorrecta": "La ética profesional exige actuar dentro del ámbito de competencia para garantizar la seguridad del paciente.",
+          "distractores": [
+            {
+              "texto": "Realizar el procedimiento para no quedar mal con el médico",
+              "explicacion": "Es incorrecta porque pone en riesgo al paciente al actuar sin entrenamiento."
+            },
+            {
+              "texto": "Realizarlo sin decir que no está entrenado",
+              "explicacion": "Es incorrecta porque oculta una limitación que puede causar daño."
+            },
+            {
+              "texto": "Denunciar al médico por exigir algo fuera de su alcance",
+              "explicacion": "Es incorrecta porque es desproporcionado sin antes declinar respetuosamente."
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "texto": "Un paciente fallece en la unidad. Usted nota que un compañero, sin malicia, comete un error al registrar la hora del deceso en el sistema. La diferencia es de 15 minutos, pero no afecta ningún tratamiento. ¿Qué hace?",
+          "respuestaCorrecta": "Señalar el error amablemente y corregir el registro con la hora correcta",
+          "explicacionCorrecta": "Los errores administrativos deben corregirse, aunque no afecten la atención, para mantener la integridad del registro clínico.",
+          "distractores": [
+            {
+              "texto": "Ignorar el error porque no afectó nada",
+              "explicacion": "Es incorrecta porque normaliza el descuido en los registros."
+            },
+            {
+              "texto": "No decir nada para no incomodar al compañero en un momento difícil",
+              "explicacion": "Es incorrecta porque la corrección no es una crítica personal, sino un deber profesional."
+            },
+            {
+              "texto": "Reportarlo a supervisión sin hablar con él",
+              "explicacion": "Es incorrecta porque es desproporcionado para un error sin consecuencias, que puede corregirse directamente."
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "texto": "Un paciente psiquiátrico con ideas paranoides cree que los enfermeros le están 'envenenando' con la medicación. Se niega rotundamente a tomarla. ¿Cuál es la conducta más ética?",
+          "respuestaCorrecta": "No forzar la medicación, documentar la negativa, informar al médico y explorar alternativas",
+          "explicacionCorrecta": "La ética exige respetar la autonomía del paciente, documentar la negativa y buscar alternativas consensuadas o vía legal si hay riesgo vital.",
+          "distractores": [
+            {
+              "texto": "Mezclar la medicación en la comida sin que se dé cuenta",
+              "explicacion": "Es incorrecta porque viola el consentimiento y la confidencialidad."
+            },
+            {
+              "texto": "Aplicar la medicación por vía intramuscular forzadamente",
+              "explicacion": "Es incorrecta porque solo se justifica en riesgo inminente, no en negativa sin crisis."
+            },
+            {
+              "texto": "Suspender la medicación sin consultar al médico",
+              "explicacion": "Es incorrecta porque el médico debe evaluar alternativas terapéuticas."
+            }
+          ]
         }
       ]
     }

@@ -200,6 +200,206 @@
         {
           "texto": "En procedimientos no invasivos",
           "explicacion": "Es incorrecta porque el texto especifica que es solo en procedimientos invasivos."
+        },
+        {
+          "id": 11,
+          "texto": "Lea el siguiente extracto del plan de emergencias de HOMERIS: 'En caso de incendio, el personal de enfermería debe evacuar primero a los pacientes con movilidad reducida. Luego, debe evacuar a los pacientes ambulatorios. Finalmente, el personal debe salir verificando que no queden pacientes en el área.' ¿Cuál es el orden correcto de evacuación según el texto?",
+          "respuestaCorrecta": "Pacientes con movilidad reducida, pacientes ambulatorios, personal verificando",
+          "explicacionCorrecta": "El texto establece el orden: primero pacientes con movilidad reducida, luego ambulatorios, y finalmente el personal verifica y sale.",
+          "distractores": [
+            {
+              "texto": "Personal, pacientes ambulatorios, pacientes con movilidad reducida",
+              "explicacion": "Es incorrecta porque el texto indica que el personal sale al final, no primero."
+            },
+            {
+              "texto": "Pacientes ambulatorios, pacientes con movilidad reducida, personal",
+              "explicacion": "Es incorrecta porque los de movilidad reducida tienen prioridad, no los ambulatorios."
+            },
+            {
+              "texto": "Personal verificando, pacientes ambulatorios, pacientes con movilidad reducida",
+              "explicacion": "Es incorrecta porque la verificación del personal es el último paso, no el primero."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "texto": "Lea el siguiente fragmento de la Resolución 1444 de 2025: 'Las instituciones prestadoras de servicios de salud deberán implementar estrategias de retención de talento humano, priorizando a los profesionales con más de 5 años de servicio en el sector público.' ¿Qué grupo debe ser priorizado según el texto?",
+          "respuestaCorrecta": "Profesionales con más de 5 años en el sector público",
+          "explicacionCorrecta": "El texto indica explícitamente que se debe priorizar a los profesionales con más de 5 años de servicio en el sector público.",
+          "distractores": [
+            {
+              "texto": "Todos los profesionales independientemente de la antigüedad",
+              "explicacion": "Es incorrecta porque el texto establece una priorización por antigüedad."
+            },
+            {
+              "texto": "Profesionales con más de 5 años en el sector privado",
+              "explicacion": "Es incorrecta porque el texto especifica 'sector público', no privado."
+            },
+            {
+              "texto": "Profesionales recién egresados",
+              "explicacion": "Es incorrecta porque el texto prioriza antigüedad, no egreso reciente."
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "texto": "Lea el siguiente aviso de la CNSC sobre el concurso ESE 2: 'El inscrito deberá adjuntar los documentos de soporte de experiencia laboral en formato PDF. No se aceptarán fotografías ni capturas de pantalla. La falta de adjuntar los documentos dentro del plazo será causal de rechazo de la inscripción.' ¿Cuál es la consecuencia de NO adjuntar los documentos en formato PDF?",
+          "respuestaCorrecta": "Rechazo de la inscripción",
+          "explicacionCorrecta": "El texto indica que 'la falta de adjuntar los documentos dentro del plazo será causal de rechazo de la inscripción'.",
+          "distractores": [
+            {
+              "texto": "La inscripción queda en espera",
+              "explicacion": "Es incorrecta porque el texto especifica rechazo, no espera."
+            },
+            {
+              "texto": "Multa económica",
+              "explicacion": "Es incorrecta porque el texto no menciona multa."
+            },
+            {
+              "texto": "Reducción del puntaje de experiencia",
+              "explicacion": "Es incorrecta porque no menciona reducción, sino rechazo directo."
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "texto": "Lea el siguiente texto del código de ética de enfermería: 'El profesional debe mantener actualizada su formación continua. Asimismo, debe participar en los comités de calidad de su institución. Estas dos obligaciones son exigibles para el ejercicio profesional.' ¿Cuáles son las dos obligaciones exigibles según el texto?",
+          "respuestaCorrecta": "Formación continua actualizada y participación en comités de calidad",
+          "explicacionCorrecta": "El texto menciona explícitamente: 'mantener actualizada su formación continua' y 'participar en los comités de calidad' como las dos obligaciones exigibles.",
+          "distractores": [
+            {
+              "texto": "Investigación clínica y docencia universitaria",
+              "explicacion": "Es incorrecta porque el texto no menciona ni investigación ni docencia como obligatorias."
+            },
+            {
+              "texto": "Asistencia a congresos y publicaciones científicas",
+              "explicacion": "Es incorrecta porque no son mencionadas como obligaciones exigibles."
+            },
+            {
+              "texto": "Liderazgo de equipos y gestión de recursos",
+              "explicacion": "Es incorrecta porque el texto no las menciona."
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "texto": "Lea el siguiente fragmento de la historia clínica de un paciente de HOMERIS: 'Paciente femenina de 28 años, ingresa por tercera crisis de ansiedad en el mes. Refiere taquicardia, sensación de ahogo y miedo a morir. Se sospecha trastorno de pánico. Se inicia escitalopram 10 mg/día y se cita a psicoterapia semanal.' ¿Qué síntomas presenta la paciente según el texto?",
+          "respuestaCorrecta": "Taquicardia, sensación de ahogo, miedo a morir",
+          "explicacionCorrecta": "El texto menciona explícitamente que refiere 'taquicardia, sensación de ahogo y miedo a morir'.",
+          "distractores": [
+            {
+              "texto": "Alucinaciones, delirios y desorientación",
+              "explicacion": "Es incorrecta porque esos síntomas corresponden a psicosis, no a crisis de ansiedad."
+            },
+            {
+              "texto": "Insomnio, hiporexia y anhedonia",
+              "explicacion": "Es incorrecta porque esos son síntomas depresivos, no de crisis de pánico."
+            },
+            {
+              "texto": "Apatía, abulia y aislamiento social",
+              "explicacion": "Es incorrecta porque son síntomas negativos, no descritos en el texto."
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "texto": "Lea el siguiente extracto del reglamento interno de HOMERIS: 'Los auxiliares de enfermería podrán administrar medicamentos de uso oral y subcutáneo. Los medicamentos intravenosos solo podrán ser administrados por enfermeros profesionales o médicos.' ¿Qué tipo de medicamento NO puede administrar un auxiliar según el texto?",
+          "respuestaCorrecta": "Medicamentos intravenosos",
+          "explicacionCorrecta": "El texto indica que los medicamentos intravenosos 'solo podrán ser administrados por enfermeros profesionales o médicos', excluyendo a los auxiliares.",
+          "distractores": [
+            {
+              "texto": "Medicamentos de uso oral",
+              "explicacion": "Es incorrecta porque el texto permite que auxiliares los administren."
+            },
+            {
+              "texto": "Medicamentos subcutáneos",
+              "explicacion": "Es incorrecta porque también están permitidos para auxiliares."
+            },
+            {
+              "texto": "Medicamentos intramusculares",
+              "explicacion": "Es incorrecta porque el texto no menciona esa vía específicamente."
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "texto": "Lea el siguiente mensaje del jefe de enfermería de HOMERIS: 'A partir del próximo mes, se implementará la nueva herramienta de registro electrónico de signos vitales. Todos los auxiliares deberán completar una capacitación de 2 horas antes de usarla. Quienes no completen la capacitación no podrán acceder al sistema.' ¿Qué deben hacer los auxiliares antes de usar la nueva herramienta?",
+          "respuestaCorrecta": "Completar capacitación de 2 horas",
+          "explicacionCorrecta": "El texto indica que 'todos los auxiliares deberán completar una capacitación de 2 horas antes de usarla'.",
+          "distractores": [
+            {
+              "texto": "Solicitar autorización escrita al jefe",
+              "explicacion": "Es incorrecta porque el texto no menciona autorización escrita."
+            },
+            {
+              "texto": "Aprobar un examen médico",
+              "explicacion": "Es incorrecta porque no se menciona examen médico."
+            },
+            {
+              "texto": "Tener más de un año de experiencia",
+              "explicacion": "Es incorrecta porque el texto no establece ese requisito."
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "texto": "Lea el siguiente texto de la Política de Seguridad del Paciente: 'Todo evento adverso debe ser reportado en el sistema de alertas dentro de las 24 horas siguientes a su ocurrencia. El reporte debe incluir la descripción del evento, las causas identificadas y las acciones correctivas propuestas.' Además de la descripción del evento, ¿qué más debe incluir el reporte según el texto?",
+          "respuestaCorrecta": "Causas identificadas y acciones correctivas propuestas",
+          "explicacionCorrecta": "El texto indica que el reporte debe incluir 'descripción del evento, las causas identificadas y las acciones correctivas propuestas'.",
+          "distractores": [
+            {
+              "texto": "Nombre del paciente y tipo de seguro",
+              "explicacion": "Es incorrecta porque el texto no menciona esos datos como obligatorios."
+            },
+            {
+              "texto": "Firma del médico y del enfermero",
+              "explicacion": "Es incorrecta porque no se menciona firma como requisito."
+            },
+            {
+              "texto": "Fecha de nacimiento del paciente y número de historia",
+              "explicacion": "Es incorrecta porque el texto no especifica esos campos."
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "texto": "Lea el siguiente extracto de un informe de calidad de HOMERIS: 'Se identificó un aumento del 20% en las caídas de pacientes durante el cambio de turno. La causa principal es la falta de comunicación efectiva entre turnos. Se recomienda implementar una lista de verificación estandarizada para la entrega de turno.' ¿Cuál es la causa principal del aumento de caídas según el informe?",
+          "respuestaCorrecta": "Falta de comunicación efectiva entre turnos",
+          "explicacionCorrecta": "El texto indica que 'la causa principal es la falta de comunicación efectiva entre turnos'.",
+          "distractores": [
+            {
+              "texto": "Falta de personal suficiente",
+              "explicacion": "Es incorrecta porque el texto no menciona falta de personal como causa."
+            },
+            {
+              "texto": "Pacientes con movilidad reducida",
+              "explicacion": "Es incorrecta porque es un factor de riesgo, no la causa del aumento."
+            },
+            {
+              "texto": "Medicación sedante excesiva",
+              "explicacion": "Es incorrecta porque el texto no la menciona como causa identificada."
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "texto": "Lea el siguiente aviso de la Secretaría de Salud: 'Los auxiliares de enfermería que aspiren al cargo de coordinación de turno deberán acreditar mínimo 8 años de experiencia en hospitalización psiquiátrica y certificación en liderazgo. La experiencia debe ser en los últimos 12 años.' Además de la certificación en liderazgo, ¿qué requisito debe cumplir el aspirante?",
+          "respuestaCorrecta": "Mínimo 8 años de experiencia en hospitalización psiquiátrica en los últimos 12 años",
+          "explicacionCorrecta": "El texto indica: 'acreditar mínimo 8 años de experiencia en hospitalización psiquiátrica y certificación en liderazgo. La experiencia debe ser en los últimos 12 años'.",
+          "distractores": [
+            {
+              "texto": "Mínimo 5 años de experiencia en cualquier área",
+              "explicacion": "Es incorrecta porque especifica 8 años y en hospitalización psiquiátrica."
+            },
+            {
+              "texto": "Certificación en gestión de recursos humanos",
+              "explicacion": "Es incorrecta porque el texto pide certificación en liderazgo, no en gestión de RRHH."
+            },
+            {
+              "texto": "Título de especialización en salud mental",
+              "explicacion": "Es incorrecta porque el texto no menciona especialización como requisito."
+            }
+          ]
         }
       ]
     }

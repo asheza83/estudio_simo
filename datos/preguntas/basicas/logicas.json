@@ -200,6 +200,206 @@
         {
           "texto": "La habitación individual está permitida",
           "explicacion": "Es incorrecta porque la regla establece que si requiere observación, no puede estar en habitación individual."
+        },
+        {
+          "id": 11,
+          "texto": "En HOMERIS, si un paciente tiene diagnóstico de esquizofrenia paranoide, entonces requiere evaluación psiquiátrica semanal. Todos los pacientes que requieren evaluación psiquiátrica semanal tienen seguimiento por trabajo social. Juan tiene diagnóstico de esquizofrenia paranoide. ¿Qué podemos concluir?",
+          "respuestaCorrecta": "Juan tiene seguimiento por trabajo social",
+          "explicacionCorrecta": "Por silogismo: esquizofrenia paranoide → evaluación semanal → seguimiento trabajo social. Por lo tanto, Juan tiene seguimiento por trabajo social.",
+          "distractores": [
+            {
+              "texto": "Juan no requiere evaluación semanal",
+              "explicacion": "Es incorrecta porque el diagnóstico implica evaluación semanal según la regla."
+            },
+            {
+              "texto": "Todos los pacientes con seguimiento tienen esquizofrenia",
+              "explicacion": "Es incorrecta porque la regla no opera en sentido inverso."
+            },
+            {
+              "texto": "No se puede concluir nada",
+              "explicacion": "Es incorrecta porque sí se puede aplicar el silogismo completo."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "texto": "En el turno nocturno de HOMERIS, la cantidad de rondas de seguridad sigue esta secuencia: 6, 10, 15, 21, ?. Si el patrón se mantiene, ¿cuál es el siguiente número?",
+          "respuestaCorrecta": "28",
+          "explicacionCorrecta": "El patrón de incrementos es: +4 (6 a 10), +5 (10 a 15), +6 (15 a 21). El siguiente incremento es +7: 21 + 7 = 28.",
+          "distractores": [
+            {
+              "texto": "26",
+              "explicacion": "Es incorrecta porque aplicaría un incremento de +5 en lugar de +7."
+            },
+            {
+              "texto": "27",
+              "explicacion": "Es incorrecta porque aplicaría un incremento de +6 en lugar de +7."
+            },
+            {
+              "texto": "29",
+              "explicacion": "Es incorrecta porque aplicaría un incremento de +8, rompiendo el patrón."
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "texto": "En HOMERIS se aplican estas reglas: si un paciente tiene trastorno bipolar, entonces requiere estabilizador del ánimo. Si requiere estabilizador del ánimo, entonces debe tener control de niveles séricos cada 3 meses. Un paciente NO tiene control de niveles séricos cada 3 meses. ¿Qué podemos concluir?",
+          "respuestaCorrecta": "El paciente no tiene trastorno bipolar",
+          "explicacionCorrecta": "Por contrarrecíproco: si no tiene control de niveles, entonces no requiere estabilizador; y si no requiere estabilizador, entonces no tiene trastorno bipolar.",
+          "distractores": [
+            {
+              "texto": "El paciente tiene trastorno bipolar pero no requiere estabilizador",
+              "explicacion": "Es incorrecta porque la regla establece que todo bipolar requiere estabilizador."
+            },
+            {
+              "texto": "Requiere estabilizador pero no tiene control",
+              "explicacion": "Es incorrecta porque estabilizador implica control cada 3 meses."
+            },
+            {
+              "texto": "El control no es necesario",
+              "explicacion": "Es incorrecta porque contradice la segunda regla."
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "texto": "En la Unidad de Adolescentes de HOMERIS, los pacientes pueden salir al jardín terapéutico si cumplen al menos una de estas condiciones: tener pase de 3 días sin incidentes, haber completado el módulo de habilidades sociales, o tener autorización familiar expresa. Laura tiene pase de 3 días sin incidentes, NO completó el módulo, y tiene autorización familiar. Andrés NO tiene pase, completó el módulo, y NO tiene autorización. ¿Quiénes pueden salir al jardín?",
+          "respuestaCorrecta": "Laura y Andrés",
+          "explicacionCorrecta": "Laura cumple la primera condición (pase de 3 días) y la tercera (autorización). Andrés cumple la segunda (completó módulo). Ambos cumplen al menos una condición.",
+          "distractores": [
+            {
+              "texto": "Solo Laura",
+              "explicacion": "Es incorrecta porque Andrés también cumple una condición (completó módulo)."
+            },
+            {
+              "texto": "Solo Andrés",
+              "explicacion": "Es incorrecta porque Laura también cumple condiciones."
+            },
+            {
+              "texto": "Ninguno puede salir",
+              "explicacion": "Es incorrecta porque ambos cumplen al menos una condición."
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "texto": "El registro de intentos de fuga en HOMERIS por semana es: 1, 3, 6, 10, ?. Si el patrón se mantiene, ¿cuál es el siguiente número?",
+          "respuestaCorrecta": "15",
+          "explicacionCorrecta": "El patrón de incrementos es: +2 (1 a 3), +3 (3 a 6), +4 (6 a 10). El siguiente incremento es +5: 10 + 5 = 15.",
+          "distractores": [
+            {
+              "texto": "13",
+              "explicacion": "Es incorrecta porque aplicaría un incremento de +3 en lugar de +5."
+            },
+            {
+              "texto": "14",
+              "explicacion": "Es incorrecta porque aplicaría un incremento de +4 en lugar de +5."
+            },
+            {
+              "texto": "16",
+              "explicacion": "Es incorrecta porque aplicaría un incremento de +6, rompiendo el patrón."
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "texto": "En el protocolo de HOMERIS: 'Si el paciente tiene antecedentes de autolesiones, entonces debe tener plan de seguridad. Si tiene plan de seguridad, entonces se debe revisar cada semana.' Un paciente tiene antecedentes de autolesiones. ¿Qué podemos concluir?",
+          "respuestaCorrecta": "Su plan de seguridad debe revisarse cada semana",
+          "explicacionCorrecta": "Por silogismo: autolesiones → plan de seguridad → revisión semanal. Por lo tanto, debe revisarse cada semana.",
+          "distractores": [
+            {
+              "texto": "No necesita plan de seguridad porque son antecedentes",
+              "explicacion": "Es incorrecta porque la regla aplica precisamente por los antecedentes."
+            },
+            {
+              "texto": "La revisión puede ser cada mes",
+              "explicacion": "Es incorrecta porque la regla especifica 'cada semana'."
+            },
+            {
+              "texto": "No se puede concluir nada",
+              "explicacion": "Es incorrecta porque sí se puede aplicar el silogismo."
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "texto": "En HOMERIS, para aplicar contención mecánica se requiere: orden médica Y consentimiento familiar (si el paciente no puede decidir) O situación de riesgo vital inminente. Se aplicó contención mecánica. No hubo orden médica. ¿Qué podemos concluir?",
+          "respuestaCorrecta": "Existía situación de riesgo vital inminente",
+          "explicacionCorrecta": "Las condiciones son: (orden médica Y consentimiento) O riesgo vital. Si no hubo orden médica, entonces no se cumplió la primera parte (requiere orden). Por lo tanto, necesariamente existía riesgo vital.",
+          "distractores": [
+            {
+              "texto": "Hubo consentimiento familiar",
+              "explicacion": "Es incorrecta porque sin orden médica, el consentimiento solo no es suficiente."
+            },
+            {
+              "texto": "El paciente podía decidir",
+              "explicacion": "Es incorrecta porque el texto no proporciona esa información."
+            },
+            {
+              "texto": "La contención fue injustificada",
+              "explicacion": "Es incorrecta porque la existencia de riesgo vital la justifica."
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "texto": "Los días de hospitalización de pacientes con trastorno depresivo en HOMERIS son: 8, 12, 17, 23, ?. Si el patrón se mantiene, ¿cuál es el siguiente número?",
+          "respuestaCorrecta": "30",
+          "explicacionCorrecta": "El patrón de incrementos es: +4 (8 a 12), +5 (12 a 17), +6 (17 a 23). El siguiente incremento es +7: 23 + 7 = 30.",
+          "distractores": [
+            {
+              "texto": "28",
+              "explicacion": "Es incorrecta porque aplicaría un incremento de +5 en lugar de +7."
+            },
+            {
+              "texto": "29",
+              "explicacion": "Es incorrecta porque aplicaría un incremento de +6 en lugar de +7."
+            },
+            {
+              "texto": "31",
+              "explicacion": "Es incorrecta porque aplicaría un incremento de +8, rompiendo el patrón."
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "texto": "En HOMERIS: todos los pacientes con trastorno de personalidad límite requieren terapia dialéctica conductual. Algunos pacientes con trastorno de personalidad límite tienen intentos de autolesión. Todos los pacientes con intentos de autolesión requieren monitoreo cada 15 minutos. ¿Qué podemos concluir?",
+          "respuestaCorrecta": "Algunos pacientes requieren terapia dialéctica conductual Y monitoreo cada 15 minutos",
+          "explicacionCorrecta": "Los pacientes con trastorno límite que tienen intentos de autolesión requieren ambas cosas: terapia (por el trastorno) y monitoreo (por los intentos).",
+          "distractores": [
+            {
+              "texto": "Todos los pacientes con trastorno límite requieren monitoreo",
+              "explicacion": "Es incorrecta porque solo los que tienen intentos de autolesión requieren monitoreo."
+            },
+            {
+              "texto": "Ningún paciente con intentos requiere terapia",
+              "explicacion": "Es incorrecta porque el trastorno límite implica terapia independientemente de los intentos."
+            },
+            {
+              "texto": "La terapia reemplaza al monitoreo",
+              "explicacion": "Es incorrecta porque son intervenciones complementarias."
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "texto": "En el registro de incidentes de HOMERIS, la secuencia de quejas de familiares por semana es: 3, 7, 12, 18, ?. Si el patrón se mantiene, ¿cuál es el siguiente número?",
+          "respuestaCorrecta": "25",
+          "explicacionCorrecta": "El patrón de incrementos es: +4 (3 a 7), +5 (7 a 12), +6 (12 a 18). El siguiente incremento es +7: 18 + 7 = 25.",
+          "distractores": [
+            {
+              "texto": "23",
+              "explicacion": "Es incorrecta porque aplicaría un incremento de +5 en lugar de +7."
+            },
+            {
+              "texto": "24",
+              "explicacion": "Es incorrecta porque aplicaría un incremento de +6 en lugar de +7."
+            },
+            {
+              "texto": "26",
+              "explicacion": "Es incorrecta porque aplicaría un incremento de +8, rompiendo el patrón."
+            }
+          ]
         }
       ]
     }

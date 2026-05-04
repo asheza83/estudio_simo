@@ -200,6 +200,206 @@
         {
           "texto": "Implementarla sin consultar al resto",
           "explicacion": "Es incorrecta porque debe ser consensuada con el equipo afectado."
+        },
+        {
+          "id": 11,
+          "texto": "En la Unidad de HOMERIS, un auxiliar de enfermería nota que otro compañero está omitiendo el lavado de manos entre paciente y paciente. El compañero es nuevo y parece estar abrumado. ¿Cómo debe actuar el equipo?",
+          "respuestaCorrecta": "Recordar el protocolo de lavado de manos de manera constructiva y ofrecer acompañamiento",
+          "explicacionCorrecta": "El trabajo en equipo implica corregir errores de manera constructiva, especialmente con personal nuevo, priorizando la seguridad del paciente sobre la sanción.",
+          "distractores": [
+            {
+              "texto": "Ignorar porque seguro lo hará cuando tenga menos presión",
+              "explicacion": "Incorrecto. El lavado de manos es crítico para la seguridad; ignorar pone en riesgo a los pacientes."
+            },
+            {
+              "texto": "Reportarlo inmediatamente a supervisión sin hablarle",
+              "explicacion": "Incorrecto. No se intentó la corrección directa, que es más formativa."
+            },
+            {
+              "texto": "Gritarle en público para que aprenda",
+              "explicacion": "Incorrecto. La corrección pública humilla y no es formativa."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "texto": "El equipo de enfermería de HOMERIS está implementando un nuevo sistema de registro de incidentes. Un miembro se resiste abiertamente diciendo que 'el sistema anterior funcionaba bien'. ¿Cuál es la mejor estrategia del líder del equipo?",
+          "respuestaCorrecta": "Escuchar sus objeciones, mostrar los beneficios del nuevo sistema e involucrarlo en la implementación",
+          "explicacionCorrecta": "El trabajo en equipo efectivo en cambios requiere escucha activa, comunicación de beneficios y participación para reducir resistencias.",
+          "distractores": [
+            {
+              "texto": "Imponer el cambio por autoridad sin discutir",
+              "explicacion": "Incorrecto. La imposición sin diálogo genera más resistencia."
+            },
+            {
+              "texto": "Dejar que siga usando el sistema anterior para evitar conflicto",
+              "explicacion": "Incorrecto. Divide al equipo y no logra la estandarización necesaria."
+            },
+            {
+              "texto": "Excluirlo de las reuniones de implementación",
+              "explicacion": "Incorrecto. La exclusión aumenta la resistencia y margina al miembro."
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "texto": "Durante una emergencia psiquiátrica, un paciente agresivo está forcejeando con dos auxiliares. Un tercer auxiliar llega al lugar. El líder del equipo no ha llegado. ¿Qué debe hacer el auxiliar que llega?",
+          "respuestaCorrecta": "Preguntar si necesita apoyo o si prefieren que active el código de seguridad",
+          "explicacionCorrecta": "El trabajo en equipo en emergencias requiere comunicarse antes de actuar, ofreciendo apoyo según lo que el equipo en escena determine necesario.",
+          "distractores": [
+            {
+              "texto": "Unirse al forcejeo sin preguntar",
+              "explicacion": "Incorrecto. Más personas forcejeando puede empeorar la situación sin coordinación."
+            },
+            {
+              "texto": "Salir corriendo a buscar ayuda sin preguntar",
+              "explicacion": "Incorrecto. Abandona la escena sin evaluar si ya se activó el código."
+            },
+            {
+              "texto": "Quedarse mirando sin actuar",
+              "explicacion": "Incorrecto. La pasividad no ayuda en una emergencia."
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "texto": "Un enfermero profesional recién llegado a HOMERIS trata con condescendencia a los auxiliares, dando órdenes sin explicación y criticando su trabajo. ¿Cómo debe manejar el equipo esta situación?",
+          "respuestaCorrecta": "Elegir un representante del equipo para conversar respetuosamente sobre el impacto de su actitud",
+          "explicacionCorrecta": "El trabajo en equipo requiere abordar los conflictos interprofesionales con comunicación asertiva, no confrontación ni pasividad.",
+          "distractores": [
+            {
+              "texto": "Ignorarlo y reducir la comunicación al mínimo posible",
+              "explicacion": "Incorrecto. La falta de comunicación afecta la atención al paciente."
+            },
+            {
+              "texto": "Todos quejarse a supervisión sin hablarle primero",
+              "explicacion": "Incorrecto. No se intentó resolver directamente, escalando innecesariamente."
+            },
+            {
+              "texto": "Responder con la misma actitud de manera pasivo-agresiva",
+              "explicacion": "Incorrecto. Agrava el conflicto sin resolverlo."
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "texto": "En el cambio de turno, la enfermera saliente entrega información pero se nota apurada y con varios pendientes por terminar. El equipo entrante nota que falta información importante. ¿Qué deben hacer los receptores del turno?",
+          "respuestaCorrecta": "Pedir pausadamente la información faltante y ofrecer ayuda para completar pendientes críticos",
+          "explicacionCorrecta": "El trabajo en equipo en el cambio de turno exige comunicación efectiva y colaboración para evitar omisiones que afecten la seguridad, no apresurar ni ignorar faltantes.",
+          "distractores": [
+            {
+              "texto": "Aceptar la información incompleta para no demorar la salida",
+              "explicacion": "Incorrecto. Aceptar omisiones puede causar errores de atención."
+            },
+            {
+              "texto": "Reportar a supervisión sin pedir la información faltante",
+              "explicacion": "Incorrecto. No resuelve la necesidad inmediata de información crítica."
+            },
+            {
+              "texto": "Revisar todo en la historia clínica sin preguntar",
+              "explicacion": "Incorrecto. No corrige el problema de comunicación en el cambio de turno."
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "texto": "Un paciente psiquiátrico requiere contención mecánica según orden médica. Dos auxiliares están sujetando al paciente mientras otro prepara el material. El paciente se calma. ¿Debe continuarse con la contención? ¿Qué decisión debe tomar el equipo?",
+          "respuestaCorrecta": "Comunicarse con el médico para reevaluar si la contención sigue siendo necesaria",
+          "explicacionCorrecta": "El trabajo en equipo responsable incluye reevaluar intervenciones si cambian las condiciones del paciente, comunicando al médico para ajustar la orden si es posible.",
+          "distractores": [
+            {
+              "texto": "Continuar porque la orden médica está vigente",
+              "explicacion": "Incorrecto. La seguridad del paciente incluye reevaluar cuando cambian las condiciones."
+            },
+            {
+              "texto": "Suspender la contención sin consultar",
+              "explicacion": "Incorrecto. Suspender una orden médica sin consultar puede ser imprudente."
+            },
+            {
+              "texto": "Aflojar la contención sin avisar al médico",
+              "explicacion": "Incorrecto. No comunica el cambio al profesional responsable."
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "texto": "Un auxiliar de enfermería comete un error en el cálculo de una dosis, pero lo detecta antes de administrar el medicamento. Está muy angustiado y teme reportarlo. ¿Cómo debe reaccionar el equipo?",
+          "respuestaCorrecta": "Agradecer la detección temprana, reportar el incidente como 'casi error' y analizar mejoras sin castigo",
+          "explicacionCorrecta": "El trabajo en equipo de calidad promueve la cultura de seguridad donde reportar 'casi errores' es valorado para mejorar sistemas, no castigado.",
+          "distractores": [
+            {
+              "texto": "No reportar para no crear un antecedente negativo",
+              "explicacion": "Incorrecto. No reportar pierde la oportunidad de prevenir futuros errores reales."
+            },
+            {
+              "texto": "Anotar el error en su evaluación de desempeño como falta",
+              "explicacion": "Incorrecto. Castigar la detección temprana desincentiva el reporte de 'casi errores'."
+            },
+            {
+              "texto": "Ignorar pensando que no pasó nada grave",
+              "explicacion": "Incorrecto. Ignorar no construye cultura de seguridad."
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "texto": "El equipo de enfermería de HOMERIS tiene un desacuerdo sobre cómo manejar a un paciente con trastorno de personalidad borderline que constantemente divide al equipo (idealiza a unos y devalúa a otros). ¿Cuál es la mejor estrategia de equipo?",
+          "respuestaCorrecta": "Unificar el abordaje en reunión de equipo, con límites claros y comunicación consistente entre todos",
+          "explicacionCorrecta": "El trabajo en equipo con pacientes que dividen requiere coordinación previa, límites claros y consistencia comunicacional para evitar caer en la dinámica de división.",
+          "distractores": [
+            {
+              "texto": "Cada profesional manejar al paciente según su criterio",
+              "explicacion": "Incorrecto. La inconsistencia refuerza la dinámica de división."
+            },
+            {
+              "texto": "Asignar solo una persona para tratar con el paciente",
+              "explicacion": "Incorrecto. No es sostenible y puede generar dependencia o agotamiento."
+            },
+            {
+              "texto": "Reducir la atención al mínimo para evitar conflictos",
+              "explicacion": "Incorrecto. La negligencia no es terapéutica."
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "texto": "El equipo de HOMERIS está sobrecargado porque faltan dos auxiliares. Los presentes tienen que asumir tareas adicionales. Algunos empiezan a quejarse y a culpar a la administración. ¿Cómo debe actuar el líder del equipo?",
+          "respuestaCorrecta": "Reconocer la sobrecarga, priorizar tareas críticas y rotar las funciones extras para distribuir equitativamente",
+          "explicacionCorrecta": "El trabajo en equipo en crisis requiere liderazgo que reconozca la dificultad, priorice lo esencial y distribuya equitativamente la carga extra, evitando quejas destructivas.",
+          "distractores": [
+            {
+              "texto": "Unirse a las quejas para mostrar solidaridad",
+              "explicacion": "Incorrecto. El líder que se queja no resuelve el problema operativo."
+            },
+            {
+              "texto": "Hacer las tareas extras el mismo y agotarse",
+              "explicacion": "Incorrecto. El líder que se sobrecarga insosteniblemente agota al equipo."
+            },
+            {
+              "texto": "Exigir que todos hagan lo mismo sin priorizar",
+              "explicacion": "Incorrecto. No priorizar tareas puede descuidar lo crítico."
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "texto": "Un auxiliar de enfermería propone una mejora al proceso de entrega de turno: usar una lista de verificación estandarizada. El líder del equipo no está convencido porque 'siempre se ha hecho de memoria'. ¿Cómo debe manejar el auxiliar su propuesta?",
+          "respuestaCorrecta": "Solicitar una prueba piloto por una semana para evaluar resultados",
+          "explicacionCorrecta": "El trabajo en equipo promueve la mejora continua. Proponer una prueba piloto es una forma respetuosa y práctica de demostrar el valor de una idea sin imponer ni desistir.",
+          "distractores": [
+            {
+              "texto": "Desistir de la propuesta para no incomodar al líder",
+              "explicacion": "Incorrecto. Abandonar buenas ideas por evitar conflictos no mejora al equipo."
+            },
+            {
+              "texto": "Implementar la lista por su cuenta sin consensuar",
+              "explicacion": "Incorrecto. Actuar sin consenso divide al equipo."
+            },
+            {
+              "texto": "Quejarse con otros auxiliares del líder",
+              "explicacion": "Incorrecto. La queja sin acción constructiva no resuelve."
+            }
+          ]
         }
       ]
     }
