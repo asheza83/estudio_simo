@@ -5,19 +5,203 @@
   "preguntas": [
     {
       "id": 1,
-      "texto": "Si un hospital tiene 4 enfermeras para 12 pacientes, ¿cuántas enfermeras se necesitan para 36 pacientes?",
-      "respuestaCorrecta": "12",
-      "distractores": ["8", "10", "14"],
-      "explicacion": "La proporción es 4 enfermeras para 12 pacientes = 1 enfermera por cada 3 pacientes. Para 36 pacientes: 36 ÷ 3 = 12 enfermeras.",
-      "subcategoria": "logicas"
+      "texto": "En el protocolo de atención de HOMERIS se establecen las siguientes reglas: si un paciente está en crisis, entonces se debe activar el código azul. Si se activa el código azul, entonces se debe notificar al enfermero jefe. No se notificó al enfermero jefe. ¿Qué podemos concluir?",
+      "respuestaCorrecta": "El paciente no estaba en crisis",
+      "explicacionCorrecta": "Por contrarrecíproco: si no se notificó al enfermero jefe, entonces no se activó el código azul; y si no se activó el código azul, entonces el paciente no estaba en crisis.",
+      "distractores": [
+        {
+          "texto": "El paciente estaba en crisis",
+          "explicacion": "Es incorrecta porque si el paciente estuviera en crisis, se habría activado el código azul y se habría notificado al enfermero jefe, lo cual contradice el enunciado."
+        },
+        {
+          "texto": "No se activó el código azul",
+          "explicacion": "Esta afirmación es verdadera, pero la pregunta pide la conclusión principal sobre el paciente, no sobre el código."
+        },
+        {
+          "texto": "Se activó el código azul pero no se notificó",
+          "explicacion": "Es incorrecta porque si se activó el código azul, obligatoriamente debió notificarse al enfermero jefe según la segunda regla."
+        }
+      ]
     },
     {
       "id": 2,
-      "texto": "Si todas las enfermeras deben tener tarjeta profesional, y Ana es enfermera, entonces:",
-      "respuestaCorrecta": "Ana debe tener tarjeta profesional",
-      "distractores": ["Ana no necesita tarjeta", "Ana es médica", "La tarjeta es opcional"],
-      "explicacion": "Es un silogismo básico: si todos los miembros de un grupo cumplen una condición, cada miembro individual la cumple.",
-      "subcategoria": "logicas"
+      "texto": "En el concurso SIMO para auxiliares de enfermería en HOMERIS, los candidatos pasan a la siguiente fase si cumplen al menos una de estas condiciones: tener más de 5 años de experiencia en salud mental, obtener más de 80 puntos en la prueba de competencias básicas o tener certificación en manejo de crisis. Carlos tiene 6 años de experiencia, 75 puntos y no tiene certificación. Beatriz tiene 3 años de experiencia, 85 puntos y tiene certificación. Luis tiene 8 años de experiencia, 90 puntos y tiene certificación. ¿Quiénes pasan a la siguiente fase?",
+      "respuestaCorrecta": "Carlos, Beatriz y Luis",
+      "explicacionCorrecta": "Carlos cumple la primera condición (6 años > 5). Beatriz cumple la segunda (85 > 80) y la tercera (tiene certificación). Luis cumple las tres condiciones. Por lo tanto, todos pasan.",
+      "distractores": [
+        {
+          "texto": "Solo Carlos",
+          "explicacion": "Es incorrecta porque Beatriz y Luis también cumplen al menos una condición."
+        },
+        {
+          "texto": "Carlos y Beatriz",
+          "explicacion": "Es incorrecta porque Luis también cumple condiciones y pasa a la siguiente fase."
+        },
+        {
+          "texto": "Beatriz y Luis",
+          "explicacion": "Es incorrecta porque Carlos también cumple la primera condición y pasa."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "texto": "Los tiempos de respuesta (en minutos) del equipo de enfermería de HOMERIS ante llamados de urgencia en los últimos 5 días han sido: 3, 5, 8, 12, ?. Si el patrón se mantiene, ¿cuál es el siguiente tiempo de respuesta?",
+      "respuestaCorrecta": "17",
+      "explicacionCorrecta": "El patrón de incrementos es: +2 (3 a 5), +3 (5 a 8), +4 (8 a 12). El siguiente incremento es +5: 12 + 5 = 17.",
+      "distractores": [
+        {
+          "texto": "15",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +3 en lugar de +5."
+        },
+        {
+          "texto": "16",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +4 en lugar de +5."
+        },
+        {
+          "texto": "18",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +6, rompiendo el patrón."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "texto": "En el manual de procedimientos de HOMERIS se establece que para administrar medicación de urgencia se requiere autorización médica o situación de riesgo vital inminente. Se administró medicación de urgencia y no hubo autorización médica. ¿Qué podemos concluir?",
+      "respuestaCorrecta": "Existía situación de riesgo vital inminente",
+      "explicacionCorrecta": "Si se administró medicación de urgencia, debió cumplirse al menos una condición: autorización médica o riesgo vital. Como no hubo autorización, necesariamente existía riesgo vital inminente.",
+      "distractores": [
+        {
+          "texto": "Hubo autorización médica",
+          "explicacion": "Es incorrecta porque el enunciado afirma explícitamente que no hubo autorización médica."
+        },
+        {
+          "texto": "No existía riesgo vital",
+          "explicacion": "Es incorrecta porque si no existía riesgo vital y no había autorización, no se habría podido administrar la medicación."
+        },
+        {
+          "texto": "La medicación no debió administrarse",
+          "explicacion": "Es incorrecta porque el enunciado indica que se administró, por lo tanto se cumplió alguna de las condiciones permitidas."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "texto": "En la Unidad de Salud Mental de HOMERIS, todos los auxiliares de enfermería con más de 10 años de experiencia pueden supervisar a los nuevos ingresos. Adrián tiene 12 años de experiencia. ¿Qué podemos concluir?",
+      "respuestaCorrecta": "Adrián puede supervisar a los nuevos ingresos",
+      "explicacionCorrecta": "La regla establece que todos los auxiliares con más de 10 años de experiencia pueden supervisar. Adrián tiene 12 años, por lo tanto cumple la condición.",
+      "distractores": [
+        {
+          "texto": "Adrián tiene más de 10 años",
+          "explicacion": "Es verdadera pero es información redundante que ya está en el enunciado, no es la conclusión principal."
+        },
+        {
+          "texto": "Adrián no puede supervisar",
+          "explicacion": "Es incorrecta porque contradice la regla establecida, ya que Adrián cumple la condición."
+        },
+        {
+          "texto": "Solo los enfermeros jefes supervisan",
+          "explicacion": "Es incorrecta porque el enunciado no menciona esa restricción; habla específicamente de auxiliares con más de 10 años."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "texto": "En el registro de incidentes de HOMERIS se observa la siguiente secuencia de códigos activados por día: 4, 7, 11, 16, ?. Si el patrón se mantiene, ¿cuál es el siguiente código?",
+      "respuestaCorrecta": "22",
+      "explicacionCorrecta": "El patrón de incrementos es: +3 (4 a 7), +4 (7 a 11), +5 (11 a 16). El siguiente incremento es +6: 16 + 6 = 22.",
+      "distractores": [
+        {
+          "texto": "20",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +4 en lugar de +6."
+        },
+        {
+          "texto": "21",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +5 en lugar de +6."
+        },
+        {
+          "texto": "23",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +7, rompiendo el patrón."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "texto": "En HOMERIS se aplican las siguientes reglas para el uso de contenciones mecánicas: si el paciente representa un peligro inminente para sí mismo o para otros, entonces se puede aplicar contención. Si se aplica contención, entonces se debe registrar en el sistema antes de 1 hora. No se registró la contención en el sistema dentro de la hora siguiente. ¿Qué podemos concluir?",
+      "respuestaCorrecta": "El paciente no representaba un peligro inminente",
+      "explicacionCorrecta": "Por contrarrecíproco: si no se registró la contención, entonces no se aplicó contención; y si no se aplicó contención, entonces el paciente no representaba un peligro inminente.",
+      "distractores": [
+        {
+          "texto": "Se aplicó contención",
+          "explicacion": "Es incorrecta porque si se aplicó contención, debería haberse registrado, contradiciendo el enunciado."
+        },
+        {
+          "texto": "No se aplicó contención",
+          "explicacion": "Es verdadera, pero la pregunta pide la conclusión principal sobre el paciente, no sobre la contención."
+        },
+        {
+          "texto": "El paciente estaba tranquilo",
+          "explicacion": "Es incorrecta porque el enunciado no proporciona información sobre el estado de tranquilidad, solo sobre peligro inminente."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "texto": "Para que un auxiliar de enfermería reciba bonificación en HOMERIS, debe cumplir al menos dos de estas condiciones: (1) tener evaluación de desempeño sobresaliente, (2) haber participado en al menos 3 capacitaciones en el año, (3) tener más de 5 años de antigüedad. Laura tiene evaluación sobresaliente, participó en 2 capacitaciones y tiene 6 años de antigüedad. ¿Recibe bonificación?",
+      "respuestaCorrecta": "Sí, porque cumple dos condiciones",
+      "explicacionCorrecta": "Laura cumple evaluación sobresaliente (primera condición) y 6 años de antigüedad (tercera condición). No cumple la segunda (solo 2 capacitaciones). Al cumplir dos condiciones, recibe bonificación.",
+      "distractores": [
+        {
+          "texto": "No, porque le falta una capacitación",
+          "explicacion": "Es incorrecta porque no es necesario cumplir las tres condiciones, solo al menos dos."
+        },
+        {
+          "texto": "Sí, porque cumple todas las condiciones",
+          "explicacion": "Es incorrecta porque no cumple la segunda condición (necesita 3 capacitaciones y tiene 2)."
+        },
+        {
+          "texto": "No, porque no cumple suficientes condiciones",
+          "explicacion": "Es incorrecta porque cumple dos condiciones, que es suficiente según la regla."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "texto": "Los registros de administración de medicamentos en HOMERIS durante una semana muestran la siguiente secuencia de dosis administradas (en ml): 2, 4, 7, 11, ?. Si el patrón se mantiene, ¿cuál es la siguiente dosis?",
+      "respuestaCorrecta": "16",
+      "explicacionCorrecta": "El patrón de incrementos es: +2 (2 a 4), +3 (4 a 7), +4 (7 a 11). El siguiente incremento es +5: 11 + 5 = 16.",
+      "distractores": [
+        {
+          "texto": "14",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +3 en lugar de +5."
+        },
+        {
+          "texto": "15",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +4 en lugar de +5."
+        },
+        {
+          "texto": "17",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +6, rompiendo el patrón."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "texto": "En el protocolo de atención a pacientes psiquiátricos de HOMERIS se establece: si el paciente está en fase aguda, entonces requiere observación cada 30 minutos. Si requiere observación cada 30 minutos, entonces no puede estar en una habitación individual. El paciente está en una habitación individual. ¿Qué podemos concluir?",
+      "respuestaCorrecta": "El paciente no está en fase aguda",
+      "explicacionCorrecta": "Por contrarrecíproco: si el paciente está en habitación individual, entonces no requiere observación cada 30 minutos; y si no requiere observación cada 30 minutos, entonces no está en fase aguda.",
+      "distractores": [
+        {
+          "texto": "El paciente está en fase aguda",
+          "explicacion": "Es incorrecta porque si estuviera en fase aguda, requeriría observación cada 30 minutos y no podría estar en habitación individual."
+        },
+        {
+          "texto": "Requiere observación cada 30 minutos",
+          "explicacion": "Es incorrecta porque si requiere observación, no podría estar en habitación individual, contradiciendo el enunciado."
+        },
+        {
+          "texto": "La habitación individual está permitida",
+          "explicacion": "Es incorrecta porque la regla establece que si requiere observación, no puede estar en habitación individual."
+        }
+      ]
     }
   ]
 }
