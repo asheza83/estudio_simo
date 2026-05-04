@@ -184,3 +184,24 @@
     }
 }
 
+/* Ajuste para el selector de sección en móvil */
+@media (max-width: 768px) {
+    #seccionEstudio {
+        width: 100%;
+        max-width: 100%;
+        font-size: 0.85rem;
+        white-space: normal;
+        word-break: break-word;
+    }
+    
+    /* Contenedor del selector */
+    #contenido-estudio > div:first-child {
+        padding: 10px !important;
+    }
+    
+    /* Opciones del select */
+    #seccionEstudio option {
+        white-space: normal;
+        word-break: break-word;
+    }
+}
