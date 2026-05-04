@@ -644,7 +644,7 @@ function mostrarResumenFinal() {
         
         if (resumenScroll && btnSubir) {
             window.addEventListener('scroll', function() {
-                if (window.scrollY > 300) {
+                if (window.scrollY > 150) {
                     btnSubir.style.display = 'block';
                 } else {
                     btnSubir.style.display = 'none';

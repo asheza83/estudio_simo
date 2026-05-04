@@ -72,7 +72,7 @@ export async function mostrarGlosario() {
             const btnSubir = document.getElementById('btn-subir-ley');
             if (btnSubir) {
                 window.addEventListener('scroll', function() {
-                    if (window.scrollY > 300) {
+                    if (window.scrollY > 150) {
                         btnSubir.style.display = 'block';
                         mostrarIndicador();
                     } else {

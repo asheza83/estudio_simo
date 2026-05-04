@@ -39,3 +39,25 @@ export function cambiarPestana(pestanaId) {
 export function irAPreguntas() {
     cambiarPestana('tab-preguntas');
 }
+
+// Ocultar header al hacer scroll
+let lastScrollTop = 0;
+const header = document.querySelector('.header');
+const tabs = document.querySelector('.tabs');
+
+if (header && tabs) {
+    window.addEventListener('scroll', function() {
+        let scrollTop = window.scrollY || document.documentElement.scrollTop;
+        const scrollThreshold = 50;
+        
+        if (scrollTop > lastScrollTop && scrollTop > scrollThreshold) {
+            header.classList.add('hide');
+            tabs.classList.add('hide');
+        } else if (scrollTop < lastScrollTop || scrollTop <= scrollThreshold) {
+            header.classList.remove('hide');
+            tabs.classList.remove('hide');
+        }
+        
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    });
+}

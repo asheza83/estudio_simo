@@ -66,7 +66,7 @@ export function mostrarPantallaPrincipal() {
         document.body.appendChild(btnSubir);
         
         window.addEventListener('scroll', function() {
-            if (window.scrollY > 300) {
+            if (window.scrollY > 150) {
                 btnSubir.style.display = 'block';
                 mostrarIndicador();
             } else {

@@ -50,3 +50,28 @@
 .dark-mode-toggle:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
+
+/* ============================================
+   OCULTAR HEADER Y TABS AL SCROLL
+   ============================================ */
+
+.tabs {
+    transition: transform 0.3s ease-in-out;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--bg-principal);
+}
+
+
+.tabs.hide {
+    transform: translateY(-100%);
+}
+
+/* Ajuste para móvil */
+@media (max-width: 768px) {
+    
+    .tabs.hide {
+        transform: translateY(-100%);
+    }
+}
