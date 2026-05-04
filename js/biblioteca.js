@@ -61,7 +61,7 @@ export function mostrarPantallaPrincipal() {
         const btnSubir = document.createElement('button');
         btnSubir.id = 'btn-subir-biblioteca';
         btnSubir.style.cssText = 'position:fixed; bottom:30px; right:30px; width:50px; height:50px; background:var(--azul); color:white; border:none; border-radius:50%; font-size:1.5rem; cursor:pointer; box-shadow:0 4px 12px rgba(0,0,0,0.3); display:none; z-index:1001;';
-        btnSubir.textContent = '↑';
+        btnSubir.innerHTML = '<span style="font-size: 1rem; font-weight: normal;">Subir</span>';
         btnSubir.onclick = function() { window.scrollTo({top:0, behavior:'smooth'}); };
         document.body.appendChild(btnSubir);
         

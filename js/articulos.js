@@ -157,7 +157,7 @@ export function mostrarArticulo(numeroArticulo) {
         <div style="line-height:1.6;">${textoArticulo}</div>
     </div>
     
-    <button id="btn-subir" style="position:fixed; bottom:30px; right:30px; width:50px; height:50px; background:var(--azul); color:white; border:none; border-radius:50%; font-size:1.5rem; cursor:pointer; box-shadow:0 4px 12px rgba(0,0,0,0.3); display:none; z-index:1001;" onclick="var m = document.getElementById('modal-scroll'); if(m) m.scrollTo({top:0, behavior:'smooth'});">↑</button>
+    <button id="btn-subir" style="position:fixed; bottom:30px; right:30px; width:50px; height:50px; background:var(--azul); color:white; border:none; border-radius:50%; font-size:1rem; cursor:pointer; box-shadow:0 4px 12px rgba(0,0,0,0.3); display:none; z-index:1001;" onclick="var m = document.getElementById('modal-scroll'); if(m) m.scrollTo({top:0, behavior:'smooth'});">Subir</button>
     `;
 
        setTimeout(() => {
