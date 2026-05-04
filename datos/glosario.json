@@ -163,6 +163,10 @@
     { "termino": "Agitación psicomotriz", "definicion": "Estado de excesiva actividad motora asociada a tensión interna, inquietud y respuesta aumentada a estímulos externos, común en trastornos psiquiátricos agudos.", "categoria": "terminos" },
     { "termino": "Verborragia", "definicion": "Alteración del lenguaje caracterizada por un flujo excesivo de palabras, a menudo incontrolable, asociada a estados maníacos o crisis psicóticas.", "categoria": "terminos" },
     { "termino": "Código de seguridad", "definicion": "Protocolo de activación inmediata en situaciones de riesgo para la seguridad del paciente o del personal, movilizando al equipo correspondiente según el tipo de emergencia.", "categoria": "terminos" },
-    { "termino": "Evento adverso", "definicion": "Situación no deseada durante la atención en salud que resulta en daño al paciente, pudiendo ser prevenible mediante protocolos adecuados.", "categoria": "terminos" }
+    { "termino": "Evento adverso", "definicion": "Situación no deseada durante la atención en salud que resulta en daño al paciente, pudiendo ser prevenible mediante protocolos adecuados.", "categoria": "terminos" },
+    { "termino": "Consentimiento informado", "definicion": "Derecho del paciente a recibir información clara sobre su diagnóstico y tratamiento antes de autorizar cualquier procedimiento médico. En salud mental, puede implicar evaluación de capacidad de decisión.", "categoria": "terminos" },
+    { "termino": "Confidencialidad", "definicion": "Obligación legal y ética del personal de salud de proteger la información privada del paciente contenida en la historia clínica.", "categoria": "principios" },
+    { "termino": "Autonomía", "definicion": "Principio ético que reconoce el derecho del paciente a tomar decisiones informadas sobre su salud, respetando sus valores y preferencias.", "categoria": "principios" },
+    { "termino": "Trastorno límite de la personalidad", "definicion": "Trastorno psiquiátrico caracterizado por inestabilidad emocional, relaciones interpersonales intensas, impulsividad y alteración de la autoimagen.", "categoria": "terminos" }
   ]
 }

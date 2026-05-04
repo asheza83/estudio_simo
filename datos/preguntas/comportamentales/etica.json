@@ -5,19 +5,203 @@
   "preguntas": [
     {
       "id": 1,
-      "texto": "Un compañero comete un error en la administración de un medicamento. El paciente no sufre daño. ¿Qué debe hacer?",
-      "respuestaCorrecta": "Reportar el error al jefe inmediato",
-      "distractores": ["Ocultarlo para evitar problemas", "Ignorarlo", "Hablar solo con el compañero"],
-      "explicacion": "La ética profesional exige reportar errores para mejorar los sistemas de seguridad del paciente.",
-      "subcategoria": "etica"
+      "texto": "Un compañero enfermero comete un error en la administración de un medicamento. El paciente no sufre daño aparente. Nadie más se da cuenta. ¿Qué debe hacer el profesional que presencia el error?",
+      "respuestaCorrecta": "Reportar el error al jefe inmediato o al comité de seguridad",
+      "explicacionCorrecta": "La ética profesional exige reportar errores para identificar fallas en el sistema y prevenir futuros incidentes, independientemente de si hubo daño aparente.",
+      "distractores": [
+        {
+          "texto": "Ocultar el error para evitar problemas al compañero",
+          "explicacion": "Es incorrecta porque ocultar errores atenta contra la seguridad del paciente y la ética profesional."
+        },
+        {
+          "texto": "Ignorar el error ya que el paciente no sufrió daño",
+          "explicacion": "Es incorrecta porque los errores deben reportarse siempre, incluso sin daño aparente, para mejorar procesos."
+        },
+        {
+          "texto": "Hablar solo con el compañero sin reportar formalmente",
+          "explicacion": "Es incorrecta porque el reporte formal permite análisis institucional y prevención."
+        }
+      ]
     },
     {
       "id": 2,
-      "texto": "Durante una emergencia, hay confusión entre los miembros del equipo sobre las funciones. ¿Cómo actúa como enfermero(a)?",
-      "respuestaCorrecta": "Asignar roles claros: compresiones, vía aérea, acceso venoso, registro",
-      "distractores": ["Esperar instrucciones del médico", "Hacer solo lo que sabe", "Salir a buscar ayuda"],
-      "explicacion": "En emergencias, el trabajo en equipo requiere comunicación clara y asignación de roles para una respuesta efectiva.",
-      "subcategoria": "etica"
+      "texto": "Un familiar de un paciente psiquiátrico le exige información médica confidencial que usted no puede revelar por norma. El familiar se pone agresivo. ¿Cómo maneja la situación?",
+      "respuestaCorrecta": "Explicar respetuosamente la confidencialidad y ofrecer hablar con el médico tratante",
+      "explicacionCorrecta": "Se debe mantener la confidencialidad, explicar las normas al familiar y derivarlo al profesional autorizado para dar información.",
+      "distractores": [
+        {
+          "texto": "Dar la información para evitar el conflicto",
+          "explicacion": "Es incorrecta porque viola la confidencialidad del paciente."
+        },
+        {
+          "texto": "Ignorar al familiar y retirarse",
+          "explicacion": "Es incorrecta porque abandona la situación sin resolverla adecuadamente."
+        },
+        {
+          "texto": "Llamar inmediatamente a seguridad",
+          "explicacion": "Es incorrecta porque es una medida desproporcionada sin antes intentar resolver con comunicación asertiva."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "texto": "Durante una emergencia en la Unidad de Crisis, hay confusión entre los miembros del equipo sobre las funciones de cada uno. Como enfermero(a), ¿cómo actúa?",
+      "respuestaCorrecta": "Asignar roles claros rápidamente: compresiones, vía aérea, acceso venoso, registro",
+      "explicacionCorrecta": "En emergencias, el trabajo en equipo requiere comunicación clara y asignación inmediata de roles para una respuesta efectiva.",
+      "distractores": [
+        {
+          "texto": "Esperar instrucciones del médico para definir roles",
+          "explicacion": "Es incorrecta porque perder tiempo esperando puede poner en riesgo al paciente."
+        },
+        {
+          "texto": "Realizar solo las tareas que conoce sin coordinar",
+          "explicacion": "Es incorrecta porque en emergencias se requiere coordinación, no acciones aisladas."
+        },
+        {
+          "texto": "Salir a buscar ayuda externa",
+          "explicacion": "Es incorrecta porque abandonar la situación no resuelve la confusión interna."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "texto": "Un paciente con trastorno mental grave se niega a recibir tratamiento médico que es claramente necesario. ¿Qué debe priorizar el profesional de enfermería?",
+      "respuestaCorrecta": "Intentar comprender la causa de la negativa y alternativas, evaluar capacidad de decisión",
+      "explicacionCorrecta": "Se debe respetar la autonomía del paciente, evaluar si tiene capacidad de decisión y buscar alternativas consensuadas dentro del marco legal.",
+      "distractores": [
+        {
+          "texto": "Administrar el tratamiento por la fuerza inmediatamente",
+          "explicacion": "Es incorrecta porque vulnera la autonomía y requiere orden médica expresa en casos específicos."
+        },
+        {
+          "texto": "Ignorar su negativa y anotar en la historia",
+          "explicacion": "Es incorrecta porque no resuelve la situación ni garantiza la atención adecuada."
+        },
+        {
+          "texto": "Contactar a la familia para que decidan",
+          "explicacion": "Es incorrecta porque la decisión no debe delegarse automáticamente en la familia sin evaluar al paciente."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "texto": "Usted nota que un compañero llega frecuentemente con signos de cansancio extremo y ha cometido pequeños errores en los últimos días. ¿Qué acción es más ética?",
+      "respuestaCorrecta": "Conversar con el compañero de manera privada y ofrecer apoyo",
+      "explicacionCorrecta": "La ética profesional implica cuidar al equipo y ofrecer apoyo antes de que el problema afecte más la atención al paciente.",
+      "distractores": [
+        {
+          "texto": "Reportarlo inmediatamente a supervisión sin hablar con él",
+          "explicacion": "Es incorrecta porque saltarse la comunicación directa puede deteriorar la relación laboral."
+        },
+        {
+          "texto": "Ignorar la situación para no meterse en problemas",
+          "explicacion": "Es incorrecta porque ignorarlo puede derivar en errores graves de atención."
+        },
+        {
+          "texto": "Asumir sus tareas sin decir nada",
+          "explicacion": "Es incorrecta porque oculta el problema y puede generar agotamiento en quien asume."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "texto": "Se le asigna un turno en un piso donde no tiene experiencia previa. Usted siente que podría no estar preparado para manejar emergencias en esa unidad. ¿Qué debe hacer?",
+      "respuestaCorrecta": "Informar a su supervisor sobre su falta de experiencia y solicitar acompañamiento o inducción",
+      "explicacionCorrecta": "Es ético y profesional reconocer las limitaciones propias para garantizar la seguridad del paciente y del personal.",
+      "distractores": [
+        {
+          "texto": "Aceptar el turno sin mencionar el problema",
+          "explicacion": "Es incorrecta porque pone en riesgo la seguridad del paciente al actuar sin preparación."
+        },
+        {
+          "texto": "Renunciar inmediatamente",
+          "explicacion": "Es incorrecta porque es una medida extrema antes de intentar resolver la situación."
+        },
+        {
+          "texto": "Pedir cambio a otro compañero sin explicación",
+          "explicacion": "Es incorrecta porque transfiere el problema sin resolverlo adecuadamente."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "texto": "Durante la ronda nocturna, encuentra a un compañero durmiendo en su puesto de trabajo. No hay pacientes en estado crítico en ese momento. ¿Qué hace?",
+      "respuestaCorrecta": "Despertarlo, conversar en privado y reportar si es un patrón recurrente",
+      "explicacionCorrecta": "Se debe abordar directamente primero, y solo reportar formalmente si la conducta se repite o hay riesgo para pacientes.",
+      "distractores": [
+        {
+          "texto": "Ignorar la situación porque no hay pacientes críticos",
+          "explicacion": "Es incorrecta porque normaliza una conducta inapropiada que puede empeorar."
+        },
+        {
+          "texto": "Reportarlo inmediatamente a supervisión sin hablar con él",
+          "explicacion": "Es incorrecta porque se debe intentar resolver primero con diálogo directo."
+        },
+        {
+          "texto": "Tomar fotos y compartir con otros compañeros",
+          "explicacion": "Es incorrecta porque es una falta de respeto y profesionalismo."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "texto": "Un paciente requiere un procedimiento doloroso pero necesario. Se resiste físicamente y le pide que no lo haga. La orden médica está clara. ¿Qué debe priorizar?",
+      "respuestaCorrecta": "Intentar calmar al paciente, explicar el procedimiento y, si persiste la negativa, consultar al médico",
+      "explicacionCorrecta": "La ética indica buscar consentimiento informado, respetar la autonomía y solo proceder con orden médica expresa en situaciones de riesgo vital.",
+      "distractores": [
+        {
+          "texto": "Realizar el procedimiento inmediatamente por orden médica",
+          "explicacion": "Es incorrecta porque ignora la voluntad del paciente sin considerar alternativas."
+        },
+        {
+          "texto": "Dejar de prestar atención al paciente",
+          "explicacion": "Es incorrecta porque abandona la responsabilidad de cuidado."
+        },
+        {
+          "texto": "Solicitar contención mecánica de inmediato",
+          "explicacion": "Es incorrecta porque es desproporcionado sin antes intentar comunicación y alternativas."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "texto": "Un compañero tiene un familiar internado en la misma unidad donde trabaja. Él accede a la historia clínica del familiar sin autorización. ¿Qué debe hacer usted?",
+      "respuestaCorrecta": "Recordarle que es una falta grave a la confidencialidad y reportar si no corrige",
+      "explicacionCorrecta": "El acceso no autorizado a historias clínicas es una violación ética y legal, incluso para familiares.",
+      "distractores": [
+        {
+          "texto": "Ignorar porque es familiar, no un paciente cualquiera",
+          "explicacion": "Es incorrecta porque la confidencialidad aplica a todos los pacientes, incluso familiares del personal."
+        },
+        {
+          "texto": "Denunciar anónimamente sin advertirle",
+          "explicacion": "Es incorrecta porque se debe intentar resolver primero con diálogo directo."
+        },
+        {
+          "texto": "Solicitar acceso también para revisar",
+          "explicacion": "Es incorrecta porque repetiría la falta ética."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "texto": "En una reunión de equipo, se discute el caso de un paciente con diagnóstico de trastorno límite de la personalidad. Un compañero hace comentarios despectivos sobre el paciente. ¿Cómo reacciona usted?",
+      "respuestaCorrecta": "Intervenir respetuosamente recordando la obligación de tratar con dignidad a los pacientes",
+      "explicacionCorrecta": "El profesional de enfermería debe promover un trato digno y respetuoso, evitando estigmatización de pacientes psiquiátricos.",
+      "distractores": [
+        {
+          "texto": "Reírse para no quedar mal con el grupo",
+          "explicacion": "Es incorrecta porque normaliza y refuerza un comportamiento inapropiado."
+        },
+        {
+          "texto": "Ignorar el comentario para evitar conflictos",
+          "explicacion": "Es incorrecta porque el silencio puede interpretarse como aprobación."
+        },
+        {
+          "texto": "Reportar al compañero inmediatamente a recursos humanos",
+          "explicacion": "Es incorrecta porque es desproporcionado no intentar corregir primero en el momento."
+        }
+      ]
     }
   ]
 }
