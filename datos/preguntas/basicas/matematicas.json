@@ -5,11 +5,203 @@
   "preguntas": [
     {
       "id": 1,
-      "texto": "Si una dosis de medicamento es 5 ml por cada 10 kg de peso, ¿cuántos ml necesita un paciente de 70 kg?",
-      "respuestaCorrecta": "35 ml",
-      "distractores": ["30 ml", "40 ml", "25 ml"],
-      "explicacion": "Cálculo: (70 kg ÷ 10 kg) × 5 ml = 7 × 5 = 35 ml.",
-      "subcategoria": "matematicas"
+      "texto": "En HOMERIS, un paciente psiquiátrico debe recibir 5 mg de haloperidol por cada 10 kg de peso. Si el paciente pesa 68 kg, ¿cuántos mg debe recibir?",
+      "respuestaCorrecta": "34 mg",
+      "explicacionCorrecta": "Cálculo: (68 kg ÷ 10 kg) × 5 mg = 6,8 × 5 = 34 mg.",
+      "distractores": [
+        {
+          "texto": "30 mg",
+          "explicacion": "Es incorrecta porque calcularía 6 × 5 = 30, ignorando los 8 kg adicionales."
+        },
+        {
+          "texto": "35 mg",
+          "explicacion": "Es incorrecta porque redondearía 6,8 a 7 antes de multiplicar: 7 × 5 = 35."
+        },
+        {
+          "texto": "40 mg",
+          "explicacion": "Es incorrecta porque usaría 8 kg como divisor: 68 ÷ 8 = 8,5 × 5 = 42,5, aproximado incorrectamente."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "texto": "En la Unidad de Crisis de HOMERIS, la relación enfermera-paciente debe ser de 1:3 (una enfermera por cada 3 pacientes). Si hay 19 pacientes en la unidad, ¿cuántas enfermeras se necesitan como mínimo?",
+      "respuestaCorrecta": "7 enfermeras",
+      "explicacionCorrecta": "19 ÷ 3 = 6,33. Como no se puede tener fracción de enfermera, se necesitan 7 enfermeras (redondeo al alza).",
+      "distractores": [
+        {
+          "texto": "6 enfermeras",
+          "explicacion": "Es incorrecta porque 6 enfermeras atenderían solo 18 pacientes, insuficiente para 19."
+        },
+        {
+          "texto": "5 enfermeras",
+          "explicacion": "Es incorrecta porque atenderían solo 15 pacientes."
+        },
+        {
+          "texto": "8 enfermeras",
+          "explicacion": "Es incorrecta porque es más del mínimo necesario (7 son suficientes)."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "texto": "Un paciente recibe 150 mg de un medicamento cada 8 horas. ¿Cuántos mg recibe en 7 días?",
+      "respuestaCorrecta": "3150 mg",
+      "explicacionCorrecta": "Dosis por día: 24 ÷ 8 = 3 dosis. Dosis diaria: 150 mg × 3 = 450 mg. En 7 días: 450 mg × 7 = 3150 mg.",
+      "distractores": [
+        {
+          "texto": "3000 mg",
+          "explicacion": "Es incorrecta porque calcularía 150 × 20 = 3000, pero 7 días tienen 21 dosis (no 20)."
+        },
+        {
+          "texto": "3500 mg",
+          "explicacion": "Es incorrecta porque calcularía 500 mg diarios × 7 = 3500 mg, asumiendo dosis incorrecta."
+        },
+        {
+          "texto": "2800 mg",
+          "explicacion": "Es incorrecta porque calcularía 400 mg diarios × 7 = 2800 mg, subestimando las dosis diarias."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "texto": "En la farmacia de HOMERIS, un liofilizado de 500 mg debe reconstituirse con 10 ml de agua estéril para obtener una concentración de 50 mg/ml. ¿Cuántos ml se necesitan para administrar 120 mg?",
+      "respuestaCorrecta": "2,4 ml",
+      "explicacionCorrecta": "Concentración: 500 mg ÷ 10 ml = 50 mg/ml. Dosis: 120 mg ÷ 50 mg/ml = 2,4 ml.",
+      "distractores": [
+        {
+          "texto": "2 ml",
+          "explicacion": "Es incorrecta porque correspondería a 100 mg (50 × 2 = 100), insuficiente."
+        },
+        {
+          "texto": "2,5 ml",
+          "explicacion": "Es incorrecta porque correspondería a 125 mg (50 × 2,5 = 125)."
+        },
+        {
+          "texto": "3 ml",
+          "explicacion": "Es incorrecta porque correspondería a 150 mg (50 × 3 = 150), excediendo la dosis."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "texto": "El gasto mensual en psicofármacos de HOMERIS aumentó un 15% respecto al mes anterior. Si el gasto del mes anterior fue de $8.200.000, ¿cuál es el nuevo gasto?",
+      "respuestaCorrecta": "$9.430.000",
+      "explicacionCorrecta": "Incremento: 8.200.000 × 0,15 = 1.230.000. Nuevo gasto: 8.200.000 + 1.230.000 = 9.430.000.",
+      "distractores": [
+        {
+          "texto": "$9.000.000",
+          "explicacion": "Es incorrecta porque calcula un incremento de $800.000 (9,75%)."
+        },
+        {
+          "texto": "$9.500.000",
+          "explicacion": "Es incorrecta porque calcula un incremento de $1.300.000 (15,85%)."
+        },
+        {
+          "texto": "$9.800.000",
+          "explicacion": "Es incorrecta porque duplica el porcentaje: 8.200.000 × 0,30 = 2.460.000 + base = 10.660.000, aproximado incorrectamente."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "texto": "La nómina de auxiliares de enfermería de HOMERIS es de $45.000.000 mensuales. Si se contratan 3 nuevos auxiliares y cada uno gana $2.800.000, ¿cuál será el nuevo total de la nómina?",
+      "respuestaCorrecta": "$53.400.000",
+      "explicacionCorrecta": "Incremento: 3 × 2.800.000 = 8.400.000. Nuevo total: 45.000.000 + 8.400.000 = 53.400.000.",
+      "distractores": [
+        {
+          "texto": "$50.400.000",
+          "explicacion": "Es incorrecta porque sumaría solo 5.400.000 (error en multiplicación)."
+        },
+        {
+          "texto": "$52.800.000",
+          "explicacion": "Es incorrecta porque calcularía 45.000.000 + (3 × 2.600.000) = 52.800.000."
+        },
+        {
+          "texto": "$54.600.000",
+          "explicacion": "Es incorrecta porque sumaría 45.000.000 + 9.600.000 = 54.600.000 (error en multiplicación)."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "texto": "Un paciente debe tomar 0,125 mg de clonazepam. La presentación es en tabletas de 0,5 mg. ¿Cuántas tabletas debe tomar?",
+      "respuestaCorrecta": "1/4 tableta (0,25 tabletas)",
+      "explicacionCorrecta": "0,125 ÷ 0,5 = 0,25. Es decir, un cuarto de tableta.",
+      "distractores": [
+        {
+          "texto": "1/2 tableta (0,5 tabletas)",
+          "explicacion": "Es incorrecta porque 0,5 × 0,5 = 0,25 mg, duplicando la dosis."
+        },
+        {
+          "texto": "1 tableta",
+          "explicacion": "Es incorrecta porque sería 0,5 mg, cuatro veces la dosis indicada."
+        },
+        {
+          "texto": "1/8 tableta (0,125 tabletas)",
+          "explicacion": "Es incorrecta porque 0,5 × 0,125 = 0,0625 mg, la mitad de la dosis."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "texto": "La Unidad de Hospitalización de HOMERIS tiene capacidad para 40 pacientes. Actualmente hay 32 pacientes ocupando camas. ¿Cuál es el porcentaje de ocupación?",
+      "respuestaCorrecta": "80%",
+      "explicacionCorrecta": "(32 ÷ 40) × 100 = 0,8 × 100 = 80%.",
+      "distractores": [
+        {
+          "texto": "75%",
+          "explicacion": "Es incorrecta porque calcularía 30 ÷ 40 = 75%."
+        },
+        {
+          "texto": "85%",
+          "explicacion": "Es incorrecta porque calcularía 34 ÷ 40 = 85%."
+        },
+        {
+          "texto": "90%",
+          "explicacion": "Es incorrecta porque 90% serían 36 pacientes (40 × 0,9 = 36)."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "texto": "En HOMERIS, el 60% de los pacientes en la Unidad de Agudos requieren contención farmacológica. Si hay 45 pacientes en esa unidad, ¿cuántos requieren contención farmacológica?",
+      "respuestaCorrecta": "27 pacientes",
+      "explicacionCorrecta": "45 × 0,60 = 27 pacientes.",
+      "distractores": [
+        {
+          "texto": "25 pacientes",
+          "explicacion": "Es incorrecta porque calcularía 45 × 0,55 = 24,75, redondeado a 25."
+        },
+        {
+          "texto": "30 pacientes",
+          "explicacion": "Es incorrecta porque sería el 66,6% de 45."
+        },
+        {
+          "texto": "18 pacientes",
+          "explicacion": "Es incorrecta porque sería el 40% de 45."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "texto": "Un frasco de antibiótico contiene 2 gramos de polvo. Si se reconstituye con 4 ml de agua destilada, la concentración es de 500 mg/ml. ¿Cuántos ml se necesitan para 750 mg?",
+      "respuestaCorrecta": "1,5 ml",
+      "explicacionCorrecta": "2 g = 2000 mg. Concentración: 2000 mg ÷ 4 ml = 500 mg/ml. Dosis: 750 mg ÷ 500 mg/ml = 1,5 ml.",
+      "distractores": [
+        {
+          "texto": "1 ml",
+          "explicacion": "Es incorrecta porque correspondería a 500 mg, insuficiente."
+        },
+        {
+          "texto": "2 ml",
+          "explicacion": "Es incorrecta porque correspondería a 1000 mg, excediendo la dosis."
+        },
+        {
+          "texto": "1,25 ml",
+          "explicacion": "Es incorrecta porque 500 × 1,25 = 625 mg, insuficiente."
+        }
+      ]
     }
   ]
 }
