@@ -153,6 +153,11 @@
     { "termino": "Contención mecánica", "definicion": "Procedimiento de inmovilización temporal de un paciente psiquiátrico en crisis para prevenir daño a sí mismo o a terceros, regulado por estrictos protocolos clínicos y éticos.", "categoria": "terminos" },
     { "termino": "Psicofármaco", "definicion": "Medicamento utilizado para el tratamiento de trastornos mentales, incluyendo antipsicóticos, antidepresivos, ansiolíticos y estabilizadores del estado de ánimo.", "categoria": "terminos" },
     { "termino": "Peligro inminente", "definicion": "Situación clínica en la que un paciente representa un riesgo inmediato y grave para su integridad física o la de otros, justificando intervenciones urgentes como la contención o el aislamiento.", "categoria": "terminos" },
-    { "termino": "Riesgo vital", "definicion": "Condición médica en la que existe una probabilidad real e inmediata de muerte del paciente, requiriendo intervención urgente para preservar la vida.", "categoria": "terminos" }
+    { "termino": "Riesgo vital", "definicion": "Condición médica en la que existe una probabilidad real e inmediata de muerte del paciente, requiriendo intervención urgente para preservar la vida.", "categoria": "terminos" },
+    { "termino": "Haloperidol", "definicion": "Antipsicótico típico utilizado en el tratamiento de trastornos psicóticos agudos, agitación y crisis de salud mental en entornos hospitalarios.", "categoria": "terminos" },
+    { "termino": "Clonazepam", "definicion": "Benzodiazepina utilizada como anticonvulsivante y ansiolítico. En salud mental, se emplea para tratar trastornos de ansiedad, pánico y crisis epilépticas.", "categoria": "terminos" },
+    { "termino": "Liofilizado", "definicion": "Producto farmacéutico que ha sido deshidratado mediante congelación y sublimación para conservar su estabilidad, requiriendo reconstitución antes de su administración.", "categoria": "terminos" },
+    { "termino": "Reconstitución", "definicion": "Procedimiento de agregar un diluyente (generalmente agua estéril) a un medicamento liofilizado para obtener una solución inyectable lista para administrar.", "categoria": "terminos" },
+    { "termino": "Antipsicótico", "definicion": "Medicamento utilizado para tratar síntomas psicóticos como alucinaciones, delirios o agitación severa. Incluye haloperidol, olanzapina, risperidona, entre otros.", "categoria": "terminos" }
   ]
 }
