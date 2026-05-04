@@ -167,6 +167,10 @@
     { "termino": "Consentimiento informado", "definicion": "Derecho del paciente a recibir información clara sobre su diagnóstico y tratamiento antes de autorizar cualquier procedimiento médico. En salud mental, puede implicar evaluación de capacidad de decisión.", "categoria": "terminos" },
     { "termino": "Confidencialidad", "definicion": "Obligación legal y ética del personal de salud de proteger la información privada del paciente contenida en la historia clínica.", "categoria": "principios" },
     { "termino": "Autonomía", "definicion": "Principio ético que reconoce el derecho del paciente a tomar decisiones informadas sobre su salud, respetando sus valores y preferencias.", "categoria": "principios" },
+    { "termino": "Trastorno límite de la personalidad", "definicion": "Trastorno psiquiátrico caracterizado por inestabilidad emocional, relaciones interpersonales intensas, impulsividad y alteración de la autoimagen.", "categoria": "terminos" },
+    { "termino": "Consentimiento informado", "definicion": "Derecho del paciente a recibir información clara sobre su diagnóstico y tratamiento antes de autorizar cualquier procedimiento médico. En salud mental, puede implicar evaluación de capacidad de decisión.", "categoria": "terminos" },
+    { "termino": "Confidencialidad", "definicion": "Obligación legal y ética del personal de salud de proteger la información privada del paciente contenida en la historia clínica.", "categoria": "principios" },
+    { "termino": "Autonomía", "definicion": "Principio ético que reconoce el derecho del paciente a tomar decisiones informadas sobre su salud, respetando sus valores y preferencias.", "categoria": "principios" },
     { "termino": "Trastorno límite de la personalidad", "definicion": "Trastorno psiquiátrico caracterizado por inestabilidad emocional, relaciones interpersonales intensas, impulsividad y alteración de la autoimagen.", "categoria": "terminos" }
   ]
 }

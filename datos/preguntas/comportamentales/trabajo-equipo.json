@@ -5,11 +5,203 @@
   "preguntas": [
     {
       "id": 1,
-      "texto": "Durante una emergencia, hay confusión entre los miembros del equipo sobre las funciones. ¿Cómo actúa como enfermero(a)?",
-      "respuestaCorrecta": "Asignar roles claros: compresiones, vía aérea, acceso venoso, registro",
-      "distractores": ["Esperar instrucciones del médico", "Hacer solo lo que sabe", "Salir a buscar ayuda"],
-      "explicacion": "En emergencias, el trabajo en equipo requiere comunicación clara y asignación de roles para una respuesta efectiva.",
-      "subcategoria": "trabajo-equipo"
+      "texto": "En la Unidad de Hospitalización de HOMERIS, se presenta una emergencia con un paciente agresivo. El equipo está descoordinado: unos quieren contener, otros llamar al médico, otros registrar. ¿Qué acción debe tomar el líder del equipo?",
+      "respuestaCorrecta": "Asignar roles específicos: contención, comunicación médica, registro de eventos",
+      "explicacionCorrecta": "El líder debe asignar roles claros para evitar confusión y garantizar respuesta efectiva ante la emergencia.",
+      "distractores": [
+        {
+          "texto": "Unirse a la contención sin asignar roles",
+          "explicacion": "Es incorrecta porque la descoordinación empeora si el líder no organiza al equipo."
+        },
+        {
+          "texto": "Esperar que el equipo se organice solo",
+          "explicacion": "Es incorrecta porque en emergencias no hay tiempo para esperar organización espontánea."
+        },
+        {
+          "texto": "Llamar a otro piso para pedir ayuda sin asignar tareas",
+          "explicacion": "Es incorrecta porque se debe optimizar el equipo presente antes de solicitar refuerzos."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "texto": "Durante el cambio de turno, una enfermera entrega información incompleta sobre un paciente. Como receptor del turno, ¿qué debe hacer?",
+      "respuestaCorrecta": "Pedir aclaraciones específicas sobre los puntos faltantes",
+      "explicacionCorrecta": "La comunicación efectiva en el cambio de turno es clave para la seguridad del paciente; se deben pedir aclaraciones oportunas.",
+      "distractores": [
+        {
+          "texto": "Aceptar la información incompleta para no incomodar",
+          "explicacion": "Es incorrecta porque puede derivar en errores por falta de información."
+        },
+        {
+          "texto": "Reportar a la supervisión sin conversarlo antes",
+          "explicacion": "Es incorrecta porque es desproporcionado no intentar resolverlo directamente primero."
+        },
+        {
+          "texto": "Revisar personalmente la historia clínica sin preguntar",
+          "explicacion": "Es incorrecta porque no corrige el problema de comunicación entre el equipo."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "texto": "Se implementa un nuevo protocolo de administración de psicofármacos. Algunos compañeros se resisten al cambio. ¿Cómo debe actuar el equipo?",
+      "respuestaCorrecta": "Organizar una sesión de entrenamiento práctico y discutir dudas abiertamente",
+      "explicacionCorrecta": "El trabajo en equipo implica apoyar la implementación de cambios mediante formación y diálogo, no imposición o marginación.",
+      "distractores": [
+        {
+          "texto": "Ignorar a los resistentes y aplicar el protocolo solo algunos",
+          "explicacion": "Es incorrecta porque divide al equipo y no garantiza aplicación uniforme del protocolo."
+        },
+        {
+          "texto": "Reportar a los resistentes sin intentar capacitarlos",
+          "explicacion": "Es incorrecta porque no aborda la causa de la resistencia (falta de formación)."
+        },
+        {
+          "texto": "Aplicar el protocolo anterior con los resistentes",
+          "explicacion": "Es incorrecta porque genera inequidad en la atención de pacientes."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "texto": "Un compañero está visiblemente abrumado por la carga de trabajo y comete un error menor. ¿Cómo debe reaccionar el equipo?",
+      "respuestaCorrecta": "Apoyarlo para completar sus tareas y sugerir redistribución de trabajo",
+      "explicacionCorrecta": "El trabajo en equipo implica apoyar a los colegas en situaciones de sobrecarga, no señalarlos o ignorarlos.",
+      "distractores": [
+        {
+          "texto": "Ignorarlo para no meterse en problemas",
+          "explicacion": "Es incorrecta porque el error puede repetirse si no se aborda la sobrecarga."
+        },
+        {
+          "texto": "Reportarlo inmediatamente por el error",
+          "explicacion": "Es incorrecta porque es desproporcionado sin antes ofrecer apoyo."
+        },
+        {
+          "texto": "Asumir sus tareas sin comentarlo",
+          "explicacion": "Es incorrecta porque oculta el problema de distribución de cargas."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "texto": "En una reunión de equipo, surge un desacuerdo sobre el plan de cuidado de un paciente complejo. ¿Cuál es la mejor estrategia?",
+      "respuestaCorrecta": "Escuchar todas las posturas y buscar consenso basado en evidencia",
+      "explicacionCorrecta": "El trabajo en equipo efectivo requiere escucha activa y decisiones basadas en evidencia, no imposición ni mayoría simple.",
+      "distractores": [
+        {
+          "texto": "Aceptar la opinión del profesional con más años de experiencia",
+          "explicacion": "Es incorrecta porque la antigüedad no garantiza la mejor decisión clínica."
+        },
+        {
+          "texto": "Votar y aplicar la opción con más votos",
+          "explicacion": "Es incorrecta porque una decisión clínica no debe basarse en votación mayoritaria."
+        },
+        {
+          "texto": "Posponer la decisión a la próxima reunión",
+          "explicacion": "Es incorrecta porque puede afectar la oportunidad del cuidado."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "texto": "Un paciente psiquiátrico intenta agredir a una enfermera. Otro compañero llega a ayudar. ¿Cómo deben coordinarse?",
+      "respuestaCorrecta": "Uno se posiciona frente al paciente hablando calmadamente, el otro retira objetos peligrosos",
+      "explicacionCorrecta": "La coordinación en crisis implica roles diferenciados: contención verbal, seguridad del entorno y activación de código si es necesario.",
+      "distractores": [
+        {
+          "texto": "Ambos intentan contener físicamente al mismo tiempo",
+          "explicacion": "Es incorrecta porque puede exacerbar la agitación del paciente."
+        },
+        {
+          "texto": "Ambos se retiran y llaman a seguridad",
+          "explicacion": "Es incorrecta porque abandonan al compañero agredido."
+        },
+        {
+          "texto": "Uno se retira, el otro intenta dialogar solo",
+          "explicacion": "Es incorrecta porque deja al compañero en situación vulnerable."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "texto": "Se detectó que un compañero tiene problemas de adicción que afectan su desempeño. ¿Cómo debe actuar el equipo?",
+      "respuestaCorrecta": "Conversar con él, ofrecer apoyo y canalizar a programas de ayuda al trabajador",
+      "explicacionCorrecta": "El equipo debe priorizar la salud del compañero y la seguridad del paciente, ofreciendo apoyo antes de medidas sancionatorias.",
+      "distractores": [
+        {
+          "texto": "Ignorar el problema para evitar conflictos",
+          "explicacion": "Es incorrecta porque pone en riesgo la seguridad de los pacientes."
+        },
+        {
+          "texto": "Reportarlo anónimamente sin hablar con él",
+          "explicacion": "Es incorrecta porque no ofrece oportunidad de recuperación."
+        },
+        {
+          "texto": "Excluirlo de actividades del equipo",
+          "explicacion": "Es incorrecta porque es punitivo y no soluciona el problema."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "texto": "Se recibe a una nueva auxiliar de enfermería en la unidad. Los demás miembros del equipo notan que comete errores por desconocimiento de los protocolos. ¿Qué deben hacer?",
+      "respuestaCorrecta": "Asignarle un compañero tutor para su acompañamiento inicial",
+      "explicacionCorrecta": "La integración efectiva de nuevos miembros requiere acompañamiento, no señalamiento ni abandono.",
+      "distractores": [
+        {
+          "texto": "Ignorar los errores esperando que aprenda sola",
+          "explicacion": "Es incorrecta porque prolonga el riesgo de errores y frustración."
+        },
+        {
+          "texto": "Reportar cada error a supervisión",
+          "explicacion": "Es incorrecta porque desincentiva la integración y genera clima de desconfianza."
+        },
+        {
+          "texto": "Realizar sus tareas para evitar errores",
+          "explicacion": "Es incorrecta porque no resuelve la falta de formación."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "texto": "Durante una emergencia, el médico da una orden que contradice el protocolo institucional. ¿Qué debe hacer el equipo de enfermería?",
+      "respuestaCorrecta": "Solicitar verbalmente confirmación y documentar la orden médica",
+      "explicacionCorrecta": "El trabajo en equipo incluye respeto a la jerarquía pero también responsabilidad en la seguridad del paciente, solicitando aclaraciones cuando sea necesario.",
+      "distractores": [
+        {
+          "texto": "Cumplir la orden sin cuestionar",
+          "explicacion": "Es incorrecta porque puede violar protocolos de seguridad."
+        },
+        {
+          "texto": "Negarse rotundamente a cumplir",
+          "explicacion": "Es incorrecta porque no resuelve la situación de forma colaborativa."
+        },
+        {
+          "texto": "Reportar al médico inmediatamente después de cumplir",
+          "explicacion": "Es incorrecta porque el reporte debe ser antes de ejecutar la orden contradictoria."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "texto": "Un miembro del equipo sugiere una mejora al proceso de atención. ¿Cómo debe recibirse esta sugerencia?",
+      "respuestaCorrecta": "Analizarla en equipo y probarla si es viable",
+      "explicacionCorrecta": "El trabajo en equipo incluye valorar las sugerencias de mejora de todos los miembros, independientemente de su antigüedad o cargo.",
+      "distractores": [
+        {
+          "texto": "Aceptarla solo si viene del profesional con más rango",
+          "explicacion": "Es incorrecta porque las buenas ideas pueden venir de cualquier miembro."
+        },
+        {
+          "texto": "Desestimarla sin analizarla",
+          "explicacion": "Es incorrecta porque desalienta la participación y mejora continua."
+        },
+        {
+          "texto": "Implementarla sin consultar al resto",
+          "explicacion": "Es incorrecta porque debe ser consensuada con el equipo afectado."
+        }
+      ]
     }
   ]
 }
