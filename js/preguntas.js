@@ -94,6 +94,13 @@ export function inicializarSelectsCompetencias() {
     subcategoriaSelect.addEventListener('change', function() {
         const btnExamen = document.getElementById('btn-comenzar-examen');
         btnExamen.disabled = (this.value === '');
+        
+        // 🔥 Scroll al botón COMENZAR EXAMEN cuando se habilita (en móvil)
+        if (!btnExamen.disabled && window.innerWidth <= 768) {
+            setTimeout(() => {
+                btnExamen.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }, 100);
+        }
     });
 }
 
@@ -304,6 +311,14 @@ export function seleccionarOpcion(indice) {
     document.getElementById('btn-siguiente').disabled = false;
     document.getElementById('btn-siguiente').style.display = 'block';
     window.opcionSeleccionada = indice;
+    
+    // Scroll al botón Verificar en dispositivos móviles
+    setTimeout(() => {
+        const btn = document.getElementById('btn-siguiente');
+        if (btn && window.innerWidth <= 768) {
+            btn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+    }, 50);
 }
 
 // ============================================
@@ -338,6 +353,13 @@ export function siguientePregunta() {
         btn.textContent = 'SIGUIENTE →';
         btn.onclick = () => avanzarSiguientePregunta();
         
+        // Scroll para que el botón sea visible en móvil después del feedback
+        setTimeout(() => {
+            if (window.innerWidth <= 768) {
+                btn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+        }, 50);
+        
     } else {
         let mensajeFeedback = `${opcionSeleccionada.feedback}<br><br>🔄 Intenta de nuevo con las opciones restantes.`;
         
@@ -350,6 +372,14 @@ export function siguientePregunta() {
         opcionesDiv[window.opcionSeleccionada].style.opacity = '0.5';
         opcionesDiv[window.opcionSeleccionada].style.pointerEvents = 'none';
         window.opcionSeleccionada = undefined;
+        
+        // Scroll para que el botón VERIFICAR (deshabilitado) sea visible en móvil
+        setTimeout(() => {
+            const btn = document.getElementById('btn-siguiente');
+            if (btn && window.innerWidth <= 768) {
+                btn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+        }, 50);
     }
 }
 
@@ -542,8 +572,21 @@ function mostrarResumenFinal() {
     let totalIntentos = 0;
     let aprendizajeCruzado = 0;
     
-    let html = `
-        <div class="pregunta-card" id="resumen-scroll" style="background-color: rgba(13, 110, 253, 0.1); border: 2px solid var(--azul); margin-top: 20px;">
+    let html = ``;
+
+    html += `
+        <hr style="border: 1px solid var(--borde); margin: 12px 0;">
+        <p style="text-align: center; font-size: 1.2rem; color: var(--texto-secundario); margin-bottom: 12px; line-height: 1.4;">
+            En esta sección encontrará una Tabla de Resumen de su actividad que contiene: Cada pregunta respondida, si fue correcta o incorrecta, la respuesta correcta y los intentos realizados.<br><br>
+            💡 <strong>¿Qué hacer ahora?</strong><br>
+            En la parte inferior encontrará dos botones:<br>
+            • <strong>"REPETIR EXAMEN"</strong> - Carga nuevas preguntas de la misma competencia.<br>
+            • <strong>"CAMBIAR DE COMPETENCIA"</strong> - Vuelve a los selectores de Tipo de Competencia y Subcategoría en la pestaña Preguntas.
+        </p>
+    </div>
+    `;
+
+    html += `<div class="pregunta-card" id="resumen-scroll" style="background-color: rgba(13, 110, 253, 0.1); border: 2px solid var(--azul); margin-top: 20px;">
             <h3>📋 RESUMEN DE LA ACTIVIDAD</h3>
             <hr style="border: 1px solid var(--borde); margin: 12px 0;">
     `;
@@ -569,12 +612,13 @@ function mostrarResumenFinal() {
         
         html += `
             <div style="padding: 8px 0; border-bottom: 1px solid var(--borde);">
-                <p style="font-weight: bold;">${icono} Pregunta ${idx + 1}</p>
-                <p style="font-size: 0.9rem; margin: 4px 0;">${pregunta.texto}</p>
-                <p style="font-size: 0.9rem;">Respuesta: <strong>${respuesta.respuestaFinal || 'No respondida'}</strong></p>
-                <p style="font-size: 1rem;">Intentos: ${respuesta.intentos}${iconoAprendizaje}</p>
+                <p style="font-weight: bold; font-size: 1.2rem;">${icono} Pregunta ${idx + 1}</p>
+                <p style="font-size: 1.1rem; margin: 4px 0;">${pregunta.texto}</p>
+                <p style="font-size: 1.1rem;">Respuesta: <strong>${respuesta.respuestaFinal || 'No respondida'}</strong></p>
+                <p style="font-size: 1.1rem; margin-top: 4px;">Intentos: ${respuesta.intentos}${iconoAprendizaje}</p>
             </div>
         `;
+
     });
     
     html += `
