@@ -308,11 +308,16 @@ export function seleccionarOpcion(indice) {
     const respuesta = respuestasUsuario[preguntaActualIndex];
     if (respuesta.respondida) return;
     
+    // ✅ NUEVO: Ocultar el feedback cuando se selecciona una nueva opción
+    const feedbackDiv = document.getElementById(`feedback-${preguntaActualIndex}`);
+    if (feedbackDiv) {
+        feedbackDiv.style.display = 'none';
+    }
+    
     document.getElementById('btn-siguiente').disabled = false;
     document.getElementById('btn-siguiente').style.display = 'block';
     window.opcionSeleccionada = indice;
     
-    // Scroll al botón Verificar en dispositivos móviles
     setTimeout(() => {
         const btn = document.getElementById('btn-siguiente');
         if (btn && window.innerWidth <= 768) {

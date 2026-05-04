@@ -184,3 +184,7 @@
 #btn-comenzar-examen:disabled:hover {
     background-color: #6c757d !important;
 }
+
+.feedback {
+    transition: opacity 0.15s ease;
+}
