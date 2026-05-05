@@ -379,6 +379,23 @@
         window.volverAlMenu = volverAlMenu;
         window.irAPrincipalDesdePreguntas = irAPrincipalDesdePreguntas;
 
+        /**************************************/
+         /*SELECTORES DE LA PESTAÑA PREGUNTAS*/
+         /*************************************/ 
+        function reiniciarSelectores() {
+            const tipoSelect = document.getElementById('tipo-competencia');
+            if (tipoSelect) tipoSelect.value = '';
+            
+            const subSelect = document.getElementById('subcategoria-competencia');
+            if (subSelect) {
+                subSelect.innerHTML = '<option value="">Primero selecciona el tipo de competencia</option>';
+                subSelect.style.display = 'none';
+                subSelect.disabled = true;
+            }
+            
+            const btnExamen = document.getElementById('btn-comenzar-examen');
+            if (btnExamen) btnExamen.disabled = true;
+        }
 
         // Función para seleccionar modo de examen
         function seleccionarModo(modo) {
@@ -398,6 +415,9 @@
                 modoSimulacroCard.style.backgroundColor = 'var(--azul)';
                 window.modoSeleccionado = 'simulacro';
             }
+            
+            // ✅ Reiniciar selectores al cambiar de modo
+            reiniciarSelectores();
         }
         
         // Seleccionar modo Estudio por defecto

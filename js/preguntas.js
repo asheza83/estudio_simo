@@ -221,11 +221,12 @@ export async function inicializarPreguntas(archivoId = null) {
     const nuevasPreguntas = preguntasMezcladas.slice(0, PREGUNTAS_POR_SESION);
     setPreguntasActuales(nuevasPreguntas);
     setPreguntaActualIndex(0);
-    setRespuestasUsuario(nuevasPreguntas.map(() => ({
+        setRespuestasUsuario(nuevasPreguntas.map(() => ({
         intentos: 0,
         respondida: false,
         respuestaFinal: null,
-        opcionesMostradas: null
+        opcionesMostradas: null,
+        esCorrecta: false  // ✅ NUEVO para simulacro
     })));
     
     window.scrollTo({top: 0, behavior: 'smooth'});
@@ -329,10 +330,14 @@ export function seleccionarOpcion(indice) {
     
     const opcionSeleccionada = respuesta.opcionesMostradas[indice];
     
+    // ✅ Guardar la opción seleccionada para saber cuál fue
+    window.opcionSeleccionada = indice;
+    
     if (modoSimulacro) {
         // Simulacro: guardar respuesta inmediatamente
         respuesta.respondida = true;
         respuesta.respuestaFinal = opcionSeleccionada.texto;
+        respuesta.esCorrecta = opcionSeleccionada.esCorrecta;  // ✅ CRÍTICO
         respuesta.intentos = 1;
         
         // Detener temporizador global
@@ -341,9 +346,15 @@ export function seleccionarOpcion(indice) {
             intervaloGlobal = null;
             setTemporizadorActivo(false);
         }
+        
+        // ✅ Habilitar el botón SIGUIENTE
+        document.getElementById('btn-siguiente').disabled = false;
+        document.getElementById('btn-siguiente').style.display = 'block';
     } else {
         // Modo Estudio: solo seleccionar, sin guardar aún
-        window.opcionSeleccionada = indice;
+        // ✅ Habilitar botón VERIFICAR
+        document.getElementById('btn-siguiente').disabled = false;
+        document.getElementById('btn-siguiente').style.display = 'block';
     }
     
     // Ocultar feedback
@@ -351,10 +362,6 @@ export function seleccionarOpcion(indice) {
     if (feedbackDiv) {
         feedbackDiv.style.display = 'none';
     }
-    
-    // Habilitar botón siguiente/verificar
-    document.getElementById('btn-siguiente').disabled = false;
-    document.getElementById('btn-siguiente').style.display = 'block';
     
     setTimeout(() => {
         const btn = document.getElementById('btn-siguiente');
@@ -553,7 +560,8 @@ function mostrarPregunta() {
         // Simulacro: siempre "SIGUIENTE", sin verificación
         btnText = 'SIGUIENTE →';
         btnAction = 'window.avanzarSiguientePregunta()';
-        btnStyle = '';
+        // ✅ El botón comienza deshabilitado hasta seleccionar una opción
+        btnStyle = (!respuesta.respondida && window.opcionSeleccionada === undefined) ? 'style="display: none;"' : '';
     } else {
         // Modo Estudio: flujo normal con verificación
         btnText = respuesta.respondida ? 'SIGUIENTE →' : 'VERIFICAR';
@@ -603,10 +611,11 @@ function avanzarSiguientePregunta() {
     // En simulacro, si no se seleccionó respuesta, marcar como incorrecta
     if (modoSimulacro) {
         const respuesta = respuestasUsuario[preguntaActualIndex];
-        if (!respuesta.respondida) {
+        if (respuesta && !respuesta.respondida) {
             respuesta.respondida = true;
             respuesta.respuestaFinal = "No respondida";
             respuesta.intentos = 1;
+            respuesta.esCorrecta = false;
         }
     }
     
@@ -778,7 +787,7 @@ function mostrarResumenFinal() {
     if (progreso) progreso.innerHTML = '';
     
     // ========================================
-    // CÁLCULO DE ACIERTOS (basado en intentos)
+    // CÁLCULO DE ACIERTOS
     // ========================================
     let aciertos = 0;
     const totalPreguntas = preguntasActuales.length;
@@ -786,17 +795,17 @@ function mostrarResumenFinal() {
     for (let idx = 0; idx < totalPreguntas; idx++) {
         const respuesta = respuestasUsuario[idx];
         
-        // 🔥 REGLA ÚNICA PARA AMBOS MODOS:
-        // Si intentos === 1 → acertó a la primera → cuenta como acierto SIMO
-        // Si intentos > 1 → falló → NO cuenta como acierto
-        const esAcierto = (respuesta.intentos === 1);
+        let esAcierto = false;
+        
+        if (modoSimulacro) {
+            esAcierto = (respuesta.esCorrecta === true);
+        } else {
+            esAcierto = (respuesta.intentos === 1);
+        }
         
         if (esAcierto) {
             aciertos++;
         }
-        
-        // Depuración (puedes eliminar después)
-        console.log(`Pregunta ${idx + 1}: Intentos=${respuesta.intentos} → ${esAcierto ? '✅ ACIERTO' : '❌ NO ACIERTO'}`);
     }
     
     // Calcular puntaje SIMO (sobre 100)
@@ -822,18 +831,18 @@ function mostrarResumenFinal() {
     html += `
         <div class="pregunta-card" style="background-color: ${aprobo ? 'rgba(25, 135, 84, 0.15)' : 'rgba(220, 53, 69, 0.15)'}; border: 2px solid ${aprobo ? 'var(--exito)' : 'var(--error)'}; margin-bottom: 20px;">
             <div style="text-align: center;">
-                <h3 style="margin: 0 0 10px 0;">📊 RESULTADO SIMO</h3>
-                <div style="font-size: 2.5rem; font-weight: bold;">${puntajeFinal}/100</div>
-                <div style="font-size: 1.1rem; margin: 5px 0;">✅ Aciertos (1er intento): ${aciertos} de ${totalPreguntas}</div>
+                <h3 style="margin: 0 0 10px 0;">📊 RESULTADO SIMO (en %)</h3>
+                <div style="font-size: 2.5rem; font-weight: bold;">${puntajeFinal}% <span style="font-size: 1rem; font-weight: normal;">(${puntajeFinal}/100)</span></div>
+                <div style="font-size: 1.1rem; margin: 5px 0;">✅ Aciertos: ${aciertos} de ${totalPreguntas}</div>
                 <div style="font-size: 1.1rem;">🎯 Corte de aprobación SIMO: ${corteAprobatorio}/100</div>
                 <div style="font-size: 1.3rem; font-weight: bold; margin-top: 10px; color: ${aprobo ? 'var(--exito)' : 'var(--error)'};">
                     ${aprobo ? '🟢 RESULTADO: APROBÓ' : '🔴 RESULTADO: REPROBÓ'}
                 </div>
                 <div style="font-size: 0.9rem; margin-top: 8px;">
-                    ${modoSimulacro ? '⏱️ Modo Simulacro - 60 segundos por pregunta' : '📚 Modo Estudio - Sin límite de tiempo'}
+                    ${modoSimulacro ? '⏱️ Modo Simulacro' : '📚 Modo Estudio'}
                 </div>
                 <div style="font-size: 0.8rem; margin-top: 8px; color: var(--texto-secundario);">
-                    ℹ️ El puntaje SIMO se calcula como: (Aciertos al primer intento / Total preguntas) × 100
+                    ℹ️ El puntaje SIMO se calcula como: (Aciertos / Total preguntas) × 100
                 </div>
             </div>
         </div>
@@ -849,7 +858,7 @@ function mostrarResumenFinal() {
         const pregunta = preguntasActuales[idx];
         const respuesta = respuestasUsuario[idx];
         
-        // Buscar opción correcta (para mostrar)
+        // Buscar opción correcta
         let textoCorrecto = '';
         if (respuesta.opcionesMostradas) {
             const opcionCorrecta = respuesta.opcionesMostradas.find(o => o.esCorrecta === true);
@@ -858,41 +867,33 @@ function mostrarResumenFinal() {
             }
         }
         
-        // Estado según intentos
-        const esAcierto = (respuesta.intentos === 1);
-        const textoRespuesta = respuesta.respuestaFinal || 'No respondida';
-        const textoIntentos = respuesta.intentos > 1 ? ` (${respuesta.intentos} intentos)` : '';
-        
-        // 🔥 LÓGICA DE ICONOS (máximo 4 opciones)
-        let icono = '';
-        let iconoTooltip = '';
-        
-        if (respuesta.respuestaFinal === 'Tiempo agotado') {
-            icono = '⏰';
-            iconoTooltip = 'Tiempo agotado';
-        } else if (respuesta.intentos === 1) {
-            icono = '✅';
-            iconoTooltip = 'Correcta al primer intento';
-        } else if (respuesta.intentos === 2 || respuesta.intentos === 3) {
-            icono = '⚠️';
-            iconoTooltip = `Aprendizaje (requirió ${respuesta.intentos} intentos)`;
-        } else if (respuesta.intentos >= 4) {
-            icono = '🔴';
-            iconoTooltip = 'Requiere repaso (probó todas las opciones)';
+        // 🔥 CRITERIO UNIFICADO para tabla
+        let esCorrectaEnTabla = false;
+        if (modoSimulacro) {
+            esCorrectaEnTabla = (respuesta.esCorrecta === true);
         } else {
-            icono = '❌';
-            iconoTooltip = 'Incorrecta';
+            esCorrectaEnTabla = (respuesta.intentos === 1);
         }
         
-        html += `
-            <div style="padding: 8px 0; border-bottom: 1px solid var(--borde);">
-                <p style="font-weight: bold; font-size: 1.2rem;">${icono} Pregunta ${idx + 1}</p>
-                <p style="font-size: 1.1rem; margin: 4px 0;">${pregunta.texto}</p>
-                <p style="font-size: 1.1rem;">Tu respuesta: <strong>${textoRespuesta}</strong>${textoIntentos}</p>`;
+        const textoRespuesta = respuesta.respuestaFinal || 'No respondida';
+        const textoIntentos = (!modoSimulacro && respuesta.intentos > 1) ? ` (${respuesta.intentos} intentos)` : '';
         
-        // Mostrar respuesta correcta si no acertó al primer intento
-        if (!esAcierto && textoCorrecto) {
-            html += `<p style="font-size: 1rem; color: var(--exito);">Respuesta correcta: <strong>${textoCorrecto}</strong></p>`;
+        const bgColor = esCorrectaEnTabla ? 'rgba(25, 135, 84, 0.50)' : 'rgba(220, 53, 69, 0.50)';
+        const borderColor = esCorrectaEnTabla ? 'var(--exito)' : 'var(--error)';
+        const estadoTexto = esCorrectaEnTabla ? '✅ Correcta' : '❌ Incorrecta';
+        
+        html += `
+            <div style="padding: 12px; margin-bottom: 10px; border-radius: 10px; background-color: ${bgColor}; border-left: 4px solid ${borderColor};">
+                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-bottom: 8px;">
+                    <p style="font-weight: bold; font-size: 1rem; margin: 0;">📌 Pregunta ${idx + 1}</p>
+                    <p style="font-size: 0.85rem; margin: 0; font-weight: bold; color: ${esCorrectaEnTabla ? 'var(--exito)' : 'var(--error)'};">${estadoTexto}</p>
+                </div>
+                <p style="font-size: 0.95rem; margin: 5px 0;"><strong>${pregunta.texto}</strong></p>
+                <p style="font-size: 0.9rem; margin: 5px 0;">Tu respuesta: <strong>${textoRespuesta}</strong>${textoIntentos}</p>`;
+        
+        // Mostrar respuesta correcta si no acertó
+        if (!esCorrectaEnTabla && textoCorrecto) {
+            html += `<p style="font-size: 0.85rem; margin: 5px 0; color: var(--exito);">✅ Respuesta correcta: <strong>${textoCorrecto}</strong></p>`;
         }
         
         html += `</div>`;
