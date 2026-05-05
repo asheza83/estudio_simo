@@ -55,3 +55,10 @@ export function setTiempoRestante(value) { tiempoRestante = value; }
 export function setTemporizadorActivo(value) { temporizadorActivo = value; }
 export function setPuntajeSimulacro(value) { puntajeSimulacro = value; }
 export function setTiempoPorPregunta(value) { tiempoPorPregunta = value; }
+
+// Variables para tiempo total en simulacro
+export let tiempoTotalRestante = 300;  // 5 minutos = 300 segundos
+export let tiempoTotalConfigurado = 300; // valor inicial
+
+export function setTiempoTotalRestante(value) { tiempoTotalRestante = value; }
+export function setTiempoTotalConfigurado(value) { tiempoTotalConfigurado = value; }

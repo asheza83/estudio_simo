@@ -8,7 +8,8 @@ import {
     PREGUNTAS_POR_SESION,
     setPreguntasActuales, setPreguntaActualIndex, setRespuestasUsuario,
     modoSimulacro, setModoSimulacro, tiempoRestante, setTiempoRestante,
-    temporizadorActivo, setTemporizadorActivo, tiempoPorPregunta
+    temporizadorActivo, setTemporizadorActivo, tiempoPorPregunta,
+    tiempoTotalRestante, setTiempoTotalRestante, tiempoTotalConfigurado, setTiempoTotalConfigurado
 } from './estado.js';
 import { leyesDisponibles } from './estado.js';
 
@@ -187,13 +188,14 @@ export async function inicializarPreguntas(archivoId = null) {
         // Guardar el modo seleccionado (Estudio o Simulacro)
     const modoSeleccionado = window.modoSeleccionado || 'estudio';
     setModoSimulacro(modoSeleccionado === 'simulacro');
-    
-    // Si es modo simulacro, configurar temporizador
+
+    // Configurar tiempo total si es modo simulacro
     if (modoSimulacro) {
-        setTiempoRestante(tiempoPorPregunta);
-        console.log('🔴 Modo Simulacro activado - 60 segundos por pregunta');
-    } else {
-        console.log('🟢 Modo Estudio activado - sin límite de tiempo');
+        // Calcular tiempo total: 60 segundos por pregunta
+        const tiempoTotal = PREGUNTAS_POR_SESION * 60;
+        setTiempoTotalRestante(tiempoTotal);
+        setTiempoTotalConfigurado(tiempoTotal);
+        console.log(`⏱️ Simulacro: ${PREGUNTAS_POR_SESION} preguntas - Tiempo total: ${tiempoTotal / 60} minutos`);
     }
     
     filtroLeyActual = archivoId;
@@ -233,7 +235,6 @@ export async function inicializarPreguntas(archivoId = null) {
 
 export function comenzarNuevoExamen() {
     // Limpiar temporizador
-    detenerTemporizador();
     setTemporizadorActivo(false);
 
     examenGuardado = null;
@@ -326,15 +327,34 @@ export function seleccionarOpcion(indice) {
     const respuesta = respuestasUsuario[preguntaActualIndex];
     if (respuesta.respondida) return;
     
-    // ✅ NUEVO: Ocultar el feedback cuando se selecciona una nueva opción
+    const opcionSeleccionada = respuesta.opcionesMostradas[indice];
+    
+    if (modoSimulacro) {
+        // Simulacro: guardar respuesta inmediatamente
+        respuesta.respondida = true;
+        respuesta.respuestaFinal = opcionSeleccionada.texto;
+        respuesta.intentos = 1;
+        
+        // Detener temporizador global
+        if (intervaloGlobal) {
+            clearInterval(intervaloGlobal);
+            intervaloGlobal = null;
+            setTemporizadorActivo(false);
+        }
+    } else {
+        // Modo Estudio: solo seleccionar, sin guardar aún
+        window.opcionSeleccionada = indice;
+    }
+    
+    // Ocultar feedback
     const feedbackDiv = document.getElementById(`feedback-${preguntaActualIndex}`);
     if (feedbackDiv) {
         feedbackDiv.style.display = 'none';
     }
     
+    // Habilitar botón siguiente/verificar
     document.getElementById('btn-siguiente').disabled = false;
     document.getElementById('btn-siguiente').style.display = 'block';
-    window.opcionSeleccionada = indice;
     
     setTimeout(() => {
         const btn = document.getElementById('btn-siguiente');
@@ -348,12 +368,10 @@ export function seleccionarOpcion(indice) {
 // VERIFICAR RESPUESTA
 // ============================================
 export function siguientePregunta() {
-    // Detener temporizador al verificar
-    if (modoSimulacro) {
-        detenerTemporizador();
-    }
-    const respuesta = respuestasUsuario[preguntaActualIndex];
+    // Este flujo solo se usa en Modo Estudio
+    if (modoSimulacro) return;
     
+    const respuesta = respuestasUsuario[preguntaActualIndex];
     if (respuesta.respondida) return;
     if (window.opcionSeleccionada === undefined) return;
     
@@ -380,7 +398,6 @@ export function siguientePregunta() {
         btn.textContent = 'SIGUIENTE →';
         btn.onclick = () => avanzarSiguientePregunta();
         
-        // Scroll para que el botón sea visible en móvil después del feedback
         setTimeout(() => {
             if (window.innerWidth <= 768) {
                 btn.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -400,7 +417,6 @@ export function siguientePregunta() {
         opcionesDiv[window.opcionSeleccionada].style.pointerEvents = 'none';
         window.opcionSeleccionada = undefined;
         
-        // Scroll para que el botón VERIFICAR (deshabilitado) sea visible en móvil
         setTimeout(() => {
             const btn = document.getElementById('btn-siguiente');
             if (btn && window.innerWidth <= 768) {
@@ -448,6 +464,9 @@ function generarOpciones(pregunta) {
 // ============================================
 // MOSTRAR PREGUNTA
 // ============================================
+// ============================================
+// MOSTRAR PREGUNTA (con tiempo total fijo)
+// ============================================
 function mostrarPregunta() {
     if (preguntaActualIndex >= preguntasActuales.length) {
         examenGuardado = null;
@@ -467,20 +486,39 @@ function mostrarPregunta() {
     
     const container = document.getElementById('preguntas-container');
     
-        // Mostrar temporizador si es modo simulacro
+    // ========================================
+    // TEMPORIZADOR GLOBAL (solo simulacro y si no respondida)
+    // ========================================
     let temporizadorHtml = '';
     if (modoSimulacro && !respuesta.respondida) {
-        const minutos = Math.floor(tiempoRestante / 60);
-        const segundos = tiempoRestante % 60;
+        const minutos = Math.floor(tiempoTotalRestante / 60);
+        const segundos = tiempoTotalRestante % 60;
         const tiempoTexto = `${minutos.toString().padStart(2, '0')}:${segundos.toString().padStart(2, '0')}`;
+        const progresoPorcentaje = (tiempoTotalRestante / tiempoTotalConfigurado) * 100;
+        
+        let colorBarra = '#0d6efd';
+        if (progresoPorcentaje < 20) colorBarra = '#dc3545';
+        else if (progresoPorcentaje < 50) colorBarra = '#ffc107';
+        
         temporizadorHtml = `
-            <div style="background-color: var(--azul); border-radius: 12px; padding: 12px; margin-bottom: 15px; text-align: center;">
-                <span style="font-size: 1.2rem;">⏱️ Tiempo restante: </span>
-                <span id="temporizador-simulacro" style="font-size: 2rem; font-weight: bold; font-family: monospace;">${tiempoTexto}</span>
+            <div style="background-color: var(--bg-secundario); border-radius: 12px; padding: 12px; margin-bottom: 15px; border: 1px solid var(--borde);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+                    <span style="font-size: 1rem;">⏱️ Tiempo total restante:</span>
+                    <span id="temporizador-simulacro" style="font-size: 1.8rem; font-weight: bold; font-family: monospace; color: ${colorBarra};">${tiempoTexto}</span>
+                </div>
+                <div style="background-color: #e0e0e0; border-radius: 10px; height: 8px; overflow: hidden;">
+                    <div id="barra-tiempo" style="background-color: ${colorBarra}; width: ${progresoPorcentaje}%; height: 100%; transition: width 0.3s ease;"></div>
+                </div>
+                <div style="font-size: 0.75rem; margin-top: 5px; text-align: center; color: var(--texto-secundario);">
+                    Pregunta ${preguntaActualIndex + 1} de ${preguntasActuales.length}
+                </div>
             </div>
         `;
     }
     
+    // ========================================
+    // HTML DE LA PREGUNTA
+    // ========================================
     let html = `
         <div class="pregunta-card">
             ${temporizadorHtml}
@@ -502,15 +540,26 @@ function mostrarPregunta() {
         `;
     });
     
-    const feedbackHtml = respuesta.respondida ? `
+    // Feedback: solo visible en Modo Estudio
+    const feedbackHtml = (respuesta.respondida && !modoSimulacro) ? `
         <div id="feedback-${preguntaActualIndex}" class="feedback feedback-exito" style="display:block;">
             ✅ Correcto. ${respuesta.respuestaFinal}
         </div>
     ` : `<div id="feedback-${preguntaActualIndex}" class="feedback" style="display:none;"></div>`;
     
-    const btnText = respuesta.respondida ? 'SIGUIENTE →' : 'VERIFICAR';
-    const btnAction = respuesta.respondida ? 'window.avanzarSiguientePregunta()' : 'window.siguientePregunta()';
-    const btnStyle = (!respuesta.respondida && window.opcionSeleccionada === undefined) ? 'style="display: none;"' : '';
+    // Botón: configuración según modo
+    let btnText, btnAction, btnStyle;
+    if (modoSimulacro) {
+        // Simulacro: siempre "SIGUIENTE", sin verificación
+        btnText = 'SIGUIENTE →';
+        btnAction = 'window.avanzarSiguientePregunta()';
+        btnStyle = '';
+    } else {
+        // Modo Estudio: flujo normal con verificación
+        btnText = respuesta.respondida ? 'SIGUIENTE →' : 'VERIFICAR';
+        btnAction = respuesta.respondida ? 'window.avanzarSiguientePregunta()' : 'window.siguientePregunta()';
+        btnStyle = (!respuesta.respondida && window.opcionSeleccionada === undefined && !modoSimulacro) ? 'style="display: none;"' : '';
+    }
     
     html += `
             </div>
@@ -520,15 +569,17 @@ function mostrarPregunta() {
     `;
     
     container.innerHTML = html;
-
-    // Iniciar temporizador si es modo simulacro y no está respondida
-    if (modoSimulacro && !respuesta.respondida) {
-        setTiempoRestante(tiempoPorPregunta);
-        actualizarTemporizadorVisual();
-        setTemporizadorActivo(true);
-        iniciarTemporizador();
+    
+    // ========================================
+    // INICIAR TEMPORIZADOR GLOBAL (solo simulacro y primera pregunta)
+    // ========================================
+    if (modoSimulacro && preguntaActualIndex === 0 && !intervaloGlobal && tiempoTotalRestante > 0) {
+        iniciarTemporizadorGlobal();
     }
-
+    
+    // ========================================
+    // SCROLL Y ANIMACIÓN FADE
+    // ========================================
     window.scrollTo({top: 0, behavior: 'smooth'});
     
     if (preguntaActualIndex > 0) {
@@ -549,19 +600,33 @@ function mostrarPregunta() {
 // AVANZAR SIGUIENTE PREGUNTA
 // ============================================
 function avanzarSiguientePregunta() {
-    const newIndex = preguntaActualIndex + 1;
-    setPreguntaActualIndex(newIndex);
-
-    // Reiniciar temporizador para la nueva pregunta
+    // En simulacro, si no se seleccionó respuesta, marcar como incorrecta
     if (modoSimulacro) {
-        reiniciarTemporizador();
+        const respuesta = respuestasUsuario[preguntaActualIndex];
+        if (!respuesta.respondida) {
+            respuesta.respondida = true;
+            respuesta.respuestaFinal = "No respondida";
+            respuesta.intentos = 1;
+        }
     }
     
+    const newIndex = preguntaActualIndex + 1;
+    setPreguntaActualIndex(newIndex);
+    
     if (preguntaActualIndex < preguntasActuales.length) {
+        // Reiniciar temporizador solo en simulacro
+        if (modoSimulacro && tiempoTotalRestante > 0 && !intervaloGlobal) {
+            iniciarTemporizadorGlobal();
+        }
         mostrarPregunta();
         actualizarProgreso();
         window.scrollTo({top: 0, behavior: 'smooth'});
     } else {
+        // Detener temporizador al terminar (si estaba activo)
+        if (intervaloGlobal) {
+            clearInterval(intervaloGlobal);
+            intervaloGlobal = null;
+        }
         examenGuardado = null;
         mostrarResumenFinal();
     }
@@ -618,99 +683,92 @@ function actualizarProgreso() {
 
 let intervaloActivo = null;
 
-function iniciarTemporizador() {
+// ============================================
+// TEMPORIZADOR GLOBAL (TIEMPO TOTAL)
+// ============================================
+
+let intervaloGlobal = null;
+
+function iniciarTemporizadorGlobal() {
     if (!modoSimulacro) return;
-    if (intervaloActivo) clearInterval(intervaloActivo);
+    if (intervaloGlobal) clearInterval(intervaloGlobal);
     
-    intervaloActivo = setInterval(() => {
+    intervaloGlobal = setInterval(() => {
         if (!modoSimulacro) return;
         
-        const tiempoActual = tiempoRestante;
+        const tiempoActual = tiempoTotalRestante;
         if (tiempoActual <= 1) {
-            // Tiempo agotado
-            clearInterval(intervaloActivo);
-            intervaloActivo = null;
+            // Tiempo total agotado
+            clearInterval(intervaloGlobal);
+            intervaloGlobal = null;
             setTemporizadorActivo(false);
             
-            // Marcar respuesta como incorrecta y avanzar
-            const respuesta = respuestasUsuario[preguntaActualIndex];
-            if (!respuesta.respondida) {
-                respuesta.respondida = true;
-                respuesta.respuestaFinal = "Tiempo agotado";
-                
-                // Mostrar feedback de tiempo agotado
-                const feedbackDiv = document.getElementById(`feedback-${preguntaActualIndex}`);
-                if (feedbackDiv) {
-                    feedbackDiv.style.display = 'block';
-                    feedbackDiv.className = 'feedback feedback-error';
-                    feedbackDiv.innerHTML = '⏰ Tiempo agotado. La pregunta se marcó como incorrecta.';
+            // Marcar todas las preguntas no respondidas como incorrectas
+            for (let i = 0; i < preguntasActuales.length; i++) {
+                const resp = respuestasUsuario[i];
+                if (!resp.respondida) {
+                    resp.respondida = true;
+                    resp.respuestaFinal = 'Tiempo agotado';
                 }
-                
-                // Avanzar después de 1.5 segundos
-                setTimeout(() => {
-                    avanzarSiguientePregunta();
-                }, 1500);
             }
+            
+            // Mostrar resumen final
+            mostrarResumenFinal();
         } else {
-            setTiempoRestante(tiempoActual - 1);
-            actualizarTemporizadorVisual();
+            setTiempoTotalRestante(tiempoActual - 1);
+            actualizarTemporizadorGlobalVisual();
         }
     }, 1000);
 }
 
-function detenerTemporizador() {
-    if (intervaloActivo) {
-        clearInterval(intervaloActivo);
-        intervaloActivo = null;
+function detenerTemporizadorGlobal() {
+    if (intervaloGlobal) {
+        clearInterval(intervaloGlobal);
+        intervaloGlobal = null;
     }
     setTemporizadorActivo(false);
 }
 
-function reiniciarTemporizador() {
-    detenerTemporizador();
-    if (modoSimulacro) {
-        setTiempoRestante(tiempoPorPregunta);
-        actualizarTemporizadorVisual();
-        setTemporizadorActivo(true);
-        iniciarTemporizador();
-    }
-}
-
-function actualizarTemporizadorVisual() {
+function actualizarTemporizadorGlobalVisual() {
     const tiempoElement = document.getElementById('temporizador-simulacro');
+    const barraElement = document.getElementById('barra-tiempo');
     if (!tiempoElement) return;
     
-    const segundos = tiempoRestante;
+    const segundos = tiempoTotalRestante;
     const minutos = Math.floor(segundos / 60);
     const segs = segundos % 60;
     const tiempoTexto = `${minutos.toString().padStart(2, '0')}:${segs.toString().padStart(2, '0')}`;
     
     tiempoElement.textContent = tiempoTexto;
     
-    // Cambiar color según tiempo restante
-    if (segundos <= 5) {
-        tiempoElement.style.color = '#ff4444';
-        tiempoElement.style.fontWeight = 'bold';
-        tiempoElement.style.animation = 'parpadeo 0.5s infinite';
-    } else if (segundos <= 10) {
-        tiempoElement.style.color = '#ff8800';
-        tiempoElement.style.fontWeight = 'bold';
-        tiempoElement.style.animation = 'none';
-    } else if (segundos <= 20) {
-        tiempoElement.style.color = '#ffcc00';
-        tiempoElement.style.fontWeight = 'normal';
-        tiempoElement.style.animation = 'none';
-    } else {
-        tiempoElement.style.color = '#ffffff';
-        tiempoElement.style.fontWeight = 'normal';
-        tiempoElement.style.animation = 'none';
+    const porcentaje = (segundos / tiempoTotalConfigurado) * 100;
+    if (barraElement) {
+        barraElement.style.width = `${porcentaje}%`;
+        
+        if (porcentaje < 20) {
+            barraElement.style.backgroundColor = '#dc3545';
+            tiempoElement.style.color = '#dc3545';
+        } else if (porcentaje < 50) {
+            barraElement.style.backgroundColor = '#ffc107';
+            tiempoElement.style.color = '#ffc107';
+        } else {
+            barraElement.style.backgroundColor = '#0d6efd';
+            tiempoElement.style.color = '#0d6efd';
+        }
     }
 }
 
 // ============================================
-// RESUMEN FINAL
+// RESUMEN FINAL CON PUNTAJE SIMO (FASE 2 - CORREGIDO)
 // ============================================
 function mostrarResumenFinal() {
+    // DETENER TEMPORIZADOR GLOBAL SI ESTÁ ACTIVO
+    if (intervaloGlobal) {
+        clearInterval(intervaloGlobal);
+        intervaloGlobal = null;
+        setTemporizadorActivo(false);
+    }
+    
     const container = document.getElementById('preguntas-container');
     const examenDiv = document.getElementById('preguntas-examen');
     
@@ -719,13 +777,37 @@ function mostrarResumenFinal() {
     const progreso = document.getElementById('progreso-preguntas');
     if (progreso) progreso.innerHTML = '';
     
+    // ========================================
+    // CÁLCULO DE ACIERTOS (basado en intentos)
+    // ========================================
     let aciertos = 0;
-    let totalIntentos = 0;
-    let aprendizajeCruzado = 0;
+    const totalPreguntas = preguntasActuales.length;
     
-    let html = ``;
-
-    html += `
+    for (let idx = 0; idx < totalPreguntas; idx++) {
+        const respuesta = respuestasUsuario[idx];
+        
+        // 🔥 REGLA ÚNICA PARA AMBOS MODOS:
+        // Si intentos === 1 → acertó a la primera → cuenta como acierto SIMO
+        // Si intentos > 1 → falló → NO cuenta como acierto
+        const esAcierto = (respuesta.intentos === 1);
+        
+        if (esAcierto) {
+            aciertos++;
+        }
+        
+        // Depuración (puedes eliminar después)
+        console.log(`Pregunta ${idx + 1}: Intentos=${respuesta.intentos} → ${esAcierto ? '✅ ACIERTO' : '❌ NO ACIERTO'}`);
+    }
+    
+    // Calcular puntaje SIMO (sobre 100)
+    const puntajeFinal = Math.round((aciertos / totalPreguntas) * 100);
+    const corteAprobatorio = 70;
+    const aprobo = puntajeFinal >= corteAprobatorio;
+    
+    // ========================================
+    // HTML DEL RESUMEN
+    // ========================================
+    let html = `
         <hr style="border: 1px solid var(--borde); margin: 12px 0;">
         <p style="text-align: center; font-size: 1.2rem; color: var(--texto-secundario); margin-bottom: 12px; line-height: 1.4;">
             En esta sección encontrará una Tabla de Resumen de su actividad que contiene: Cada pregunta respondida, si fue correcta o incorrecta, la respuesta correcta y los intentos realizados.<br><br>
@@ -734,43 +816,87 @@ function mostrarResumenFinal() {
             • <strong>"REPETIR EXAMEN"</strong> - Carga nuevas preguntas de la misma competencia.<br>
             • <strong>"CAMBIAR DE COMPETENCIA"</strong> - Vuelve a los selectores de Tipo de Competencia y Subcategoría en la pestaña Preguntas.
         </p>
-    </div>
     `;
 
+    // === CARD DE PUNTAJE SIMO ===
+    html += `
+        <div class="pregunta-card" style="background-color: ${aprobo ? 'rgba(25, 135, 84, 0.15)' : 'rgba(220, 53, 69, 0.15)'}; border: 2px solid ${aprobo ? 'var(--exito)' : 'var(--error)'}; margin-bottom: 20px;">
+            <div style="text-align: center;">
+                <h3 style="margin: 0 0 10px 0;">📊 RESULTADO SIMO</h3>
+                <div style="font-size: 2.5rem; font-weight: bold;">${puntajeFinal}/100</div>
+                <div style="font-size: 1.1rem; margin: 5px 0;">✅ Aciertos (1er intento): ${aciertos} de ${totalPreguntas}</div>
+                <div style="font-size: 1.1rem;">🎯 Corte de aprobación SIMO: ${corteAprobatorio}/100</div>
+                <div style="font-size: 1.3rem; font-weight: bold; margin-top: 10px; color: ${aprobo ? 'var(--exito)' : 'var(--error)'};">
+                    ${aprobo ? '🟢 RESULTADO: APROBÓ' : '🔴 RESULTADO: REPROBÓ'}
+                </div>
+                <div style="font-size: 0.9rem; margin-top: 8px;">
+                    ${modoSimulacro ? '⏱️ Modo Simulacro - 60 segundos por pregunta' : '📚 Modo Estudio - Sin límite de tiempo'}
+                </div>
+                <div style="font-size: 0.8rem; margin-top: 8px; color: var(--texto-secundario);">
+                    ℹ️ El puntaje SIMO se calcula como: (Aciertos al primer intento / Total preguntas) × 100
+                </div>
+            </div>
+        </div>
+    `;
+
+    // Tabla de respuestas detalladas
     html += `<div class="pregunta-card" id="resumen-scroll" style="background-color: rgba(13, 110, 253, 0.1); border: 2px solid var(--azul); margin-top: 20px;">
             <h3>📋 RESUMEN DE LA ACTIVIDAD</h3>
             <hr style="border: 1px solid var(--borde); margin: 12px 0;">
     `;
     
-    preguntasActuales.forEach((pregunta, idx) => {
+    for (let idx = 0; idx < totalPreguntas; idx++) {
+        const pregunta = preguntasActuales[idx];
         const respuesta = respuestasUsuario[idx];
-        const acertada = respuesta.respondida;
-        if (acertada) aciertos++;
-        totalIntentos += respuesta.intentos;
-        if (respuesta.intentos > 1) aprendizajeCruzado++;
         
-        let icono = '';
-        
-        if (respuesta.respondida && respuesta.intentos === 1) {
-            icono = '✅';
-        } else if (respuesta.respondida && respuesta.intentos >= 2 && respuesta.intentos <= 3) {
-            icono = '⚠️';
-        } else {
-            icono = '❌';
+        // Buscar opción correcta (para mostrar)
+        let textoCorrecto = '';
+        if (respuesta.opcionesMostradas) {
+            const opcionCorrecta = respuesta.opcionesMostradas.find(o => o.esCorrecta === true);
+            if (opcionCorrecta) {
+                textoCorrecto = opcionCorrecta.texto;
+            }
         }
         
-        const iconoAprendizaje = respuesta.intentos > 1 ? ' 📚' : '';
+        // Estado según intentos
+        const esAcierto = (respuesta.intentos === 1);
+        const textoRespuesta = respuesta.respuestaFinal || 'No respondida';
+        const textoIntentos = respuesta.intentos > 1 ? ` (${respuesta.intentos} intentos)` : '';
+        
+        // 🔥 LÓGICA DE ICONOS (máximo 4 opciones)
+        let icono = '';
+        let iconoTooltip = '';
+        
+        if (respuesta.respuestaFinal === 'Tiempo agotado') {
+            icono = '⏰';
+            iconoTooltip = 'Tiempo agotado';
+        } else if (respuesta.intentos === 1) {
+            icono = '✅';
+            iconoTooltip = 'Correcta al primer intento';
+        } else if (respuesta.intentos === 2 || respuesta.intentos === 3) {
+            icono = '⚠️';
+            iconoTooltip = `Aprendizaje (requirió ${respuesta.intentos} intentos)`;
+        } else if (respuesta.intentos >= 4) {
+            icono = '🔴';
+            iconoTooltip = 'Requiere repaso (probó todas las opciones)';
+        } else {
+            icono = '❌';
+            iconoTooltip = 'Incorrecta';
+        }
         
         html += `
             <div style="padding: 8px 0; border-bottom: 1px solid var(--borde);">
                 <p style="font-weight: bold; font-size: 1.2rem;">${icono} Pregunta ${idx + 1}</p>
                 <p style="font-size: 1.1rem; margin: 4px 0;">${pregunta.texto}</p>
-                <p style="font-size: 1.1rem;">Respuesta: <strong>${respuesta.respuestaFinal || 'No respondida'}</strong></p>
-                <p style="font-size: 1.1rem; margin-top: 4px;">Intentos: ${respuesta.intentos}${iconoAprendizaje}</p>
-            </div>
-        `;
-
-    });
+                <p style="font-size: 1.1rem;">Tu respuesta: <strong>${textoRespuesta}</strong>${textoIntentos}</p>`;
+        
+        // Mostrar respuesta correcta si no acertó al primer intento
+        if (!esAcierto && textoCorrecto) {
+            html += `<p style="font-size: 1rem; color: var(--exito);">Respuesta correcta: <strong>${textoCorrecto}</strong></p>`;
+        }
+        
+        html += `</div>`;
+    }
     
     html += `
             <hr style="border: 1px solid var(--borde); margin: 12px 0;">
@@ -835,6 +961,36 @@ export function iniciarExamenDesdeSelect() {
         inicializarPreguntas(subcategoriaSelect.value);
     }
 }
+
+// ============================================
+// DIAGNÓSTICO - Verificar estado de respuestas
+// ============================================
+window.diagnosticarRespuestas = function() {
+    console.log('===== DIAGNÓSTICO DE RESPUESTAS =====');
+    console.log('Total preguntas:', preguntasActuales.length);
+    console.log('Respuestas guardadas:', respuestasUsuario);
+    
+    for (let idx = 0; idx < preguntasActuales.length; idx++) {
+        const pregunta = preguntasActuales[idx];
+        const respuesta = respuestasUsuario[idx];
+        
+        console.log(`\n--- Pregunta ${idx + 1} ---`);
+        console.log('Texto:', pregunta.texto);
+        console.log('Respuesta del usuario:', respuesta.respuestaFinal);
+        console.log('Intentos:', respuesta.intentos);
+        
+        if (respuesta.opcionesMostradas) {
+            const opcionCorrecta = respuesta.opcionesMostradas.find(o => o.esCorrecta === true);
+            console.log('Opción correcta:', opcionCorrecta ? opcionCorrecta.texto : 'NO ENCONTRADA');
+            
+            const esCorrecta = (respuesta.respuestaFinal === opcionCorrecta?.texto);
+            console.log('¿Es correcta?', esCorrecta ? '✅ SI' : '❌ NO');
+        } else {
+            console.log('opcionesMostradas: NO EXISTE');
+        }
+    }
+    console.log('===== FIN DIAGNÓSTICO =====');
+};
 
 // ============================================
 // EXPOSICIÓN GLOBAL (para onclick en HTML)
