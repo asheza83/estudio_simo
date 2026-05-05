@@ -39,3 +39,19 @@ export function setGlosarioData(data) { glosarioData = data; }
 export function setGlosarioFiltrado(data) { glosarioFiltrado = data; }
 export function setLetraActual(value) { letraActual = value; }
 export function setPaginaActual(value) { paginaActual = value; }
+
+// ============================================
+// VARIABLES DEL SIMULACRO (con temporizador)
+// ============================================
+export let modoSimulacro = false;        // false = Estudio, true = Simulacro
+export let tiempoRestante = 60;          // segundos para pregunta actual
+export let temporizadorActivo = false;   // si el temporizador está corriendo
+export let puntajeSimulacro = 0;         // puntaje final sobre 100
+export let tiempoPorPregunta = 60;       // segundos por pregunta (configurable)
+
+// Funciones para modificar variables del simulacro
+export function setModoSimulacro(value) { modoSimulacro = value; }
+export function setTiempoRestante(value) { tiempoRestante = value; }
+export function setTemporizadorActivo(value) { temporizadorActivo = value; }
+export function setPuntajeSimulacro(value) { puntajeSimulacro = value; }
+export function setTiempoPorPregunta(value) { tiempoPorPregunta = value; }

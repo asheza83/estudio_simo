@@ -6,7 +6,9 @@
 import { 
     preguntasBanco, preguntasActuales, preguntaActualIndex, respuestasUsuario,
     PREGUNTAS_POR_SESION,
-    setPreguntasActuales, setPreguntaActualIndex, setRespuestasUsuario
+    setPreguntasActuales, setPreguntaActualIndex, setRespuestasUsuario,
+    modoSimulacro, setModoSimulacro, tiempoRestante, setTiempoRestante,
+    temporizadorActivo, setTemporizadorActivo, tiempoPorPregunta
 } from './estado.js';
 import { leyesDisponibles } from './estado.js';
 
@@ -111,7 +113,7 @@ export function mostrarInicioPreguntas() {
     const inicio = document.getElementById('preguntas-inicio');
     const examen = document.getElementById('preguntas-examen');
     
-    if (inicio) inicio.style.display = 'block';
+    if (inicio) inicio.style.display = 'block';   // ✅ Cambiado de 'none' a 'block'
     if (examen) examen.style.display = 'none';
     
     filtroLeyActual = '';
@@ -181,6 +183,18 @@ export async function inicializarPreguntas(archivoId = null) {
     }
     
     if (!archivoId) return;
+
+        // Guardar el modo seleccionado (Estudio o Simulacro)
+    const modoSeleccionado = window.modoSeleccionado || 'estudio';
+    setModoSimulacro(modoSeleccionado === 'simulacro');
+    
+    // Si es modo simulacro, configurar temporizador
+    if (modoSimulacro) {
+        setTiempoRestante(tiempoPorPregunta);
+        console.log('🔴 Modo Simulacro activado - 60 segundos por pregunta');
+    } else {
+        console.log('🟢 Modo Estudio activado - sin límite de tiempo');
+    }
     
     filtroLeyActual = archivoId;
     examenGuardado = null;
@@ -218,6 +232,10 @@ export async function inicializarPreguntas(archivoId = null) {
 }
 
 export function comenzarNuevoExamen() {
+    // Limpiar temporizador
+    detenerTemporizador();
+    setTemporizadorActivo(false);
+
     examenGuardado = null;
     setPreguntasActuales([]);
     setPreguntaActualIndex(0);
@@ -330,6 +348,10 @@ export function seleccionarOpcion(indice) {
 // VERIFICAR RESPUESTA
 // ============================================
 export function siguientePregunta() {
+    // Detener temporizador al verificar
+    if (modoSimulacro) {
+        detenerTemporizador();
+    }
     const respuesta = respuestasUsuario[preguntaActualIndex];
     
     if (respuesta.respondida) return;
@@ -445,8 +467,23 @@ function mostrarPregunta() {
     
     const container = document.getElementById('preguntas-container');
     
+        // Mostrar temporizador si es modo simulacro
+    let temporizadorHtml = '';
+    if (modoSimulacro && !respuesta.respondida) {
+        const minutos = Math.floor(tiempoRestante / 60);
+        const segundos = tiempoRestante % 60;
+        const tiempoTexto = `${minutos.toString().padStart(2, '0')}:${segundos.toString().padStart(2, '0')}`;
+        temporizadorHtml = `
+            <div style="background-color: var(--azul); border-radius: 12px; padding: 12px; margin-bottom: 15px; text-align: center;">
+                <span style="font-size: 1.2rem;">⏱️ Tiempo restante: </span>
+                <span id="temporizador-simulacro" style="font-size: 2rem; font-weight: bold; font-family: monospace;">${tiempoTexto}</span>
+            </div>
+        `;
+    }
+    
     let html = `
         <div class="pregunta-card">
+            ${temporizadorHtml}
             <div class="pregunta-texto">${pregunta.texto}</div>
             <div class="opciones" id="opciones-container">
     `;
@@ -483,6 +520,15 @@ function mostrarPregunta() {
     `;
     
     container.innerHTML = html;
+
+    // Iniciar temporizador si es modo simulacro y no está respondida
+    if (modoSimulacro && !respuesta.respondida) {
+        setTiempoRestante(tiempoPorPregunta);
+        actualizarTemporizadorVisual();
+        setTemporizadorActivo(true);
+        iniciarTemporizador();
+    }
+
     window.scrollTo({top: 0, behavior: 'smooth'});
     
     if (preguntaActualIndex > 0) {
@@ -505,6 +551,11 @@ function mostrarPregunta() {
 function avanzarSiguientePregunta() {
     const newIndex = preguntaActualIndex + 1;
     setPreguntaActualIndex(newIndex);
+
+    // Reiniciar temporizador para la nueva pregunta
+    if (modoSimulacro) {
+        reiniciarTemporizador();
+    }
     
     if (preguntaActualIndex < preguntasActuales.length) {
         mostrarPregunta();
@@ -558,6 +609,101 @@ function actualizarProgreso() {
                 progreso.style.transform = 'translateY(0)';
             }, 50);
         }
+    }
+}
+
+// ============================================
+// FUNCIONES DEL TEMPORIZADOR (SIMULACRO)
+// ============================================
+
+let intervaloActivo = null;
+
+function iniciarTemporizador() {
+    if (!modoSimulacro) return;
+    if (intervaloActivo) clearInterval(intervaloActivo);
+    
+    intervaloActivo = setInterval(() => {
+        if (!modoSimulacro) return;
+        
+        const tiempoActual = tiempoRestante;
+        if (tiempoActual <= 1) {
+            // Tiempo agotado
+            clearInterval(intervaloActivo);
+            intervaloActivo = null;
+            setTemporizadorActivo(false);
+            
+            // Marcar respuesta como incorrecta y avanzar
+            const respuesta = respuestasUsuario[preguntaActualIndex];
+            if (!respuesta.respondida) {
+                respuesta.respondida = true;
+                respuesta.respuestaFinal = "Tiempo agotado";
+                
+                // Mostrar feedback de tiempo agotado
+                const feedbackDiv = document.getElementById(`feedback-${preguntaActualIndex}`);
+                if (feedbackDiv) {
+                    feedbackDiv.style.display = 'block';
+                    feedbackDiv.className = 'feedback feedback-error';
+                    feedbackDiv.innerHTML = '⏰ Tiempo agotado. La pregunta se marcó como incorrecta.';
+                }
+                
+                // Avanzar después de 1.5 segundos
+                setTimeout(() => {
+                    avanzarSiguientePregunta();
+                }, 1500);
+            }
+        } else {
+            setTiempoRestante(tiempoActual - 1);
+            actualizarTemporizadorVisual();
+        }
+    }, 1000);
+}
+
+function detenerTemporizador() {
+    if (intervaloActivo) {
+        clearInterval(intervaloActivo);
+        intervaloActivo = null;
+    }
+    setTemporizadorActivo(false);
+}
+
+function reiniciarTemporizador() {
+    detenerTemporizador();
+    if (modoSimulacro) {
+        setTiempoRestante(tiempoPorPregunta);
+        actualizarTemporizadorVisual();
+        setTemporizadorActivo(true);
+        iniciarTemporizador();
+    }
+}
+
+function actualizarTemporizadorVisual() {
+    const tiempoElement = document.getElementById('temporizador-simulacro');
+    if (!tiempoElement) return;
+    
+    const segundos = tiempoRestante;
+    const minutos = Math.floor(segundos / 60);
+    const segs = segundos % 60;
+    const tiempoTexto = `${minutos.toString().padStart(2, '0')}:${segs.toString().padStart(2, '0')}`;
+    
+    tiempoElement.textContent = tiempoTexto;
+    
+    // Cambiar color según tiempo restante
+    if (segundos <= 5) {
+        tiempoElement.style.color = '#ff4444';
+        tiempoElement.style.fontWeight = 'bold';
+        tiempoElement.style.animation = 'parpadeo 0.5s infinite';
+    } else if (segundos <= 10) {
+        tiempoElement.style.color = '#ff8800';
+        tiempoElement.style.fontWeight = 'bold';
+        tiempoElement.style.animation = 'none';
+    } else if (segundos <= 20) {
+        tiempoElement.style.color = '#ffcc00';
+        tiempoElement.style.fontWeight = 'normal';
+        tiempoElement.style.animation = 'none';
+    } else {
+        tiempoElement.style.color = '#ffffff';
+        tiempoElement.style.fontWeight = 'normal';
+        tiempoElement.style.animation = 'none';
     }
 }
 

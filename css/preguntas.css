@@ -188,3 +188,20 @@
 .feedback {
     transition: opacity 0.15s ease;
 }
+
+/* ============================================
+   TEMPORIZADOR SIMULACRO
+   ============================================ */
+@keyframes parpadeo {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+#temporizador-simulacro {
+    transition: color 0.2s ease;
+    background-color: rgba(0,0,0,0.2);
+    padding: 8px 16px;
+    border-radius: 50px;
+    display: inline-block;
+}

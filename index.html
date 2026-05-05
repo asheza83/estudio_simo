@@ -168,35 +168,51 @@
             </div>
         </div>
 
-        <!-- ============================================ -->
-        <!-- PESTAÑA TESTS -->
+                <!-- ============================================ -->
+        <!-- PESTAÑA PREGUNTAS -->
         <!-- ============================================ -->
         <div id="tab-preguntas" class="tab-content">
             <div id="descripcion-prueba" style="background-color: var(--azul); color: white; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
-                <h2 style="margin: 0 0 5px 0;">📝 Prueba de competencias funcionales</h2>
-                <p style="margin: 0;">Esta sección evalúa tus conocimientos sobre la normatividad del sector salud (Ley 100, Ley 1438, decretos, resoluciones).</p>
+                <h2 style="margin: 0 0 5px 0;">📝 Prueba de competencias</h2>
+                <p style="margin: 0;">Esta sección evalúa tus conocimientos en las diferentes competencias del concurso SIMO.</p>
             </div>
             
             <div id="info-test" style="background-color: rgba(13, 110, 253, 0.05); border-left: 3px solid var(--azul); padding: 12px; border-radius: 8px; margin-bottom: 20px;">
                 <p style="margin: 0;">
-                    <strong>📌 ¿Qué incluye este test?</strong><br>
-                    • Preguntas sobre leyes, decretos y resoluciones del SGSSS<br>
+                    <strong>📌 ¿Qué incluye esta sección?</strong><br>
+                    • Competencias funcionales (Leyes 100 y 1438)<br>
+                    • Competencias básicas (Lógica, Matemáticas, Lectura crítica)<br>
+                    • Competencias comportamentales (Ética, Trabajo en equipo, Orientación al servicio)<br>
                     • 5 preguntas aleatorias por examen<br>
                     • Feedback inmediato al responder<br>
-                    • Resumen final con estadísticas<br><br>
-                    <strong>⚠️ Nota:</strong> Las competencias básicas (razonamiento lógico, matemáticas, lectura crítica) y las competencias comportamentales (ética, trabajo en equipo) no se evalúan en esta sección.
+                    • Resumen final con estadísticas
                 </p>
             </div>
             
+            <!-- INICIO: Selección de modo y competencia -->
             <div id="preguntas-inicio">
-                <p style="text-align:center; margin-bottom:16px;">Selecciona el tipo de competencia y la subcategoría para comenzar el examen:</p>
+                <!-- SELECTOR DE MODO: ESTUDIO / SIMULACRO -->
+                <div style="display: flex; gap: 15px; margin-bottom: 25px; flex-wrap: wrap; justify-content: center;">
+                    <div id="modo-estudio-card" onclick="seleccionarModo('estudio')" style="flex: 1; min-width: 180px; background-color: var(--azul); color: white; padding: 15px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s;">
+                        <span style="font-size: 2rem;">📚</span>
+                        <h4 style="margin: 8px 0 5px 0;">Modo Estudio</h4>
+                        <p style="margin: 0; font-size: 0.8rem;">Sin límite de tiempo<br>Aprende a tu ritmo</p>
+                    </div>
+                    <div id="modo-simulacro-card" onclick="seleccionarModo('simulacro')" style="flex: 1; min-width: 180px; background-color: #6c757d; color: white; padding: 15px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s;">
+                        <span style="font-size: 2rem;">⏱️</span>
+                        <h4 style="margin: 8px 0 5px 0;">Modo Simulacro</h4>
+                        <p style="margin: 0; font-size: 0.8rem;">60 segundos por pregunta<br>Entrena tu velocidad</p>
+                    </div>
+                </div>
+
+                <p style="text-align:center; margin-bottom:16px;">Selecciona el tipo de competencia y la subcategoría para comenzar:</p>
                 
                 <!-- Selector 1: Tipo de competencia -->
                 <select id="tipo-competencia" class="filtro-select" style="margin-bottom: 10px;">
                     <option value="">📋 Selecciona el tipo de competencia...</option>
                     <option value="funcionales">🩺 Competencias funcionales (Leyes)</option>
                     <option value="basicas">📖 Competencias básicas (Lógica, Matemáticas, Lectura Crítica)</option>
-                    <option value="comportamentales">🤝 Competencias comportamentales (Ética, Orientación al Servicio, Trabajando en Equipo)</option>
+                    <option value="comportamentales">🤝 Competencias comportamentales (Ética, Trabajo en Equipo, Orientación al Servicio)</option>
                 </select>
                 
                 <!-- Selector 2: Subcategoría (oculto al inicio) -->
@@ -204,9 +220,10 @@
                     <option value="">Primero selecciona el tipo de competencia</option>
                 </select>
                 
-                <button id="btn-comenzar-examen" class="boton-reiniciar" onclick="iniciarExamenDesdeSelect()" disabled>🎲 COMENZAR EXAMEN</button>
+                <button id="btn-comenzar-examen" class="boton-reiniciar" onclick="iniciarExamenDesdeSelect()" disabled style="width:100%;">🎲 COMENZAR EXAMEN</button>
             </div>
             
+            <!-- DURANTE EL EXAMEN -->
             <div id="preguntas-examen" style="display:none;">
                 <div id="progreso-preguntas" style="margin-bottom: 15px; font-weight: bold;"></div>
                 <div id="preguntas-container"></div>
@@ -361,6 +378,30 @@
         window.cambiarPestana = cambiarPestana;
         window.volverAlMenu = volverAlMenu;
         window.irAPrincipalDesdePreguntas = irAPrincipalDesdePreguntas;
+
+
+        // Función para seleccionar modo de examen
+        function seleccionarModo(modo) {
+            const modoEstudioCard = document.getElementById('modo-estudio-card');
+            const modoSimulacroCard = document.getElementById('modo-simulacro-card');
+            
+            if (modo === 'estudio') {
+                modoEstudioCard.style.opacity = '1';
+                modoEstudioCard.style.backgroundColor = 'var(--azul)';
+                modoSimulacroCard.style.opacity = '0.7';
+                modoSimulacroCard.style.backgroundColor = '#6c757d';
+                window.modoSeleccionado = 'estudio';
+            } else {
+                modoEstudioCard.style.opacity = '0.7';
+                modoEstudioCard.style.backgroundColor = '#6c757d';
+                modoSimulacroCard.style.opacity = '1';
+                modoSimulacroCard.style.backgroundColor = 'var(--azul)';
+                window.modoSeleccionado = 'simulacro';
+            }
+        }
+        
+        // Seleccionar modo Estudio por defecto
+        window.modoSeleccionado = 'estudio';
     </script>
 </body>
 </html>
