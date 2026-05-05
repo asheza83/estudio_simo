@@ -1,0 +1,77 @@
+{
+  "titulo": "¡Bienvenido a ESTUDIO SIMO...!",
+  "subtitulo": "Preparación integral para el concurso ESE 2 - Enfermería HOMERIS",
+  "intro": "Esta herramienta te ayudará a dominar las seis competencias que evalúa SIMO para auxiliares de enfermería, específicamente para el ingreso al Hospital Mental de Risaralda.",
+  
+  "competencias": {
+    "titulo": "Las 6 competencias que evalúa SIMO son:",
+    "lista": [
+      "🧠 Razonamiento lógico",
+      "🔢 Razonamiento matemático",
+      "📖 Comprensión lectora",
+      "⚖️ Ética profesional",
+      "🤝 Trabajo en equipo",
+      "🎯 Orientación al servicio"
+    ]
+  },
+  
+  "pestanasExplicacion": "La aplicación tiene 3 pestañas principales:",
+  
+  "secciones": [
+    {
+      "icono": "📚",
+      "titulo": "Pestaña Estudio SIMO",
+      "descripcion": "Contiene toda la información teórica que necesitas:",
+      "puntos": [
+        "📋 Convocatoria ESE 2: fechas, vacantes, requisitos, modalidades y enlaces útiles.",
+        "📚 Normas del sector salud: resúmenes de leyes (Ley 100, Ley 1438), decretos y resoluciones con buscador integrado.",
+        "🩺 Casos prácticos: situaciones reales clasificadas por competencia, con respuestas orientativas desplegables."
+      ]
+    },
+    {
+      "icono": "📝",
+      "titulo": "Pestaña Preguntas",
+      "descripcion": "Aquí pondrás a prueba tus conocimientos. Tienes 2 modos de estudio:",
+      "puntos": [
+        "📚 Modo Estudio: Sin límite de tiempo. Puedes intentar hasta 4 veces por pregunta. Recibes feedback inmediato con explicaciones de por qué acertaste o fallaste. Ideal para aprender.",
+        "⏱️ Modo Simulacro: 5 minutos para 5 preguntas (tiempo total fijo). Sin feedback durante el examen. Solo el primer intento cuenta para el puntaje. Al final, obtienes un puntaje SIMO sobre 100 y sabrás si APROBASTE (70% o más)."
+      ]
+    },
+    {
+      "icono": "📖",
+      "titulo": "Pestaña Glosario",
+      "descripcion": "Base de datos de términos clave para el concurso:",
+      "puntos": [
+        "📚 Más de 140 términos en 5 categorías: siglas, entidades, términos, principios, carrera.",
+        "🔍 Buscador por palabra (mínimo 3 letras) con resaltado en amarillo.",
+        "📂 Filtros por categoría y por letra inicial (A-Z).",
+        "📄 Paginación de 10 términos por página."
+      ]
+    }
+  ],
+  
+  "funcionalidades": [
+    {
+      "icono": "⬆️",
+      "titulo": "Scroll y pestañas",
+      "descripcion": "Cuando te desplaces hacia abajo, las 3 pestañas se ocultarán automáticamente para aprovechar el espacio. Aparecerá un botón flotante ↑ Subir. Haz clic en él para volver a mostrarlas y subir al inicio."
+    },
+    {
+      "icono": "⚙️",
+      "titulo": "Botón Ajustes",
+      "descripcion": "En la parte superior derecha encontrarás el botón de Ajustes (⚙️ en computador, 🌙 en celular). Desde allí puedes activar el modo oscuro (ideal para estudiar de noche) y cambiar el tamaño de la letra (pequeña, normal, grande, extra grande)."
+    },
+    {
+      "icono": "💾",
+      "titulo": "Guardar progreso",
+      "descripcion": "Si cambias de pestaña durante un examen, el sistema guarda automáticamente tu avance. Al volver, te preguntará si deseas continuar donde lo dejaste o descartar y empezar uno nuevo."
+    },
+    {
+      "icono": "❌",
+      "titulo": "Cancelar examen",
+      "descripcion": "Dentro de un examen, encontrarás un botón rojo Cancelar examen. Al usarlo, se borrará todo el progreso de la prueba actual y volverás a la pantalla de selección de competencias."
+    }
+  ],
+  
+  "fraseExperto": "El modo estudio enseña contenido. El modo simulacro entrena estrategia. Ambos son necesarios para aprobar el concurso SIMO."
+}

@@ -1,0 +1,191 @@
+{
+  "nombre": "Asistente SIMO",
+  "version": "1.0",
+  "bienvenida": "¡Hola! Soy tu asistente virtual para resolver dudas sobre ESTUDIO SIMO. Puedes preguntarme cómo funciona cada sección, qué significan los resultados, o pedirme consejos para prepararte mejor para el concurso ESE 2.",
+  
+  "introduccion": {
+    "titulo": "¿Qué es ESTUDIO SIMO?",
+    "descripcion": "Es una herramienta de preparación para auxiliares de enfermería que buscan ingresar al Hospital Mental de Risaralda (HOMERIS) mediante el concurso de méritos ESE 2 de la CNSC.",
+    "queNecesitas": "Solo necesitas un navegador web (Chrome, Edge, Safari) y conexión a internet. La herramienta funciona en computadores, tabletas y celulares."
+  },
+  
+  "comenzar": {
+    "titulo": "¿Cómo empiezo?",
+    "pasos": [
+      "1. Explora las 3 pestañas principales: Estudio SIMO, Preguntas y Glosario.",
+      "2. En la pestaña Preguntas, selecciona el modo (Estudio o Simulacro), luego el tipo de competencia y la subcategoría.",
+      "3. Haz clic en COMENZAR EXAMEN y empieza a practicar.",
+      "4. Si es tu primera vez, aparecerá un modal de bienvenida con información detallada."
+    ]
+  },
+  
+  "pestanas": {
+    "estudioSIMO": {
+      "titulo": "📚 Pestaña Estudio SIMO",
+      "descripcion": "Contiene información teórica y casos prácticos.",
+      "secciones": [
+        {
+          "nombre": "Inicio",
+          "descripcion": "Vista general del proyecto y los tipos de pruebas SIMO."
+        },
+        {
+          "nombre": "Convocatoria SIMO",
+          "descripcion": "Información actualizada de la convocatoria ESE 2: fechas, vacantes, requisitos, modalidades (ascenso/abierto) y enlaces útiles para verificar antecedentes en Procuraduría, Policía y Contraloría."
+        },
+        {
+          "nombre": "Normas del sector salud",
+          "descripcion": "Resúmenes de leyes (Ley 100, Ley 1438), decretos y resoluciones. Incluye un buscador universal: escribe una palabra (ej: EPS, afiliación, artículo 157) y presiona Enter. Aparecerán todos los artículos que contengan ese término. Haz clic en cualquier resultado para ver el contenido completo."
+        },
+        {
+          "nombre": "Casos prácticos",
+          "descripcion": "Situaciones reales que podrías enfrentar en HOMERIS. Clasificadas por competencia: básicas (lógica, matemáticas, lectura crítica), funcionales (normas) y comportamentales (ética, trabajo en equipo, orientación al servicio). Cada caso tiene una respuesta orientativa que puedes desplegar haciendo clic en Ver respuesta."
+        }
+      ]
+    },
+    
+    "preguntas": {
+      "titulo": "📝 Pestaña Preguntas",
+      "descripcion": "El corazón de la herramienta. Aquí evaluarás tus conocimientos en las 6 competencias SIMO.",
+      "seleccionCompetencias": "Antes de comenzar, debes seleccionar: tipo de competencia (funcionales, básicas o comportamentales) y luego la subcategoría específica (ej: Razonamiento lógico, Matemáticas, Ética profesional).",
+      "modos": [
+        {
+          "nombre": "📚 Modo Estudio",
+          "descripcion": "Ideal para aprender sin presión.",
+          "caracteristicas": [
+            "Sin límite de tiempo.",
+            "Puedes intentar responder hasta 4 veces por pregunta.",
+            "Feedback inmediato: ✅ si es correcta (con explicación), ❌ si es incorrecta (con explicación de por qué fallaste).",
+            "Después de cada intento incorrecto, las opciones equivocadas se deshabilitan.",
+            "Al final del examen, se muestra la respuesta correcta de todas las preguntas y una explicación detallada para reforzar el aprendizaje.",
+            "Se muestran los intentos realizados por pregunta."
+          ]
+        },
+        {
+          "nombre": "⏱️ Modo Simulacro",
+          "descripcion": "Simula las condiciones reales del examen SIMO.",
+          "caracteristicas": [
+            "Tiempo total fijo: 5 minutos para 5 preguntas.",
+            "Temporizador global (no se reinicia por pregunta).",
+            "Barra de progreso con colores: verde (>50% tiempo), amarillo (20-50%), rojo (<20%).",
+            "Los últimos 5 segundos parpadean en rojo.",
+            "NO hay feedback durante el examen. No sabes si acertaste o fallaste hasta el final.",
+            "Seleccionas una opción y haces clic en SIGUIENTE. La respuesta se guarda automáticamente.",
+            "Si se acaba el tiempo, las preguntas no respondidas se marcan como incorrectas.",
+            "Solo el primer intento cuenta para el puntaje.",
+            "Al final, obtienes un puntaje SIMO sobre 100: (aciertos al primer intento / 5) × 100.",
+            "Corte de aprobación: 70/100. El sistema te dirá si APROBASTE o REPROBASTE.",
+            "La tabla de resultados tiene fondo verde (correcta) o rojo (incorrecta)."
+          ]
+        }
+      ],
+      "preguntasFrecuentes": [
+        {
+          "pregunta": "¿Puedo cambiar mi respuesta después de hacer clic en VERIFICAR (Modo Estudio)?",
+          "respuesta": "No. Una vez que verificas, la respuesta queda guardada. Si es incorrecta, puedes seguir intentando con las opciones restantes (se deshabilitan las que ya fallaste)."
+        },
+        {
+          "pregunta": "¿En Modo Simulacro, puedo cambiar mi respuesta después de hacer clic en SIGUIENTE?",
+          "respuesta": "No. La respuesta se guarda al seleccionar la opción y hacer clic en SIGUIENTE. No se puede modificar después."
+        },
+        {
+          "pregunta": "¿Qué significa el icono en el resumen de resultados?",
+          "respuesta": "En Modo Estudio: ✅ (1 intento correcto), ⚠️ (acertó después de varios intentos), 🔴 (probó todas las opciones, requiere repaso). En Modo Simulacro: fondo verde (correcta al primer intento), fondo rojo (incorrecta o tiempo agotado)."
+        },
+        {
+          "pregunta": "¿Qué hago si no entiendo una pregunta?",
+          "respuesta": "En Modo Estudio, puedes intentar varias veces y leer las explicaciones. En Modo Simulacro, debes responder con lo que sepas; al final verás la respuesta correcta. También puedes buscar términos en el Glosario."
+        }
+      ]
+    },
+    
+    "glosario": {
+      "titulo": "📖 Pestaña Glosario",
+      "descripcion": "Base de datos de términos clave para el concurso.",
+      "caracteristicas": [
+        "Más de 140 términos en 5 categorías: siglas (EPS, ARL, PBS), entidades (CNSC, Supersalud, HOMERIS), términos (SGSSS, UPC, PBS), principios (equidad, solidaridad, integralidad) y carrera administrativa (concurso de méritos, evaluación de desempeño).",
+        "Buscador: escribe una palabra (mínimo 3 letras) y presiona Enter. Los resultados se resaltan en amarillo.",
+        "Filtro por categoría: clic en los botones (TODAS, Siglas, Entidades, Términos, Principios, Carrera).",
+        "Filtro por letra inicial: clic en cualquier letra del alfabeto.",
+        "Paginación: 10 términos por página. Botones Anterior/Siguiente.",
+        "Botón flotante ↑ Subir: aparece al hacer scroll, lleva al inicio del glosario."
+      ]
+    }
+  },
+  
+  "funcionalidadesGlobales": {
+    "scroll": {
+      "titulo": "⬆️ Las pestañas desaparecen al hacer scroll",
+      "descripcion": "Cuando te desplazas hacia abajo, las pestañas Estudio SIMO, Preguntas y Glosario se ocultan automáticamente para que tengas más espacio. Aparece un botón flotante ↑ Subir en la esquina inferior derecha. Haz clic en él para volver a mostrar las pestañas y subir al inicio de la página."
+    },
+    "ajustes": {
+      "titulo": "⚙️ Botón de Ajustes (engranaje o luna)",
+      "descripcion": "En la parte superior derecha encontrarás el botón de Ajustes. Desde allí puedes: activar el modo oscuro (cambia los colores de la interfaz, ideal para estudiar de noche) y ajustar el tamaño de la letra (pequeña, normal, grande, extra grande)."
+    },
+    "guardado": {
+      "titulo": "💾 El examen se guarda si cambias de pestaña",
+      "descripcion": "Si estás en medio de un examen y cambias a otra pestaña, el sistema guarda automáticamente tu progreso (pregunta actual, respuestas seleccionadas, intentos). Al volver a la pestaña Preguntas, aparecerá un modal preguntándote si quieres continuar donde lo dejaste o descartar el examen y empezar uno nuevo."
+    },
+    "cancelar": {
+      "titulo": "❌ Cancelar examen",
+      "descripcion": "Dentro de un examen, en la parte superior, verás un botón rojo Cancelar examen. Al hacer clic, se borrará todo el progreso del examen actual y volverás a la pantalla de selección de competencias."
+    },
+    "botonSubir": {
+      "titulo": "⬆️ Botón flotante Subir",
+      "descripcion": "Aparece en la esquina inferior derecha cuando haces scroll hacia abajo. Al hacer clic, sube al inicio de la página y vuelve a mostrar las pestañas si estaban ocultas."
+    }
+  },
+  
+  "resultados": {
+    "titulo": "📊 Interpretación de los resultados",
+    "explicacion": "El puntaje SIMO se calcula como: (Aciertos al primer intento / Total preguntas) × 100. El corte de aprobación es 70/100. En Modo Simulacro, solo cuentan los aciertos al primer intento.",
+    "iconos": {
+      "estudio": {
+        "✅": "Acertó al primer intento",
+        "⚠️": "Acertó después de varios intentos (aprendizaje)",
+        "🔴": "Probó todas las opciones (requiere repaso)",
+        "⏰": "Tiempo agotado"
+      },
+      "simulacro": {
+        "fondoVerde": "Respuesta correcta al primer intento",
+        "fondoRojo": "Respuesta incorrecta o tiempo agotado"
+      }
+    }
+  },
+  
+  "faqGeneral": [
+    {
+      "pregunta": "¿Cuántas preguntas tiene cada examen?",
+      "respuesta": "Actualmente, 5 preguntas por examen. En futuras versiones, el simulacro podrá tener 20-50 preguntas configurables."
+    },
+    {
+      "pregunta": "¿Puedo repetir el mismo examen?",
+      "respuesta": "Sí. Al final de cada examen, tienes el botón REPETIR EXAMEN. Las preguntas se cargarán nuevamente de forma aleatoria desde el mismo banco de preguntas."
+    },
+    {
+      "pregunta": "¿Se guardan mis resultados?",
+      "respuesta": "Actualmente no. Los resultados se muestran al final, pero no se guardan históricamente. Esta funcionalidad está en análisis para futuras versiones."
+    },
+    {
+      "pregunta": "¿Qué hago si el temporizador del simulacro se detiene?",
+      "respuesta": "Si ocurre un error, recarga la página. El progreso del examen no se guardará en ese caso. Asegúrate de tener una conexión estable."
+    },
+    {
+      "pregunta": "¿Puedo usar la herramienta sin internet?",
+      "respuesta": "Sí, si descargas el proyecto completo (carpeta demo_estudio_simo), puedes abrir index.html en tu navegador y funciona offline, siempre que los archivos JSON estén disponibles."
+    },
+    {
+      "pregunta": "¿Hay algún costo?",
+      "respuesta": "No. La herramienta es completamente gratuita y de acceso libre."
+    }
+  ],
+  
+  "consejosRapidos": [
+    "Usa el modo oscuro para estudiar de noche, es menos cansado para la vista.",
+    "En modo estudio, aprovecha las explicaciones para entender por qué fallaste.",
+    "En modo simulacro, entrena tu velocidad: intenta responder cada pregunta en menos de 60 segundos.",
+    "Si no entiendes un término, búscalo en el glosario.",
+    "Practica primero en modo estudio hasta que domines el contenido, luego cambia al modo simulacro para entrenar velocidad."
+  ],
+  
+  "fraseExperto": "El modo estudio enseña contenido. El modo simulacro entrena estrategia. Ambos son necesarios para aprobar el concurso SIMO."
+}

@@ -261,7 +261,13 @@
                 </div>
             </div>
         </div>
+    </div>
 
+    <!-- MODAL DE BIENVENIDA -->
+    <div id="modal-bienvenida" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.85); z-index: 2000; align-items: center; justify-content: center;">
+        <div id="modal-bienvenida-contenido" style="background-color: var(--bg-secundario); max-width: 550px; width: 90%; max-height: 85%; overflow-y: auto; margin: 20px; border-radius: 20px; padding: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); animation: fadeIn 0.3s ease;">
+            <div style="text-align: center;">⏳ Cargando...</div>
+        </div>
     </div>
 
     <script type="module" src="js/casos.js"></script>
@@ -419,6 +425,152 @@
             // ✅ Reiniciar selectores al cambiar de modo
             reiniciarSelectores();
         }
+
+        /**************************************/
+        /* MODAL DE BIENVENIDA (PRIMERA VEZ)  */
+        /**************************************/
+        async function cargarModalBienvenida() {
+            try {
+                const response = await fetch('datos/bienvenida.json');
+                const data = await response.json();
+                
+                const contenido = document.getElementById('modal-bienvenida-contenido');
+                if (!contenido) return;
+                
+                // Construir secciones con puntos
+                let seccionesHtml = '';
+                if (data.secciones) {
+                    data.secciones.forEach(sec => {
+                        seccionesHtml += `
+                            <div style="margin-bottom: 20px;">
+                                <p style="font-weight: bold; font-size: 1rem; margin-bottom: 8px; color: var(--azul);">${sec.icono} ${sec.titulo}</p>
+                                <p style="font-size: 1.1rem; color: var(--texto-secundario); margin-bottom: 5px;">${sec.descripcion}</p>
+                        `;
+                        if (sec.puntos && sec.puntos.length > 0) {
+                            seccionesHtml += `<ul style="margin: 5px 0 0 20px; font-size: 1.1rem; color: var(--texto-secundario);">`;
+                            sec.puntos.forEach(punto => {
+                                seccionesHtml += `<li style="margin-bottom: 3px;">${punto}</li>`;
+                            });
+                            seccionesHtml += `</ul>`;
+                        }
+                        seccionesHtml += `</div>`;
+                    });
+                }
+                
+                // Construir competencias (si existe)
+                let competenciasHtml = '';
+                if (data.competencias && data.competencias.lista) {
+                    competenciasHtml = `
+                        <div style="margin-bottom: 20px;">
+                            <p style="font-weight: bold; font-size: 1.1rem; margin-bottom: 8px;">📋 ${data.competencias.titulo}</p>
+                            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                                ${data.competencias.lista.map(comp => `<span style="background-color: var(--bg-principal); padding: 4px 10px; border-radius: 20px; font-size: 1.1rem;">${comp}</span>`).join('')}
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                // Construir funcionalidades globales
+                let funcionalidadesHtml = '';
+                if (data.funcionalidades && data.funcionalidades.length > 0) {
+                    funcionalidadesHtml = `<div style="margin: 15px 0;"><p style="font-weight: bold; margin-bottom: 8px;">⚙️ Funcionalidades importantes:</p>`;
+                    data.funcionalidades.forEach(func => {
+                        funcionalidadesHtml += `
+                            <div style="margin-bottom: 10px;">
+                                <p style="font-size: 1.1rem; margin: 0; font-weight: bold;">${func.icono} ${func.titulo}</p>
+                                <p style="font-size: 1.1rem; margin: 2px 0 0 0; color: var(--texto-secundario);">${func.descripcion}</p>
+                            </div>
+                        `;
+                    });
+                    funcionalidadesHtml += `</div>`;
+                }
+                
+                // Construir consejos
+                let consejosHtml = '';
+                if (data.consejos && data.consejos.length > 0) {
+                    consejosHtml = '<div style="background-color: rgba(13, 110, 253, 0.1); padding: 12px; border-radius: 10px; margin-bottom: 15px;">';
+                    data.consejos.forEach(consejo => {
+                        consejosHtml += `<p style="font-size: 1.1rem; margin: 3px 0; color: var(--texto-secundario);">💡 ${consejo}</p>`;
+                    });
+                    consejosHtml += '</div>';
+                }
+                
+                contenido.innerHTML = `
+                    <div style="text-align: center; margin-bottom: 15px;">
+                        <span style="font-size: 2.5rem;">🏥</span>
+                        <h2 style="margin: 8px 0 5px 0; color: var(--azul); font-size: 1.4rem;">${data.titulo}</h2>
+                        <p style="color: var(--texto-secundario); font-size: 1.1rem;">${data.subtitulo}</p>
+                    </div>
+                    <hr style="border: 1px solid var(--borde); margin: 10px 0;">
+                    <div style="margin-bottom: 10px;">
+                        <p style="font-size: 1.1rem; color: var(--texto-secundario); margin-bottom: 10px;">${data.intro || ''}</p>
+                        ${competenciasHtml}
+                        <p style="font-weight: bold; font-size: 1.1rem; margin: 15px 0 8px 0;">📌 ${data.pestanasExplicacion || 'La aplicación tiene 3 pestañas:'}</p>
+                        ${seccionesHtml}
+                        ${funcionalidadesHtml}
+                        ${consejosHtml}
+                    </div>
+                    ${data.fraseExperto ? `<div style="background-color: rgba(25, 135, 84, 0.1); padding: 10px; border-radius: 10px; margin-bottom: 15px; border-left: 3px solid var(--exito);">
+                        <p style="font-size: 1.1rem; margin: 0; color: var(--texto-secundario); font-style: italic;">“${data.fraseExperto}”</p>
+                    </div>` : ''}
+                    <button id="btn-cerrar-bienvenida" class="boton-reiniciar" style="width: 100%; padding: 10px;">📌 Entendido, comenzar</button>
+                `;
+                
+                document.getElementById('btn-cerrar-bienvenida').addEventListener('click', cerrarModalBienvenida);
+                
+            } catch (error) {
+                console.error('Error cargando bienvenida.json:', error);
+                const contenido = document.getElementById('modal-bienvenida-contenido');
+                if (contenido) {
+                    contenido.innerHTML = `
+                        <div style="text-align: center;">
+                            <span style="font-size: 2rem;">🏥</span>
+                            <h2 style="margin: 10px 0 5px 0; color: var(--azul);">¡Bienvenido a ESTUDIO SIMO!</h2>
+                            <p style="color: var(--texto-secundario);">Preparación para el concurso de méritos ESE 2</p>
+                            <hr style="border: 1px solid var(--borde); margin: 15px 0;">
+                            <p style="text-align: left; font-size: 1.1rem;">La herramienta cuenta con tres pestañas: Estudio SIMO (convocatoria, normas y casos), Preguntas (modo estudio y simulacro) y Glosario (más de 140 términos).</p>
+                            <button id="btn-cerrar-bienvenida" class="boton-reiniciar" style="width: 100%; margin-top: 15px;">📌 Entendido, comenzar</button>
+                        </div>
+                    `;
+                    document.getElementById('btn-cerrar-bienvenida')?.addEventListener('click', cerrarModalBienvenida);
+                }
+            }
+        }
+
+        function mostrarModalBienvenida() {
+            const modal = document.getElementById('modal-bienvenida');
+            if (modal) {
+                modal.style.display = 'flex';
+                cargarModalBienvenida();
+            }
+        }
+
+        function cerrarModalBienvenida() {
+            const modal = document.getElementById('modal-bienvenida');
+            if (modal) {
+                modal.style.display = 'none';
+            }
+            localStorage.setItem('bienvenidaVista', 'true');
+        }
+
+        function verificarPrimeraVez() {
+            const yaVio = localStorage.getItem('bienvenidaVista');
+            if (!yaVio) {
+                setTimeout(() => {
+                    mostrarModalBienvenida();
+                }, 500);
+            }
+        }
+
+        // Llamar a la verificación cuando se carga la página
+        document.addEventListener('DOMContentLoaded', function() {
+            verificarPrimeraVez();
+        });
+
+        // Llamar a la verificación cuando se carga la página
+        document.addEventListener('DOMContentLoaded', function() {
+            verificarPrimeraVez();
+        });
         
         // Seleccionar modo Estudio por defecto
         window.modoSeleccionado = 'estudio';
