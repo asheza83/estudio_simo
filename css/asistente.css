@@ -1,37 +1,46 @@
 /* ============================================
-   ASISTENTE IA - CHAT BÁSICO
+   ASISTENTE IA
    ============================================ */
 
-/* Botón flotante del asistente */
+/* Botón flotante PC (visible solo en PC) */
 #asistente-btn {
     position: fixed;
     bottom: 100px;
     right: 30px;
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
+    width: auto;
+    min-width: 55px;
+    height: 50px;
+    border-radius: 50px;
     background-color: var(--azul);
     color: white;
     border: none;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
+    font-weight: bold;
     cursor: pointer;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
     z-index: 1000;
     transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 20px;
+    white-space: nowrap;
 }
 
 #asistente-btn:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     background-color: var(--azul-hover);
+    right: 28px;
 }
 
 /* Modal del chat */
 #asistente-modal {
     position: fixed;
-    bottom: 170px;
-    right: 30px;
+    bottom: 20px;
+    right: 20px;
     width: 350px;
-    height: 450px;
+    height: 500px;
     background-color: var(--bg-secundario);
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
@@ -41,6 +50,71 @@
     overflow: hidden;
     border: 1px solid var(--borde);
 }
+
+/* Overlay */
+#asistente-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+
+/* ============================================
+   VISIBILIDAD POR DISPOSITIVO
+   ============================================ */
+
+/* PC: mostrar flotante, ocultar botón del header */
+@media (min-width: 769px) {
+    #aiBtn {
+        display: none !important;
+    }
+    #asistente-btn {
+        display: flex !important;
+    }
+}
+
+/* Móvil: ocultar flotante, mostrar botón del header */
+@media (max-width: 768px) {
+    #asistente-btn {
+        display: none !important;
+    }
+    #aiBtn {
+        display: inline-flex !important;
+    }
+}
+
+/* ============================================
+   RESPONSIVE DEL CHAT
+   ============================================ */
+
+/* Móvil vertical (portrait) */
+@media (max-width: 768px) and (orientation: portrait) {
+    #asistente-modal {
+        width: calc(100% - 40px);
+        height: 450px;
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+/* Móvil horizontal (landscape) */
+@media (max-width: 900px) and (orientation: landscape) {
+    #asistente-modal {
+        width: 60%;
+        height: 80%;
+        right: 10px;
+        bottom: 10px;
+        top: auto;
+    }
+}
+
+/* ============================================
+   ESTILOS DEL CHAT (sin cambios)
+   ============================================ */
 
 /* Cabecera del chat */
 .asistente-header {
@@ -61,7 +135,7 @@
     cursor: pointer;
 }
 
-/* Cuerpo del chat (mensajes) */
+/* Cuerpo del chat */
 .asistente-body {
     flex: 1;
     padding: 12px;
@@ -96,7 +170,7 @@
     border: 1px solid var(--borde);
 }
 
-/* Pie del chat (input) */
+/* Pie del chat */
 .asistente-footer {
     padding: 12px;
     display: flex;
@@ -123,31 +197,4 @@
     padding: 8px 16px;
     cursor: pointer;
     font-size: 0.8rem;
-}
-
-/* Overlay para bloquear el fondo */
-#asistente-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
-    display: none;
-}
-
-/* Asegurar que el chat esté por encima del overlay */
-#asistente-modal {
-    z-index: 1000;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    #asistente-modal {
-        width: calc(100% - 40px);
-        height: 400px;
-        right: 20px;
-        bottom: 150px;
-    }
 }

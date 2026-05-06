@@ -16,6 +16,8 @@
             </div>
             <div style="flex: 1;"></div>
             <div>
+                <!-- Header (celular) -->
+                <button id="aiBtn" class="dark-mode-toggle" onclick="window.toggleAsistente()"><span>🤖 IA</span></button>
                 <button id="helpBtn" class="dark-mode-toggle"><span>📖 Instrucciones</span></button>
                 <button id="configBtn" class="dark-mode-toggle"><span>⚙️ Ajustes</span></button>
             </div>
@@ -278,7 +280,6 @@
     <div id="asistente-overlay"></div>
     
     <!-- ASISTENTE IA -->
-    <button id="asistente-btn">🤖</button>
     <div id="asistente-modal">
         <div class="asistente-header">
             <span>🤖 Asistente SIMO</span>
@@ -290,6 +291,9 @@
             <button id="asistente-send">Enviar</button>
         </div>
     </div>
+    
+    <!-- Botón flotante PC (fuera del header) -->
+    <button id="asistente-btn">🤖 IA</button>
 
     <script type="module" src="js/casos.js"></script>
     <script type="module" src="js/app.js"></script>

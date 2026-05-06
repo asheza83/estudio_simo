@@ -138,27 +138,34 @@ function toggleAsistente() {
 async function initAsistente() {
     await cargarConocimiento();
     
-    const btn = document.getElementById('asistente-btn');
-    if (btn) btn.addEventListener('click', toggleAsistente);
+    // Botón flotante PC (forzar con onclick)
+    const btnPC = document.getElementById('asistente-btn');
+    if (btnPC) {
+        btnPC.onclick = toggleAsistente;
+        console.log('✅ Botón PC vinculado');
+    } else {
+        console.warn('❌ Botón PC no encontrado');
+    }
+    
+    // Botón del header (móvil)
+    const btnHeader = document.getElementById('aiBtn');
+    if (btnHeader) btnHeader.onclick = toggleAsistente;
     
     const closeBtn = document.getElementById('asistente-close');
-    if (closeBtn) closeBtn.addEventListener('click', toggleAsistente);
+    if (closeBtn) closeBtn.onclick = toggleAsistente;
     
     const sendBtn = document.getElementById('asistente-send');
-    if (sendBtn) sendBtn.addEventListener('click', procesarPregunta);
+    if (sendBtn) sendBtn.onclick = procesarPregunta;
     
     const input = document.getElementById('asistente-input');
     if (input) {
-        input.addEventListener('keypress', (e) => {
+        input.onkeypress = (e) => {
             if (e.key === 'Enter') procesarPregunta();
-        });
+        };
     }
     
-    // ✅ NUEVO: Cerrar chat al hacer clic en el overlay
     const overlay = document.getElementById('asistente-overlay');
-    if (overlay) {
-        overlay.addEventListener('click', toggleAsistente);
-    }
+    if (overlay) overlay.onclick = toggleAsistente;
 }
 
 // Exportar para uso global
