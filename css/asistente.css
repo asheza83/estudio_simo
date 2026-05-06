@@ -1,0 +1,153 @@
+/* ============================================
+   ASISTENTE IA - CHAT BÁSICO
+   ============================================ */
+
+/* Botón flotante del asistente */
+#asistente-btn {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: var(--azul);
+    color: white;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: all 0.2s;
+}
+
+#asistente-btn:hover {
+    transform: scale(1.05);
+    background-color: var(--azul-hover);
+}
+
+/* Modal del chat */
+#asistente-modal {
+    position: fixed;
+    bottom: 170px;
+    right: 30px;
+    width: 350px;
+    height: 450px;
+    background-color: var(--bg-secundario);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    z-index: 1001;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid var(--borde);
+}
+
+/* Cabecera del chat */
+.asistente-header {
+    background-color: var(--azul);
+    color: white;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.asistente-header button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Cuerpo del chat (mensajes) */
+.asistente-body {
+    flex: 1;
+    padding: 12px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--bg-principal);
+}
+
+/* Mensajes */
+.mensaje {
+    max-width: 85%;
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+.mensaje-usuario {
+    background-color: var(--azul);
+    color: white;
+    align-self: flex-end;
+    border-bottom-right-radius: 4px;
+}
+
+.mensaje-bot {
+    background-color: var(--bg-secundario);
+    color: var(--texto-principal);
+    align-self: flex-start;
+    border-bottom-left-radius: 4px;
+    border: 1px solid var(--borde);
+}
+
+/* Pie del chat (input) */
+.asistente-footer {
+    padding: 12px;
+    display: flex;
+    gap: 8px;
+    border-top: 1px solid var(--borde);
+    background-color: var(--bg-secundario);
+}
+
+.asistente-footer input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid var(--borde);
+    border-radius: 20px;
+    background-color: var(--bg-principal);
+    color: var(--texto-principal);
+    font-size: 0.85rem;
+}
+
+.asistente-footer button {
+    background-color: var(--azul);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+/* Overlay para bloquear el fondo */
+#asistente-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+
+/* Asegurar que el chat esté por encima del overlay */
+#asistente-modal {
+    z-index: 1000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #asistente-modal {
+        width: calc(100% - 40px);
+        height: 400px;
+        right: 20px;
+        bottom: 150px;
+    }
+}

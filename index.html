@@ -16,7 +16,6 @@
             </div>
             <div style="flex: 1;"></div>
             <div>
-                <button id="aiBtn" class="dark-mode-toggle"><span>🤖 IA</span></button>
                 <button id="helpBtn" class="dark-mode-toggle"><span>📖 Instrucciones</span></button>
                 <button id="configBtn" class="dark-mode-toggle"><span>⚙️ Ajustes</span></button>
             </div>
@@ -275,8 +274,26 @@
         </div>
     </div>
 
+    <!-- OVERLAY PARA BLOQUEAR EL FONDO -->
+    <div id="asistente-overlay"></div>
+    
+    <!-- ASISTENTE IA -->
+    <button id="asistente-btn">🤖</button>
+    <div id="asistente-modal">
+        <div class="asistente-header">
+            <span>🤖 Asistente SIMO</span>
+            <button id="asistente-close">✖</button>
+        </div>
+        <div class="asistente-body" id="asistente-body"></div>
+        <div class="asistente-footer">
+            <input type="text" id="asistente-input" placeholder="Escribe tu pregunta...">
+            <button id="asistente-send">Enviar</button>
+        </div>
+    </div>
+
     <script type="module" src="js/casos.js"></script>
     <script type="module" src="js/app.js"></script>
+    <script type="module" src="js/asistente.js"></script>
     <script>
         // Inicializar selector de secciones en Estudio SIMO
         document.addEventListener('DOMContentLoaded', function() {
@@ -583,6 +600,13 @@
             if (helpBtn) {
                 helpBtn.addEventListener('click', abrirAyuda);
             }
+        });
+
+        // Importar e inicializar asistente IA
+        import('./js/asistente.js').then(module => {
+            module.initAsistente();
+        }).catch(err => {
+            console.warn('Error cargando asistente:', err);
         });
         
         // Seleccionar modo Estudio por defecto

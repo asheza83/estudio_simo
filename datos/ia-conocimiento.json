@@ -1,63 +1,84 @@
 {
   "nombre": "Asistente SIMO",
-  "version": "1.0",
-  "bienvenida": "¡Hola! Soy tu asistente virtual para resolver dudas sobre ESTUDIO SIMO. Puedes preguntarme cómo funciona cada sección, qué significan los resultados, o pedirme consejos para prepararte mejor para el concurso ESE 2.",
-  
+  "version": "3.0",
+  "bienvenida": "¡Hola! Soy tu asistente virtual para resolver dudas sobre ESTUDIO SIMO. Puedes preguntarme cómo funciona cada sección, qué significan los resultados, cómo buscar en las leyes, o pedirme consejos para prepararte mejor para el concurso ESE 2. Estoy aquí para ayudarte en todo momento.",
+
   "introduccion": {
     "titulo": "¿Qué es ESTUDIO SIMO?",
-    "descripcion": "Es una herramienta de preparación para auxiliares de enfermería que buscan ingresar al Hospital Mental de Risaralda (HOMERIS) mediante el concurso de méritos ESE 2 de la CNSC.",
-    "queNecesitas": "Solo necesitas un navegador web (Chrome, Edge, Safari) y conexión a internet. La herramienta funciona en computadores, tabletas y celulares."
+    "descripcion": "Es una herramienta gratuita de preparación para auxiliares de enfermería que buscan ingresar al Hospital Mental de Risaralda (HOMERIS) mediante el concurso de méritos ESE 2 de la CNSC.",
+    "queNecesitas": "Solo necesitas un navegador web (Chrome, Edge, Safari, Firefox) y conexión a internet. La herramienta funciona en computadores, tabletas y celulares.",
+    "url": "https://estudio-simo.netlify.app/"
   },
-  
+
   "comenzar": {
     "titulo": "¿Cómo empiezo?",
     "pasos": [
       "1. Explora las 3 pestañas principales: Estudio SIMO, Preguntas y Glosario.",
       "2. En la pestaña Preguntas, selecciona el modo (Estudio o Simulacro), luego el tipo de competencia y la subcategoría.",
       "3. Haz clic en COMENZAR EXAMEN y empieza a practicar.",
-      "4. Si es tu primera vez, aparecerá un modal de bienvenida con información detallada."
+      "4. Si es tu primera vez, aparecerá un modal de bienvenida con información detallada.",
+      "5. También puedes usar el botón flotante 🤖 para hacerme preguntas."
     ]
   },
-  
+
   "pestanas": {
     "estudioSIMO": {
       "titulo": "📚 Pestaña Estudio SIMO",
-      "descripcion": "Contiene información teórica y casos prácticos.",
-      "secciones": [
-        {
-          "nombre": "Inicio",
-          "descripcion": "Vista general del proyecto y los tipos de pruebas SIMO."
-        },
-        {
-          "nombre": "Convocatoria SIMO",
-          "descripcion": "Información actualizada de la convocatoria ESE 2: fechas, vacantes, requisitos, modalidades (ascenso/abierto) y enlaces útiles para verificar antecedentes en Procuraduría, Policía y Contraloría."
-        },
-        {
-          "nombre": "Normas del sector salud",
-          "descripcion": "Resúmenes de leyes (Ley 100, Ley 1438), decretos y resoluciones. Incluye un buscador universal: escribe una palabra (ej: EPS, afiliación, artículo 157) y presiona Enter. Aparecerán todos los artículos que contengan ese término. Haz clic en cualquier resultado para ver el contenido completo."
-        },
-        {
-          "nombre": "Casos prácticos",
-          "descripcion": "Situaciones reales que podrías enfrentar en HOMERIS. Clasificadas por competencia: básicas (lógica, matemáticas, lectura crítica), funcionales (normas) y comportamentales (ética, trabajo en equipo, orientación al servicio). Cada caso tiene una respuesta orientativa que puedes desplegar haciendo clic en Ver respuesta."
-        }
-      ]
+      "descripcion": "Contiene información teórica y casos prácticos organizados en un selector con 4 opciones.",
+      "selector": {
+        "descripcion": "En la parte superior hay un menú desplegable con 4 opciones:",
+        "opciones": [
+          "🏠 Inicio - Visión general del proyecto y tipos de pruebas SIMO.",
+          "📋 Convocatoria SIMO - Información actualizada de la convocatoria ESE 2: fechas, vacantes, requisitos, modalidades (ascenso/abierto) y enlaces útiles.",
+          "📚 Normas del sector salud - Resúmenes de leyes (Ley 100, Ley 1438), decretos y resoluciones.",
+          "🩺 Casos prácticos - Situaciones reales clasificadas por competencia con respuestas orientativas."
+        ]
+      },
+      "buscadorLeyes": {
+        "titulo": "🔍 Buscador universal de leyes",
+        "descripcion": "Dentro de la sección 'Normas del sector salud', encontrarás un buscador universal.",
+        "como_usar": "Escribe una palabra o término (ej: EPS, afiliación, artículo 157) y presiona Enter.",
+        "que_hace": "El sistema buscará en todas las leyes (Ley 100, Ley 1438, decretos, resoluciones) y mostrará los artículos que contengan esa palabra.",
+        "resultados": "Cada resultado muestra el nombre de la ley, el artículo y un fragmento del texto. Haz clic en cualquier resultado para ver el contenido completo en un popup.",
+        "ejemplos": ["EPS", "afiliación", "cotización", "artículo 157", "UPC", "PBS", "talento humano"]
+      },
+      "casosPracticos": {
+        "titulo": "🩺 Sección Casos prácticos",
+        "descripcion": "Situaciones reales que podrías enfrentar en HOMERIS.",
+        "filtros": [
+          "TODAS - Muestra todos los casos",
+          "📖 Básicas - Casos de lógica, matemáticas y lectura crítica",
+          "🩺 Funcionales - Casos sobre normatividad del sector salud",
+          "🤝 Comportamentales - Casos de ética, trabajo en equipo y orientación al servicio"
+        ],
+        "paginacion": "10 casos por página con botones Anterior/Siguiente",
+        "respuestas": "Cada caso tiene una respuesta orientativa que se despliega haciendo clic en 'Ver respuesta orientativa'",
+        "efecto": "Fade al cambiar de página",
+        "numeracion": "Automática (1., 2., 3...)"
+      }
     },
-    
+
     "preguntas": {
       "titulo": "📝 Pestaña Preguntas",
       "descripcion": "El corazón de la herramienta. Aquí evaluarás tus conocimientos en las 6 competencias SIMO.",
-      "seleccionCompetencias": "Antes de comenzar, debes seleccionar: tipo de competencia (funcionales, básicas o comportamentales) y luego la subcategoría específica (ej: Razonamiento lógico, Matemáticas, Ética profesional).",
+      "seleccionCompetencias": "Antes de comenzar, debes seleccionar: tipo de competencia (funcionales, básicas o comportamentales) y luego la subcategoría específica.",
+      "competencias": {
+        "funcionales": ["📄 Ley 100 de 1993", "📄 Ley 1438 de 2011"],
+        "basicas": ["🧠 Razonamiento lógico", "🔢 Matemáticas aplicadas", "📖 Lectura crítica"],
+        "comportamentales": ["⚖️ Ética profesional", "🤝 Trabajo en equipo", "🎯 Orientación al servicio"]
+      },
       "modos": [
         {
           "nombre": "📚 Modo Estudio",
           "descripcion": "Ideal para aprender sin presión.",
           "caracteristicas": [
             "Sin límite de tiempo.",
-            "Puedes intentar responder hasta 4 veces por pregunta.",
+            "Puedes intentar responder hasta 4 veces por pregunta (cada pregunta tiene 4 opciones).",
             "Feedback inmediato: ✅ si es correcta (con explicación), ❌ si es incorrecta (con explicación de por qué fallaste).",
             "Después de cada intento incorrecto, las opciones equivocadas se deshabilitan.",
-            "Al final del examen, se muestra la respuesta correcta de todas las preguntas y una explicación detallada para reforzar el aprendizaje.",
-            "Se muestran los intentos realizados por pregunta."
+            "Al final del examen, se muestra la respuesta correcta de todas las preguntas y una explicación detallada.",
+            "Se muestran los intentos realizados por pregunta.",
+            "Iconos en resultados: ✅ (1 intento), ⚠️ (2-3 intentos), 🔴 (4 intentos), ⏰ (tiempo agotado)"
           ]
         },
         {
@@ -85,41 +106,48 @@
         },
         {
           "pregunta": "¿En Modo Simulacro, puedo cambiar mi respuesta después de hacer clic en SIGUIENTE?",
-          "respuesta": "No. La respuesta se guarda al seleccionar la opción y hacer clic en SIGUIENTE. No se puede modificar después."
+          "respuesta": "No. La respuesta se guarda al seleccionar la opción y hacer clic en SIGUIENTE. No se puede modificar después. Así es en el examen real."
+        },
+        {
+          "pregunta": "¿Qué significan los colores en la barra de tiempo del simulacro?",
+          "respuesta": "Verde: tiempo suficiente (>50%). Amarillo: tiempo moderado (20-50%). Rojo: tiempo crítico (<20%). Los últimos 5 segundos parpadean en rojo."
         },
         {
           "pregunta": "¿Qué significa el icono en el resumen de resultados?",
-          "respuesta": "En Modo Estudio: ✅ (1 intento correcto), ⚠️ (acertó después de varios intentos), 🔴 (probó todas las opciones, requiere repaso). En Modo Simulacro: fondo verde (correcta al primer intento), fondo rojo (incorrecta o tiempo agotado)."
+          "respuesta": "En Modo Estudio: ✅ (1 intento correcto), ⚠️ (acertó después de varios intentos), 🔴 (probó todas las opciones, requiere repaso), ⏰ (tiempo agotado). En Modo Simulacro: fondo verde (correcta al primer intento), fondo rojo (incorrecta o tiempo agotado)."
         },
         {
           "pregunta": "¿Qué hago si no entiendo una pregunta?",
           "respuesta": "En Modo Estudio, puedes intentar varias veces y leer las explicaciones. En Modo Simulacro, debes responder con lo que sepas; al final verás la respuesta correcta. También puedes buscar términos en el Glosario."
+        },
+        {
+          "pregunta": "¿Cómo se calcula el puntaje SIMO?",
+          "respuesta": "El puntaje se calcula como: (Aciertos al primer intento / Total preguntas) × 100. El corte de aprobación es 70/100. Solo el primer intento cuenta como acierto en ambos modos. En el ejemplo: 4 aciertos de 5 = (4/5) × 100 = 80/100 → APROBÓ."
         }
       ]
     },
-    
+
     "glosario": {
       "titulo": "📖 Pestaña Glosario",
-      "descripcion": "Base de datos de términos clave para el concurso.",
+      "descripcion": "Base de datos de términos clave para el concurso. Contiene más de 140 términos en 5 categorías.",
       "caracteristicas": [
-        "Más de 140 términos en 5 categorías: siglas (EPS, ARL, PBS), entidades (CNSC, Supersalud, HOMERIS), términos (SGSSS, UPC, PBS), principios (equidad, solidaridad, integralidad) y carrera administrativa (concurso de méritos, evaluación de desempeño).",
-        "Buscador: escribe una palabra (mínimo 3 letras) y presiona Enter. Los resultados se resaltan en amarillo.",
-        "Filtro por categoría: clic en los botones (TODAS, Siglas, Entidades, Términos, Principios, Carrera).",
-        "Filtro por letra inicial: clic en cualquier letra del alfabeto.",
-        "Paginación: 10 términos por página. Botones Anterior/Siguiente.",
-        "Botón flotante ↑ Subir: aparece al hacer scroll, lleva al inicio del glosario."
+        "🔍 Buscador: escribe una palabra (mínimo 3 letras) y presiona Enter. Las coincidencias se resaltan en amarillo.",
+        "📂 Filtro por categoría: siglas, entidades, términos, principios, carrera.",
+        "🔤 Filtro por letra inicial: clic en cualquier letra del alfabeto (A-Z).",
+        "📄 Paginación: 10 términos por página. Botones Anterior/Siguiente.",
+        "⬆️ Botón flotante Subir: aparece al hacer scroll, lleva al inicio del glosario."
       ]
     }
   },
-  
+
   "funcionalidadesGlobales": {
     "scroll": {
       "titulo": "⬆️ Las pestañas desaparecen al hacer scroll",
       "descripcion": "Cuando te desplazas hacia abajo, las pestañas Estudio SIMO, Preguntas y Glosario se ocultan automáticamente para que tengas más espacio. Aparece un botón flotante ↑ Subir en la esquina inferior derecha. Haz clic en él para volver a mostrar las pestañas y subir al inicio de la página."
     },
     "ajustes": {
-      "titulo": "⚙️ Botón de Ajustes (engranaje o luna)",
-      "descripcion": "En la parte superior derecha encontrarás el botón de Ajustes. Desde allí puedes: activar el modo oscuro (cambia los colores de la interfaz, ideal para estudiar de noche) y ajustar el tamaño de la letra (pequeña, normal, grande, extra grande)."
+      "titulo": "⚙️ Botón de Ajustes",
+      "descripcion": "En la parte superior derecha encontrarás el botón de Ajustes (⚙️ en computador, 🌙 en celular). Desde allí puedes: activar el modo oscuro (cambia los colores de la interfaz, ideal para estudiar de noche) y ajustar el tamaño de la letra (pequeña, normal, grande, extra grande)."
     },
     "guardado": {
       "titulo": "💾 El examen se guarda si cambias de pestaña",
@@ -131,19 +159,25 @@
     },
     "botonSubir": {
       "titulo": "⬆️ Botón flotante Subir",
-      "descripcion": "Aparece en la esquina inferior derecha cuando haces scroll hacia abajo. Al hacer clic, sube al inicio de la página y vuelve a mostrar las pestañas si estaban ocultas."
+      "descripcion": "Aparece en la esquina inferior derecha cuando haces scroll hacia abajo. Al hacer clic, sube al inicio de la página y vuelve a mostrar las pestañas si estaban ocultas. También tiene el texto 'Subir' debajo del ícono."
+    },
+    "modalBienvenida": {
+      "titulo": "📖 Modal de bienvenida",
+      "descripcion": "Aparece automáticamente la primera vez que ingresas a la aplicación. Explica las 3 pestañas, las 6 competencias y las funcionalidades principales. Puedes volver a abrirlo haciendo clic en el botón 📖 Instrucciones del header."
     }
   },
-  
+
   "resultados": {
     "titulo": "📊 Interpretación de los resultados",
     "explicacion": "El puntaje SIMO se calcula como: (Aciertos al primer intento / Total preguntas) × 100. El corte de aprobación es 70/100. En Modo Simulacro, solo cuentan los aciertos al primer intento.",
+    "ejemplo": "4 aciertos de 5 preguntas = (4 ÷ 5) × 100 = 80/100 → APROBÓ",
     "iconos": {
       "estudio": {
         "✅": "Acertó al primer intento",
         "⚠️": "Acertó después de varios intentos (aprendizaje)",
         "🔴": "Probó todas las opciones (requiere repaso)",
-        "⏰": "Tiempo agotado"
+        "⏰": "Tiempo agotado",
+        "❌": "Incorrecta"
       },
       "simulacro": {
         "fondoVerde": "Respuesta correcta al primer intento",
@@ -151,7 +185,7 @@
       }
     }
   },
-  
+
   "faqGeneral": [
     {
       "pregunta": "¿Cuántas preguntas tiene cada examen?",
@@ -176,16 +210,30 @@
     {
       "pregunta": "¿Hay algún costo?",
       "respuesta": "No. La herramienta es completamente gratuita y de acceso libre."
+    },
+    {
+      "pregunta": "¿Cómo busco una palabra en las leyes?",
+      "respuesta": "Ve a la pestaña Estudio SIMO, selecciona 'Normas del sector salud'. En el buscador universal, escribe la palabra o término que deseas buscar (ej: EPS, afiliación, artículo 157) y presiona Enter. El sistema mostrará todos los artículos que contengan esa palabra. Haz clic en cualquier resultado para ver el contenido completo."
+    },
+    {
+      "pregunta": "¿Cómo busco en el glosario?",
+      "respuesta": "Ve a la pestaña Glosario. Escribe un término (mínimo 3 letras) en el buscador y presiona Enter. Las coincidencias se resaltarán en amarillo. También puedes filtrar por categoría (siglas, entidades, términos, principios, carrera) o por letra inicial (A-Z)."
+    },
+    {
+      "pregunta": "¿Qué son las 6 competencias?",
+      "respuesta": "Las 6 competencias que evalúa SIMO para auxiliares de enfermería son: 🧠 Razonamiento lógico, 🔢 Razonamiento matemático, 📖 Comprensión lectora, ⚖️ Ética profesional, 🤝 Trabajo en equipo, 🎯 Orientación al servicio."
     }
   ],
-  
+
   "consejosRapidos": [
     "Usa el modo oscuro para estudiar de noche, es menos cansado para la vista.",
     "En modo estudio, aprovecha las explicaciones para entender por qué fallaste.",
     "En modo simulacro, entrena tu velocidad: intenta responder cada pregunta en menos de 60 segundos.",
     "Si no entiendes un término, búscalo en el glosario.",
-    "Practica primero en modo estudio hasta que domines el contenido, luego cambia al modo simulacro para entrenar velocidad."
+    "Practica primero en modo estudio hasta que domines el contenido, luego cambia al modo simulacro para entrenar velocidad.",
+    "Usa el botón flotante 🤖 para hacerme preguntas en cualquier momento.",
+    "Las pestañas se ocultan al hacer scroll. Usa el botón ↑ Subir para recuperarlas."
   ],
-  
-  "fraseExperto": "El modo estudio enseña contenido. El modo simulacro entrena estrategia. Ambos son necesarios para aprobar el concurso SIMO."
+
+  "fraseExperto": "💡 Modo Estudio: Aprendes el contenido sin presión, con feedback inmediato. Modo Simulacro: Entrenas tu velocidad, resistencia y conocimiento con tiempo límite y puntaje real. Usa ambos para estar completamente preparado para el concurso SIMO."
 }
