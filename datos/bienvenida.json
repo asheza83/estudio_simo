@@ -1,7 +1,7 @@
 {
   "titulo": "¡Bienvenido a ESTUDIO SIMO...!",
   "subtitulo": "Preparación integral para el concurso ESE 2 - Enfermería HOMERIS",
-  "intro": "Esta herramienta te ayudará a dominar las seis competencias que evalúa SIMO para auxiliares de enfermería, específicamente para el ingreso al Hospital Mental de Risaralda.",
+  "intro": "Esta apiicación te ayudará a dominar las seis competencias que evalúa SIMO para auxiliares de enfermería, específicamente para el ingreso al Hospital Mental de Risaralda.",
   
   "competencias": {
     "titulo": "Las 6 competencias que evalúa SIMO son:",
@@ -23,9 +23,11 @@
       "titulo": "Pestaña Estudio SIMO",
       "descripcion": "Contiene toda la información teórica que necesitas:",
       "puntos": [
-        "📋 Convocatoria ESE 2: fechas, vacantes, requisitos, modalidades y enlaces útiles.",
-        "📚 Normas del sector salud: resúmenes de leyes (Ley 100, Ley 1438), decretos y resoluciones con buscador integrado.",
-        "🩺 Casos prácticos: situaciones reales clasificadas por competencia, con respuestas orientativas desplegables."
+        "🏠 Inicio (visión general): Explicación de la herramienta, tipos de pruebas SIMO y consejos iniciales.",
+        "📋 Convocatoria ESE 2: Fechas, vacantes, requisitos, modalidades y enlaces útiles.",
+        "📚 Normas del sector salud: Resúmenes de leyes (Ley 100, Ley 1438), decretos y resoluciones con buscador integrado.",
+        "🩺 Casos prácticos: Situaciones reales clasificadas por competencia, con respuestas orientativas desplegables.",
+        "🎯 Selector de secciones: Puedes elegir entre estas 4 opciones mediante el menú desplegable."
       ]
     },
     {
@@ -33,28 +35,38 @@
       "titulo": "Pestaña Preguntas",
       "descripcion": "Aquí pondrás a prueba tus conocimientos. Tienes 2 modos de estudio:",
       "puntos": [
-        "📚 Modo Estudio: Sin límite de tiempo. Puedes intentar hasta 4 veces por pregunta. Recibes feedback inmediato con explicaciones de por qué acertaste o fallaste. Ideal para aprender.",
-        "⏱️ Modo Simulacro: 5 minutos para 5 preguntas (tiempo total fijo). Sin feedback durante el examen. Solo el primer intento cuenta para el puntaje. Al final, obtienes un puntaje SIMO sobre 100 y sabrás si APROBASTE (70% o más)."
+        "📚 Modo Estudio: Sin límite de tiempo. Puedes intentar hasta 4 veces por pregunta (cada pregunta contiene 4 opciones para responder). Recibes feedback (retroalimentación) de inmediato al dar clic en Verificar, con explicaciones de por qué acertaste o fallaste. Ideal para aprender.",
+        "⏱️ Modo Simulacro: Posee un temporizador de 5 minutos para 5 preguntas (tiempo total fijo). Sin feedback durante el examen. Al final, obtienes un puntaje que se calcula entre las respuestas correctas sobre 100 puntos.  Sabrás si APROBASTE (70% o más)."
       ]
     },
     {
       "icono": "📖",
       "titulo": "Pestaña Glosario",
-      "descripcion": "Base de datos de términos clave para el concurso:",
+      "descripcion": "Contiene una base de datos de términos clave para el concurso SIMO con enfasis en enfermería:",
       "puntos": [
         "📚 Más de 140 términos en 5 categorías: siglas, entidades, términos, principios, carrera.",
-        "🔍 Buscador por palabra (mínimo 3 letras) con resaltado en amarillo.",
+        "🔍 Buscador por palabra (mínimo 3 letras) con resaltado en amarillo de las cohincidencias encontradas.",
         "📂 Filtros por categoría y por letra inicial (A-Z).",
         "📄 Paginación de 10 términos por página."
       ]
     }
   ],
   
-  "funcionalidades": [
+    "funcionalidades": [
     {
       "icono": "⬆️",
       "titulo": "Scroll y pestañas",
-      "descripcion": "Cuando te desplaces hacia abajo, las 3 pestañas se ocultarán automáticamente para aprovechar el espacio. Aparecerá un botón flotante ↑ Subir. Haz clic en él para volver a mostrarlas y subir al inicio."
+      "descripcion": "Cuando te desplaces hacia abajo, las pestañas superiores se ocultarán para aprovechar el espacio. Aparecerá un botón flotante azul con el texto Subir. Haz clic en él (o vuelve a desplazarte hacia arriba) para mostrarlas nuevamente y subir al inicio."
+    },
+    {
+      "icono": "🔍",
+      "titulo": "Búsqueda en Normas del sector salud",
+      "descripcion": "En la pestaña Estudio SIMO, sección Normas del sector salud, encontrarás un buscador universal. Escribe una palabra o término (ej: EPS, afiliación, artículo 157) y presiona Enter. El sistema buscará en todas las leyes y mostrará los artículos que contengan esa palabra. Haz clic en cualquier resultado para ver el contenido completo."
+    },
+    {
+      "icono": "📖",
+      "titulo": "Búsqueda en Glosario",
+      "descripcion": "En la pestaña Glosario, escribe un término (mínimo 3 letras) en el buscador y presiona Enter. Las coincidencias encontradas se resaltarán en amarillo. También puedes filtrar por categoría (siglas, entidades, términos, principios, carrera) o por letra inicial (A-Z)."
     },
     {
       "icono": "⚙️",
@@ -64,7 +76,7 @@
     {
       "icono": "💾",
       "titulo": "Guardar progreso",
-      "descripcion": "Si cambias de pestaña durante un examen, el sistema guarda automáticamente tu avance. Al volver, te preguntará si deseas continuar donde lo dejaste o descartar y empezar uno nuevo."
+      "descripcion": "Si cambias de pestaña durante un examen, el sistema guarda automáticamente tu avance. Al volver, continuarás donde habías quedado."
     },
     {
       "icono": "❌",
@@ -73,5 +85,5 @@
     }
   ],
   
-  "fraseExperto": "El modo estudio enseña contenido. El modo simulacro entrena estrategia. Ambos son necesarios para aprobar el concurso SIMO."
+  "fraseExperto": "💡 Modo Estudio: Aprendes el contenido sin presión, con feedback inmediato. Modo Simulacro: Entrenas tu velocidad, resistencia y conocimiento con tiempo límite y puntaje real. Usa ambos para estar completamente preparado para el concurso SIMO."
 }
