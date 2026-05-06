@@ -12,9 +12,14 @@
         <div class="header">
             <div class="logo" id="logoContainer">
                 <span id="logoIcon">🏥</span>
-                <span id="logoText">ESTUDIO SIMO | ENFERMERÍA</span>
+                <span id="logoText">ESTUDIO SIMO</span>
             </div>
-            <button id="configBtn" class="dark-mode-toggle">⚙️ Ajustes</button>
+            <div style="flex: 1;"></div>
+            <div>
+                <button id="aiBtn" class="dark-mode-toggle"><span>🤖 IA</span></button>
+                <button id="helpBtn" class="dark-mode-toggle"><span>📖 Instrucciones</span></button>
+                <button id="configBtn" class="dark-mode-toggle"><span>⚙️ Ajustes</span></button>
+            </div>
         </div>
 
         <!-- Pestañas de navegación (SOLO 3) -->
@@ -254,7 +259,7 @@
                     <div class="config-section">
                         <label>🔤 Tamaño de letra</label>
                         <div style="display: flex; gap: 10px;">
-                            <button id="modalF-ontDecrease" class="config-btn">A-</button>
+                            <button id="modalFontDecrease" class="config-btn">A-</button>                            
                             <button id="modalFontIncrease" class="config-btn">A+</button>
                         </div>
                     </div>
@@ -567,9 +572,17 @@
             verificarPrimeraVez();
         });
 
-        // Llamar a la verificación cuando se carga la página
+                // Botón de ayuda (abre el modal de bienvenida manualmente)
+        function abrirAyuda() {
+            mostrarModalBienvenida();
+        }
+
+        // Event listener para el botón de ayuda
         document.addEventListener('DOMContentLoaded', function() {
-            verificarPrimeraVez();
+            const helpBtn = document.getElementById('helpBtn');
+            if (helpBtn) {
+                helpBtn.addEventListener('click', abrirAyuda);
+            }
         });
         
         // Seleccionar modo Estudio por defecto
