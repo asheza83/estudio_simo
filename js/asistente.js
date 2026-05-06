@@ -6,6 +6,35 @@ export { initAsistente, toggleAsistente };
 
 let conocimientoData = null;
 
+// Eliminar conectores y palabras vacías
+function limpiarTexto(texto) {
+    // Palabras vacías (conectores, artículos, preposiciones)
+    const palabrasVacias = [
+        'de', 'la', 'con', 'como', 'y', 'el', 'los', 'las', 'un', 'una',
+        'para', 'por', 'que', 'cual', 'cuál', 'qué', 'a', 'ante', 'bajo',
+        'cabe', 'contra', 'desde', 'durante', 'en', 'entre', 'hacia',
+        'hasta', 'mediante', 'según', 'sin', 'so', 'sobre', 'tras',
+        'vs', 'vía', 'mi', 'tu', 'su', 'nuestro', 'es', 'son', 'está',
+        'están', 'ser', 'sido', 'se', 'lo', 'le', 'les', 'os', 'nos',
+        'me', 'te', 'al', 'del', 'cómo', 'dónde', 'cuándo', 'quién'
+    ];
+    
+    // Convertir a minúsculas y eliminar signos de puntuación
+    let limpio = texto.toLowerCase()
+        .replace(/[¿?¡!.,;:()]/g, '')
+        .replace(/[áä]/g, 'a')
+        .replace(/[éë]/g, 'e')
+        .replace(/[íï]/g, 'i')
+        .replace(/[óö]/g, 'o')
+        .replace(/[úü]/g, 'u');
+    
+    // Separar por espacios y filtrar palabras vacías
+    const palabras = limpio.split(/\s+/);
+    const filtradas = palabras.filter(p => !palabrasVacias.includes(p) && p.length > 1);
+    
+    return filtradas.join(' ');
+}
+
 // Cargar conocimiento desde JSON
 async function cargarConocimiento() {
     try {
@@ -21,7 +50,8 @@ async function cargarConocimiento() {
 function buscarRespuesta(pregunta) {
     if (!conocimientoData) return "Lo siento, aún no estoy listo. Intenta más tarde.";
     
-    const texto = pregunta.toLowerCase();
+    const textoOriginal = pregunta.toLowerCase();
+    const texto = limpiarTexto(pregunta);  // Texto limpio para búsqueda
     
     // Buscar en FAQ general
     if (conocimientoData.faqGeneral) {
