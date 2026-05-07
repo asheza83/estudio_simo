@@ -12,8 +12,13 @@ export let preguntaActualIndex = 0;
 export let respuestasUsuario = [];
 export let modoOscuro = false;
 
-// Constantes
-export const PREGUNTAS_POR_SESION = 5;
+// Cantidad de preguntas por examen
+export let PREGUNTAS_POR_SESION = 5;           // Modo Estudio: siempre 5
+export let CANTIDAD_SIMULACRO = 5;             // Modo Simulacro: configurable
+export function setCantidadSimulacro(valor) { 
+    CANTIDAD_SIMULACRO = valor; 
+    window.CANTIDAD_SIMULACRO = valor;  // Actualizar también la global
+}
 
 // Tamaño de letra
 export let tamañoLetraActual = 'font-normal';
@@ -62,3 +67,19 @@ export let tiempoTotalConfigurado = 300; // valor inicial
 
 export function setTiempoTotalRestante(value) { tiempoTotalRestante = value; }
 export function setTiempoTotalConfigurado(value) { tiempoTotalConfigurado = value; }
+
+// ============================================
+// EXPOSICIÓN GLOBAL (para acceso desde window)
+// ============================================
+// Exposición global (después de todas las declaraciones)
+setTimeout(() => {
+    window.PREGUNTAS_POR_SESION = PREGUNTAS_POR_SESION;
+    window.CANTIDAD_SIMULACRO = CANTIDAD_SIMULACRO;
+    window.setCantidadSimulacro = setCantidadSimulacro;
+    window.preguntasActuales = preguntasActuales;
+    console.log("🌐 Variables globales expuestas:", {
+        PREGUNTAS_POR_SESION: window.PREGUNTAS_POR_SESION,
+        CANTIDAD_SIMULACRO: window.CANTIDAD_SIMULACRO,
+        preguntasActuales: window.preguntasActuales?.length
+    });
+}, 100);

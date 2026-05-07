@@ -211,6 +211,19 @@
                     </div>
                 </div>
 
+                <!-- Selector de cantidad de preguntas (solo visible en simulacro) -->
+                <div id="selector-cantidad-container" style="margin: 15px 0; text-align: center;">
+                    <label style="margin-right: 10px; font-weight: bold;">📊 Cantidad de preguntas:</label>
+                    <select id="cantidad-preguntas" style="padding: 8px; border-radius: 8px;">
+                        <option value="5">5 preguntas (5 minutos)</option>
+                        <option value="10">10 preguntas (10 minutos)</option>
+                        <option value="20">20 preguntas (20 minutos)</option>
+                        <option value="30">30 preguntas (30 minutos)</option>
+                        <option value="40">40 preguntas (40 minutos)</option>
+                        <option value="50">50 preguntas (50 minutos)</option>
+                    </select>
+                </div>
+
                 <p style="text-align:center; margin-bottom:16px;">Selecciona el tipo de competencia y la subcategoría para comenzar:</p>
                 
                 <!-- Selector 1: Tipo de competencia -->
@@ -314,6 +327,7 @@
     <script>
         // Inicializar selector de secciones en Estudio SIMO
         document.addEventListener('DOMContentLoaded', function() {
+            
             const selector = document.getElementById('seccionEstudio');
             if (selector) {
                 const secciones = document.querySelectorAll('.seccion-estudio');
@@ -356,6 +370,29 @@
                     }, 150);
                 });
             }
+
+            // ========================================
+            // CONFIGURAR SELECTOR DE CANTIDAD DE PREGUNTAS
+            // ========================================
+            setTimeout(() => {
+                const cantidadSelect = document.getElementById('cantidad-preguntas');
+                if (cantidadSelect) {
+                    const actualizarCantidad = () => {
+                        const nuevaCantidad = parseInt(cantidadSelect.value);
+                        if (typeof window.setCantidadSimulacro === 'function') {
+                            window.setCantidadSimulacro(nuevaCantidad);
+                            console.log(`✅ Cantidad actualizada a: ${nuevaCantidad}`);
+                        } else {
+                            window.CANTIDAD_SIMULACRO = nuevaCantidad;
+                            console.log(`⚠️ Cantidad actualizada manual a: ${nuevaCantidad}`);
+                        }
+                    };
+                    
+                    cantidadSelect.addEventListener('change', actualizarCantidad);
+                    actualizarCantidad();
+                    console.log('🎯 Selector de cantidad configurado');
+                }
+            }, 500);
         });
         
         function cambiarPestana(pestanaId) {
@@ -442,6 +479,13 @@
             if (btnExamen) btnExamen.disabled = true;
         }
 
+        function actualizarVisibilidadCantidad() {
+            const container = document.getElementById('selector-cantidad-container');
+            if (container) {
+                container.style.display = window.modoSeleccionado === 'simulacro' ? 'block' : 'none';
+            }
+        }
+
         // Función para seleccionar modo de examen
         function seleccionarModo(modo) {
             const modoEstudioCard = document.getElementById('modo-estudio-card');
@@ -463,6 +507,8 @@
             
             // ✅ Reiniciar selectores al cambiar de modo
             reiniciarSelectores();
+            
+            actualizarVisibilidadCantidad();
         }
 
         /**************************************/

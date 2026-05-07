@@ -7,7 +7,7 @@ import {
     setPreguntasActuales, setPreguntaActualIndex, setRespuestasUsuario,
     modoSimulacro, setModoSimulacro, setTemporizadorActivo,
     setTiempoTotalRestante, setTiempoTotalConfigurado,
-    PREGUNTAS_POR_SESION
+    PREGUNTAS_POR_SESION  // ← Solo importamos esta
 } from '../estado.js';
 
 import { ocultarContenidoDescriptivo, restaurarContenidoDescriptivo } from './ui.js';
@@ -41,9 +41,23 @@ export async function inicializarPreguntas(archivoId = null) {
     
     if (!archivoId) return;
 
+    // 🔥 LEER CANTIDAD DEL SELECTOR CADA VEZ
+    const cantidadSelect = document.getElementById('cantidad-preguntas');
+    const cantidadSeleccionada = cantidadSelect ? parseInt(cantidadSelect.value) : 5;
+    
+    // Actualizar la variable global (por si otros módulos la necesitan)
+    if (window.setCantidadSimulacro) {
+        window.setCantidadSimulacro(cantidadSeleccionada);
+    } else {
+        window.CANTIDAD_SIMULACRO = cantidadSeleccionada;
+    }
+
     // Guardar el modo seleccionado (Estudio o Simulacro)
     const modoSeleccionado = window.modoSeleccionado || 'estudio';
     setModoSimulacro(modoSeleccionado === 'simulacro');
+
+    // Determinar cuántas preguntas usar (según modo)
+    const cantidadPreguntas = modoSimulacro ? cantidadSeleccionada : PREGUNTAS_POR_SESION;
 
     // Configurar tiempo total si es modo simulacro
     if (modoSimulacro) {
@@ -51,10 +65,10 @@ export async function inicializarPreguntas(archivoId = null) {
         setTiempoUsadoSegundos(null);
 
         // Calcular tiempo total: 60 segundos por pregunta
-        const tiempoTotal = PREGUNTAS_POR_SESION * 60;
+        const tiempoTotal = cantidadPreguntas * 60;
         setTiempoTotalRestante(tiempoTotal);
         setTiempoTotalConfigurado(tiempoTotal);
-        console.log(`⏱️ Simulacro: ${PREGUNTAS_POR_SESION} preguntas - Tiempo total: ${tiempoTotal / 60} minutos`);
+        console.log(`⏱️ Simulacro: ${cantidadPreguntas} preguntas - Tiempo total: ${tiempoTotal / 60} minutos`);
     }
     
     setFiltroLeyActual(archivoId);
@@ -76,8 +90,9 @@ export async function inicializarPreguntas(archivoId = null) {
     if (inicio) inicio.style.display = 'none';
     if (examen) examen.style.display = 'block';
     
+    // Usar cantidadPreguntas para el slice
     const preguntasMezcladas = [...preguntas].sort(() => Math.random() - 0.5);
-    const nuevasPreguntas = preguntasMezcladas.slice(0, PREGUNTAS_POR_SESION);
+    const nuevasPreguntas = preguntasMezcladas.slice(0, cantidadPreguntas);
     setPreguntasActuales(nuevasPreguntas);
     setPreguntaActualIndex(0);
     setRespuestasUsuario(nuevasPreguntas.map(() => ({
@@ -94,9 +109,7 @@ export async function inicializarPreguntas(archivoId = null) {
 }
 
 export function comenzarNuevoExamen() {
-    // Limpiar temporizador
     setTemporizadorActivo(false);
-
     setExamenGuardado(null);
     setPreguntasActuales([]);
     setPreguntaActualIndex(0);
@@ -132,7 +145,6 @@ export function continuarExamen() {
     actualizarProgreso();
 }
 
-// Exponer funciones globales para onclick
 window.inicializarPreguntas = inicializarPreguntas;
 window.comenzarNuevoExamen = comenzarNuevoExamen;
 window.continuarExamen = continuarExamen;
