@@ -12,10 +12,15 @@ import { getIntervaloGlobal, setIntervaloGlobal } from './globales.js';
 import { mostrarResumenFinal } from './resumen.js';
 
 export function iniciarTemporizadorGlobal() {
-    if (!modoSimulacro) return;
+    if (!modoSimulacro) {
+        return;
+    }
     
     let intervaloGlobal = getIntervaloGlobal();
-    if (intervaloGlobal) clearInterval(intervaloGlobal);
+    if (intervaloGlobal) {
+        clearInterval(intervaloGlobal);
+    }
+    
     
     intervaloGlobal = setInterval(() => {
         if (!modoSimulacro) return;
@@ -40,7 +45,8 @@ export function iniciarTemporizadorGlobal() {
             // Mostrar resumen final
             mostrarResumenFinal();
         } else {
-            setTiempoTotalRestante(tiempoActual - 1);
+            const nuevoTiempo = tiempoActual - 1;
+            setTiempoTotalRestante(nuevoTiempo);
             actualizarTemporizadorGlobalVisual();
         }
     }, 1000);
@@ -62,7 +68,7 @@ export function actualizarTemporizadorGlobalVisual() {
     const barraElement = document.getElementById('barra-tiempo');
     if (!tiempoElement) return;
     
-    const segundos = tiempoTotalRestante;
+    const segundos = Math.max(0, tiempoTotalRestante);
     const minutos = Math.floor(segundos / 60);
     const segs = segundos % 60;
     const tiempoTexto = `${minutos.toString().padStart(2, '0')}:${segs.toString().padStart(2, '0')}`;
@@ -85,3 +91,5 @@ export function actualizarTemporizadorGlobalVisual() {
         }
     }
 }
+
+// ✅ NO repetir export { actualizarTemporizadorGlobalVisual };

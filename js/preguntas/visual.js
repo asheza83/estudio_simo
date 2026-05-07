@@ -11,15 +11,16 @@ import {
 
 import { generarOpciones } from './generador.js';
 import { seleccionarOpcion, siguientePregunta } from './opciones.js';
-import { iniciarTemporizadorGlobal } from './temporizador.js';
+import { iniciarTemporizadorGlobal, actualizarTemporizadorGlobalVisual } from './temporizador.js';
 import { getIntervaloGlobal } from './globales.js';
 import { mostrarResumenFinal } from './resumen.js';
 import { getExamenGuardado, setExamenGuardado } from './inicio.js';
 import { getFiltroLeyActual } from './inicio.js';
 
-let intervaloGlobal = getIntervaloGlobal();
 
-export function actualizarProgreso() {  // ← AGREGAR 'export'
+let intervaloGlobal = null;
+
+export function actualizarProgreso() {
     const progreso = document.getElementById('progreso-preguntas');
     const filtroLeyActual = getFiltroLeyActual();
     
@@ -71,17 +72,22 @@ export function avanzarSiguientePregunta() {
     setPreguntaActualIndex(newIndex);
     
     if (preguntaActualIndex < preguntasActuales.length) {
-        if (modoSimulacro && tiempoTotalRestante > 0 && !intervaloGlobal) {
-            iniciarTemporizadorGlobal();
-            intervaloGlobal = getIntervaloGlobal();
+        if (modoSimulacro && tiempoTotalRestante > 0) {
+            let intervaloGlobalActual = getIntervaloGlobal();
+            if (!intervaloGlobalActual) {
+                console.log("🟢 Reiniciando temporizador para pregunta", preguntaActualIndex + 1);
+                iniciarTemporizadorGlobal();
+            } else {
+                console.log("🟡 Temporizador ya activo, continuando...");
+            }
         }
         mostrarPregunta();
         actualizarProgreso();
         window.scrollTo({top: 0, behavior: 'smooth'});
     } else {
-        if (intervaloGlobal) {
-            clearInterval(intervaloGlobal);
-            intervaloGlobal = null;
+        let intervaloGlobalActual = getIntervaloGlobal();
+        if (intervaloGlobalActual) {
+            clearInterval(intervaloGlobalActual);
         }
         setExamenGuardado(null);
         mostrarResumenFinal();
@@ -107,10 +113,14 @@ export function mostrarPregunta() {
     
     const container = document.getElementById('preguntas-container');
     
+    // ========================================
+    // TEMPORIZADOR GLOBAL (solo simulacro)
+    // ========================================
     let temporizadorHtml = '';
     if (modoSimulacro && !respuesta.respondida) {
-        const minutos = Math.floor(tiempoTotalRestante / 60);
-        const segundos = tiempoTotalRestante % 60;
+        // NO llamar actualizarTemporizadorGlobalVisual() aquí (el elemento aún no existe)
+        const minutos = Math.max(0, Math.floor(tiempoTotalRestante / 60));
+        const segundos = Math.max(0, tiempoTotalRestante % 60);
         const tiempoTexto = `${minutos.toString().padStart(2, '0')}:${segundos.toString().padStart(2, '0')}`;
         const progresoPorcentaje = (tiempoTotalRestante / tiempoTotalConfigurado) * 100;
         
@@ -134,8 +144,13 @@ export function mostrarPregunta() {
         `;
     }
     
+    // ========================================
+    // FONDO ALTERNADO ENTRE PREGUNTAS
+    // ========================================
+    const fondoAlternado = (preguntaActualIndex % 2 === 0) ? 'var(--bg-principal)' : 'var(--bg-secundario)';
+    
     let html = `
-        <div class="pregunta-card">
+        <div class="pregunta-card" style="background-color: ${fondoAlternado}; border-left: 4px solid var(--azul);">
             ${temporizadorHtml}
             <div class="pregunta-texto">${pregunta.texto}</div>
             <div class="opciones" id="opciones-container">
@@ -145,12 +160,12 @@ export function mostrarPregunta() {
         const isDisabled = respuesta.respondida;
         const disabledAttr = isDisabled ? 'style="opacity:0.5; pointer-events:none;"' : '';
         const radioDisabled = isDisabled ? 'disabled' : '';
-        const onclickAttr = isDisabled ? '' : `onclick="window.seleccionarOpcion(${idx})"`;
         
         html += `
-            <div class="opcion" ${onclickAttr} ${disabledAttr}>
-                <input type="radio" name="pregunta" id="opcion_${idx}" value="${opcion.texto.replace(/"/g, '&quot;')}" ${radioDisabled}>
-                <label for="opcion_${idx}">${opcion.texto}</label>
+            <div class="opcion" ${disabledAttr}>
+                <input type="radio" name="pregunta" id="opcion_${idx}" value="${opcion.texto.replace(/"/g, '&quot;')}" ${radioDisabled}
+                       onchange="window.seleccionarOpcion(${idx})">
+                <label for="opcion_${idx}" style="cursor: pointer;">${opcion.texto}</label>
             </div>
         `;
     });
@@ -181,7 +196,18 @@ export function mostrarPregunta() {
     
     container.innerHTML = html;
     
+    // ========================================
+    // ACTUALIZAR VISUAL DEL TEMPORIZADOR (AHORA QUE EL ELEMENTO YA EXISTE)
+    // ========================================
+    if (modoSimulacro && !respuesta.respondida) {
+        actualizarTemporizadorGlobalVisual();
+    }
+    
+    // ========================================
+    // INICIAR TEMPORIZADOR (solo simulacro, primera pregunta, tiempo > 0)
+    // ========================================
     if (modoSimulacro && preguntaActualIndex === 0 && !intervaloGlobal && tiempoTotalRestante > 0) {
+        console.log("🟢 Iniciando temporizador por primera vez. Tiempo restante:", tiempoTotalRestante);
         iniciarTemporizadorGlobal();
         intervaloGlobal = getIntervaloGlobal();
     }

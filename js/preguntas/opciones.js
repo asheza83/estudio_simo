@@ -25,13 +25,9 @@ export function seleccionarOpcion(indice) {
         respuesta.esCorrecta = opcionSeleccionada.esCorrecta;
         respuesta.intentos = 1;
         
-        // Detener temporizador global
-        let intervaloGlobal = getIntervaloGlobal();
-        if (intervaloGlobal) {
-            clearInterval(intervaloGlobal);
-            setIntervaloGlobal(null);
-            setTemporizadorActivo(false);
-        }
+        // ⚠️ NO detener el temporizador global aquí
+        // El temporizador debe seguir corriendo mientras el usuario está en el examen
+        // Solo se detiene cuando se acaba el tiempo o se termina el examen
         
         // Habilitar el botón SIGUIENTE
         document.getElementById('btn-siguiente').disabled = false;
