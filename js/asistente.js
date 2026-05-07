@@ -414,25 +414,95 @@ function buscarRespuesta(pregunta) {
     
     const texto = limpiarTexto(pregunta);
     
-    // 1. Buscar en FAQ del JSON
+    // ========================================
+    // RESPUESTAS DIRECTAS (MÁXIMA PRIORIDAD)
+    // ========================================
+    
+    // ¿Cómo lo uso? - detecta cualquier variante
+    if ((texto.includes('como') || texto.includes('cómo')) && 
+        (texto.includes('usar') || texto.includes('uso') || texto.includes('utilizar'))) {
+        return "📚 Para usar ESTUDIO SIMO:\n\n1️⃣ Explora las 3 pestañas en la parte superior\n2️⃣ En **Preguntas**, selecciona el modo (Estudio o Simulacro)\n3️⃣ Elige competencia y subcategoría\n4️⃣ Haz clic en COMENZAR EXAMEN\n5️⃣ Si tienes dudas, escribe 'ayuda' para ver el menú\n\n¿Quieres que te explique alguna parte en detalle?";
+    }
+    
+    // ¿Dónde está lo de las preguntas? - detecta cualquier variante
+    if ((texto.includes('donde') || texto.includes('dónde')) && 
+        (texto.includes('pregunta') || texto.includes('preguntas') || texto.includes('examen'))) {
+        return "📝 La pestaña **Preguntas** es donde realizas los exámenes. Está en la parte superior, junto a 'Estudio SIMO' y 'Glosario'. Allí puedes seleccionar el modo (Estudio o Simulacro), elegir competencia y comenzar el examen.";
+    }
+            
+    // CNSC
+    if (texto.includes('cnsc') && conocimientoData.concursoSIMO?.cnsc) {
+        return conocimientoData.concursoSIMO.cnsc.definicion;
+    }
+    
+    // SIMO (excluyendo "estudio simo" para no confundir)
+    if (texto.includes('simo') && !texto.includes('estudio simo') && conocimientoData.concursoSIMO?.simo) {
+        return conocimientoData.concursoSIMO.simo.definicion;
+    }
+    
+    // OPEC
+    if (texto.includes('opec')) {
+        return "📋 **OPEC**: Oferta Pública de Empleo de Carrera. Es la vacante publicada en SIMO que representa un empleo público disponible en una entidad del Estado. Cada OPEC tiene requisitos específicos y un número de vacantes. ¿Te ayudo a entender cómo postularte?";
+    }
+    
+    // Glosario (definición, no cómo usarlo)
+    if (texto.includes('glosario') && conocimientoData.pestanas?.glosario) {
+        return "📖 El **Glosario** es una de las 3 pestañas principales. Contiene más de 140 términos clave del SGSSS y salud mental, organizados en 5 categorías: siglas, entidades, términos, principios y carrera. Puedes buscar por palabra, filtrar por categoría o por letra inicial.";
+    }
+    
+    // Simulacro (definición, no FAQ de error)
+    if (texto.includes('simulacro') && conocimientoData.pestanas?.preguntas?.modos) {
+        const modoSimulacro = conocimientoData.pestanas.preguntas.modos.find(m => m.nombre.includes('Simulacro'));
+        if (modoSimulacro) {
+            return `⏱️ **${modoSimulacro.nombre}**: ${modoSimulacro.descripcion}\n\n📌 **Características:**\n${modoSimulacro.caracteristicas.map(c => `• ${c}`).join('\n')}`;
+        }
+    }
+    
+    // Estudio (definición)
+    if (texto.includes('estudio') && conocimientoData.pestanas?.preguntas?.modos) {
+        const modoEstudio = conocimientoData.pestanas.preguntas.modos.find(m => m.nombre.includes('Estudio'));
+        if (modoEstudio) {
+            return `📚 **${modoEstudio.nombre}**: ${modoEstudio.descripcion}\n\n📌 **Características:**\n${modoEstudio.caracteristicas.map(c => `• ${c}`).join('\n')}`;
+        }
+    }
+    
+    // Puntaje / Resultados
+    if ((texto.includes('puntaje') || texto.includes('puntajes')) && conocimientoData.resultados) {
+        return `📊 ${conocimientoData.resultados.explicacion}\n\n📌 **Ejemplo:** ${conocimientoData.resultados.ejemplo}`;
+    }
+    
+    if ((texto.includes('resultado') || texto.includes('resultados')) && conocimientoData.resultados) {
+        return `📊 ${conocimientoData.resultados.explicacion}\n\n📌 **Ejemplo:** ${conocimientoData.resultados.ejemplo}\n\n📌 **Iconos en Modo Estudio:**\n• ✅ Acertó al primer intento\n• ⚠️ Acertó después de varios intentos\n• 🔴 Probó todas las opciones (requiere repaso)\n• ⏰ Tiempo agotado`;
+    }
+    
+    // ========================================
+    // 2. BUSCAR EN FAQ DEL JSON (CON PRECAUCIÓN)
+    // ========================================
     if (conocimientoData.faqGeneral) {
+        // Palabras que NO deben activar FAQ (porque ya tienen respuesta propia)
+        const palabrasEvitar = ['simo', 'glosario', 'simulacro', 'estudio', 'resultado', 'resultados', 'puntaje', 'puntajes'];
+        
         for (const faq of conocimientoData.faqGeneral) {
             const preguntaLimpia = faq.pregunta.toLowerCase().replace(/[¿?]/g, '');
-            if (texto.includes(preguntaLimpia) || preguntaLimpia.includes(texto)) {
+            
+            // Verificar si es una palabra evitada
+            let esPalabraEvitada = false;
+            for (const ev of palabrasEvitar) {
+                if (texto === ev || (texto.split(' ').length === 1 && texto.includes(ev))) {
+                    esPalabraEvitada = true;
+                    break;
+                }
+            }
+            
+            if (!esPalabraEvitada && (texto.includes(preguntaLimpia) || preguntaLimpia.includes(texto))) {
                 return faq.respuesta;
             }
         }
     }
     
-    // 2. Buscar por palabras clave en JSON
-    if (texto.includes('cnsc') && conocimientoData.concursoSIMO?.cnsc) {
-        return conocimientoData.concursoSIMO.cnsc.definicion;
-    }
-    
-    if (texto.includes('simo') && conocimientoData.concursoSIMO?.simo) {
-        return conocimientoData.concursoSIMO.simo.definicion;
-    }
-    
+    // ========================================
+    // 3. RESPUESTA GENERAL DE PESTAÑAS
+    // ========================================
     if ((texto.includes('pestaña') || texto.includes('pestañas')) && conocimientoData.estructuraApp) {
         return `📌 La aplicación tiene ${conocimientoData.estructuraApp.pestanas.length} pestañas:\n\n` +
                conocimientoData.estructuraApp.pestanas.map(p => 
@@ -440,14 +510,17 @@ function buscarRespuesta(pregunta) {
                ).join('\n\n');
     }
     
-    // 3. Verificar si es respuesta numérica
+    // ========================================
+    // 4. VERIFICAR SI ES RESPUESTA NUMÉRICA
+    // ========================================
     const respuestaNumerica = procesarOpcionNumerica(texto);
     if (respuestaNumerica) return respuestaNumerica;
     
-    // 4. Detectar intención
+    // ========================================
+    // 5. DETECTAR INTENCIÓN Y AMBIGÜEDAD
+    // ========================================
     let intencion = detectarIntencion(texto);
     
-    // 5. Si NO se detectó intención, verificar ambigüedad
     if (intencion === 'GENERICA') {
         if (esAmbigua(texto)) {
             const contrapregunta = generarContrapregunta(texto);
@@ -455,7 +528,9 @@ function buscarRespuesta(pregunta) {
         }
     }
     
-    // 6. Respuestas según intención
+    // ========================================
+    // 6. RESPUESTAS SEGÚN INTENCIÓN (RESPALDO)
+    // ========================================
     switch(intencion) {
         case 'INFO_PESTANAS':
             return "📌 La aplicación tiene **3 pestañas principales**:\n\n" +
@@ -476,6 +551,39 @@ function buscarRespuesta(pregunta) {
             }
             return "Las 3 pestañas principales son: Estudio SIMO (información teórica), Preguntas (exámenes) y Glosario (términos clave). ¿De cuál quieres más información?";
         
+        case 'PREGUNTA_GENERICA':
+            // NUEVO: para "¿Cómo lo uso?"
+            if (texto.includes('como lo uso') || texto.includes('cómo lo uso')) {
+                return "📚 Para usar ESTUDIO SIMO:\n\n1️⃣ Explora las 3 pestañas en la parte superior\n2️⃣ En **Preguntas**, selecciona el modo (Estudio o Simulacro)\n3️⃣ Elige competencia y subcategoría\n4️⃣ Haz clic en COMENZAR EXAMEN\n5️⃣ Si tienes dudas, escribe 'ayuda' para ver el menú\n\n¿Quieres que te explique alguna parte en detalle?";
+            }
+            
+            // NUEVO: para "¿Dónde está lo de las preguntas?"
+            if (texto.includes('donde esta lo de las preguntas') || texto.includes('dónde está lo de las preguntas')) {
+                return "📝 La pestaña **Preguntas** es donde realizas los exámenes. Está en la parte superior, junto a 'Estudio SIMO' y 'Glosario'. Allí puedes seleccionar el modo (Estudio o Simulacro), elegir competencia y comenzar el examen.";
+            }
+            if (texto.includes('como lo uso') || texto.includes('cómo lo uso')) {
+                return "📚 Para usar ESTUDIO SIMO:\n\n1️⃣ Explora las 3 pestañas en la parte superior\n2️⃣ En **Preguntas**, selecciona el modo (Estudio o Simulacro)\n3️⃣ Elige competencia y subcategoría\n4️⃣ Haz clic en COMENZAR EXAMEN\n5️⃣ Si tienes dudas, escribe 'ayuda' para ver el menú\n\n¿Quieres que te explique alguna parte en detalle?";
+            }
+            if (texto.includes('donde esta lo de las preguntas') || texto.includes('dónde está lo de las preguntas')) {
+                return "📝 La pestaña **Preguntas** es donde realizas los exámenes. Está en la parte superior, junto a 'Estudio SIMO' y 'Glosario'. Allí puedes seleccionar el modo (Estudio o Simulacro), elegir competencia y comenzar el examen.";
+            }
+            if (texto.includes('que es esto') || texto.includes('qué es esto')) {
+                return conocimientoData.introduccion?.descripcion || "📚 Esta es ESTUDIO SIMO, una herramienta de preparación para auxiliares de enfermería que buscan ingresar al Hospital Mental de Risaralda (HOMERIS) mediante el concurso ESE 2 de la CNSC.\n\nTiene 3 pestañas: Estudio SIMO (información), Preguntas (exámenes) y Glosario (términos). ¿Te ayudo con alguna en específico?";
+            }
+            if (texto.includes('para que sirve') || texto.includes('para qué sirve')) {
+                return "📚 ESTUDIO SIMO sirve para prepararte para el concurso de méritos ESE 2. Puedes:\n\n• Informarte sobre la convocatoria\n• Practicar con preguntas (Modo Estudio o Simulacro)\n• Consultar términos en el Glosario\n\n¿Qué te gustaría hacer?";
+            }
+            if (texto.includes('cuanto dura') || texto.includes('cuánto dura')) {
+                return "⏱️ ¿A qué te refieres? Si hablas del simulacro, dura 5 minutos para 5 preguntas. Si te refieres a otra cosa, por favor se más específico.";
+            }
+            if (texto.includes('que hago aqui') || texto.includes('qué hago aquí') || texto.includes('que tengo que hacer')) {
+                return "📚 Aquí puedes prepararte para el concurso ESE 2. Te sugiero:\n\n1️⃣ Ve a la pestaña **Estudio SIMO** para informarte sobre la convocatoria y normas.\n2️⃣ Ve a la pestaña **Preguntas** para practicar con exámenes.\n3️⃣ Usa el **Glosario** para buscar términos que no entiendas.\n\n¿Por cuál quieres empezar?";
+            }
+            return "🤔 No entendí bien tu pregunta. Puedes:\n\n• Escribir **'ayuda'** para ver el menú de opciones\n• Preguntar algo más específico como '¿qué es el modo estudio?'\n• Consultar las instrucciones con el botón 📖\n\n¿Cómo puedo ayudarte mejor?";
+        
+        // ========================================
+        // RESTO DE CASES (se mantienen igual)
+        // ========================================
         case 'INTRO_APP':
             return "📚 ESTUDIO SIMO es una herramienta gratuita de preparación para auxiliares de enfermería que buscan ingresar al Hospital Mental de Risaralda (HOMERIS) mediante el concurso de méritos ESE 2 de la CNSC. Tiene 3 pestañas: Estudio SIMO, Preguntas y Glosario.";
         
@@ -562,31 +670,7 @@ function buscarRespuesta(pregunta) {
         
         case 'BOTON_INSTRUCCIONES':
             return "📖 El botón Instrucciones (📖) abre el modal de bienvenida, donde se explica el funcionamiento de la aplicación. También aparece automáticamente la primera vez que ingresas.";
-
-        case 'PREGUNTA_GENERICA':
-            if (texto.includes('donde esta lo de las preguntas')) {
-                return "📝 La pestaña **Preguntas** es donde realizas los exámenes. Está en la parte superior, junto a 'Estudio SIMO' y 'Glosario'. Allí puedes seleccionar el modo (Estudio o Simulacro), elegir competencia y comenzar el examen.";
-            }
-            if (texto.includes('cuanto dura')) {
-                return "⏱️ ¿A qué te refieres? Si hablas del simulacro, dura 5 minutos para 5 preguntas. Si te refieres a otra cosa, por favor se más específico.";
-            }
-            if (texto.includes('que significa esto') || texto.includes('eso que significa') || texto.includes('y eso')) {
-                return "❓ No sé exactamente a qué te refieres con 'eso'. ¿Puedes decirme qué término o qué parte de la aplicación te genera duda? Por ejemplo: 'puntaje', 'modo estudio', 'glosario', etc.";
-            }
-            if (texto.includes('que hago aqui') || texto.includes('que tengo que hacer')) {
-                return "📚 Aquí puedes prepararte para el concurso ESE 2. Te sugiero:\n\n1️⃣ Ve a la pestaña **Estudio SIMO** para informarte sobre la convocatoria y normas.\n2️⃣ Ve a la pestaña **Preguntas** para practicar con exámenes.\n3️⃣ Usa el **Glosario** para buscar términos que no entiendas.\n\n¿Por cuál quieres empezar?";
-            }
-            if (texto.includes('que es esto')) {
-                return "📚 Esta es ESTUDIO SIMO, una herramienta de preparación para auxiliares de enfermería que buscan ingresar al Hospital Mental de Risaralda (HOMERIS) mediante el concurso ESE 2 de la CNSC.\n\nTiene 3 pestañas: Estudio SIMO (información), Preguntas (exámenes) y Glosario (términos). ¿Te ayudo con alguna en específico?";
-            }
-            if (texto.includes('para que sirve')) {
-                return "📚 ESTUDIO SIMO sirve para prepararte para el concurso de méritos ESE 2. Puedes:\n\n• Informarte sobre la convocatoria\n• Practicar con preguntas (Modo Estudio o Simulacro)\n• Consultar términos en el Glosario\n\n¿Qué te gustaría hacer?";
-            }
-            if (texto.includes('como lo uso')) {
-                return "📚 Para usar ESTUDIO SIMO:\n\n1️⃣ Explora las 3 pestañas en la parte superior\n2️⃣ En **Preguntas**, selecciona el modo (Estudio o Simulacro)\n3️⃣ Elige competencia y subcategoría\n4️⃣ Haz clic en COMENZAR EXAMEN\n5️⃣ Si tienes dudas, escribe 'ayuda' para ver el menú\n\n¿Quieres que te explique alguna parte en detalle?";
-            }
-            return "🤔 No entendí bien tu pregunta. Puedes:\n\n• Escribir **'ayuda'** para ver el menú de opciones\n• Preguntar algo más específico como '¿qué es el modo estudio?'\n• Consultar las instrucciones con el botón 📖\n\n¿Cómo puedo ayudarte mejor?";
-
+        
         case 'PALABRA_SUELTA':
             if (texto.includes('cnsc')) {
                 return "📋 **CNSC**: Comisión Nacional del Servicio Civil. Es el órgano autónomo que administra los concursos de méritos para empleos públicos de carrera administrativa en Colombia. ¿Quieres saber más sobre su función o sobre la convocatoria ESE 2?";
@@ -625,7 +709,7 @@ function buscarRespuesta(pregunta) {
                 return "🏥 **HOMERIS** (Hospital Mental de Risaralda) es la ESE especializada en salud mental donde muchos auxiliares de enfermería buscan ingresar mediante el concurso ESE 2 de la CNSC. ¿Necesitas información sobre los requisitos específicos?";
             }
             return "📌 No entendí bien qué palabra clave me escribiste. Las palabras que reconozco son: CNSC, SIMO, OPEC, glosario, simulacro, estudio, puntaje, resultados. ¿Puedes escribir una de ellas?";
-
+        
         default:
             return "No encontré una respuesta exacta. Puedes consultar las instrucciones (📖) o usar el menú de ayuda escribiendo 'ayuda'.";
     }
