@@ -28,15 +28,25 @@
   align-items: center;
   gap: 12px;
   padding: 12px;
-  background-color: var(--bg-secundario);
-  border: 1px solid var(--borde);
+  background-color: var(--azul); /* Fondo gris claro sólido */
+  border: 1px solid #000000;  /* Borde gris visible */
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .opcion:hover {
-  background-color: var(--borde);
+  background-color: #aec6df;  /* Fondo más oscuro al pasar el mouse */
+}
+
+/* Modo oscuro */
+body.modo-oscuro .opcion {
+  background-color: #2a2a2a;  /* Fondo gris oscuro sólido */
+  border: 1px solid #555555;  /* Borde gris visible en oscuro */
+}
+
+body.modo-oscuro .opcion:hover {
+  background-color: #3a3a3a;
 }
 
 .opcion input {
@@ -50,6 +60,7 @@
   flex: 1;
   cursor: pointer;
   font-size: 1rem;
+  color: white;
 }
 
 .feedback {
