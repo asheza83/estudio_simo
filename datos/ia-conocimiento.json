@@ -383,5 +383,111 @@
   ],
   
 
-  "fraseExperto": "💡 Modo Estudio: Aprendes el contenido sin presión, con feedback inmediato. Modo Simulacro: Entrenas tu velocidad, resistencia y conocimiento con tiempo límite y puntaje real. Usa ambos para estar completamente preparado para el concurso SIMO."
+  "fraseExperto": "💡 Modo Estudio: Aprendes el contenido sin presión, con feedback inmediato. Modo Simulacro: Entrenas tu velocidad, resistencia y conocimiento con tiempo límite y puntaje real. Usa ambos para estar completamente preparado para el concurso SIMO.",
+  
+
+  "consejosLogica": {
+    "titulo": "🧠 Consejos para preguntas de razonamiento lógico",
+    "consejos": [
+      "1. Identifica premisas y conclusión: la premisa es un hecho dado, la conclusión es lo que se deduce.",
+      "2. Usa el contrarrecíproco: 'Si A entonces B' equivale a 'Si no B entonces no A'. Muy útil en inferencias.",
+      "3. Silogismos: Si A → B y B → C, entonces A → C.",
+      "4. No agregues información externa: trabaja solo con lo que dice el enunciado.",
+      "5. En preguntas de 'todos', 'ninguno', 'algunos', dibuja diagramas de Venn mentalmente.",
+      "6. Ejemplo: 'Si hay crisis, se activa código azul. No hay código azul. Conclusión: No hay crisis.' (contrarrecíproco)"
+    ]
+  },
+
+  "consejosMatematicas": {
+    "titulo": "🔢 Consejos para preguntas de razonamiento matemático",
+    "consejos": [
+      "1. Regla de tres simple: (valor buscado) = (valor conocido × cantidad buscada) ÷ cantidad conocida.",
+      "2. Porcentajes: % = (parte ÷ total) × 100. Para aumentar: multiplica por (1 + %/100). Para disminuir: multiplica por (1 - %/100).",
+      "3. Dosis en enfermería: (dosis deseada ÷ dosis disponible) × volumen = ml a administrar.",
+      "4. Pacientes por enfermera: Total pacientes ÷ relación = enfermeras necesarias (redondear al alza).",
+      "5. Ejemplo dosis: Si hay 5 mg por 10 kg, para 68 kg: (68 ÷ 10) × 5 = 34 mg.",
+      "6. Verifica unidades (mg, ml, gramos) antes de operar."
+    ]
+  },
+
+  "consejosLectura": {
+    "titulo": "📖 Consejos para preguntas de lectura crítica",
+    "consejos": [
+      "1. Identifica la idea principal: ¿qué quiere decir el autor? Suele estar al inicio o al final del texto.",
+      "2. Preguntas de inferencia: ¿qué se puede deducir? No inventes, usa solo lo que el texto sugiere.",
+      "3. Intención del autor: ¿informar, convencer, explicar, narrar?",
+      "4. Sinónimos en contexto: una palabra puede significar algo distinto según el texto.",
+      "5. Hecho vs opinión: los hechos son verificables, las opiniones son juicios personales.",
+      "6. Ejemplo: si el texto dice 'a partir de 2025, todas las IPS deben implementar HC electrónica', se infiere que antes de 2025 no era obligatorio."
+    ]
+  },
+
+  "ejemplosPreguntas": {
+    "titulo": "📝 Ejemplos de preguntas tipo SIMO",
+    "categorias": [
+      {
+        "nombre": "Razonamiento lógico",
+        "pregunta": "En HOMERIS, si un paciente está en crisis, entonces se activa el código azul. No se activó el código azul. ¿Qué podemos concluir?",
+        "respuesta": "El paciente no estaba en crisis.",
+        "explicacion": "Aplica contrarrecíproco: si no hay código azul, entonces no hay crisis."
+      },
+      {
+        "nombre": "Matemáticas aplicadas",
+        "pregunta": "Un paciente pesa 68 kg y debe recibir 5 mg de haloperidol por cada 10 kg. ¿Cuántos mg recibe?",
+        "respuesta": "34 mg",
+        "explicacion": "(68 ÷ 10) × 5 = 6.8 × 5 = 34 mg."
+      },
+      {
+        "nombre": "Lectura crítica",
+        "pregunta": "Texto: 'A partir de 2025, todas las IPS deberán implementar historia clínica electrónica'. ¿Qué se infiere?",
+        "respuesta": "Antes de 2025 no era obligatorio.",
+        "explicacion": "La palabra 'a partir de' indica un cambio en la normativa a partir de esa fecha."
+      },
+      {
+        "nombre": "Ética profesional",
+        "pregunta": "Un compañero comete un error y nadie se da cuenta. El paciente no sufre daño. ¿Qué debe hacer quien presencia el error?",
+        "respuesta": "Reportar el error al jefe o al comité de seguridad.",
+        "explicacion": "La ética exige reportar errores para prevenir futuros incidentes, incluso sin daño aparente."
+      },
+      {
+        "nombre": "Trabajo en equipo",
+        "pregunta": "En una emergencia, hay confusión sobre las funciones. ¿Qué debe hacer el líder del equipo?",
+        "respuesta": "Asignar roles claros rápidamente.",
+        "explicacion": "La coordinación evita retrasos y mejora la respuesta ante emergencias."
+      },
+      {
+        "nombre": "Orientación al servicio",
+        "pregunta": "Un familiar agresivo exige información confidencial de un paciente. ¿Cómo maneja la situación?",
+        "respuesta": "Explicar la norma de confidencialidad y ofrecer hablar con el médico.",
+        "explicacion": "Se debe mantener la confidencialidad, explicar las normas y derivar al profesional autorizado."
+      }
+    ]
+  },
+
+  "glosarioEstadisticas": {
+    "titulo": "📊 Estadísticas del glosario",
+    "totalTerminos": 142,
+    "porCategoria": {
+      "Siglas": 35,
+      "Entidades": 28,
+      "Términos": 45,
+      "Principios": 12,
+      "Carrera": 22
+    },
+    "comoUsar": "Usa el buscador por palabra (mínimo 3 letras), filtra por categoría o por letra inicial (A-Z). Los términos se muestran de 10 en 10 con paginación."
+  },
+
+  "exportarPDFDetalles": {
+    "titulo": "📥 Cómo exportar resultados a PDF",
+    "que_hace": "Solo disponible en Modo Simulacro. Al finalizar el examen, haz clic en el botón 'EXPORTAR RESULTADOS'.",
+    "que_incluye": [
+      "Puntaje SIMO (sobre 100)",
+      "Aciertos vs Total",
+      "Tiempo total empleado",
+      "Tiempo promedio por pregunta",
+      "Listado completo de preguntas falladas con respuesta correcta y explicación"
+    ],
+    "donde_se_guarda": "El PDF se descarga automáticamente a la carpeta de Descargas de tu dispositivo (tanto en PC como en celular).",
+    "como_abrir": "Haz clic en el archivo descargado. Se abrirá en el visor de PDF de tu navegador o aplicación predeterminada."
+  }
 }
