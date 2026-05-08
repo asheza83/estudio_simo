@@ -36,9 +36,11 @@
       "descripcion": "Aquí pondrás a prueba tus conocimientos. Tienes 2 modos de estudio:",
       "puntos": [
         "📚 Modo Estudio: Sin límite de tiempo. Puedes intentar hasta 4 veces por pregunta. Recibes feedback inmediato con explicaciones. Ideal para aprender.",
-        "⏱️ Modo Simulacro: 5 minutos para 5 preguntas (tiempo total fijo). Sin feedback durante el examen. Al final obtienes un puntaje SIMO sobre 100. Corte de aprobación: 70/100.",
+        "⏱️ Modo Simulacro: Con temporizador (60 segundos por pregunta). Sin feedback durante el examen. Al final obtienes un puntaje SIMO sobre 100. Corte de aprobación: 70/100.",
         "🎯 Selector doble: Primero elige el tipo de competencia, luego la subcategoría específica.",
-        "📊 Resultados: Tabla con fondo verde (correcta) o rojo (incorrecta). Muestra puntaje, aciertos y si APROBASTE o REPROBASTE."
+        "📊 Resultados: Tabla con fondo verde (correcta) o rojo (incorrecta). Muestra puntaje, aciertos, tiempos y si APROBASTE o REPROBASTE.",
+        "🔍 Preguntas falladas: Se agrupan en una sección colapsable para que revises tus errores.",
+        "📥 Exportar a PDF: Solo en simulacro. Descarga un informe con tu puntaje, tiempos y preguntas falladas."
       ]
     },
     {
@@ -100,6 +102,21 @@
       "icono": "📊",
       "titulo": "Tabla de resultados",
       "descripcion": "Al finalizar un examen, verás una tabla con: número de pregunta, enunciado, tu respuesta, si fue correcta (fondo verde) o incorrecta (fondo rojo), y la respuesta correcta si fallaste."
+    },
+    {
+      "icono": "🔍",
+      "titulo": "Preguntas falladas",
+      "descripcion": "En el resumen del simulacro, las preguntas incorrectas se agrupan en una sección colapsable. Puedes expandirla para revisar tus errores y las respuestas correctas."
+    },
+    {
+      "icono": "⏱️",
+      "titulo": "Tiempos en el simulacro",
+      "descripcion": "Durante el simulacro, ves una barra de progreso con colores (verde >50%, amarillo 20-50%, rojo <20%). Al finalizar, se muestran el tiempo total empleado y el tiempo promedio por pregunta."
+    },
+    {
+      "icono": "📥",
+      "titulo": "Exportar resultados a PDF",
+      "descripcion": "Solo disponible en Modo Simulacro. Al finalizar, puedes hacer clic en 'EXPORTAR RESULTADOS' para descargar un PDF con: puntaje, aciertos, tiempos y preguntas falladas."
     },
     {
       "icono": "🏆",

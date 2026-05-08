@@ -262,6 +262,18 @@
   },
 
   "funcionalidadesGlobales": {
+     "exportarPDF": {
+      "titulo": "📥 Exportar resultados a PDF",
+      "descripcion": "Solo disponible en Modo Simulacro. Al finalizar el examen, puedes hacer clic en 'EXPORTAR RESULTADOS' para descargar un PDF con: puntaje, aciertos, tiempos y preguntas falladas."
+    },
+    "preguntasFalladas": {
+      "titulo": "🔍 Ver preguntas falladas",
+      "descripcion": "En el resumen del simulacro, las preguntas incorrectas se agrupan en una sección colapsable. Puedes expandirla para revisar tus errores y las respuestas correctas."
+    },
+    "tiemposSimulacro": {
+      "titulo": "⏱️ Tiempos en el simulacro",
+      "descripcion": "El simulacro muestra: tiempo total restante (barra de progreso con colores), y al finalizar, tiempo total empleado y tiempo promedio por pregunta."
+    },
     "scroll": {
       "titulo": "⬆️ Las pestañas desaparecen al hacer scroll",
       "descripcion": "Cuando te desplazas hacia abajo, las pestañas Estudio SIMO, Preguntas y Glosario se ocultan automáticamente para que tengas más espacio. Aparece un botón flotante ↑ Subir en la esquina inferior derecha. Haz clic en él para volver a mostrar las pestañas y subir al inicio de la página."
@@ -369,6 +381,7 @@
     "Verifica periódicamente la página de la CNSC y SIMO para estar al día de nuevas convocatorias de enfermería.",
     "Los concursos SIMO pueden durar entre 1 y 2 años. Prepárate con anticipación."
   ],
+  
 
   "fraseExperto": "💡 Modo Estudio: Aprendes el contenido sin presión, con feedback inmediato. Modo Simulacro: Entrenas tu velocidad, resistencia y conocimiento con tiempo límite y puntaje real. Usa ambos para estar completamente preparado para el concurso SIMO."
 }

@@ -1,0 +1,328 @@
+ESTRUCTURA DE NAVEGACIÓN - ESTUDIO SIMO
+Versión: v3 - Actualizada (Mayo 2026)
+
+
+============================================
+1. PESTAÑA ESTUDIO SIMO
+============================================
+
+1.1 Inicio - Visión general
+├── ¿Qué encontrarás aquí?
+│   ├── Convocatoria SIMO
+│   ├── Normas del sector salud
+│   └── Casos prácticos
+└── Tipos de pruebas SIMO
+    ├── 📖 Competencias básicas (lógica, matemáticas, lectura crítica)
+    ├── 🩺 Competencias funcionales (normatividad, SGSSS)
+    └── 🤝 Competencias comportamentales (ética, trabajo en equipo, orientación al servicio)
+
+1.2 Información de la convocatoria
+├── ¿Qué es SIMO?
+├── Convocatoria ESE 2
+│   ├── Estado: Anunciada
+│   ├── Inscripciones: Julio - agosto 2026
+│   ├── Vacantes: 2.477 en 72 ESE
+│   └── Modalidades: Ascenso general, ascenso discapacidad, abierto general, abierto discapacidad
+├── ¿Qué evalúa SIMO? (6 competencias)
+├── Contenido específico para enfermería (SGSSS)
+│   ├── Ley 100 de 1993, Ley 1438 de 2011, Ley 1751 de 2015
+│   └── Decreto 780 de 2016
+└── Requisitos para enfermería
+    ├── Título y tarjeta profesional
+    ├── Experiencia según cargo
+    └── Registro en SIMO
+
+1.3 Normas del sector salud
+├── Buscador universal
+│   ├── Escribe una palabra (ej: EPS, afiliación, artículo 157)
+│   ├── Presiona Enter
+│   ├── Muestra:
+│   │   ├── Cantidad de artículos encontrados
+│   │   ├── Listado de artículos por ley
+│   │   └── Invita a hacer clic para ver detalles
+│   └── Ventana emergente del artículo:
+│       ├── Botón volver
+│       ├── Título (Art. 152: Definición...)
+│       ├── Texto del contenido
+│       └── Botón subir (para artículos largos)
+├── Listado de normas
+│   ├── Ley 100 de 1993
+│   │   ├── Botón volver a normas
+│   │   ├── Texto breve de la ley
+│   │   ├── Buscador de artículos (específico)
+│   │   └── Artículos relevantes (33 artículos)
+│   └── Ley 1438 de 2011
+│       ├── Botón volver a normas
+│       ├── Texto breve de la ley
+│       ├── Buscador de artículos (específico)
+│       └── Artículos relevantes (10 artículos)
+
+1.4 Casos prácticos
+├── Filtros por competencia
+│   ├── TODAS
+│   ├── 📖 Básicas (lógica, matemáticas, lectura crítica)
+│   ├── 🩺 Funcionales (normatividad)
+│   └── 🤝 Comportamentales (ética, trabajo en equipo, orientación al servicio)
+├── Paginación (10 casos por página)
+├── Respuestas orientativas
+│   ├── 👁️ Ver respuesta orientativa (desplegable)
+│   └── 🙈 Ocultar respuesta
+└── Efecto fade al cambiar de página
+
+
+============================================
+2. PESTAÑA PREGUNTAS
+============================================
+
+2.1 Información general
+├── Lo que evalúa (6 competencias)
+└── ¿Qué incluye?
+    ├── Selectores anidados
+    ├── 5 preguntas por defecto (modo estudio)
+    ├── Feedback inmediato en modo estudio
+    ├── Temporizador en modo simulacro
+    └── Resumen final con estadísticas
+
+2.2 Modos de estudio (selector visual)
+├── 📚 Modo Estudio
+│   ├── Sin límite de tiempo
+│   ├── Feedback inmediato al responder
+│   ├── 4 intentos por pregunta
+│   ├── 5 preguntas fijas
+│   └── Iconos en resultados: ✅ (1 intento), ⚠️ (varios intentos), 🔴 (sin intentos), ⏰ (tiempo agotado)
+│
+└── ⏱️ Modo Simulacro
+    ├── Con temporizador (60 segundos por pregunta)
+    ├── Sin feedback durante el examen
+    ├── 1 intento por pregunta
+    ├── Cantidad de preguntas: SELECCIONABLE (5, 10, 20, 30, 40, 50)
+    ├── Tiempo total = preguntas × 60 segundos
+    ├── Barra de progreso con colores: 🟢 Verde (>50%), 🟡 Amarillo (20-50%), 🔴 Rojo (<20%)
+    └── Últimos 5 segundos parpadean en rojo
+
+2.3 Selectores anidados (ambos modos)
+├── Selector 1: Tipo de competencia
+│   ├── 🩺 Competencias funcionales (Leyes 100 y 1438)
+│   ├── 📖 Competencias básicas (Lógica, Matemáticas, Lectura crítica)
+│   └── 🤝 Competencias comportamentales (Ética, Trabajo en equipo, Orientación al servicio)
+└── Selector 2: Subcategoría (se muestra al seleccionar el tipo)
+    └── Botón COMENZAR EXAMEN (se habilita al seleccionar subcategoría)
+
+2.4 Durante el examen
+├── Temporizador global
+│   ├── Muestra tiempo restante (MM:SS)
+│   └── Barra de progreso con color dinámico
+├── Pregunta actual
+│   ├── Texto de la pregunta
+│   ├── 4 opciones de respuesta (radio button)
+│   └── Botón según modo:
+│       ├── Modo Estudio: "VERIFICAR" (muestra feedback)
+│       └── Modo Simulacro: "SIGUIENTE" (guarda respuesta y avanza)
+├── Mensaje de progreso
+│   └── "Pregunta X de Y"
+└── Botón Cancelar examen (rojo)
+    └── Borra todo el progreso y vuelve a selección de competencias
+
+2.5 Tabla final de resultados
+├── Breve descripción de la tabla
+├── ¿Qué hacer ahora?
+├── Recuadro de RESULTADO SIMO (en %)
+│   ├── Porcentaje de aciertos (ej: 80%)
+│   ├── Aciertos vs Total (ej: 4 de 5)
+│   ├── Corte de aprobación: 70/100
+│   ├── APROBÓ / REPROBÓ (con color: verde/rojo)
+│   ├── Modo (Estudio / Simulacro)
+│   └── Explicación del cálculo del puntaje
+├── Resumen de actividad
+│   ├── Muestra cada pregunta con:
+│   │   ├── Número de pregunta
+│   │   ├── Enunciado
+│   │   ├── Tu respuesta
+│   │   ├── Si es incorrecta: muestra respuesta correcta
+│   │   └── Intentos realizados (solo modo estudio)
+│   ├── Colores:
+│   │   ├── ✅ Correcta: fondo verde, borde verde
+│   │   └── ❌ Incorrecta: fondo rojo, borde rojo
+│   └── Sección colapsable (solo simulacro):
+│       └── 🔍 VER PREGUNTAS FALLADAS (X preguntas) - colapsable
+├── Tiempos (solo simulacro)
+│   ├── Tiempo total empleado / Tiempo total disponible
+│   └── Tiempo promedio por pregunta
+└── Botones de acción
+    ├── 📥 EXPORTAR RESULTADOS (solo simulacro)
+    ├── 🔄 REPETIR EXAMEN
+    └── 📋 CAMBIAR DE COMPETENCIA
+
+
+============================================
+3. PESTAÑA GLOSARIO
+============================================
+
+3.1 Buscador
+├── Enunciado: "Escribe una palabra (mínimo 3 letras) y presiona Enter"
+├── Campo de búsqueda
+├── Al presionar Enter:
+│   ├── Se desplaza automáticamente a los resultados
+│   └── Las coincidencias se resaltan en amarillo
+
+3.2 Filtros por categoría
+├── Botones: TODAS, Siglas, Entidades, Términos, Principios, Carrera
+├── Al seleccionar: se desplaza y muestra resultados
+└── Se puede combinar con búsqueda por letra
+
+3.3 Filtros por letra (A-Z)
+├── Botones del alfabeto (A, B, C, ..., Z)
+├── Al seleccionar: se desplaza y muestra resultados
+└── Se puede combinar con filtro por categoría
+
+3.4 Listado de términos
+├── Término (en negrita)
+├── Definición
+├── Categoría
+└── Paginación: 10 términos por página
+    ├── Botón ◀ Anterior
+    └── Botón Siguiente ▶
+
+3.5 Botón subir
+├── Instrucción: "Usa el botón flotante ↑ Subir para volver a los filtros de búsqueda cuando hagas scroll"
+└── Aparece al hacer scroll hacia abajo
+
+
+============================================
+4. ASISTENTE IA
+============================================
+
+4.1 Acceso
+├── En PC: Botón flotante 🤖 IA (esquina inferior derecha)
+└── En móvil: Botón en el header (junto a Ajustes e Instrucciones)
+
+4.2 Ventana del asistente
+├── Título: "Asistente SIMO"
+├── Mensaje de bienvenida al abrir
+├── Historial de preguntas y respuestas
+├── Campo de texto para escribir preguntas
+├── Botón "Enviar" (o Enter)
+└── Botón "✖" para cerrar
+
+4.3 Base de conocimiento
+├── ¿Qué es ESTUDIO SIMO?
+├── Concurso SIMO (CNSC, convocatoria ESE 2, OPEC)
+├── Estructura de la aplicación (3 pestañas)
+├── Modos de estudio (Estudio y Simulacro)
+├── Glosario (qué es y cómo usarlo)
+├── Normas del sector salud (buscador de leyes)
+├── Casos prácticos (filtros, respuestas)
+├── Resultados (cálculo del puntaje, iconos)
+├── Exportar a PDF (solo simulacro)
+├── Preguntas falladas colapsable
+├── Tiempos en el simulacro
+├── Funcionalidades globales (scroll, ajustes, guardado, cancelar)
+└── FAQ general (10 preguntas frecuentes)
+
+4.4 Capacidades
+├── Detecta intenciones (23+ intenciones)
+├── Genera contrapreguntas para casos ambiguos
+├── Maneja opciones numéricas (1-6)
+├── Tolera errores de tipeo comunes
+└── Responde con emojis y formato amigable
+
+
+============================================
+5. INSTRUCCIONES (MODAL DE BIENVENIDA)
+============================================
+
+5.1 Contenido
+├── Bienvenida al usuario
+├── Las 6 competencias que evalúa SIMO
+├── Explicación de las 3 pestañas principales
+│   ├── 📚 Estudio SIMO
+│   ├── 📝 Preguntas (Modo Estudio y Modo Simulacro)
+│   └── 📖 Glosario
+└── Funcionalidades importantes
+    ├── ⬆️ Scroll y pestañas (botón Subir)
+    ├── 🔍 Búsqueda en normas del sector salud
+    ├── ⚙️ Botón Ajustes (modo oscuro, tamaño letra)
+    ├── 💾 Guardar progreso al cambiar de pestaña
+    ├── ❌ Cancelar examen
+    ├── 📥 Exportar resultados a PDF (solo simulacro)
+    ├── 🔍 Ver preguntas falladas (colapsable)
+    └── 🤖 Asistente IA
+
+5.2 Acceso
+├── Automático la primera vez que ingresas
+└── Manual: Botón 📖 Instrucciones en el header
+
+
+============================================
+6. AJUSTES
+============================================
+
+6.1 Ventana emergente
+├── Título: "⚙️ Ajustes"
+├── Botón "Cerrar"
+└── Secciones:
+    ├── 🌓 Modo oscuro
+    │   ├── Botón toggle (🌙 Activar / ☀️ Desactivar)
+    │   └── Ideal para estudiar de noche
+    └── 🔤 Tamaño de letra
+        ├── Botón A- (disminuir)
+        ├── Botón A+ (aumentar)
+        └── 4 tamaños: pequeña, normal, grande, extra grande
+
+
+============================================
+7. BOTÓN SUBIR (FLOTANTE)
+============================================
+
+7.1 Comportamiento
+├── Aparece cuando se hace scroll hacia abajo (a partir de 150px)
+├── Se oculta al volver al inicio
+└── Texto "Subir" debajo del ícono (en algunos contextos)
+
+7.2 Función
+├── Al hacer clic: vuelve al inicio del texto/sección
+├── En glosario: vuelve a los filtros de búsqueda
+├── En resumen de preguntas: vuelve al inicio del resumen
+└── En leyes/normas: sube al inicio del contenido
+
+
+============================================
+8. FUNCIONES GLOBALES EXPUESTAS (para onclick)
+============================================
+
+├── cambiarPestana() - navegacion.js
+├── mostrarGlosario() - glosario.js
+├── inicializarPreguntas() - preguntas/index.js
+├── volverAInicioPreguntas() - preguntas/resumen.js
+├── cargarCasos() - casos.js
+├── filtrarCasosPorCategoria() - casos.js
+├── cambiarPaginaCasos() - casos.js
+├── inicializarSelectsCompetencias() - preguntas/selects.js
+├── subirYMostrarPestanas() - navegacion.js
+├── initAsistente() - asistente/index.js
+├── toggleAsistente() - asistente/core.js
+├── exportarResultadosPDF() - preguntas/pdf.js
+├── seleccionarModo() - index.html
+├── reiniciarSelectores() - index.html
+├── toggleFalladas() - preguntas/resumen.js
+└── diagnosticarRespuestas() - preguntas/helpers.js
+
+
+============================================
+✅ NOTA IMPORTANTE
+============================================
+
+Este documento refleja la estructura actual del proyecto (Mayo 2026).
+Incluye todas las funcionalidades implementadas:
+- Modo Estudio (5 preguntas fijas)
+- Modo Simulacro (cantidad configurable 5-50 preguntas)
+- Temporizador dinámico (60 segundos por pregunta)
+- Barra de progreso con colores
+- Exportar resultados a PDF (solo simulacro)
+- Preguntas falladas colapsable
+- Tiempos (total y promedio) en resultados
+- Asistente IA con 9 módulos
+- Sistema de preguntas con 15 módulos
+- Glosario con 142+ términos
+- Casos prácticos con filtros y paginación
+- Normas del sector salud con buscador universal
