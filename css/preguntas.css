@@ -28,8 +28,7 @@
   align-items: center;
   gap: 12px;
   padding: 12px;
-  background-color: var(--azul); /* Fondo gris claro sólido */
-  border: 1px solid #000000;  /* Borde gris visible */
+  background-color: #64b887;; /* Fondo gris claro sólido */
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.2s;

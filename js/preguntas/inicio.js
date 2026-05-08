@@ -39,22 +39,26 @@ export function mostrarInicioPreguntas() {
     
     inicializarSelectsCompetencias();
 
-    // Resetear visualmente el modo a Estudio
+    // Resetear visualmente - AMBOS MODOS INACTIVOS (grises)
     const modoEstudioCard = document.getElementById('modo-estudio-card');
     const modoSimulacroCard = document.getElementById('modo-simulacro-card');
     const selectoresDiv = document.getElementById('selectores-competencia');
     const btnExamen = document.getElementById('btn-comenzar-examen');
 
     if (modoEstudioCard && modoSimulacroCard) {
-        modoEstudioCard.style.opacity = '1';
-        modoEstudioCard.style.backgroundColor = 'var(--azul)';
+        modoEstudioCard.style.opacity = '0.7';
+        modoEstudioCard.style.backgroundColor = '#6c757d';  // Gris
         modoSimulacroCard.style.opacity = '0.7';
-        modoSimulacroCard.style.backgroundColor = '#6c757d';
+        modoSimulacroCard.style.backgroundColor = '#6c757d';  // Gris
     }
-    window.modoSeleccionado = 'estudio';
-    if (window.setModoEvaluacion) window.setModoEvaluacion('estudio');
+    
+    // Ningún modo seleccionado
+    window.modoSeleccionado = null;
+    if (window.setModoEvaluacion) {
+        // No configurar ningún modo por defecto
+    }
 
-    if (selectoresDiv) selectoresDiv.style.display = 'block';
+    if (selectoresDiv) selectoresDiv.style.display = 'none';
     if (btnExamen) btnExamen.disabled = true;
 }
 

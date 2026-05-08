@@ -189,32 +189,34 @@
                     • Competencias funcionales (Leyes 100 y 1438)<br>
                     • Competencias básicas (Lógica, Matemáticas, Lectura crítica)<br>
                     • Competencias comportamentales (Ética, Trabajo en equipo, Orientación al servicio)<br>
-                    • 5 preguntas aleatorias por examen<br>
-                    • Feedback inmediato al responder<br>
+                    •  por examen<br>
+                    • 
                     • Resumen final con estadísticas
                 </p>
             </div>
             
             <!-- INICIO: Selección de modo y competencia -->
             <div id="preguntas-inicio">
+                Seleccione alguno de los dos modos
                 <!-- SELECTOR DE MODO: ESTUDIO / SIMULACRO -->
                 <div style="display: flex; gap: 15px; margin-bottom: 25px; flex-wrap: wrap; justify-content: center;">
-                    <div id="modo-estudio-card" onclick="seleccionarModo('estudio')" style="flex: 1; min-width: 180px; background-color: var(--azul); color: white; padding: 15px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s;">
+<div id="modo-estudio-card" onclick="seleccionarModo('estudio')" style="flex: 1; min-width: 180px; background-color: #6c757d; color: white; padding: 15px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s;">                        
                         <span style="font-size: 2rem;">📚</span>
                         <h4 style="margin: 8px 0 5px 0;">Modo Estudio</h4>
-                        <p style="margin: 0; font-size: 0.8rem;">Sin límite de tiempo<br>Aprende a tu ritmo</p>
+                        <p style="margin: 0; font-size: 1.2rem;">- 5 preguntas<br>Sin límite de tiempo<br>Aprende a tu ritmo <br>Feedback inmediato al responder<br></p>
                     </div>
                     <div id="modo-simulacro-card" onclick="seleccionarModo('simulacro')" style="flex: 1; min-width: 180px; background-color: #6c757d; color: white; padding: 15px; border-radius: 12px; text-align: center; cursor: pointer; transition: all 0.2s;">
                         <span style="font-size: 2rem;">⏱️</span>
                         <h4 style="margin: 8px 0 5px 0;">Modo Simulacro</h4>
-                        <p style="margin: 0; font-size: 0.8rem;">60 segundos por pregunta<br>Entrena tu velocidad</p>
+                        <p style="margin: 0; font-size: 1.2rem;">100 preguntas<br>60 segundos por pregunta<br>Entrena tu velocidad</p>
                     </div>
                 </div>
 
+                
+                <!-- Contenedor de selectores (se oculta en modo simulacro) -->
+                <div id="selectores-competencia" style="display: none;">
                 <p style="text-align:center; margin-bottom:16px;">Selecciona el tipo de competencia y la subcategoría para comenzar:</p>
 
-                <!-- Contenedor de selectores (se oculta en modo simulacro) -->
-                <div id="selectores-competencia">
                     <!-- Selector 1: Tipo de competencia -->
                     <select id="tipo-competencia" class="filtro-select" style="margin-bottom: 10px;">
                         <option value="">📋 Selecciona el tipo de competencia...</option>
@@ -465,10 +467,9 @@
                 
                 if (selectoresDiv) selectoresDiv.style.display = 'block';
                 btnExamen.disabled = true;
-                reiniciarSelectores();  // ← Solo aquí
+                reiniciarSelectores();  // Solo aquí
                 
-            } else {
-                // modo simulacro
+            } else if (modo === 'simulacro') {
                 modoEstudioCard.style.opacity = '0.7';
                 modoEstudioCard.style.backgroundColor = '#6c757d';
                 modoSimulacroCard.style.opacity = '1';
@@ -478,7 +479,6 @@
                 
                 if (selectoresDiv) selectoresDiv.style.display = 'none';
                 btnExamen.disabled = false;
-                // ← NO llamar a reiniciarSelectores() aquí
             }
         }
 

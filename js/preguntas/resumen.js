@@ -141,7 +141,7 @@ export function mostrarResumenFinal() {
     
     // === MODO ESTUDIO: Tabla completa ===
     if (!modoSimulacro) {
-        html += `<div class="pregunta-card" id="resumen-scroll" style="background-color: rgba(13, 110, 253, 0.1); border: 2px solid var(--azul); margin-top: 20px;">
+        html += `<div class="pregunta-card resumen-estudio-card" id="resumen-scroll" style="border: 2px solid var(--azul); margin-top: 20px;">
                 <h3>📋 RESUMEN DE LA ACTIVIDAD</h3>
                 <hr style="border: 1px solid var(--borde); margin: 12px 0;">
         `;
@@ -167,7 +167,7 @@ export function mostrarResumenFinal() {
             const estadoTexto = esCorrectaEnTabla ? '✅ Correcta' : '❌ Incorrecta';
             
             html += `
-                <div style="padding: 12px; margin-bottom: 10px; border-radius: 10px; background-color: ${bgColor}; border-left: 4px solid ${borderColor};">
+                <div style="padding: 12px; margin-bottom: 10px; color: #000000; border-radius: 10px; background-color: ${bgColor}; border-left: 4px solid ${borderColor};">
                     <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-bottom: 8px;">
                         <p style="font-weight: bold; font-size: 1rem; margin: 0;">📌 Pregunta ${idx + 1}</p>
                         <p style="font-size: 0.85rem; margin: 0; font-weight: bold; color: ${borderColor};">${estadoTexto}</p>
