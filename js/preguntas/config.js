@@ -17,6 +17,9 @@ export const subcategoriasConfig = {
         { id: "etica", nombre: "⚖️ Ética profesional" },
         { id: "trabajoequipo", nombre: "🤝 Trabajo en equipo" },
         { id: "orientacionservicio", nombre: "🎯 Orientación al servicio" }
+    ],
+    simulacro: [
+        { id: "simulacro", nombre: "🎯 SIMULACRO COMPLETO (150 preguntas)" }
     ]
 };
 
@@ -32,7 +35,9 @@ export const rutasArchivos = {
     // Comportamentales
     etica: "comportamentales/etica.json",
     orientacionservicio: "comportamentales/orientacion-servicio.json",
-    trabajoequipo: "comportamentales/trabajo-equipo.json"
+    trabajoequipo: "comportamentales/trabajo-equipo.json",
+    // SIMULACRO
+    simulacro: "simulacro.json"
 };
 
 // Nombres legibles para competencias

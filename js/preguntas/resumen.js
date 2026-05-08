@@ -5,7 +5,7 @@
 import { 
     preguntasActuales, respuestasUsuario,
     modoSimulacro, setTemporizadorActivo,
-    PREGUNTAS_POR_SESION
+    variablesEvaluacion
 } from '../estado.js';
 
 import { getFiltroLeyActual, setExamenGuardado } from './inicio.js';
@@ -92,7 +92,8 @@ export function mostrarResumenFinal() {
         tiempoUsadoSegundos = Math.floor((Date.now() - tiempoInicioSimulacro) / 1000);
     }
     
-    const tiempoTotalConfigurado = PREGUNTAS_POR_SESION * 60;
+    // Usar variablesEvaluacion para el tiempo total configurado
+    const tiempoTotalConfigurado = modoSimulacro ? (variablesEvaluacion.tiempoTotal || 6000) : 300;
     const minutosUsados = Math.floor(tiempoUsadoSegundos / 60);
     const segundosUsados = tiempoUsadoSegundos % 60;
     const minutosTotal = Math.floor(tiempoTotalConfigurado / 60);
@@ -161,7 +162,6 @@ export function mostrarResumenFinal() {
             const textoRespuesta = respuesta.respuestaFinal || 'No respondida';
             const textoIntentos = (!modoSimulacro && respuesta.intentos > 1) ? ` (${respuesta.intentos} intentos)` : '';
             
-            // Colores fijos en lugar de variables CSS
             const bgColor = esCorrectaEnTabla ? '#d4edda' : '#f8d7da';
             const borderColor = esCorrectaEnTabla ? '#28a745' : '#dc3545';
             const estadoTexto = esCorrectaEnTabla ? '✅ Correcta' : '❌ Incorrecta';

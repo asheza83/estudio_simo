@@ -1,0 +1,3008 @@
+{
+  "version": "1.0",
+  "categoria": "simulacro",
+  "subcategoria": "todas",
+  "totalPreguntas": 150,
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "En el protocolo de atención de HOMERIS se establecen las siguientes reglas: si un paciente está en crisis, entonces se debe activar el código azul. Si se activa el código azul, entonces se debe notificar al enfermero jefe. No se notificó al enfermero jefe. ¿Qué podemos concluir?",
+      "respuestaCorrecta": "El paciente no estaba en crisis",
+      "explicacionCorrecta": "Por contrarrecíproco: si no se notificó al enfermero jefe, entonces no se activó el código azul; y si no se activó el código azul, entonces el paciente no estaba en crisis.",
+      "distractores": [
+        {
+          "texto": "El paciente estaba en crisis",
+          "explicacion": "Es incorrecta porque si el paciente estuviera en crisis, se habría activado el código azul y se habría notificado al enfermero jefe, lo cual contradice el enunciado."
+        },
+        {
+          "texto": "No se activó el código azul",
+          "explicacion": "Esta afirmación es verdadera, pero la pregunta pide la conclusión principal sobre el paciente, no sobre el código."
+        },
+        {
+          "texto": "Se activó el código azul pero no se notificó",
+          "explicacion": "Es incorrecta porque si se activó el código azul, obligatoriamente debió notificarse al enfermero jefe según la segunda regla."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "texto": "En el concurso SIMO para auxiliares de enfermería en HOMERIS, los candidatos pasan a la siguiente fase si cumplen al menos una de estas condiciones: tener más de 5 años de experiencia en salud mental, obtener más de 80 puntos en la prueba de competencias básicas o tener certificación en manejo de crisis. Carlos tiene 6 años de experiencia, 75 puntos y no tiene certificación. Beatriz tiene 3 años de experiencia, 85 puntos y tiene certificación. Luis tiene 8 años de experiencia, 90 puntos y tiene certificación. ¿Quiénes pasan a la siguiente fase?",
+      "respuestaCorrecta": "Carlos, Beatriz y Luis",
+      "explicacionCorrecta": "Carlos cumple la primera condición (6 años > 5). Beatriz cumple la segunda (85 > 80) y la tercera (tiene certificación). Luis cumple las tres condiciones. Por lo tanto, todos pasan.",
+      "distractores": [
+        {
+          "texto": "Solo Carlos",
+          "explicacion": "Es incorrecta porque Beatriz y Luis también cumplen al menos una condición."
+        },
+        {
+          "texto": "Carlos y Beatriz",
+          "explicacion": "Es incorrecta porque Luis también cumple condiciones y pasa a la siguiente fase."
+        },
+        {
+          "texto": "Beatriz y Luis",
+          "explicacion": "Es incorrecta porque Carlos también cumple la primera condición y pasa."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "texto": "Los tiempos de respuesta (en minutos) del equipo de enfermería de HOMERIS ante llamados de urgencia en los últimos 5 días han sido: 3, 5, 8, 12, ?. Si el patrón se mantiene, ¿cuál es el siguiente tiempo de respuesta?",
+      "respuestaCorrecta": "17",
+      "explicacionCorrecta": "El patrón de incrementos es: +2 (3 a 5), +3 (5 a 8), +4 (8 a 12). El siguiente incremento es +5: 12 + 5 = 17.",
+      "distractores": [
+        {
+          "texto": "15",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +3 en lugar de +5."
+        },
+        {
+          "texto": "16",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +4 en lugar de +5."
+        },
+        {
+          "texto": "18",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +6, rompiendo el patrón."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "texto": "En el manual de procedimientos de HOMERIS se establece que para administrar medicación de urgencia se requiere autorización médica o situación de riesgo vital inminente. Se administró medicación de urgencia y no hubo autorización médica. ¿Qué podemos concluir?",
+      "respuestaCorrecta": "Existía situación de riesgo vital inminente",
+      "explicacionCorrecta": "Si se administró medicación de urgencia, debió cumplirse al menos una condición: autorización médica o riesgo vital. Como no hubo autorización, necesariamente existía riesgo vital inminente.",
+      "distractores": [
+        {
+          "texto": "Hubo autorización médica",
+          "explicacion": "Es incorrecta porque el enunciado afirma explícitamente que no hubo autorización médica."
+        },
+        {
+          "texto": "No existía riesgo vital",
+          "explicacion": "Es incorrecta porque si no existía riesgo vital y no había autorización, no se habría podido administrar la medicación."
+        },
+        {
+          "texto": "La medicación no debió administrarse",
+          "explicacion": "Es incorrecta porque el enunciado indica que se administró, por lo tanto se cumplió alguna de las condiciones permitidas."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "texto": "En la Unidad de Salud Mental de HOMERIS, todos los auxiliares de enfermería con más de 10 años de experiencia pueden supervisar a los nuevos ingresos. Adrián tiene 12 años de experiencia. ¿Qué podemos concluir?",
+      "respuestaCorrecta": "Adrián puede supervisar a los nuevos ingresos",
+      "explicacionCorrecta": "La regla establece que todos los auxiliares con más de 10 años de experiencia pueden supervisar. Adrián tiene 12 años, por lo tanto cumple la condición.",
+      "distractores": [
+        {
+          "texto": "Adrián tiene más de 10 años",
+          "explicacion": "Es verdadera pero es información redundante que ya está en el enunciado, no es la conclusión principal."
+        },
+        {
+          "texto": "Adrián no puede supervisar",
+          "explicacion": "Es incorrecta porque contradice la regla establecida, ya que Adrián cumple la condición."
+        },
+        {
+          "texto": "Solo los enfermeros jefes supervisan",
+          "explicacion": "Es incorrecta porque el enunciado no menciona esa restricción; habla específicamente de auxiliares con más de 10 años."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "texto": "En el registro de incidentes de HOMERIS se observa la siguiente secuencia de códigos activados por día: 4, 7, 11, 16, ?. Si el patrón se mantiene, ¿cuál es el siguiente código?",
+      "respuestaCorrecta": "22",
+      "explicacionCorrecta": "El patrón de incrementos es: +3 (4 a 7), +4 (7 a 11), +5 (11 a 16). El siguiente incremento es +6: 16 + 6 = 22.",
+      "distractores": [
+        {
+          "texto": "20",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +4 en lugar de +6."
+        },
+        {
+          "texto": "21",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +5 en lugar de +6."
+        },
+        {
+          "texto": "23",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +7, rompiendo el patrón."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "texto": "En HOMERIS se aplican las siguientes reglas para el uso de contenciones mecánicas: si el paciente representa un peligro inminente para sí mismo o para otros, entonces se puede aplicar contención. Si se aplica contención, entonces se debe registrar en el sistema antes de 1 hora. No se registró la contención en el sistema dentro de la hora siguiente. ¿Qué podemos concluir?",
+      "respuestaCorrecta": "El paciente no representaba un peligro inminente",
+      "explicacionCorrecta": "Por contrarrecíproco: si no se registró la contención, entonces no se aplicó contención; y si no se aplicó contención, entonces el paciente no representaba un peligro inminente.",
+      "distractores": [
+        {
+          "texto": "Se aplicó contención",
+          "explicacion": "Es incorrecta porque si se aplicó contención, debería haberse registrado, contradiciendo el enunciado."
+        },
+        {
+          "texto": "No se aplicó contención",
+          "explicacion": "Es verdadera, pero la pregunta pide la conclusión principal sobre el paciente, no sobre la contención."
+        },
+        {
+          "texto": "El paciente estaba tranquilo",
+          "explicacion": "Es incorrecta porque el enunciado no proporciona información sobre el estado de tranquilidad, solo sobre peligro inminente."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "texto": "Para que un auxiliar de enfermería reciba bonificación en HOMERIS, debe cumplir al menos dos de estas condiciones: (1) tener evaluación de desempeño sobresaliente, (2) haber participado en al menos 3 capacitaciones en el año, (3) tener más de 5 años de antigüedad. Laura tiene evaluación sobresaliente, participó en 2 capacitaciones y tiene 6 años de antigüedad. ¿Recibe bonificación?",
+      "respuestaCorrecta": "Sí, porque cumple dos condiciones",
+      "explicacionCorrecta": "Laura cumple evaluación sobresaliente (primera condición) y 6 años de antigüedad (tercera condición). No cumple la segunda (solo 2 capacitaciones). Al cumplir dos condiciones, recibe bonificación.",
+      "distractores": [
+        {
+          "texto": "No, porque le falta una capacitación",
+          "explicacion": "Es incorrecta porque no es necesario cumplir las tres condiciones, solo al menos dos."
+        },
+        {
+          "texto": "Sí, porque cumple todas las condiciones",
+          "explicacion": "Es incorrecta porque no cumple la segunda condición (necesita 3 capacitaciones y tiene 2)."
+        },
+        {
+          "texto": "No, porque no cumple suficientes condiciones",
+          "explicacion": "Es incorrecta porque cumple dos condiciones, que es suficiente según la regla."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "texto": "Los registros de administración de medicamentos en HOMERIS durante una semana muestran la siguiente secuencia de dosis administradas (en ml): 2, 4, 7, 11, ?. Si el patrón se mantiene, ¿cuál es la siguiente dosis?",
+      "respuestaCorrecta": "16",
+      "explicacionCorrecta": "El patrón de incrementos es: +2 (2 a 4), +3 (4 a 7), +4 (7 a 11). El siguiente incremento es +5: 11 + 5 = 16.",
+      "distractores": [
+        {
+          "texto": "14",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +3 en lugar de +5."
+        },
+        {
+          "texto": "15",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +4 en lugar de +5."
+        },
+        {
+          "texto": "17",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +6, rompiendo el patrón."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "texto": "En el protocolo de atención a pacientes psiquiátricos de HOMERIS se establece: si el paciente está en fase aguda, entonces requiere observación cada 30 minutos. Si requiere observación cada 30 minutos, entonces no puede estar en una habitación individual. El paciente está en una habitación individual. ¿Qué podemos concluir?",
+      "respuestaCorrecta": "El paciente no está en fase aguda",
+      "explicacionCorrecta": "Por contrarrecíproco: si el paciente está en habitación individual, entonces no requiere observación cada 30 minutos; y si no requiere observación cada 30 minutos, entonces no está en fase aguda.",
+      "distractores": [
+        {
+          "texto": "El paciente está en fase aguda",
+          "explicacion": "Es incorrecta porque si estuviera en fase aguda, requeriría observación cada 30 minutos y no podría estar en habitación individual."
+        },
+        {
+          "texto": "Requiere observación cada 30 minutos",
+          "explicacion": "Es incorrecta porque si requiere observación, no podría estar en habitación individual, contradiciendo el enunciado."
+        },
+        {
+          "texto": "La habitación individual está permitida",
+          "explicacion": "Es incorrecta porque la regla establece que si requiere observación, no puede estar en habitación individual."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "texto": "En HOMERIS, si un paciente tiene diagnóstico de esquizofrenia paranoide, entonces requiere evaluación psiquiátrica semanal. Todos los pacientes que requieren evaluación psiquiátrica semanal tienen seguimiento por trabajo social. Juan tiene diagnóstico de esquizofrenia paranoide. ¿Qué podemos concluir?",
+      "respuestaCorrecta": "Juan tiene seguimiento por trabajo social",
+      "explicacionCorrecta": "Por silogismo: esquizofrenia paranoide → evaluación semanal → seguimiento trabajo social. Por lo tanto, Juan tiene seguimiento por trabajo social.",
+      "distractores": [
+        {
+          "texto": "Juan no requiere evaluación semanal",
+          "explicacion": "Es incorrecta porque el diagnóstico implica evaluación semanal según la regla."
+        },
+        {
+          "texto": "Todos los pacientes con seguimiento tienen esquizofrenia",
+          "explicacion": "Es incorrecta porque la regla no opera en sentido inverso."
+        },
+        {
+          "texto": "No se puede concluir nada",
+          "explicacion": "Es incorrecta porque sí se puede aplicar el silogismo completo."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "texto": "En el turno nocturno de HOMERIS, la cantidad de rondas de seguridad sigue esta secuencia: 6, 10, 15, 21, ?. Si el patrón se mantiene, ¿cuál es el siguiente número?",
+      "respuestaCorrecta": "28",
+      "explicacionCorrecta": "El patrón de incrementos es: +4 (6 a 10), +5 (10 a 15), +6 (15 a 21). El siguiente incremento es +7: 21 + 7 = 28.",
+      "distractores": [
+        {
+          "texto": "26",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +5 en lugar de +7."
+        },
+        {
+          "texto": "27",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +6 en lugar de +7."
+        },
+        {
+          "texto": "29",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +8, rompiendo el patrón."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "texto": "En HOMERIS se aplican estas reglas: si un paciente tiene trastorno bipolar, entonces requiere estabilizador del ánimo. Si requiere estabilizador del ánimo, entonces debe tener control de niveles séricos cada 3 meses. Un paciente NO tiene control de niveles séricos cada 3 meses. ¿Qué podemos concluir?",
+      "respuestaCorrecta": "El paciente no tiene trastorno bipolar",
+      "explicacionCorrecta": "Por contrarrecíproco: si no tiene control de niveles, entonces no requiere estabilizador; y si no requiere estabilizador, entonces no tiene trastorno bipolar.",
+      "distractores": [
+        {
+          "texto": "El paciente tiene trastorno bipolar pero no requiere estabilizador",
+          "explicacion": "Es incorrecta porque la regla establece que todo bipolar requiere estabilizador."
+        },
+        {
+          "texto": "Requiere estabilizador pero no tiene control",
+          "explicacion": "Es incorrecta porque estabilizador implica control cada 3 meses."
+        },
+        {
+          "texto": "El control no es necesario",
+          "explicacion": "Es incorrecta porque contradice la segunda regla."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "texto": "En la Unidad de Adolescentes de HOMERIS, los pacientes pueden salir al jardín terapéutico si cumplen al menos una de estas condiciones: tener pase de 3 días sin incidentes, haber completado el módulo de habilidades sociales, o tener autorización familiar expresa. Laura tiene pase de 3 días sin incidentes, NO completó el módulo, y tiene autorización familiar. Andrés NO tiene pase, completó el módulo, y NO tiene autorización. ¿Quiénes pueden salir al jardín?",
+      "respuestaCorrecta": "Laura y Andrés",
+      "explicacionCorrecta": "Laura cumple la primera condición (pase de 3 días) y la tercera (autorización). Andrés cumple la segunda (completó módulo). Ambos cumplen al menos una condición.",
+      "distractores": [
+        {
+          "texto": "Solo Laura",
+          "explicacion": "Es incorrecta porque Andrés también cumple una condición (completó módulo)."
+        },
+        {
+          "texto": "Solo Andrés",
+          "explicacion": "Es incorrecta porque Laura también cumple condiciones."
+        },
+        {
+          "texto": "Ninguno puede salir",
+          "explicacion": "Es incorrecta porque ambos cumplen al menos una condición."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "texto": "El registro de intentos de fuga en HOMERIS por semana es: 1, 3, 6, 10, ?. Si el patrón se mantiene, ¿cuál es el siguiente número?",
+      "respuestaCorrecta": "15",
+      "explicacionCorrecta": "El patrón de incrementos es: +2 (1 a 3), +3 (3 a 6), +4 (6 a 10). El siguiente incremento es +5: 10 + 5 = 15.",
+      "distractores": [
+        {
+          "texto": "13",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +3 en lugar de +5."
+        },
+        {
+          "texto": "14",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +4 en lugar de +5."
+        },
+        {
+          "texto": "16",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +6, rompiendo el patrón."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "texto": "En el protocolo de HOMERIS: 'Si el paciente tiene antecedentes de autolesiones, entonces debe tener plan de seguridad. Si tiene plan de seguridad, entonces se debe revisar cada semana.' Un paciente tiene antecedentes de autolesiones. ¿Qué podemos concluir?",
+      "respuestaCorrecta": "Su plan de seguridad debe revisarse cada semana",
+      "explicacionCorrecta": "Por silogismo: autolesiones → plan de seguridad → revisión semanal. Por lo tanto, debe revisarse cada semana.",
+      "distractores": [
+        {
+          "texto": "No necesita plan de seguridad porque son antecedentes",
+          "explicacion": "Es incorrecta porque la regla aplica precisamente por los antecedentes."
+        },
+        {
+          "texto": "La revisión puede ser cada mes",
+          "explicacion": "Es incorrecta porque la regla especifica 'cada semana'."
+        },
+        {
+          "texto": "No se puede concluir nada",
+          "explicacion": "Es incorrecta porque sí se puede aplicar el silogismo."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "texto": "En HOMERIS, para aplicar contención mecánica se requiere: orden médica Y consentimiento familiar (si el paciente no puede decidir) O situación de riesgo vital inminente. Se aplicó contención mecánica. No hubo orden médica. ¿Qué podemos concluir?",
+      "respuestaCorrecta": "Existía situación de riesgo vital inminente",
+      "explicacionCorrecta": "Las condiciones son: (orden médica Y consentimiento) O riesgo vital. Si no hubo orden médica, entonces no se cumplió la primera parte (requiere orden). Por lo tanto, necesariamente existía riesgo vital.",
+      "distractores": [
+        {
+          "texto": "Hubo consentimiento familiar",
+          "explicacion": "Es incorrecta porque sin orden médica, el consentimiento solo no es suficiente."
+        },
+        {
+          "texto": "El paciente podía decidir",
+          "explicacion": "Es incorrecta porque el texto no proporciona esa información."
+        },
+        {
+          "texto": "La contención fue injustificada",
+          "explicacion": "Es incorrecta porque la existencia de riesgo vital la justifica."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "texto": "Los días de hospitalización de pacientes con trastorno depresivo en HOMERIS son: 8, 12, 17, 23, ?. Si el patrón se mantiene, ¿cuál es el siguiente número?",
+      "respuestaCorrecta": "30",
+      "explicacionCorrecta": "El patrón de incrementos es: +4 (8 a 12), +5 (12 a 17), +6 (17 a 23). El siguiente incremento es +7: 23 + 7 = 30.",
+      "distractores": [
+        {
+          "texto": "28",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +5 en lugar de +7."
+        },
+        {
+          "texto": "29",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +6 en lugar de +7."
+        },
+        {
+          "texto": "31",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +8, rompiendo el patrón."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "texto": "En HOMERIS: todos los pacientes con trastorno de personalidad límite requieren terapia dialéctica conductual. Algunos pacientes con trastorno de personalidad límite tienen intentos de autolesión. Todos los pacientes con intentos de autolesión requieren monitoreo cada 15 minutos. ¿Qué podemos concluir?",
+      "respuestaCorrecta": "Algunos pacientes requieren terapia dialéctica conductual Y monitoreo cada 15 minutos",
+      "explicacionCorrecta": "Los pacientes con trastorno límite que tienen intentos de autolesión requieren ambas cosas: terapia (por el trastorno) y monitoreo (por los intentos).",
+      "distractores": [
+        {
+          "texto": "Todos los pacientes con trastorno límite requieren monitoreo",
+          "explicacion": "Es incorrecta porque solo los que tienen intentos de autolesión requieren monitoreo."
+        },
+        {
+          "texto": "Ningún paciente con intentos requiere terapia",
+          "explicacion": "Es incorrecta porque el trastorno límite implica terapia independientemente de los intentos."
+        },
+        {
+          "texto": "La terapia reemplaza al monitoreo",
+          "explicacion": "Es incorrecta porque son intervenciones complementarias."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "texto": "En el registro de incidentes de HOMERIS, la secuencia de quejas de familiares por semana es: 3, 7, 12, 18, ?. Si el patrón se mantiene, ¿cuál es el siguiente número?",
+      "respuestaCorrecta": "25",
+      "explicacionCorrecta": "El patrón de incrementos es: +4 (3 a 7), +5 (7 a 12), +6 (12 a 18). El siguiente incremento es +7: 18 + 7 = 25.",
+      "distractores": [
+        {
+          "texto": "23",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +5 en lugar de +7."
+        },
+        {
+          "texto": "24",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +6 en lugar de +7."
+        },
+        {
+          "texto": "26",
+          "explicacion": "Es incorrecta porque aplicaría un incremento de +8, rompiendo el patrón."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "texto": "En HOMERIS, un paciente psiquiátrico debe recibir 5 mg de haloperidol por cada 10 kg de peso. Si el paciente pesa 68 kg, ¿cuántos mg debe recibir?",
+      "respuestaCorrecta": "34 mg",
+      "explicacionCorrecta": "Cálculo: (68 kg ÷ 10 kg) × 5 mg = 6,8 × 5 = 34 mg.",
+      "distractores": [
+        {
+          "texto": "30 mg",
+          "explicacion": "Es incorrecta porque calcularía 6 × 5 = 30, ignorando los 8 kg adicionales."
+        },
+        {
+          "texto": "35 mg",
+          "explicacion": "Es incorrecta porque redondearía 6,8 a 7 antes de multiplicar: 7 × 5 = 35."
+        },
+        {
+          "texto": "40 mg",
+          "explicacion": "Es incorrecta porque usaría 8 kg como divisor: 68 ÷ 8 = 8,5 × 5 = 42,5, aproximado incorrectamente."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "texto": "En la Unidad de Crisis de HOMERIS, la relación enfermera-paciente debe ser de 1:3 (una enfermera por cada 3 pacientes). Si hay 19 pacientes en la unidad, ¿cuántas enfermeras se necesitan como mínimo?",
+      "respuestaCorrecta": "7 enfermeras",
+      "explicacionCorrecta": "19 ÷ 3 = 6,33. Como no se puede tener fracción de enfermera, se necesitan 7 enfermeras (redondeo al alza).",
+      "distractores": [
+        {
+          "texto": "6 enfermeras",
+          "explicacion": "Es incorrecta porque 6 enfermeras atenderían solo 18 pacientes, insuficiente para 19."
+        },
+        {
+          "texto": "5 enfermeras",
+          "explicacion": "Es incorrecta porque atenderían solo 15 pacientes."
+        },
+        {
+          "texto": "8 enfermeras",
+          "explicacion": "Es incorrecta porque es más del mínimo necesario (7 son suficientes)."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "texto": "Un paciente recibe 150 mg de un medicamento cada 8 horas. ¿Cuántos mg recibe en 7 días?",
+      "respuestaCorrecta": "3150 mg",
+      "explicacionCorrecta": "Dosis por día: 24 ÷ 8 = 3 dosis. Dosis diaria: 150 mg × 3 = 450 mg. En 7 días: 450 mg × 7 = 3150 mg.",
+      "distractores": [
+        {
+          "texto": "3000 mg",
+          "explicacion": "Es incorrecta porque calcularía 150 × 20 = 3000, pero 7 días tienen 21 dosis (no 20)."
+        },
+        {
+          "texto": "3500 mg",
+          "explicacion": "Es incorrecta porque calcularía 500 mg diarios × 7 = 3500 mg, asumiendo dosis incorrecta."
+        },
+        {
+          "texto": "2800 mg",
+          "explicacion": "Es incorrecta porque calcularía 400 mg diarios × 7 = 2800 mg, subestimando las dosis diarias."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "texto": "En la farmacia de HOMERIS, un liofilizado de 500 mg debe reconstituirse con 10 ml de agua estéril para obtener una concentración de 50 mg/ml. ¿Cuántos ml se necesitan para administrar 120 mg?",
+      "respuestaCorrecta": "2,4 ml",
+      "explicacionCorrecta": "Concentración: 500 mg ÷ 10 ml = 50 mg/ml. Dosis: 120 mg ÷ 50 mg/ml = 2,4 ml.",
+      "distractores": [
+        {
+          "texto": "2 ml",
+          "explicacion": "Es incorrecta porque correspondería a 100 mg (50 × 2 = 100), insuficiente."
+        },
+        {
+          "texto": "2,5 ml",
+          "explicacion": "Es incorrecta porque correspondería a 125 mg (50 × 2,5 = 125)."
+        },
+        {
+          "texto": "3 ml",
+          "explicacion": "Es incorrecta porque correspondería a 150 mg (50 × 3 = 150), excediendo la dosis."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "texto": "El gasto mensual en psicofármacos de HOMERIS aumentó un 15% respecto al mes anterior. Si el gasto del mes anterior fue de $8.200.000, ¿cuál es el nuevo gasto?",
+      "respuestaCorrecta": "$9.430.000",
+      "explicacionCorrecta": "Incremento: 8.200.000 × 0,15 = 1.230.000. Nuevo gasto: 8.200.000 + 1.230.000 = 9.430.000.",
+      "distractores": [
+        {
+          "texto": "$9.000.000",
+          "explicacion": "Es incorrecta porque calcula un incremento de $800.000 (9,75%)."
+        },
+        {
+          "texto": "$9.500.000",
+          "explicacion": "Es incorrecta porque calcula un incremento de $1.300.000 (15,85%)."
+        },
+        {
+          "texto": "$9.800.000",
+          "explicacion": "Es incorrecta porque duplica el porcentaje: 8.200.000 × 0,30 = 2.460.000 + base = 10.660.000, aproximado incorrectamente."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "texto": "La nómina de auxiliares de enfermería de HOMERIS es de $45.000.000 mensuales. Si se contratan 3 nuevos auxiliares y cada uno gana $2.800.000, ¿cuál será el nuevo total de la nómina?",
+      "respuestaCorrecta": "$53.400.000",
+      "explicacionCorrecta": "Incremento: 3 × 2.800.000 = 8.400.000. Nuevo total: 45.000.000 + 8.400.000 = 53.400.000.",
+      "distractores": [
+        {
+          "texto": "$50.400.000",
+          "explicacion": "Es incorrecta porque sumaría solo 5.400.000 (error en multiplicación)."
+        },
+        {
+          "texto": "$52.800.000",
+          "explicacion": "Es incorrecta porque calcularía 45.000.000 + (3 × 2.600.000) = 52.800.000."
+        },
+        {
+          "texto": "$54.600.000",
+          "explicacion": "Es incorrecta porque sumaría 45.000.000 + 9.600.000 = 54.600.000 (error en multiplicación)."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "texto": "Un paciente debe tomar 0,125 mg de clonazepam. La presentación es en tabletas de 0,5 mg. ¿Cuántas tabletas debe tomar?",
+      "respuestaCorrecta": "1/4 tableta (0,25 tabletas)",
+      "explicacionCorrecta": "0,125 ÷ 0,5 = 0,25. Es decir, un cuarto de tableta.",
+      "distractores": [
+        {
+          "texto": "1/2 tableta (0,5 tabletas)",
+          "explicacion": "Es incorrecta porque 0,5 × 0,5 = 0,25 mg, duplicando la dosis."
+        },
+        {
+          "texto": "1 tableta",
+          "explicacion": "Es incorrecta porque sería 0,5 mg, cuatro veces la dosis indicada."
+        },
+        {
+          "texto": "1/8 tableta (0,125 tabletas)",
+          "explicacion": "Es incorrecta porque 0,5 × 0,125 = 0,0625 mg, la mitad de la dosis."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "texto": "La Unidad de Hospitalización de HOMERIS tiene capacidad para 40 pacientes. Actualmente hay 32 pacientes ocupando camas. ¿Cuál es el porcentaje de ocupación?",
+      "respuestaCorrecta": "80%",
+      "explicacionCorrecta": "(32 ÷ 40) × 100 = 0,8 × 100 = 80%.",
+      "distractores": [
+        {
+          "texto": "75%",
+          "explicacion": "Es incorrecta porque calcularía 30 ÷ 40 = 75%."
+        },
+        {
+          "texto": "85%",
+          "explicacion": "Es incorrecta porque calcularía 34 ÷ 40 = 85%."
+        },
+        {
+          "texto": "90%",
+          "explicacion": "Es incorrecta porque 90% serían 36 pacientes (40 × 0,9 = 36)."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "texto": "En HOMERIS, el 60% de los pacientes en la Unidad de Agudos requieren contención farmacológica. Si hay 45 pacientes en esa unidad, ¿cuántos requieren contención farmacológica?",
+      "respuestaCorrecta": "27 pacientes",
+      "explicacionCorrecta": "45 × 0,60 = 27 pacientes.",
+      "distractores": [
+        {
+          "texto": "25 pacientes",
+          "explicacion": "Es incorrecta porque calcularía 45 × 0,55 = 24,75, redondeado a 25."
+        },
+        {
+          "texto": "30 pacientes",
+          "explicacion": "Es incorrecta porque sería el 66,6% de 45."
+        },
+        {
+          "texto": "18 pacientes",
+          "explicacion": "Es incorrecta porque sería el 40% de 45."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "texto": "Un frasco de antibiótico contiene 2 gramos de polvo. Si se reconstituye con 4 ml de agua destilada, la concentración es de 500 mg/ml. ¿Cuántos ml se necesitan para 750 mg?",
+      "respuestaCorrecta": "1,5 ml",
+      "explicacionCorrecta": "2 g = 2000 mg. Concentración: 2000 mg ÷ 4 ml = 500 mg/ml. Dosis: 750 mg ÷ 500 mg/ml = 1,5 ml.",
+      "distractores": [
+        {
+          "texto": "1 ml",
+          "explicacion": "Es incorrecta porque correspondería a 500 mg, insuficiente."
+        },
+        {
+          "texto": "2 ml",
+          "explicacion": "Es incorrecta porque correspondería a 1000 mg, excediendo la dosis."
+        },
+        {
+          "texto": "1,25 ml",
+          "explicacion": "Es incorrecta porque 500 × 1,25 = 625 mg, insuficiente."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "texto": "En HOMERIS, un paciente con trastorno bipolar debe recibir litio a dosis de 300 mg cada 8 horas. ¿Cuántos mg recibe en 5 días?",
+      "respuestaCorrecta": "4500 mg",
+      "explicacionCorrecta": "Dosis por día: 24 ÷ 8 = 3 dosis. Dosis diaria: 300 mg × 3 = 900 mg. En 5 días: 900 mg × 5 = 4500 mg.",
+      "distractores": [
+        {
+          "texto": "3600 mg",
+          "explicacion": "Es incorrecta porque calcularía 300 × 12 = 3600 (asumiendo 12 dosis diarias en lugar de 3)."
+        },
+        {
+          "texto": "4000 mg",
+          "explicacion": "Es incorrecta porque calcularía 800 mg diarios × 5 = 4000 mg, asumiendo dosis incorrecta."
+        },
+        {
+          "texto": "5000 mg",
+          "explicacion": "Es incorrecta porque calcularía 1000 mg diarios × 5 = 5000 mg, usando dosis diaria incorrecta."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "texto": "En la Unidad de Hospitalización de HOMERIS, la relación enfermera-paciente en turno nocturno debe ser de 1:6. Si hay 38 pacientes en la unidad, ¿cuántas enfermeras se necesitan como mínimo en el turno nocturno?",
+      "respuestaCorrecta": "7 enfermeras",
+      "explicacionCorrecta": "38 ÷ 6 = 6,33. Como no se puede tener fracción de enfermera, se necesitan 7 enfermeras (redondeo al alza).",
+      "distractores": [
+        {
+          "texto": "6 enfermeras",
+          "explicacion": "Es incorrecta porque 6 enfermeras atenderían solo 36 pacientes, insuficiente para 38."
+        },
+        {
+          "texto": "5 enfermeras",
+          "explicacion": "Es incorrecta porque atenderían solo 30 pacientes."
+        },
+        {
+          "texto": "8 enfermeras",
+          "explicacion": "Es incorrecta porque es más del mínimo necesario (7 son suficientes)."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "texto": "Un paciente psiquiátrico recibe haloperidol 5 mg cada 12 horas. ¿Cuántos mg recibe en una semana (7 días)?",
+      "respuestaCorrecta": "70 mg",
+      "explicacionCorrecta": "Dosis por día: 24 ÷ 12 = 2 dosis. Dosis diaria: 5 mg × 2 = 10 mg. En 7 días: 10 mg × 7 = 70 mg.",
+      "distractores": [
+        {
+          "texto": "60 mg",
+          "explicacion": "Es incorrecta porque calcularía 5 × 12 = 60, asumiendo dosis cada hora."
+        },
+        {
+          "texto": "35 mg",
+          "explicacion": "Es incorrecta porque calcularía 5 × 7 = 35 mg, ignorando las 2 dosis diarias."
+        },
+        {
+          "texto": "84 mg",
+          "explicacion": "Es incorrecta porque calcularía 12 × 7 = 84, asumiendo dosis horaria incorrecta."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "texto": "En la farmacia de HOMERIS, un frasco de clozapina contiene 200 ml de suspensión a 50 mg/ml. ¿Cuántos mg hay en total en el frasco?",
+      "respuestaCorrecta": "10000 mg",
+      "explicacionCorrecta": "50 mg/ml × 200 ml = 10000 mg (equivalente a 10 gramos).",
+      "distractores": [
+        {
+          "texto": "5000 mg",
+          "explicacion": "Es incorrecta porque calcularía 25 × 200 = 5000 (mitad de concentración)."
+        },
+        {
+          "texto": "8000 mg",
+          "explicacion": "Es incorrecta porque usaría 40 mg/ml en lugar de 50."
+        },
+        {
+          "texto": "12000 mg",
+          "explicacion": "Es incorrecta porque usaría 60 mg/ml en lugar de 50."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "texto": "El gasto mensual en psicoterapias de HOMERIS es de $12.500.000. Se proyecta un aumento del 8% para el próximo mes. ¿Cuál será el nuevo gasto?",
+      "respuestaCorrecta": "$13.500.000",
+      "explicacionCorrecta": "Incremento: 12.500.000 × 0,08 = 1.000.000. Nuevo gasto: 12.500.000 + 1.000.000 = 13.500.000.",
+      "distractores": [
+        {
+          "texto": "$13.000.000",
+          "explicacion": "Es incorrecta porque calcula un incremento del 4% (500.000)."
+        },
+        {
+          "texto": "$13.750.000",
+          "explicacion": "Es incorrecta porque calcula un incremento del 10% (1.250.000)."
+        },
+        {
+          "texto": "$14.000.000",
+          "explicacion": "Es incorrecta porque calcula un incremento del 12% (1.500.000)."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "texto": "Un paciente debe tomar 0,25 mg de risperidona. La presentación es en tabletas de 1 mg. ¿Qué fracción de tableta debe tomar?",
+      "respuestaCorrecta": "1/4 de tableta",
+      "explicacionCorrecta": "0,25 ÷ 1 = 0,25 = 1/4 (un cuarto de tableta).",
+      "distractores": [
+        {
+          "texto": "1/2 de tableta",
+          "explicacion": "Es incorrecta porque sería 0,5 mg, el doble de la dosis."
+        },
+        {
+          "texto": "1/8 de tableta",
+          "explicacion": "Es incorrecta porque sería 0,125 mg, la mitad de la dosis."
+        },
+        {
+          "texto": "1/3 de tableta",
+          "explicacion": "Es incorrecta porque 1/3 equivale aproximadamente a 0,33 mg, excediendo la dosis."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "texto": "La Unidad de Agudos de HOMERIS tiene capacidad para 32 pacientes. Actualmente hay 24 pacientes ocupando camas. ¿Cuál es el porcentaje de ocupación?",
+      "respuestaCorrecta": "75%",
+      "explicacionCorrecta": "(24 ÷ 32) × 100 = 0,75 × 100 = 75%.",
+      "distractores": [
+        {
+          "texto": "70%",
+          "explicacion": "Es incorrecta porque calcularía 22,4 ÷ 32 = 70% (aproximación incorrecta)."
+        },
+        {
+          "texto": "80%",
+          "explicacion": "Es incorrecta porque calcularía 25,6 ÷ 32 = 80% (redondeo al alza incorrecto)."
+        },
+        {
+          "texto": "66%",
+          "explicacion": "Es incorrecta porque calcularía 21 ÷ 32 = 66% (subestimación)."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "texto": "En HOMERIS, el 45% de los pacientes en la Unidad de Adolescentes requieren contención farmacológica. Si hay 60 pacientes en esa unidad, ¿cuántos requieren contención farmacológica?",
+      "respuestaCorrecta": "27 pacientes",
+      "explicacionCorrecta": "60 × 0,45 = 27 pacientes.",
+      "distractores": [
+        {
+          "texto": "25 pacientes",
+          "explicacion": "Es incorrecta porque 60 × 0,416 = 25 (redondeo a la baja)."
+        },
+        {
+          "texto": "30 pacientes",
+          "explicacion": "Es incorrecta porque sería el 50% de 60."
+        },
+        {
+          "texto": "22 pacientes",
+          "explicacion": "Es incorrecta porque sería aproximadamente el 36,7% de 60."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "texto": "Un frasco de medicamento liofilizado contiene 1,5 gramos de polvo. Se reconstituye con 6 ml de agua destilada. ¿Cuál es la concentración final en mg/ml?",
+      "respuestaCorrecta": "250 mg/ml",
+      "explicacionCorrecta": "1,5 g = 1500 mg. Concentración: 1500 mg ÷ 6 ml = 250 mg/ml.",
+      "distractores": [
+        {
+          "texto": "200 mg/ml",
+          "explicacion": "Es incorrecta porque calcularía 1200 ÷ 6 = 200 (usando 1,2 g en lugar de 1,5)."
+        },
+        {
+          "texto": "300 mg/ml",
+          "explicacion": "Es incorrecta porque calcularía 1800 ÷ 6 = 300 (usando 1,8 g en lugar de 1,5)."
+        },
+        {
+          "texto": "150 mg/ml",
+          "explicacion": "Es incorrecta porque calcularía 1500 ÷ 10 = 150 (usando 10 ml en lugar de 6)."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "texto": "Un paciente debe recibir 0,5 mg de lorazepam. La presentación es en tabletas de 2 mg. ¿Cuántas tabletas debe tomar?",
+      "respuestaCorrecta": "1/4 tableta (0,25 tabletas)",
+      "explicacionCorrecta": "0,5 ÷ 2 = 0,25. Es decir, un cuarto de tableta.",
+      "distractores": [
+        {
+          "texto": "1/2 tableta",
+          "explicacion": "Es incorrecta porque sería 1 mg, el doble de la dosis."
+        },
+        {
+          "texto": "1/8 tableta",
+          "explicacion": "Es incorrecta porque 2 ÷ 8 = 0,25 mg, la mitad de la dosis."
+        },
+        {
+          "texto": "1 tableta",
+          "explicacion": "Es incorrecta porque sería 2 mg, cuatro veces la dosis indicada."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "texto": "Lea el siguiente fragmento del protocolo de HOMERIS: 'Ante un paciente con agitación psicomotriz severa, el personal de enfermería debe activar el código de seguridad, retirar objetos peligrosos del entorno y mantener una distancia de seguridad mientras se espera la orden médica.' ¿Cuál de las siguientes opciones describe el ORDEN correcto de las acciones?",
+      "respuestaCorrecta": "Activar código, retirar objetos, mantener distancia, esperar orden médica",
+      "explicacionCorrecta": "El texto establece el orden: primero activar código de seguridad, luego retirar objetos peligrosos, después mantener distancia y finalmente esperar la orden médica.",
+      "distractores": [
+        {
+          "texto": "Mantener distancia, activar código, retirar objetos, esperar orden",
+          "explicacion": "Es incorrecta porque el texto indica que mantener distancia es posterior a las primeras acciones, no la primera."
+        },
+        {
+          "texto": "Esperar orden, activar código, retirar objetos, mantener distancia",
+          "explicacion": "Es incorrecta porque esperar la orden médica es la última acción, no la primera."
+        },
+        {
+          "texto": "Retirar objetos, activar código, esperar orden, mantener distancia",
+          "explicacion": "Es incorrecta porque activar el código es la primera acción, no la segunda."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "texto": "Lea el siguiente texto: 'La Ley 1616 de 2013 garantiza el derecho a la salud mental de todos los colombianos. Esta ley establece que la atención debe ser integral, intersectorial y basada en la comunidad. Además, prohíbe cualquier forma de discriminación hacia las personas con trastornos mentales.' ¿Qué características de la atención establece esta ley?",
+      "respuestaCorrecta": "Integral, intersectorial y basada en la comunidad",
+      "explicacionCorrecta": "El texto menciona explícitamente que la atención debe ser 'integral, intersectorial y basada en la comunidad'.",
+      "distractores": [
+        {
+          "texto": "Hospitalaria, especializada y centralizada",
+          "explicacion": "Es incorrecta porque el texto enfatiza el enfoque comunitario, no hospitalario centralizado."
+        },
+        {
+          "texto": "Privada, voluntaria y con costo compartido",
+          "explicacion": "Es incorrecta porque el texto no menciona carácter privado ni costos."
+        },
+        {
+          "texto": "Urgente, inmediata y exclusiva para crisis",
+          "explicacion": "Es incorrecta porque la ley busca atención integral, no solo para crisis."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "texto": "Lea el siguiente extracto de una historia clínica de HOMERIS: 'Paciente de 34 años, ingresado por crisis psicótica aguda. Antecedentes de consumo de sustancias psicoactivas. Al ingreso se encuentra desorientado, con alucinaciones auditivas y verborragia. Se inicia tratamiento con risperidona 2 mg cada 12 horas.' ¿Cuál es el síntoma que NO está presente en el paciente según el texto?",
+      "respuestaCorrecta": "Apatía",
+      "explicacionCorrecta": "El texto describe desorientación, alucinaciones auditivas y verborragia. No menciona apatía en ningún momento.",
+      "distractores": [
+        {
+          "texto": "Desorientación",
+          "explicacion": "Es incorrecta porque el texto menciona explícitamente que 'se encuentra desorientado'."
+        },
+        {
+          "texto": "Alucinaciones auditivas",
+          "explicacion": "Es incorrecta porque el texto menciona 'con alucinaciones auditivas'."
+        },
+        {
+          "texto": "Verborragia",
+          "explicacion": "Es incorrecta porque el texto menciona 'y verborragia' como síntoma presente."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "texto": "Lea el siguiente aviso del Ministerio de Salud: 'A partir del 1 de enero de 2025, todas las IPS deberán implementar el nuevo sistema de historia clínica electrónica interoperable. Las entidades que no cumplan con esta disposición dentro del plazo establecido serán sujetas a sanciones económicas.' ¿Qué se puede inferir sobre las IPS que cumplan con la disposición?",
+      "respuestaCorrecta": "No recibirán sanciones económicas",
+      "explicacionCorrecta": "Se infiere que si las sanciones son para quienes NO cumplen, quienes sí cumplen no serán sancionados.",
+      "distractores": [
+        {
+          "texto": "Recibirán un incentivo económico",
+          "explicacion": "Es incorrecta porque el texto no menciona ningún incentivo para quienes cumplan."
+        },
+        {
+          "texto": "Tendrán prioridad en auditorías",
+          "explicacion": "Es incorrecta porque el texto no menciona prioridad alguna."
+        },
+        {
+          "texto": "Podrán operar sin restricciones",
+          "explicacion": "Es incorrecta porque operar sin restricciones es la condición normal, no una inferencia específica."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "texto": "Lea el siguiente fragmento de un artículo del Código Deontológico de Enfermería: 'El profesional de enfermería respetará la confidencialidad de la información del paciente, excepto cuando exista riesgo inminente para la vida del paciente o de terceros.' ¿En cuál de las siguientes situaciones el profesional DEBE romper la confidencialidad según el texto?",
+      "respuestaCorrecta": "El paciente amenaza con herir a otro paciente",
+      "explicacionCorrecta": "Existe riesgo inminente para un tercero, lo cual es una excepción a la confidencialidad según el texto.",
+      "distractores": [
+        {
+          "texto": "El familiar del paciente solicita información",
+          "explicacion": "Es incorrecta porque la solicitud familiar no es una excepción mencionada en el texto."
+        },
+        {
+          "texto": "El paciente tiene una enfermedad terminal",
+          "explicacion": "Es incorrecta porque enfermedad terminal no implica riesgo inminente para otros."
+        },
+        {
+          "texto": "El médico tratante lo solicita",
+          "explicacion": "Es incorrecta porque la orden médica no es excepción a la confidencialidad."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "texto": "Lea el siguiente texto sobre el Plan de Beneficios en Salud (PBS): 'El PBS garantiza servicios de promoción, prevención, diagnóstico, tratamiento y rehabilitación. Los servicios excluidos requieren autorización previa de la EPS.' ¿Qué se requiere para acceder a un servicio excluido del PBS?",
+      "respuestaCorrecta": "Autorización previa de la EPS",
+      "explicacionCorrecta": "El texto indica explícitamente que los servicios excluidos 'requieren autorización previa de la EPS'.",
+      "distractores": [
+        {
+          "texto": "Un fallo de tutela",
+          "explicacion": "Es incorrecta porque la tutela es un recurso legal, no el requisito mencionado en el texto."
+        },
+        {
+          "texto": "Pago particular del servicio",
+          "explicacion": "Es incorrecta porque el texto no menciona pago particular como alternativa a la autorización."
+        },
+        {
+          "texto": "Orden del Ministerio de Salud",
+          "explicacion": "Es incorrecta porque no se menciona intervención ministerial en ese proceso."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "texto": "Lea el siguiente mensaje del Comité de Calidad de HOMERIS: 'El ausentismo laboral en el piso de hospitalización aumentó un 12% en el último trimestre. Se recomienda fortalecer los programas de bienestar laboral y revisar las cargas de trabajo.' ¿Qué problema busca solucionar el comité con sus recomendaciones?",
+      "respuestaCorrecta": "El aumento del ausentismo laboral",
+      "explicacionCorrecta": "El texto menciona que el ausentismo aumentó un 12% y las recomendaciones están dirigidas a mejorar las condiciones laborales para reducir ese ausentismo.",
+      "distractores": [
+        {
+          "texto": "La falta de personal calificado",
+          "explicacion": "Es incorrecta porque el texto no menciona falta de calificación del personal."
+        },
+        {
+          "texto": "El bajo rendimiento laboral",
+          "explicacion": "Es incorrecta porque el texto no menciona rendimiento laboral, solo ausentismo."
+        },
+        {
+          "texto": "La mala calidad de atención",
+          "explicacion": "Es incorrecta porque el texto no relaciona directamente ausentismo con calidad de atención."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "texto": "Lea el siguiente fragmento del informe de incidentes de HOMERIS: 'Se reportó un evento adverso en la administración de medicamentos: dosis incorrecta de haloperidol (10 mg en lugar de 5 mg). El paciente no presentó complicaciones. Se recomienda verificar doblemente la dosis antes de administrar.' ¿Qué medida correctiva se sugiere implementar?",
+      "respuestaCorrecta": "Verificar doblemente la dosis antes de administrar",
+      "explicacionCorrecta": "El texto recomienda 'verificar doblemente la dosis antes de administrar' como medida preventiva.",
+      "distractores": [
+        {
+          "texto": "Suspender la administración de haloperidol",
+          "explicacion": "Es incorrecta porque el texto no sugiere suspender el medicamento, sino mejorar el proceso."
+        },
+        {
+          "texto": "Capacitar solo al personal involucrado",
+          "explicacion": "Es incorrecta porque la recomendación es sobre el proceso, no sobre capacitación individual."
+        },
+        {
+          "texto": "Administrar siempre la dosis menor",
+          "explicacion": "Es incorrecta porque la dosis debe ser la indicada, no siempre la menor."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "texto": "Lea el siguiente texto: 'Según la Resolución 1444 de 2025, los auxiliares de enfermería deben realizar un curso de actualización cada 3 años para mantener su certificación vigente. El incumplimiento de esta obligación será causal de inhabilitación temporal.' ¿Cuál es la consecuencia de no realizar el curso de actualización?",
+      "respuestaCorrecta": "Inhabilitación temporal",
+      "explicacionCorrecta": "El texto indica que el incumplimiento 'será causal de inhabilitación temporal'.",
+      "distractores": [
+        {
+          "texto": "Pérdida definitiva de la certificación",
+          "explicacion": "Es incorrecta porque el texto especifica 'inhabilitación temporal', no definitiva."
+        },
+        {
+          "texto": "Multa económica",
+          "explicacion": "Es incorrecta porque el texto no menciona multa como consecuencia."
+        },
+        {
+          "texto": "Realizar el curso de forma intensiva",
+          "explicacion": "Es incorrecta porque la inhabilitación es la consecuencia, no una oportunidad de recuperación."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "texto": "Lea el siguiente extracto del manual de bioseguridad de HOMERIS: 'El lavado de manos debe realizarse antes y después de cada contacto con el paciente. En procedimientos invasivos, además del lavado, deben usarse guantes estériles.' ¿En qué situaciones se requiere el uso de guantes estériles?",
+      "respuestaCorrecta": "En procedimientos invasivos",
+      "explicacionCorrecta": "El texto indica que 'en procedimientos invasivos, además del lavado, deben usarse guantes estériles'.",
+      "distractores": [
+        {
+          "texto": "Antes de cada contacto con el paciente",
+          "explicacion": "Es incorrecta porque antes de cada contacto solo se requiere lavado de manos, no guantes estériles."
+        },
+        {
+          "texto": "Después de cada contacto con el paciente",
+          "explicacion": "Es incorrecta porque el texto no menciona uso de guantes estériles después del contacto."
+        },
+        {
+          "texto": "En procedimientos no invasivos",
+          "explicacion": "Es incorrecta porque el texto especifica que es solo en procedimientos invasivos."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "texto": "Lea el siguiente extracto del plan de emergencias de HOMERIS: 'En caso de incendio, el personal de enfermería debe evacuar primero a los pacientes con movilidad reducida. Luego, debe evacuar a los pacientes ambulatorios. Finalmente, el personal debe salir verificando que no queden pacientes en el área.' ¿Cuál es el orden correcto de evacuación según el texto?",
+      "respuestaCorrecta": "Pacientes con movilidad reducida, pacientes ambulatorios, personal verificando",
+      "explicacionCorrecta": "El texto establece el orden: primero pacientes con movilidad reducida, luego ambulatorios, y finalmente el personal verifica y sale.",
+      "distractores": [
+        {
+          "texto": "Personal, pacientes ambulatorios, pacientes con movilidad reducida",
+          "explicacion": "Es incorrecta porque el texto indica que el personal sale al final, no primero."
+        },
+        {
+          "texto": "Pacientes ambulatorios, pacientes con movilidad reducida, personal",
+          "explicacion": "Es incorrecta porque los de movilidad reducida tienen prioridad, no los ambulatorios."
+        },
+        {
+          "texto": "Personal verificando, pacientes ambulatorios, pacientes con movilidad reducida",
+          "explicacion": "Es incorrecta porque la verificación del personal es el último paso, no el primero."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "texto": "Lea el siguiente fragmento de la Resolución 1444 de 2025: 'Las instituciones prestadoras de servicios de salud deberán implementar estrategias de retención de talento humano, priorizando a los profesionales con más de 5 años de servicio en el sector público.' ¿Qué grupo debe ser priorizado según el texto?",
+      "respuestaCorrecta": "Profesionales con más de 5 años en el sector público",
+      "explicacionCorrecta": "El texto indica explícitamente que se debe priorizar a los profesionales con más de 5 años de servicio en el sector público.",
+      "distractores": [
+        {
+          "texto": "Todos los profesionales independientemente de la antigüedad",
+          "explicacion": "Es incorrecta porque el texto establece una priorización por antigüedad."
+        },
+        {
+          "texto": "Profesionales con más de 5 años en el sector privado",
+          "explicacion": "Es incorrecta porque el texto especifica 'sector público', no privado."
+        },
+        {
+          "texto": "Profesionales recién egresados",
+          "explicacion": "Es incorrecta porque el texto prioriza antigüedad, no egreso reciente."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "texto": "Lea el siguiente aviso de la CNSC sobre el concurso ESE 2: 'El inscrito deberá adjuntar los documentos de soporte de experiencia laboral en formato PDF. No se aceptarán fotografías ni capturas de pantalla. La falta de adjuntar los documentos dentro del plazo será causal de rechazo de la inscripción.' ¿Cuál es la consecuencia de NO adjuntar los documentos en formato PDF?",
+      "respuestaCorrecta": "Rechazo de la inscripción",
+      "explicacionCorrecta": "El texto indica que 'la falta de adjuntar los documentos dentro del plazo será causal de rechazo de la inscripción'.",
+      "distractores": [
+        {
+          "texto": "La inscripción queda en espera",
+          "explicacion": "Es incorrecta porque el texto especifica rechazo, no espera."
+        },
+        {
+          "texto": "Multa económica",
+          "explicacion": "Es incorrecta porque el texto no menciona multa."
+        },
+        {
+          "texto": "Reducción del puntaje de experiencia",
+          "explicacion": "Es incorrecta porque no menciona reducción, sino rechazo directo."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "texto": "Lea el siguiente texto del código de ética de enfermería: 'El profesional debe mantener actualizada su formación continua. Asimismo, debe participar en los comités de calidad de su institución. Estas dos obligaciones son exigibles para el ejercicio profesional.' ¿Cuáles son las dos obligaciones exigibles según el texto?",
+      "respuestaCorrecta": "Formación continua actualizada y participación en comités de calidad",
+      "explicacionCorrecta": "El texto menciona explícitamente: 'mantener actualizada su formación continua' y 'participar en los comités de calidad' como las dos obligaciones exigibles.",
+      "distractores": [
+        {
+          "texto": "Investigación clínica y docencia universitaria",
+          "explicacion": "Es incorrecta porque el texto no menciona ni investigación ni docencia como obligatorias."
+        },
+        {
+          "texto": "Asistencia a congresos y publicaciones científicas",
+          "explicacion": "Es incorrecta porque no son mencionadas como obligaciones exigibles."
+        },
+        {
+          "texto": "Liderazgo de equipos y gestión de recursos",
+          "explicacion": "Es incorrecta porque el texto no las menciona."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "texto": "Lea el siguiente fragmento de la historia clínica de un paciente de HOMERIS: 'Paciente femenina de 28 años, ingresa por tercera crisis de ansiedad en el mes. Refiere taquicardia, sensación de ahogo y miedo a morir. Se sospecha trastorno de pánico. Se inicia escitalopram 10 mg/día y se cita a psicoterapia semanal.' ¿Qué síntomas presenta la paciente según el texto?",
+      "respuestaCorrecta": "Taquicardia, sensación de ahogo, miedo a morir",
+      "explicacionCorrecta": "El texto menciona explícitamente que refiere 'taquicardia, sensación de ahogo y miedo a morir'.",
+      "distractores": [
+        {
+          "texto": "Alucinaciones, delirios y desorientación",
+          "explicacion": "Es incorrecta porque esos síntomas corresponden a psicosis, no a crisis de ansiedad."
+        },
+        {
+          "texto": "Insomnio, hiporexia y anhedonia",
+          "explicacion": "Es incorrecta porque esos son síntomas depresivos, no de crisis de pánico."
+        },
+        {
+          "texto": "Apatía, abulia y aislamiento social",
+          "explicacion": "Es incorrecta porque son síntomas negativos, no descritos en el texto."
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "texto": "Lea el siguiente extracto del reglamento interno de HOMERIS: 'Los auxiliares de enfermería podrán administrar medicamentos de uso oral y subcutáneo. Los medicamentos intravenosos solo podrán ser administrados por enfermeros profesionales o médicos.' ¿Qué tipo de medicamento NO puede administrar un auxiliar según el texto?",
+      "respuestaCorrecta": "Medicamentos intravenosos",
+      "explicacionCorrecta": "El texto indica que los medicamentos intravenosos 'solo podrán ser administrados por enfermeros profesionales o médicos', excluyendo a los auxiliares.",
+      "distractores": [
+        {
+          "texto": "Medicamentos de uso oral",
+          "explicacion": "Es incorrecta porque el texto permite que auxiliares los administren."
+        },
+        {
+          "texto": "Medicamentos subcutáneos",
+          "explicacion": "Es incorrecta porque también están permitidos para auxiliares."
+        },
+        {
+          "texto": "Medicamentos intramusculares",
+          "explicacion": "Es incorrecta porque el texto no menciona esa vía específicamente."
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "texto": "Lea el siguiente mensaje del jefe de enfermería de HOMERIS: 'A partir del próximo mes, se implementará la nueva herramienta de registro electrónico de signos vitales. Todos los auxiliares deberán completar una capacitación de 2 horas antes de usarla. Quienes no completen la capacitación no podrán acceder al sistema.' ¿Qué deben hacer los auxiliares antes de usar la nueva herramienta?",
+      "respuestaCorrecta": "Completar capacitación de 2 horas",
+      "explicacionCorrecta": "El texto indica que 'todos los auxiliares deberán completar una capacitación de 2 horas antes de usarla'.",
+      "distractores": [
+        {
+          "texto": "Solicitar autorización escrita al jefe",
+          "explicacion": "Es incorrecta porque el texto no menciona autorización escrita."
+        },
+        {
+          "texto": "Aprobar un examen médico",
+          "explicacion": "Es incorrecta porque no se menciona examen médico."
+        },
+        {
+          "texto": "Tener más de un año de experiencia",
+          "explicacion": "Es incorrecta porque el texto no establece ese requisito."
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "texto": "Lea el siguiente texto de la Política de Seguridad del Paciente: 'Todo evento adverso debe ser reportado en el sistema de alertas dentro de las 24 horas siguientes a su ocurrencia. El reporte debe incluir la descripción del evento, las causas identificadas y las acciones correctivas propuestas.' Además de la descripción del evento, ¿qué más debe incluir el reporte según el texto?",
+      "respuestaCorrecta": "Causas identificadas y acciones correctivas propuestas",
+      "explicacionCorrecta": "El texto indica que el reporte debe incluir 'descripción del evento, las causas identificadas y las acciones correctivas propuestas'.",
+      "distractores": [
+        {
+          "texto": "Nombre del paciente y tipo de seguro",
+          "explicacion": "Es incorrecta porque el texto no menciona esos datos como obligatorios."
+        },
+        {
+          "texto": "Firma del médico y del enfermero",
+          "explicacion": "Es incorrecta porque no se menciona firma como requisito."
+        },
+        {
+          "texto": "Fecha de nacimiento del paciente y número de historia",
+          "explicacion": "Es incorrecta porque el texto no especifica esos campos."
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "texto": "Lea el siguiente extracto de un informe de calidad de HOMERIS: 'Se identificó un aumento del 20% en las caídas de pacientes durante el cambio de turno. La causa principal es la falta de comunicación efectiva entre turnos. Se recomienda implementar una lista de verificación estandarizada para la entrega de turno.' ¿Cuál es la causa principal del aumento de caídas según el informe?",
+      "respuestaCorrecta": "Falta de comunicación efectiva entre turnos",
+      "explicacionCorrecta": "El texto indica que 'la causa principal es la falta de comunicación efectiva entre turnos'.",
+      "distractores": [
+        {
+          "texto": "Falta de personal suficiente",
+          "explicacion": "Es incorrecta porque el texto no menciona falta de personal como causa."
+        },
+        {
+          "texto": "Pacientes con movilidad reducida",
+          "explicacion": "Es incorrecta porque es un factor de riesgo, no la causa del aumento."
+        },
+        {
+          "texto": "Medicación sedante excesiva",
+          "explicacion": "Es incorrecta porque el texto no la menciona como causa identificada."
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "texto": "Lea el siguiente aviso de la Secretaría de Salud: 'Los auxiliares de enfermería que aspiren al cargo de coordinación de turno deberán acreditar mínimo 8 años de experiencia en hospitalización psiquiátrica y certificación en liderazgo. La experiencia debe ser en los últimos 12 años.' Además de la certificación en liderazgo, ¿qué requisito debe cumplir el aspirante?",
+      "respuestaCorrecta": "Mínimo 8 años de experiencia en hospitalización psiquiátrica en los últimos 12 años",
+      "explicacionCorrecta": "El texto indica: 'acreditar mínimo 8 años de experiencia en hospitalización psiquiátrica y certificación en liderazgo. La experiencia debe ser en los últimos 12 años'.",
+      "distractores": [
+        {
+          "texto": "Mínimo 5 años de experiencia en cualquier área",
+          "explicacion": "Es incorrecta porque especifica 8 años y en hospitalización psiquiátrica."
+        },
+        {
+          "texto": "Certificación en gestión de recursos humanos",
+          "explicacion": "Es incorrecta porque el texto pide certificación en liderazgo, no en gestión de RRHH."
+        },
+        {
+          "texto": "Título de especialización en salud mental",
+          "explicacion": "Es incorrecta porque el texto no menciona especialización como requisito."
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "texto": "Un compañero enfermero comete un error en la administración de un medicamento. El paciente no sufre daño aparente. Nadie más se da cuenta. ¿Qué debe hacer el profesional que presencia el error?",
+      "respuestaCorrecta": "Reportar el error al jefe inmediato o al comité de seguridad",
+      "explicacionCorrecta": "La ética profesional exige reportar errores para identificar fallas en el sistema y prevenir futuros incidentes, independientemente de si hubo daño aparente.",
+      "distractores": [
+        {
+          "texto": "Ocultar el error para evitar problemas al compañero",
+          "explicacion": "Es incorrecta porque ocultar errores atenta contra la seguridad del paciente y la ética profesional."
+        },
+        {
+          "texto": "Ignorar el error ya que el paciente no sufrió daño",
+          "explicacion": "Es incorrecta porque los errores deben reportarse siempre, incluso sin daño aparente, para mejorar procesos."
+        },
+        {
+          "texto": "Hablar solo con el compañero sin reportar formalmente",
+          "explicacion": "Es incorrecta porque el reporte formal permite análisis institucional y prevención."
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "texto": "Un familiar de un paciente psiquiátrico le exige información médica confidencial que usted no puede revelar por norma. El familiar se pone agresivo. ¿Cómo maneja la situación?",
+      "respuestaCorrecta": "Explicar respetuosamente la confidencialidad y ofrecer hablar con el médico tratante",
+      "explicacionCorrecta": "Se debe mantener la confidencialidad, explicar las normas al familiar y derivarlo al profesional autorizado para dar información.",
+      "distractores": [
+        {
+          "texto": "Dar la información para evitar el conflicto",
+          "explicacion": "Es incorrecta porque viola la confidencialidad del paciente."
+        },
+        {
+          "texto": "Ignorar al familiar y retirarse",
+          "explicacion": "Es incorrecta porque abandona la situación sin resolverla adecuadamente."
+        },
+        {
+          "texto": "Llamar inmediatamente a seguridad",
+          "explicacion": "Es incorrecta porque es una medida desproporcionada sin antes intentar resolver con comunicación asertiva."
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "texto": "Durante una emergencia en la Unidad de Crisis, hay confusión entre los miembros del equipo sobre las funciones de cada uno. Como enfermero(a), ¿cómo actúa?",
+      "respuestaCorrecta": "Asignar roles claros rápidamente: compresiones, vía aérea, acceso venoso, registro",
+      "explicacionCorrecta": "En emergencias, el trabajo en equipo requiere comunicación clara y asignación inmediata de roles para una respuesta efectiva.",
+      "distractores": [
+        {
+          "texto": "Esperar instrucciones del médico para definir roles",
+          "explicacion": "Es incorrecta porque perder tiempo esperando puede poner en riesgo al paciente."
+        },
+        {
+          "texto": "Realizar solo las tareas que conoce sin coordinar",
+          "explicacion": "Es incorrecta porque en emergencias se requiere coordinación, no acciones aisladas."
+        },
+        {
+          "texto": "Salir a buscar ayuda externa",
+          "explicacion": "Es incorrecta porque abandonar la situación no resuelve la confusión interna."
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "texto": "Un paciente con trastorno mental grave se niega a recibir tratamiento médico que es claramente necesario. ¿Qué debe priorizar el profesional de enfermería?",
+      "respuestaCorrecta": "Intentar comprender la causa de la negativa y alternativas, evaluar capacidad de decisión",
+      "explicacionCorrecta": "Se debe respetar la autonomía del paciente, evaluar si tiene capacidad de decisión y buscar alternativas consensuadas dentro del marco legal.",
+      "distractores": [
+        {
+          "texto": "Administrar el tratamiento por la fuerza inmediatamente",
+          "explicacion": "Es incorrecta porque vulnera la autonomía y requiere orden médica expresa en casos específicos."
+        },
+        {
+          "texto": "Ignorar su negativa y anotar en la historia",
+          "explicacion": "Es incorrecta porque no resuelve la situación ni garantiza la atención adecuada."
+        },
+        {
+          "texto": "Contactar a la familia para que decidan",
+          "explicacion": "Es incorrecta porque la decisión no debe delegarse automáticamente en la familia sin evaluar al paciente."
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "texto": "Usted nota que un compañero llega frecuentemente con signos de cansancio extremo y ha cometido pequeños errores en los últimos días. ¿Qué acción es más ética?",
+      "respuestaCorrecta": "Conversar con el compañero de manera privada y ofrecer apoyo",
+      "explicacionCorrecta": "La ética profesional implica cuidar al equipo y ofrecer apoyo antes de que el problema afecte más la atención al paciente.",
+      "distractores": [
+        {
+          "texto": "Reportarlo inmediatamente a supervisión sin hablar con él",
+          "explicacion": "Es incorrecta porque saltarse la comunicación directa puede deteriorar la relación laboral."
+        },
+        {
+          "texto": "Ignorar la situación para no meterse en problemas",
+          "explicacion": "Es incorrecta porque ignorarlo puede derivar en errores graves de atención."
+        },
+        {
+          "texto": "Asumir sus tareas sin decir nada",
+          "explicacion": "Es incorrecta porque oculta el problema y puede generar agotamiento en quien asume."
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "texto": "Se le asigna un turno en un piso donde no tiene experiencia previa. Usted siente que podría no estar preparado para manejar emergencias en esa unidad. ¿Qué debe hacer?",
+      "respuestaCorrecta": "Informar a su supervisor sobre su falta de experiencia y solicitar acompañamiento o inducción",
+      "explicacionCorrecta": "Es ético y profesional reconocer las limitaciones propias para garantizar la seguridad del paciente y del personal.",
+      "distractores": [
+        {
+          "texto": "Aceptar el turno sin mencionar el problema",
+          "explicacion": "Es incorrecta porque pone en riesgo la seguridad del paciente al actuar sin preparación."
+        },
+        {
+          "texto": "Renunciar inmediatamente",
+          "explicacion": "Es incorrecta porque es una medida extrema antes de intentar resolver la situación."
+        },
+        {
+          "texto": "Pedir cambio a otro compañero sin explicación",
+          "explicacion": "Es incorrecta porque transfiere el problema sin resolverlo adecuadamente."
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "texto": "Durante la ronda nocturna, encuentra a un compañero durmiendo en su puesto de trabajo. No hay pacientes en estado crítico en ese momento. ¿Qué hace?",
+      "respuestaCorrecta": "Despertarlo, conversar en privado y reportar si es un patrón recurrente",
+      "explicacionCorrecta": "Se debe abordar directamente primero, y solo reportar formalmente si la conducta se repite o hay riesgo para pacientes.",
+      "distractores": [
+        {
+          "texto": "Ignorar la situación porque no hay pacientes críticos",
+          "explicacion": "Es incorrecta porque normaliza una conducta inapropiada que puede empeorar."
+        },
+        {
+          "texto": "Reportarlo inmediatamente a supervisión sin hablar con él",
+          "explicacion": "Es incorrecta porque se debe intentar resolver primero con diálogo directo."
+        },
+        {
+          "texto": "Tomar fotos y compartir con otros compañeros",
+          "explicacion": "Es incorrecta porque es una falta de respeto y profesionalismo."
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "texto": "Un paciente requiere un procedimiento doloroso pero necesario. Se resiste físicamente y le pide que no lo haga. La orden médica está clara. ¿Qué debe priorizar?",
+      "respuestaCorrecta": "Intentar calmar al paciente, explicar el procedimiento y, si persiste la negativa, consultar al médico",
+      "explicacionCorrecta": "La ética indica buscar consentimiento informado, respetar la autonomía y solo proceder con orden médica expresa en situaciones de riesgo vital.",
+      "distractores": [
+        {
+          "texto": "Realizar el procedimiento inmediatamente por orden médica",
+          "explicacion": "Es incorrecta porque ignora la voluntad del paciente sin considerar alternativas."
+        },
+        {
+          "texto": "Dejar de prestar atención al paciente",
+          "explicacion": "Es incorrecta porque abandona la responsabilidad de cuidado."
+        },
+        {
+          "texto": "Solicitar contención mecánica de inmediato",
+          "explicacion": "Es incorrecta porque es desproporcionado sin antes intentar comunicación y alternativas."
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "texto": "Un compañero tiene un familiar internado en la misma unidad donde trabaja. Él accede a la historia clínica del familiar sin autorización. ¿Qué debe hacer usted?",
+      "respuestaCorrecta": "Recordarle que es una falta grave a la confidencialidad y reportar si no corrige",
+      "explicacionCorrecta": "El acceso no autorizado a historias clínicas es una violación ética y legal, incluso para familiares.",
+      "distractores": [
+        {
+          "texto": "Ignorar porque es familiar, no un paciente cualquiera",
+          "explicacion": "Es incorrecta porque la confidencialidad aplica a todos los pacientes, incluso familiares del personal."
+        },
+        {
+          "texto": "Denunciar anónimamente sin advertirle",
+          "explicacion": "Es incorrecta porque se debe intentar resolver primero con diálogo directo."
+        },
+        {
+          "texto": "Solicitar acceso también para revisar",
+          "explicacion": "Es incorrecta porque repetiría la falta ética."
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "texto": "En una reunión de equipo, se discute el caso de un paciente con diagnóstico de trastorno límite de la personalidad. Un compañero hace comentarios despectivos sobre el paciente. ¿Cómo reacciona usted?",
+      "respuestaCorrecta": "Intervenir respetuosamente recordando la obligación de tratar con dignidad a los pacientes",
+      "explicacionCorrecta": "El profesional de enfermería debe promover un trato digno y respetuoso, evitando estigmatización de pacientes psiquiátricos.",
+      "distractores": [
+        {
+          "texto": "Reírse para no quedar mal con el grupo",
+          "explicacion": "Es incorrecta porque normaliza y refuerza un comportamiento inapropiado."
+        },
+        {
+          "texto": "Ignorar el comentario para evitar conflictos",
+          "explicacion": "Es incorrecta porque el silencio puede interpretarse como aprobación."
+        },
+        {
+          "texto": "Reportar al compañero inmediatamente a recursos humanos",
+          "explicacion": "Es incorrecta porque es desproporcionado no intentar corregir primero en el momento."
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "texto": "Un paciente con trastorno de personalidad límite le dice: 'Si no me cambia de habitación, me voy a autolesionar'. ¿Cuál es la conducta más ética del profesional de enfermería?",
+      "respuestaCorrecta": "Escuchar la solicitud, evaluar el riesgo y ofrecer alternativas viables sin ceder a chantajes",
+      "explicacionCorrecta": "La ética profesional exige no ceder a manipulaciones que pongan en riesgo al paciente, pero sí evaluar el riesgo real y buscar soluciones colaborativas.",
+      "distractores": [
+        {
+          "texto": "Cambiarlo de habitación inmediatamente para evitar la autolesión",
+          "explicacion": "Es incorrecta porque ceder al chantaje refuerza conductas manipulativas y no resuelve la causa."
+        },
+        {
+          "texto": "Ignorar la amenaza por considerarla solo un chantaje",
+          "explicacion": "Es incorrecta porque minimiza el riesgo real de autolesión."
+        },
+        {
+          "texto": "Aplicar contención mecánica preventiva",
+          "explicacion": "Es incorrecta porque es desproporcionado sin intentar antes otras estrategias."
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "texto": "Usted descubre que un compañero está tomando fotografías de pacientes con su celular personal sin autorización. Él dice que es para 'recordar casos interesantes'. ¿Qué debe hacer?",
+      "respuestaCorrecta": "Explicar la violación de confidencialidad y reportar el hecho a supervisión",
+      "explicacionCorrecta": "Tomar fotografías de pacientes sin consentimiento viola la confidencialidad y la Ley de Protección de Datos. Es obligación reportarlo.",
+      "distractores": [
+        {
+          "texto": "Ignorar porque no hay mala intención aparente",
+          "explicacion": "Es incorrecta porque la intención no justifica la violación de derechos del paciente."
+        },
+        {
+          "texto": "Pedirle que borre las fotos y no decir nada más",
+          "explicacion": "Es incorrecta porque el reporte formal es necesario para prevenir reincidencia."
+        },
+        {
+          "texto": "Solicitar copia de las fotos para 'documentación'",
+          "explicacion": "Es incorrecta porque repetiría la falta ética."
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "texto": "Un paciente con esquizofrenia crónica rechaza la medicación antipsicótica porque dice que 'le nubla la mente'. El medicamento es claramente necesario para evitar descompensaciones. ¿Qué debe priorizar el profesional?",
+      "respuestaCorrecta": "Explorar las razones del rechazo y negociar dosis o alternativa tolerable",
+      "explicacionCorrecta": "La ética exige respetar la autonomía del paciente, buscar causas de rechazo y negociar alternativas, no imponer sin diálogo.",
+      "distractores": [
+        {
+          "texto": "Administrar la medicación por vía intramuscular sin avisar",
+          "explicacion": "Es incorrecta porque viola el consentimiento informado y la confidencialidad."
+        },
+        {
+          "texto": "Suspender la medicación para evitar conflictos",
+          "explicacion": "Es incorrecta porque pone en riesgo la estabilidad clínica del paciente."
+        },
+        {
+          "texto": "Contactar a la familia para que ellos decidan",
+          "explicacion": "Es incorrecta porque la decisión no debe delegarse sin evaluar la capacidad del paciente."
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "texto": "Durante la pandemia, se asignan recursos limitados de protección personal. Un compañero toma más de lo necesario para 'guardar' para después. Otros se quedan sin los implementos para el turno. ¿Qué acción es más ética?",
+      "respuestaCorrecta": "Hablar con el compañero sobre la distribución equitativa y reportar si persiste",
+      "explicacionCorrecta": "La ética profesional exige equidad en recursos limitados, especialmente cuando afecta la seguridad de otros compañeros y pacientes.",
+      "distractores": [
+        {
+          "texto": "Ignorar para evitar conflictos con el compañero",
+          "explicacion": "Es incorrecta porque permite una injusticia que afecta a otros."
+        },
+        {
+          "texto": "Tomar también más de lo necesario para no quedarse sin",
+          "explicacion": "Es incorrecta porque empeora el problema del acaparamiento."
+        },
+        {
+          "texto": "Denunciar anónimamente sin hablar primero con él",
+          "explicacion": "Es incorrecta porque se debe intentar resolver directamente antes de escalar."
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "texto": "Un paciente psiquiátrico estable le regala una caja de bombones al equipo de enfermería como agradecimiento. La norma institucional prohíbe recibir regalos de pacientes. ¿Qué debe hacer?",
+      "respuestaCorrecta": "Agradecer la intención, explicar la norma institucional y rechazar gentilmente",
+      "explicacionCorrecta": "La ética profesional exige cumplir las normas institucionales sin dañar la relación terapéutica, explicando las razones del rechazo.",
+      "distractores": [
+        {
+          "texto": "Aceptar el regalo porque es de bajo valor económico",
+          "explicacion": "Es incorrecta aunque sea de bajo valor, la norma prohíbe cualquier regalo."
+        },
+        {
+          "texto": "Aceptar a escondidas para no herir al paciente",
+          "explicacion": "Es incorrecta porque ocultar la acción no la justifica éticamente."
+        },
+        {
+          "texto": "Recibir el regalo y no reportarlo",
+          "explicacion": "Es incorrecta porque viola la norma y crea precedente."
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "texto": "Un paciente con trastorno depresivo mayor se niega a recibir visitas de su familia, aunque estos insisten en verlo. La familia le pide que intervenga para convencer al paciente. ¿Cómo actúa éticamente?",
+      "respuestaCorrecta": "Respetar la voluntad del paciente y explicar a la familia que la decisión es del paciente",
+      "explicacionCorrecta": "La autonomía del paciente prevalece, incluso sobre los deseos familiares, siempre que el paciente tenga capacidad de decisión.",
+      "distractores": [
+        {
+          "texto": "Convencer al paciente para que reciba a la familia",
+          "explicacion": "Es incorrecta porque presiona al paciente en contra de su voluntad."
+        },
+        {
+          "texto": "Permitir la visita sin decirle al paciente",
+          "explicacion": "Es incorrecta porque viola la confidencialidad y la autonomía."
+        },
+        {
+          "texto": "Ignorar a la familia sin dar explicación",
+          "explicacion": "Es incorrecta porque no resuelve la situación ni orienta a la familia."
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "texto": "Usted sabe que un compañero llega a trabajar bajo efectos del alcohol. Nadie más lo ha notado. El compañero es buen profesional cuando está sobrio. ¿Qué debe hacer?",
+      "respuestaCorrecta": "Hablar con él en privado y reportar a supervisión si persiste o hay riesgo inmediato",
+      "explicacionCorrecta": "Trabajar bajo efectos de alcohol pone en riesgo a los pacientes. Se debe abordar directamente y reportar si no hay solución, priorizando la seguridad.",
+      "distractores": [
+        {
+          "texto": "Ignorar para no perjudicar a su compañero",
+          "explicacion": "Es incorrecta porque prioriza la lealtad al compañero sobre la seguridad del paciente."
+        },
+        {
+          "texto": "Reportar inmediatamente sin hablar con él",
+          "explicacion": "Es incorrecta porque es desproporcionado no intentar resolver primero con diálogo."
+        },
+        {
+          "texto": "Cubrirlo para que no lo descubran",
+          "explicacion": "Es incorrecta porque facilita una conducta peligrosa."
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "texto": "Se le solicita realizar un procedimiento para el cual no tiene entrenamiento formal, pero ha visto hacerlo muchas veces. El médico insiste en que lo haga porque 'es sencillo'. ¿Qué debe hacer?",
+      "respuestaCorrecta": "Declinar respetuosamente argumentando falta de entrenamiento formal",
+      "explicacionCorrecta": "La ética profesional exige actuar dentro del ámbito de competencia para garantizar la seguridad del paciente.",
+      "distractores": [
+        {
+          "texto": "Realizar el procedimiento para no quedar mal con el médico",
+          "explicacion": "Es incorrecta porque pone en riesgo al paciente al actuar sin entrenamiento."
+        },
+        {
+          "texto": "Realizarlo sin decir que no está entrenado",
+          "explicacion": "Es incorrecta porque oculta una limitación que puede causar daño."
+        },
+        {
+          "texto": "Denunciar al médico por exigir algo fuera de su alcance",
+          "explicacion": "Es incorrecta porque es desproporcionado sin antes declinar respetuosamente."
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "texto": "Un paciente fallece en la unidad. Usted nota que un compañero, sin malicia, comete un error al registrar la hora del deceso en el sistema. La diferencia es de 15 minutos, pero no afecta ningún tratamiento. ¿Qué hace?",
+      "respuestaCorrecta": "Señalar el error amablemente y corregir el registro con la hora correcta",
+      "explicacionCorrecta": "Los errores administrativos deben corregirse, aunque no afecten la atención, para mantener la integridad del registro clínico.",
+      "distractores": [
+        {
+          "texto": "Ignorar el error porque no afectó nada",
+          "explicacion": "Es incorrecta porque normaliza el descuido en los registros."
+        },
+        {
+          "texto": "No decir nada para no incomodar al compañero en un momento difícil",
+          "explicacion": "Es incorrecta porque la corrección no es una crítica personal, sino un deber profesional."
+        },
+        {
+          "texto": "Reportarlo a supervisión sin hablar con él",
+          "explicacion": "Es incorrecta porque es desproporcionado para un error sin consecuencias, que puede corregirse directamente."
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "texto": "Un paciente psiquiátrico con ideas paranoides cree que los enfermeros le están 'envenenando' con la medicación. Se niega rotundamente a tomarla. ¿Cuál es la conducta más ética?",
+      "respuestaCorrecta": "No forzar la medicación, documentar la negativa, informar al médico y explorar alternativas",
+      "explicacionCorrecta": "La ética exige respetar la autonomía del paciente, documentar la negativa y buscar alternativas consensuadas o vía legal si hay riesgo vital.",
+      "distractores": [
+        {
+          "texto": "Mezclar la medicación en la comida sin que se dé cuenta",
+          "explicacion": "Es incorrecta porque viola el consentimiento y la confidencialidad."
+        },
+        {
+          "texto": "Aplicar la medicación por vía intramuscular forzadamente",
+          "explicacion": "Es incorrecta porque solo se justifica en riesgo inminente, no en negativa sin crisis."
+        },
+        {
+          "texto": "Suspender la medicación sin consultar al médico",
+          "explicacion": "Es incorrecta porque el médico debe evaluar alternativas terapéuticas."
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "texto": "En la Unidad de Hospitalización de HOMERIS, se presenta una emergencia con un paciente agresivo. El equipo está descoordinado: unos quieren contener, otros llamar al médico, otros registrar. ¿Qué acción debe tomar el líder del equipo?",
+      "respuestaCorrecta": "Asignar roles específicos: contención, comunicación médica, registro de eventos",
+      "explicacionCorrecta": "El líder debe asignar roles claros para evitar confusión y garantizar respuesta efectiva ante la emergencia.",
+      "distractores": [
+        {
+          "texto": "Unirse a la contención sin asignar roles",
+          "explicacion": "Es incorrecta porque la descoordinación empeora si el líder no organiza al equipo."
+        },
+        {
+          "texto": "Esperar que el equipo se organice solo",
+          "explicacion": "Es incorrecta porque en emergencias no hay tiempo para esperar organización espontánea."
+        },
+        {
+          "texto": "Llamar a otro piso para pedir ayuda sin asignar tareas",
+          "explicacion": "Es incorrecta porque se debe optimizar el equipo presente antes de solicitar refuerzos."
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "texto": "Durante el cambio de turno, una enfermera entrega información incompleta sobre un paciente. Como receptor del turno, ¿qué debe hacer?",
+      "respuestaCorrecta": "Pedir aclaraciones específicas sobre los puntos faltantes",
+      "explicacionCorrecta": "La comunicación efectiva en el cambio de turno es clave para la seguridad del paciente; se deben pedir aclaraciones oportunas.",
+      "distractores": [
+        {
+          "texto": "Aceptar la información incompleta para no incomodar",
+          "explicacion": "Es incorrecta porque puede derivar en errores por falta de información."
+        },
+        {
+          "texto": "Reportar a la supervisión sin conversarlo antes",
+          "explicacion": "Es incorrecta porque es desproporcionado no intentar resolverlo directamente primero."
+        },
+        {
+          "texto": "Revisar personalmente la historia clínica sin preguntar",
+          "explicacion": "Es incorrecta porque no corrige el problema de comunicación entre el equipo."
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "texto": "Se implementa un nuevo protocolo de administración de psicofármacos. Algunos compañeros se resisten al cambio. ¿Cómo debe actuar el equipo?",
+      "respuestaCorrecta": "Organizar una sesión de entrenamiento práctico y discutir dudas abiertamente",
+      "explicacionCorrecta": "El trabajo en equipo implica apoyar la implementación de cambios mediante formación y diálogo, no imposición o marginación.",
+      "distractores": [
+        {
+          "texto": "Ignorar a los resistentes y aplicar el protocolo solo algunos",
+          "explicacion": "Es incorrecta porque divide al equipo y no garantiza aplicación uniforme del protocolo."
+        },
+        {
+          "texto": "Reportar a los resistentes sin intentar capacitarlos",
+          "explicacion": "Es incorrecta porque no aborda la causa de la resistencia (falta de formación)."
+        },
+        {
+          "texto": "Aplicar el protocolo anterior con los resistentes",
+          "explicacion": "Es incorrecta porque genera inequidad en la atención de pacientes."
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "texto": "Un compañero está visiblemente abrumado por la carga de trabajo y comete un error menor. ¿Cómo debe reaccionar el equipo?",
+      "respuestaCorrecta": "Apoyarlo para completar sus tareas y sugerir redistribución de trabajo",
+      "explicacionCorrecta": "El trabajo en equipo implica apoyar a los colegas en situaciones de sobrecarga, no señalarlos o ignorarlos.",
+      "distractores": [
+        {
+          "texto": "Ignorarlo para no meterse en problemas",
+          "explicacion": "Es incorrecta porque el error puede repetirse si no se aborda la sobrecarga."
+        },
+        {
+          "texto": "Reportarlo inmediatamente por el error",
+          "explicacion": "Es incorrecta porque es desproporcionado sin antes ofrecer apoyo."
+        },
+        {
+          "texto": "Asumir sus tareas sin comentarlo",
+          "explicacion": "Es incorrecta porque oculta el problema de distribución de cargas."
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "texto": "En una reunión de equipo, surge un desacuerdo sobre el plan de cuidado de un paciente complejo. ¿Cuál es la mejor estrategia?",
+      "respuestaCorrecta": "Escuchar todas las posturas y buscar consenso basado en evidencia",
+      "explicacionCorrecta": "El trabajo en equipo efectivo requiere escucha activa y decisiones basadas en evidencia, no imposición ni mayoría simple.",
+      "distractores": [
+        {
+          "texto": "Aceptar la opinión del profesional con más años de experiencia",
+          "explicacion": "Es incorrecta porque la antigüedad no garantiza la mejor decisión clínica."
+        },
+        {
+          "texto": "Votar y aplicar la opción con más votos",
+          "explicacion": "Es incorrecta porque una decisión clínica no debe basarse en votación mayoritaria."
+        },
+        {
+          "texto": "Posponer la decisión a la próxima reunión",
+          "explicacion": "Es incorrecta porque puede afectar la oportunidad del cuidado."
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "texto": "Un paciente psiquiátrico intenta agredir a una enfermera. Otro compañero llega a ayudar. ¿Cómo deben coordinarse?",
+      "respuestaCorrecta": "Uno se posiciona frente al paciente hablando calmadamente, el otro retira objetos peligrosos",
+      "explicacionCorrecta": "La coordinación en crisis implica roles diferenciados: contención verbal, seguridad del entorno y activación de código si es necesario.",
+      "distractores": [
+        {
+          "texto": "Ambos intentan contener físicamente al mismo tiempo",
+          "explicacion": "Es incorrecta porque puede exacerbar la agitación del paciente."
+        },
+        {
+          "texto": "Ambos se retiran y llaman a seguridad",
+          "explicacion": "Es incorrecta porque abandonan al compañero agredido."
+        },
+        {
+          "texto": "Uno se retira, el otro intenta dialogar solo",
+          "explicacion": "Es incorrecta porque deja al compañero en situación vulnerable."
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "texto": "Se detectó que un compañero tiene problemas de adicción que afectan su desempeño. ¿Cómo debe actuar el equipo?",
+      "respuestaCorrecta": "Conversar con él, ofrecer apoyo y canalizar a programas de ayuda al trabajador",
+      "explicacionCorrecta": "El equipo debe priorizar la salud del compañero y la seguridad del paciente, ofreciendo apoyo antes de medidas sancionatorias.",
+      "distractores": [
+        {
+          "texto": "Ignorar el problema para evitar conflictos",
+          "explicacion": "Es incorrecta porque pone en riesgo la seguridad de los pacientes."
+        },
+        {
+          "texto": "Reportarlo anónimamente sin hablar con él",
+          "explicacion": "Es incorrecta porque no ofrece oportunidad de recuperación."
+        },
+        {
+          "texto": "Excluirlo de actividades del equipo",
+          "explicacion": "Es incorrecta porque es punitivo y no soluciona el problema."
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "texto": "Se recibe a una nueva auxiliar de enfermería en la unidad. Los demás miembros del equipo notan que comete errores por desconocimiento de los protocolos. ¿Qué deben hacer?",
+      "respuestaCorrecta": "Asignarle un compañero tutor para su acompañamiento inicial",
+      "explicacionCorrecta": "La integración efectiva de nuevos miembros requiere acompañamiento, no señalamiento ni abandono.",
+      "distractores": [
+        {
+          "texto": "Ignorar los errores esperando que aprenda sola",
+          "explicacion": "Es incorrecta porque prolonga el riesgo de errores y frustración."
+        },
+        {
+          "texto": "Reportar cada error a supervisión",
+          "explicacion": "Es incorrecta porque desincentiva la integración y genera clima de desconfianza."
+        },
+        {
+          "texto": "Realizar sus tareas para evitar errores",
+          "explicacion": "Es incorrecta porque no resuelve la falta de formación."
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "texto": "Durante una emergencia, el médico da una orden que contradice el protocolo institucional. ¿Qué debe hacer el equipo de enfermería?",
+      "respuestaCorrecta": "Solicitar verbalmente confirmación y documentar la orden médica",
+      "explicacionCorrecta": "El trabajo en equipo incluye respeto a la jerarquía pero también responsabilidad en la seguridad del paciente, solicitando aclaraciones cuando sea necesario.",
+      "distractores": [
+        {
+          "texto": "Cumplir la orden sin cuestionar",
+          "explicacion": "Es incorrecta porque puede violar protocolos de seguridad."
+        },
+        {
+          "texto": "Negarse rotundamente a cumplir",
+          "explicacion": "Es incorrecta porque no resuelve la situación de forma colaborativa."
+        },
+        {
+          "texto": "Reportar al médico inmediatamente después de cumplir",
+          "explicacion": "Es incorrecta porque el reporte debe ser antes de ejecutar la orden contradictoria."
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "texto": "Un miembro del equipo sugiere una mejora al proceso de atención. ¿Cómo debe recibirse esta sugerencia?",
+      "respuestaCorrecta": "Analizarla en equipo y probarla si es viable",
+      "explicacionCorrecta": "El trabajo en equipo incluye valorar las sugerencias de mejora de todos los miembros, independientemente de su antigüedad o cargo.",
+      "distractores": [
+        {
+          "texto": "Aceptarla solo si viene del profesional con más rango",
+          "explicacion": "Es incorrecta porque las buenas ideas pueden venir de cualquier miembro."
+        },
+        {
+          "texto": "Desestimarla sin analizarla",
+          "explicacion": "Es incorrecta porque desalienta la participación y mejora continua."
+        },
+        {
+          "texto": "Implementarla sin consultar al resto",
+          "explicacion": "Es incorrecta porque debe ser consensuada con el equipo afectado."
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "texto": "En la Unidad de HOMERIS, un auxiliar de enfermería nota que otro compañero está omitiendo el lavado de manos entre paciente y paciente. El compañero es nuevo y parece estar abrumado. ¿Cómo debe actuar el equipo?",
+      "respuestaCorrecta": "Recordar el protocolo de lavado de manos de manera constructiva y ofrecer acompañamiento",
+      "explicacionCorrecta": "El trabajo en equipo implica corregir errores de manera constructiva, especialmente con personal nuevo, priorizando la seguridad del paciente sobre la sanción.",
+      "distractores": [
+        {
+          "texto": "Ignorar porque seguro lo hará cuando tenga menos presión",
+          "explicacion": "Incorrecto. El lavado de manos es crítico para la seguridad; ignorar pone en riesgo a los pacientes."
+        },
+        {
+          "texto": "Reportarlo inmediatamente a supervisión sin hablarle",
+          "explicacion": "Incorrecto. No se intentó la corrección directa, que es más formativa."
+        },
+        {
+          "texto": "Gritarle en público para que aprenda",
+          "explicacion": "Incorrecto. La corrección pública humilla y no es formativa."
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "texto": "El equipo de enfermería de HOMERIS está implementando un nuevo sistema de registro de incidentes. Un miembro se resiste abiertamente diciendo que 'el sistema anterior funcionaba bien'. ¿Cuál es la mejor estrategia del líder del equipo?",
+      "respuestaCorrecta": "Escuchar sus objeciones, mostrar los beneficios del nuevo sistema e involucrarlo en la implementación",
+      "explicacionCorrecta": "El trabajo en equipo efectivo en cambios requiere escucha activa, comunicación de beneficios y participación para reducir resistencias.",
+      "distractores": [
+        {
+          "texto": "Imponer el cambio por autoridad sin discutir",
+          "explicacion": "Incorrecto. La imposición sin diálogo genera más resistencia."
+        },
+        {
+          "texto": "Dejar que siga usando el sistema anterior para evitar conflicto",
+          "explicacion": "Incorrecto. Divide al equipo y no logra la estandarización necesaria."
+        },
+        {
+          "texto": "Excluirlo de las reuniones de implementación",
+          "explicacion": "Incorrecto. La exclusión aumenta la resistencia y margina al miembro."
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "texto": "Durante una emergencia psiquiátrica, un paciente agresivo está forcejeando con dos auxiliares. Un tercer auxiliar llega al lugar. El líder del equipo no ha llegado. ¿Qué debe hacer el auxiliar que llega?",
+      "respuestaCorrecta": "Preguntar si necesita apoyo o si prefieren que active el código de seguridad",
+      "explicacionCorrecta": "El trabajo en equipo en emergencias requiere comunicarse antes de actuar, ofreciendo apoyo según lo que el equipo en escena determine necesario.",
+      "distractores": [
+        {
+          "texto": "Unirse al forcejeo sin preguntar",
+          "explicacion": "Incorrecto. Más personas forcejeando puede empeorar la situación sin coordinación."
+        },
+        {
+          "texto": "Salir corriendo a buscar ayuda sin preguntar",
+          "explicacion": "Incorrecto. Abandona la escena sin evaluar si ya se activó el código."
+        },
+        {
+          "texto": "Quedarse mirando sin actuar",
+          "explicacion": "Incorrecto. La pasividad no ayuda en una emergencia."
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "texto": "Un enfermero profesional recién llegado a HOMERIS trata con condescendencia a los auxiliares, dando órdenes sin explicación y criticando su trabajo. ¿Cómo debe manejar el equipo esta situación?",
+      "respuestaCorrecta": "Elegir un representante del equipo para conversar respetuosamente sobre el impacto de su actitud",
+      "explicacionCorrecta": "El trabajo en equipo requiere abordar los conflictos interprofesionales con comunicación asertiva, no confrontación ni pasividad.",
+      "distractores": [
+        {
+          "texto": "Ignorarlo y reducir la comunicación al mínimo posible",
+          "explicacion": "Incorrecto. La falta de comunicación afecta la atención al paciente."
+        },
+        {
+          "texto": "Todos quejarse a supervisión sin hablarle primero",
+          "explicacion": "Incorrecto. No se intentó resolver directamente, escalando innecesariamente."
+        },
+        {
+          "texto": "Responder con la misma actitud de manera pasivo-agresiva",
+          "explicacion": "Incorrecto. Agrava el conflicto sin resolverlo."
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "texto": "En el cambio de turno, la enfermera saliente entrega información pero se nota apurada y con varios pendientes por terminar. El equipo entrante nota que falta información importante. ¿Qué deben hacer los receptores del turno?",
+      "respuestaCorrecta": "Pedir pausadamente la información faltante y ofrecer ayuda para completar pendientes críticos",
+      "explicacionCorrecta": "El trabajo en equipo en el cambio de turno exige comunicación efectiva y colaboración para evitar omisiones que afecten la seguridad, no apresurar ni ignorar faltantes.",
+      "distractores": [
+        {
+          "texto": "Aceptar la información incompleta para no demorar la salida",
+          "explicacion": "Incorrecto. Aceptar omisiones puede causar errores de atención."
+        },
+        {
+          "texto": "Reportar a supervisión sin pedir la información faltante",
+          "explicacion": "Incorrecto. No resuelve la necesidad inmediata de información crítica."
+        },
+        {
+          "texto": "Revisar todo en la historia clínica sin preguntar",
+          "explicacion": "Incorrecto. No corrige el problema de comunicación en el cambio de turno."
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "texto": "Un paciente psiquiátrico requiere contención mecánica según orden médica. Dos auxiliares están sujetando al paciente mientras otro prepara el material. El paciente se calma. ¿Debe continuarse con la contención? ¿Qué decisión debe tomar el equipo?",
+      "respuestaCorrecta": "Comunicarse con el médico para reevaluar si la contención sigue siendo necesaria",
+      "explicacionCorrecta": "El trabajo en equipo responsable incluye reevaluar intervenciones si cambian las condiciones del paciente, comunicando al médico para ajustar la orden si es posible.",
+      "distractores": [
+        {
+          "texto": "Continuar porque la orden médica está vigente",
+          "explicacion": "Incorrecto. La seguridad del paciente incluye reevaluar cuando cambian las condiciones."
+        },
+        {
+          "texto": "Suspender la contención sin consultar",
+          "explicacion": "Incorrecto. Suspender una orden médica sin consultar puede ser imprudente."
+        },
+        {
+          "texto": "Aflojar la contención sin avisar al médico",
+          "explicacion": "Incorrecto. No comunica el cambio al profesional responsable."
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "texto": "Un auxiliar de enfermería comete un error en el cálculo de una dosis, pero lo detecta antes de administrar el medicamento. Está muy angustiado y teme reportarlo. ¿Cómo debe reaccionar el equipo?",
+      "respuestaCorrecta": "Agradecer la detección temprana, reportar el incidente como 'casi error' y analizar mejoras sin castigo",
+      "explicacionCorrecta": "El trabajo en equipo de calidad promueve la cultura de seguridad donde reportar 'casi errores' es valorado para mejorar sistemas, no castigado.",
+      "distractores": [
+        {
+          "texto": "No reportar para no crear un antecedente negativo",
+          "explicacion": "Incorrecto. No reportar pierde la oportunidad de prevenir futuros errores reales."
+        },
+        {
+          "texto": "Anotar el error en su evaluación de desempeño como falta",
+          "explicacion": "Incorrecto. Castigar la detección temprana desincentiva el reporte de 'casi errores'."
+        },
+        {
+          "texto": "Ignorar pensando que no pasó nada grave",
+          "explicacion": "Incorrecto. Ignorar no construye cultura de seguridad."
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "texto": "El equipo de enfermería de HOMERIS tiene un desacuerdo sobre cómo manejar a un paciente con trastorno de personalidad borderline que constantemente divide al equipo (idealiza a unos y devalúa a otros). ¿Cuál es la mejor estrategia de equipo?",
+      "respuestaCorrecta": "Unificar el abordaje en reunión de equipo, con límites claros y comunicación consistente entre todos",
+      "explicacionCorrecta": "El trabajo en equipo con pacientes que dividen requiere coordinación previa, límites claros y consistencia comunicacional para evitar caer en la dinámica de división.",
+      "distractores": [
+        {
+          "texto": "Cada profesional manejar al paciente según su criterio",
+          "explicacion": "Incorrecto. La inconsistencia refuerza la dinámica de división."
+        },
+        {
+          "texto": "Asignar solo una persona para tratar con el paciente",
+          "explicacion": "Incorrecto. No es sostenible y puede generar dependencia o agotamiento."
+        },
+        {
+          "texto": "Reducir la atención al mínimo para evitar conflictos",
+          "explicacion": "Incorrecto. La negligencia no es terapéutica."
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "texto": "El equipo de HOMERIS está sobrecargado porque faltan dos auxiliares. Los presentes tienen que asumir tareas adicionales. Algunos empiezan a quejarse y a culpar a la administración. ¿Cómo debe actuar el líder del equipo?",
+      "respuestaCorrecta": "Reconocer la sobrecarga, priorizar tareas críticas y rotar las funciones extras para distribuir equitativamente",
+      "explicacionCorrecta": "El trabajo en equipo en crisis requiere liderazgo que reconozca la dificultad, priorice lo esencial y distribuya equitativamente la carga extra, evitando quejas destructivas.",
+      "distractores": [
+        {
+          "texto": "Unirse a las quejas para mostrar solidaridad",
+          "explicacion": "Incorrecto. El líder que se queja no resuelve el problema operativo."
+        },
+        {
+          "texto": "Hacer las tareas extras el mismo y agotarse",
+          "explicacion": "Incorrecto. El líder que se sobrecarga insosteniblemente agota al equipo."
+        },
+        {
+          "texto": "Exigir que todos hagan lo mismo sin priorizar",
+          "explicacion": "Incorrecto. No priorizar tareas puede descuidar lo crítico."
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "texto": "Un auxiliar de enfermería propone una mejora al proceso de entrega de turno: usar una lista de verificación estandarizada. El líder del equipo no está convencido porque 'siempre se ha hecho de memoria'. ¿Cómo debe manejar el auxiliar su propuesta?",
+      "respuestaCorrecta": "Solicitar una prueba piloto por una semana para evaluar resultados",
+      "explicacionCorrecta": "El trabajo en equipo promueve la mejora continua. Proponer una prueba piloto es una forma respetuosa y práctica de demostrar el valor de una idea sin imponer ni desistir.",
+      "distractores": [
+        {
+          "texto": "Desistir de la propuesta para no incomodar al líder",
+          "explicacion": "Incorrecto. Abandonar buenas ideas por evitar conflictos no mejora al equipo."
+        },
+        {
+          "texto": "Implementar la lista por su cuenta sin consensuar",
+          "explicacion": "Incorrecto. Actuar sin consenso divide al equipo."
+        },
+        {
+          "texto": "Quejarse con otros auxiliares del líder",
+          "explicacion": "Incorrecto. La queja sin acción constructiva no resuelve."
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "texto": "Un familiar de un paciente psiquiátrico se queja insistentemente porque no le permiten ingresar alimentos desde fuera. La norma hospitalaria lo prohíbe por riesgo de interacciones medicamentosas. ¿Cuál es la mejor respuesta del enfermero?",
+      "respuestaCorrecta": "Explicar la norma hospitalaria y ofrecer alternativas permitidas desde el servicio de nutrición",
+      "explicacionCorrecta": "La orientación al servicio combina explicación clara de normas con ofrecimiento de alternativas viables, no imposición ni evasión.",
+      "distractores": [
+        {
+          "texto": "Ignorar la queja y cambiar de tema",
+          "explicacion": "Incorrecto. Ignorar no resuelve la preocupación del familiar y daña la confianza en el servicio."
+        },
+        {
+          "texto": "Permitir el ingreso para evitar el conflicto",
+          "explicacion": "Incorrecto. Ceder sin explicación viola normas de seguridad y puede generar expectativas incorrectas."
+        },
+        {
+          "texto": "Remitir al familiar a otro funcionario sin dar respuesta",
+          "explicacion": "Incorrecto. Derivar sin explicación previa es evasivo y no proporciona solución inmediata."
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "texto": "Un paciente con trastorno depresivo le dice: 'Nadie me entiende, ¿para qué sigo viniendo?' ¿Cuál es la respuesta más adecuada?",
+      "respuestaCorrecta": "Reconocer su malestar y ofrecer escucha activa para identificar preocupaciones específicas",
+      "explicacionCorrecta": "La orientación al servicio en salud mental requiere validar el malestar del paciente y explorar sus expectativas, no minimizar ni generalizar.",
+      "distractores": [
+        {
+          "texto": "Decirle que todos los pacientes se sienten igual al principio",
+          "explicacion": "Incorrecto. Minimiza su experiencia única y no aborda su malestar específico."
+        },
+        {
+          "texto": "Preguntarle si desea suspender el tratamiento",
+          "explicacion": "Incorrecto. Ofrecer suspensión como primera opción comunica desinterés por resolver sus dudas."
+        },
+        {
+          "texto": "Responderle que debe tener paciencia con el proceso",
+          "explicacion": "Incorrecto. Generaliza sin reconocer su sufrimiento actual ni explorar causas."
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "texto": "Un paciente psiquiátrico se niega a tomar su medicación y se muestra irritable. ¿Cuál es la acción inicial más adecuada?",
+      "respuestaCorrecta": "Preguntar sobre la razón de su negativa y explorar alternativas viables",
+      "explicacionCorrecta": "La orientación al servicio implica comprender la causa de la negativa antes de imponer el tratamiento, buscando soluciones colaborativas.",
+      "distractores": [
+        {
+          "texto": "Notificar al médico y esperar instrucciones",
+          "explicacion": "Incorrecto. Delegar sin intentar comprender al paciente pospone la solución y puede aumentar su irritabilidad."
+        },
+        {
+          "texto": "Administrar la medicación por vía alternativa sin consultar",
+          "explicacion": "Incorrecto. Actuar sin validar con el paciente vulnera su autonomía y puede dañar la relación terapéutica."
+        },
+        {
+          "texto": "Documentar la negativa y suspender la medicación",
+          "explicacion": "Incorrecto. Suspender sin explorar alternativas puede poner en riesgo la estabilidad clínica del paciente."
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "texto": "Un paciente se queja del tiempo de espera para ser atendido. El servicio está congestionado por alta demanda. ¿Cómo responde el profesional?",
+      "respuestaCorrecta": "Disculparse por la demora, explicar la situación actual y priorizar según urgencia",
+      "explicacionCorrecta": "La orientación al servicio exige disculpa genuina, transparencia sobre la situación y acciones para mitigar la espera, no evasión ni justificación defensiva.",
+      "distractores": [
+        {
+          "texto": "Informar que la demora no es responsabilidad de enfermería",
+          "explicacion": "Incorrecto. Evadir responsabilidad daña la confianza del usuario en el servicio."
+        },
+        {
+          "texto": "Acelerar su atención para silenciar la queja",
+          "explicacion": "Incorrecto. Priorizar a quien se queja puede ser injusto con otros pacientes."
+        },
+        {
+          "texto": "Solicitar al paciente que espere sin más explicación",
+          "explicacion": "Incorrecto. No aborda su malestar ni proporciona información que reduzca su ansiedad."
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "texto": "Un paciente pregunta sobre un resultado de examen que aún no está disponible. El médico responsable no se encuentra. ¿Qué hace el enfermero?",
+      "respuestaCorrecta": "Explicar que solo el médico puede interpretar resultados y ofrecer agendar seguimiento",
+      "explicacionCorrecta": "La orientación al servicio implica dar información clara sobre los límites de la propia función y ofrecer alternativas concretas, no inventar ni posponer indefinidamente.",
+      "distractores": [
+        {
+          "texto": "Intentar interpretar el resultado si lo encuentra accesible",
+          "explicacion": "Incorrecto. Actuar fuera de las funciones propias puede generar errores y comprometer la seguridad."
+        },
+        {
+          "texto": "Decir que el médico es el único que sabe y retirarse",
+          "explicacion": "Incorrecto. La respuesta es evasiva y no ofrece ninguna alternativa al paciente."
+        },
+        {
+          "texto": "Entregar el resultado sin explicación ni seguimiento",
+          "explicacion": "Incorrecto. Abandona al paciente sin orientación sobre el significado del resultado."
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "texto": "Un familiar quiere hablar con el médico sobre el diagnóstico del paciente, pero el médico está en una urgencia. ¿Cómo maneja la situación?",
+      "respuestaCorrecta": "Registrar la solicitud, explicar la situación actual y ofrecer contacto al finalizar la urgencia",
+      "explicacionCorrecta": "La orientación al servicio incluye recibir solicitudes, comunicar tiempos realistas y hacer seguimiento, no rechazar sin solución.",
+      "distractores": [
+        {
+          "texto": "Negarse a recibir la solicitud por falta de tiempo",
+          "explicacion": "Incorrecto. Rechazar sin alternativas genera frustración y desconfianza en el servicio."
+        },
+        {
+          "texto": "Decir que hable con otro funcionario desconocido",
+          "explicacion": "Incorrecto. Derivar sin propósito ni conocimiento del destino no resuelve."
+        },
+        {
+          "texto": "Prometer que el médico llamará en minutos sin certeza",
+          "explicacion": "Incorrecto. Generar falsas expectativas puede empeorar la situación si no se cumple."
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "texto": "Un paciente con trastorno de ansiedad pregunta repetidamente la misma información sobre su tratamiento. ¿Cuál es la mejor respuesta?",
+      "respuestaCorrecta": "Responder con paciencia y verificar su comprensión nuevamente",
+      "explicacionCorrecta": "La orientación al servicio en salud mental requiere paciencia y verificación de comprensión, especialmente con pacientes ansiosos, no irritabilidad ni mecanización.",
+      "distractores": [
+        {
+          "texto": "Responder con fastidio y pedir que preste atención",
+          "explicacion": "Incorrecto. La irritabilidad aumenta la ansiedad del paciente y deteriora la comunicación."
+        },
+        {
+          "texto": "Responder solo la primera vez y luego ignorar",
+          "explicacion": "Incorrecto. Ignorar no resuelve la necesidad subyacente de seguridad del paciente."
+        },
+        {
+          "texto": "Entregar la información por escrito sin más explicación",
+          "explicacion": "Incorrecto. No verifica si el material escrito es comprendido por el paciente."
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "texto": "Un paciente agradece el trato recibido. ¿Cómo debe responder el profesional de enfermería para reforzar una buena orientación al servicio?",
+      "respuestaCorrecta": "Agradecer el reconocimiento y expresar satisfacción por haber ayudado",
+      "explicacionCorrecta": "Recibir adecuadamente los elogios refuerza la motivación del profesional y la confianza del paciente, sin falsa modestia ni indiferencia.",
+      "distractores": [
+        {
+          "texto": "Decir que solo hace su trabajo",
+          "explicacion": "Incorrecto. Restar importancia al agradecimiento puede minimizar el esfuerzo del paciente por expresarlo."
+        },
+        {
+          "texto": "Ignorar el agradecimiento para no parecer arrogante",
+          "explicacion": "Incorrecto. Ignorar puede interpretarse como indiferencia hacia el paciente."
+        },
+        {
+          "texto": "Responder que siempre trata bien a todos",
+          "explicacion": "Incorrecto. Una respuesta genérica resta valor al elogio específico del paciente."
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "texto": "Un paciente psiquiátrico en crisis verbal intenta golpear la puerta. ¿Cómo actúa el personal para protegerlo sin empeorar la situación?",
+      "respuestaCorrecta": "Hablar calmadamente, ofrecer un espacio seguro y validar su malestar",
+      "explicacionCorrecta": "La orientación al servicio en crisis implica contención verbal y validación emocional, no confrontación ni abandono, priorizando la seguridad sin estigmatizar.",
+      "distractores": [
+        {
+          "texto": "Inmovilizarlo inmediatamente sin diálogo previo",
+          "explicacion": "Incorrecto. La inmovilización sin intento de contención verbal puede exacerbar la crisis."
+        },
+        {
+          "texto": "Dejarlo solo para que se calme",
+          "explicacion": "Incorrecto. Abandonar al paciente en crisis puede aumentar su descontrol."
+        },
+        {
+          "texto": "Sujetar la puerta sin dirigirle la palabra",
+          "explicacion": "Incorrecto. La contención física sin comunicación no resuelve la causa emocional de la crisis."
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "texto": "Un paciente con discapacidad cognitiva leve tiene dificultad para recordar las indicaciones del alta. ¿Cuál es la conducta más adecuada del enfermero?",
+      "respuestaCorrecta": "Repetir las instrucciones con lenguaje claro y entregar resumen escrito al retirarse",
+      "explicacionCorrecta": "La orientación al servicio exige adaptar la comunicación a las capacidades del paciente, asegurando comprensión mediante refuerzo verbal y escrito, no frustración ni abandono.",
+      "distractores": [
+        {
+          "texto": "Dar las instrucciones una sola vez con lenguaje complejo",
+          "explicacion": "Incorrecto. No garantiza la comprensión en pacientes con dificultades cognitivas."
+        },
+        {
+          "texto": "Entregar las indicaciones a un familiar sin confirmar entendimiento",
+          "explicacion": "Incorrecto. No verifica la comprensión del paciente ni garantiza su adherencia."
+        },
+        {
+          "texto": "Solicitar que repita las indicaciones sin apoyos escritos",
+          "explicacion": "Incorrecto. Exigir repetición sin apoyos es frustrante y no asegura recordatorio posterior."
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "texto": "Un paciente psiquiátrico con trastorno de ansiedad social no quiere salir de su habitación para recibir atención. El equipo debe realizar una evaluación diaria de signos vitales. ¿Cuál es la mejor respuesta del enfermero?",
+      "respuestaCorrecta": "Ofrecer realizar la evaluación dentro de su habitación hoy y trabajar gradualmente para que salga en próximas ocasiones",
+      "explicacionCorrecta": "La orientación al servicio adapta los procedimientos a las necesidades del paciente sin descuidar la atención clínica, usando un enfoque gradual y respetuoso.",
+      "distractores": [
+        {
+          "texto": "Forzarlo a salir porque la evaluación debe hacerse en el área común",
+          "explicacion": "Incorrecto. Forzar aumenta la ansiedad y daña la confianza en el servicio."
+        },
+        {
+          "texto": "Saltarse la evaluación hoy y documentar 'paciente no colabora'",
+          "explicacion": "Incorrecto. Omite la atención necesaria sin buscar alternativa."
+        },
+        {
+          "texto": "Pedir al médico que lo obligue a salir",
+          "explicacion": "Incorrecto. Derivar sin intentar una solución respetuosa no resuelve."
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "texto": "Un familiar llama por teléfono preguntando por el estado de salud de un paciente. No puede desplazarse al hospital. El paciente ha autorizado por escrito dar información a ese familiar. ¿Cómo debe responder el enfermero?",
+      "respuestaCorrecta": "Verificar la identidad del familiar y dar la información autorizada de manera clara y empática",
+      "explicacionCorrecta": "La orientación al servicio incluye facilitar la comunicación cuando existe autorización previa, asegurando la verificación de identidad para proteger la confidencialidad.",
+      "distractores": [
+        {
+          "texto": "Decir que no puede dar información por teléfono aunque haya autorización",
+          "explicacion": "Incorrecto. La autorización por escrito permite la comunicación telefónica con las debidas verificaciones."
+        },
+        {
+          "texto": "Dar la información sin verificar identidad por ser familiar",
+          "explicacion": "Incorrecto. La confidencialidad exige verificar identidad incluso con autorización."
+        },
+        {
+          "texto": "Informar que debe venir personalmente aunque haya autorización",
+          "explicacion": "Incorrecto. No considera las limitaciones del familiar ni la autorización existente."
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "texto": "Un paciente con trastorno obsesivo-compulsivo le pregunta la misma información sobre su tratamiento por quinta vez en el día. Se nota angustiado. ¿Cuál es la mejor respuesta?",
+      "respuestaCorrecta": "Responder con paciencia y ofrecerle un resumen escrito para que lo consulte cuando lo necesite",
+      "explicacionCorrecta": "La orientación al servicio en pacientes ansiosos implica paciencia y herramientas que reduzcan su angustia, como resúmenes escritos, sin mostrar irritabilidad.",
+      "distractores": [
+        {
+          "texto": "Decirle que ya ha preguntado muchas veces y que debe recordar",
+          "explicacion": "Incorrecto. La reprimenda aumenta la angustia y daña la relación terapéutica."
+        },
+        {
+          "texto": "Ignorar la pregunta para que aprenda a recordar solo",
+          "explicacion": "Incorrecto. Ignorar no resuelve la compulsión del paciente."
+        },
+        {
+          "texto": "Derivarlo a psicología sin responder la pregunta",
+          "explicacion": "Incorrecto. No resuelve su necesidad inmediata de información."
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "texto": "Un paciente fue dado de alta hace 3 días y llama angustiado porque olvidó cómo tomar un medicamento nuevo. El enfermero que lo atendió no está disponible. ¿Cómo actúa quien recibe la llamada?",
+      "respuestaCorrecta": "Consultar la historia clínica, verificar la indicación y explicar al paciente con calma",
+      "explicacionCorrecta": "La orientación al servicio implica resolver la necesidad del paciente aunque no sea el profesional que lo atendió inicialmente, usando los registros clínicos disponibles.",
+      "distractores": [
+        {
+          "texto": "Decir que no estaba presente y no puede ayudarlo",
+          "explicacion": "Incorrecto. Abandona al paciente sin intentar resolver usando los registros."
+        },
+        {
+          "texto": "Pedirle que llame más tarde cuando esté el enfermero original",
+          "explicacion": "Incorrecto. Posterga innecesariamente la resolución de una duda urgente."
+        },
+        {
+          "texto": "Recomendarle que suspenda el medicamento hasta consultar",
+          "explicacion": "Incorrecto. Suspender sin indicación médica puede ser peligroso."
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "texto": "Un paciente con discapacidad intelectual necesita un procedimiento que le causa miedo. Tiene dificultad para entender las explicaciones complejas. ¿Cuál es la mejor estrategia del enfermero?",
+      "respuestaCorrecta": "Usar lenguaje sencillo, mostrar los instrumentos y explicar paso a paso con calma",
+      "explicacionCorrecta": "La orientación al servicio adapta la comunicación a la capacidad de comprensión del paciente, usando lenguaje claro y mostrando los procedimientos para reducir el miedo.",
+      "distractores": [
+        {
+          "texto": "Explicar con términos técnicos y esperar que comprenda",
+          "explicacion": "Incorrecto. No se adapta a sus necesidades cognitivas."
+        },
+        {
+          "texto": "Realizar el procedimiento sin explicación para no angustiarlo",
+          "explicacion": "Incorrecto. La falta de explicación viola el consentimiento informado."
+        },
+        {
+          "texto": "Pedir a un familiar que lo distraiga mientras se hace el procedimiento",
+          "explicacion": "Incorrecto. La distracción no reemplaza la información adecuada."
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "texto": "Un paciente psiquiátrico en fase de recuperación quiere colaborar con el aseo de su habitación. La norma institucional dice que el aseo lo hace el personal de servicios generales. ¿Cómo maneja la situación el enfermero?",
+      "respuestaCorrecta": "Agradecer su disposición y permitirle colaborar en tareas simples acompañado, sin delegar completamente",
+      "explicacionCorrecta": "La orientación al servicio fomenta la autonomía y participación del paciente en su recuperación, adaptando las normas a sus necesidades terapéuticas cuando sea posible.",
+      "distractores": [
+        {
+          "texto": "Prohibirle rotundamente porque es trabajo de otro personal",
+          "explicacion": "Incorrecto. No considera el valor terapéutico de la participación."
+        },
+        {
+          "texto": "Delegar todo el aseo para motivarlo",
+          "explicacion": "Incorrecto. Puede exponerlo a riesgos o frustración si no tiene capacidad completa."
+        },
+        {
+          "texto": "Ignorar su oferta y no dar ninguna respuesta",
+          "explicacion": "Incorrecto. Ignorar desmotiva al paciente en su proceso de recuperación."
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "texto": "Un paciente psiquiátrico establece una fuerte relación de dependencia con una auxiliar de enfermería específica. Llora y se angustia cuando ella no está. ¿Cómo debe manejar el equipo esta situación?",
+      "respuestaCorrecta": "Fortalecer gradualmente la relación con otros miembros del equipo y explicar que todos pueden ayudarle",
+      "explicacionCorrecta": "La orientación al servicio debe evitar la dependencia excesiva, promoviendo la confianza en todo el equipo para garantizar atención continua.",
+      "distractores": [
+        {
+          "texto": "Asignar siempre a esa auxiliar para evitarle angustia",
+          "explicacion": "Incorrecto. Refuerza la dependencia y no es sostenible para los descansos o ausencias."
+        },
+        {
+          "texto": "Separar completamente a la auxiliar del paciente",
+          "explicacion": "Incorrecto. Puede ser traumático y no resuelve la causa."
+        },
+        {
+          "texto": "Ignorar la angustia del paciente cuando ella no está",
+          "explicacion": "Incorrecto. Ignorar no ayuda a construir nuevas relaciones de confianza."
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "texto": "Un paciente psiquiátrico está estable y próximo al alta. Expresa miedo de 'fracasar' afuera y pregunta si puede quedarse más tiempo. No hay indicación médica para prolongar la hospitalización. ¿Cómo responde el enfermero?",
+      "respuestaCorrecta": "Reconocer sus miedos, ofrecer opciones de seguimiento ambulatorio y coordinar con trabajo social",
+      "explicacionCorrecta": "La orientación al servicio incluye validar los miedos del paciente y ofrecer apoyos en el siguiente nivel de atención, sin prolongar hospitalizaciones innecesarias.",
+      "distractores": [
+        {
+          "texto": "Decirle que debe irse porque ya no hay indicación médica",
+          "explicacion": "Incorrecto. Minimiza sus miedos sin ofrecer alternativas."
+        },
+        {
+          "texto": "Apoyar la extensión de la hospitalización por compasión",
+          "explicacion": "Incorrecto. Hospitalización innecesaria puede ser contraproducente y costosa."
+        },
+        {
+          "texto": "Derivarlo al médico sin dar ninguna respuesta",
+          "explicacion": "Incorrecto. No ofrece orientación inmediata sobre los miedos expresados."
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "texto": "Un paciente psiquiátrico se queja de que otro paciente lo insulta constantemente. Usted no ha presenciado los insultos, pero el paciente está claramente afectado. ¿Qué debe hacer?",
+      "respuestaCorrecta": "Registrar la queja, observar la situación y mediar entre ambos pacientes para establecer límites claros",
+      "explicacionCorrecta": "La orientación al servicio exige tomar en serio las quejas de los pacientes, investigar sin prejuicios y mediar para garantizar un ambiente de respeto mutuo.",
+      "distractores": [
+        {
+          "texto": "Ignorar porque no lo ha presenciado personalmente",
+          "explicacion": "Incorrecto. Ignorar la queja del paciente daña la confianza en el servicio."
+        },
+        {
+          "texto": "Separar al paciente quejoso sin investigar",
+          "explicacion": "Incorrecto. Desplazar a la víctima es una solución injusta."
+        },
+        {
+          "texto": "Decirle que debe aprender a convivir con otros pacientes",
+          "explicacion": "Incorrecto. Desestima su malestar sin abordar el conflicto."
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "texto": "Un paciente psiquiátrico con trastorno bipolar en fase maníaca habla excesivamente y no permite que otros pacientes participen en la terapia grupal. El grupo está molesto. ¿Cómo actúa el enfermero facilitador?",
+      "respuestaCorrecta": "Interrumpir respetuosamente, recordar la regla de turnos de palabra y ofrecer contención individual después de la sesión",
+      "explicacionCorrecta": "La orientación al servicio en terapia grupal exige equilibrar las necesidades del paciente que monopoliza con las del resto del grupo, usando contención firme pero respetuosa y ofreciendo atención individual complementaria.",
+      "distractores": [
+        {
+          "texto": "Permitir que siga hablando para no afectar su estado de ánimo",
+          "explicacion": "Incorrecto. Desatiende las necesidades del resto del grupo."
+        },
+        {
+          "texto": "Sacarlo de la sesión sin explicación",
+          "explicacion": "Incorrecto. La exclusión no es educativa ni terapéutica."
+        },
+        {
+          "texto": "Suspender la terapia grupal por su causa",
+          "explicacion": "Incorrecto. Una sola persona no debe privar al grupo del tratamiento."
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "texto": "¿Qué ley creó el Sistema General de Seguridad Social en Salud (SGSSS) en Colombia?",
+      "respuestaCorrecta": "Ley 100 de 1993",
+      "explicacionCorrecta": "La Ley 100 de 1993, en su Libro III, creó el Sistema General de Seguridad Social en Salud (SGSSS).",
+      "distractores": [
+        {
+          "texto": "Ley 1122 de 2007",
+          "explicacion": "❌ Incorrecto. \"Ley 1122 de 2007\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Ley 1438 de 2011",
+          "explicacion": "❌ Incorrecto. \"Ley 1438 de 2011\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Ley 1751 de 2015",
+          "explicacion": "❌ Incorrecto. \"Ley 1751 de 2015\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "texto": "Según la Ley 100 de 1993, ¿Cuál es el régimen de afiliación para un trabajador dependiente con capacidad de pago?",
+      "respuestaCorrecta": "Régimen Contributivo",
+      "explicacionCorrecta": "Artículo 202 de la Ley 100. Los trabajadores dependientes cotizan al Régimen Contributivo.",
+      "distractores": [
+        {
+          "texto": "Régimen Subsidiado",
+          "explicacion": "❌ Incorrecto. \"Régimen Subsidiado\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Régimen Especial",
+          "explicacion": "❌ Incorrecto. \"Régimen Especial\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Régimen de Pensiones",
+          "explicacion": "❌ Incorrecto. \"Régimen de Pensiones\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "texto": "¿Qué entidad administra los recursos del Sistema General de Seguridad Social en Salud?",
+      "respuestaCorrecta": "ADRES",
+      "explicacionCorrecta": "La ADRES (Administradora de los Recursos del SGSSS), antes FOSYGA, recauda, gira y administra los recursos.",
+      "distractores": [
+        {
+          "texto": "Supersalud",
+          "explicacion": "❌ Incorrecto. \"Supersalud\" no es la respuesta correcta."
+        },
+        {
+          "texto": "FOSYGA",
+          "explicacion": "❌ Incorrecto. \"FOSYGA\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Ministerio de Salud",
+          "explicacion": "❌ Incorrecto. \"Ministerio de Salud\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "texto": "¿Cuál es el porcentaje total de cotización al SGSSS para un trabajador dependiente?",
+      "respuestaCorrecta": "12.5%",
+      "explicacionCorrecta": "Artículo 204 de la Ley 100. La cotización total es del 12.5% del ingreso base (8.5% empleador + 4% trabajador).",
+      "distractores": [
+        {
+          "texto": "16%",
+          "explicacion": "❌ Incorrecto. \"16%\" no es la respuesta correcta."
+        },
+        {
+          "texto": "8.5%",
+          "explicacion": "❌ Incorrecto. \"8.5%\" no es la respuesta correcta."
+        },
+        {
+          "texto": "4%",
+          "explicacion": "❌ Incorrecto. \"4%\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "texto": "¿Qué significa EPS en la Ley 100 de 1993?",
+      "respuestaCorrecta": "Entidad Promotora de Salud",
+      "explicacionCorrecta": "Artículo 180 de la Ley 100. EPS significa Entidad Promotora de Salud.",
+      "distractores": [
+        {
+          "texto": "Empresa Prestadora de Servicios",
+          "explicacion": "❌ Incorrecto. \"Empresa Prestadora de Servicios\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Entidad Promotora de Seguros",
+          "explicacion": "❌ Incorrecto. \"Entidad Promotora de Seguros\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Establecimiento Público de Salud",
+          "explicacion": "❌ Incorrecto. \"Establecimiento Público de Salud\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "texto": "¿Qué significa IPS en la Ley 100 de 1993?",
+      "respuestaCorrecta": "Institución Prestadora de Servicios de Salud",
+      "explicacionCorrecta": "Artículo 182 de la Ley 100. IPS significa Institución Prestadora de Servicios de Salud.",
+      "distractores": [
+        {
+          "texto": "Instituto de Promoción Social",
+          "explicacion": "❌ Incorrecto. \"Instituto de Promoción Social\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Institución Pública Superior",
+          "explicacion": "❌ Incorrecto. \"Institución Pública Superior\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Integración de Programas Sanitarios",
+          "explicacion": "❌ Incorrecto. \"Integración de Programas Sanitarios\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "texto": "Según la Ley 100 de 1993, ¿A quiénes está dirigido el Régimen Subsidiado?",
+      "respuestaCorrecta": "Población pobre no asegurada sin capacidad de pago",
+      "explicacionCorrecta": "Artículo 211 de la Ley 100. El Subsidiado es para población sin capacidad de pago.",
+      "distractores": [
+        {
+          "texto": "Trabajadores dependientes",
+          "explicacion": "❌ Incorrecto. \"Trabajadores dependientes\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Servidores públicos",
+          "explicacion": "❌ Incorrecto. \"Servidores públicos\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Pensionados con ingresos altos",
+          "explicacion": "❌ Incorrecto. \"Pensionados con ingresos altos\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "texto": "¿Qué principio del SGSSS establece que todos los habitantes deben acceder al sistema de salud?",
+      "respuestaCorrecta": "Universalidad",
+      "explicacionCorrecta": "Artículo 153 de la Ley 100. Principio de universalidad: todos deben estar afiliados.",
+      "distractores": [
+        {
+          "texto": "Solidaridad",
+          "explicacion": "❌ Incorrecto. \"Solidaridad\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Equidad",
+          "explicacion": "❌ Incorrecto. \"Equidad\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Integralidad",
+          "explicacion": "❌ Incorrecto. \"Integralidad\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "texto": "¿Qué principio del SGSSS garantiza que los afiliados reciban el mismo trato sin discriminación?",
+      "respuestaCorrecta": "Equidad",
+      "explicacionCorrecta": "Artículo 153 de la Ley 100. Principio de equidad: sin discriminación en el acceso.",
+      "distractores": [
+        {
+          "texto": "Universalidad",
+          "explicacion": "❌ Incorrecto. \"Universalidad\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Eficiencia",
+          "explicacion": "❌ Incorrecto. \"Eficiencia\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Participación",
+          "explicacion": "❌ Incorrecto. \"Participación\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "texto": "¿Qué principio del SGSSS busca que el sistema sea viable financieramente en el tiempo?",
+      "respuestaCorrecta": "Sostenibilidad",
+      "explicacionCorrecta": "Artículo 153 de la Ley 100. Principio de sostenibilidad financiera.",
+      "distractores": [
+        {
+          "texto": "Solidaridad",
+          "explicacion": "❌ Incorrecto. \"Solidaridad\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Eficiencia",
+          "explicacion": "❌ Incorrecto. \"Eficiencia\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Calidad",
+          "explicacion": "❌ Incorrecto. \"Calidad\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "texto": "¿Qué entidad vigila y controla a las EPS e IPS en Colombia?",
+      "respuestaCorrecta": "Superintendencia Nacional de Salud",
+      "explicacionCorrecta": "La Superintendencia Nacional de Salud (Supersalud) inspecciona, vigila y controla las EPS e IPS.",
+      "distractores": [
+        {
+          "texto": "Ministerio de Salud",
+          "explicacion": "❌ Incorrecto. \"Ministerio de Salud\" no es la respuesta correcta."
+        },
+        {
+          "texto": "ADRES",
+          "explicacion": "❌ Incorrecto. \"ADRES\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Defensoría del Pueblo",
+          "explicacion": "❌ Incorrecto. \"Defensoría del Pueblo\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "texto": "¿Cuál NO es un principio del SGSSS según la Ley 100?",
+      "respuestaCorrecta": "Gratuidad total",
+      "explicacionCorrecta": "La gratuidad total no existe en la Ley 100. El sistema se financia con cotizaciones y aportes.",
+      "distractores": [
+        {
+          "texto": "Universalidad",
+          "explicacion": "❌ Incorrecto. \"Universalidad\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Solidaridad",
+          "explicacion": "❌ Incorrecto. \"Solidaridad\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Integralidad",
+          "explicacion": "❌ Incorrecto. \"Integralidad\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "texto": "¿Qué significa PBS en el SGSSS?",
+      "respuestaCorrecta": "Plan de Beneficios en Salud",
+      "explicacionCorrecta": "El PBS (antes POS) es el conjunto de servicios, tecnologías y medicamentos garantizados a los afiliados.",
+      "distractores": [
+        {
+          "texto": "Programa Básico Sanitario",
+          "explicacion": "❌ Incorrecto. \"Programa Básico Sanitario\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Plan Básico de Servicios",
+          "explicacion": "❌ Incorrecto. \"Plan Básico de Servicios\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Protección Básica Social",
+          "explicacion": "❌ Incorrecto. \"Protección Básica Social\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "texto": "¿Qué significa RIAS en la atención en salud?",
+      "respuestaCorrecta": "Rutas Integrales de Atención en Salud",
+      "explicacionCorrecta": "Las RIAS son guías técnicas para promoción, prevención, diagnóstico, tratamiento y rehabilitación.",
+      "distractores": [
+        {
+          "texto": "Red Interinstitucional de Acción Social",
+          "explicacion": "❌ Incorrecto. \"Red Interinstitucional de Acción Social\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Registro Individual de Atención Sanitaria",
+          "explicacion": "❌ Incorrecto. \"Registro Individual de Atención Sanitaria\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Reglamento Interno de Aseguramiento en Salud",
+          "explicacion": "❌ Incorrecto. \"Reglamento Interno de Aseguramiento en Salud\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "texto": "¿Cuál es el organismo máximo de dirección del SGSSS?",
+      "respuestaCorrecta": "Ministerio de Salud y Protección Social",
+      "explicacionCorrecta": "El Ministerio de Salud es la entidad rectora del sector salud en Colombia.",
+      "distractores": [
+        {
+          "texto": "Superintendencia Nacional de Salud",
+          "explicacion": "❌ Incorrecto. \"Superintendencia Nacional de Salud\" no es la respuesta correcta."
+        },
+        {
+          "texto": "ADRES",
+          "explicacion": "❌ Incorrecto. \"ADRES\" no es la respuesta correcta."
+        },
+        {
+          "texto": "CNSC",
+          "explicacion": "❌ Incorrecto. \"CNSC\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "texto": "Según la Ley 100, la afiliación al SGSSS es de carácter:",
+      "respuestaCorrecta": "Obligatorio",
+      "explicacionCorrecta": "Artículo 157. La afiliación es obligatoria para todos los residentes en Colombia.",
+      "distractores": [
+        {
+          "texto": "Voluntario",
+          "explicacion": "❌ Incorrecto. \"Voluntario\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Temporal",
+          "explicacion": "❌ Incorrecto. \"Temporal\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Parcial",
+          "explicacion": "❌ Incorrecto. \"Parcial\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "texto": "¿Qué entidad defiende los derechos de los usuarios del sistema de salud?",
+      "respuestaCorrecta": "Personerías y Defensoría del Pueblo",
+      "explicacionCorrecta": "Las personerías y la Defensoría del Pueblo representan y defienden los derechos de los usuarios.",
+      "distractores": [
+        {
+          "texto": "EPS e IPS",
+          "explicacion": "❌ Incorrecto. \"EPS e IPS\" no es la respuesta correcta."
+        },
+        {
+          "texto": "ADRES",
+          "explicacion": "❌ Incorrecto. \"ADRES\" no es la respuesta correcta."
+        },
+        {
+          "texto": "CNSC",
+          "explicacion": "❌ Incorrecto. \"CNSC\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "texto": "¿Qué significa APS en el sistema de salud colombiano?",
+      "respuestaCorrecta": "Atención Primaria en Salud",
+      "explicacionCorrecta": "La APS es la estrategia para acercar los servicios de salud a la comunidad, fortalecida por la Ley 1438 de 2011.",
+      "distractores": [
+        {
+          "texto": "Aseguramiento Permanente en Salud",
+          "explicacion": "❌ Incorrecto. \"Aseguramiento Permanente en Salud\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Administración de Prestaciones Sociales",
+          "explicacion": "❌ Incorrecto. \"Administración de Prestaciones Sociales\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Asistencia Primaria Social",
+          "explicacion": "❌ Incorrecto. \"Asistencia Primaria Social\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "texto": "¿Qué derecho fundamental reconoció la Ley 1751 de 2015?",
+      "respuestaCorrecta": "La salud como derecho fundamental",
+      "explicacionCorrecta": "La Ley 1751 de 2015 (Ley Estatutaria) reconoce la salud como derecho fundamental autónomo.",
+      "distractores": [
+        {
+          "texto": "La educación gratuita",
+          "explicacion": "❌ Incorrecto. \"La educación gratuita\" no es la respuesta correcta."
+        },
+        {
+          "texto": "La vivienda digna",
+          "explicacion": "❌ Incorrecto. \"La vivienda digna\" no es la respuesta correcta."
+        },
+        {
+          "texto": "La seguridad social integral",
+          "explicacion": "❌ Incorrecto. \"La seguridad social integral\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "texto": "¿Qué decreto compila toda la reglamentación del sector salud en Colombia?",
+      "respuestaCorrecta": "Decreto 780 de 2016",
+      "explicacionCorrecta": "El Decreto 780 de 2016 es el Decreto Único Reglamentario del sector salud.",
+      "distractores": [
+        {
+          "texto": "Decreto 1011 de 2006",
+          "explicacion": "❌ Incorrecto. \"Decreto 1011 de 2006\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Decreto Único 1075",
+          "explicacion": "❌ Incorrecto. \"Decreto Único 1075\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Resolución 3100 de 2019",
+          "explicacion": "❌ Incorrecto. \"Resolución 3100 de 2019\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "texto": "¿Cuál es la estrategia central que establece la Ley 1438 de 2011 para el SGSSS?",
+      "respuestaCorrecta": "Atención Primaria en Salud (APS)",
+      "explicacionCorrecta": "La Ley 1438 de 2011 establece la APS como estrategia central del SGSSS, siendo la puerta de entrada de la población a los servicios de salud.",
+      "distractores": [
+        {
+          "texto": "Redes Integradas de Servicios",
+          "explicacion": "❌ Incorrecto. \"Redes Integradas de Servicios\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Gestión del riesgo en salud",
+          "explicacion": "❌ Incorrecto. \"Gestión del riesgo en salud\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Participación social en salud",
+          "explicacion": "❌ Incorrecto. \"Participación social en salud\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "texto": "¿Cómo se denominan los equipos interdisciplinarios que atienden a una población asignada según la Ley 1438 de 2011?",
+      "respuestaCorrecta": "Equipos Básicos de Salud (EBS)",
+      "explicacionCorrecta": "Los EBS están conformados por médicos, enfermeros y auxiliares que realizan visitas domiciliarias e identifican riesgos de salud de la población a cargo.",
+      "distractores": [
+        {
+          "texto": "Unidades de Atención Primaria",
+          "explicacion": "❌ Incorrecto. \"Unidades de Atención Primaria\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Grupos de Salud Comunitaria",
+          "explicacion": "❌ Incorrecto. \"Grupos de Salud Comunitaria\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Comités de Vigilancia Epidemiológica",
+          "explicacion": "❌ Incorrecto. \"Comités de Vigilancia Epidemiológica\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "texto": "Según la Ley 1438 de 2011, ¿Cómo debe ingresar el personal de salud a las ESE?",
+      "respuestaCorrecta": "Por concurso de méritos con evaluación de competencias",
+      "explicacionCorrecta": "La Ley 1438 establece que el ingreso a las ESE se rige por las normas de carrera administrativa, con concurso de méritos y evaluación de competencias.",
+      "distractores": [
+        {
+          "texto": "Por designación del gerente de la ESE",
+          "explicacion": "❌ Incorrecto. \"Por designación del gerente de la ESE\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Por elección de la junta directiva",
+          "explicacion": "❌ Incorrecto. \"Por elección de la junta directiva\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Por antigüedad en el sector salud",
+          "explicacion": "❌ Incorrecto. \"Por antigüedad en el sector salud\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "texto": "¿Qué son las Redes Integradas de Servicios de Salud (RIS) según la Ley 1438 de 2011?",
+      "respuestaCorrecta": "Conjunto de organizaciones que prestan servicios coordinados entre niveles de atención",
+      "explicacionCorrecta": "Las redes integradas articulan IPS de baja, mediana y alta complejidad para garantizar continuidad, referencia y contrarreferencia de pacientes.",
+      "distractores": [
+        {
+          "texto": "Asociaciones de EPS e IPS privadas",
+          "explicacion": "❌ Incorrecto. \"Asociaciones de EPS e IPS privadas\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Grupos de atención exclusiva para régimen subsidiado",
+          "explicacion": "❌ Incorrecto. \"Grupos de atención exclusiva para régimen subsidiado\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Unidades móviles de atención rural",
+          "explicacion": "❌ Incorrecto. \"Unidades móviles de atención rural\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "texto": "¿Qué mecanismos de participación social en salud establece la Ley 1438 de 2011?",
+      "respuestaCorrecta": "Asociaciones de Usuarios, Veedurías y Comités de Participación Comunitaria",
+      "explicacionCorrecta": "Los usuarios participan en la gestión y control del sistema a través de Asociaciones de Usuarios, Veedurías Ciudadanas y COPACO (Comités de Participación Comunitaria).",
+      "distractores": [
+        {
+          "texto": "Sindicatos de trabajadores de la salud",
+          "explicacion": "❌ Incorrecto. \"Sindicatos de trabajadores de la salud\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Consejos Municipales de Salud",
+          "explicacion": "❌ Incorrecto. \"Consejos Municipales de Salud\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Juntas Directivas de las ESE",
+          "explicacion": "❌ Incorrecto. \"Juntas Directivas de las ESE\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "texto": "¿Qué rol cumple enfermería en la gestión del riesgo en salud según la Ley 1438 de 2011?",
+      "respuestaCorrecta": "Clasificación de pacientes, seguimiento de crónicos y coordinación de cuidados",
+      "explicacionCorrecta": "Enfermería cumple un rol fundamental en la clasificación de pacientes, seguimiento de enfermedades crónicas y coordinación de cuidados en todos los niveles de atención.",
+      "distractores": [
+        {
+          "texto": "Auditoría financiera de las EPS",
+          "explicacion": "❌ Incorrecto. \"Auditoría financiera de las EPS\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Formulación de políticas de salud pública",
+          "explicacion": "❌ Incorrecto. \"Formulación de políticas de salud pública\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Administración de recursos del SGSSS",
+          "explicacion": "❌ Incorrecto. \"Administración de recursos del SGSSS\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "texto": "¿Qué principio adicional introdujo la Ley 1438 de 2011 al SGSSS?",
+      "respuestaCorrecta": "Enfoque familiar y comunitario",
+      "explicacionCorrecta": "La Ley 1438 introdujo el enfoque familiar y comunitario, donde la atención se organiza por grupos familiares y comunidades, no solo por individuos.",
+      "distractores": [
+        {
+          "texto": "Gratuidad universal",
+          "explicacion": "❌ Incorrecto. \"Gratuidad universal\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Atención exclusiva hospitalaria",
+          "explicacion": "❌ Incorrecto. \"Atención exclusiva hospitalaria\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Libre competencia entre EPS",
+          "explicacion": "❌ Incorrecto. \"Libre competencia entre EPS\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "texto": "Según la Ley 1438 de 2011, ¿Qué deben garantizar las instituciones de salud a su talento humano?",
+      "respuestaCorrecta": "Formación continua y educación permanente",
+      "explicacionCorrecta": "Las instituciones deben garantizar programas de formación continua y educación permanente, con énfasis en APS, calidad y humanización del servicio.",
+      "distractores": [
+        {
+          "texto": "Auxilio de transporte y alimentación",
+          "explicacion": "❌ Incorrecto. \"Auxilio de transporte y alimentación\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Vivienda fiscal para funcionarios",
+          "explicacion": "❌ Incorrecto. \"Vivienda fiscal para funcionarios\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Jornada laboral de 6 horas diarias",
+          "explicacion": "❌ Incorrecto. \"Jornada laboral de 6 horas diarias\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "texto": "¿Qué función tienen los Equipos Básicos de Salud (EBS) según la Ley 1438 de 2011?",
+      "respuestaCorrecta": "Identificar riesgos de salud, realizar visitas domiciliarias y coordinar la atención",
+      "explicacionCorrecta": "Los EBS identifican riesgos de salud de la población a cargo, realizan visitas domiciliarias y coordinan la atención con las redes integradas de servicios.",
+      "distractores": [
+        {
+          "texto": "Supervisar las finanzas de las EPS",
+          "explicacion": "❌ Incorrecto. \"Supervisar las finanzas de las EPS\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Autorizar traslados de pacientes a otras ciudades",
+          "explicacion": "❌ Incorrecto. \"Autorizar traslados de pacientes a otras ciudades\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Elaborar el Plan Decenal de Salud Pública",
+          "explicacion": "❌ Incorrecto. \"Elaborar el Plan Decenal de Salud Pública\" no es la respuesta correcta."
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "texto": "¿Quién define la política de Atención Primaria en Salud (APS) según la Ley 1438?",
+      "respuestaCorrecta": "Ministerio de Salud y Protección Social",
+      "explicacionCorrecta": "El Ministerio de Salud y Protección Social es el encargado de definir la política de APS como estrategia de coordinación intersectorial.",
+      "distractores": [
+        {
+          "texto": "Las EPS de cada departamento",
+          "explicacion": "❌ Incorrecto. \"Las EPS de cada departamento\" no es la respuesta correcta."
+        },
+        {
+          "texto": "La Superintendencia Nacional de Salud",
+          "explicacion": "❌ Incorrecto. \"La Superintendencia Nacional de Salud\" no es la respuesta correcta."
+        },
+        {
+          "texto": "Los Equipos Básicos de Salud",
+          "explicacion": "❌ Incorrecto. \"Los Equipos Básicos de Salud\" no es la respuesta correcta."
+        }
+      ]
+    }
+  ]
+}

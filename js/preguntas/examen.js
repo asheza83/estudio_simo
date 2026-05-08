@@ -6,8 +6,7 @@ import {
     preguntasActuales, preguntaActualIndex, respuestasUsuario,
     setPreguntasActuales, setPreguntaActualIndex, setRespuestasUsuario,
     modoSimulacro, setModoSimulacro, setTemporizadorActivo,
-    setTiempoTotalRestante, setTiempoTotalConfigurado,
-    PREGUNTAS_POR_SESION  // ← Solo importamos esta
+    setTiempoTotalRestante, setTiempoTotalConfigurado
 } from '../estado.js';
 
 import { ocultarContenidoDescriptivo, restaurarContenidoDescriptivo } from './ui.js';
@@ -34,41 +33,49 @@ async function cargarPreguntasDesdeArchivo(archivoId) {
 }
 
 export async function inicializarPreguntas(archivoId = null) {
-    if (!archivoId) {
-        const subcategoriaSelect = document.getElementById('subcategoria-competencia');
-        archivoId = subcategoriaSelect ? subcategoriaSelect.value : null;
+    const modoSeleccionado = window.modoSeleccionado || 'estudio';
+    
+    // ========================================
+    // SIMULACRO: no usa selectores, carga simulacro.json
+    // ========================================
+    if (modoSeleccionado === 'simulacro') {
+        archivoId = 'simulacro';
+    } 
+    // ========================================
+    // MODO ESTUDIO: usa el select de subcategoría
+    // ========================================
+    else {
+        if (!archivoId) {
+            const subcategoriaSelect = document.getElementById('subcategoria-competencia');
+            archivoId = subcategoriaSelect ? subcategoriaSelect.value : null;
+        }
     }
     
     if (!archivoId) return;
 
-    // 🔥 LEER CANTIDAD DEL SELECTOR CADA VEZ
-    const cantidadSelect = document.getElementById('cantidad-preguntas');
-    const cantidadSeleccionada = cantidadSelect ? parseInt(cantidadSelect.value) : 5;
-    
-    // Actualizar la variable global (por si otros módulos la necesitan)
-    if (window.setCantidadSimulacro) {
-        window.setCantidadSimulacro(cantidadSeleccionada);
-    } else {
-        window.CANTIDAD_SIMULACRO = cantidadSeleccionada;
-    }
-
     // Guardar el modo seleccionado (Estudio o Simulacro)
-    const modoSeleccionado = window.modoSeleccionado || 'estudio';
     setModoSimulacro(modoSeleccionado === 'simulacro');
-
-    // Determinar cuántas preguntas usar (según modo)
-    const cantidadPreguntas = modoSimulacro ? cantidadSeleccionada : PREGUNTAS_POR_SESION;
-
+    
+    // Obtener la configuración según el modo
+    const cantidadPreguntas = window.variablesEvaluacion?.preguntas || 0;
+    const tiempoTotal = window.variablesEvaluacion?.tiempoTotal;
+    
+    console.log("📊 DEBUG examen.js:");
+    console.log("  - modoSeleccionado:", modoSeleccionado);
+    console.log("  - archivoId:", archivoId);
+    console.log("  - window.variablesEvaluacion:", window.variablesEvaluacion);
+    console.log("  - cantidadPreguntas a usar:", cantidadPreguntas);
+    
     // Configurar tiempo total si es modo simulacro
     if (modoSimulacro) {
         setTiempoInicioSimulacro(Date.now());
         setTiempoUsadoSegundos(null);
-
-        // Calcular tiempo total: 60 segundos por pregunta
-        const tiempoTotal = cantidadPreguntas * 60;
-        setTiempoTotalRestante(tiempoTotal);
-        setTiempoTotalConfigurado(tiempoTotal);
-        console.log(`⏱️ Simulacro: ${cantidadPreguntas} preguntas - Tiempo total: ${tiempoTotal / 60} minutos`);
+        
+        if (tiempoTotal) {
+            setTiempoTotalRestante(tiempoTotal);
+            setTiempoTotalConfigurado(tiempoTotal);
+            console.log(`⏱️ Simulacro: ${cantidadPreguntas} preguntas - Tiempo total: ${tiempoTotal / 60} minutos`);
+        }
     }
     
     setFiltroLeyActual(archivoId);
@@ -90,9 +97,11 @@ export async function inicializarPreguntas(archivoId = null) {
     if (inicio) inicio.style.display = 'none';
     if (examen) examen.style.display = 'block';
     
-    // Usar cantidadPreguntas para el slice
+    // Usar cantidadPreguntas para el slice (si no hay suficientes, usar todas)
     const preguntasMezcladas = [...preguntas].sort(() => Math.random() - 0.5);
-    const nuevasPreguntas = preguntasMezcladas.slice(0, cantidadPreguntas);
+    const limite = Math.min(cantidadPreguntas, preguntasMezcladas.length);
+    const nuevasPreguntas = preguntasMezcladas.slice(0, limite);
+    
     setPreguntasActuales(nuevasPreguntas);
     setPreguntaActualIndex(0);
     setRespuestasUsuario(nuevasPreguntas.map(() => ({
@@ -106,6 +115,8 @@ export async function inicializarPreguntas(archivoId = null) {
     window.scrollTo({top: 0, behavior: 'smooth'});
     mostrarPregunta();
     actualizarProgreso();
+
+    console.log("  - nuevasPreguntas.length:", nuevasPreguntas?.length);
 }
 
 export function comenzarNuevoExamen() {

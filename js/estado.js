@@ -12,14 +12,6 @@ export let preguntaActualIndex = 0;
 export let respuestasUsuario = [];
 export let modoOscuro = false;
 
-// Cantidad de preguntas por examen
-export let PREGUNTAS_POR_SESION = 5;           // Modo Estudio: siempre 5
-export let CANTIDAD_SIMULACRO = 5;             // Modo Simulacro: configurable
-export function setCantidadSimulacro(valor) { 
-    CANTIDAD_SIMULACRO = valor; 
-    window.CANTIDAD_SIMULACRO = valor;  // Actualizar también la global
-}
-
 // Tamaño de letra
 export let tamañoLetraActual = 'font-normal';
 export const tamañosLetra = ['font-small', 'font-normal', 'font-large', 'font-xlarge'];
@@ -31,7 +23,84 @@ export let letraActual = 'TODAS';
 export let paginaActual = 1;
 export const TERMINOS_POR_PAGINA = 10;
 
-// Funciones para modificar variables globales
+// ============================================
+// CONFIGURACIÓN CENTRALIZADA DE EVALUACIÓN
+// ============================================
+
+// Constante base
+export const SEGUNDOS_POR_PREGUNTA = 60;
+
+// Variables que cambian según el modo
+export let variablesEvaluacion = {
+    preguntas: 0,
+    tiempoPorPregunta: null,
+    tiempoTotal: null,
+    feedback: false,
+    intentos: 1
+};
+
+// Inicializar/resetear valores por defecto
+export function inicializarEvaluacion() {
+    variablesEvaluacion = {
+        preguntas: 0,
+        tiempoPorPregunta: null,
+        tiempoTotal: null,
+        feedback: false,
+        intentos: 1
+    };
+    console.log(`🔄 Evaluación inicializada (valores por defecto)`);
+}
+
+// Configurar según el modo elegido
+export function setModoEvaluacion(modo) {
+    if (modo === 'estudio') {
+        variablesEvaluacion = {
+            preguntas: 5,
+            tiempoPorPregunta: null,
+            tiempoTotal: null,
+            feedback: true,
+            intentos: 4
+        };
+    } else if (modo === 'simulacro') {
+        variablesEvaluacion = {
+            preguntas: 100,
+            tiempoPorPregunta: SEGUNDOS_POR_PREGUNTA,
+            tiempoTotal: 100 * SEGUNDOS_POR_PREGUNTA,
+            feedback: false,
+            intentos: 1
+        };
+    }
+    // 🔥 ACTUALIZAR TAMBIÉN LA REFERENCIA GLOBAL
+    window.variablesEvaluacion = variablesEvaluacion;
+    window.PREGUNTAS_POR_SESION = variablesEvaluacion.preguntas;
+    console.log(`🎯 Modo ${modo} configurado:`, variablesEvaluacion);
+}
+
+// Ejecutar inicialización automática al cargar el módulo
+inicializarEvaluacion();
+
+// ============================================
+// VARIABLES DEL SIMULACRO (legado, se migrará)
+// ============================================
+export let modoSimulacro = false;
+export let tiempoRestante = 60;
+export let temporizadorActivo = false;
+export let puntajeSimulacro = 0;
+export let tiempoPorPregunta = 60;
+
+export function setModoSimulacro(value) { modoSimulacro = value; }
+export function setTiempoRestante(value) { tiempoRestante = value; }
+export function setTemporizadorActivo(value) { temporizadorActivo = value; }
+export function setPuntajeSimulacro(value) { puntajeSimulacro = value; }
+export function setTiempoPorPregunta(value) { tiempoPorPregunta = value; }
+
+export let tiempoTotalRestante = 300;
+export let tiempoTotalConfigurado = 300;
+
+export function setTiempoTotalRestante(value) { tiempoTotalRestante = value; }
+export function setTiempoTotalConfigurado(value) { tiempoTotalConfigurado = value; }
+
+// Funciones para modificar variables globales (legado)
 export function setLeyesDisponibles(data) { leyesDisponibles = data; }
 export function setLeyActual(data) { leyActual = data; }
 export function setPreguntasBanco(data) { preguntasBanco = data; }
@@ -45,41 +114,12 @@ export function setGlosarioFiltrado(data) { glosarioFiltrado = data; }
 export function setLetraActual(value) { letraActual = value; }
 export function setPaginaActual(value) { paginaActual = value; }
 
-// ============================================
-// VARIABLES DEL SIMULACRO (con temporizador)
-// ============================================
-export let modoSimulacro = false;        // false = Estudio, true = Simulacro
-export let tiempoRestante = 60;          // segundos para pregunta actual
-export let temporizadorActivo = false;   // si el temporizador está corriendo
-export let puntajeSimulacro = 0;         // puntaje final sobre 100
-export let tiempoPorPregunta = 60;       // segundos por pregunta (configurable)
-
-// Funciones para modificar variables del simulacro
-export function setModoSimulacro(value) { modoSimulacro = value; }
-export function setTiempoRestante(value) { tiempoRestante = value; }
-export function setTemporizadorActivo(value) { temporizadorActivo = value; }
-export function setPuntajeSimulacro(value) { puntajeSimulacro = value; }
-export function setTiempoPorPregunta(value) { tiempoPorPregunta = value; }
-
-// Variables para tiempo total en simulacro
-export let tiempoTotalRestante = 300;  // 5 minutos = 300 segundos
-export let tiempoTotalConfigurado = 300; // valor inicial
-
-export function setTiempoTotalRestante(value) { tiempoTotalRestante = value; }
-export function setTiempoTotalConfigurado(value) { tiempoTotalConfigurado = value; }
-
-// ============================================
-// EXPOSICIÓN GLOBAL (para acceso desde window)
-// ============================================
-// Exposición global (después de todas las declaraciones)
+// Exposición global para window (legado)
 setTimeout(() => {
-    window.PREGUNTAS_POR_SESION = PREGUNTAS_POR_SESION;
-    window.CANTIDAD_SIMULACRO = CANTIDAD_SIMULACRO;
-    window.setCantidadSimulacro = setCantidadSimulacro;
+    window.PREGUNTAS_POR_SESION = variablesEvaluacion.preguntas;
     window.preguntasActuales = preguntasActuales;
-    console.log("🌐 Variables globales expuestas:", {
-        PREGUNTAS_POR_SESION: window.PREGUNTAS_POR_SESION,
-        CANTIDAD_SIMULACRO: window.CANTIDAD_SIMULACRO,
-        preguntasActuales: window.preguntasActuales?.length
-    });
+    window.variablesEvaluacion = variablesEvaluacion;
+    window.setModoEvaluacion = setModoEvaluacion;
+    window.inicializarEvaluacion = inicializarEvaluacion;
+    console.log("🌐 Variables globales expuestas");
 }, 100);

@@ -4,7 +4,7 @@
 
 import { 
     preguntasActuales, respuestasUsuario,
-    modoSimulacro, PREGUNTAS_POR_SESION
+    modoSimulacro, variablesEvaluacion
 } from '../estado.js';
 
 import { getFiltroLeyActual } from './inicio.js';
@@ -28,7 +28,7 @@ export function exportarResultadosPDF() {
     
     // Tiempos
     const tiempoUsadoSegundos = getTiempoUsadoSegundos();
-    const tiempoTotalConfigurado = PREGUNTAS_POR_SESION * 60;
+    const tiempoTotalConfigurado = variablesEvaluacion.tiempoTotal || (100 * 60);
     const minutosUsados = Math.floor(tiempoUsadoSegundos / 60);
     const segundosUsados = tiempoUsadoSegundos % 60;
     const minutosTotal = Math.floor(tiempoTotalConfigurado / 60);
