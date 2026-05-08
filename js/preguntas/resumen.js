@@ -109,7 +109,7 @@ export function mostrarResumenFinal() {
     // === CARD DE PUNTAJE SIMO ===
     html += `
         <hr style="border: 1px solid var(--borde); margin: 12px 0;">
-        <div class="pregunta-card" style="background-color: ${aprobo ? '#d4edda' : '#f8d7da'}; border: 2px solid ${aprobo ? '#28a745' : '#dc3545'}; margin-bottom: 20px;">
+        <div class="pregunta-card" style="color: #000000; background-color: ${aprobo ? '#d4edda' : '#f8d7da'}; border: 2px solid ${aprobo ? '#28a745' : '#dc3545'}; margin-bottom: 20px;">
             <div style="text-align: center;">
                 <h3 style="margin: 0 0 10px 0;">📊 RESULTADO SIMO (en %)</h3>
                 <div style="font-size: 2.5rem; font-weight: bold;">${puntajeFinal}% <span style="font-size: 1rem; font-weight: normal;">(${puntajeFinal}/100)</span></div>
@@ -121,7 +121,7 @@ export function mostrarResumenFinal() {
                 <div style="font-size: 0.9rem; margin-top: 8px;">
                     ${modoSimulacro ? '⏱️ Modo Simulacro' : '📚 Modo Estudio'}
                 </div>
-                <div style="font-size: 0.8rem; margin-top: 8px; color: var(--texto-secundario);">
+                <div style="font-size: 0.8rem; margin-top: 8px; color: #000000">
                     ℹ️ El puntaje SIMO se calcula como: (Aciertos / Total preguntas) × 100
                 </div>
             </div>
@@ -229,9 +229,9 @@ export function mostrarResumenFinal() {
             
             // RECOMENDACIÓN PARA EL USUARIO
             html += `
-                <div class="pregunta-card" style="margin-top: 15px; background-color: rgba(255, 193, 7, 0.15); border-left: 4px solid #ffc107;">
+                <div class="pregunta-card recomendacion-card" style="color: #000000; margin-top: 15px; border-left: 4px solid #ffc107;">
                     <div style="padding: 12px;">
-                        <p style="margin: 0; font-size: 0.9rem;">
+                        <p style="margin: 0; font-size: 1.1rem; line-height: 1.4;">
                             💡 <strong>Recomendación:</strong> Para reforzar estos temas, practica en el 
                             <strong>Modo Estudio</strong> con la misma competencia. Allí recibirás explicaciones 
                             detalladas y podrás aprender sin presión.

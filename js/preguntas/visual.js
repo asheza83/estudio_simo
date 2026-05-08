@@ -204,10 +204,18 @@ export function mostrarPregunta() {
     }
     
     // ========================================
-    // INICIAR TEMPORIZADOR (solo simulacro, primera pregunta, tiempo > 0)
-    // ========================================
+// INICIAR TEMPORIZADOR (solo simulacro, primera pregunta, tiempo > 0)
+// ========================================
+
+    // Limpiar intervalo anterior si existe y estamos comenzando un nuevo examen
+    if (modoSimulacro && preguntaActualIndex === 0 && intervaloGlobal) {
+        clearInterval(intervaloGlobal);
+        intervaloGlobal = null;
+        console.log("🟡 Intervalo anterior limpiado para nuevo examen");
+    }
+
     if (modoSimulacro && preguntaActualIndex === 0 && !intervaloGlobal && tiempoTotalRestante > 0) {
-        console.log("🟢 Iniciando temporizador por primera vez. Tiempo restante:", tiempoTotalRestante);
+        console.log("🟢 Iniciando temporizador. Tiempo restante:", tiempoTotalRestante);
         iniciarTemporizadorGlobal();
         intervaloGlobal = getIntervaloGlobal();
     }

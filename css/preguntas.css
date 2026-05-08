@@ -205,3 +205,17 @@
     border-radius: 50px;
     display: inline-block;
 }
+
+/* Tarjeta de recomendación - fondo sólido */
+.recomendacion-card {
+    background-color: #fff3cd;  /* Amarillo claro sólido */
+}
+
+/* Modo oscuro */
+body.modo-oscuro .recomendacion-card {
+    background-color: #5c4a00;  /* Amarillo oscuro sólido */
+}
+
+body.modo-oscuro .recomendacion-card p {
+    color: #ffffff;
+}
