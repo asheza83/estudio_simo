@@ -4,6 +4,27 @@
 
 import { subcategoriasConfig } from './config.js';
 
+// Función para resetear selects y botón a estado inicial
+export function resetearSelectoresCompletos() {
+    const tipoSelect = document.getElementById('tipo-competencia');
+    const subcategoriaSelect = document.getElementById('subcategoria-competencia');
+    const btnExamen = document.getElementById('btn-comenzar-examen');
+    
+    if (tipoSelect) {
+        tipoSelect.value = '';
+    }
+    
+    if (subcategoriaSelect) {
+        subcategoriaSelect.innerHTML = '<option value="">Primero selecciona el tipo de competencia</option>';
+        subcategoriaSelect.style.display = 'none';
+        subcategoriaSelect.disabled = true;
+    }
+    
+    if (btnExamen) {
+        btnExamen.disabled = true;
+    }
+}
+
 export function inicializarSelectsCompetencias() {
     const tipoSelect = document.getElementById('tipo-competencia');
     const subcategoriaSelect = document.getElementById('subcategoria-competencia');
@@ -11,55 +32,65 @@ export function inicializarSelectsCompetencias() {
     
     if (!tipoSelect || !subcategoriaSelect) return;
     
-    tipoSelect.addEventListener('change', function() {
+    // 🔥 RESET: limpiar selects al inicio
+    resetearSelectoresCompletos();
+    
+    // Remover event listeners previos clonando y reemplazando
+    const nuevoTipoSelect = tipoSelect.cloneNode(true);
+    tipoSelect.parentNode.replaceChild(nuevoTipoSelect, tipoSelect);
+    
+    const nuevoSubSelect = subcategoriaSelect.cloneNode(true);
+    subcategoriaSelect.parentNode.replaceChild(nuevoSubSelect, subcategoriaSelect);
+    
+    // Obtener las referencias actualizadas
+    const tipoSelectFinal = document.getElementById('tipo-competencia');
+    const subSelectFinal = document.getElementById('subcategoria-competencia');
+    const btnExamenFinal = document.getElementById('btn-comenzar-examen');
+    
+    tipoSelectFinal.addEventListener('change', function() {
         const tipo = this.value;
         
         if (tipo && subcategoriasConfig[tipo]) {
-            // LIMPIAR y LLENAR el select de subcategorías (no crear)
-            subcategoriaSelect.innerHTML = '<option value="">Selecciona una subcategoría...</option>';
+            // LIMPIAR y LLENAR el select de subcategorías
+            subSelectFinal.innerHTML = '<option value="">Selecciona una subcategoría...</option>';
             subcategoriasConfig[tipo].forEach(sub => {
-                subcategoriaSelect.innerHTML += `<option value="${sub.id}">${sub.nombre}</option>`;
+                subSelectFinal.innerHTML += `<option value="${sub.id}">${sub.nombre}</option>`;
             });
             
             // MOSTRAR y HABILITAR
-            subcategoriaSelect.style.display = 'block';
-            subcategoriaSelect.disabled = false;
+            subSelectFinal.style.display = 'block';
+            subSelectFinal.disabled = false;
             
-            // ========================================
-            // SCROLL AL SELECT DE SUBCATEGORÍAS (igual que el código que funcionó en consola)
-            // ========================================
+            // SCROLL AL SELECT DE SUBCATEGORÍAS
             setTimeout(() => {
-                subcategoriaSelect.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                subcategoriaSelect.style.transition = 'box-shadow 0.3s';
-                subcategoriaSelect.style.boxShadow = '0 0 0 2px var(--azul)';
+                subSelectFinal.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                subSelectFinal.style.transition = 'box-shadow 0.3s';
+                subSelectFinal.style.boxShadow = '0 0 0 2px var(--azul)';
                 setTimeout(() => {
-                    subcategoriaSelect.style.boxShadow = '';
+                    subSelectFinal.style.boxShadow = '';
                 }, 1000);
             }, 150);
             
-            btnExamen.disabled = true;
+            if (btnExamenFinal) btnExamenFinal.disabled = true;
         } else {
-            subcategoriaSelect.style.display = 'none';
-            subcategoriaSelect.disabled = true;
-            btnExamen.disabled = true;
+            subSelectFinal.style.display = 'none';
+            subSelectFinal.disabled = true;
+            if (btnExamenFinal) btnExamenFinal.disabled = true;
         }
     });
     
-    subcategoriaSelect.addEventListener('change', function() {
-        const btnExamen = document.getElementById('btn-comenzar-examen');
+    subSelectFinal.addEventListener('change', function() {
         const seleccionado = this.value !== '';
-        btnExamen.disabled = !seleccionado;
+        if (btnExamenFinal) btnExamenFinal.disabled = !seleccionado;
         
-        // ========================================
         // SCROLL AL BOTÓN COMENZAR EXAMEN
-        // ========================================
         if (seleccionado) {
             setTimeout(() => {
-                btnExamen.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                btnExamen.style.transition = 'box-shadow 0.3s';
-                btnExamen.style.boxShadow = '0 0 0 2px var(--azul)';
+                btnExamenFinal.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                btnExamenFinal.style.transition = 'box-shadow 0.3s';
+                btnExamenFinal.style.boxShadow = '0 0 0 2px var(--azul)';
                 setTimeout(() => {
-                    btnExamen.style.boxShadow = '';
+                    btnExamenFinal.style.boxShadow = '';
                 }, 1000);
             }, 150);
         }

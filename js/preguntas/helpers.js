@@ -14,9 +14,17 @@ export function hayExamenEnCurso() {
 }
 
 export function iniciarExamenDesdeSelect() {
-    const subcategoriaSelect = document.getElementById('subcategoria-competencia');
-    if (subcategoriaSelect && subcategoriaSelect.value) {
-        inicializarPreguntas(subcategoriaSelect.value);
+    const modoSeleccionado = window.modoSeleccionado || 'estudio';
+    
+    if (modoSeleccionado === 'simulacro') {
+        // Simulacro: no necesita selectores
+        inicializarPreguntas('simulacro');
+    } else {
+        // Modo estudio: usar el select de subcategoría
+        const subcategoriaSelect = document.getElementById('subcategoria-competencia');
+        if (subcategoriaSelect && subcategoriaSelect.value) {
+            inicializarPreguntas(subcategoriaSelect.value);
+        }
     }
 }
 

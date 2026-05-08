@@ -463,11 +463,12 @@
                 window.modoSeleccionado = 'estudio';
                 if (window.setModoEvaluacion) window.setModoEvaluacion('estudio');
                 
-                // Mostrar selectores y deshabilitar botón
                 if (selectoresDiv) selectoresDiv.style.display = 'block';
                 btnExamen.disabled = true;
+                reiniciarSelectores();  // ← Solo aquí
                 
             } else {
+                // modo simulacro
                 modoEstudioCard.style.opacity = '0.7';
                 modoEstudioCard.style.backgroundColor = '#6c757d';
                 modoSimulacroCard.style.opacity = '1';
@@ -475,12 +476,10 @@
                 window.modoSeleccionado = 'simulacro';
                 if (window.setModoEvaluacion) window.setModoEvaluacion('simulacro');
                 
-                // Ocultar selectores y habilitar botón
                 if (selectoresDiv) selectoresDiv.style.display = 'none';
                 btnExamen.disabled = false;
+                // ← NO llamar a reiniciarSelectores() aquí
             }
-            
-            reiniciarSelectores();
         }
 
         

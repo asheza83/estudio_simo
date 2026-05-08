@@ -2,7 +2,7 @@
 // INICIO - Pantalla inicial y verificación
 // ============================================
 
-import { inicializarSelectsCompetencias } from './selects.js';
+import { inicializarSelectsCompetencias, resetearSelectoresCompletos } from './selects.js';
 import { leyesDisponibles } from '../estado.js';
 
 let filtroLeyActual = '';
@@ -34,7 +34,28 @@ export function mostrarInicioPreguntas() {
     filtroLeyActual = '';
     examenGuardado = null;
     
+    // 🔥 Resetear selects COMPLETAMENTE antes de inicializar
+    resetearSelectoresCompletos();
+    
     inicializarSelectsCompetencias();
+
+    // Resetear visualmente el modo a Estudio
+    const modoEstudioCard = document.getElementById('modo-estudio-card');
+    const modoSimulacroCard = document.getElementById('modo-simulacro-card');
+    const selectoresDiv = document.getElementById('selectores-competencia');
+    const btnExamen = document.getElementById('btn-comenzar-examen');
+
+    if (modoEstudioCard && modoSimulacroCard) {
+        modoEstudioCard.style.opacity = '1';
+        modoEstudioCard.style.backgroundColor = 'var(--azul)';
+        modoSimulacroCard.style.opacity = '0.7';
+        modoSimulacroCard.style.backgroundColor = '#6c757d';
+    }
+    window.modoSeleccionado = 'estudio';
+    if (window.setModoEvaluacion) window.setModoEvaluacion('estudio');
+
+    if (selectoresDiv) selectoresDiv.style.display = 'block';
+    if (btnExamen) btnExamen.disabled = true;
 }
 
 function mostrarModalContinuar() {
@@ -66,6 +87,7 @@ export function verificarExamenGuardado() {
         mostrarInicioPreguntas();
     }
 }
+
 
 // ============================================
 // EXPOSICIÓN GLOBAL (para onclick en HTML)
