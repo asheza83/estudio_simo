@@ -205,3 +205,55 @@
         word-break: break-word;
     }
 }
+/* ============================================
+   MODAL DE BIENVENIDA - Tamaño de letra en móvil
+   ============================================ */
+@media (max-width: 768px) {
+    #modal-bienvenida-contenido {
+        font-size: 1.5rem !important;
+    }
+    
+    #modal-bienvenida-contenido p,
+    #modal-bienvenida-contenido li,
+    #modal-bienvenida-contenido .descripcion {
+        font-size: 1.5rem !important;
+        line-height: 1.5 !important;
+    }
+    
+    #modal-bienvenida-contenido h2 {
+        font-size: 1.5rem !important;
+    }
+    
+    #modal-bienvenida-contenido h3 {
+        font-size: 1.5rem !important;
+    }
+    
+    #modal-bienvenida-contenido strong,
+    #modal-bienvenida-contenido b {
+        font-size: 1.5rem !important;
+    }
+    
+    #modal-bienvenida-contenido ul {
+        padding-left: 20px !important;
+    }
+    
+    #modal-bienvenida-contenido li {
+        margin-bottom: 8px !important;
+    }
+}
+
+/* Fijar el botón de cerrar modal en la parte inferior */
+#modal-bienvenida-contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+#btn-cerrar-bienvenida {
+    position: sticky;
+    bottom: 0;
+    background-color: var(--azul);
+    margin-top: 20px;
+    width: 100%;
+}
