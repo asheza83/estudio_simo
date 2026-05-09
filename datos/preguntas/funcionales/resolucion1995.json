@@ -1,0 +1,61 @@
+{
+  "version": "2.0",
+  "leyReferencia": "resolucion1995",
+  "totalPreguntas": 6,
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "¿Qué regula la Resolución 1995 de 1999?",
+      "respuestaCorrecta": "El manejo, contenido, confidencialidad y conservación de la historia clínica",
+      "distractores": ["El Plan de Beneficios en Salud", "La habilitación de IPS", "Las Rutas Integrales de Atención"],
+      "tema": "Historia clínica",
+      "explicacion": "La Resolución 1995 de 1999 regula el manejo, contenido, confidencialidad y conservación de la historia clínica. Establece las obligaciones en el registro de las actividades de cuidado, la confidencialidad de la información y las sanciones por violación.",
+      "leyReferencia": "resolucion1995"
+    },
+    {
+      "id": 2,
+      "texto": "¿Qué deben registrar los auxiliares de enfermería en la historia clínica según la Resolución 1995?",
+      "respuestaCorrecta": "Valoración inicial, evolución diaria, medicamentos administrados, procedimientos y educación brindada",
+      "distractores": ["Solo el nombre del paciente", "Solo la fecha de ingreso", "Solo el diagnóstico médico"],
+      "tema": "Registros de enfermería",
+      "explicacion": "Artículo 3 de la Resolución 1995. La historia clínica debe incluir: valoración inicial de enfermería (signos vitales, condiciones de ingreso, alergias), evolución diaria (cuidados realizados, respuesta del paciente), administración de medicamentos (fecha, hora, medicamento, dosis, vía), procedimientos realizados, y educación brindada.",
+      "leyReferencia": "resolucion1995"
+    },
+    {
+      "id": 3,
+      "texto": "¿Qué características deben tener los registros de enfermería según la Resolución 1995?",
+      "respuestaCorrecta": "Claros, legibles, completos, oportunos y veraces",
+      "distractores": ["Pueden ser ilegibles", "Se puede omitir información si no hay tiempo", "No es necesario registrarlo todo"],
+      "tema": "Características del registro",
+      "explicacion": "Artículo 4 de la Resolución 1995. El registro debe ser: claro (sin tachones, enmendaduras o sobreescrituras), legible (letra clara), completo (sin omitir información relevante), oportuno (durante o inmediatamente después de la atención), y veraz (basado en hechos reales).",
+      "leyReferencia": "resolucion1995"
+    },
+    {
+      "id": 4,
+      "texto": "¿Qué no puede hacer el personal de enfermería con la historia clínica según la Resolución 1995?",
+      "respuestaCorrecta": "Compartir información del paciente con terceros sin autorización",
+      "distractores": ["Consultar la historia del paciente que atiende", "Registrar la evolución del paciente", "Firmar los registros realizados"],
+      "tema": "Confidencialidad",
+      "explicacion": "Artículo 5 de la Resolución 1995. El personal de enfermería no puede: compartir información del paciente con terceros sin autorización, tomar fotografías o videos del paciente o su historia clínica, discutir casos en lugares públicos, o dejar la historia clínica al alcance de personas no autorizadas.",
+      "leyReferencia": "resolucion1995"
+    },
+    {
+      "id": 5,
+      "texto": "¿Cuánto tiempo deben conservarse las historias clínicas según la Resolución 1995?",
+      "respuestaCorrecta": "20 años desde la última atención",
+      "distractores": ["5 años", "10 años", "50 años"],
+      "tema": "Conservación",
+      "explicacion": "Artículo 6 de la Resolución 1995. Las historias clínicas deben conservarse por un período mínimo de 20 años contados desde la última atención del paciente. Las IPS deben garantizar su almacenamiento en condiciones que preserven su integridad.",
+      "leyReferencia": "resolucion1995"
+    },
+    {
+      "id": 6,
+      "texto": "¿Cómo se debe corregir un error en el registro de enfermería según la Resolución 1995?",
+      "respuestaCorrecta": "Trazar una línea sobre el error, escribir \"error\", fechar y firmar, luego escribir lo correcto",
+      "distractores": ["Tachar con corrector líquido", "Borrar y escribir encima", "Arrancar la hoja y empezar de nuevo"],
+      "tema": "Corrección de errores",
+      "explicacion": "Artículo 8 de la Resolución 1995. El procedimiento correcto es: trazar una línea sobre el texto incorrecto (que permita leer lo escrito originalmente), escribir la palabra \"error\" o \"equivocación\", fechar y firmar la corrección, y luego escribir el texto correcto. Ocultar información intencionalmente es una falta grave.",
+      "leyReferencia": "resolucion1995"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "version": "2.0",
+  "leyReferencia": "resolucion256",
+  "totalPreguntas": 5,
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "¿Qué define la Resolución 256 de 2016?",
+      "respuestaCorrecta": "Los indicadores de calidad en salud",
+      "distractores": ["El Plan de Beneficios en Salud", "Las Rutas Integrales de Atención", "El Sistema de Habilitación de IPS"],
+      "tema": "Indicadores",
+      "explicacion": "La Resolución 256 de 2016 define los indicadores de calidad que deben medir las IPS y EPS para evaluar el desempeño de los servicios de salud. El personal de enfermería participa activamente en la recolección y reporte de estos datos.",
+      "leyReferencia": "resolucion256"
+    },
+    {
+      "id": 2,
+      "texto": "¿Qué indicadores de práctica de enfermería establece la Resolución 256?",
+      "respuestaCorrecta": "Porcentaje de pacientes con úlceras por presión, tasa de caídas, adherencia a protocolos de medicamentos",
+      "distractores": ["Solo tasa de infecciones", "Solo porcentaje de caídas", "Solo adherencia a protocolos"],
+      "tema": "Indicadores de enfermería",
+      "explicacion": "Inciso 4.2.1 de la Resolución 256. Los indicadores incluyen: porcentaje de pacientes con úlceras por presión adquiridas durante la hospitalización, tasa de caídas de pacientes por cada 1000 días de estancia, porcentaje de adherencia a protocolos de administración de medicamentos (5 correctos), y tasa de infecciones asociadas a dispositivos.",
+      "leyReferencia": "resolucion256"
+    },
+    {
+      "id": 3,
+      "texto": "¿Qué indicadores de seguridad del paciente relacionados con enfermería establece la Resolución 256?",
+      "respuestaCorrecta": "Tasa de errores de medicación, cumplimiento de lavado de manos, retiro no programado de sondas",
+      "distractores": ["Solo errores de medicación", "Solo lavado de manos", "Solo retiro de sondas"],
+      "tema": "Seguridad del paciente",
+      "explicacion": "Inciso 4.2.2 de la Resolución 256. Los indicadores incluyen: tasa de errores de medicación reportados por cada 1000 dosis administradas, porcentaje de cumplimiento del lavado de manos antes y después del contacto con el paciente, tasa de retiro no programado de sondas o catéteres, y tasa de eventos adversos prevenibles.",
+      "leyReferencia": "resolucion256"
+    },
+    {
+      "id": 4,
+      "texto": "¿Qué mide la satisfacción del paciente con el cuidado de enfermería según la Resolución 256?",
+      "respuestaCorrecta": "Trato respetuoso, claridad en la información, respuesta oportuna y cuidado del dolor",
+      "distractores": ["Solo el trato respetuoso", "Solo la respuesta oportuna", "Solo el cuidado del dolor"],
+      "tema": "Satisfacción del paciente",
+      "explicacion": "Inciso 4.3.5 de la Resolución 256. La satisfacción se evalúa en: trato respetuoso y amable, claridad en la información brindada, respuesta oportuna a los llamados del paciente, cuidado del dolor y del confort, participación del paciente en decisiones sobre su cuidado, y confidencialidad de la información.",
+      "leyReferencia": "resolucion256"
+    },
+    {
+      "id": 5,
+      "texto": "¿Qué indica una tasa baja de adherencia a protocolos de enfermería según la Resolución 256?",
+      "respuestaCorrecta": "Necesidad de implementar acciones correctivas y mejorar la formación del personal",
+      "distractores": ["No es un problema grave", "Es responsabilidad exclusiva del personal", "No requiere acciones de mejora"],
+      "tema": "Mejora continua",
+      "explicacion": "Inciso 4.5.3 de la Resolución 256. Los resultados de los indicadores deben ser analizados y utilizados para implementar planes de mejora. Una tasa baja de adherencia indica la necesidad de reforzar la formación del personal, revisar los protocolos o implementar barreras de seguridad.",
+      "leyReferencia": "resolucion256"
+    }
+  ]
+}

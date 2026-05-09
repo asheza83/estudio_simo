@@ -1,0 +1,32 @@
+{
+  "id": "resolucion256",
+  "nombre": "Resolución 256 de 2016",
+  "totalArticulos": 4,
+  "relevantesEnfermeria": 4,
+  "tituloCompleto": "Por la cual se definen los indicadores de calidad en salud",
+  "fecha": "10 de febrero de 2016",
+  "estado": "Vigente",
+  "resumen": "La Resolución 256 de 2016 define los indicadores de calidad que deben medir las IPS y EPS para evaluar el desempeño de los servicios de salud. Para enfermería, establece indicadores específicos como: tasas de caídas de pacientes, incidencia de úlceras por presión, adherencia a protocolos de administración de medicamentos, satisfacción del paciente con el cuidado de enfermería, y oportunidad en la atención. El personal de enfermería participa activamente en la recolección y reporte de estos datos.",
+  "articulos": [
+    {
+      "numero": "Inciso 4.2.1",
+      "descripcion": "Indicadores de práctica de enfermería",
+      "texto": "La resolución define indicadores específicos para evaluar la práctica de enfermería. Estos incluyen: porcentaje de pacientes con úlceras por presión adquiridas durante la hospitalización, tasa de caídas de pacientes por cada 1000 días de estancia, porcentaje de adherencia a los protocolos de administración de medicamentos (dosis correcta, hora correcta, paciente correcto, vía correcta), porcentaje de registros de enfermería completos y oportunos en la historia clínica, y tasa de infecciones asociadas a dispositivos (catéteres, sondas). El personal de enfermería debe reportar estos eventos para el cálculo de los indicadores."
+    },
+    {
+      "numero": "Inciso 4.2.2",
+      "descripcion": "Indicadores de seguridad del paciente relacionados con enfermería",
+      "texto": "Los indicadores de seguridad del paciente que involucran la práctica de enfermería incluyen: tasa de errores de medicación reportados por cada 1000 dosis administradas, porcentaje de pacientes con identificación incorrecta, tasa de retiro no programado de sondas o catéteres, porcentaje de cumplimiento del lavado de manos antes y después del contacto con el paciente, y tasa de eventos adversos prevenibles relacionados con la atención de enfermería. El reporte voluntario de estos eventos es fundamental para la mejora continua."
+    },
+    {
+      "numero": "Inciso 4.3.5",
+      "descripcion": "Satisfacción del paciente con el cuidado de enfermería",
+      "texto": "La resolución establece que las IPS deben medir periódicamente la satisfacción del paciente con el cuidado de enfermería. Los aspectos a evaluar incluyen: trato respetuoso y amable por parte del personal, claridad en la información brindada sobre el tratamiento y procedimientos, respuesta oportuna a los llamados del paciente, cuidado del dolor y del confort, participación del paciente y su familia en las decisiones sobre su cuidado, y confidencialidad de la información. Los resultados deben ser analizados y utilizados para implementar planes de mejora."
+    },
+    {
+      "numero": "Inciso 4.5.3",
+      "descripcion": "Indicadores de adherencia a protocolos de enfermería",
+      "texto": "Las IPS deben medir la adherencia del personal de enfermería a los protocolos institucionales. Los protocolos prioritarios incluyen: administración segura de medicamentos (verificación de los 5 correctos), prevención de caídas (barandas elevadas, calzado adecuado, supervisión), prevención de úlceras por presión (cambio de posición cada 2 horas, uso de colchones antiescaras), manejo de catéteres y sondas (técnica aséptica, fijación adecuada), y bioseguridad (lavado de manos, uso de elementos de protección). La adherencia debe medirse mediante observación directa o auditoría de registros, al menos trimestralmente."
+    }
+  ]
+}

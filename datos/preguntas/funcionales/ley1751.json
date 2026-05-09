@@ -1,0 +1,79 @@
+{
+  "version": "2.0",
+  "leyReferencia": "ley1751",
+  "totalPreguntas": 8,
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "¿Qué reconoce la Ley 1751 de 2015 sobre la salud?",
+      "respuestaCorrecta": "La salud como un derecho fundamental autónomo e irrenunciable",
+      "distractores": ["La salud como un servicio con costo para el usuario", "La salud como un derecho solo para trabajadores", "La salud como un beneficio opcional"],
+      "tema": "Derecho fundamental",
+      "explicacion": "Artículo 1 de la Ley 1751. La salud es un derecho fundamental autónomo e irrenunciable en lo individual y en lo colectivo. El personal de enfermería debe garantizar que ningún paciente sea discriminado o excluido del acceso a los servicios.",
+      "leyReferencia": "ley1751"
+    },
+    {
+      "id": 2,
+      "texto": "¿Cuál de los siguientes NO es un principio del derecho a la salud según la Ley 1751?",
+      "respuestaCorrecta": "Gratuidad total",
+      "distractores": ["Disponibilidad", "Accesibilidad", "Calidad"],
+      "tema": "Principios",
+      "explicacion": "Artículo 2 de la Ley 1751. Los principios son: disponibilidad, accesibilidad, aceptabilidad, calidad, continuidad y oportunidad. La gratuidad total no existe; el sistema se financia con cotizaciones.",
+      "leyReferencia": "ley1751"
+    },
+    {
+      "id": 3,
+      "texto": "¿Qué está prohibido hacer a las EPS e IPS según la Ley 1751?",
+      "respuestaCorrecta": "Negar atención por falta de documentos o autorizaciones previas",
+      "distractores": ["Cobrar copagos autorizados por la ley", "Solicitar identificación del paciente", "Aplicar protocolos de bioseguridad"],
+      "tema": "Barreras administrativas",
+      "explicacion": "Artículo 5 de la Ley 1751. Está prohibido exigir trámites, autorizaciones o requisitos que limiten el acceso a los servicios. Las EPS e IPS no pueden negar la atención por falta de documentos.",
+      "leyReferencia": "ley1751"
+    },
+    {
+      "id": 4,
+      "texto": "¿Cómo deben ser atendidas las urgencias médicas según la Ley 1751?",
+      "respuestaCorrecta": "Sin ninguna barrera administrativa, económica o de afiliación",
+      "distractores": ["Solo si el paciente tiene EPS", "Solo si el paciente puede pagar", "Solo si hay orden médica previa"],
+      "tema": "Urgencias",
+      "explicacion": "Artículo 6 de la Ley 1751. Las urgencias deben ser atendidas sin ninguna barrera. El personal de enfermería está obligado a estabilizar al paciente independientemente de su estado de afiliación.",
+      "leyReferencia": "ley1751"
+    },
+    {
+      "id": 5,
+      "texto": "¿Qué protección otorga la Ley 1751 al personal de salud que actúa de buena fe?",
+      "respuestaCorrecta": "El Estado los protege de sanciones por actuar dentro de sus competencias",
+      "distractores": ["Pueden actuar sin seguir protocolos", "No tienen responsabilidad por errores graves", "Pueden negar atención sin consecuencias"],
+      "tema": "Protección al personal",
+      "explicacion": "Artículo 12 de la Ley 1751. El Estado protegerá a los profesionales que actúen de buena fe en la prestación de servicios, especialmente en urgencias. No serán sancionados por actuar dentro de sus competencias.",
+      "leyReferencia": "ley1751"
+    },
+    {
+      "id": 6,
+      "texto": "¿Qué derecho tienen los pacientes según la Ley 1751?",
+      "respuestaCorrecta": "A ser informados sobre su diagnóstico, tratamiento y riesgos",
+      "distractores": ["A exigir tratamientos no indicados médicamente", "A conocer información de otros pacientes", "A modificar sus registros clínicos sin justificación"],
+      "tema": "Derechos del paciente",
+      "explicacion": "Artículo 17 de la Ley 1751. Los pacientes tienen derecho a ser informados sobre el estado de salud, diagnóstico, tratamiento y riesgos asociados. El personal de enfermería debe facilitar esta información.",
+      "leyReferencia": "ley1751"
+    },
+    {
+      "id": 7,
+      "texto": "¿Qué deben garantizar las entidades de salud a su talento humano según la Ley 1751?",
+      "respuestaCorrecta": "Condiciones laborales dignas, formación continua y entornos seguros",
+      "distractores": ["Jornadas laborales sin descanso", "Salarios por debajo del mínimo", "Sin protección contra violencia laboral"],
+      "tema": "Talento humano",
+      "explicacion": "Artículo 10 de la Ley 1751. Las entidades deben garantizar condiciones laborales dignas, formación continua y entornos seguros para el personal asistencial. El personal tiene derecho a reportar malas prácticas sin temor.",
+      "leyReferencia": "ley1751"
+    },
+    {
+      "id": 8,
+      "texto": "¿Qué no se puede negar por falta de pago según la Ley 1751?",
+      "respuestaCorrecta": "La prestación de servicios de salud",
+      "distractores": ["La atención odontológica estética", "Los procedimientos experimentales", "Los tratamientos no autorizados por la EPS"],
+      "tema": "Prohibición",
+      "explicacion": "Artículo 8 de la Ley 1751. No se puede negar la prestación de servicios por falta de pago de cotización, copagos o cuotas moderadoras. Las EPS deben prestar el servicio y luego realizar los cobros correspondientes.",
+      "leyReferencia": "ley1751"
+    }
+  ]
+}

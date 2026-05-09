@@ -1,0 +1,42 @@
+{
+  "id": "resolucion2292",
+  "nombre": "Resolución 2292 de 2021",
+  "totalArticulos": 6,
+  "relevantesEnfermeria": 6,
+  "tituloCompleto": "Por la cual se define el Plan de Beneficios en Salud (PBS)",
+  "fecha": "31 de agosto de 2021",
+  "estado": "Vigente",
+  "resumen": "La Resolución 2292 de 2021 define el Plan de Beneficios en Salud (PBS) que reemplazó al POS. Establece los servicios, tecnologías, medicamentos y procedimientos que el SGSSS garantiza a todos los afiliados. Para enfermería, esta resolución especifica qué cuidados de enfermería están cubiertos, los procedimientos que puede realizar el personal asistencial, y los límites en la prestación de servicios.",
+  "articulos": [
+    {
+      "numero": "Artículo 6",
+      "descripcion": "Servicios de enfermería incluidos en el PBS",
+      "texto": "El PBS incluye los servicios de enfermería necesarios para garantizar una atención integral y segura. Estos servicios comprenden: valoración inicial y continua del paciente por parte de enfermería, administración segura de medicamentos, curaciones y manejo de heridas, cuidado de heridas quirúrgicas, manejo de ostomías, educación al paciente y su familia, y acompañamiento durante la hospitalización. Las EPS e IPS no pueden cobrar copagos adicionales por estos servicios."
+    },
+    {
+      "numero": "Artículo 12",
+      "descripcion": "Procedimientos de enfermería cubiertos",
+      "texto": "El PBS cubre los siguientes procedimientos realizados por personal de enfermería bajo la supervisión médica o autónomamente según su competencia: toma y registro de signos vitales, administración de medicamentos por vía oral, intramuscular, subcutánea e intravenosa, colocación y retiro de sondas nasogástricas y vesicales, curación de heridas y úlceras, aspiración de secreciones, manejo de ventilación mecánica básica, y reanimación cardiopulmonar básica."
+    },
+    {
+      "numero": "Artículo 15",
+      "descripcion": "Cuidado de enfermería en hospitalización",
+      "texto": "Durante la hospitalización, el paciente tiene derecho a cuidado de enfermería las 24 horas del día. Esto incluye: valoración continua de su estado de salud, administración oportuna de medicamentos, prevención de complicaciones (caídas, úlceras por presión, infecciones), manejo del dolor, confort y bienestar, comunicación con el equipo de salud, y apoyo emocional al paciente y su familia. La relación enfermera-paciente debe ser de máximo 1 enfermera por cada 10 pacientes en hospitalización general."
+    },
+    {
+      "numero": "Artículo 18",
+      "descripcion": "Atención de enfermería en urgencias",
+      "texto": "En los servicios de urgencias, el PBS cubre: triage o clasificación de pacientes por prioridad de atención, valoración inicial del paciente crítico, administración de medicamentos de urgencia, reanimación cardiopulmonar, manejo de vía aérea, estabilización del paciente, y preparación para traslado a hospitalización o referencia a otro nivel. La atención de urgencias no puede ser negada por falta de afiliación o documentos."
+    },
+    {
+      "numero": "Artículo 22",
+      "descripcion": "Seguimiento de enfermería a pacientes crónicos",
+      "texto": "El PBS garantiza seguimiento de enfermería a pacientes con enfermedades crónicas como diabetes, hipertensión, EPOC, insuficiencia cardíaca, y enfermedad renal. Este seguimiento incluye: educación sobre la enfermedad y su manejo, control de signos vitales, verificación de adherencia al tratamiento, identificación temprana de complicaciones, coordinación con otros profesionales, y referencia oportuna ante signos de alarma. El seguimiento puede ser presencial o telefónico."
+    },
+    {
+      "numero": "Anexo 3",
+      "descripcion": "Listado de procedimientos de enfermería en el PBS",
+      "texto": "El Anexo 3 de la resolución lista los procedimientos de enfermería cubiertos por el PBS. Incluye: curación de heridas simples y complejas, retiro de puntos y grapas, colocación y retiro de sonda vesical, colocación y retiro de sonda nasogástrica, toma de muestras de sangre venosa, toma de muestras de orina, colocación de cánula periférica, administración de medicamentos, curaciones de ostomías, manejo de catéteres venosos centrales, y cuidado de heridas quirúrgicas. El personal de enfermería debe conocer qué procedimientos están cubiertos para informar al paciente."
+    }
+  ]
+}

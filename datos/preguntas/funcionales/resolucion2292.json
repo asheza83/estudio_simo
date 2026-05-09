@@ -1,0 +1,61 @@
+{
+  "version": "2.0",
+  "leyReferencia": "resolucion2292",
+  "totalPreguntas": 6,
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "¿Qué define la Resolución 2292 de 2021?",
+      "respuestaCorrecta": "El Plan de Beneficios en Salud (PBS)",
+      "distractores": ["El Sistema de Habilitación de IPS", "Las Rutas Integrales de Atención", "El Sistema de Garantía de Calidad"],
+      "tema": "PBS",
+      "explicacion": "La Resolución 2292 de 2021 define el Plan de Beneficios en Salud (PBS), que reemplazó al POS. Establece los servicios, tecnologías, medicamentos y procedimientos que el SGSSS garantiza a todos los afiliados.",
+      "leyReferencia": "resolucion2292"
+    },
+    {
+      "id": 2,
+      "texto": "¿Qué servicios de enfermería están incluidos en el PBS según la Resolución 2292?",
+      "respuestaCorrecta": "Valoración inicial, administración de medicamentos, curaciones y educación al paciente",
+      "distractores": ["Solo la administración de medicamentos", "Solo las curaciones", "Solo la valoración inicial"],
+      "tema": "Servicios de enfermería",
+      "explicacion": "Artículo 6 de la Resolución 2292. Los servicios de enfermería incluidos comprenden: valoración inicial y continua, administración segura de medicamentos, curaciones y manejo de heridas, cuidado de heridas quirúrgicas, manejo de ostomías, educación al paciente y su familia.",
+      "leyReferencia": "resolucion2292"
+    },
+    {
+      "id": 3,
+      "texto": "¿Qué procedimientos de enfermería cubre el PBS según la Resolución 2292?",
+      "respuestaCorrecta": "Toma de signos vitales, administración de medicamentos, colocación de sondas y curaciones",
+      "distractores": ["Solo la toma de signos vitales", "Solo la administración de medicamentos orales", "Solo las curaciones simples"],
+      "tema": "Procedimientos",
+      "explicacion": "Artículo 12 de la Resolución 2292. El PBS cubre: toma de signos vitales, administración de medicamentos por todas las vías, colocación de sondas nasogástricas y vesicales, curación de heridas, aspiración de secreciones, manejo de ventilación mecánica básica, y reanimación cardiopulmonar básica.",
+      "leyReferencia": "resolucion2292"
+    },
+    {
+      "id": 4,
+      "texto": "¿Qué derecho tiene el paciente durante la hospitalización según la Resolución 2292?",
+      "respuestaCorrecta": "Cuidado de enfermería las 24 horas del día",
+      "distractores": ["Cuidado solo durante el día", "Cuidado solo si paga extra", "Cuidado solo si hay disponibilidad de personal"],
+      "tema": "Hospitalización",
+      "explicacion": "Artículo 15 de la Resolución 2292. Durante la hospitalización, el paciente tiene derecho a cuidado de enfermería las 24 horas del día, incluyendo valoración continua, administración oportuna de medicamentos, prevención de complicaciones, manejo del dolor y apoyo emocional.",
+      "leyReferencia": "resolucion2292"
+    },
+    {
+      "id": 5,
+      "texto": "¿Qué atención de enfermería se garantiza en urgencias según la Resolución 2292?",
+      "respuestaCorrecta": "Triage, valoración inicial, administración de medicamentos de urgencia y reanimación",
+      "distractores": ["Solo la clasificación por triage", "Solo la administración de medicamentos", "Solo la reanimación cardiopulmonar"],
+      "tema": "Urgencias",
+      "explicacion": "Artículo 18 de la Resolución 2292. En urgencias, el PBS cubre: triage, valoración inicial del paciente crítico, administración de medicamentos de urgencia, reanimación cardiopulmonar, manejo de vía aérea, estabilización del paciente, y preparación para traslado.",
+      "leyReferencia": "resolucion2292"
+    },
+    {
+      "id": 6,
+      "texto": "¿Qué seguimiento de enfermería garantiza el PBS a pacientes crónicos según la Resolución 2292?",
+      "respuestaCorrecta": "Educación, control de signos vitales, verificación de adherencia y detección de complicaciones",
+      "distractores": ["Solo la toma de signos vitales", "Solo la educación al paciente", "Ningún seguimiento a pacientes crónicos"],
+      "tema": "Pacientes crónicos",
+      "explicacion": "Artículo 22 de la Resolución 2292. El seguimiento incluye: educación sobre la enfermedad, control de signos vitales, verificación de adherencia al tratamiento, identificación temprana de complicaciones, coordinación con otros profesionales, y referencia oportuna ante signos de alarma.",
+      "leyReferencia": "resolucion2292"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "version": "2.0",
+  "leyReferencia": "resolucion3100",
+  "totalPreguntas": 5,
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "¿Qué establece la Resolución 3100 de 2019?",
+      "respuestaCorrecta": "Los requisitos de habilitación de las IPS",
+      "distractores": ["El Plan de Beneficios en Salud", "Las Rutas Integrales de Atención", "El Sistema de Garantía de Calidad"],
+      "tema": "Habilitación",
+      "explicacion": "La Resolución 3100 de 2019 establece los requisitos de habilitación que deben cumplir las IPS para operar legalmente, definiendo condiciones de infraestructura, dotación, talento humano y procedimientos que garantizan la seguridad y calidad.",
+      "leyReferencia": "resolucion3100"
+    },
+    {
+      "id": 2,
+      "texto": "¿Cuál es la relación enfermera-paciente requerida en hospitalización según la Resolución 3100?",
+      "respuestaCorrecta": "Una auxiliar por cada 10 pacientes en el día, y una por cada 15 en la noche",
+      "distractores": ["Una por cada 5 pacientes en el día", "Una por cada 20 pacientes en el día", "No hay relación establecida"],
+      "tema": "Talento humano",
+      "explicacion": "Artículo 3 de la Resolución 3100. Para los servicios de hospitalización, la relación debe ser de una auxiliar de enfermería por cada 10 pacientes en el día y una por cada 15 pacientes en la noche. El personal debe tener tarjeta profesional vigente.",
+      "leyReferencia": "resolucion3100"
+    },
+    {
+      "id": 3,
+      "texto": "¿Qué dotación deben tener las IPS según la Resolución 3100?",
+      "respuestaCorrecta": "Equipos para signos vitales, carros de paro, bombas de infusión y elementos de bioseguridad",
+      "distractores": ["Solo camas y sillas", "Solo elementos de oficina", "No hay requisitos de dotación"],
+      "tema": "Dotación",
+      "explicacion": "Artículo 4 de la Resolución 3100. Las IPS deben contar con: equipos para toma de signos vitales (tensiómetros, estetoscopios, termómetros, oxímetros), carros de paro en cada servicio, bombas de infusión, monitores, camas con barandas, colchones antiescaras y elementos de bioseguridad.",
+      "leyReferencia": "resolucion3100"
+    },
+    {
+      "id": 4,
+      "texto": "¿Qué estándares específicos deben cumplir los servicios de enfermería según la Resolución 3100?",
+      "respuestaCorrecta": "Contar con protocolos escritos, inducción anual y auditoría de registros",
+      "distractores": ["No es necesario tener protocolos", "No se requiere inducción", "No se auditan los registros de enfermería"],
+      "tema": "Estándares",
+      "explicacion": "Capítulo 5 del Anexo de la Resolución 3100. Los servicios de enfermería deben contar con protocolos escritos para administración de medicamentos, prevención de caídas, prevención de úlceras por presión, manejo de eventos adversos y bioseguridad. El personal debe tener inducción anual y auditoría de registros.",
+      "leyReferencia": "resolucion3100"
+    },
+    {
+      "id": 5,
+      "texto": "¿Qué deben reportar los auxiliares de enfermería según la Resolución 3100?",
+      "respuestaCorrecta": "Eventos adversos dentro de las 24 horas siguientes",
+      "distractores": ["Solo si el paciente fallece", "Solo si el médico lo solicita", "No es obligatorio reportar"],
+      "tema": "Eventos adversos",
+      "explicacion": "Capítulo 7 del Anexo de la Resolución 3100. El personal de enfermería debe reportar dentro de las 24 horas siguientes cualquier evento adverso como caídas, errores de medicación, úlceras por presión, infecciones asociadas, retiro accidental de sondas o catéteres. No reportar es una falta grave.",
+      "leyReferencia": "resolucion3100"
+    }
+  ]
+}

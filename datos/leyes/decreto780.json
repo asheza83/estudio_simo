@@ -1,0 +1,72 @@
+{
+  "id": "decreto780",
+  "nombre": "Decreto 780 de 2016",
+  "totalArticulos": 1,
+  "relevantesEnfermeria": 1,
+  "tituloCompleto": "Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social",
+  "fecha": "6 de mayo de 2016",
+  "estado": "Vigente",
+  "resumen": "El Decreto 780 de 2016 compila y unifica toda la reglamentación del sector salud en Colombia. Es el Decreto Único Reglamentario que organiza en un solo documento todas las normas relacionadas con afiliación, prestación de servicios, talento humano, calidad, habilitación, acreditación y funcionamiento del SGSSS. Para enfermería, este decreto unifica las disposiciones sobre historia clínica, consentimiento informado, derechos y deberes de los pacientes, y obligaciones del personal asistencial.",
+  "articulos": [
+    {
+      "numero": "Libro 2 - Parte 2 - Título 2",
+      "descripcion": "Régimen de afiliación al SGSSS",
+      "texto": "El Decreto 780 de 2016 en su Libro 2 regula todo lo relacionado con la afiliación al SGSSS. Define los procedimientos para afiliación al Régimen Contributivo (trabajadores dependientes e independientes) y al Régimen Subsidiado (población pobre no asegurada). El personal de enfermería debe conocer los documentos de identificación válidos para la afiliación y los procedimientos para actualización de datos de los pacientes."
+    },
+    {
+      "numero": "Libro 2 - Parte 3 - Título 1",
+      "descripcion": "Plan de Beneficios en Salud (PBS)",
+      "texto": "El PBS es el conjunto de servicios, tecnologías y medicamentos garantizados a todos los afiliados. El decreto establece que el PBS debe ser igual para todos sin discriminación. El personal de enfermería debe conocer los servicios incluidos para orientar a los pacientes sobre a qué tienen derecho, y reportar a su superior cuando se niegue un servicio que debe ser cubierto."
+    },
+    {
+      "numero": "Libro 2 - Parte 4 - Título 1",
+      "descripcion": "Redes integrales de prestación de servicios de salud",
+      "texto": "Las redes integrales articulan diferentes niveles de complejidad (baja, mediana, alta) para garantizar la continuidad del cuidado. El personal de enfermería debe garantizar la referencia y contrarreferencia de pacientes, el adecuado diligenciamiento de los formatos de remisión, y la transmisión oportuna de la información clínica entre niveles."
+    },
+    {
+      "numero": "Libro 2 - Parte 5 - Título 2",
+      "descripcion": "Historia clínica y registros del paciente",
+      "texto": "La historia clínica es el registro obligatorio de las condiciones de salud del paciente. El decreto establece que debe ser diligenciada de manera clara, completa, oportuna y veraz. El personal de enfermería debe registrar: signos vitales, administración de medicamentos, evolución del paciente, procedimientos realizados, y cualquier incidente o evento adverso. El registro es un documento legal y debe conservarse por 20 años."
+    },
+    {
+      "numero": "Libro 2 - Parte 5 - Título 3",
+      "descripcion": "Consentimiento informado",
+      "texto": "El consentimiento informado es la manifestación de voluntad del paciente después de haber recibido información clara sobre el procedimiento, sus riesgos, beneficios y alternativas. El personal de enfermería debe verificar que el consentimiento esté diligenciado antes de realizar procedimientos invasivos, y no puede realizar ningún procedimiento sin la autorización del paciente o su representante legal, excepto en urgencias vitales."
+    },
+    {
+      "numero": "Libro 2 - Parte 6 - Título 1",
+      "descripcion": "Derechos y deberes de los pacientes",
+      "texto": "Los pacientes tienen derecho a recibir atención digna, respetuosa, oportuna y de calidad. También a ser informados sobre su diagnóstico, tratamiento y pronóstico. Los deberes incluyen respetar al personal de salud, cumplir las indicaciones médicas y de enfermería, y cuidar las instalaciones. El personal de enfermería debe conocer estos derechos para garantizarlos y saber qué esperar del paciente como corresponsable de su cuidado."
+    },
+    {
+      "numero": "Libro 2 - Parte 7 - Título 2",
+      "descripcion": "Sistema de habilitación de IPS",
+      "texto": "Las IPS deben cumplir requisitos de habilitación (capacidad técnico-administrativa, infraestructura, dotación, talento humano). El personal de enfermería debe cumplir con los estándares de habilitación relacionados con: personal suficiente y calificado, registro de actividades, cumplimiento de protocolos, y condiciones de bioseguridad."
+    },
+    {
+      "numero": "Libro 2 - Parte 7 - Título 3",
+      "descripcion": "Sistema de acreditación en salud",
+      "texto": "La acreditación es voluntaria y certifica que la IPS cumple altos estándares de calidad. El personal de enfermería debe conocer los estándares de acreditación relacionados con el cuidado seguro, la humanización del servicio, la gestión de riesgos y la mejora continua. Participa activamente en las auditorías y en la implementación de planes de mejora."
+    },
+    {
+      "numero": "Libro 2 - Parte 8 - Título 1",
+      "descripcion": "Sistema Obligatorio de Garantía de Calidad (SOGC)",
+      "texto": "El SOGC es el conjunto de mecanismos para garantizar la calidad de los servicios de salud. Incluye: habilitación, acreditación, auditoría, y medición de indicadores. El personal de enfermería participa en la recolección de datos para indicadores de calidad, en la identificación de eventos adversos, y en la implementación de acciones correctivas."
+    },
+    {
+      "numero": "Libro 2 - Parte 9 - Título 2",
+      "descripcion": "Talento humano en salud",
+      "texto": "El talento humano en salud debe ser evaluado periódicamente por competencias. Los auxiliares de enfermería deben mantenerse actualizados mediante formación continua. Las instituciones deben garantizar condiciones laborales dignas y entornos seguros. El personal de enfermería tiene derecho a reportar irregularidades sin temor a represalias."
+    },
+    {
+      "numero": "Libro 2 - Parte 10 - Título 1",
+      "descripcion": "Bioseguridad y protección del personal de salud",
+      "texto": "Las IPS deben garantizar condiciones de bioseguridad para el personal asistencial. El personal de enfermería debe aplicar las medidas de bioseguridad en todo momento: lavado de manos, uso de elementos de protección personal, disposición adecuada de residuos hospitalarios, y reporte de accidentes laborales. Es obligación de la institución suministrar los elementos de protección."
+    },
+    {
+      "numero": "Libro 2 - Parte 11 - Título 1",
+      "descripcion": "Atención de urgencias",
+      "texto": "Las urgencias deben ser atendidas sin barreras administrativas, económicas o de afiliación. El personal de enfermería debe clasificar al paciente por triage (prioridad de atención), estabilizarlo, y gestionar la referencia si requiere mayor complejidad. No puede negarse la atención por falta de documentos o autorizaciones previas. Actuar de buena fe protege al profesional de sanciones."
+    }
+  ]
+}

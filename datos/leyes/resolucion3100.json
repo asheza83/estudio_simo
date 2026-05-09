@@ -1,0 +1,32 @@
+{
+  "id": "resolucion3100",
+  "nombre": "Resolución 3100 de 2019",
+  "totalArticulos": 4,
+  "relevantesEnfermeria": 4,
+  "tituloCompleto": "Por la cual se definen los procedimientos y condiciones de inscripción de los Prestadores de Servicios de Salud y de habilitación de los servicios de salud",
+  "fecha": "25 de noviembre de 2019",
+  "estado": "Vigente",
+  "resumen": "La Resolución 3100 de 2019 establece los requisitos de habilitación que deben cumplir las IPS para operar legalmente. Define las condiciones de infraestructura, dotación, talento humano, y procedimientos que garantizan la seguridad y calidad. Para enfermería, especifica los estándares mínimos para los servicios donde trabaja el personal asistencial, incluyendo la relación enfermera-paciente, la disponibilidad de equipos, y los protocolos obligatorios.",
+  "articulos": [
+    {
+      "numero": "Artículo 3",
+      "descripcion": "Condiciones de talento humano en enfermería",
+      "texto": "Las IPS deben contar con el talento humano suficiente y calificado para prestar servicios seguros. Para los servicios de hospitalización, la relación debe ser de una auxiliar de enfermería por cada 10 pacientes en el día y una por cada 15 pacientes en la noche. Para cuidados intensivos, la relación es de una enfermera profesional por cada 2 pacientes. Para urgencias, debe haber disponibilidad de personal las 24 horas. El personal debe tener tarjeta profesional vigente y formación actualizada."
+    },
+    {
+      "numero": "Artículo 4",
+      "descripcion": "Dotación y equipos básicos para enfermería",
+      "texto": "Las IPS deben contar con la dotación mínima para la atención segura. Esto incluye: equipos para toma de signos vitales (tensiómetros, estetoscopios, termómetros, oxímetros) en cantidad suficiente según el número de camas, carros de paro completamente dotados en cada servicio de hospitalización y urgencias, bombas de infusión para administración de medicamentos, monitores de signos vitales, camas con barandas y frenos, colchones antiescaras, y elementos de bioseguridad (guantes, batas, gafas). El personal de enfermería debe verificar diariamente el estado de los equipos."
+    },
+    {
+      "numero": "Capítulo 5 - Anexo",
+      "descripcion": "Estándares específicos para servicios de enfermería",
+      "texto": "El anexo técnico establece los estándares que deben cumplir los servicios de enfermería: contar con protocolos escritos para administración de medicamentos, prevención de caídas, prevención de úlceras por presión, manejo de eventos adversos, y bioseguridad. El personal debe tener inducción y reinducción anual. Debe realizarse auditoría de calidad de los registros de enfermería. Debe implementarse el plan de mejoramiento con seguimiento trimestral."
+    },
+    {
+      "numero": "Capítulo 7 - Anexo",
+      "descripcion": "Registro y seguimiento de eventos adversos por enfermería",
+      "texto": "Las IPS deben implementar un sistema de registro y seguimiento de eventos adversos. El personal de enfermería debe reportar dentro de las 24 horas siguientes cualquier evento adverso como: caídas de pacientes, errores de medicación, úlceras por presión, infecciones asociadas a la atención, retiro accidental de sondas o catéteres, y cualquier otro incidente que afecte la seguridad del paciente. El reporte debe incluir descripción del evento, causas identificadas y acciones correctivas. No reportar es una falta grave."
+    }
+  ]
+}

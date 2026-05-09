@@ -1,0 +1,42 @@
+{
+  "id": "resolucion1444",
+  "nombre": "Resolución 1444 de 2025",
+  "totalArticulos": 6,
+  "relevantesEnfermeria": 6,
+  "tituloCompleto": "Por la cual se adopta la Política de Talento Humano en Salud 2025-2035",
+  "fecha": "15 de mayo de 2025",
+  "estado": "Vigente",
+  "resumen": "La Resolución 1444 de 2025 adopta la política de talento humano en salud para el período 2025-2035. Busca mejorar la disponibilidad, distribución, formación y condiciones laborales del personal de salud en Colombia. Para auxiliares de enfermería, establece la obligatoriedad de formación continua, la evaluación periódica de competencias, la re-certificación cada 5 años, y medidas para prevenir el desgaste profesional y mejorar las condiciones laborales.",
+  "articulos": [
+    {
+      "numero": "Artículo 15",
+      "descripcion": "Formación continua y actualización de auxiliares de enfermería",
+      "texto": "Los auxiliares de enfermería deben realizar cursos de actualización cada 3 años para mantener su certificación vigente. Los temas obligatorios incluyen: administración segura de medicamentos, prevención de infecciones asociadas a la atención, manejo de eventos adversos, bioseguridad, cuidado humanizado, y actualización en el Plan de Beneficios en Salud (PBS). Las instituciones de salud deben facilitar el acceso a estos cursos y otorgar los permisos necesarios para su realización."
+    },
+    {
+      "numero": "Artículo 18",
+      "descripcion": "Competencias laborales de enfermería",
+      "texto": "Las competencias que debe demostrar el personal de enfermería incluyen: capacidad para administrar medicamentos de forma segura, habilidad para realizar procedimientos básicos (toma de signos vitales, curaciones, colocación de sondas), comunicación efectiva con pacientes y familiares, trabajo en equipo interdisciplinario, registro adecuado en la historia clínica, conocimiento de los derechos y deberes de los pacientes, y manejo de emergencias básicas (RCP, manejo de vía aérea). Las instituciones deben evaluar estas competencias periódicamente."
+    },
+    {
+      "numero": "Artículo 22",
+      "descripcion": "Condiciones laborales del personal de enfermería",
+      "texto": "Las instituciones de salud deben garantizar condiciones laborales que protejan la salud y el bienestar del personal de enfermería. Esto incluye: jornadas laborales que no excedan los límites legales, descansos adecuados entre turnos, acceso a elementos de protección personal suficientes y de calidad, programas de prevención del desgaste profesional, espacios para la alimentación y el descanso, y protocolos para manejo de la violencia laboral. El trabajo en condiciones inseguras puede ser reportado sin temor a represalias."
+    },
+    {
+      "numero": "Artículo 24",
+      "descripcion": "Evaluación de desempeño de auxiliares de enfermería",
+      "texto": "Las instituciones deben realizar evaluaciones periódicas del desempeño de los auxiliares de enfermería, al menos una vez al año. La evaluación debe considerar: calidad del registro en la historia clínica, cumplimiento de protocolos y guías, habilidades técnicas (procedimientos), comunicación con pacientes y familiares, trabajo en equipo, y puntualidad y asistencia. Los resultados de la evaluación deben ser socializados con el evaluado y deben servir como base para planes de mejora y formación continua. No pueden ser utilizados para discriminación o despidos injustificados."
+    },
+    {
+      "numero": "Artículo 28",
+      "descripcion": "Programa de bienestar laboral para enfermería",
+      "texto": "Las IPS y ESE deben implementar programas de bienestar laboral dirigidos al personal de enfermería. Estos programas deben incluir: pausas activas durante la jornada laboral, acceso a servicios de salud mental y apoyo psicológico, horarios flexibles cuando sea posible, reconocimiento al desempeño destacado, y actividades de integración y esparcimiento. El objetivo es reducir el desgaste profesional (burnout) y mejorar la calidad de vida laboral, lo que repercute en una mejor atención al paciente."
+    },
+    {
+      "numero": "Artículo 31",
+      "descripcion": "Re-certificación periódica de auxiliares de enfermería",
+      "texto": "Los auxiliares de enfermería deben re-certificarse cada 5 años para mantener su habilitación laboral. La re-certificación requiere: haber completado al menos 120 horas de formación continua en los últimos 5 años, aprobar una evaluación de competencias (teórica y práctica) administrada por una entidad autorizada, y no tener sanciones disciplinarias vigentes por faltas graves a la ética profesional. El incumplimiento de estos requisitos será causal de suspensión temporal de la certificación."
+    }
+  ]
+}

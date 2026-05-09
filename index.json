@@ -18,6 +18,96 @@
       "archivo": "funcionales/ley1438.json",
       "totalArticulos": 78,
       "relevantesEnfermeria": 12
+    },
+    {
+      "id": "ley1122",
+      "nombre": "Ley 1122 de 2007",
+      "tipo": "ley",
+      "descripcion": "Ajustes al SGSSS: transparencia, talento humano, historia clínica",
+      "archivo": "funcionales/ley1122.json",
+      "totalArticulos": 29,
+      "relevantesEnfermeria": 8
+    },
+    {
+      "id": "ley1751",
+      "nombre": "Ley 1751 de 2015",
+      "tipo": "ley",
+      "descripcion": "Reconoce la salud como derecho fundamental",
+      "archivo": "funcionales/ley1751.json",
+      "totalArticulos": 27,
+      "relevantesEnfermeria": 8
+    },
+    {
+      "id": "decreto780",
+      "nombre": "Decreto 780 de 2016",
+      "tipo": "decreto",
+      "descripcion": "Decreto Único Reglamentario del sector salud",
+      "archivo": "funcionales/decreto780.json",
+      "totalArticulos": 500,
+      "relevantesEnfermeria": 12
+    },
+    {
+      "id": "decreto1011",
+      "nombre": "Decreto 1011 de 2006",
+      "tipo": "decreto",
+      "descripcion": "Sistema Obligatorio de Garantía de Calidad",
+      "archivo": "funcionales/decreto1011.json",
+      "totalArticulos": 40,
+      "relevantesEnfermeria": 8
+    },
+    {
+      "id": "resolucion2292",
+      "nombre": "Resolución 2292 de 2021",
+      "tipo": "resolucion",
+      "descripcion": "Plan de Beneficios en Salud (PBS)",
+      "archivo": "funcionales/resolucion2292.json",
+      "totalArticulos": 30,
+      "relevantesEnfermeria": 6
+    },
+    {
+      "id": "resolucion3100",
+      "nombre": "Resolución 3100 de 2019",
+      "tipo": "resolucion",
+      "descripcion": "Habilitación de IPS",
+      "archivo": "funcionales/resolucion3100.json",
+      "totalArticulos": 50,
+      "relevantesEnfermeria": 4
+    },
+    {
+      "id": "resolucion3280",
+      "nombre": "Resolución 3280 de 2018",
+      "tipo": "resolucion",
+      "descripcion": "Rutas Integrales de Atención en Salud (RIAS)",
+      "archivo": "funcionales/resolucion3280.json",
+      "totalArticulos": 60,
+      "relevantesEnfermeria": 5
+    },
+    {
+      "id": "resolucion1995",
+      "nombre": "Resolución 1995 de 1999",
+      "tipo": "resolucion",
+      "descripcion": "Manejo de la Historia Clínica",
+      "archivo": "funcionales/resolucion1995.json",
+      "totalArticulos": 15,
+      "relevantesEnfermeria": 6
+    },
+    {
+      "id": "resolucion1444",
+      "nombre": "Resolución 1444 de 2025",
+      "tipo": "resolucion",
+      "descripcion": "Política de Talento Humano en Salud 2025-2035",
+      "archivo": "funcionales/resolucion1444.json",
+      "totalArticulos": 35,
+      "relevantesEnfermeria": 6
+    },
+    {
+      "id": "resolucion256",
+      "nombre": "Resolución 256 de 2016",
+      "tipo": "resolucion",
+      "descripcion": "Indicadores de calidad en salud",
+      "archivo": "funcionales/resolucion256.json",
+      "totalArticulos": 20,
+      "relevantesEnfermeria": 4
     }
   ]
 }

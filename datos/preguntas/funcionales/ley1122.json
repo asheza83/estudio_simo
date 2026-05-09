@@ -1,0 +1,79 @@
+{
+  "version": "2.0",
+  "leyReferencia": "ley1122",
+  "totalPreguntas": 8,
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "¿Qué establece la Ley 1122 de 2007 sobre la contratación del talento humano en salud?",
+      "respuestaCorrecta": "Debe regirse por principios de transparencia, mérito e igualdad",
+      "distractores": ["Puede ser por libre nombramiento", "Solo aplica a médicos", "No aplica a auxiliares de enfermería"],
+      "tema": "Talento humano",
+      "explicacion": "Artículo 8 de la Ley 1122. La contratación del talento humano en salud debe regirse por principios de transparencia, mérito e igualdad. Las instituciones deben evitar prácticas de tercerización que afecten los derechos laborales del personal asistencial.",
+      "leyReferencia": "ley1122"
+    },
+    {
+      "id": 2,
+      "texto": "¿Cuál es el rol del personal de enfermería en la gestión del riesgo en salud según la Ley 1122?",
+      "respuestaCorrecta": "Identificar riesgos, clasificar pacientes y hacer seguimiento a crónicos",
+      "distractores": ["Solo administrar medicamentos", "Realizar auditorías financieras", "Diseñar políticas de salud"],
+      "tema": "Gestión del riesgo",
+      "explicacion": "Artículo 10 de la Ley 1122. El personal de enfermería tiene un rol fundamental en la identificación temprana de riesgos, clasificación de pacientes por nivel de complejidad y seguimiento a pacientes con enfermedades crónicas.",
+      "leyReferencia": "ley1122"
+    },
+    {
+      "id": 3,
+      "texto": "¿Qué deben garantizar las redes integradas de servicios de salud según la Ley 1122?",
+      "respuestaCorrecta": "Continuidad del cuidado, referencia y contrarreferencia de pacientes",
+      "distractores": ["Atención exclusiva en alta complejidad", "Reducción de personal de enfermería", "Centralización de todos los servicios"],
+      "tema": "Redes integradas",
+      "explicacion": "Artículo 12 de la Ley 1122. El personal de enfermería debe garantizar la continuidad del cuidado, la referencia y contrarreferencia de pacientes, y el adecuado diligenciamiento de los formatos de remisión entre niveles de atención.",
+      "leyReferencia": "ley1122"
+    },
+    {
+      "id": 4,
+      "texto": "¿Qué establece la Ley 1122 sobre la historia clínica?",
+      "respuestaCorrecta": "Debe ser única e interoperable en todo el territorio nacional",
+      "distractores": ["Cada IPS puede tener su propio formato sin integración", "Solo aplica para pacientes con enfermedades graves", "No es obligatoria en instituciones públicas"],
+      "tema": "Historia clínica",
+      "explicacion": "Artículo 14 de la Ley 1122. Se establece la implementación de la historia clínica única e interoperable. El personal de enfermería debe registrar de manera clara, completa y oportuna todas las actividades de cuidado realizadas.",
+      "leyReferencia": "ley1122"
+    },
+    {
+      "id": 5,
+      "texto": "¿En qué deben participar los auxiliares de enfermería según la Ley 1122 en materia de calidad?",
+      "respuestaCorrecta": "Identificación de eventos adversos, aplicación de protocolos y reporte de incidentes",
+      "distractores": ["Solo en la facturación de servicios", "En la selección de personal médico", "En la construcción de la infraestructura hospitalaria"],
+      "tema": "Calidad",
+      "explicacion": "Artículo 15 de la Ley 1122. El personal de enfermería participa activamente en la identificación de eventos adversos, aplicación de protocolos de seguridad, reporte de incidentes, e implementación de acciones correctivas.",
+      "leyReferencia": "ley1122"
+    },
+    {
+      "id": 6,
+      "texto": "¿Qué deben conocer los auxiliares de enfermería sobre el Sistema Único de Acreditación en Salud?",
+      "respuestaCorrecta": "Los estándares de acreditación relacionados con el cuidado seguro y la humanización",
+      "distractores": ["Los requisitos financieros de la IPS", "Los trámites de importación de equipos", "Las especificaciones técnicas de construcción"],
+      "tema": "Acreditación",
+      "explicacion": "Artículo 16 de la Ley 1122. El personal de enfermería debe conocer y aplicar los estándares de acreditación relacionados con el cuidado seguro, la humanización del servicio y el respeto por los derechos de los pacientes.",
+      "leyReferencia": "ley1122"
+    },
+    {
+      "id": 7,
+      "texto": "¿Cómo deben colaborar los auxiliares de enfermería con la Superintendencia Nacional de Salud?",
+      "respuestaCorrecta": "Colaborando con las auditorías y proporcionando información veraz",
+      "distractores": ["Ocultando información para proteger a la IPS", "Negándose a participar en las auditorías", "Solo colaborando si reciben incentivos económicos"],
+      "tema": "Control",
+      "explicacion": "Artículo 17 de la Ley 1122. El personal de enfermería debe colaborar con las auditorías y proporcionar información veraz sobre los procesos de atención, los registros clínicos y el cumplimiento de los protocolos institucionales.",
+      "leyReferencia": "ley1122"
+    },
+    {
+      "id": 8,
+      "texto": "¿Qué derechos tienen los usuarios del sistema de salud según la Ley 1122?",
+      "respuestaCorrecta": "Participar en veedurías ciudadanas y comités de participación comunitaria",
+      "distractores": ["Decidir qué médicos contratan las EPS", "Modificar las tarifas de los servicios", "Exigir tratamientos no aprobados sin justificación médica"],
+      "tema": "Participación social",
+      "explicacion": "Artículo 18 de la Ley 1122. Los usuarios tienen derecho a participar en veedurías ciudadanas y comités de participación comunitaria. El personal de enfermería debe atender las quejas y sugerencias de los usuarios y garantizar el derecho a la información.",
+      "leyReferencia": "ley1122"
+    }
+  ]
+}

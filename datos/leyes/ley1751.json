@@ -1,0 +1,52 @@
+{
+  "id": "ley1751",
+  "nombre": "Ley 1751 de 2015",
+  "totalArticulos": 24,
+  "relevantesEnfermeria": 8,
+  "tituloCompleto": "Por medio de la cual se regula el derecho fundamental a la salud y se dictan otras disposiciones",
+  "fecha": "16 de febrero de 2015",
+  "estado": "Vigente",
+  "resumen": "La Ley 1751 de 2015, conocida como Ley Estatutaria de Salud, reconoce la salud como un derecho fundamental autónomo e irrenunciable. Establece los principios de disponibilidad, accesibilidad, aceptabilidad y calidad que deben garantizar las entidades de salud. Para enfermería, esta ley refuerza la obligación de brindar atención oportuna, respetuosa y sin barreras administrativas, y protege al personal de salud que actúa de buena fe.",
+  "articulos": [
+    {
+      "numero": "Artículo 1",
+      "descripcion": "Naturaleza y contenido del derecho fundamental a la salud",
+      "texto": "La salud es un derecho fundamental autónomo e irrenunciable en lo individual y en lo colectivo. Comprende el acceso a los servicios de salud de manera oportuna, eficaz y con calidad para la preservación, mejoramiento y promoción de la salud. El personal de enfermería debe garantizar que ningún paciente sea discriminado o excluido del acceso a los servicios que requiere."
+    },
+    {
+      "numero": "Artículo 2",
+      "descripcion": "Principios del derecho fundamental a la salud",
+      "texto": "Los principios que rigen el derecho a la salud son:<br><br><strong>Disponibilidad:</strong> Los servicios deben estar disponibles para todos.<br><strong>Accesibilidad:</strong> Sin barreras geográficas, económicas o administrativas.<br><strong>Aceptabilidad:</strong> Respeto a la cultura, creencias y dignidad del paciente.<br><strong>Calidad:</strong> Atención oportuna, segura y con estándares técnicos.<br><strong>Continuidad:</strong> No se puede interrumpir el tratamiento.<br><strong>Oportunidad:</strong> La atención debe darse en el tiempo necesario.<br><br>El personal de enfermería debe aplicar estos principios en el cuidado diario."
+    },
+    {
+      "numero": "Artículo 5",
+      "descripcion": "Prohibición de barreras administrativas",
+      "texto": "Está prohibido exigir trámites, autorizaciones o requisitos que limiten, restrinjan o demoren el acceso a los servicios de salud. Las EPS e IPS no pueden negar la atención por falta de documentos o autorizaciones previas. El personal de enfermería debe conocer esta prohibición y actuar de buena fe cuando un paciente requiere atención urgente."
+    },
+    {
+      "numero": "Artículo 6",
+      "descripcion": "Atención de urgencias",
+      "texto": "Las urgencias médicas deben ser atendidas sin ninguna barrera administrativa, económica o de afiliación. Ninguna IPS puede negar la atención en urgencias. El personal de enfermería está obligado a estabilizar al paciente y garantizar su atención, independientemente de su estado de afiliación al SGSSS. Actuar de buena fe protege al profesional de sanciones."
+    },
+    {
+      "numero": "Artículo 8",
+      "descripcion": "Prohibición de negación de servicios por falta de pago",
+      "texto": "No se puede negar la prestación de servicios de salud a una persona por falta de pago de la cotización, copagos o cuotas moderadoras. Las EPS e IPS deben prestar el servicio y luego realizar los cobros correspondientes. El personal de enfermería no debe condicionar la atención al pago."
+    },
+    {
+      "numero": "Artículo 10",
+      "descripcion": "Obligaciones de las entidades de salud con el talento humano",
+      "texto": "Las entidades de salud deben garantizar condiciones laborales dignas, formación continua y entornos seguros para el personal asistencial. También deben implementar protocolos para prevenir el desgaste profesional, la violencia laboral y el acoso. El personal de enfermería tiene derecho a reportar malas prácticas sin temor a represalias."
+    },
+    {
+      "numero": "Artículo 12",
+      "descripcion": "Protección al personal de salud que actúa de buena fe",
+      "texto": "El Estado protegerá a los profesionales de la salud que actúen de buena fe en la prestación de servicios, especialmente en situaciones de urgencia. No serán sancionados por actuar dentro de sus competencias y con apego a los protocolos establecidos. Esta protección aplica a auxiliares de enfermería que actúan en emergencias."
+    },
+    {
+      "numero": "Artículo 17",
+      "descripcion": "Rendición de cuentas y participación ciudadana",
+      "texto": "Los pacientes y sus familias tienen derecho a ser informados sobre el estado de salud, el diagnóstico, el tratamiento y los riesgos asociados. También pueden participar en veedurías y presentar quejas ante la Superintendencia de Salud. El personal de enfermería debe facilitar esta información y orientar a los pacientes sobre sus derechos."
+    }
+  ]
+}

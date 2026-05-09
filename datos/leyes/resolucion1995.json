@@ -1,0 +1,42 @@
+{
+  "id": "resolucion1995",
+  "nombre": "Resolución 1995 de 1999",
+  "totalArticulos": 6,
+  "relevantesEnfermeria": 6,
+  "tituloCompleto": "Por la cual se establecen normas para el manejo de la Historia Clínica",
+  "fecha": "8 de julio de 1999",
+  "estado": "Vigente (con modificaciones parciales)",
+  "resumen": "La Resolución 1995 de 1999 regula el manejo, contenido, confidencialidad y conservación de la historia clínica. Es fundamental para el personal de enfermería porque establece las obligaciones en el registro de las actividades de cuidado, la confidencialidad de la información, y las sanciones por violación de estos principios. Define qué debe registrarse, cómo debe hacerse, y durante cuánto tiempo debe conservarse la historia clínica.",
+  "articulos": [
+    {
+      "numero": "Artículo 3",
+      "descripcion": "Contenido de la historia clínica: registros de enfermería",
+      "texto": "La historia clínica debe incluir todos los registros de enfermería realizados durante la atención del paciente. Esto comprende: valoración inicial de enfermería (signos vitales, condiciones de ingreso, alergias, medicamentos previos), evolución diaria de enfermería (registro de cuidados realizados, respuesta del paciente, cambios en su condición), administración de medicamentos (fecha, hora, medicamento, dosis, vía de administración, y firma del profesional), procedimientos realizados (curación de heridas, colocación de sondas, toma de muestras), y educación brindada al paciente y su familia. Todos los registros deben ser claros, legibles, completos y oportunos."
+    },
+    {
+      "numero": "Artículo 4",
+      "descripcion": "Obligaciones del personal de salud en el registro",
+      "texto": "El personal de salud, incluyendo auxiliares de enfermería, está obligado a registrar en la historia clínica toda la información relacionada con la atención del paciente. El registro debe ser: claro (sin tachones, enmendaduras o sobreescrituras), legible (letra clara que permita la lectura por otros profesionales), completo (sin omitir información relevante), oportuno (realizado durante o inmediatamente después de la atención), y veraz (basado en hechos reales, no en suposiciones). Cualquier error debe corregirse mediante nota aclaratoria, no tachando o borrando."
+    },
+    {
+      "numero": "Artículo 5",
+      "descripcion": "Confidencialidad de la historia clínica",
+      "texto": "La historia clínica es un documento privado y confidencial. Solo puede ser consultada por el personal de salud directamente involucrado en la atención del paciente, por el paciente mismo, por su representante legal, o por autoridades judiciales mediante orden expresa. El personal de enfermería no puede: compartir información del paciente con terceros sin autorización, tomar fotografías o videos del paciente o su historia clínica, discutir casos en lugares públicos, o dejar la historia clínica al alcance de personas no autorizadas. La violación de la confidencialidad es causal de sanciones disciplinarias y penales."
+    },
+    {
+      "numero": "Artículo 6",
+      "descripcion": "Conservación de la historia clínica",
+      "texto": "Las historias clínicas deben conservarse por un período mínimo de 20 años contados desde la última atención del paciente. Las IPS deben garantizar su almacenamiento en condiciones que preserven su integridad (sin humedad, sin exposición a luz directa, protegidas contra incendios e inundaciones). Para historias clínicas electrónicas, deben implementarse sistemas de respaldo (backup) y medidas de seguridad informática. El personal de enfermería debe reportar cualquier deterioro o pérdida de historias clínicas a su superior inmediato."
+    },
+    {
+      "numero": "Artículo 7",
+      "descripcion": "Uso de abreviaturas y símbolos en los registros",
+      "texto": "El personal de enfermería debe evitar el uso de abreviaturas o símbolos no estandarizados en los registros. Cuando sea necesario usar abreviaturas, deben ser las aprobadas por la institución y su significado debe estar documentado en un glosario disponible para todo el personal. No se deben usar abreviaturas que puedan generar confusión o error, como aquellas relacionadas con medicamentos (ej: usar \"mg\" en lugar de escribir \"miligramos\" puede generar confusión con \"mcg\"). Es preferible escribir los términos completos para evitar malentendidos."
+    },
+    {
+      "numero": "Artículo 8",
+      "descripcion": "Corrección de errores en los registros de enfermería",
+      "texto": "Si un profesional de enfermería comete un error en el registro de la historia clínica, no debe tachar, borrar o usar corrector líquido. El procedimiento correcto es: trazar una línea sobre el texto incorrecto (que permita leer lo escrito originalmente), escribir la palabra \"error\" o \"equivocación\", fechar y firmar la corrección, y luego escribir el texto correcto. No se deben eliminar ni ocultar registros previos. Las correcciones deben ser claras y rastreables. Ocultar información intencionalmente es una falta grave."
+    }
+  ]
+}

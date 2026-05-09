@@ -1,0 +1,115 @@
+{
+  "version": "2.0",
+  "leyReferencia": "decreto780",
+  "totalPreguntas": 12,
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "¿Qué es el Decreto 780 de 2016?",
+      "respuestaCorrecta": "El Decreto Único Reglamentario del sector salud en Colombia",
+      "distractores": ["La ley que creó el SGSSS", "La resolución que define el PBS", "El manual de bioseguridad"],
+      "tema": "Normatividad",
+      "explicacion": "El Decreto 780 de 2016 compila y unifica toda la reglamentación del sector salud en Colombia. Es el Decreto Único Reglamentario que organiza todas las normas relacionadas con afiliación, prestación de servicios, calidad y funcionamiento del SGSSS.",
+      "leyReferencia": "decreto780"
+    },
+    {
+      "id": 2,
+      "texto": "¿Qué deben registrar los auxiliares de enfermería en la historia clínica según el Decreto 780?",
+      "respuestaCorrecta": "Signos vitales, medicamentos administrados, evolución y procedimientos realizados",
+      "distractores": ["Solo el nombre del paciente", "Solo la fecha de ingreso", "Solo el diagnóstico médico"],
+      "tema": "Historia clínica",
+      "explicacion": "Libro 2 - Parte 5 - Título 2. El personal de enfermería debe registrar: signos vitales, administración de medicamentos, evolución del paciente, procedimientos realizados, y cualquier incidente o evento adverso.",
+      "leyReferencia": "decreto780"
+    },
+    {
+      "id": 3,
+      "texto": "¿Qué es el consentimiento informado según el Decreto 780?",
+      "respuestaCorrecta": "La manifestación de voluntad del paciente después de recibir información clara sobre el procedimiento",
+      "distractores": ["Un documento que firma el médico sin explicación", "Una autorización que solo aplica para cirugías mayores", "Un trámite administrativo opcional"],
+      "tema": "Consentimiento informado",
+      "explicacion": "Libro 2 - Parte 5 - Título 3. El consentimiento informado es la manifestación de voluntad del paciente después de recibir información clara sobre el procedimiento, sus riesgos, beneficios y alternativas. El personal de enfermería debe verificar que esté diligenciado.",
+      "leyReferencia": "decreto780"
+    },
+    {
+      "id": 4,
+      "texto": "¿Cuáles son los derechos de los pacientes según el Decreto 780?",
+      "respuestaCorrecta": "Recibir atención digna, respetuosa, oportuna y de calidad",
+      "distractores": ["Exigir tratamientos no indicados", "Decidir el salario del personal de salud", "Modificar la historia clínica sin justificación"],
+      "tema": "Derechos del paciente",
+      "explicacion": "Libro 2 - Parte 6 - Título 1. Los pacientes tienen derecho a recibir atención digna, respetuosa, oportuna y de calidad, y a ser informados sobre su diagnóstico, tratamiento y pronóstico. El personal de enfermería debe conocer estos derechos.",
+      "leyReferencia": "decreto780"
+    },
+    {
+      "id": 5,
+      "texto": "¿Qué deben cumplir las IPS en materia de talento humano según el Decreto 780?",
+      "respuestaCorrecta": "Contar con personal suficiente y calificado, con tarjeta profesional vigente",
+      "distractores": ["Contratar personal sin formación", "No exigir tarjeta profesional", "Reducir personal para ahorrar costos"],
+      "tema": "Talento humano",
+      "explicacion": "Libro 2 - Parte 7 - Título 2. Las IPS deben cumplir con los requisitos de habilitación relacionados con: personal suficiente y calificado, registro de actividades, cumplimiento de protocolos, y condiciones de bioseguridad.",
+      "leyReferencia": "decreto780"
+    },
+    {
+      "id": 6,
+      "texto": "¿Qué deben aplicar los auxiliares de enfermería en materia de bioseguridad según el Decreto 780?",
+      "respuestaCorrecta": "Lavado de manos, uso de elementos de protección y disposición adecuada de residuos",
+      "distractores": ["Solo usar guantes si hay sangre visible", "Reutilizar material desechable para ahorrar", "No es necesario si el paciente no tiene diagnóstico infeccioso"],
+      "tema": "Bioseguridad",
+      "explicacion": "Libro 2 - Parte 10 - Título 1. El personal de enfermería debe aplicar las medidas de bioseguridad: lavado de manos, uso de elementos de protección personal, disposición adecuada de residuos hospitalarios, y reporte de accidentes laborales.",
+      "leyReferencia": "decreto780"
+    },
+    {
+      "id": 7,
+      "texto": "¿Cómo deben ser atendidas las urgencias según el Decreto 780?",
+      "respuestaCorrecta": "Sin barreras administrativas, económicas o de afiliación, con clasificación por triage",
+      "distractores": ["Solo si el paciente tiene capacidad de pago", "Solo después de verificar la EPS", "Solo si hay orden médica previa"],
+      "tema": "Urgencias",
+      "explicacion": "Libro 2 - Parte 11 - Título 1. Las urgencias deben ser atendidas sin barreras. El personal de enfermería debe clasificar al paciente por triage, estabilizarlo, y gestionar la referencia si requiere mayor complejidad.",
+      "leyReferencia": "decreto780"
+    },
+    {
+      "id": 8,
+      "texto": "¿Qué establece el Decreto 780 sobre el Sistema Obligatorio de Garantía de Calidad (SOGC)?",
+      "respuestaCorrecta": "Conjunto de mecanismos para garantizar la calidad: habilitación, acreditación, auditoría e indicadores",
+      "distractores": ["Un sistema solo para grandes hospitales", "Un mecanismo voluntario sin obligatoriedad", "Un trámite administrativo sin impacto en la atención"],
+      "tema": "Calidad",
+      "explicacion": "Libro 2 - Parte 8 - Título 1. El SOGC incluye: habilitación, acreditación, auditoría y medición de indicadores. El personal de enfermería participa en la recolección de datos para indicadores de calidad y en la identificación de eventos adversos.",
+      "leyReferencia": "decreto780"
+    },
+    {
+      "id": 9,
+      "texto": "¿Qué deben conocer los auxiliares de enfermería sobre el Plan de Beneficios en Salud (PBS)?",
+      "respuestaCorrecta": "Los servicios, tecnologías y medicamentos garantizados a los afiliados, que deben ser iguales para todos",
+      "distractores": ["Que solo aplica para el régimen contributivo", "Que la EPS puede negar cualquier servicio", "Que es opcional para las IPS"],
+      "tema": "PBS",
+      "explicacion": "Libro 2 - Parte 3 - Título 1. El PBS es el conjunto de servicios, tecnologías y medicamentos garantizados a todos los afiliados. El personal de enfermería debe conocer los servicios incluidos para orientar a los pacientes.",
+      "leyReferencia": "decreto780"
+    },
+    {
+      "id": 10,
+      "texto": "¿Qué deben garantizar las redes integrales de prestación de servicios según el Decreto 780?",
+      "respuestaCorrecta": "La continuidad del cuidado y la referencia entre niveles de atención",
+      "distractores": ["La atención exclusiva en un solo nivel", "La reducción de personal asistencial", "La centralización de todos los pacientes"],
+      "tema": "Redes integradas",
+      "explicacion": "Libro 2 - Parte 4 - Título 1. Las redes integrales articulan diferentes niveles de complejidad. El personal de enfermería debe garantizar la referencia y contrarreferencia de pacientes y el adecuado diligenciamiento de los formatos de remisión.",
+      "leyReferencia": "decreto780"
+    },
+    {
+      "id": 11,
+      "texto": "¿Qué dice el Decreto 780 sobre los registros de enfermería en la historia clínica?",
+      "respuestaCorrecta": "Deben ser claros, legibles, completos y oportunos",
+      "distractores": ["Pueden ser ilegibles", "No es necesario registrar si el paciente está estable", "Se puede omitir información si no hay tiempo"],
+      "tema": "Registros clínicos",
+      "explicacion": "Libro 2 - Parte 5 - Título 2. La historia clínica debe ser diligenciada de manera clara, completa, oportuna y veraz. El registro es un documento legal y debe conservarse por 20 años.",
+      "leyReferencia": "decreto780"
+    },
+    {
+      "id": 12,
+      "texto": "¿Qué deben hacer los auxiliares de enfermería cuando se presenta un evento adverso según el Decreto 780?",
+      "respuestaCorrecta": "Reportarlo inmediatamente y participaren el análisis de causas",
+      "distractores": ["Ocultarlo para evitar sanciones", "Ignorarlo si el paciente no sufrió daño", "No reportarlo para proteger a la institución"],
+      "tema": "Eventos adversos",
+      "explicacion": "El personal de enfermería debe reportar eventos adversos dentro de las 24 horas siguientes, participaren el análisis de causas y en la implementación de acciones correctivas. No reportar es una falta grave.",
+      "leyReferencia": "decreto780"
+    }
+  ]
+}

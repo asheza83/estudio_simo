@@ -1,0 +1,52 @@
+{
+  "id": "ley1122",
+  "nombre": "Ley 1122 de 2007",
+  "totalArticulos": 8,
+  "relevantesEnfermeria": 8,
+  "tituloCompleto": "Por la cual se realizan ajustes al Sistema General de Seguridad Social en Salud y se dictan otras disposiciones",
+  "fecha": "9 de enero de 2007",
+  "estado": "Vigente (con modificaciones)",
+  "resumen": "La Ley 1122 de 2007 realizó ajustes importantes al SGSSS para mejorar la administración, el flujo de recursos y el control de las entidades. Fortaleció la rectoría del Ministerio de Salud, creó la Comisión de Regulación en Salud (CRES), y estableció medidas para garantizar la calidad y transparencia en la prestación de servicios. Para enfermería, es relevante por sus disposiciones sobre talento humano, historia clínica única y gestión del riesgo.",
+  "articulos": [
+    {
+      "numero": "Artículo 8",
+      "descripcion": "Régimen de transparencia en contratación del talento humano en salud",
+      "texto": "Establece que la contratación del talento humano en salud, incluyendo auxiliares de enfermería, debe regirse por principios de transparencia, mérito e igualdad. Las instituciones de salud deben garantizar procesos de selección objetivos y evitar prácticas de tercerización que afecten los derechos laborales del personal asistencial."
+    },
+    {
+      "numero": "Artículo 10",
+      "descripcion": "Gestión del riesgo en salud y responsabilidades de enfermería",
+      "texto": "Las EPS e IPS deben implementar programas de gestión del riesgo en salud. El personal de enfermería tiene un rol fundamental en la identificación temprana de riesgos, la clasificación de pacientes por nivel de complejidad y el seguimiento a pacientes con enfermedades crónicas. También deben reportar oportunamente los eventos adversos y participar en los comités de seguridad del paciente."
+    },
+    {
+      "numero": "Artículo 12",
+      "descripcion": "Redes integradas de servicios de salud",
+      "texto": "Las redes integradas de servicios articulan IPS de baja, mediana y alta complejidad. El personal de enfermería debe garantizar la continuidad del cuidado, la referencia y contrarreferencia de pacientes, y el adecuado diligenciamiento de los formatos de remisión entre niveles de atención."
+    },
+    {
+      "numero": "Artículo 14",
+      "descripcion": "Historia clínica única e interoperable",
+      "texto": "Se establece la implementación de la historia clínica única e interoperable en todo el territorio nacional. El personal de enfermería debe registrar de manera clara, completa y oportuna todas las actividades de cuidado realizadas, incluyendo signos vitales, administración de medicamentos, evolución del paciente y procedimientos realizados. El registro debe cumplir con los principios de confidencialidad, exactitud y oportunidad."
+    },
+    {
+      "numero": "Artículo 15",
+      "descripcion": "Calidad y seguridad del paciente",
+      "texto": "Las instituciones de salud deben implementar sistemas de garantía de calidad. El personal de enfermería participa activamente en: la identificación de eventos adversos, la aplicación de protocolos de seguridad, el reporte de incidentes, y la implementación de acciones correctivas. La cultura de seguridad debe promoverse en todos los niveles asistenciales."
+    },
+    {
+      "numero": "Artículo 16",
+      "descripcion": "Sistema Único de Acreditación en Salud",
+      "texto": "Las IPS pueden optar por la acreditación voluntaria en salud, que certifica altos estándares de calidad. El personal de enfermería debe conocer y aplicar los estándares de acreditación relacionados con el cuidado seguro, la humanización del servicio y el respeto por los derechos de los pacientes."
+    },
+    {
+      "numero": "Artículo 17",
+      "descripcion": "Inspección, vigilancia y control de entidades de salud",
+      "texto": "La Superintendencia Nacional de Salud fortalece sus funciones de inspección, vigilancia y control. El personal de enfermería debe colaborar con las auditorías y proporcionar información veraz sobre los procesos de atención, los registros clínicos y el cumplimiento de los protocolos institucionales."
+    },
+    {
+      "numero": "Artículo 18",
+      "descripcion": "Participación social y veedurías ciudadanas",
+      "texto": "Los usuarios del sistema de salud tienen derecho a participar en veedurías ciudadanas y comités de participación comunitaria. El personal de enfermería debe atender las quejas y sugerencias de los usuarios, garantizar el derecho a la información, y facilitar los mecanismos de participación establecidos por la ley."
+    }
+  ]
+}

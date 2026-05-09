@@ -1,0 +1,52 @@
+{
+  "version": "2.0",
+  "leyReferencia": "resolucion3280",
+  "totalPreguntas": 5,
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "¿Qué adoptó la Resolución 3280 de 2018?",
+      "respuestaCorrecta": "Las Rutas Integrales de Atención en Salud (RIAS)",
+      "distractores": ["El Plan de Beneficios en Salud", "El Sistema de Habilitación de IPS", "El Sistema de Garantía de Calidad"],
+      "tema": "RIAS",
+      "explicacion": "La Resolución 3280 de 2018 adoptó las Rutas Integrales de Atención en Salud (RIAS) para la promoción, prevención, diagnóstico, tratamiento y rehabilitación de diferentes grupos poblacionales.",
+      "leyReferencia": "resolucion3280"
+    },
+    {
+      "id": 2,
+      "texto": "¿Qué tamizajes debe realizar enfermería en la población infantil según la RIAS?",
+      "respuestaCorrecta": "Desarrollo psicomotor y signos de alarma en el niño enfermo",
+      "distractores": ["Solo la medición de peso y talla", "Solo la aplicación de vacunas", "Ningún tamizaje"],
+      "tema": "Población infantil",
+      "explicacion": "Capítulo 1 de la Resolución 3280. En niños de 0 a 9 años, el personal de enfermería debe realizar: tamizajes de desarrollo psicomotor, aplicación del esquema nacional de vacunación, valoración de signos de alarma en el niño enfermo, y educación a los padres sobre cuidado del recién nacido.",
+      "leyReferencia": "resolucion3280"
+    },
+    {
+      "id": 3,
+      "texto": "¿Qué tamizajes debe realizar enfermería en la población adolescente según la RIAS?",
+      "respuestaCorrecta": "Riesgos psicosociales (consumo de sustancias, conductas suicidas, embarazo adolescente)",
+      "distractores": ["Solo la medición de peso y talla", "Solo la aplicación de vacunas", "Solo la valoración dental"],
+      "tema": "Población adolescente",
+      "explicacion": "Capítulo 2 de la Resolución 3280. En adolescentes de 10 a 19 años, enfermería debe realizar: valoración de desarrollo puberal, tamizaje de riesgos psicosociales (consumo de sustancias, conductas suicidas, embarazo adolescente), educación sobre salud sexual y reproductiva, y aplicación de vacunas.",
+      "leyReferencia": "resolucion3280"
+    },
+    {
+      "id": 4,
+      "texto": "¿Qué tamizajes debe realizar enfermería en la población adulta según la RIAS?",
+      "respuestaCorrecta": "Factores de riesgo cardiovascular y tamizaje de cáncer de cuello uterino y mama",
+      "distractores": ["Solo la toma de presión arterial", "Solo la medición de peso", "Ningún tamizaje"],
+      "tema": "Población adulta",
+      "explicacion": "Capítulo 3 de la Resolución 3280. En adultos de 20 a 59 años, enfermería debe realizar: tamizaje de factores de riesgo cardiovascular (hipertensión, diabetes, dislipidemia, obesidad), educación sobre estilos de vida saludable, tamizaje de cáncer de cuello uterino (citología) en mujeres, y tamizaje de cáncer de mama.",
+      "leyReferencia": "resolucion3280"
+    },
+    {
+      "id": 5,
+      "texto": "¿Qué debe hacer enfermería en el seguimiento domiciliario según la RIAS?",
+      "respuestaCorrecta": "Visitas programadas para verificar adherencia, controlar signos vitales y educar al cuidador",
+      "distractores": ["Solo una llamada telefónica", "Solo si el paciente paga extra", "Ningún seguimiento domiciliario"],
+      "tema": "Seguimiento domiciliario",
+      "explicacion": "Capítulo 5 de la Resolución 3280. El personal de enfermería debe realizar visitas domiciliarias programadas para: verificar adherencia al tratamiento, control de signos vitales, educación al paciente y cuidador, detección temprana de complicaciones, curaciones de heridas, y referencia oportuna a la IPS cuando se requiera.",
+      "leyReferencia": "resolucion3280"
+    }
+  ]
+}

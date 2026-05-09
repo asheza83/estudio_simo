@@ -1,0 +1,79 @@
+{
+  "version": "2.0",
+  "leyReferencia": "decreto1011",
+  "totalPreguntas": 8,
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "¿Qué creó el Decreto 1011 de 2006?",
+      "respuestaCorrecta": "El Sistema Obligatorio de Garantía de Calidad (SOGC)",
+      "distractores": ["El Plan de Beneficios en Salud", "El Sistema de Afiliación al SGSSS", "La historia clínica única"],
+      "tema": "Calidad",
+      "explicacion": "El Decreto 1011 de 2006 creó el Sistema Obligatorio de Garantía de Calidad (SOGC) para mejorar la calidad de los servicios de salud en Colombia, definiendo mecanismos como habilitación, acreditación, auditoría y medición de indicadores.",
+      "leyReferencia": "decreto1011"
+    },
+    {
+      "id": 2,
+      "texto": "¿Qué deben registrar los auxiliares de enfermería según los estándares de calidad del Decreto 1011?",
+      "respuestaCorrecta": "Todas las actividades de cuidado de forma clara y completa",
+      "distractores": ["Solo las actividades que considere importantes", "Solo si el médico lo solicita", "No es obligatorio registrar"],
+      "tema": "Registros",
+      "explicacion": "Artículo 5 del Decreto 1011. Los estándares de calidad en enfermería incluyen: registro claro y completo de las actividades de cuidado, aplicación de protocolos para administración segura de medicamentos, prevención de caídas y úlceras por presión.",
+      "leyReferencia": "decreto1011"
+    },
+    {
+      "id": 3,
+      "texto": "¿Qué deben reportar los auxiliares de enfermería según el Decreto 1011?",
+      "respuestaCorrecta": "Cualquier evento adverso que presencien o identifiquen",
+      "distractores": ["Solo los eventos que causen daño grave", "Solo si el médico lo autoriza", "No es necesario reportar si el paciente está bien"],
+      "tema": "Eventos adversos",
+      "explicacion": "Artículo 8 del Decreto 1011. El personal de enfermería está obligado a reportar cualquier evento adverso, como errores de medicación, caídas, úlceras por presión, infecciones asociadas a la atención, o cualquier incidente que comprometa la seguridad del paciente.",
+      "leyReferencia": "decreto1011"
+    },
+    {
+      "id": 4,
+      "texto": "¿Qué deben hacer los auxiliares de enfermería cuando se identifica un evento adverso?",
+      "respuestaCorrecta": "Participar en el análisis de causas, proponer soluciones e implementar acciones correctivas",
+      "distractores": ["Ignorarlo y continuar como si nada", "Ocultar la información para proteger a la institución", "Solo reportarlo sin participar en la solución"],
+      "tema": "Mejora continua",
+      "explicacion": "Artículo 22 del Decreto 1011. El personal debe participar en el análisis de causas, proponer soluciones, implementar las acciones correctivas asignadas y hacer seguimiento. La mejora continua es responsabilidad de todo el equipo.",
+      "leyReferencia": "decreto1011"
+    },
+    {
+      "id": 5,
+      "texto": "¿Cuál es la obligación del personal de enfermería ante un error de medicación según el Decreto 1011?",
+      "respuestaCorrecta": "Reportarlo inmediatamente, aunque el paciente no haya sufrido daño",
+      "distractores": ["Ocultarlo si nadie se dio cuenta", "Reportarlo solo si el paciente sufre daño", "Esperar a ver si el paciente presenta síntomas"],
+      "tema": "Errores de medicación",
+      "explicacion": "Artículo 19 del Decreto 1011. Los errores de medicación deben ser reportados inmediatamente, aunque el paciente no haya sufrido daño aparente. El reporte permite identificar fallas en el sistema y prevenir futuros errores. No reportar es una falta grave.",
+      "leyReferencia": "decreto1011"
+    },
+    {
+      "id": 6,
+      "texto": "¿En qué deben participar los auxiliares de enfermería según el Decreto 1011?",
+      "respuestaCorrecta": "En los comités de seguridad del paciente",
+      "distractores": ["En la selección de nuevos directivos", "En la definición de tarifas de servicios", "En la construcción de infraestructura"],
+      "tema": "Comités de seguridad",
+      "explicacion": "Artículo 25 del Decreto 1011. El personal de enfermería debe ser parte activa de los comités de seguridad del paciente, presentando observaciones, analizando incidentes, proponiendo acciones correctivas y haciendo seguimiento a los planes de mejora.",
+      "leyReferencia": "decreto1011"
+    },
+    {
+      "id": 7,
+      "texto": "¿Qué es la cultura de seguridad según el Decreto 1011?",
+      "respuestaCorrecta": "El conjunto de valores, actitudes y comportamientos que priorizan la seguridad del paciente",
+      "distractores": ["Un conjunto de castigos para quien cometa errores", "Una política para ocultar los errores", "Un trámite administrativo sin impacto"],
+      "tema": "Cultura de seguridad",
+      "explicacion": "Artículo 30 del Decreto 1011. La cultura de seguridad prioriza la seguridad del paciente sobre otros objetivos. El personal de enfermería debe reportar sin temor a sanciones, participar en análisis de eventos, proponer mejoras y aprender de los errores.",
+      "leyReferencia": "decreto1011"
+    },
+    {
+      "id": 8,
+      "texto": "¿Qué estándares de calidad deben aplicar los auxiliares de enfermería según el Decreto 1011?",
+      "respuestaCorrecta": "Protocolos para administración segura de medicamentos, prevención de caídas y úlceras por presión",
+      "distractores": ["Protocolos de facturación", "Normas de contratación laboral", "Estándares de construcción de hospitales"],
+      "tema": "Estándares de calidad",
+      "explicacion": "Artículo 5 del Decreto 1011. Los estándares en enfermería incluyen: aplicación de protocolos para administración segura de medicamentos, prevención de caídas, prevención de úlceras por presión, y comunicación efectiva con el paciente y su familia.",
+      "leyReferencia": "decreto1011"
+    }
+  ]
+}

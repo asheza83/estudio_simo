@@ -28,12 +28,27 @@ export function actualizarProgreso() {
         let nombreMostrar = filtroLeyActual;
         
         const nombresCompetencias = {
+            // Básicas
             logicas: "Razonamiento lógico",
             lecturacritica: "Lectura Crítica",
             matematicas: "Matemáticas aplicadas",
+            // Comportamentales
             etica: "Ética profesional",
             orientacionservicio: "Orientación al Servicio",
-            trabajoequipo: "Trabajo en Equipo"
+            trabajoequipo: "Trabajo en Equipo",
+            // Funcionales (nuevas)
+            ley100: "Ley 100 de 1993",
+            ley1438: "Ley 1438 de 2011",
+            ley1122: "Ley 1122 de 2007",
+            ley1751: "Ley 1751 de 2015",
+            decreto780: "Decreto 780 de 2016",
+            decreto1011: "Decreto 1011 de 2006",
+            resolucion2292: "Resolución 2292 de 2021",
+            resolucion3100: "Resolución 3100 de 2019",
+            resolucion3280: "Resolución 3280 de 2018",
+            resolucion1995: "Resolución 1995 de 1999",
+            resolucion1444: "Resolución 1444 de 2025",
+            resolucion256: "Resolución 256 de 2016"
         };
         nombreMostrar = nombresCompetencias[filtroLeyActual] || filtroLeyActual;
         

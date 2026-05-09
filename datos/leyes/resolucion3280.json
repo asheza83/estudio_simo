@@ -1,0 +1,37 @@
+{
+  "id": "resolucion3280",
+  "nombre": "Resolución 3280 de 2018",
+  "totalArticulos": 5,
+  "relevantesEnfermeria": 5,
+  "tituloCompleto": "Por la cual se adoptan las Rutas Integrales de Atención en Salud (RIAS)",
+  "fecha": "16 de agosto de 2018",
+  "estado": "Vigente",
+  "resumen": "La Resolución 3280 de 2018 adopta las Rutas Integrales de Atención en Salud (RIAS) para la promoción, prevención, diagnóstico, tratamiento y rehabilitación de diferentes grupos poblacionales. Para enfermería, las RIAS definen los protocolos que debe seguir el personal asistencial en cada etapa de la atención, desde la valoración inicial hasta el seguimiento domiciliario, especialmente para población infantil, adolescente, adulta y adulto mayor.",
+  "articulos": [
+    {
+      "numero": "Capítulo 1",
+      "descripcion": "RIAS para población infantil (0-9 años)",
+      "texto": "La RIAS para niños de 0 a 9 años establece que el personal de enfermería debe realizar: tamizajes de desarrollo psicomotor en cada control de crecimiento y desarrollo, aplicación del esquema nacional de vacunación, valoración de signos de alarma en el niño enfermo, educación a los padres sobre cuidado del recién nacido, prevención de accidentes en el hogar, identificación de signos de maltrato infantil, y referencia oportuna a pediatría cuando se detecten alteraciones."
+    },
+    {
+      "numero": "Capítulo 2",
+      "descripcion": "RIAS para población adolescente (10-19 años)",
+      "texto": "La RIAS para adolescentes establece que el personal de enfermería debe realizar: valoración de desarrollo puberal, tamizaje de riesgos psicosociales (consumo de sustancias, conductas suicidas, embarazo adolescente), educación sobre salud sexual y reproductiva, aplicación de vacunas (VPH, hepatitis B), detección de trastornos de la conducta alimentaria, y referencia a psicología o psiquiatría cuando se identifiquen alteraciones. Se debe garantizar confidencialidad y atención diferenciada."
+    },
+    {
+      "numero": "Capítulo 3",
+      "descripcion": "RIAS para población adulta (20-59 años)",
+      "texto": "La RIAS para adultos establece que el personal de enfermería debe realizar: tamizaje de factores de riesgo cardiovascular (hipertensión, diabetes, dislipidemia, obesidad), educación sobre estilos de vida saludable (alimentación, actividad física, no tabaco, no alcohol), tamizaje de cáncer de cuello uterino (citología) en mujeres, tamizaje de cáncer de mama (autoexamen, examen clínico), tamizaje de cáncer de próstata en hombres, y referencia a medicina interna cuando se identifiquen factores de riesgo."
+    },
+    {
+      "numero": "Capítulo 4",
+      "descripcion": "RIAS para adulto mayor (60 años o más)",
+      "texto": "La RIAS para adultos mayores establece que el personal de enfermería debe realizar: valoración geriátrica integral (funcional, cognitiva, afectiva, social), tamizaje de síndromes geriátricos (caídas, incontinencia, deterioro cognitivo, polifarmacia), prevención de úlceras por presión, manejo de inmovilidad y riesgo de caídas, educación sobre uso seguro de medicamentos (deprescribir cuando sea posible), referencia a geriatría cuando se requiera, y coordinación con cuidadores familiares sobre cuidados en el hogar."
+    },
+    {
+      "numero": "Capítulo 5",
+      "descripcion": "Seguimiento domiciliario por enfermería",
+      "texto": "Las RIAS incluyen el seguimiento domiciliario como estrategia para pacientes con enfermedades crónicas, adultos mayores con dependencia, y pacientes dados de alta con necesidad de cuidados especiales. El personal de enfermería debe realizar visitas domiciliarias programadas para: verificar adherencia al tratamiento, control de signos vitales, educación al paciente y cuidador, detección temprana de complicaciones, administración de medicamentos cuando esté indicado, curaciones de heridas, y referencia oportuna a la IPS cuando se requiera. La periodicidad de las visitas se define según la condición del paciente."
+    }
+  ]
+}

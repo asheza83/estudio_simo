@@ -1,0 +1,61 @@
+{
+  "version": "2.0",
+  "leyReferencia": "resolucion1444",
+  "totalPreguntas": 6,
+  "preguntas": [
+    {
+      "id": 1,
+      "texto": "¿Qué adopta la Resolución 1444 de 2025?",
+      "respuestaCorrecta": "La Política de Talento Humano en Salud 2025-2035",
+      "distractores": ["El Plan de Beneficios en Salud", "Las Rutas Integrales de Atención", "El Sistema de Habilitación de IPS"],
+      "tema": "Talento humano",
+      "explicacion": "La Resolución 1444 de 2025 adopta la política de talento humano en salud para el período 2025-2035, buscando mejorar la disponibilidad, distribución, formación y condiciones laborales del personal de salud en Colombia.",
+      "leyReferencia": "resolucion1444"
+    },
+    {
+      "id": 2,
+      "texto": "¿Qué deben realizar los auxiliares de enfermería para mantener su certificación vigente según la Resolución 1444?",
+      "respuestaCorrecta": "Cursos de actualización cada 3 años",
+      "distractores": ["Un examen cada año", "Una evaluación práctica cada mes", "No es necesario actualizarse"],
+      "tema": "Formación continua",
+      "explicacion": "Artículo 15 de la Resolución 1444. Los auxiliares de enfermería deben realizar cursos de actualización cada 3 años para mantener su certificación vigente. Los temas obligatorios incluyen: administración segura de medicamentos, prevención de infecciones, manejo de eventos adversos, bioseguridad y cuidado humanizado.",
+      "leyReferencia": "resolucion1444"
+    },
+    {
+      "id": 3,
+      "texto": "¿Qué competencias debe demostrar el personal de enfermería según la Resolución 1444?",
+      "respuestaCorrecta": "Administración segura de medicamentos, procedimientos básicos, comunicación efectiva y trabajo en equipo",
+      "distractores": ["Solo administración de medicamentos", "Solo comunicación con pacientes", "Solo trabajo en equipo"],
+      "tema": "Competencias",
+      "explicacion": "Artículo 18 de la Resolución 1444. Las competencias incluyen: capacidad para administrar medicamentos de forma segura, habilidad para realizar procedimientos básicos (toma de signos vitales, curaciones, colocación de sondas), comunicación efectiva con pacientes y familiares, trabajo en equipo, registro adecuado en la historia clínica, y manejo de emergencias básicas.",
+      "leyReferencia": "resolucion1444"
+    },
+    {
+      "id": 4,
+      "texto": "¿Qué deben garantizar las instituciones al personal de enfermería según la Resolución 1444?",
+      "respuestaCorrecta": "Jornadas laborales adecuadas, descansos, elementos de protección y prevención del desgaste profesional",
+      "distractores": ["Jornadas sin descanso", "Salarios por debajo del mínimo", "Sin elementos de protección"],
+      "tema": "Condiciones laborales",
+      "explicacion": "Artículo 22 de la Resolución 1444. Las instituciones deben garantizar: jornadas laborales que no excedan los límites legales, descansos adecuados entre turnos, acceso a elementos de protección personal suficientes, programas de prevención del desgaste profesional, y protocolos para manejo de la violencia laboral.",
+      "leyReferencia": "resolucion1444"
+    },
+    {
+      "id": 5,
+      "texto": "¿Qué deben implementar las IPS para el personal de enfermería según la Resolución 1444?",
+      "respuestaCorrecta": "Programas de bienestar laboral con pausas activas y apoyo psicológico",
+      "distractores": ["No es necesario implementar nada", "Solo pausas activas", "Solo apoyo psicológico"],
+      "tema": "Bienestar laboral",
+      "explicacion": "Artículo 28 de la Resolución 1444. Las IPS deben implementar programas de bienestar laboral que incluyan: pausas activas durante la jornada, acceso a servicios de salud mental y apoyo psicológico, horarios flexibles cuando sea posible, reconocimiento al desempeño destacado, y actividades de integración.",
+      "leyReferencia": "resolucion1444"
+    },
+    {
+      "id": 6,
+      "texto": "¿Cada cuánto tiempo deben re-certificarse los auxiliares de enfermería según la Resolución 1444?",
+      "respuestaCorrecta": "Cada 5 años",
+      "distractores": ["Cada año", "Cada 2 años", "Cada 10 años"],
+      "tema": "Re-certificación",
+      "explicacion": "Artículo 31 de la Resolución 1444. Los auxiliares de enfermería deben re-certificarse cada 5 años. Los requisitos son: haber completado al menos 120 horas de formación continua en los últimos 5 años, aprobar una evaluación de competencias (teórica y práctica), y no tener sanciones disciplinarias vigentes.",
+      "leyReferencia": "resolucion1444"
+    }
+  ]
+}

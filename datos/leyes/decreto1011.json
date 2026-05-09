@@ -1,0 +1,52 @@
+{
+  "id": "decreto1011",
+  "nombre": "Decreto 1011 de 2006",
+  "totalArticulos": 8,
+  "relevantesEnfermeria": 8,
+  "tituloCompleto": "Por el cual se establece el Sistema Obligatorio de Garantía de Calidad de la Atención de Salud del Sistema General de Seguridad Social en Salud",
+  "fecha": "3 de abril de 2006",
+  "estado": "Vigente (con modificaciones)",
+  "resumen": "El Decreto 1011 de 2006 creó el Sistema Obligatorio de Garantía de Calidad (SOGC) para mejorar la calidad de los servicios de salud en Colombia. Define mecanismos como la habilitación, acreditación, auditoría y medición de indicadores. Para enfermería, establece estándares de calidad en el cuidado, la obligación de reportar eventos adversos y la participación activa en los comités de seguridad del paciente.",
+  "articulos": [
+    {
+      "numero": "Artículo 5",
+      "descripcion": "Estándares de calidad en la atención de enfermería",
+      "texto": "Los estándares de calidad son las normas mínimas que deben cumplir las IPS para garantizar una atención segura y de calidad. En enfermería, los estándares incluyen: registro claro y completo de las actividades de cuidado, aplicación de protocolos para la administración segura de medicamentos, prevención de caídas, prevención de úlceras por presión, y comunicación efectiva con el paciente y su familia."
+    },
+    {
+      "numero": "Artículo 8",
+      "descripcion": "Registro de eventos adversos",
+      "texto": "Los eventos adversos son incidentes no deseados que ocurren durante la atención y que pueden causar daño al paciente. El personal de enfermería está obligado a reportar cualquier evento adverso que presencie o identifique, como errores de medicación, caídas, úlceras por presión, infecciones asociadas a la atención, o cualquier otro incidente que comprometa la seguridad del paciente."
+    },
+    {
+      "numero": "Artículo 10",
+      "descripcion": "Auditoría de calidad en servicios de enfermería",
+      "texto": "La auditoría de calidad es el proceso de revisión sistemática de los procesos asistenciales para identificar áreas de mejora. El personal de enfermería debe participar activamente en las auditorías internas, proporcionar información veraz sobre los cuidados realizados, y colaborar en la implementación de los planes de mejora. No debe ocultar información por temor a sanciones, ya que el objetivo es mejorar la calidad."
+    },
+    {
+      "numero": "Artículo 15",
+      "descripcion": "Implementación de guías de atención en enfermería",
+      "texto": "Las guías de atención son documentos técnicos que orientan la práctica clínica basada en evidencia. El personal de enfermería debe conocer y aplicar las guías relacionadas con su práctica: manejo de heridas, administración de medicamentos, prevención de infecciones, cuidado del paciente crítico, y manejo del dolor. La aplicación de guías reduce la variabilidad y mejora los resultados."
+    },
+    {
+      "numero": "Artículo 19",
+      "descripcion": "Reporte de errores de medicación",
+      "texto": "Los errores de medicación son eventos adversos prevenibles que ocurren en cualquier fase del proceso de medicación (prescripción, dispensación, preparación, administración). El personal de enfermería debe reportar inmediatamente cualquier error de medicación, aunque el paciente no haya sufrido daño aparente. El reporte permite identificar fallas en el sistema y prevenir futuros errores. No reportar es una falta grave."
+    },
+    {
+      "numero": "Artículo 22",
+      "descripcion": "Seguimiento a acciones correctivas en enfermería",
+      "texto": "Cuando se identifica un evento adverso o una no conformidad, se deben implementar acciones correctivas para evitar que vuelva a ocurrir. El personal de enfermería debe participar en el análisis de causas, proponer soluciones, implementar las acciones correctivas asignadas y hacer seguimiento a su cumplimiento. La mejora continua es responsabilidad de todo el equipo de salud."
+    },
+    {
+      "numero": "Artículo 25",
+      "descripcion": "Participación en comités de seguridad del paciente",
+      "texto": "Los comités de seguridad del paciente son espacios donde se analizan los eventos adversos y se proponen mejoras. El personal de enfermería debe ser parte activa de estos comités, presentar sus observaciones, analizar incidentes, proponer acciones correctivas y hacer seguimiento a los planes de mejora. La voz del personal asistencial es fundamental para identificar riesgos."
+    },
+    {
+      "numero": "Artículo 30",
+      "descripcion": "Cultura de seguridad en salud",
+      "texto": "La cultura de seguridad es el conjunto de valores, actitudes y comportamientos que priorizan la seguridad del paciente sobre otros objetivos. El personal de enfermería debe fomentar una cultura de seguridad: reportar sin temor a sanciones, participar en análisis de eventos, proponer mejoras, y aprender de los errores en lugar de ocultarlos. La confianza y la comunicación abierta son esenciales."
+    }
+  ]
+}
