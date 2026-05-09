@@ -13,28 +13,33 @@ export function setMensajeBienvenida(msg) {
     mensajeBienvenida = msg;
 }
 
-// Detectar preguntas ambiguas
-function esAmbigua(pregunta) {
-    const palabrasAmbiguas = ['esto', 'esta', 'este', 'esa', 'ese', 'eso', 'allí', 'ahí', 'allá'];
-    const texto = pregunta.toLowerCase();
-    
-    // Palabras que indican que NO es ambigua (pregunta válida)
-    const palabrasClave = ['qué', 'cómo', 'cuándo', 'dónde', 'por qué', 'para qué', 'cuál', 'cuantos'];
-    
-    // Si tiene palabras clave, no es ambigua
-    for (const clave of palabrasClave) {
-        if (texto.includes(clave)) {
-            return false;
-        }
-    }
-    
-    // Verificar palabras ambiguas
-    for (const ambigua of palabrasAmbiguas) {
-        if (texto.includes(ambigua)) {
+// Normalizar texto (minúsculas, sin acentos, sin puntuación)
+function normalizarTexto(texto) {
+    return texto.toLowerCase()
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        .replace(/[¿?¡!.,;:()]/g, '')
+        .trim();
+}
+
+function esSaludo(texto) {
+    const textoNorm = normalizarTexto(texto);
+    const saludos = ['hola', 'buenas', 'saludos', 'buenos dias', 'buenas tardes', 'buenas noches', 'que tal', 'como estas', 'como va', 'como has estado', 'como te va', 'hey', 'heyy', 'ey', 'oye', 'epa', 'quiubo', 'que hubo', 'que mas', 'parcero', 'parce', 'amigo', 'jefe', 'don', 'hello', 'hi'];
+    for (const saludo of saludos) {
+        if (textoNorm.includes(saludo)) {
             return true;
         }
     }
-    
+    return false;
+}
+
+function esAyuda(texto) {
+    const textoNorm = normalizarTexto(texto);
+    const ayudas = ['ayuda', 'help', 'menu'];
+    for (const ayuda of ayudas) {
+        if (textoNorm === ayuda) {
+            return true;
+        }
+    }
     return false;
 }
 
@@ -66,27 +71,21 @@ export function buscarRespuesta(pregunta) {
     if (respuestaNumerica) return respuestaNumerica;
     
     // ========================================
-    // 3. PREGUNTAS MUY CORTAS (saludos, ayuda)
+    // 3. SALUDOS
     // ========================================
-    const textoLower = texto.toLowerCase();
-    
-    if (textoLower === 'ayuda' || textoLower === 'help' || textoLower === 'menu') {
-        return "📌 Puedo ayudarte con:\n\n1️⃣ ESTUDIO SIMO - Información de la herramienta\n2️⃣ Modo Estudio - Aprender sin presión\n3️⃣ Modo Simulacro - Entrenar velocidad\n4️⃣ Glosario - Buscar términos\n5️⃣ Normas del sector salud - Leyes y artículos\n6️⃣ Resultados y puntajes\n\nEscribe el número o hazme una pregunta específica.";
-    }
-    
-    if (textoLower === 'hola' || textoLower === 'buenas' || textoLower === 'saludos') {
-        return mensajeBienvenida;
+    if (esSaludo(texto)) {
+        return "👋 ¡Hola! ¿En qué puedo ayudarte hoy? Puedes preguntarme sobre los modos de estudio, la convocatoria, el glosario, o cualquier duda sobre ESTUDIO SIMO.";
     }
     
     // ========================================
-    // 3.5 DETECTAR AMBIGÜEDAD (antes de TF-IDF)
+    // 4. AYUDA
     // ========================================
-    if (esAmbigua(texto)) {
-        return "¿Puedes ser más específico? No sé a qué te refieres con 'esto' o 'eso'. ¿Hablas de ESTUDIO SIMO, las preguntas, los resultados, las normas?";
+    if (esAyuda(texto)) {
+        return "📌 Puedo ayudarte con:\n\n1️⃣ Modo Estudio - Aprender sin presión\n2️⃣ Modo Simulacro - Entrenar velocidad\n3️⃣ Glosario - Buscar términos\n4️⃣ Normas del sector salud - Leyes y artículos\n5️⃣ Resultados y puntajes\n\nEscribe el número o hazme una pregunta específica.";
     }
     
     // ========================================
-    // 4. BUSCAR CON TF-IDF
+    // 5. TF-IDF (entiende por contexto)
     // ========================================
     const respuesta = buscarRespuestaTFIDF(texto);
     
@@ -95,7 +94,7 @@ export function buscarRespuesta(pregunta) {
     }
     
     // ========================================
-    // 5. NO SE ENCONTRÓ RESPUESTA
+    // 6. NO SE ENCONTRÓ RESPUESTA
     // ========================================
-    return "No encontré una respuesta exacta. Puedes consultar las instrucciones (📖) o escribir 'ayuda' para ver el menú de opciones. ¿Cómo puedo ayudarte mejor?";
+    return "No estoy seguro de haber entendido tu pregunta. Puedes escribir 'ayuda' para ver el menú de opciones o ser más específico. ¿Qué necesitas saber sobre ESTUDIO SIMO?";
 }

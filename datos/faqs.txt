@@ -91,9 +91,6 @@ El Modo Simulacro simula las condiciones reales del examen SIMO. Tiene 5 minutos
 ¿Cómo funcionan los selectores de competencia en la pestaña Preguntas?
 Primero debes seleccionar el tipo de competencia (funcionales, básicas o comportamentales). Al seleccionar, aparece un segundo selector con las subcategorías específicas. Solo cuando eliges una subcategoría se habilita el botón COMENZAR EXAMEN.
 
-¿Cómo se calcula el puntaje SIMO?
-El puntaje se calcula como: (Aciertos al primer intento ÷ Total de preguntas) × 100. El corte de aprobación es 70/100. Solo el primer intento cuenta como acierto en ambos modos.
-
 ¿Qué significan los iconos en los resultados del Modo Estudio?
 ✅ Acertó al primer intento, ⚠️ Acertó después de varios intentos (aprendizaje), 🔴 Probó todas las opciones (requiere repaso), ⏰ Tiempo agotado, ❌ Incorrecta.
 
@@ -219,5 +216,47 @@ Debes participar en los concursos de méritos de la CNSC a través de SIMO. Los 
 
 ¿No entiendo una palabra, qué debo hacer?
 Puedes usar el **Glosario** de la aplicación. Ve a la pestaña Glosario, escribe la palabra que no entiendes (mínimo 3 letras) y presiona Enter. También puedes filtrar por categoría o letra inicial para encontrar términos similares.
+
+¿Se me acabó el tiempo, qué pasa?
+Si el tiempo del simulacro se acaba, las preguntas que no hayas respondido se marcan como incorrectas. El examen termina automáticamente y se muestra el resumen con los resultados. No puedes seguir respondiendo después de que el tiempo se agote.
+
+¿Cómo sé si voy bien o mal mientras hago el examen?
+En el Modo Simulacro, puedes guiarte por la barra de tiempo (verde = bien, amarillo = regular, rojo = crítico). En el Modo Estudio, no hay límite de tiempo pero recibes feedback inmediato al responder. En ambos modos, solo sabes el resultado final al terminar.
+
+¿Puedo cambiar mi respuesta después de seleccionarla?
+Depende del modo. En Modo Estudio, puedes cambiar tu respuesta ANTES de hacer clic en VERIFICAR. Una vez verificas, queda guardada. En Modo Simulacro, puedes cambiar tu respuesta ANTES de hacer clic en SIGUIENTE. Una vez avanzaste, no puedes volver atrás.
+
+¿Qué significan los cuadritos verdes y rojos en los resultados?
+En Modo Estudio: ✅ verde = acertaste al primer intento, ⚠️ amarillo = acertaste después de varios intentos, 🔴 rojo = fallaste todas las opciones. En Modo Simulacro: fondo verde = correcta, fondo rojo = incorrecta o tiempo agotado.
+
+¿Para qué sirve la flechita que aparece abajo a la derecha?
+Es el botón flotante SUBIR. Cuando haces scroll hacia abajo, las pestañas se ocultan y aparece esa flecha. Al hacer clic, subes al inicio de la página y las pestañas vuelven a mostrarse.
+
+¿Cómo hago el examen en ESTUDIO SIMO?
+Para hacer el examen, ve a la pestaña **Preguntas**. Selecciona el modo (Estudio o Simulacro), elige una competencia y subcategoría, y haz clic en COMENZAR EXAMEN. Aparecerán 5 preguntas con opciones de respuesta.
+
+¿Qué pasa si me equivoco al responder?
+Depende del modo. En Modo Estudio, puedes intentar hasta 4 veces y recibes feedback inmediato. En Modo Simulacro, no hay feedback durante el examen y no puedes cambiar la respuesta después de avanzar. Al final verás cuáles fallaste.
+
+¿Esta herramienta es gratuita?
+Sí, ESTUDIO SIMO es completamente gratuito. El concurso SIMO de la CNSC sí cobra un PIN de inscripción (aproximadamente $43.350 para nivel técnico/asistencial).
+
+¿Dónde veo mis resultados al terminar el examen?
+Al finalizar el examen, se muestra automáticamente una tabla de resultados con tu puntaje SIMO, aciertos, tiempos y un resumen de cada pregunta. También puedes exportar los resultados a PDF en Modo Simulacro.
+
+¿Para qué me sirve esta herramienta?
+Te sirve para prepararte para el concurso de méritos ESE 2 de la CNSC. Puedes informarte sobre la convocatoria, practicar con preguntas tipo examen en Modo Estudio o Simulacro, y consultar términos en el Glosario.
+
+¿Cómo me inscribo en SIMO paso a paso?
+Los pasos para inscribirte en SIMO son: 1) Registro y creación de perfil en SIMO, cargando información personal, experiencia y formación. 2) Búsqueda e inscripción a vacantes por número de OPEC o palabras clave. 3) Pago de derechos de participación (PIN). 4) Formalización de la aspiración verificando que toda la información sea correcta.
+
+¿Cómo se calcula el puntaje en ESTUDIO SIMO?
+El puntaje en ESTUDIO SIMO se calcula como: (Aciertos al primer intento ÷ Total de preguntas) × 100. El corte de aprobación es 70/100. Solo el primer intento cuenta como acierto. Así simulas el puntaje real del concurso SIMO de la CNSC.
+
+¿Cómo se calcula el puntaje en el concurso SIMO de la CNSC?
+En el concurso real de la CNSC, el puntaje se calcula con la misma fórmula: (Aciertos al primer intento ÷ Total de preguntas) × 100. El corte de aprobación es 70/100. Solo el primer intento cuenta. La diferencia es que el examen real tiene 100 preguntas, no 5 como el simulacro.
+
+¿Qué es el concurso SIMO de la CNSC?
+El concurso SIMO de la CNSC (Comisión Nacional del Servicio Civil) es el proceso de selección mediante el cual los ciudadanos pueden acceder a empleos públicos de carrera administrativa en entidades del Estado colombiano. Evalúa las competencias de los aspirantes a través de pruebas escritas de razonamiento lógico, matemático, comprensión lectora, ética profesional, trabajo en equipo y orientación al servicio. Para enfermería, el concurso ESE 2 convoca 2.477 vacantes en 72 ESE del país.
 
 fraseExperto: 💡 Modo Estudio: Aprendes el contenido sin presión, con feedback inmediato. Modo Simulacro: Entrenas tu velocidad, resistencia y conocimiento con tiempo límite y puntaje real. Usa ambos para estar completamente preparado para el concurso SIMO.
