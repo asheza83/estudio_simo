@@ -4,178 +4,178 @@
 Es una herramienta gratuita de preparación para auxiliares de enfermería que buscan ingresar al Hospital Mental de Risaralda (HOMERIS) mediante el concurso de méritos ESE 2 de la CNSC. Solo necesitas un navegador web (Chrome, Edge, Safari, Firefox) y conexión a internet. Funciona en computadores, tabletas y celulares.
 
 ¿Cuál es la URL de ESTUDIO SIMO?
-https://estudio-simo.netlify.app/
+https://estudio-simo.netlify.app/?
 
 ¿Cuál es la importancia de SIMO para los ciudadanos?
-SIMO garantiza transparencia y equidad en el acceso a empleos públicos, asegurando que los aspirantes sean evaluados por méritos y cumplan con los requisitos específicos de cada vacante. Además, centraliza la información de todas las convocatorias vigentes, facilitando la participación de los ciudadanos en la carrera administrativa del Estado.
+SIMO garantiza transparencia y equidad en el acceso a empleos públicos, asegurando que los aspirantes sean evaluados por méritos y cumplan con los requisitos específicos de cada vacante. Además, centraliza la información de todas las convocatorias vigentes, facilitando la participación de los ciudadanos en la carrera administrativa del Estado.?
 
 ¿Qué es la CNSC?
-La Comisión Nacional del Servicio Civil (CNSC) es un órgano autónomo e independiente del más alto nivel en la estructura del Estado colombiano. Cuenta con personería jurídica, autonomía administrativa, patrimonial y técnica. No hace parte de ninguna de las ramas del poder público (ejecutiva, legislativa o judicial).
+La Comisión Nacional del Servicio Civil (CNSC) es un órgano autónomo e independiente del más alto nivel en la estructura del Estado colombiano. Cuenta con personería jurídica, autonomía administrativa, patrimonial y técnica. No hace parte de ninguna de las ramas del poder público (ejecutiva, legislativa o judicial).?
 
 ¿Cuál es la base constitucional de la CNSC?
-La CNSC fue creada con base en el artículo 130 de la Constitución Política de Colombia. Dicho artículo establece que habrá una comisión nacional a cargo de la administración y vigilancia de las carreras de los servidores públicos, con excepción de aquellas que tengan carácter especial. La CNSC es la máxima autoridad en materia de ingreso por mérito al servicio público estatal.
+La CNSC fue creada con base en el artículo 130 de la Constitución Política de Colombia. Dicho artículo establece que habrá una comisión nacional a cargo de la administración y vigilancia de las carreras de los servidores públicos, con excepción de aquellas que tengan carácter especial. La CNSC es la máxima autoridad en materia de ingreso por mérito al servicio público estatal.?
 
 ¿Cuál es la misión institucional de la CNSC?
-La misión de la CNSC se orienta a tres grandes objetivos: posicionar el mérito y la igualdad en el ingreso y desarrollo del empleo público; velar por la correcta aplicación de los instrumentos normativos y técnicos; y generar información oportuna y actualizada para una gestión eficiente del sistema de carrera administrativa.
+La misión de la CNSC se orienta a tres grandes objetivos: posicionar el mérito y la igualdad en el ingreso y desarrollo del empleo público; velar por la correcta aplicación de los instrumentos normativos y técnicos; y generar información oportuna y actualizada para una gestión eficiente del sistema de carrera administrativa.?
 
 ¿En cuántas entidades realiza concursos la CNSC?
-La CNSC adelanta procesos de selección para proveer empleos públicos en más de 5.000 entidades de todo el país, incluyendo ministerios, gobernaciones, alcaldías, hospitales públicos y universidades estatales.
+La CNSC adelanta procesos de selección para proveer empleos públicos en más de 5.000 entidades de todo el país, incluyendo ministerios, gobernaciones, alcaldías, hospitales públicos y universidades estatales.?
 
 ¿Qué es SIMO?
-SIMO (Sistema de Apoyo para la Igualdad, el Mérito y la Oportunidad) es el aplicativo oficial de la CNSC donde los ciudadanos pueden buscar empleos de las entidades públicas, cargar documentos de estudio y experiencia, y participar en concursos para acceder o ascender en empleos de carrera en el Estado colombiano.
+SIMO (Sistema de Apoyo para la Igualdad, el Mérito y la Oportunidad) es el aplicativo oficial de la CNSC donde los ciudadanos pueden buscar empleos de las entidades públicas, cargar documentos de estudio y experiencia, y participar en concursos para acceder o ascender en empleos de carrera en el Estado colombiano.?
 
 ¿Cuál es el propósito de SIMO?
-Con SIMO, todas las personas tienen la misma oportunidad de conseguir un trabajo en las entidades del gobierno. El sistema centraliza toda la información relacionada con los concursos de méritos del Estado, evitando que los aspirantes tengan que presentar la misma documentación múltiples veces para diferentes convocatorias.
+Con SIMO, todas las personas tienen la misma oportunidad de conseguir un trabajo en las entidades del gobierno. El sistema centraliza toda la información relacionada con los concursos de méritos del Estado, evitando que los aspirantes tengan que presentar la misma documentación múltiples veces para diferentes convocatorias.?
 
 ¿Cuál es la principal ventaja de cargar documentos una sola vez en SIMO?
-Una de las principales ventajas de SIMO es que el cargue de documentos es más fácil para los aspirantes. Si bien cada convocatoria se realiza de manera independiente para la verificación del cumplimiento de requisitos mínimos, con SIMO los aspirantes tienen la posibilidad de cargar en una única oportunidad los documentos requeridos para aspirar a empleos públicos de las diferentes convocatorias en las que participen.
+Una de las principales ventajas de SIMO es que el cargue de documentos es más fácil para los aspirantes. Si bien cada convocatoria se realiza de manera independiente para la verificación del cumplimiento de requisitos mínimos, con SIMO los aspirantes tienen la posibilidad de cargar en una única oportunidad los documentos requeridos para aspirar a empleos públicos de las diferentes convocatorias en las que participen.?
 
 ¿Desde cuándo existe SIMO?
-Desde el 1 de marzo de 2016, la CNSC puso a disposición de la ciudadanía este sistema. SIMO se convirtió en el sistema de información centralizada de la gestión de los concursos abiertos de méritos, haciendo más fácil y rápida la secuencia de etapas propias de las convocatorias a empleos públicos en Colombia.
+Desde el 1 de marzo de 2016, la CNSC puso a disposición de la ciudadanía este sistema. SIMO se convirtió en el sistema de información centralizada de la gestión de los concursos abiertos de méritos, haciendo más fácil y rápida la secuencia de etapas propias de las convocatorias a empleos públicos en Colombia.?
 
 ¿Qué es SIMO 4.0 y qué mejoras trajo?
 En 2021, la CNSC implementó SIMO 4.0, una mejora significativa en la plataforma. Luego de recoger experiencias de las entidades, realizar grupos focales y escuchar las opiniones de los ciudadanos, la CNSC identificó la necesidad de aplicar tecnologías emergentes e inteligencia artificial en las etapas de planificación y ejecución de los procesos de selección.
 
 ¿Cómo funciona el registro de OPEC 24/7 en SIMO 4.0?
-Con SIMO 4.0 se mejoró la fase de cargue de la Oferta Pública de Empleo de Carrera (OPEC). Esta mejora permite que las entidades puedan registrar las vacancias definitivas de forma más eficiente. El módulo está habilitado 24 horas al día, lo que reduce notablemente el margen de error y, en consecuencia, las reclamaciones por parte de los ciudadanos.
+Con SIMO 4.0 se mejoró la fase de cargue de la Oferta Pública de Empleo de Carrera (OPEC). Esta mejora permite que las entidades puedan registrar las vacancias definitivas de forma más eficiente. El módulo está habilitado 24 horas al día, lo que reduce notablemente el margen de error y, en consecuencia, las reclamaciones por parte de los ciudadanos.?
 
 ¿Cuáles son los pasos para inscribirse en SIMO?
-Los pasos son: 1) Registro y creación de perfil en SIMO, cargando información personal, experiencia y formación en una única oportunidad. 2) Búsqueda e inscripción a vacantes por número de OPEC, proceso de selección, rango salarial o departamento. 3) Pago de derechos de participación (PIN). 4) Formalización de la aspiración verificando que toda la información sea correcta.
+Los pasos son: 1) Registro y creación de perfil en SIMO, cargando información personal, experiencia y formación en una única oportunidad. 2) Búsqueda e inscripción a vacantes por número de OPEC, proceso de selección, rango salarial o departamento. 3) Pago de derechos de participación (PIN). 4) Formalización de la aspiración verificando que toda la información sea correcta.?
 
 ¿Cuándo son las inscripciones de la convocatoria ESE 2?
-Las inscripciones son en el segundo semestre de 2026, aproximadamente entre julio y agosto.
+Las inscripciones son en el segundo semestre de 2026, aproximadamente entre julio y agosto.?
 
 ¿Cuántas vacantes tiene la convocatoria ESE 2?
-La convocatoria ESE 2 tiene 2.477 vacantes en 72 ESE del país. Modalidades: ascenso general (184), ascenso discapacidad (3), abierto general (2.293), abierto discapacidad (194).
+La convocatoria ESE 2 tiene 2.477 vacantes en 72 ESE del país. Modalidades: ascenso general (184), ascenso discapacidad (3), abierto general (2.293), abierto discapacidad (194).?
 
 ¿Cuáles son las etapas del concurso SIMO?
-Las etapas son: 1) Divulgación de vacantes (publicación de OPEC y requisitos). 2) Inscripciones. 3) Verificación de requisitos mínimos. 4) Aplicación de pruebas (competencias básicas, funcionales y comportamentales). 5) Listado de elegibles (en estricto orden de mérito). 6) Período de prueba de seis meses.
+Las etapas son: 1) Divulgación de vacantes (publicación de OPEC y requisitos). 2) Inscripciones. 3) Verificación de requisitos mínimos. 4) Aplicación de pruebas (competencias básicas, funcionales y comportamentales). 5) Listado de elegibles (en estricto orden de mérito). 6) Período de prueba de seis meses.?
 
 ¿Cuánto cuesta inscribirse en SIMO?
-El valor del PIN para nivel técnico/asistencial es aproximadamente $43.350; para niveles profesionales es aproximadamente $65.000 (valores referenciales 2024).
+El valor del PIN para nivel técnico/asistencial es aproximadamente $43.350; para niveles profesionales es aproximadamente $65.000 (valores referenciales 2024).?
 
 ¿Con cuánta antelación se publican los resultados de las pruebas?
 En cumplimiento de la Sentencia T-180 de la Corte Constitucional, la CNSC debe informar a los aspirantes, con antelación no inferior a cinco días hábiles, la fecha en que serán publicados los resultados de las pruebas aplicadas en el concurso de méritos.
 
 ¿Cuál es el plazo para reclamar resultados?
-El plazo para realizar reclamaciones sobre los resultados es de cinco días hábiles, contados a partir del día siguiente a la publicación de los resultados. El aspirante solo puede acceder personalmente a su propia prueba.
+El plazo para realizar reclamaciones sobre los resultados es de cinco días hábiles, contados a partir del día siguiente a la publicación de los resultados. El aspirante solo puede acceder personalmente a su propia prueba.?
 
 ¿Cómo busco convocatorias de enfermería en SIMO?
-Utiliza los filtros de búsqueda de SIMO. Puedes buscar por proceso de selección, por rango salarial, por departamento, o utilizando palabras clave como "enfermería", "salud", "enfermero", "hospital", "ESE" o "clínica pública".
+Utiliza los filtros de búsqueda de SIMO. Puedes buscar por proceso de selección, por rango salarial, por departamento, o utilizando palabras clave como "enfermería", "salud", "enfermero", "hospital", "ESE" o "clínica pública".?
 
 ¿Cuáles son los requisitos típicos para enfermería en las convocatorias?
-Los requisitos típicos incluyen: título profesional en enfermería, tarjeta profesional vigente, cursos o certificaciones adicionales (ej. cuidado crítico, urgencias, salud ocupacional), y experiencia laboral comprobada en instituciones de salud.
+Los requisitos típicos incluyen: título profesional en enfermería, tarjeta profesional vigente, cursos o certificaciones adicionales (ej. cuidado crítico, urgencias, salud ocupacional), y experiencia laboral comprobada en instituciones de salud.?
 
 ¿Cuáles son las reglas del concurso para enfermería?
-Los concursos de méritos para proveer cargos de enfermería se rigen bajo las mismas reglas generales de la CNSC: inscripción en SIMO, verificación documental, aplicación de pruebas escritas (competencias básicas, funcionales y comportamentales), publicación de listas de elegibles y período de prueba de seis meses.
+Los concursos de méritos para proveer cargos de enfermería se rigen bajo las mismas reglas generales de la CNSC: inscripción en SIMO, verificación documental, aplicación de pruebas escritas (competencias básicas, funcionales y comportamentales), publicación de listas de elegibles y período de prueba de seis meses.?
 
 ¿Cuál es la diferencia entre SIMO y el Sistema Maestro?
-SIMO es de la CNSC para concursos de carrera administrativa y requiere pago de PIN. El Sistema Maestro es del Ministerio de Educación para docentes y es gratuito. SIMO genera derechos de carrera; el Sistema Maestro no. Los concursos SIMO duran entre 1 y 2 años; el Sistema Maestro puede tardar solo días.
+SIMO es de la CNSC para concursos de carrera administrativa y requiere pago de PIN. El Sistema Maestro es del Ministerio de Educación para docentes y es gratuito. SIMO genera derechos de carrera; el Sistema Maestro no. Los concursos SIMO duran entre 1 y 2 años; el Sistema Maestro puede tardar solo días.?
 
 ¿Cuáles son las 6 competencias que evalúa SIMO para auxiliares de enfermería?
-Las 6 competencias son: 🧠 Razonamiento lógico, 🔢 Razonamiento matemático, 📖 Comprensión lectora, ⚖️ Ética profesional, 🤝 Trabajo en equipo, 🎯 Orientación al servicio.
+Las 6 competencias son: 🧠 Razonamiento lógico, 🔢 Razonamiento matemático, 📖 Comprensión lectora, ⚖️ Ética profesional, 🤝 Trabajo en equipo, 🎯 Orientación al servicio.?
 
 ¿Qué es el período de prueba en el concurso?
-El período de prueba es de seis meses después del nombramiento. Durante este tiempo, la entidad evalúa tu desempeño real en el puesto. Solo después de superarlo, eres considerado empleado de carrera con todos los derechos de estabilidad.
+El período de prueba es de seis meses después del nombramiento. Durante este tiempo, la entidad evalúa tu desempeño real en el puesto. Solo después de superarlo, eres considerado empleado de carrera con todos los derechos de estabilidad.?
 
 ¿Qué es una OPEC?
-OPEC (Oferta Pública de Empleo de Carrera) es la vacante publicada en SIMO para concursos de méritos. Representa un empleo público disponible en una entidad del Estado.
+OPEC (Oferta Pública de Empleo de Carrera) es la vacante publicada en SIMO para concursos de méritos. Representa un empleo público disponible en una entidad del Estado.?
 
 ¿Qué recomendaciones hay para estar al día con convocatorias de enfermería?
-Revisa periódicamente la página de la CNSC y el portal SIMO, suscríbete a los canales de notificación oficiales (correo electrónico y alertas), y consulta directamente con las entidades territoriales de salud (secretarías de salud departamentales y municipales).
+Revisa periódicamente la página de la CNSC y el portal SIMO, suscríbete a los canales de notificación oficiales (correo electrónico y alertas), y consulta directamente con las entidades territoriales de salud (secretarías de salud departamentales y municipales).?
 
 ¿Qué es el Modo Estudio?
-El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta.
+El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta.?
 
 ¿Qué es el Modo Simulacro?
-El Modo Simulacro simula las condiciones reales del examen SIMO. Tiene 5 minutos para 5 preguntas, temporizador global, sin feedback durante el examen, y al final obtienes un puntaje SIMO sobre 100.
+El Modo Simulacro simula las condiciones reales del examen SIMO. Tiene 5 minutos para 5 preguntas, temporizador global, sin feedback durante el examen, y al final obtienes un puntaje SIMO sobre 100.?
 
 ¿Cómo funcionan los selectores de competencia en la pestaña Preguntas?
-Primero debes seleccionar el tipo de competencia (funcionales, básicas o comportamentales). Al seleccionar, aparece un segundo selector con las subcategorías específicas. Solo cuando eliges una subcategoría se habilita el botón COMENZAR EXAMEN.
+Primero debes seleccionar el tipo de competencia (funcionales, básicas o comportamentales). Al seleccionar, aparece un segundo selector con las subcategorías específicas. Solo cuando eliges una subcategoría se habilita el botón COMENZAR EXAMEN.?
 
 ¿Qué significan los iconos en los resultados del Modo Estudio?
 ✅ Acertó al primer intento, ⚠️ Acertó después de varios intentos (aprendizaje), 🔴 Probó todas las opciones (requiere repaso), ⏰ Tiempo agotado, ❌ Incorrecta.
 
 ¿Qué significan los colores en la barra de tiempo del simulacro?
-Verde: tiempo suficiente (>50%). Amarillo: tiempo moderado (20-50%). Rojo: tiempo crítico (<20%). Los últimos 5 segundos parpadean en rojo.
+Verde: tiempo suficiente (>50%). Amarillo: tiempo moderado (20-50%). Rojo: tiempo crítico (<20%). Los últimos 5 segundos parpadean en rojo.?
 
 ¿Qué contiene la tabla final de resultados del examen?
-Muestra: una breve descripción, el recuadro RESULTADO SIMO (porcentaje, aciertos, corte de aprobación, APROBÓ/REPROBÓ, modo utilizado, explicación del cálculo), y un resumen de actividad con cada pregunta (acertadas en verde, erradas en rojo, mostrando número, enunciado, respuesta del usuario y si es incorrecta la respuesta correcta).
+Muestra: una breve descripción, el recuadro RESULTADO SIMO (porcentaje, aciertos, corte de aprobación, APROBÓ/REPROBÓ, modo utilizado, explicación del cálculo), y un resumen de actividad con cada pregunta (acertadas en verde, erradas en rojo, mostrando número, enunciado, respuesta del usuario y si es incorrecta la respuesta correcta).?
 
 ¿Qué botones hay al final del examen?
-Hay dos botones: REPETIR EXAMEN (para hacer el mismo examen nuevamente con preguntas aleatorias) y CAMBIAR DE COMPETENCIA (para volver a la selección de competencias).
+Hay dos botones: REPETIR EXAMEN (para hacer el mismo examen nuevamente con preguntas aleatorias) y CAMBIAR DE COMPETENCIA (para volver a la selección de competencias).?
 
 ¿Qué incluye la pestaña Estudio SIMO?
-Contiene información teórica: convocatoria ESE 2, normas del sector salud (Ley 100, Ley 1438) y casos prácticos, organizados en un selector con 4 opciones: Inicio, Convocatoria, Normas y Casos prácticos.
+Contiene información teórica: convocatoria ESE 2, normas del sector salud (Ley 100, Ley 1438) y casos prácticos, organizados en un selector con 4 opciones: Inicio, Convocatoria, Normas y Casos prácticos.?
 
 ¿Qué contiene la pestaña Inicio de Estudio SIMO?
-Contiene una visión general del proyecto, qué encontrarás allí (convocatoria, normas, casos prácticos) y los tipos de pruebas SIMO (competencias básicas, funcionales y comportamentales).
+Contiene una visión general del proyecto, qué encontrarás allí (convocatoria, normas, casos prácticos) y los tipos de pruebas SIMO (competencias básicas, funcionales y comportamentales).?
 
 ¿Qué contiene la pestaña Convocatoria de Estudio SIMO?
-Información actualizada de la convocatoria ESE 2: fechas, vacantes, requisitos, modalidades (ascenso/abierto) y enlaces útiles para verificar antecedentes en Procuraduría, Policía y Contraloría.
+Información actualizada de la convocatoria ESE 2: fechas, vacantes, requisitos, modalidades (ascenso/abierto) y enlaces útiles para verificar antecedentes en Procuraduría, Policía y Contraloría.?
 
 ¿Cómo funciona el buscador universal de leyes?
-Dentro de la sección 'Normas del sector salud', escribe una palabra (ej: EPS, afiliación, artículo 157) y presiona Enter. El sistema mostrará una tabla con: la cantidad de artículos encontrados, un listado de artículos, e invita a hacer clic en cualquier artículo para ver el contenido completo en una ventana emergente.
+Dentro de la sección 'Normas del sector salud', escribe una palabra (ej: EPS, afiliación, artículo 157) y presiona Enter. El sistema mostrará una tabla con: la cantidad de artículos encontrados, un listado de artículos, e invita a hacer clic en cualquier artículo para ver el contenido completo en una ventana emergente.?
 
 ¿Qué contiene la ventana emergente de un artículo?
-Al hacer clic en un artículo, se abre una ventana emergente con: botón volver, título del artículo (ej: Art. 152: Definición...), y el texto completo del contenido. Si el artículo es muy largo, aparece un botón de subir dentro del popup para volver al inicio del artículo.
+Al hacer clic en un artículo, se abre una ventana emergente con: botón volver, título del artículo (ej: Art. 152: Definición...), y el texto completo del contenido. Si el artículo es muy largo, aparece un botón de subir dentro del popup para volver al inicio del artículo.?
 
 ¿Qué pasa al hacer clic en una ley (Ley 100 o Ley 1438)?
-Se abre una nueva vista con: botón volver a las normas, título de la ley, texto breve de la ley, buscador de artículos específico para esa ley, y una lista de artículos relevantes. Al hacer clic en un artículo, se abre la misma ventana emergente con el contenido completo.
+Se abre una nueva vista con: botón volver a las normas, título de la ley, texto breve de la ley, buscador de artículos específico para esa ley, y una lista de artículos relevantes. Al hacer clic en un artículo, se abre la misma ventana emergente con el contenido completo.?
 
 ¿Cómo funcionan los casos prácticos?
-Los casos prácticos son situaciones reales que podrías enfrentar en HOMERIS. Tienen filtros por competencia (TODAS, Básicas, Funcionales, Comportamentales), paginación de 10 casos por página con botones Anterior y Siguiente, y cada caso tiene una respuesta orientativa que se despliega haciendo clic en 'Ver respuesta orientativa'.
+Los casos prácticos son situaciones reales que podrías enfrentar en HOMERIS. Tienen filtros por competencia (TODAS, Básicas, Funcionales, Comportamentales), paginación de 10 casos por página con botones Anterior y Siguiente, y cada caso tiene una respuesta orientativa que se despliega haciendo clic en 'Ver respuesta orientativa'.?
 
 ¿Qué incluye la pestaña Preguntas?
-El corazón de la herramienta. Aquí evalúas tus conocimientos en las 6 competencias SIMO, con dos modos de estudio (Estudio y Simulacro), selectores anidados por competencia, y resumen final con estadísticas.
+El corazón de la herramienta. Aquí evalúas tus conocimientos en las 6 competencias SIMO, con dos modos de estudio (Estudio y Simulacro), selectores anidados por competencia, y resumen final con estadísticas.?
 
 ¿Qué incluye la pestaña Glosario?
-Base de datos de términos clave para el concurso. Contiene más de 140 términos con buscador, filtros por categoría (siglas, entidades, términos, principios, carrera) y filtros por letra inicial (A-Z), con paginación de 10 términos por página.
+Base de datos de términos clave para el concurso. Contiene más de 140 términos con buscador, filtros por categoría (siglas, entidades, términos, principios, carrera) y filtros por letra inicial (A-Z), con paginación de 10 términos por página.?
 
 ¿Cómo busco en el glosario?
-Ve a la pestaña Glosario. Escribe un término (mínimo 3 letras) en el buscador y presiona Enter. Las coincidencias se resaltarán en amarillo. La página se desplaza automáticamente hacia los resultados. También puedes filtrar por categoría o por letra inicial.
+Ve a la pestaña Glosario. Escribe un término (mínimo 3 letras) en el buscador y presiona Enter. Las coincidencias se resaltarán en amarillo. La página se desplaza automáticamente hacia los resultados. También puedes filtrar por categoría o por letra inicial.?
 
 ¿Puedo combinar filtros de categoría y letra en el glosario?
-Sí. Puedes seleccionar una categoría (Siglas, Entidades, Términos, Principios, Carrera) y luego una letra inicial (A-Z), o viceversa. El sistema mostrará solo los términos que cumplan ambas condiciones.
+Sí. Puedes seleccionar una categoría (Siglas, Entidades, Términos, Principios, Carrera) y luego una letra inicial (A-Z), o viceversa. El sistema mostrará solo los términos que cumplan ambas condiciones.?
 
 ¿Qué pasa si escribo una palabra con menos de 3 letras en el glosario?
-El buscador del glosario requiere mínimo 3 letras para realizar la búsqueda. Si escribes menos de 3 letras, no se activará la búsqueda y deberás seguir escribiendo.
+El buscador del glosario requiere mínimo 3 letras para realizar la búsqueda. Si escribes menos de 3 letras, no se activará la búsqueda y deberás seguir escribiendo.?
 
 ¿Cómo uso el botón de Ajustes?
-El botón de Ajustes está en la parte superior derecha. Se abre una ventana emergente (modal) con: 🌙 Modo oscuro (botón toggle para activar/desactivar, ideal para estudiar de noche), y 🔤 Tamaño de letra con 4 tamaños (pequeña, normal, grande, extra grande) usando botones A- y A+.
+El botón de Ajustes está en la parte superior derecha. Se abre una ventana emergente (modal) con: 🌙 Modo oscuro (botón toggle para activar/desactivar, ideal para estudiar de noche), y 🔤 Tamaño de letra con 4 tamaños (pequeña, normal, grande, extra grande) usando botones A- y A+.?
 
 ¿Qué pasa si cambio de pestaña durante un examen?
-El sistema guarda automáticamente tu progreso (pregunta actual, respuestas seleccionadas, intentos). Al volver a la pestaña Preguntas, aparecerá un modal preguntándote si quieres continuar donde lo dejaste o descartar el examen y empezar uno nuevo.
+El sistema guarda automáticamente tu progreso (pregunta actual, respuestas seleccionadas, intentos). Al volver a la pestaña Preguntas, aparecerá un modal preguntándote si quieres continuar donde lo dejaste o descartar el examen y empezar uno nuevo.?
 
 ¿Qué hace el botón Cancelar examen?
-Dentro de un examen, en la parte superior, hay un botón rojo Cancelar examen. Al hacer clic, se borra todo el progreso del examen actual y vuelves a la pantalla de selección de competencias.
+Dentro de un examen, en la parte superior, hay un botón rojo Cancelar examen. Al hacer clic, se borra todo el progreso del examen actual y vuelves a la pantalla de selección de competencias.?
 
 ¿Qué hace el botón flotante Subir?
-Aparece en la esquina inferior derecha cuando haces scroll hacia abajo. Al hacer clic, sube al inicio de la página y vuelve a mostrar las pestañas si estaban ocultas. También tiene el texto 'Subir' debajo del ícono.
+Aparece en la esquina inferior derecha cuando haces scroll hacia abajo. Al hacer clic, sube al inicio de la página y vuelve a mostrar las pestañas si estaban ocultas. También tiene el texto 'Subir' debajo del ícono.?
 
 ¿Qué pasa con las pestañas al hacer scroll?
-Cuando te desplazas hacia abajo, las pestañas Estudio SIMO, Preguntas y Glosario se ocultan automáticamente para que tengas más espacio. Aparece el botón flotante ↑ Subir. Haz clic en él para subir y recuperarlas.
+Cuando te desplazas hacia abajo, las pestañas Estudio SIMO, Preguntas y Glosario se ocultan automáticamente para que tengas más espacio. Aparece el botón flotante ↑ Subir. Haz clic en él para subir y recuperarlas.?
 
 ¿Qué contiene el modal de Instrucciones (botón 📖)?
-El modal de bienvenida e instrucciones explica las 6 competencias que evalúa SIMO, las 3 pestañas principales (Estudio SIMO, Preguntas y Glosario), y las funcionalidades importantes: scroll y pestañas, búsqueda en normas del sector salud, botón de ajustes, guardado de progreso y asistente IA. Aparece automáticamente la primera vez que ingresas.
+El modal de bienvenida e instrucciones explica las 6 competencias que evalúa SIMO, las 3 pestañas principales (Estudio SIMO, Preguntas y Glosario), y las funcionalidades importantes: scroll y pestañas, búsqueda en normas del sector salud, botón de ajustes, guardado de progreso y asistente IA. Aparece automáticamente la primera vez que ingresas.?
 
 ¿Cómo funciona el Asistente IA?
 Es un chat flotante que puedes abrir desde el botón flotante 🤖 IA (en PC) o desde el botón 🤖 IA del header (en celular). Saluda al usuario, tiene historial de preguntas y respuestas anteriores, y puedes escribir cualquier duda sobre la aplicación o el concurso. Responde usando su base de conocimiento.
 
 ¿Cómo exporto resultados a PDF?
-Solo disponible en Modo Simulacro. Al finalizar el examen, haz clic en 'EXPORTAR RESULTADOS'. El PDF se descarga automáticamente a tu carpeta de Descargas e incluye: puntaje SIMO, aciertos vs total, tiempo total empleado, tiempo promedio por pregunta, y listado completo de preguntas falladas con respuesta correcta.
+Solo disponible en Modo Simulacro. Al finalizar el examen, haz clic en 'EXPORTAR RESULTADOS'. El PDF se descarga automáticamente a tu carpeta de Descargas e incluye: puntaje SIMO, aciertos vs total, tiempo total empleado, tiempo promedio por pregunta, y listado completo de preguntas falladas con respuesta correcta.?
 
 ¿Puedo repetir el mismo examen?
-Sí. Al final de cada examen, tienes el botón REPETIR EXAMEN. Las preguntas se cargarán nuevamente de forma aleatoria desde el mismo banco de preguntas.
+Sí. Al final de cada examen, tienes el botón REPETIR EXAMEN. Las preguntas se cargarán nuevamente de forma aleatoria desde el mismo banco de preguntas.?
 
 ¿Se guardan mis resultados?
-Actualmente no. Los resultados se muestran al final, pero no se guardan históricamente. Esta funcionalidad está en análisis para futuras versiones.
+Actualmente no. Los resultados se muestran al final, pero no se guardan históricamente. Esta funcionalidad está en análisis para futuras versiones.?
 
 ¿Puedo usar la herramienta sin internet?
-Sí, si descargas el proyecto completo (carpeta demo_estudio_simo), puedes abrir index.html en tu navegador y funciona offline, siempre que los archivos JSON estén disponibles.
+Sí, si descargas el proyecto completo (carpeta demo_estudio_simo), puedes abrir index.html en tu navegador y funciona offline, siempre que los archivos JSON estén disponibles.?
 
 ¿La herramienta tiene algún costo?
-No. La herramienta es completamente gratuita y de acceso libre.
+No. La herramienta es completamente gratuita y de acceso libre.?
 
 ¿Qué consejos hay para razonamiento lógico?
 1. Identifica premisas y conclusión. 2. Usa el contrarrecíproco: 'Si A entonces B' equivale a 'Si no B entonces no A'. 3. Silogismos: Si A → B y B → C, entonces A → C. 4. No agregues información externa. 5. En preguntas de 'todos', 'ninguno', 'algunos', dibuja diagramas de Venn mentalmente.
@@ -190,7 +190,7 @@ No. La herramienta es completamente gratuita y de acceso libre.
 Usa el modo oscuro para estudiar de noche, aprovecha las explicaciones del modo estudio, entrena tu velocidad en el simulacro, busca términos en el glosario, practica primero en modo estudio y luego en simulacro, usa el botón flotante 🤖 para preguntar, y verifica periódicamente la página de la CNSC para nuevas convocatorias.
 
 ¿Cuántas preguntas tiene cada examen?
-Actualmente, 5 preguntas por examen. En futuras versiones, el simulacro podrá tener más preguntas configurables.
+Actualmente, 5 preguntas por examen. En futuras versiones, el simulacro podrá tener más preguntas configurables.?
 
 ¿Necesito practicar sin presión, qué me recomiendas?
 Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo.
@@ -199,13 +199,13 @@ Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar v
 Te recomiendo el **Modo Simulacro**. Tiene tiempo límite (5 minutos para 5 preguntas), sin feedback durante el examen, y al final obtienes un puntaje SIMO real. Así entrenas velocidad y resistencia.
 
 ¿Con cuántos aciertos se aprueba el examen SIMO?
-Se aprueba con 70 aciertos de 100, es decir, 70% de respuestas correctas al primer intento. El puntaje se calcula como: (Aciertos al primer intento ÷ Total preguntas) × 100.
+Se aprueba con 70 aciertos de 100, es decir, 70% de respuestas correctas al primer intento. El puntaje se calcula como: (Aciertos al primer intento ÷ Total preguntas) × 100.?
 
 ¿Cuántos puestos hay en total en la convocatoria?
-La convocatoria ESE 2 tiene 2.477 vacantes (puestos) en 72 ESE del país. Las modalidades son: ascenso general (184), ascenso discapacidad (3), abierto general (2.293), abierto discapacidad (194).
+La convocatoria ESE 2 tiene 2.477 vacantes (puestos) en 72 ESE del país. Las modalidades son: ascenso general (184), ascenso discapacidad (3), abierto general (2.293), abierto discapacidad (194).?
 
 ¿Cómo hago para conseguir un empleo público en el Estado?
-Debes participar en los concursos de méritos de la CNSC. Los pasos son: 1) Crear perfil en SIMO, 2) Buscar vacantes por palabras clave como "enfermería", "salud" o "hospital", 3) Pagar el PIN de inscripción, 4) Formalizar tu aspiración. Luego vienen las pruebas y el período de prueba.
+Debes participar en los concursos de méritos de la CNSC. Los pasos son: 1) Crear perfil en SIMO, 2) Buscar vacantes por palabras clave como "enfermería", "salud" o "hospital", 3) Pagar el PIN de inscripción, 4) Formalizar tu aspiración. Luego vienen las pruebas y el período de prueba.?
 
 ¿Quiero aprender relajado, qué hago?
 Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender sin estrés.
@@ -214,66 +214,592 @@ Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar v
 Te recomiendo el **Modo Simulacro**. Tiene tiempo límite (5 minutos para 5 preguntas), sin feedback durante el examen, y al final obtienes un puntaje SIMO real. Así entrenas velocidad y resistencia para el día del examen.
 
 ¿Cómo hago para trabajar en el Estado?
-Debes participar en los concursos de méritos de la CNSC a través de SIMO. Los pasos son: 1) Crear perfil en SIMO, 2) Buscar vacantes por palabras clave como "enfermería", 3) Pagar el PIN, 4) Formalizar tu aspiración. Luego vienen las pruebas y el período de prueba.
+Debes participar en los concursos de méritos de la CNSC a través de SIMO. Los pasos son: 1) Crear perfil en SIMO, 2) Buscar vacantes por palabras clave como "enfermería", 3) Pagar el PIN, 4) Formalizar tu aspiración. Luego vienen las pruebas y el período de prueba.?
 
 ¿No entiendo una palabra, qué debo hacer?
 Puedes usar el **Glosario** de la aplicación. Ve a la pestaña Glosario, escribe la palabra que no entiendes (mínimo 3 letras) y presiona Enter. También puedes filtrar por categoría o letra inicial para encontrar términos similares.
 
 ¿Se me acabó el tiempo, qué pasa?
-Si el tiempo del simulacro se acaba, las preguntas que no hayas respondido se marcan como incorrectas. El examen termina automáticamente y se muestra el resumen con los resultados. No puedes seguir respondiendo después de que el tiempo se agote.
+Si el tiempo del simulacro se acaba, las preguntas que no hayas respondido se marcan como incorrectas. El examen termina automáticamente y se muestra el resumen con los resultados. No puedes seguir respondiendo después de que el tiempo se agote.?
 
 ¿Cómo sé si voy bien o mal mientras hago el examen?
 En el Modo Simulacro, puedes guiarte por la barra de tiempo (verde = bien, amarillo = regular, rojo = crítico). En el Modo Estudio, no hay límite de tiempo pero recibes feedback inmediato al responder. En ambos modos, solo sabes el resultado final al terminar.
 
 ¿Puedo cambiar mi respuesta después de seleccionarla?
-Depende del modo. En Modo Estudio, puedes cambiar tu respuesta ANTES de hacer clic en VERIFICAR. Una vez verificas, queda guardada. En Modo Simulacro, puedes cambiar tu respuesta ANTES de hacer clic en SIGUIENTE. Una vez avanzaste, no puedes volver atrás.
+Depende del modo. En Modo Estudio, puedes cambiar tu respuesta ANTES de hacer clic en VERIFICAR. Una vez verificas, queda guardada. En Modo Simulacro, puedes cambiar tu respuesta ANTES de hacer clic en SIGUIENTE. Una vez avanzaste, no puedes volver atrás.?
 
 ¿Qué significan los cuadritos verdes y rojos en los resultados?
 En Modo Estudio: ✅ verde = acertaste al primer intento, ⚠️ amarillo = acertaste después de varios intentos, 🔴 rojo = fallaste todas las opciones. En Modo Simulacro: fondo verde = correcta, fondo rojo = incorrecta o tiempo agotado.
 
 ¿Para qué sirve la flechita que aparece abajo a la derecha?
-Es el botón flotante SUBIR. Cuando haces scroll hacia abajo, las pestañas se ocultan y aparece esa flecha. Al hacer clic, subes al inicio de la página y las pestañas vuelven a mostrarse.
+Es el botón flotante SUBIR. Cuando haces scroll hacia abajo, las pestañas se ocultan y aparece esa flecha. Al hacer clic, subes al inicio de la página y las pestañas vuelven a mostrarse.?
 
 ¿Cómo hago el examen en ESTUDIO SIMO?
 Para hacer el examen, ve a la pestaña **Preguntas**. Selecciona el modo (Estudio o Simulacro), elige una competencia y subcategoría, y haz clic en COMENZAR EXAMEN. Aparecerán 5 preguntas con opciones de respuesta.
 
 ¿Qué pasa si me equivoco al responder?
-Depende del modo. En Modo Estudio, puedes intentar hasta 4 veces y recibes feedback inmediato. En Modo Simulacro, no hay feedback durante el examen y no puedes cambiar la respuesta después de avanzar. Al final verás cuáles fallaste.
+Depende del modo. En Modo Estudio, puedes intentar hasta 4 veces y recibes feedback inmediato. En Modo Simulacro, no hay feedback durante el examen y no puedes cambiar la respuesta después de avanzar. Al final verás cuáles fallaste.?
 
 ¿Esta herramienta es gratuita?
-Sí, ESTUDIO SIMO es completamente gratuito. El concurso SIMO de la CNSC sí cobra un PIN de inscripción (aproximadamente $43.350 para nivel técnico/asistencial).
+Sí, ESTUDIO SIMO es completamente gratuito. El concurso SIMO de la CNSC sí cobra un PIN de inscripción (aproximadamente $43.350 para nivel técnico/asistencial).?
 
 ¿Dónde veo mis resultados al terminar el examen?
-Al finalizar el examen, se muestra automáticamente una tabla de resultados con tu puntaje SIMO, aciertos, tiempos y un resumen de cada pregunta. También puedes exportar los resultados a PDF en Modo Simulacro.
+Al finalizar el examen, se muestra automáticamente una tabla de resultados con tu puntaje SIMO, aciertos, tiempos y un resumen de cada pregunta. También puedes exportar los resultados a PDF en Modo Simulacro.?
 
 ¿Para qué me sirve esta herramienta?
-Te sirve para prepararte para el concurso de méritos ESE 2 de la CNSC. Puedes informarte sobre la convocatoria, practicar con preguntas tipo examen en Modo Estudio o Simulacro, y consultar términos en el Glosario.
+Te sirve para prepararte para el concurso de méritos ESE 2 de la CNSC. Puedes informarte sobre la convocatoria, practicar con preguntas tipo examen en Modo Estudio o Simulacro, y consultar términos en el Glosario.?
 
 ¿Cómo me inscribo en SIMO paso a paso?
-Los pasos para inscribirte en SIMO son: 1) Registro y creación de perfil en SIMO, cargando información personal, experiencia y formación. 2) Búsqueda e inscripción a vacantes por número de OPEC o palabras clave. 3) Pago de derechos de participación (PIN). 4) Formalización de la aspiración verificando que toda la información sea correcta.
+Los pasos para inscribirte en SIMO son: 1) Registro y creación de perfil en SIMO, cargando información personal, experiencia y formación. 2) Búsqueda e inscripción a vacantes por número de OPEC o palabras clave. 3) Pago de derechos de participación (PIN). 4) Formalización de la aspiración verificando que toda la información sea correcta.?
 
 ¿Cómo se calcula el puntaje en ESTUDIO SIMO?
-El puntaje en ESTUDIO SIMO se calcula como: (Aciertos al primer intento ÷ Total de preguntas) × 100. El corte de aprobación es 70/100. Solo el primer intento cuenta como acierto. Así simulas el puntaje real del concurso SIMO de la CNSC.
+El puntaje en ESTUDIO SIMO se calcula como: (Aciertos al primer intento ÷ Total de preguntas) × 100. El corte de aprobación es 70/100. Solo el primer intento cuenta como acierto. Así simulas el puntaje real del concurso SIMO de la CNSC.?
 
 ¿Cómo se calcula el puntaje en el concurso SIMO de la CNSC?
 En el concurso real de la CNSC, el puntaje se calcula con la misma fórmula: (Aciertos al primer intento ÷ Total de preguntas) × 100. El corte de aprobación es 70/100. Solo el primer intento cuenta. La diferencia es que el examen real tiene 100 preguntas, no 5 como el simulacro.
 
 ¿Qué es el concurso SIMO de la CNSC?
-El concurso SIMO de la CNSC (Comisión Nacional del Servicio Civil) es el proceso de selección mediante el cual los ciudadanos pueden acceder a empleos públicos de carrera administrativa en entidades del Estado colombiano. Evalúa las competencias de los aspirantes a través de pruebas escritas de razonamiento lógico, matemático, comprensión lectora, ética profesional, trabajo en equipo y orientación al servicio. Para enfermería, el concurso ESE 2 convoca 2.477 vacantes en 72 ESE del país.
+El concurso SIMO de la CNSC (Comisión Nacional del Servicio Civil) es el proceso de selección mediante el cual los ciudadanos pueden acceder a empleos públicos de carrera administrativa en entidades del Estado colombiano. Evalúa las competencias de los aspirantes a través de pruebas escritas de razonamiento lógico, matemático, comprensión lectora, ética profesional, trabajo en equipo y orientación al servicio. Para enfermería, el concurso ESE 2 convoca 2.477 vacantes en 72 ESE del país.?
 
 ¿A qué te refieres con "esto"?
-No sé exactamente a qué te refieres con "esto" o "eso". ¿Podrías ser más específico? Por ejemplo: "¿Qué es el modo estudio?" o "¿Cómo funciona el glosario?"
+No sé exactamente a qué te refieres con "esto" o "eso". ¿Podrías ser más específico? Por ejemplo: "¿Qué es el modo estudio?" o "¿Cómo funciona el glosario?"?
 
-No entiendo algo de la herramienta
+No entiendo algo de la herramienta?
 Si no entiendes alguna parte de ESTUDIO SIMO, puedo explicarte. Dime específicamente qué no entiendes: el Modo Estudio, el Modo Simulacro, el Glosario, las Normas, o los Resultados. ¡Estoy aquí para ayudarte!
 
 ¿Qué es el botón flotante o el asistente?
-Esa "cosita que parece un robot" es el Asistente SIMO. Es un chat inteligente que puedes abrir haciendo clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header). Puedes preguntarme cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2.
+Esa "cosita que parece un robot" es el Asistente SIMO. Es un chat inteligente que puedes abrir haciendo clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header). Puedes preguntarme cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2.?
 
 ¿Qué hago con esto o para qué sirve esto?
-No sé exactamente a qué te refieres con "esto". ¿Podrías decirme de qué elemento o sección de la aplicación estás hablando? Por ejemplo: "el botón de ajustes", "el temporizador del simulacro", "los resultados del examen", etc. Así puedo ayudarte mejor.
+No sé exactamente a qué te refieres con "esto". ¿Podrías decirme de qué elemento o sección de la aplicación estás hablando? Por ejemplo: "el botón de ajustes", "el temporizador del simulacro", "los resultados del examen", etc. Así puedo ayudarte mejor.?
 
-Qué es esa cosita que parece un robot o el asistente o el botón flotante
+Qué es esa cosita que parece un robot o el asistente o el botón flotante?
 Esa "cosita que parece un robot" es el Asistente SIMO. Es un chat inteligente que puedes abrir haciendo clic en el botón 🤖 IA. En computador está abajo a la derecha, en celular está en el header. Puedes preguntarme cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2.
+
+----------------------------------
+
+¿Cuándo son las inscripciones de la convocatoria ESE 2?
+Las inscripciones son en el segundo semestre de 2026, aproximadamente entre julio y agosto.?
+
+¿En qué fechas puedo inscribirme en la ESE 2?
+Las inscripciones son en el segundo semestre de 2026, aproximadamente entre julio y agosto.?
+
+¿Cuándo abre la convocatoria ESE 2?
+Las inscripciones son en el segundo semestre de 2026, aproximadamente entre julio y agosto.?
+
+Oye, ¿para cuándo son las inscripciones?
+Las inscripciones son en el segundo semestre de 2026, aproximadamente entre julio y agosto.?
+
+¿Cuándo empiezan las inscripciones del concurso?
+Las inscripciones son en el segundo semestre de 2026, aproximadamente entre julio y agosto.?
+
+¿Hasta cuándo puedo inscribirme en la ESE 2?
+Las inscripciones son en el segundo semestre de 2026, aproximadamente entre julio y agosto.?
+
+¿Cuál es el plazo de inscripción para enfermería?
+Las inscripciones son en el segundo semestre de 2026, aproximadamente entre julio y agosto.?
+
+No sé cuándo son las inscripciones de la ESE 2?
+Las inscripciones son en el segundo semestre de 2026, aproximadamente entre julio y agosto.
+
+---------------------------------
+
+¿Qué es el Modo Estudio?
+El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta.?
+
+¿Cómo funciona el modo estudio?
+El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta.?
+
+¿Para qué sirve el modo estudio?
+El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta.?
+
+Explícame el modo estudio?
+El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta.
+
+Qué es eso de modo estudio?
+El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta.
+
+Quiero aprender sin estrés, qué uso?
+El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta.
+
+Para estudiar tranquilo, qué me recomiendas
+El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta.
+
+No entiendo cómo funciona el modo estudio?
+El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta.
+
+---------------------------------
+
+¿Qué es el Asistente IA?
+Es un chat flotante que puedes abrir desde el botón flotante 🤖 IA (en PC) o desde el botón 🤖 IA del header (en celular). Saluda al usuario, tiene historial de preguntas y respuestas anteriores, y puedes escribir cualquier duda sobre la aplicación o el concurso.
+
+Qué es esa cosita que parece un robot?
+Es un chat flotante que puedes abrir desde el botón flotante 🤖 IA (en PC) o desde el botón 🤖 IA del header (en celular). Puedes preguntarme cualquier cosa sobre ESTUDIO SIMO.
+
+Para qué sirve el botón flotante con forma de robot
+Es el Asistente SIMO. Un chat inteligente que puedes abrir haciendo clic en el botón 🤖 IA. Estoy aquí para ayudarte con tus dudas.
+
+Cómo abro el asistente?
+Haz clic en el botón 🤖 IA. En computador está en la esquina inferior derecha. En celular está en el header, junto a Ajustes e Instrucciones.
+
+Qué es ese robot que aparece en la pantalla?
+Ese soy yo, el Asistente SIMO. Puedes hacerme preguntas sobre la convocatoria, los exámenes, el glosario o cualquier tema de ESTUDIO SIMO.
+
+Para qué sirve el chat
+El chat es el Asistente SIMO. Sirve para resolver tus dudas sobre el concurso, la herramienta o cualquier tema relacionado con enfermería y la CNSC.
+
+Cómo uso el asistente virtual?
+Solo escribe tu pregunta en el cuadro de texto y presiona Enviar. Yo te responderé con la información que tengo en mi base de conocimiento.
+
+Qué es ese ícono de robot en la esquina?
+Es el botón para abrir el Asistente SIMO. Haz clic allí y podrás hacerme preguntas. ¡Estoy aquí para ayudarte!
+
+No encuentro el asistente?
+En computador está el botón flotante 🤖 IA abajo a la derecha. En celular está en el header superior, junto a los botones de Ajustes (⚙️) e Instrucciones (📖).
+
+El botón del robot no aparece?
+Asegúrate de hacer scroll hacia arriba. En celular, el botón está en el header. En PC, es el botón flotante en la esquina inferior derecha. Si no lo ves, recarga la página.
+
+-------------------------------
+
+¿Cómo busco convocatorias de enfermería en SIMO?
+Utiliza los filtros de búsqueda de SIMO. Puedes buscar por proceso de selección, por rango salarial, por departamento, o usando palabras clave como "enfermería", "salud", "enfermero", "hospital", "ESE" o "clínica pública".?
+
+Cómo encuentro vacantes de enfermería?
+Usa los filtros de SIMO con palabras clave como "enfermería", "enfermero", "hospital público" o "ESE". También puedes buscar por departamento o ciudad.
+
+Dónde busco empleos para enfermeros en el Estado?
+En la plataforma SIMO de la CNSC. Usa las palabras clave "enfermería", "salud", "hospital" o "ESE" en los filtros de búsqueda.
+
+Cómo hago para ver las vacantes de enfermería?
+Ingresa a SIMO, ve a la sección de convocatorias y usa los filtros con palabras clave como "enfermería" o "enfermero". También puedes filtrar por departamento.
+
+Qué palabras clave usar para buscar trabajo de enfermería?
+Las más efectivas son: "enfermería", "enfermero", "salud", "hospital", "ESE", "clínica pública" y "atención primaria".
+
+No encuentro vacantes de enfermería en SIMO?
+Revisa que estés usando las palabras clave correctas: "enfermería", "enfermero", "salud". También puedes filtrar por departamento o consultar las convocatorias activas en la página principal de SIMO.
+
+------------------------------
+
+¿Qué son los casos prácticos?
+Los casos prácticos son situaciones reales que podrías enfrentar en HOMERIS. Tienen filtros por competencia (TODAS, Básicas, Funcionales, Comportamentales), paginación de 10 casos por página, y cada caso tiene una respuesta orientativa.?
+
+Cómo funcionan los casos prácticos?
+Ve a Estudio SIMO > Casos prácticos. Puedes filtrar por competencia, navegar con los botones Anterior/Siguiente (10 casos por página), y hacer clic en "Ver respuesta orientativa" para desplegar la respuesta.
+
+Para qué sirven los casos prácticos
+Sirven para prepararte con situaciones reales que podrías enfrentar en el Hospital Mental de Risaralda. Te ayudan a aplicar tus conocimientos en contexto.
+
+Dónde están los casos prácticos?
+En la pestaña Estudio SIMO, selecciona "Casos prácticos" en el menú desplegable. Allí encontrarás situaciones reales clasificadas por competencia.
+
+Cómo ver las respuestas de los casos prácticos?
+Haz clic en "👁️ Ver respuesta orientativa" debajo de cada caso. Se desplegará una explicación de cómo abordar esa situación. Haz clic en "🙈 Ocultar respuesta" para cerrarla.
+
+No entiendo cómo usar los casos prácticos?
+Ve a Estudio SIMO, selecciona "Casos prácticos", elige un filtro de competencia si quieres, haz clic en un caso y luego en "Ver respuesta orientativa". Es así de fácil. ¿Necesitas ayuda con algún caso en específico?
+
+---------------------------------------
+
+Quiero aprender sin estrés o sin presión, qué uso?
+Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo, sin estrés.
+
+Quiero aprender relajado, sin afán, qué me recomiendas?
+Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo, sin estrés.
+
+Necesito estudiar sin presión, sin tiempo límite?
+Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo, sin estrés.
+
+No quiero estrés al estudiar, qué hago?
+Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo, sin estrés.
+
+Para aprender tranquilo, sin preocuparme por el tiempo
+Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo, sin estrés.
+
+Estudiar sin afán, sin reloj, cómo le hago?
+Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo, sin estrés.
+
+Qué modo uso para aprender sin que me corra el tiempo?
+Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo, sin estrés.
+
+No me gusta la presión, qué modo de estudio me sirve?
+Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo, sin estrés.
+
+--------------------------------
+
+Qué es ese robot o esa cosita o ese icono redondo en la esquina?
+Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
+
+Mi hermano, qué es ese robot que aparece en la pantalla?
+Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
+
+Parcero, qué es esa cosita gris con forma de robot?
+Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
+
+Qué es ese icono de robot que está siempre ahí?
+Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
+
+Para qué sirve ese robot que parece una cara
+Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
+
+Qué es esa cosa que parece un robot en la esquina derecha?
+Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
+
+Oye, qué es ese muñequito de robot?
+Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
+
+Explícame qué es ese botón con forma de robot?
+Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
+
+No sé qué es ese robot que aparece en la página?
+Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
+
+Qué es ese ícono flotante que parece un robot?
+Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
+
+-----------------------------------
+
+Cómo busco vacantes de enfermería o empleos, estoy perdido?
+Para buscar vacantes de enfermería en SIMO, usa los filtros de búsqueda con palabras clave como "enfermería", "enfermero", "salud", "hospital", "ESE" o "clínica pública". También puedes filtrar por departamento o ciudad. ¿Necesitas ayuda con algún término específico?
+
+Estoy perdido, cómo encuentro trabajo de enfermería en el Estado?
+Para buscar vacantes de enfermería en SIMO, usa los filtros de búsqueda con palabras clave como "enfermería", "enfermero", "salud", "hospital", "ESE" o "clínica pública". También puedes filtrar por departamento o ciudad. ¿Necesitas ayuda con algún término específico?
+
+No encuentro vacantes de enfermería, qué hago?
+Para buscar vacantes de enfermería en SIMO, usa los filtros de búsqueda con palabras clave como "enfermería", "enfermero", "salud", "hospital", "ESE" o "clínica pública". También puedes filtrar por departamento o ciudad. ¿Necesitas ayuda con algún término específico?
+
+Cómo busco empleos para enfermero en SIMO?
+Para buscar vacantes de enfermería en SIMO, usa los filtros de búsqueda con palabras clave como "enfermería", "enfermero", "salud", "hospital", "ESE" o "clínica pública". También puedes filtrar por departamento o ciudad. ¿Necesitas ayuda con algún término específico?
+
+Dónde encuentro ofertas de trabajo para enfermería?
+Para buscar vacantes de enfermería en SIMO, usa los filtros de búsqueda con palabras clave como "enfermería", "enfermero", "salud", "hospital", "ESE" o "clínica pública". También puedes filtrar por departamento o ciudad. ¿Necesitas ayuda con algún término específico?
+
+Ayuda, no sé cómo buscar vacantes de enfermería?
+Para buscar vacantes de enfermería en SIMO, usa los filtros de búsqueda con palabras clave como "enfermería", "enfermero", "salud", "hospital", "ESE" o "clínica pública". También puedes filtrar por departamento o ciudad. ¿Necesitas ayuda con algún término específico?
+
+Qué palabras clave usar para buscar trabajo de enfermera?
+Para buscar vacantes de enfermería en SIMO, usa los filtros de búsqueda con palabras clave como "enfermería", "enfermero", "salud", "hospital", "ESE" o "clínica pública". También puedes filtrar por departamento o ciudad. ¿Necesitas ayuda con algún término específico?
+
+Cómo hago para ver las vacantes de enfermería disponibles?
+Para buscar vacantes de enfermería en SIMO, usa los filtros de búsqueda con palabras clave como "enfermería", "enfermero", "salud", "hospital", "ESE" o "clínica pública". También puedes filtrar por departamento o ciudad. ¿Necesitas ayuda con algún término específico?
+
+---------------------------------
+
+Qué es esto o para qué sirve esto?
+No sé exactamente a qué te refieres con "esto". ¿Podrías decirme de qué elemento, botón o sección de la aplicación estás hablando? Por ejemplo: "el botón de ajustes", "el temporizador del simulacro", "la pestaña de preguntas", etc.
+
+Esto qué es?
+No sé exactamente a qué te refieres con "esto". ¿Podrías decirme de qué elemento, botón o sección de la aplicación estás hablando? Por ejemplo: "el botón de ajustes", "el temporizador del simulacro", "la pestaña de preguntas", etc.
+
+Y eso para qué sirve?
+No sé exactamente a qué te refieres con "eso". ¿Podrías decirme de qué elemento, botón o sección de la aplicación estás hablando? Por ejemplo: "el botón de ajustes", "el temporizador del simulacro", "la pestaña de preguntas", etc.
+
+Eso cómo funciona?
+No sé exactamente a qué te refieres con "eso". ¿Podrías decirme de qué elemento, botón o sección de la aplicación estás hablando? Por ejemplo: "el botón de ajustes", "el temporizador del simulacro", "la pestaña de preguntas", etc.
+
+Para qué sirve esa cosa
+No sé exactamente a qué te refieres con "esa cosa". ¿Podrías describirme mejor el elemento o botón que te genera duda? Así puedo ayudarte mejor.
+
+Cómo se usa eso?
+No sé exactamente a qué te refieres con "eso". ¿Podrías decirme de qué elemento, botón o sección de la aplicación estás hablando? Te explico cómo funciona.
+
+A qué te refieres con eso?
+Creo que hay una confusión. Yo no dije nada, tú preguntaste "eso". ¿A qué elemento o parte de la pantalla te refieres? Dime específicamente y te ayudo.
+
+Esto está confuso?
+¿Qué es lo que te parece confuso? La aplicación tiene tres pestañas: Estudio SIMO (teoría), Preguntas (exámenes) y Glosario (términos). ¿Cuál de ellas o qué botón te está generando duda?
+
+-----------------------------
+
+Estoy perdido, no sé qué hacer?
+Tranquilo, te ayudo. ESTUDIO SIMO tiene tres pestañas: 📚 Estudio SIMO (información de la convocatoria y normas), 📝 Preguntas (exámenes de práctica) y 📖 Glosario (términos clave). ¿En cuál quieres empezar?
+
+No sé qué hacer, ayúdame?
+Claro. Dime qué necesitas: 1) Informarte sobre la convocatoria ESE 2, 2) Practicar con preguntas tipo examen, 3) Consultar definiciones de términos. Según lo que me digas, te guío.
+
+Por dónde comienzo a estudiar?
+Te recomiendo empezar por la pestaña **Estudio SIMO** para leer sobre la convocatoria y las normas. Luego ve a **Preguntas** en Modo Estudio para practicar sin presión. ¿Empezamos?
+
+Qué hago en esta página?
+Puedes hacer tres cosas: informarte sobre el concurso ESE 2, practicar con exámenes de simulación, o consultar términos en el glosario. Yo soy el asistente, pregúntame lo que necesites.
+
+No entiendo nada de esta aplicación?
+Tranquilo, es normal al principio. La app es simple: tres pestañas arriba, botones claros y yo (el chat) para ayudarte. Dime cuál es tu duda específica y te explico con calma.
+
+Ayuda, estoy perdido en la página?
+No te preocupes. Mira arriba: hay tres pestañas (SIMO, Preguntas, Glosario). Abajo hay contenido. A la derecha o arriba está el botón de Ajustes (⚙️) e Instrucciones (📖). Yo soy el chat (🤖). ¿Qué te gustaría hacer?
+
+Necesito una guía para usar esto?
+Paso 1: Entender qué es el concurso ESE 2 (ve a Estudio SIMO > Convocatoria). Paso 2: Practicar (ve a Preguntas > Modo Estudio). Paso 3: Consultar dudas (usa el Glosario o pregúntame a mí). ¿Listo para empezar?
+
+Hola, estoy perdido ¿Qué hago?
+¡Hola! No te preocupes, para eso estoy yo. ¿Quieres aprender sobre la convocatoria, practicar para el examen o buscar definiciones? Dime una opción y te guío paso a paso.?
+
+Desde cero, explícame cómo usar esto?
+1. Ve a la pestaña **SIMO** para leer la convocatoria. 2. Ve a **Preguntas** para hacer exámenes. 3. Ve a **Glosario** para buscar términos. Y aquí estoy yo para responder tus preguntas. ¿Por dónde quieres empezar?
+
+Qué se supone que haga aquí?
+Puedes prepararte para el concurso de enfermería en HOMERIS. Estudia la teoría, practica con exámenes y consulta términos. Yo te ayudo. ¿Cuál es tu primera duda?
+
+------------------------------
+
+¿Qué es el Modo Simulacro?
+El Modo Simulacro simula las condiciones reales del examen SIMO. Tiene tiempo límite (60 segundos por pregunta), sin feedback durante el examen, 1 solo intento por pregunta, y al final obtienes un puntaje SIMO sobre 100.?
+
+Cómo funciona el simulacro?
+El Modo Simulacro replica el examen real: temporizador por pregunta, sin pistas, no puedes cambiar respuestas después de avanzar, y el puntaje final se calcula como (aciertos ÷ total) × 100.
+
+Para qué sirve el modo simulacro
+Sirve para entrenar tu velocidad, resistencia y manejo del tiempo. Te prepara para las condiciones reales del concurso SIMO donde hay 100 preguntas en 100 minutos.
+
+Quiero practicar como si fuera el examen de verdad?
+Usa el **Modo Simulacro**. Tiene 60 segundos por pregunta, sin feedback inmediato, y solo tienes un intento. Es lo más parecido al día del examen.
+
+Qué diferencia hay entre simulacro y estudio?
+En Modo Estudio no hay tiempo límite, puedes intentar varias veces y ves la respuesta correcta al fallar. En Modo Simulacro hay tiempo, solo un intento, y no ves feedback hasta el final.
+
+Cómo entreno mi velocidad para el examen?
+Usa el **Modo Simulacro**. Te acostumbra a responder rápido. Comienza con 5 preguntas y ve aumentando. El examen real tiene 100 preguntas en 100 minutos.
+
+Qué pasa si no termino el simulacro a tiempo?
+Si se acaba el tiempo, las preguntas no respondidas se marcan como incorrectas. El examen termina automáticamente y se muestran los resultados.
+
+Cómo sé mi puntaje en el simulacro?
+Al finalizar, verás un recuadro ROJO-VERDE con tu puntaje SIMO sobre 100. El corte de aprobación es 70. También puedes exportar los resultados a PDF.
+
+Puedo pausar el simulacro?
+No. El temporizador no se detiene. Si cambias de pestaña, el sistema guarda tu progreso, pero el tiempo sigue corriendo. Se recomienda hacer el simulacro sin interrupciones.
+
+No me gusta el tiempo del simulacro, puedo cambiarlo?
+Actualmente no. El simulacro está fijo en 60 segundos por pregunta para simular el examen real. Si quieres aprender sin tiempo, usa el **Modo Estudio**.
+
+--------------------------------
+
+Qué es el glosario de ESTUDIO SIMO?
+Es una base de datos con más de 140 términos clave para el concurso. Incluye siglas (EPS, ESE), entidades (CNSC, SIMO), principios legales y términos de enfermería.
+
+Cómo busco palabras en el glosario?
+Ve a la pestaña Glosario, escribe una palabra (mínimo 3 letras) en el buscador y presiona Enter. Las coincidencias se resaltan en amarillo y la página se desplaza a los resultados.
+
+Puedo filtrar el glosario por categoría?
+Sí. Tienes filtros por: TODAS, Siglas, Entidades, Términos, Principios, Carrera. Selecciona uno y verás solo los términos de esa categoría.
+
+Cómo filtro el glosario por letra inicial?
+Usa los botones del alfabeto (A-Z) debajo del buscador. Al hacer clic en una letra, se muestran solo los términos que empiezan con esa letra.
+
+Puedo combinar filtros de categoría y letra en el glosario?
+Sí. Primero selecciona una categoría (ej: Siglas), luego una letra (ej: C). El sistema mostrará solo las siglas que empiezan con C. También funciona al revés.
+
+Qué pasa si escribo una palabra con menos de 3 letras?
+El glosario no hará la búsqueda. Debes escribir al menos 3 letras para que funcione. Es una regla para evitar búsquedas muy genéricas.
+
+No encuentro un término en el glosario?
+Asegúrate de escribir al menos 3 letras y revisar la ortografía. Si sigue sin aparecer, escríbelo aquí y te explico su significado. ¿Qué término buscas?
+
+Cómo navego entre páginas del glosario?
+El glosario muestra 10 términos por página. Abajo hay botones ◀ Anterior y Siguiente ▶ para moverte entre páginas de resultados.
+
+Para qué sirve el resaltado amarillo en el glosario
+Cuando buscas una palabra, los términos que la contienen se pintan de amarillo. Así identificas rápidamente las coincidencias en la lista de resultados.
+
+El glosario tiene términos de enfermería o solo legales?
+Tiene ambos. Incluye términos de normatividad (Ley 100, decreto 780), de enfermería (APS, PAE, PBS), y del concurso (OPEC, CNSC, SIMO). Son más de 140 términos en total.
+
+--------------------------
+
+Cómo se calcula el puntaje en ESTUDIO SIMO?
+Puntaje = (Aciertos al primer intento ÷ Total preguntas) × 100. Ejemplo: 4 aciertos de 5 = (4÷5)×100 = 80/100. El corte de aprobación es 70/100.
+
+Qué significa APROBÓ o REPROBÓ en los resultados?
+APROBÓ significa que tu puntaje fue mayor o igual a 70/100. REPROBÓ significa que fue menor a 70/100. En el concurso real, solo aprueban los que superan el corte.
+
+Cómo sé cuáles preguntas fallé?
+En la tabla de resultados, las preguntas incorrectas aparecen con fondo rojo y muestran cuál era la respuesta correcta. En Modo Simulacro, puedes hacer clic en "VER PREGUNTAS FALLADAS" para ver solo las que fallaste.
+
+Qué significa el ícono ✅ en los resultados del Modo Estudio?
+✅ Verde = Acertaste al primer intento. ⚠️ Amarillo = Acertaste después de varios intentos (aprendiste). 🔴 Rojo = Fallaste todas las opciones (requiere repaso). ⏰ Reloj = Se acabó el tiempo.
+
+Puedo exportar mis resultados a PDF?
+Sí, pero solo en Modo Simulacro. Al final del examen, haz clic en "EXPORTAR RESULTADOS". El PDF incluye tu puntaje, respuestas correctas e incorrectas, y el tiempo empleado.
+
+Cómo veo el tiempo que tardé en el examen?
+Solo en Modo Simulacro. En los resultados aparecen: Tiempo total empleado / Tiempo total disponible, y Tiempo promedio por pregunta. Así sabes si vas rápido o lento.
+
+Qué hacer después de ver mis resultados?
+Puedes: 1) Repetir el mismo examen con REPETIR EXAMEN, 2) Cambiar de competencia con CAMBIAR DE COMPETENCIA, o 3) Analizar las preguntas que fallaste para repasar.
+
+¿El puntaje de ESTUDIO SIMO es el mismo del concurso real?
+La fórmula es la misma: (aciertos ÷ total) × 100. La diferencia es que el examen real tiene 100 preguntas, no 5. ESTUDIO SIMO te da una simulación del puntaje que sacarías.?
+
+Cómo apruebo el examen SIMO?
+Necesitas 70 respuestas correctas de 100 al primer intento. Eso equivale a 70/100 o 70%. En ESTUDIO SIMO, si sacas 70% o más en el simulacro, vas por buen camino.
+
+Qué significa el porcentaje en el recuadro de resultados?
+Es tu puntaje SIMO. Se calcula como (tus aciertos ÷ preguntas totales) × 100. Si es 70 o más, APROBÓ (verde). Si es menos de 70, REPROBÓ (rojo).
+
+Puedo guardar mi historial de resultados?
+Actualmente no. Los resultados se muestran al final pero no se guardan. Puedes exportar a PDF si quieres conservar un registro. En el futuro podríamos agregar esta funcionalidad.
+
+Qué significa "solo el primer intento cuenta"?
+En Modo Estudio puedes intentar varias veces la misma pregunta. Pero para el puntaje SIMO, solo cuenta si acertaste en tu PRIMER intento. Los intentos adicionales no suman puntos.
+
+----------------------------------
+
+Qué normas debo estudiar para el concurso de enfermería?
+Debes estudiar: Ley 100 de 1993, Ley 1122 de 2007, Ley 1438 de 2011, Ley 1751 de 2015, Decreto 780 de 2016, Decreto 1011 de 2006, y resoluciones 2292, 3100, 3280, 1995, 1444 y 256.
+
+Cómo busco artículos en las normas del sector salud?
+Ve a Estudio SIMO > Normas del sector salud. Escribe una palabra (ej: EPS, afiliación, artículo 157) en el buscador universal y presiona Enter. Sale una lista de artículos que contienen esa palabra.
+
+Puedo buscar dentro de una sola ley específica?
+Sí. Haz clic en una ley (ej: Ley 100). Se abrirá una vista con un buscador específico para esa ley y la lista de sus artículos relevantes.
+
+Cómo veo el texto completo de un artículo?
+En la lista de resultados, haz clic en cualquier artículo. Se abrirá una ventana emergente con el título y el contenido completo. Si es largo, tiene un botón de subir dentro.
+
+Qué leyes son las más importantes para enfermería?
+Las más importantes son: Ley 100 (creó el SGSSS), Decreto 780 (compila todas las normas de salud), y Resolución 3100 (habilitación de servicios de salud). Pero el concurso pregunta de todas las 12 normas.
+
+Dónde encuentro la Resolución 2292 de 2021?
+En la pestaña Estudio SIMO > Normas del sector salud. Busca entre la lista de normas o usa el buscador universal escribiendo "2292".
+
+Qué es el buscador universal de leyes?
+Es una herramienta que busca una palabra en TODAS las normas simultáneamente. Te muestra cuántos artículos encontró y la lista de resultados. Es muy útil para buscar conceptos que aparecen en varias leyes.
+
+Cómo salgo de una ley y vuelvo al listado de normas?
+Cada ley tiene un botón "← Volver a normas" en la parte superior. Haz clic allí para regresar al listado completo de las 12 normas.
+
+Las normas están completas o son resúmenes?
+Son los artículos más relevantes para el concurso de enfermería, no la ley completa. Incluyen los artículos que típicamente preguntan en el examen SIMO.
+
+Qué significa SGSSS?
+Sistema General de Seguridad Social en Salud. Fue creado por la Ley 100 de 1993. Es el marco normativo que rige la salud en Colombia, incluyendo EPS, IPS, planes de beneficios, etc.
+
+Qué significa PBS?
+Plan de Beneficios en Salud. Es el conjunto de servicios y tecnologías de salud a los que tienen derecho los afiliados al SGSSS. Está definido por la Resolución 2292 de 2021.
+
+Dónde consulto el Decreto 780 de 2016?
+En la pestaña Estudio SIMO, selecciona "Normas del sector salud", busca "Decreto 780" en la lista y haz clic. Allí encontrarás los artículos relevantes para enfermería.
+
+-----------------------------------
+
+Qué es la CNSC?
+La Comisión Nacional del Servicio Civil es la entidad que organiza los concursos de méritos para acceder a empleos públicos en Colombia. Es autónoma e independiente del gobierno.
+
+Para qué sirve SIMO
+SIMO es la plataforma donde los ciudadanos se inscriben a concursos públicos. Puedes buscar vacantes, cargar documentos, inscribirte y hacer seguimiento a las convocatorias.
+
+Cómo me registro en SIMO por primera vez?
+Entra a simo.cnsc.gov.co, haz clic en "Registro", ingresa tu cédula, correo electrónico y crea una contraseña. Luego completa tu perfil con estudios y experiencia laboral.
+
+Qué documentos necesito para inscribirme en SIMO?
+Cédula de ciudadanía, título profesional o acta de grado, tarjeta profesional si aplica, certificados laborales (si tienes experiencia), y diplomas de cursos adicionales.
+
+Cuánto cuesta inscribirse en SIMO?
+El PIN para nivel técnico/asistencial cuesta aproximadamente $43.350. Para niveles profesionales cuesta aproximadamente $65.000. Son valores referenciales del 2024.
+
+Puedo subir mis documentos después de inscribirme?
+Sí, pero es mejor hacerlo antes. La plataforma SIMO permite cargar documentos en cualquier momento, pero para cada convocatoria debes verificar que estén actualizados.
+
+Qué es una OPEC?
+Es la Oferta Pública de Empleo de Carrera. Básicamente, es una vacante publicada en SIMO. Cada OPEC tiene un número único y describe el cargo, requisitos y la entidad que ofrece el empleo.
+
+Cómo busco una OPEC específica?
+En SIMO, usa el buscador por número de OPEC si lo tienes. También puedes buscar por proceso de selección (ej: ESE 2), por rango salarial o por departamento.
+
+Qué pasa después de inscribirme en SIMO?
+La CNSC verifica que cumplas los requisitos mínimos. Luego te citan para las pruebas escritas. Después publican los resultados y, si apruebas, pasas a lista de elegibles.
+
+Cuánto tiempo dura un concurso SIMO?
+Desde la apertura de inscripciones hasta la lista de elegibles puede tomar entre 1 y 2 años, dependiendo del número de aspirantes y las etapas del proceso.
+
+Qué significa "lista de elegibles"?
+Es la lista de personas que aprobaron el concurso, ordenadas por puntaje de mayor a menor. Las entidades nombran en orden estricto a medida que hay vacantes disponibles.
+
+Qué es el período de prueba?
+Son 6 meses después de ser nombrado. Durante ese tiempo, la entidad evalúa tu desempeño. Si lo superas, te conviertes en empleado de carrera con estabilidad laboral.
+
+Puedo participar en varias convocatorias al mismo tiempo?
+Sí. Te puedes inscribir en todas las convocatorias para las que cumplas requisitos. SIMO guarda tu perfil y documentos, así no tienes que subirlos cada vez.
+
+Qué diferencia hay entre concurso abierto y ascenso?
+Abierto: pueden participar personas externas a la entidad. Ascenso: solo pueden participar empleados actuales de la entidad que quieren subir de cargo.
+
+En qué modalidad me inscribo si soy enfermero externo
+Debes inscribirte en la modalidad **Abierto general**. Ascenso es solo para quienes ya trabajan en la ESE y quieren subir de cargo.
+
+Puedo cambiar mi respuesta después de enviarla en SIMO?
+En el examen real SIMO, una vez seleccionas una opción y avanzas, NO puedes volver atrás. Por eso el Modo Simulacro replica esa regla.
+
+Qué pasa si no apruebo el concurso?
+Puedes volver a presentarte en futuras convocatorias. No hay límite de intentos. La experiencia que ganaste te servirá para las siguientes.
+
+Hay límite de edad para participar en concursos SIMO?
+No. Los concursos de méritos no tienen límite de edad. Solo debes cumplir los requisitos del cargo (título, experiencia, etc.).
+
+Puedo trabajar en el Estado sin pasar por SIMO?
+No. Para empleos públicos de carrera administrativa en Colombia es obligatorio el concurso de méritos. Existen algunas excepciones (cargos de libre nombramiento y remoción), pero no son la mayoría.
+
+Qué empleos públicos no requieren concurso SIMO?
+Los cargos de libre nombramiento y remoción (directivos, asesores) no requieren concurso. Pero para enfermería, técnico, profesional, etc., SÍ es obligatorio el concurso.
+
+Dónde veo el estado de mi inscripción en SIMO?
+Ingresa a SIMO con tu usuario, ve a "Mis inscripciones" o "Procesos de selección". Allí ves cada convocatoria en la que participas y su estado actual.
+
+Qué hago si olvido mi contraseña de SIMO?
+En la página de inicio de SIMO, haz clic en "Olvidé mi contraseña". Ingresas tu cédula o correo y te enviarán un enlace para recuperarla.
+
+La CNSC me puede excluir del concurso por documentos falsos?
+Sí. Presentar documentos falsos es causal de exclusión y puede acarrear sanciones. Siempre debes ser honesto con tu experiencia y estudios.
+
+Qué significa "carrera administrativa"?
+Es el sistema que garantiza que los empleados públicos ingresen y asciendan por méritos, no por favores políticos. Te da estabilidad en el empleo si cumples bien tus funciones.
+
+Cómo saber si una convocatoria está vigente?
+En SIMO, las convocatorias activas aparecen destacadas. También puedes consultar la página de la CNSC (cnsc.gov.co) en la sección de "Procesos de selección".
+
+Puedo inscribirme desde mi celular en SIMO?
+Sí. SIMO está diseñado para computadores y celulares. Puedes registrarte, subir documentos e inscribirte desde el navegador de tu teléfono.
+
+Qué hacer si el sistema SIMO no me deja cargar un documento?
+Revisa que el archivo sea PDF o JPG y no pese más de 5 MB. Si el problema persiste, contacta a la CNSC a través de su página de soporte.
+
+Hay curso o tutorial oficial de SIMO?
+La CNSC tiene manuales y videos tutoriales en su página web. También ESTUDIO SIMO te prepara con información actualizada de la plataforma y el concurso.
+
+---------------------------------
+
+Puedo descargar ESTUDIO SIMO para usarlo sin internet?
+Sí, si descargas el proyecto completo (carpeta demo_estudio_simo). Abres index.html en tu navegador y funciona offline, siempre que los archivos JSON estén disponibles.
+
+ESTUDIO SIMO tiene algún costo?
+No. Es completamente gratuito. El concurso SIMO de la CNSC sí cobra un PIN de inscripción, pero ESTUDIO SIMO es libre y siempre lo será.
+
+Puedo cambiar el tamaño de la letra en ESTUDIO SIMO?
+Sí. Usa el botón ⚙️ Ajustes en la parte superior derecha. Tienes A- (disminuir) y A+ (aumentar). Hay 4 tamaños: pequeña, normal, grande, extra grande.
+
+Para qué sirve el botón de modo oscuro
+El modo oscuro cambia los colores de la pantalla a tonos oscuros. Es ideal para estudiar de noche o en ambientes con poca luz. Actívalo en ⚙️ Ajustes.
+
+Dónde están las instrucciones de la herramienta?
+Haz clic en el botón 📖 Instrucciones en el header (arriba a la derecha). Se abrirá un modal con una explicación completa de las 3 pestañas y funcionalidades.
+
+Qué son los casos prácticos y para qué sirven?
+Son situaciones reales que podrías enfrentar en HOMERIS (Hospital Mental de Risaralda). Sirven para aplicar tus conocimientos de ética, trabajo en equipo y servicio al paciente psiquiátrico.
+
+Cómo verifico antecedentes para el concurso?
+Debes consultar: Procuraduría (antecedentes disciplinarios), Policía Nacional (judiciales), Contraloría (fiscales). Los enlaces están en la pestaña Estudio SIMO > Convocatoria.
+
+Qué significa HOMERIS?
+Es el Hospital Mental de Risaralda. Es la ESE donde el usuario quiere trabajar. ESTUDIO SIMO está diseñado específicamente para preparar enfermeros que buscan ingresar a HOMERIS mediante el concurso ESE 2.
+
+Puedo compartir mis resultados con alguien?
+En Modo Simulacro puedes exportar a PDF y enviar ese archivo. En Modo Estudio no hay exportación, pero puedes copiar los resultados manualmente.
+
+Hay un límite de veces que puedo hacer un examen?
+No. Puedes repetir los exámenes todas las veces que quieras. En Modo Estudio, las preguntas se mantienen fijas para que aprendas. En Modo Simulacro, las preguntas se reorganizan aleatoriamente.
+
+---------------------------
 
 fraseExperto: 💡 Modo Estudio: Aprendes el contenido sin presión, con feedback inmediato. Modo Simulacro: Entrenas tu velocidad, resistencia y conocimiento con tiempo límite y puntaje real. Usa ambos para estar completamente preparado para el concurso SIMO.

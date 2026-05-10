@@ -302,6 +302,11 @@
     <!-- Botón flotante PC (fuera del header) -->
     <button id="asistente-btn">🤖 IA</button>
 
+    <!-- Indicador de carga del asistente -->
+    <div id="asistente-carga" style="display: none; position: fixed; bottom: 80px; right: 20px; background: var(--azul); color: white; padding: 8px 16px; border-radius: 20px; font-size: 0.8rem; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.2);">
+        🤖 Asistente iniciando... <span id="asistente-carga-texto">0%</span>
+    </div>
+
     <script type="module" src="js/casos.js"></script>
     <script type="module" src="js/app.js"></script>
     <script type="module" src="./js/preguntas/index.js"></script>

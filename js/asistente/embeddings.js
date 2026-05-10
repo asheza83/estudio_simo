@@ -12,17 +12,46 @@ let modeloListo = false;
 let colaDeEspera = [];
 
 // ============================================
+// INDICADOR DE CARGA
+// ============================================
+function mostrarProgreso(texto, porcentaje = null) {
+    let div = document.getElementById('asistente-carga');
+    if (!div) return;
+    
+    div.style.display = 'block';
+    div.textContent = `🤖 ${texto}`;
+    if (porcentaje !== null) {
+        div.textContent += ` ${porcentaje}%`;
+    }
+    
+    console.log(`📊 Progreso: ${texto} ${porcentaje ? porcentaje + '%' : ''}`);
+}
+
+function ocultarProgreso() {
+    const div = document.getElementById('asistente-carga');
+    if (div) {
+        setTimeout(() => {
+            div.style.opacity = '0';
+            setTimeout(() => {
+                div.style.display = 'none';
+                div.style.opacity = '1';
+            }, 500);
+        }, 1000);
+    }
+}
+
+// ============================================
 // 1. MOSTRAR INDICADOR DE CARGA
 // ============================================
 function mostrarCargaEnChat() {
     const body = document.getElementById('asistente-body');
     if (!body) return;
     
-    // Solo mostrar si el chat está vacío
-    if (body.children.length === 0) {
+    // Verificar si ya hay mensaje de carga
+    if (body.children.length === 0 || !body.querySelector('.mensaje-carga-modelo')) {
         const div = document.createElement('div');
-        div.className = 'mensaje mensaje-bot';
-        div.textContent = '🤖 Iniciando asistente inteligente... (solo la primera vez tarda unos segundos)';
+        div.className = 'mensaje mensaje-bot mensaje-carga-modelo';
+        div.innerHTML = '🤖 <strong>Iniciando asistente inteligente...</strong><br><small>La primera vez tarda unos segundos descargando el modelo (~70MB). Las siguientes será más rápido.</small>';
         body.appendChild(div);
     }
 }
@@ -31,14 +60,38 @@ function mostrarCargaEnChat() {
 // 2. CARGAR FAQs DESDE faqs.txt
 // ============================================
 async function cargarFAQs() {
-    const response = await fetch('datos/faqs.txt');
+    console.log('🔍 Iniciando carga de faqs.txt...');
+    
+    // Forzar recarga sin caché
+    const response = await fetch('datos/faqs.txt?t=' + Date.now());
+    console.log(`📡 fetch completado, status: ${response.status}`);
+    
     const texto = await response.text();
+    console.log(`📄 Tamaño del archivo: ${texto.length} caracteres`);
+    console.log(`📄 Primeros 200 caracteres: ${texto.substring(0, 200)}...`);
+    console.log(`📄 Últimos 200 caracteres: ${texto.substring(texto.length - 200)}...`);
+    
     const lineas = texto.split('\n');
+    console.log(`📄 Total líneas en el archivo: ${lineas.length}`);
     
     const preguntasRespuestas = [];
+    let lineasProcesadas = 0;
+    
     for (let i = 0; i < lineas.length; i++) {
         const linea = lineas[i].trim();
-        if (linea === '' || linea.startsWith('fraseExperto')) continue;
+        if (linea === '') continue;
+                // Detectar fraseExperto y mostrar línea exacta CON EL CONTENIDO
+        if (linea === 'fraseExperto' || linea.startsWith('fraseExperto:')) {
+            console.log(`⏹️ Posible fin de archivo en línea ${i + 1}`);
+            console.log(`   Contenido sospechoso: "${linea}"`);
+            console.log(`   Total FAQs cargadas hasta ahora: ${preguntasRespuestas.length}`);
+            
+            // Si la línea es EXACTAMENTE "fraseExperto" o empieza con "fraseExperto:", detener
+            if (linea === 'fraseExperto' || linea.startsWith('fraseExperto:')) {
+                console.log(`   ✅ Confirmado: es fraseExperto. Deteniendo.`);
+                break;
+            }
+        }
         if (linea.endsWith('?')) {
             const pregunta = linea;
             let respuesta = '';
@@ -48,11 +101,22 @@ async function cargarFAQs() {
                 j++;
             }
             preguntasRespuestas.push({ pregunta, respuesta: respuesta.trim() });
+            lineasProcesadas++;
             i = j - 1;
+            
+            // Log cada 50 preguntas
+            if (lineasProcesadas % 50 === 0) {
+                console.log(`   ✅ Procesadas ${lineasProcesadas} preguntas... Última: "${pregunta.substring(0, 40)}..."`);
+            }
         }
     }
     
-    console.log(`📚 ${preguntasRespuestas.length} FAQs cargadas desde faqs.txt`);
+    console.log(`📚 TOTAL: ${preguntasRespuestas.length} FAQs cargadas desde faqs.txt`);
+    if (preguntasRespuestas.length > 0) {
+        console.log(`🔍 Primera pregunta: "${preguntasRespuestas[0].pregunta}"`);
+        console.log(`🔍 Última pregunta: "${preguntasRespuestas[preguntasRespuestas.length-1].pregunta}"`);
+    }
+    
     return preguntasRespuestas;
 }
 
@@ -62,31 +126,57 @@ async function cargarFAQs() {
 async function initModelo() {
     if (pipe !== null) return pipe;
     
+    mostrarProgreso('Descargando modelo MiniLM...', 0);
     console.log('🔄 Cargando modelo MiniLM... (~70MB)');
-    mostrarCargaEnChat();
+    
+    // Simular progreso de descarga (porque pipeline no da progreso real)
+    let progreso = 0;
+    const interval = setInterval(() => {
+        if (progreso < 90) {
+            progreso += 10;
+            mostrarProgreso('Descargando modelo MiniLM...', progreso);
+        }
+    }, 500);
     
     pipe = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
+    clearInterval(interval);
     
+    mostrarProgreso('Modelo cargado, leyendo FAQs...', 30);
     console.log('✅ Modelo MiniLM cargado, vectorizando FAQs...');
     
     const faqsRaw = await cargarFAQs();
+    const totalFAQs = faqsRaw.length;
+    console.log(`📋 FAQs crudas recibidas: ${totalFAQs}`);
+    
+    mostrarProgreso('Vectorizando preguntas...', 30);
     faqs = [];
     
-    for (const item of faqsRaw) {
+    for (let i = 0; i < faqsRaw.length; i++) {
+        const item = faqsRaw[i];
         const embedding = await pipe(item.pregunta, { pooling: 'mean', normalize: true });
         faqs.push({
             pregunta: item.pregunta,
             respuesta: item.respuesta,
             vector: Array.from(embedding.data)
         });
+        
+        // Actualizar progreso cada 30 preguntas
+        if (i % 30 === 0 || i === totalFAQs - 1) {
+            const porcentaje = 30 + Math.floor((i / totalFAQs) * 60);
+            mostrarProgreso(`Vectorizando (${i + 1}/${totalFAQs})...`, porcentaje);
+        }
     }
     
     modeloListo = true;
+    mostrarProgreso('Asistente listo', 100);
     console.log(`✅ ${faqs.length} FAQs vectorizadas. Asistente listo.`);
     
     // Ejecutar preguntas pendientes
     colaDeEspera.forEach(cb => cb());
     colaDeEspera = [];
+    
+    // Ocultar después de 2 segundos
+    setTimeout(ocultarProgreso, 2000);
     
     return pipe;
 }
