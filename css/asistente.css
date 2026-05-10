@@ -34,24 +34,7 @@
     right: 28px;
 }
 
-/* Modal del chat */
-#asistente-modal {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 350px;
-    height: 500px;
-    background-color: var(--bg-secundario);
-    border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    z-index: 1001;
-    display: none;
-    flex-direction: column;
-    overflow: hidden;
-    border: 1px solid var(--borde);
-}
-
-/* Overlay */
+/* Overlay - detrás del chat pero sobre el botón Subir */
 #asistente-overlay {
     position: fixed;
     top: 0;
@@ -59,8 +42,27 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
+    z-index: 1001;
     display: none;
+}
+
+/* Modal del chat - tamaño fluido */
+#asistente-modal {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: min(400px, calc(100% - 40px));
+    height: min(600px, 70vh);
+    min-width: 280px;
+    min-height: 400px;
+    background-color: var(--bg-secundario);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    z-index: 1002;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid var(--borde);
 }
 
 /* ============================================
@@ -91,29 +93,92 @@
    RESPONSIVE DEL CHAT
    ============================================ */
 
-/* Móvil vertical (portrait) */
+/* Móvil vertical (portrait) - ocupa casi toda la pantalla */
 @media (max-width: 768px) and (orientation: portrait) {
     #asistente-modal {
-        width: calc(100% - 40px);
-        height: 450px;
-        right: 20px;
-        bottom: 20px;
+        width: calc(100% - 20px);
+        height: 90vh;
+        max-height: none;
+        right: 10px;
+        bottom: 10px;
+        top: 10px;
+        left: 10px;
+        margin: 0;
     }
 }
 
-/* Móvil horizontal (landscape) */
-@media (max-width: 900px) and (orientation: landscape) {
+/* Móvil horizontal (landscape) - pantalla completa */
+@media (max-height: 480px) and (orientation: landscape) {
     #asistente-modal {
-        width: 60%;
-        height: 80%;
-        right: 10px;
-        bottom: 10px;
-        top: auto;
+        position: fixed;
+        top: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        max-height: none !important;
+        min-height: 100% !important;
+        border-radius: 0 !important;
+        margin: 0 !important;
+        transform: none !important;
+    }
+    
+    /* Header más compacto */
+    .asistente-header {
+        flex-shrink: 0;
+        padding: 8px 12px;
+    }
+    
+    .asistente-header span {
+        font-size: 1rem;
+    }
+    
+    /* Body con scroll */
+    .asistente-body {
+        flex: 1;
+        overflow-y: auto;
+        min-height: 0;
+        padding: 8px;
+    }
+    
+    /* Mensajes más compactos */
+    .mensaje {
+        font-size: 0.9rem;
+        padding: 6px 10px;
+    }
+    
+    /* Footer compacto pero visible */
+    .asistente-footer {
+        flex-shrink: 0;
+        padding: 8px;
+    }
+    
+    .asistente-footer input {
+        font-size: 0.85rem;
+        padding: 8px 10px;
+    }
+    
+    .asistente-footer button {
+        font-size: 0.8rem;
+        padding: 8px 12px;
+    }
+}
+
+/* Pantallas muy pequeñas (menos de 480px) */
+@media (max-width: 480px) and (orientation: portrait) {
+    #asistente-modal {
+        width: calc(100% - 10px);
+        height: 92vh;
+        right: 5px;
+        bottom: 5px;
+        top: 5px;
+        left: 5px;
     }
 }
 
 /* ============================================
-   ESTILOS DEL CHAT (sin cambios)
+   ESTILOS DEL CHAT
    ============================================ */
 
 /* Cabecera del chat */
@@ -151,7 +216,7 @@
     max-width: 85%;
     padding: 8px 12px;
     border-radius: 12px;
-    font-size: 0.85rem;
+    font-size: 1.3rem;
     line-height: 1.4;
 }
 
@@ -170,31 +235,99 @@
     border: 1px solid var(--borde);
 }
 
-/* Pie del chat */
+/* ============================================
+   PIE DEL CHAT (INPUT Y BOTÓN)
+   ============================================ */
+
 .asistente-footer {
     padding: 12px;
     display: flex;
+    flex-direction: row;
     gap: 8px;
     border-top: 1px solid var(--borde);
     background-color: var(--bg-secundario);
 }
 
 .asistente-footer input {
-    flex: 1;
-    padding: 8px 12px;
+    flex: 3;
+    padding: 12px 14px;
     border: 1px solid var(--borde);
     border-radius: 20px;
     background-color: var(--bg-principal);
     color: var(--texto-principal);
-    font-size: 0.85rem;
+    font-size: 1.2rem;
 }
 
 .asistente-footer button {
+    flex: 0.6;
     background-color: var(--azul);
     color: white;
     border: none;
     border-radius: 20px;
-    padding: 8px 16px;
+    padding: 12px 8px;
     cursor: pointer;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.asistente-footer button:hover {
+    background-color: var(--azul-hover);
+}
+
+/* Móvil: ajuste fino del footer */
+@media (max-width: 768px) {
+    .asistente-footer input {
+        flex: 3;
+        font-size: 1rem;
+        padding: 10px 12px;
+    }
+    
+    .asistente-footer button {
+        flex: 0.7;
+        font-size: 0.9rem;
+        padding: 10px 8px;
+    }
+}
+
+/* ============================================
+   ANIMACIÓN DEL MODAL DEL CHAT
+   ============================================ */
+
+/* Estado base (oculto) */
+#asistente-modal {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: translateX(100%);
+    opacity: 0;
+    display: flex !important;
+    visibility: hidden;
+}
+
+/* Estado visible */
+#asistente-modal.visible {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Overlay con animación */
+#asistente-overlay {
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#asistente-overlay.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ============================================
+   BOTÓN SUBIR - PRIORIDAD
+   ============================================ */
+
+#btn-subir-biblioteca,
+#btn-subir-ley,
+#btn-subir-resumen {
+    z-index: 1000 !important;
 }

@@ -6,6 +6,36 @@ import { getConocimientoData } from './datos.js';
 import { buscarRespuesta } from './respuestas.js';
 
 let conocimientoData = getConocimientoData();
+let mensajeBienvenida = null;
+
+// ============================================
+// CARGAR BIENVENIDA DESDE FAQS.TXT
+// ============================================
+async function cargarBienvenida() {
+    try {
+        const response = await fetch('datos/faqs.txt');
+        const texto = await response.text();
+        const lineas = texto.split('\n');
+        // La primera línea no vacía que NO empiece con ¿ es la bienvenida
+        for (const linea of lineas) {
+            const lineaTrim = linea.trim();
+            if (lineaTrim !== '' && !lineaTrim.startsWith('¿')) {
+                mensajeBienvenida = "👋 " + lineaTrim;
+                break;
+            }
+        }
+        // Si no se encontró, usar mensaje por defecto
+        if (!mensajeBienvenida) {
+            mensajeBienvenida = "👋 ¡Hola! Soy tu asistente de ESTUDIO SIMO. ¿En qué puedo ayudarte?";
+        }
+    } catch (error) {
+        console.error('Error cargando bienvenida:', error);
+        mensajeBienvenida = "👋 ¡Hola! Soy tu asistente de ESTUDIO SIMO. ¿En qué puedo ayudarte?";
+    }
+}
+
+// Llamar a la función para cargar la bienvenida
+cargarBienvenida();
 
 // Agregar mensaje al chat
 export function agregarMensaje(texto, esUsuario) {
@@ -34,23 +64,58 @@ export function procesarPregunta() {
     }, 300);
 }
 
-// Abrir/Cerrar chat
+// Mostrar/ocultar botones Subir según el estado del chat
+function toggleBotonSubir(chatAbierto) {
+    const btnSubirBiblio = document.getElementById('btn-subir-biblioteca');
+    const btnSubirLey = document.getElementById('btn-subir-ley');
+    
+    if (chatAbierto) {
+        // Ocultar ambos
+        if (btnSubirBiblio) btnSubirBiblio.style.display = 'none';
+        if (btnSubirLey) btnSubirLey.style.display = 'none';
+    } else {
+        // Mostrar solo si el scroll lo permite
+        if (btnSubirBiblio) {
+            btnSubirBiblio.style.display = window.scrollY > 300 ? 'block' : 'none';
+        }
+        if (btnSubirLey) {
+            btnSubirLey.style.display = window.scrollY > 300 ? 'block' : 'none';
+        }
+    }
+}
+
+// Abrir/Cerrar chat con animación
 export function toggleAsistente() {
     const modal = document.getElementById('asistente-modal');
     const overlay = document.getElementById('asistente-overlay');
-    const conocimientoData = getConocimientoData();
     
-    if (modal.style.display === 'flex') {
-        modal.style.display = 'none';
-        if (overlay) overlay.style.display = 'none';
-    } else {
-        modal.style.display = 'flex';
-        if (overlay) overlay.style.display = 'block';
-        if (conocimientoData && conocimientoData.bienvenida) {
-            const body = document.getElementById('asistente-body');
-            if (body && body.children.length === 0) {
-                agregarMensaje(conocimientoData.bienvenida, false);
+    if (modal.classList.contains('visible')) {
+        // Cerrar
+        modal.classList.remove('visible');
+        if (overlay) overlay.classList.remove('visible');
+        setTimeout(() => {
+            if (!modal.classList.contains('visible')) {
+                modal.style.visibility = 'hidden';
+                if (overlay) overlay.style.visibility = 'hidden';
+                toggleBotonSubir(false);
             }
+        }, 300);
+    } else {
+        // Abrir
+        modal.style.visibility = 'visible';
+        if (overlay) overlay.style.visibility = 'visible';
+        toggleBotonSubir(true);
+        setTimeout(() => {
+            modal.classList.add('visible');
+            if (overlay) overlay.classList.add('visible');
+        }, 10);
+        
+        // ========================================
+        // MENSAJE DE BIENVENIDA (solo si el chat está vacío)
+        // ========================================
+        const body = document.getElementById('asistente-body');
+        if (body && body.children.length === 0 && mensajeBienvenida) {
+            agregarMensaje(mensajeBienvenida, false);
         }
     }
 }
