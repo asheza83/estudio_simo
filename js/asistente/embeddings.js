@@ -1,53 +1,60 @@
 // js/asistente/embeddings.js
 // Motor semántico con MiniLM (Transformers.js)
-// Reemplaza a TF-IDF cuando se activa
+// Con pantalla de carga con progreso real
 
 import { pipeline, env } from 'https://cdn.jsdelivr.net/npm/@xenova/transformers@2.7.0';
 
 env.allowRemoteModels = true;
 
 let pipe = null;
-let faqs = [];           // [{ pregunta, respuesta, vector }]
+let faqs = [];
 let modeloListo = false;
 let colaDeEspera = [];
 
 // ============================================
-// INDICADOR DE CARGA
+// POPUP DE CARGA (pantalla completa)
 // ============================================
-function mostrarProgreso(texto, porcentaje = null) {
-    let div = document.getElementById('asistente-carga');
-    if (!div) return;
-    
-    div.style.display = 'block';
-    div.textContent = `🤖 ${texto}`;
-    if (porcentaje !== null) {
-        div.textContent += ` ${porcentaje}%`;
+function mostrarPopupCarga() {
+    const overlay = document.getElementById('loader-overlay');
+    if (overlay) {
+        overlay.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+        document.body.style.pointerEvents = 'none';
     }
-    
-    console.log(`📊 Progreso: ${texto} ${porcentaje ? porcentaje + '%' : ''}`);
 }
 
-function ocultarProgreso() {
-    const div = document.getElementById('asistente-carga');
-    if (div) {
+function actualizarPopup(texto, porcentaje) {
+    const mensaje = document.getElementById('loader-mensaje');
+    const barra = document.getElementById('loader-progress-bar');
+    const porcentajeSpan = document.getElementById('loader-porcentaje');
+    
+    if (mensaje) mensaje.textContent = texto;
+    if (barra) barra.style.width = `${porcentaje}%`;
+    if (porcentajeSpan) porcentajeSpan.textContent = `${porcentaje}%`;
+    
+    console.log(`📊 ${texto} ${porcentaje}%`);
+}
+
+function ocultarPopupCarga() {
+    const overlay = document.getElementById('loader-overlay');
+    if (overlay) {
+        overlay.style.opacity = '0';
         setTimeout(() => {
-            div.style.opacity = '0';
-            setTimeout(() => {
-                div.style.display = 'none';
-                div.style.opacity = '1';
-            }, 500);
-        }, 1000);
+            overlay.style.display = 'none';
+            overlay.style.opacity = '1';
+            document.body.style.overflow = '';
+            document.body.style.pointerEvents = '';
+        }, 500);
     }
 }
 
 // ============================================
-// 1. MOSTRAR INDICADOR DE CARGA
+// MOSTRAR MENSAJE EN CHAT (respaldo)
 // ============================================
 function mostrarCargaEnChat() {
     const body = document.getElementById('asistente-body');
     if (!body) return;
     
-    // Verificar si ya hay mensaje de carga
     if (body.children.length === 0 || !body.querySelector('.mensaje-carga-modelo')) {
         const div = document.createElement('div');
         div.className = 'mensaje mensaje-bot mensaje-carga-modelo';
@@ -57,12 +64,11 @@ function mostrarCargaEnChat() {
 }
 
 // ============================================
-// 2. CARGAR FAQs DESDE faqs.txt
+// CARGAR FAQs DESDE faqs.txt
 // ============================================
 async function cargarFAQs() {
     console.log('🔍 Iniciando carga de faqs.txt...');
     
-    // Forzar recarga sin caché
     const response = await fetch('datos/faqs.txt?t=' + Date.now());
     console.log(`📡 fetch completado, status: ${response.status}`);
     
@@ -80,18 +86,12 @@ async function cargarFAQs() {
     for (let i = 0; i < lineas.length; i++) {
         const linea = lineas[i].trim();
         if (linea === '') continue;
-                // Detectar fraseExperto y mostrar línea exacta CON EL CONTENIDO
+        
         if (linea === 'fraseExperto' || linea.startsWith('fraseExperto:')) {
-            console.log(`⏹️ Posible fin de archivo en línea ${i + 1}`);
-            console.log(`   Contenido sospechoso: "${linea}"`);
-            console.log(`   Total FAQs cargadas hasta ahora: ${preguntasRespuestas.length}`);
-            
-            // Si la línea es EXACTAMENTE "fraseExperto" o empieza con "fraseExperto:", detener
-            if (linea === 'fraseExperto' || linea.startsWith('fraseExperto:')) {
-                console.log(`   ✅ Confirmado: es fraseExperto. Deteniendo.`);
-                break;
-            }
+            console.log(`⏹️ Fin de archivo en línea ${i + 1}`);
+            break;
         }
+        
         if (linea.endsWith('?')) {
             const pregunta = linea;
             let respuesta = '';
@@ -104,51 +104,46 @@ async function cargarFAQs() {
             lineasProcesadas++;
             i = j - 1;
             
-            // Log cada 50 preguntas
             if (lineasProcesadas % 50 === 0) {
-                console.log(`   ✅ Procesadas ${lineasProcesadas} preguntas... Última: "${pregunta.substring(0, 40)}..."`);
+                console.log(`   ✅ Procesadas ${lineasProcesadas} preguntas...`);
             }
         }
     }
     
-    console.log(`📚 TOTAL: ${preguntasRespuestas.length} FAQs cargadas desde faqs.txt`);
-    if (preguntasRespuestas.length > 0) {
-        console.log(`🔍 Primera pregunta: "${preguntasRespuestas[0].pregunta}"`);
-        console.log(`🔍 Última pregunta: "${preguntasRespuestas[preguntasRespuestas.length-1].pregunta}"`);
-    }
-    
+    console.log(`📚 TOTAL: ${preguntasRespuestas.length} FAQs cargadas`);
     return preguntasRespuestas;
 }
 
 // ============================================
-// 3. INICIALIZAR MODELO Y VECTORIZAR
+// INICIALIZAR MODELO Y VECTORIZAR
 // ============================================
 async function initModelo() {
     if (pipe !== null) return pipe;
     
-    mostrarProgreso('Descargando modelo MiniLM...', 0);
+    mostrarPopupCarga();
+    actualizarPopup('Descargando modelo MiniLM...', 0);
     console.log('🔄 Cargando modelo MiniLM... (~70MB)');
     
-    // Simular progreso de descarga (porque pipeline no da progreso real)
-    let progreso = 0;
+    // Simular progreso inicial mientras descarga
+    let progresoSimulado = 0;
     const interval = setInterval(() => {
-        if (progreso < 90) {
-            progreso += 10;
-            mostrarProgreso('Descargando modelo MiniLM...', progreso);
+        if (progresoSimulado < 25) {
+            progresoSimulado += 5;
+            actualizarPopup('Descargando modelo MiniLM...', progresoSimulado);
         }
-    }, 500);
+    }, 300);
     
     pipe = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
     clearInterval(interval);
     
-    mostrarProgreso('Modelo cargado, leyendo FAQs...', 30);
-    console.log('✅ Modelo MiniLM cargado, vectorizando FAQs...');
+    actualizarPopup('Modelo cargado, leyendo FAQs...', 30);
+    console.log('✅ Modelo MiniLM cargado');
     
     const faqsRaw = await cargarFAQs();
     const totalFAQs = faqsRaw.length;
     console.log(`📋 FAQs crudas recibidas: ${totalFAQs}`);
     
-    mostrarProgreso('Vectorizando preguntas...', 30);
+    actualizarPopup('Vectorizando preguntas...', 30);
     faqs = [];
     
     for (let i = 0; i < faqsRaw.length; i++) {
@@ -162,27 +157,32 @@ async function initModelo() {
         
         // Actualizar progreso cada 30 preguntas
         if (i % 30 === 0 || i === totalFAQs - 1) {
-            const porcentaje = 30 + Math.floor((i / totalFAQs) * 60);
-            mostrarProgreso(`Vectorizando (${i + 1}/${totalFAQs})...`, porcentaje);
+            const porcentaje = 30 + Math.floor((i / totalFAQs) * 65);
+            actualizarPopup(`Vectorizando (${i + 1}/${totalFAQs})...`, porcentaje);
+        }
+        
+        // Pequeña pausa para no bloquear la UI
+        if ((i + 1) % 50 === 0) {
+            await new Promise(r => setTimeout(r, 10));
         }
     }
     
     modeloListo = true;
-    mostrarProgreso('Asistente listo', 100);
+    actualizarPopup('Asistente listo', 100);
     console.log(`✅ ${faqs.length} FAQs vectorizadas. Asistente listo.`);
     
     // Ejecutar preguntas pendientes
     colaDeEspera.forEach(cb => cb());
     colaDeEspera = [];
     
-    // Ocultar después de 2 segundos
-    setTimeout(ocultarProgreso, 2000);
+    // Ocultar popup después de 1 segundo
+    setTimeout(ocultarPopupCarga, 1000);
     
     return pipe;
 }
 
 // ============================================
-// 4. SIMILITUD DE COSENO
+// SIMILITUD DE COSENO
 // ============================================
 function similitudCoseno(vecA, vecB) {
     let productoPunto = 0;
@@ -200,10 +200,9 @@ function similitudCoseno(vecA, vecB) {
 }
 
 // ============================================
-// 5. BUSCAR RESPUESTA (misma interfaz que buscarRespuestaTFIDF)
+// BUSCAR RESPUESTA
 // ============================================
 export async function buscarRespuestaTFIDF(preguntaUsuario) {
-    // Esperar a que el modelo esté listo
     if (!modeloListo) {
         await new Promise((resolve) => {
             if (modeloListo) resolve();
@@ -213,42 +212,35 @@ export async function buscarRespuestaTFIDF(preguntaUsuario) {
     
     if (faqs.length === 0) return null;
     
-    // Generar embedding de la pregunta del usuario
     const queryEmbedding = await pipe(preguntaUsuario, { pooling: 'mean', normalize: true });
     const queryVector = Array.from(queryEmbedding.data);
     
-    // Calcular similitud con cada FAQ
     const resultados = [];
     for (const faq of faqs) {
         const similitud = similitudCoseno(queryVector, faq.vector);
         resultados.push({ faq, similitud });
     }
     
-    // Ordenar por similitud (mayor a menor)
     resultados.sort((a, b) => b.similitud - a.similitud);
     
     const UMBRAL = 0.55;
     
     if (resultados.length > 0 && resultados[0].similitud >= UMBRAL) {
-        console.log(`🎯 [MiniLM] Similitud: ${resultados[0].similitud.toFixed(3)} - "${resultados[0].faq.pregunta.substring(0, 50)}..."`);
+        console.log(`🎯 Similitud: ${resultados[0].similitud.toFixed(3)} - "${resultados[0].faq.pregunta.substring(0, 50)}..."`);
         return resultados[0].faq.respuesta;
     }
     
-    console.log(`❌ [MiniLM] No encontró respuesta (máx: ${resultados[0]?.similitud.toFixed(3) || 0})`);
+    console.log(`❌ No encontró respuesta (máx: ${resultados[0]?.similitud.toFixed(3) || 0})`);
     return null;
 }
 
 // ============================================
-// 6. EXPORTAR FUNCIÓN DE CARGA PARA INICIALIZACIÓN
+// EXPORTAR FUNCIONES
 // ============================================
 export async function cargarFAQsVectorizadas() {
     return await initModelo();
 }
 
-
-// ============================================
-// 7. OBTENER LISTA DE FAQs (para datos.js)
-// ============================================
 export async function obtenerFAQsLista() {
     if (!modeloListo) {
         await new Promise((resolve) => {
@@ -258,6 +250,3 @@ export async function obtenerFAQsLista() {
     }
     return faqs.map(f => ({ pregunta: f.pregunta, respuesta: f.respuesta }));
 }
-
-// Iniciar carga en segundo plano al importar este módulo
-//initModelo().catch(console.error);
