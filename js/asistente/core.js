@@ -50,7 +50,7 @@ export function agregarMensaje(texto, esUsuario) {
 }
 
 // Procesar pregunta del usuario
-export function procesarPregunta() {
+export async function procesarPregunta() {
     const input = document.getElementById('asistente-input');
     const pregunta = input.value.trim();
     if (!pregunta) return;
@@ -58,7 +58,7 @@ export function procesarPregunta() {
     agregarMensaje(pregunta, true);
     input.value = '';
     
-    const respuesta = buscarRespuesta(pregunta);
+    const respuesta = await buscarRespuesta(pregunta);
     setTimeout(() => {
         agregarMensaje(respuesta, false);
     }, 300);

@@ -1,34 +1,32 @@
 // ============================================
-// DATOS - Carga del conocimiento (FAQs + TF-IDF)
+// DATOS - Carga del conocimiento (FAQs + MiniLM)
 // ============================================
 
-import { cargarFAQs } from './tfidf.js';
+import { cargarFAQsVectorizadas, obtenerFAQsLista } from './embeddings.js';
 import { setMensajeBienvenida } from './respuestas.js';
 
 export async function cargarConocimiento() {
     try {
-        // Cargar FAQs desde faqs.txt y vectorizar
-        const faqs = await cargarFAQs();
+        // Iniciar MiniLM explícitamente (solo una vez)
+        await cargarFAQsVectorizadas();
         
-        // Establecer mensaje de bienvenida (lo tomamos de la primera FAQ si existe)
-        if (faqs && faqs.length > 0) {
-            // Buscar una pregunta de bienvenida o usar la primera
-            const bienvenidaFAQ = faqs.find(f => f.pregunta.includes('¿Qué es ESTUDIO SIMO?'));
+        const faqsLista = await obtenerFAQsLista();
+        
+        if (faqsLista && faqsLista.length > 0) {
+            const bienvenidaFAQ = faqsLista.find(f => f.pregunta.includes('¿Qué es ESTUDIO SIMO?'));
             if (bienvenidaFAQ) {
                 setMensajeBienvenida(bienvenidaFAQ.respuesta);
             }
         }
         
-        console.log(`✅ Asistente IA: ${faqs.length} FAQs cargadas y vectorizadas`);
+        console.log(`✅ Asistente IA: ${faqsLista?.length || 0} FAQs cargadas con MiniLM`);
         return true;
     } catch (error) {
-        console.error('❌ Error cargando conocimiento:', error);
+        console.error('❌ Error cargando conocimiento con MiniLM:', error);
         return false;
     }
 }
 
-// Mantener compatibilidad con código existente que espera getConocimientoData
 export function getConocimientoData() {
-    // Ya no se usa el JSON anidado, devolvemos null o un objeto vacío
     return null;
 }

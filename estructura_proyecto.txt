@@ -1,5 +1,5 @@
 ESTRUCTURA DE NAVEGACIÓN - ESTUDIO SIMO
-Versión: v3 - Actualizada (Mayo 2026)
+Versión: v4 - Actualizada (Mayo 2026)
 
 
 ============================================
@@ -25,8 +25,9 @@ Versión: v3 - Actualizada (Mayo 2026)
 │   └── Modalidades: Ascenso general, ascenso discapacidad, abierto general, abierto discapacidad
 ├── ¿Qué evalúa SIMO? (6 competencias)
 ├── Contenido específico para enfermería (SGSSS)
-│   ├── Ley 100 de 1993, Ley 1438 de 2011, Ley 1751 de 2015
-│   └── Decreto 780 de 2016
+│   ├── Ley 100 de 1993, Ley 1122 de 2007, Ley 1438 de 2011, Ley 1751 de 2015
+│   ├── Decreto 780 de 2016, Decreto 1011 de 2006
+│   └── Resoluciones: 2292/2021, 3100/2019, 3280/2018, 1995/1999, 1444/2025, 256/2016
 └── Requisitos para enfermería
     ├── Título y tarjeta profesional
     ├── Experiencia según cargo
@@ -45,17 +46,67 @@ Versión: v3 - Actualizada (Mayo 2026)
 │       ├── Título (Art. 152: Definición...)
 │       ├── Texto del contenido
 │       └── Botón subir (para artículos largos)
-├── Listado de normas
+├── Listado de normas (12 normas disponibles)
 │   ├── Ley 100 de 1993
 │   │   ├── Botón volver a normas
 │   │   ├── Texto breve de la ley
 │   │   ├── Buscador de artículos (específico)
-│   │   └── Artículos relevantes (33 artículos)
-│   └── Ley 1438 de 2011
+│   │   └── Artículos relevantes (32 artículos)
+│   ├── Ley 1438 de 2011
+│   │   ├── Botón volver a normas
+│   │   ├── Texto breve de la ley
+│   │   ├── Buscador de artículos (específico)
+│   │   └── Artículos relevantes (10 artículos)
+│   ├── Ley 1122 de 2007
+│   │   ├── Botón volver a normas
+│   │   ├── Texto breve de la ley
+│   │   ├── Buscador de artículos (específico)
+│   │   └── Artículos relevantes (8 artículos)
+│   ├── Ley 1751 de 2015
+│   │   ├── Botón volver a normas
+│   │   ├── Texto breve de la ley
+│   │   ├── Buscador de artículos (específico)
+│   │   └── Artículos relevantes (8 artículos)
+│   ├── Decreto 780 de 2016
+│   │   ├── Botón volver a normas
+│   │   ├── Texto breve de la ley
+│   │   ├── Buscador de artículos (específico)
+│   │   └── Artículos relevantes (12 artículos)
+│   ├── Decreto 1011 de 2006
+│   │   ├── Botón volver a normas
+│   │   ├── Texto breve de la ley
+│   │   ├── Buscador de artículos (específico)
+│   │   └── Artículos relevantes (8 artículos)
+│   ├── Resolución 2292 de 2021
+│   │   ├── Botón volver a normas
+│   │   ├── Texto breve de la ley
+│   │   ├── Buscador de artículos (específico)
+│   │   └── Artículos relevantes (6 artículos)
+│   ├── Resolución 3100 de 2019
+│   │   ├── Botón volver a normas
+│   │   ├── Texto breve de la ley
+│   │   ├── Buscador de artículos (específico)
+│   │   └── Artículos relevantes (4 artículos)
+│   ├── Resolución 3280 de 2018
+│   │   ├── Botón volver a normas
+│   │   ├── Texto breve de la ley
+│   │   ├── Buscador de artículos (específico)
+│   │   └── Artículos relevantes (5 artículos)
+│   ├── Resolución 1995 de 1999
+│   │   ├── Botón volver a normas
+│   │   ├── Texto breve de la ley
+│   │   ├── Buscador de artículos (específico)
+│   │   └── Artículos relevantes (6 artículos)
+│   ├── Resolución 1444 de 2025
+│   │   ├── Botón volver a normas
+│   │   ├── Texto breve de la ley
+│   │   ├── Buscador de artículos (específico)
+│   │   └── Artículos relevantes (6 artículos)
+│   └── Resolución 256 de 2016
 │       ├── Botón volver a normas
 │       ├── Texto breve de la ley
 │       ├── Buscador de artículos (específico)
-│       └── Artículos relevantes (10 artículos)
+│       └── Artículos relevantes (4 artículos)
 
 1.4 Casos prácticos
 ├── Filtros por competencia
@@ -95,14 +146,14 @@ Versión: v3 - Actualizada (Mayo 2026)
     ├── Con temporizador (60 segundos por pregunta)
     ├── Sin feedback durante el examen
     ├── 1 intento por pregunta
-    ├── Cantidad de preguntas: SELECCIONABLE (5, 10, 20, 30, 40, 50)
-    ├── Tiempo total = preguntas × 60 segundos
+    ├── Cantidad de preguntas: 100 preguntas fijas
+    ├── Tiempo total = 100 minutos
     ├── Barra de progreso con colores: 🟢 Verde (>50%), 🟡 Amarillo (20-50%), 🔴 Rojo (<20%)
     └── Últimos 5 segundos parpadean en rojo
 
-2.3 Selectores anidados (ambos modos)
+2.3 Selectores anidados (solo modo estudio)
 ├── Selector 1: Tipo de competencia
-│   ├── 🩺 Competencias funcionales (Leyes 100 y 1438)
+│   ├── 🩺 Competencias funcionales (Leyes 100, 1122, 1438, 1751, Decretos 780, 1011 y Resoluciones 2292, 3100, 3280, 1995, 1444, 256)
 │   ├── 📖 Competencias básicas (Lógica, Matemáticas, Lectura crítica)
 │   └── 🤝 Competencias comportamentales (Ética, Trabajo en equipo, Orientación al servicio)
 └── Selector 2: Subcategoría (se muestra al seleccionar el tipo)
@@ -220,10 +271,11 @@ Versión: v3 - Actualizada (Mayo 2026)
 └── FAQ general (10 preguntas frecuentes)
 
 4.4 Capacidades
-├── Detecta intenciones (23+ intenciones)
-├── Genera contrapreguntas para casos ambiguos
-├── Maneja opciones numéricas (1-6)
-├── Tolera errores de tipeo comunes
+├── Motor TF-IDF para entender preguntas por contexto
+├── Soporte para lenguaje coloquial colombiano (parce, quiubo, que mas, etc.)
+├── Diseño fluido y responsivo (se adapta a PC, móvil y rotación)
+├── Animación de entrada/salida (desliza desde derecha)
+├── Botón Subir se oculta automáticamente al abrir el chat
 └── Responde con emojis y formato amigable
 
 
@@ -277,6 +329,7 @@ Versión: v3 - Actualizada (Mayo 2026)
 7.1 Comportamiento
 ├── Aparece cuando se hace scroll hacia abajo (a partir de 150px)
 ├── Se oculta al volver al inicio
+├── Se oculta automáticamente cuando el chat del asistente está abierto
 └── Texto "Subir" debajo del ícono (en algunos contextos)
 
 7.2 Función
@@ -315,14 +368,14 @@ Versión: v3 - Actualizada (Mayo 2026)
 Este documento refleja la estructura actual del proyecto (Mayo 2026).
 Incluye todas las funcionalidades implementadas:
 - Modo Estudio (5 preguntas fijas)
-- Modo Simulacro (cantidad configurable 5-50 preguntas)
+- Modo Simulacro (100 preguntas, 100 minutos)
 - Temporizador dinámico (60 segundos por pregunta)
 - Barra de progreso con colores
-- Exportar resultados a PDF (solo simulacro)
+- Exportar resultados a PDF (solo simulacro, con indicador de carga)
 - Preguntas falladas colapsable
 - Tiempos (total y promedio) en resultados
-- Asistente IA con 9 módulos
+- Asistente IA con TF-IDF (7 módulos)
 - Sistema de preguntas con 15 módulos
 - Glosario con 142+ términos
 - Casos prácticos con filtros y paginación
-- Normas del sector salud con buscador universal
+- Normas del sector salud con buscador universal (12 normas)

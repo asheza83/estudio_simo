@@ -4,7 +4,7 @@
 
 import { limpiarTexto } from './limpiador.js';
 import { procesarOpcionNumerica } from './numerico.js';
-import { buscarRespuestaTFIDF } from './tfidf.js';
+import { buscarRespuestaTFIDF } from './embeddings.js';
 
 // Variable global para el mensaje de bienvenida
 let mensajeBienvenida = "¡Hola! Soy tu asistente virtual para resolver dudas sobre ESTUDIO SIMO. Puedes preguntarme sobre las pestañas, los modos de estudio, el glosario, las normas, los resultados, o cualquier duda sobre el concurso ESE 2. Estoy aquí para ayudarte en todo momento.";
@@ -21,9 +21,28 @@ function normalizarTexto(texto) {
         .trim();
 }
 
-function esSaludo(texto) {
+function esSoloSaludo(texto) {
     const textoNorm = normalizarTexto(texto);
-    const saludos = ['hola', 'buenas', 'saludos', 'buenos dias', 'buenas tardes', 'buenas noches', 'que tal', 'como estas', 'como va', 'como has estado', 'como te va', 'hey', 'heyy', 'ey', 'oye', 'epa', 'quiubo', 'que hubo', 'que mas', 'parcero', 'parce', 'amigo', 'jefe', 'don', 'hello', 'hi'];
+    
+    // Palabras que indican que el usuario está haciendo una pregunta real
+    const palabrasPregunta = ['que', 'qué', 'cual', 'cuál', 'como', 'cómo', 
+                              'donde', 'dónde', 'cuando', 'cuándo', 'quien', 'quién',
+                              'que es', 'qué es', 'para que', 'para qué'];
+    
+    for (const palabra of palabrasPregunta) {
+        if (textoNorm.includes(palabra)) {
+            return false;
+        }
+    }
+    
+    const palabras = textoNorm.split(/\s+/);
+    if (palabras.length > 4) return false;
+    
+    const saludos = ['hola', 'buenas', 'saludos', 'buenos dias', 'buenas tardes', 
+                     'buenas noches', 'que tal', 'como estas', 'como va', 'como has estado',
+                     'como te va', 'hey', 'heyy', 'ey', 'oye', 'epa', 'quiubo', 'que hubo', 
+                     'que mas', 'parcero', 'parce', 'amigo', 'jefe', 'don', 'hello', 'hi'];
+    
     for (const saludo of saludos) {
         if (textoNorm.includes(saludo)) {
             return true;
@@ -43,7 +62,7 @@ function esAyuda(texto) {
     return false;
 }
 
-export function buscarRespuesta(pregunta) {
+export async function buscarRespuesta(pregunta) {
     // ========================================
     // 1. CORRECTOR DE TIPOS COMUNES
     // ========================================
@@ -71,9 +90,9 @@ export function buscarRespuesta(pregunta) {
     if (respuestaNumerica) return respuestaNumerica;
     
     // ========================================
-    // 3. SALUDOS
+    // 3. SALUDOS (solo si no hay pregunta)
     // ========================================
-    if (esSaludo(texto)) {
+    if (esSoloSaludo(texto)) {
         return "👋 ¡Hola! ¿En qué puedo ayudarte hoy? Puedes preguntarme sobre los modos de estudio, la convocatoria, el glosario, o cualquier duda sobre ESTUDIO SIMO.";
     }
     
@@ -85,9 +104,9 @@ export function buscarRespuesta(pregunta) {
     }
     
     // ========================================
-    // 5. TF-IDF (entiende por contexto)
+    // 5. MiniLM (entiende por contexto semántico)
     // ========================================
-    const respuesta = buscarRespuestaTFIDF(texto);
+    const respuesta = await buscarRespuestaTFIDF(texto);
     
     if (respuesta) {
         return respuesta;
