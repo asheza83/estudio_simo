@@ -5,9 +5,9 @@
 
 /* Clases para tamaño de letra - FUERA del :root */
 body.font-small { font-size: 14px; }
-body.font-normal { font-size: 16px; }
-body.font-large { font-size: 18px; }
-body.font-xlarge { font-size: 20px; }
+body.font-normal { font-size: 18px; }
+body.font-large { font-size: 22px; }
+body.font-xlarge { font-size: 26px; }
 
 /* Ajustes específicos para que los elementos hereden correctamente */
 body.font-small .glosario-termino,
