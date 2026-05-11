@@ -387,3 +387,30 @@
         font-size: 18px;
     }
 }
+
+/* ============================================
+   ANIMACIÓN PARA SELECTORES DE COMPETENCIA
+   ============================================ */
+
+/* Estado inicial (oculto visualmente pero presente en el DOM) */
+#selectores-competencia {
+    transition: background-color 0.3s ease;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+/* Cuando se añade la clase 'visible', aparece con animación */
+#selectores-competencia.visible {
+    animation: fadeInUp 0.3s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

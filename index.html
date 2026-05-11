@@ -471,6 +471,11 @@
                 subSelect.disabled = true;
             }
             
+            const selectoresDiv = document.getElementById('selectores-competencia');
+            if (selectoresDiv) {
+                selectoresDiv.classList.remove('visible');
+            }
+            
             const btnExamen = document.getElementById('btn-comenzar-examen');
             if (btnExamen) btnExamen.disabled = true;
         }
@@ -490,9 +495,38 @@
                 window.modoSeleccionado = 'estudio';
                 if (window.setModoEvaluacion) window.setModoEvaluacion('estudio');
                 
-                if (selectoresDiv) selectoresDiv.style.display = 'block';
+                if (selectoresDiv) {
+                    selectoresDiv.style.display = 'block';
+                    selectoresDiv.style.opacity = '0';
+                    selectoresDiv.style.transform = 'translateY(-10px)';
+                    
+                    // Forzar reflow
+                    selectoresDiv.offsetHeight;
+                    
+                    selectoresDiv.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+                    selectoresDiv.style.opacity = '1';
+                    selectoresDiv.style.transform = 'translateY(0)';
+                }
                 btnExamen.disabled = true;
-                reiniciarSelectores();  // Solo aquí
+                reiniciarSelectores();
+                
+                // Scroll suave después de la animación
+                setTimeout(() => {
+                    scrollSuaveAElemento('selectores-competencia', 100);
+                    
+                    // Efecto de resaltado temporal
+                    if (selectoresDiv) {
+                        selectoresDiv.style.transition = 'background-color 0.3s ease';
+                        selectoresDiv.style.backgroundColor = 'rgba(13, 110, 253, 0.1)';
+                        setTimeout(() => {
+                            selectoresDiv.style.backgroundColor = '';
+                        }, 800);
+                    }
+                    
+                    // Focus en el primer selector
+                    const tipoSelect = document.getElementById('tipo-competencia');
+                    if (tipoSelect) tipoSelect.focus();
+                }, 350);
                 
             } else if (modo === 'simulacro') {
                 modoEstudioCard.style.opacity = '0.7';
@@ -506,7 +540,6 @@
                 btnExamen.disabled = false;
             }
         }
-
         
         /**************************************/
         /* MODAL DE BIENVENIDA (PRIMERA VEZ)  */
@@ -617,6 +650,19 @@
                     document.getElementById('btn-cerrar-bienvenida')?.addEventListener('click', cerrarModalBienvenida);
                 }
             }
+        }
+
+        function scrollSuaveAElemento(elementoId, offset = 80) {
+            const elemento = document.getElementById(elementoId);
+            if (!elemento) return;
+            
+            const elementoRect = elemento.getBoundingClientRect();
+            const offsetTop = elementoRect.top + window.scrollY - offset;
+            
+            window.scrollTo({
+                top: offsetTop,
+                behavior: 'smooth'
+            });
         }
 
         function mostrarModalBienvenida() {
