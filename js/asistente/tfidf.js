@@ -181,7 +181,7 @@ export function buscarRespuestaTFIDF(preguntaUsuario, topN = 3) {
     
     const UMBRAL = 0.30;
     const candidatos = resultados.filter(r => r.similitud >= UMBRAL);
-    
+     
     if (candidatos.length === 0) return null;
     
     const topCandidatos = candidatos.slice(0, topN);
