@@ -98,3 +98,108 @@
 body.modal-abierto #btn-subir-biblioteca {
     display: none !important;
 }
+
+/* ============================================
+   MODAL DE BIENVENIDA
+   ============================================ */
+
+/* Contenedor del modal de bienvenida */
+#modal-bienvenida {
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contenido del modal de bienvenida */
+#modal-bienvenida-contenido {
+    display: flex;
+    flex-direction: column;
+    max-height: 85vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+/* ============================================
+   MODO PRIMERA VEZ (botón aparece al final del scroll)
+   ============================================ */
+
+#modal-bienvenida-contenido.primera-vez {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+/* Botón oculto por defecto */
+#modal-bienvenida-contenido.primera-vez #btn-cerrar-bienvenida {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    width: calc(100% - 48px);
+    margin: 20px auto 0;
+    background-color: var(--azul);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: block;
+}
+
+/* Botón visible cuando se alcanza el final */
+#modal-bienvenida-contenido.primera-vez #btn-cerrar-bienvenida.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ============================================
+   MODO MANUAL (botón con banda blanca)
+   ============================================ */
+
+#modal-bienvenida-contenido:not(.primera-vez) {
+    padding-bottom: 20px;
+}
+
+/* Banda blanca semitransparente que envuelve el botón */
+#modal-bienvenida-contenido:not(.primera-vez) .boton-wrapper {
+    position: sticky;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 16px 24px;
+    margin: 0 -24px -24px -24px;
+    border-radius: 0 0 20px 20px;
+    backdrop-filter: blur(4px);
+    z-index: 10;
+}
+
+/* Modo oscuro: banda más oscura */
+body.dark-mode #modal-bienvenida-contenido:not(.primera-vez) .boton-wrapper {
+    background: rgba(30, 30, 50, 0.95);
+}
+
+/* Botón dentro de la banda */
+#modal-bienvenida-contenido:not(.primera-vez) #btn-cerrar-bienvenida {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+/* ============================================
+   AJUSTES PARA MÓVIL
+   ============================================ */
+
+@media (max-width: 768px) {
+    /* Modo primera vez */
+    #modal-bienvenida-contenido.primera-vez #btn-cerrar-bienvenida {
+        width: calc(100% - 40px);
+        left: 20px;
+        right: 20px;
+        bottom: 12px;
+        padding: 14px;
+        font-size: 1.1rem;
+    }
+    
+    #modal-bienvenida-contenido.primera-vez {
+        padding-bottom: 70px;
+    }
+    
+    /* Modo manual - banda */
+    #modal-bienvenida-contenido:not(.primera-vez) .boton-wrapper {
+        padding: 12px 20px;
+        margin: 0 -20px -20px -20px;
+    }
+}

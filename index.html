@@ -544,7 +544,7 @@
         /**************************************/
         /* MODAL DE BIENVENIDA (PRIMERA VEZ)  */
         /**************************************/
-        async function cargarModalBienvenida() {
+        async function cargarModalBienvenida(esPrimeraVez = true) {
             try {
                 const response = await fetch('datos/bienvenida.json');
                 const data = await response.json();
@@ -572,7 +572,7 @@
                     });
                 }
                 
-                // Construir competencias (si existe)
+                // Construir competencias
                 let competenciasHtml = '';
                 if (data.competencias && data.competencias.lista) {
                     competenciasHtml = `
@@ -585,7 +585,7 @@
                     `;
                 }
                 
-                // Construir funcionalidades globales
+                // Construir funcionalidades
                 let funcionalidadesHtml = '';
                 if (data.funcionalidades && data.funcionalidades.length > 0) {
                     funcionalidadesHtml = `<div style="margin: 15px 0;"><p style="font-weight: bold; margin-bottom: 8px;">⚙️ Funcionalidades importantes:</p>`;
@@ -610,6 +610,11 @@
                     consejosHtml += '</div>';
                 }
                 
+                // BOTÓN: con o sin wrapper según el modo
+                const botonHtml = esPrimeraVez 
+                    ? `<button id="btn-cerrar-bienvenida" class="boton-reiniciar" style="width: 100%; padding: 10px;">📌 Entendido, comenzar</button>`
+                    : `<div class="boton-wrapper"><button id="btn-cerrar-bienvenida" class="boton-reiniciar" style="width: 100%; padding: 10px;">📌 Entendido, comenzar</button></div>`;
+                
                 contenido.innerHTML = `
                     <div style="text-align: center; margin-bottom: 15px;">
                         <span style="font-size: 2.5rem;">🏥</span>
@@ -628,15 +633,33 @@
                     ${data.fraseExperto ? `<div style="background-color: rgba(25, 135, 84, 0.1); padding: 10px; border-radius: 10px; margin-bottom: 15px; border-left: 3px solid var(--exito);">
                         <p style="font-size: 1.1rem; margin: 0; color: var(--texto-secundario); font-style: italic;">“${data.fraseExperto}”</p>
                     </div>` : ''}
-                    <button id="btn-cerrar-bienvenida" class="boton-reiniciar" style="width: 100%; padding: 10px;">📌 Entendido, comenzar</button>
+                    ${botonHtml}
                 `;
                 
                 document.getElementById('btn-cerrar-bienvenida').addEventListener('click', cerrarModalBienvenida);
+                
+                // 👇 SCROLL AL INICIO si es modo manual (Instrucciones)
+                if (!esPrimeraVez) {
+                    setTimeout(() => {
+                        contenido.scrollTop = 0;
+                    }, 100);
+                }
+                
+                // Activar observador solo en primera vez
+                if (esPrimeraVez) {
+                    setTimeout(() => {
+                        observarFinDelModal();
+                    }, 100);
+                }
                 
             } catch (error) {
                 console.error('Error cargando bienvenida.json:', error);
                 const contenido = document.getElementById('modal-bienvenida-contenido');
                 if (contenido) {
+                    const botonHtmlError = esPrimeraVez
+                        ? `<button id="btn-cerrar-bienvenida" class="boton-reiniciar" style="width: 100%; margin-top: 15px;">📌 Entendido, comenzar</button>`
+                        : `<div class="boton-wrapper"><button id="btn-cerrar-bienvenida" class="boton-reiniciar" style="width: 100%; margin-top: 15px;">📌 Entendido, comenzar</button></div>`;
+                    
                     contenido.innerHTML = `
                         <div style="text-align: center;">
                             <span style="font-size: 2rem;">🏥</span>
@@ -644,10 +667,17 @@
                             <p style="color: var(--texto-secundario);">Preparación para el concurso de méritos ESE 2</p>
                             <hr style="border: 1px solid var(--borde); margin: 15px 0;">
                             <p style="text-align: left; font-size: 1.1rem;">La herramienta cuenta con tres pestañas: Estudio SIMO (convocatoria, normas y casos), Preguntas (modo estudio y simulacro) y Glosario (más de 140 términos).</p>
-                            <button id="btn-cerrar-bienvenida" class="boton-reiniciar" style="width: 100%; margin-top: 15px;">📌 Entendido, comenzar</button>
+                            ${botonHtmlError}
                         </div>
                     `;
                     document.getElementById('btn-cerrar-bienvenida')?.addEventListener('click', cerrarModalBienvenida);
+                    
+                    // También scroll al inicio en caso de error
+                    if (!esPrimeraVez) {
+                        setTimeout(() => {
+                            contenido.scrollTop = 0;
+                        }, 100);
+                    }
                 }
             }
         }
@@ -665,11 +695,18 @@
             });
         }
 
-        function mostrarModalBienvenida() {
+        function mostrarModalBienvenida(esPrimeraVez = true) {
             const modal = document.getElementById('modal-bienvenida');
-            if (modal) {
+            const contenido = document.getElementById('modal-bienvenida-contenido');
+            
+            if (modal && contenido) {
+                if (esPrimeraVez) {
+                    contenido.classList.add('primera-vez');
+                } else {
+                    contenido.classList.remove('primera-vez');
+                }
                 modal.style.display = 'flex';
-                cargarModalBienvenida();
+                cargarModalBienvenida(esPrimeraVez);
             }
         }
 
@@ -685,7 +722,7 @@
             const yaVio = localStorage.getItem('bienvenidaVista');
             if (!yaVio) {
                 setTimeout(() => {
-                    mostrarModalBienvenida();
+                    mostrarModalBienvenida(true); // Primera vez
                 }, 500);
             }
         }
@@ -695,9 +732,9 @@
             verificarPrimeraVez();
         });
 
-                // Botón de ayuda (abre el modal de bienvenida manualmente)
+        // Botón de ayuda (abre el modal de bienvenida manualmente)
         function abrirAyuda() {
-            mostrarModalBienvenida();
+            mostrarModalBienvenida(false); // Manual: sin clase primera-vez, con banda
         }
 
         // Event listener para el botón de ayuda
@@ -713,6 +750,37 @@
         // Al final del script, después de window.modoSeleccionado = 'estudio';
         if (window.setModoEvaluacion) {
             window.setModoEvaluacion('estudio');
+        }
+
+        function observarFinDelModal() {
+            const contenido = document.getElementById('modal-bienvenida-contenido');
+            const boton = document.getElementById('btn-cerrar-bienvenida');
+            
+            if (!contenido || !boton || !contenido.classList.contains('primera-vez')) return;
+            
+            // Crear un elemento centinela al final del contenido
+            let centinela = document.getElementById('centinela-fin-modal');
+            if (!centinela) {
+                centinela = document.createElement('div');
+                centinela.id = 'centinela-fin-modal';
+                centinela.style.height = '1px';
+                centinela.style.width = '100%';
+                centinela.style.opacity = '0';
+                contenido.appendChild(centinela);
+            }
+            
+            // Observador para detectar cuando el centinela entra en vista
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        boton.classList.add('visible');
+                    } else {
+                        boton.classList.remove('visible');
+                    }
+                });
+            }, { threshold: 0.5 });
+            
+            observer.observe(centinela);
         }
     </script>
 </body>
