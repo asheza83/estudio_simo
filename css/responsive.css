@@ -288,3 +288,102 @@
         font-size: 1.2rem !important;
     }
 }
+
+/* ============================================
+   MEJORA DEL SELECTOR DE SECCIÓN EN MÓVIL
+   ============================================ */
+
+/* Para todos los dispositivos */
+#seccionEstudio {
+    padding: 14px 12px;
+    font-size: 16px;
+    border-radius: 12px;
+    background-color: var(--bg-principal);
+    color: var(--texto-principal);
+    border: 1px solid var(--borde);
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+}
+
+/* En móvil, aún más grande */
+@media (max-width: 768px) {
+    #seccionEstudio {
+        padding: 16px 12px;
+        font-size: 18px;
+        background-size: 20px;
+    }
+    
+    /* Las opciones del selector también más grandes */
+    #seccionEstudio option {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
+
+/* Selectores de competencia en pestaña Preguntas */
+.filtro-select,
+#tipo-competencia,
+#subcategoria-competencia {
+    width: 100%;
+    padding: 14px 12px;
+    font-size: 18px;
+    border-radius: 12px;
+    background-color: var(--bg-principal);
+    color: var(--texto-principal);
+    border: 1px solid var(--borde);
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+    .filtro-select,
+    #tipo-competencia,
+    #subcategoria-competencia {
+        padding: 16px 12px;
+        font-size: 18px;
+    }
+}
+
+/* ============================================
+   BUSCADORES (Universal y Glosario)
+   ============================================ */
+
+/* Buscador universal de leyes */
+#buscadorUniversal.buscador {
+    width: 100%;
+    padding: 14px 12px;
+    font-size: 16px;
+    border-radius: 12px;
+    background-color: var(--bg-principal);
+    color: var(--texto-principal);
+    border: 1px solid var(--borde);
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* Buscador del glosario */
+#buscadorGlosario.buscador {
+    width: 100%;
+    padding: 14px 12px;
+    font-size: 16px;
+    border-radius: 12px;
+    background-color: var(--bg-principal);
+    color: var(--texto-principal);
+    border: 1px solid var(--borde);
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* En móvil, aún más grandes */
+@media (max-width: 768px) {
+    #buscadorUniversal.buscador,
+    #buscadorGlosario.buscador {
+        padding: 16px 12px;
+        font-size: 18px;
+    }
+}
