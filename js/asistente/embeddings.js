@@ -1,18 +1,18 @@
 // js/asistente/embeddings.js
-// Motor semántico con MiniLM (Transformers.js)
-// Con pantalla de carga con progreso real
+// Versión OPTIMIZADA - Usa embeddings pre-calculados
+// Solo calcula embedding de la pregunta del usuario
 
 import { pipeline, env } from 'https://cdn.jsdelivr.net/npm/@xenova/transformers@2.7.0';
 
 env.allowRemoteModels = true;
 
-let pipe = null;
 let faqs = [];
 let modeloListo = false;
 let colaDeEspera = [];
+let queryModel = null;
 
 // ============================================
-// POPUP DE CARGA (pantalla completa)
+// POPUP DE CARGA
 // ============================================
 function mostrarPopupCarga() {
     const overlay = document.getElementById('loader-overlay');
@@ -49,136 +49,49 @@ function ocultarPopupCarga() {
 }
 
 // ============================================
-// MOSTRAR MENSAJE EN CHAT (respaldo)
+// CARGAR EMBEDDINGS PRE-CALCULADOS
 // ============================================
-function mostrarCargaEnChat() {
-    const body = document.getElementById('asistente-body');
-    if (!body) return;
-    
-    if (body.children.length === 0 || !body.querySelector('.mensaje-carga-modelo')) {
-        const div = document.createElement('div');
-        div.className = 'mensaje mensaje-bot mensaje-carga-modelo';
-        div.innerHTML = '🤖 <strong>Iniciando asistente inteligente...</strong><br><small>La primera vez tarda unos segundos descargando el modelo (~70MB). Las siguientes será más rápido.</small>';
-        body.appendChild(div);
-    }
-}
-
-// ============================================
-// CARGAR FAQs DESDE faqs.txt
-// ============================================
-async function cargarFAQs() {
-    console.log('🔍 Iniciando carga de faqs.txt...');
-    
-    const response = await fetch('datos/faqs.txt?t=' + Date.now());
-    console.log(`📡 fetch completado, status: ${response.status}`);
-    
-    const texto = await response.text();
-    console.log(`📄 Tamaño del archivo: ${texto.length} caracteres`);
-    console.log(`📄 Primeros 200 caracteres: ${texto.substring(0, 200)}...`);
-    console.log(`📄 Últimos 200 caracteres: ${texto.substring(texto.length - 200)}...`);
-    
-    const lineas = texto.split('\n');
-    console.log(`📄 Total líneas en el archivo: ${lineas.length}`);
-    
-    const preguntasRespuestas = [];
-    let lineasProcesadas = 0;
-    
-    for (let i = 0; i < lineas.length; i++) {
-        const linea = lineas[i].trim();
-        if (linea === '') continue;
-        
-        if (linea === 'fraseExperto' || linea.startsWith('fraseExperto:')) {
-            console.log(`⏹️ Fin de archivo en línea ${i + 1}`);
-            break;
-        }
-        
-        if (linea.endsWith('?')) {
-            const pregunta = linea;
-            let respuesta = '';
-            let j = i + 1;
-            while (j < lineas.length && lineas[j].trim() !== '' && !lineas[j].trim().endsWith('?')) {
-                respuesta += lineas[j].trim() + ' ';
-                j++;
-            }
-            preguntasRespuestas.push({ pregunta, respuesta: respuesta.trim() });
-            lineasProcesadas++;
-            i = j - 1;
-            
-            if (lineasProcesadas % 50 === 0) {
-                console.log(`   ✅ Procesadas ${lineasProcesadas} preguntas...`);
-            }
-        }
-    }
-    
-    console.log(`📚 TOTAL: ${preguntasRespuestas.length} FAQs cargadas`);
-    return preguntasRespuestas;
-}
-
-// ============================================
-// INICIALIZAR MODELO Y VECTORIZAR
-// ============================================
-async function initModelo() {
-    if (pipe !== null) return pipe;
-    
+async function cargarEmbeddings() {
     mostrarPopupCarga();
-    actualizarPopup('Descargando modelo MiniLM...', 0);
-    console.log('🔄 Cargando modelo MiniLM... (~70MB)');
+    actualizarPopup('Cargando base de conocimiento...', 0);
     
-    // Simular progreso inicial mientras descarga
-    let progresoSimulado = 0;
+    console.log('🔍 Cargando embeddings pre-calculados...');
+    
+    let progreso = 0;
     const interval = setInterval(() => {
-        if (progresoSimulado < 25) {
-            progresoSimulado += 5;
-            actualizarPopup('Descargando modelo MiniLM...', progresoSimulado);
+        if (progreso < 90) {
+            progreso += 15;
+            actualizarPopup('Cargando base de conocimiento...', progreso);
         }
-    }, 300);
+    }, 100);
     
-    pipe = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
+    const response = await fetch('datos/faqs_embeddings.json?t=' + Date.now());
+    const data = await response.json();
+    
     clearInterval(interval);
     
-    actualizarPopup('Modelo cargado, leyendo FAQs...', 30);
-    console.log('✅ Modelo MiniLM cargado');
-    
-    const faqsRaw = await cargarFAQs();
-    const totalFAQs = faqsRaw.length;
-    console.log(`📋 FAQs crudas recibidas: ${totalFAQs}`);
-    
-    actualizarPopup('Vectorizando preguntas...', 30);
-    faqs = [];
-    
-    for (let i = 0; i < faqsRaw.length; i++) {
-        const item = faqsRaw[i];
-        const embedding = await pipe(item.pregunta, { pooling: 'mean', normalize: true });
-        faqs.push({
-            pregunta: item.pregunta,
-            respuesta: item.respuesta,
-            vector: Array.from(embedding.data)
-        });
-        
-        // Actualizar progreso cada 30 preguntas
-        if (i % 30 === 0 || i === totalFAQs - 1) {
-            const porcentaje = 30 + Math.floor((i / totalFAQs) * 65);
-            actualizarPopup(`Vectorizando (${i + 1}/${totalFAQs})...`, porcentaje);
-        }
-        
-        // Pequeña pausa para no bloquear la UI
-        if ((i + 1) % 50 === 0) {
-            await new Promise(r => setTimeout(r, 10));
-        }
-    }
-    
+    faqs = data;
     modeloListo = true;
-    actualizarPopup('Asistente listo', 100);
-    console.log(`✅ ${faqs.length} FAQs vectorizadas. Asistente listo.`);
     
-    // Ejecutar preguntas pendientes
+    actualizarPopup('Asistente listo', 100);
+    console.log(`✅ ${faqs.length} FAQs cargadas (pre-calculadas)`);
+    
     colaDeEspera.forEach(cb => cb());
     colaDeEspera = [];
     
-    // Ocultar popup después de 1 segundo
     setTimeout(ocultarPopupCarga, 1000);
-    
-    return pipe;
+}
+
+// ============================================
+// CARGAR MODELO PARA PREGUNTAS (solo una vez)
+// ============================================
+async function getQueryModel() {
+    if (!queryModel) {
+        console.log('🔄 Cargando modelo para preguntas...');
+        queryModel = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
+        console.log('✅ Modelo de preguntas listo');
+    }
+    return queryModel;
 }
 
 // ============================================
@@ -212,12 +125,15 @@ export async function buscarRespuestaTFIDF(preguntaUsuario) {
     
     if (faqs.length === 0) return null;
     
+    // Calcular embedding SOLO de la pregunta del usuario
+    const pipe = await getQueryModel();
     const queryEmbedding = await pipe(preguntaUsuario, { pooling: 'mean', normalize: true });
     const queryVector = Array.from(queryEmbedding.data);
     
+    // Comparar con FAQs pre-calculadas
     const resultados = [];
     for (const faq of faqs) {
-        const similitud = similitudCoseno(queryVector, faq.vector);
+        const similitud = similitudCoseno(queryVector, faq.embedding);
         resultados.push({ faq, similitud });
     }
     
@@ -226,19 +142,22 @@ export async function buscarRespuestaTFIDF(preguntaUsuario) {
     const UMBRAL = 0.55;
     
     if (resultados.length > 0 && resultados[0].similitud >= UMBRAL) {
-        console.log(`🎯 Similitud: ${resultados[0].similitud.toFixed(3)} - "${resultados[0].faq.pregunta.substring(0, 50)}..."`);
+        console.log(`🎯 Similitud: ${resultados[0].similitud.toFixed(3)}`);
+        console.log(`📖 FAQ encontrada: "${resultados[0].faq.pregunta}"`);
+        console.log(`💬 Respuesta: "${resultados[0].faq.respuesta}"`);
         return resultados[0].faq.respuesta;
     }
     
     console.log(`❌ No encontró respuesta (máx: ${resultados[0]?.similitud.toFixed(3) || 0})`);
-    return null;
+    return "No estoy seguro de haber entendido tu pregunta. ¿Podrías ser más específico?";
 }
 
 // ============================================
 // EXPORTAR FUNCIONES
 // ============================================
 export async function cargarFAQsVectorizadas() {
-    return await initModelo();
+    await cargarEmbeddings();
+    return true;
 }
 
 export async function obtenerFAQsLista() {

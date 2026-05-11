@@ -3,7 +3,6 @@
 // ============================================
 
 import { cargarFAQsVectorizadas, obtenerFAQsLista } from './embeddings.js';
-import { setMensajeBienvenida } from './respuestas.js';
 
 export async function cargarConocimiento() {
     try {
@@ -11,13 +10,6 @@ export async function cargarConocimiento() {
         await cargarFAQsVectorizadas();
         
         const faqsLista = await obtenerFAQsLista();
-        
-        if (faqsLista && faqsLista.length > 0) {
-            const bienvenidaFAQ = faqsLista.find(f => f.pregunta.includes('¿Qué es ESTUDIO SIMO?'));
-            if (bienvenidaFAQ) {
-                setMensajeBienvenida(bienvenidaFAQ.respuesta);
-            }
-        }
         
         console.log(`✅ Asistente IA: ${faqsLista?.length || 0} FAQs cargadas con MiniLM`);
         return true;
