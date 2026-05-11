@@ -66,6 +66,11 @@ async function cargarEmbeddings() {
     }, 100);
     
     const response = await fetch('datos/faqs_embeddings.json?t=' + Date.now());
+
+    /*const response = await fetch('datos/faqs_embeddings.json', {
+        cache: 'force-cache'
+    });*/
+    
     const data = await response.json();
     
     clearInterval(interval);
