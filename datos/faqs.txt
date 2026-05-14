@@ -4792,6 +4792,861 @@ En la pestaña Preguntas tienes dos modalidades: Modo Estudio y Modo Simulacro.
 modalidades de examen
 Las modalidades de examen son: Estudio (sin tiempo, feedback inmediato) y Simulacro (con tiempo, sin feedback hasta el final).
 
+¿Qué es eso de SIMO y de la CNSC?
+SIMO es el aplicativo oficial de la CNSC para concursos de méritos, y la CNSC es la Comisión Nacional del Servicio Civil, entidad autónoma que organiza los concursos.
+
+Explícame qué son la plataforma SIMO y la Comisión Nacional del Servicio Civil.
+SIMO es el sistema de la CNSC donde te inscribes a concursos públicos, y la CNSC es la entidad estatal que administra los concursos de méritos para empleos de carrera.
+
+Dime qué significan SIMO y CNSC, y para qué sirve cada uno.
+SIMO es la plataforma tecnológica para concursos de la CNSC; la CNSC es la Comisión Nacional del Servicio Civil, máxima autoridad en ingreso por mérito al servicio público.
+
+Necesito saber qué es SIMO y qué es la CNSC, diferenciados.
+SIMO es el sistema de información para concursos; la CNSC es la entidad que los regula y vigila. Ambas trabajan juntas para garantizar el mérito en el empleo público.
+
+¿En qué mes puedo inscribirme para el concurso de enfermería en HOMERIS?
+Las inscripciones son entre julio y agosto de 2026. Las pruebas escritas se realizan después del cierre de inscripciones, aún sin fecha exacta.
+
+¿Cuándo es el concurso de la CNSC para escoger auxiliares de enfermería para HOMERIS?
+El periodo de inscripción es segundo semestre de 2026 (julio-agosto). Las pruebas se programan después; consulta la página de la CNSC para fechas precisas.
+
+¿En qué fecha se llevan a cabo las pruebas de selección de la CNSC para el hospital mental de Risaralda?
+Aún no hay fechas concretas de las pruebas, pero las inscripciones serán entre julio y agosto de 2026. Las pruebas serán después de ese periodo.
+
+Quiero saber el mes exacto de las pruebas del concurso de la CNSC para HOMERIS.
+La CNSC aún no ha publicado el calendario de pruebas. Solo se sabe que las inscripciones son en julio-agosto 2026; las pruebas vienen después.
+
+¿No hay inconveniente que ya esté trabajando en la ESE?
+No, no hay inconveniente. Puedes concursar en la modalidad de ascenso (para subir de cargo dentro de la misma ESE) o en abierto general (para cambiar de ESE o cargo). Ser empleado actual no te inhabilita.
+
+¿Puedo presentarme al concurso si ya soy empleado de una ESE? ¿Me afecta?
+Puedes participar sin problema. Si quieres ascender, usa la modalidad ascenso; si quieres cambiar de ESE, usa abierto general. Tu vinculación actual no es impedimento.
+
+Si ya trabajo en una ESE, ¿me dejan inscribirme en la convocatoria?
+Sí, estás habilitado. Debes elegir la modalidad que corresponda a tu objetivo: ascenso (dentro de la misma entidad) o abierto general (para movilidad externa). No hay restricción especial.
+
+Estando vinculado laboralmente a una ESE, ¿puedo concursar para un cargo de enfermería en la misma u otra ESE?
+Claro que sí. Puedes concursar por ascenso si buscas un cargo superior en la misma ESE, o por abierto general para cualquier ESE. No existe ninguna prohibición.
+
+¿Qué número de plazas tiene el concurso, y cómo se distribuyen por modalidad?
+Total: 2.477 vacantes. Distribución: ascenso general 184, ascenso discapacidad 3, abierto general 2.293, abierto discapacidad 194.
+
+¿Cuántas vacantes hay en total y cuántas por cada modalidad?
+En total 2.477. Ascenso general: 184, ascenso discapacidad: 3, abierto general: 2.293, abierto discapacidad: 194.
+
+Necesito el desglose completo de vacantes por modalidad.
+Claro: ascenso general 184, ascenso discapacidad 3, abierto general 2.293, abierto discapacidad 194. Suma total 2.477 vacantes en 72 ESE del país.
+
+Dame el número de plazas para cada tipo de concurso.
+Ascenso general: 184, ascenso discapacidad: 3, abierto general: 2.293, abierto discapacidad: 194.
+
+¿Hay modalidades especiales para personas con discapacidad?
+Sí, dos: ascenso discapacidad (3 vacantes) y abierto discapacidad (194 vacantes). Debes acreditar tu condición de discapacidad.
+
+¿Cuáles son las modalidades para discapacitados en el concurso ESE 2?
+Ascenso discapacidad y abierto discapacidad. Tienen 3 y 194 vacantes respectivamente. Requiere certificado de discapacidad.
+
+¿Existen cupos reservados para personas con discapacidad en la convocatoria?
+Sí, hay cupos en dos modalidades: ascenso discapacidad (3 plazas) y abierto discapacidad (194 plazas).
+
+¿Puedo concursar si tengo discapacidad? ¿Qué modalidad debo elegir?
+Sí, puedes elegir entre ascenso discapacidad (si ya trabajas en la ESE y quieres ascender) o abierto discapacidad (para ingreso externo). Ambos tienen cupos reservados.
+
+Por favor, cuéntame sobre la convocatoria de la CNSC y de las pruebas de SIMO.
+La convocatoria ESE 2 tiene 2.477 vacantes, inscripciones en julio-agosto 2026. Las pruebas SIMO evalúan razonamiento lógico, matemático, comprensión lectora, ética, trabajo en equipo y orientación al servicio.
+
+Necesito información tanto de la convocatoria como de las pruebas del concurso.
+Convocatoria: fechas julio-agosto 2026, 2.477 vacantes en 72 ESE. Pruebas: 6 competencias, 100 preguntas, 100 minutos. El simulacro de ESTUDIO SIMO es similar.
+
+Dame un resumen de la convocatoria ESE 2 y de lo que evalúan los exámenes SIMO.
+Convocatoria: segundo semestre 2026, 2.477 puestos. Exámenes: competencias básicas (lógica, matemáticas, lectura), funcionales (normatividad) y comportamentales (ética, trabajo en equipo, servicio).
+
+¿Puedo ascender dentro de la misma ESE sin tener que concursar?
+No, para ascender en carrera administrativa debes concursar en la modalidad de ascenso. No es automático; debes aprobar las pruebas.
+
+¿Cómo hago para subir de cargo si ya soy empleado de la ESE?
+Debes inscribirte en el concurso en la modalidad de ascenso general (o ascenso discapacidad si aplica). Cumples los requisitos y presentas las pruebas como cualquier otro aspirante.
+
+Si ya trabajo en una ESE, ¿tengo ventaja para un cargo superior?
+La única ventaja es que puedes concursar por ascenso, que tiene vacantes separadas (184 plazas). Pero debes aprobar las mismas pruebas que los demás.
+
+¿En qué mes se realizan las pruebas escritas del concurso?
+La CNSC aún no ha fijado la fecha exacta de las pruebas. Las inscripciones son en julio-agosto 2026, y las pruebas suelen ser unas semanas o meses después.
+
+¿Cuándo es el examen de la CNSC para enfermería?
+Todavía no hay fecha concreta. Esté atento a la página de la CNSC y a SIMO. Las inscripciones abren en julio-agosto 2026; el examen será después.
+
+Necesito saber la fecha de las pruebas, no la de inscripción.
+Lo siento, la CNSC no ha publicado el calendario de pruebas. Solo se conocen las fechas de inscripción (julio-agosto 2026). Te recomiendo revisar la página oficial periódicamente.
+
+¿Qué título necesito para presentarme como enfermero al concurso de la CNSC?
+El título mínimo es Profesional en Enfermería (pregrado). Para cargos de auxiliar de enfermería se requiere título de auxiliar o técnico en enfermería, según la OPEC. Para jefe de enfermería se requiere título profesional más especialización y experiencia.
+
+Me refiero a auxiliar de enfermería, o enfermero jefe, ¿qué título de enfermería se necesita?
+Para auxiliar: título de auxiliar o técnico en enfermería. Para enfermero profesional: título profesional en enfermería. Para jefe de enfermería: profesional más especialización. Depende del cargo al que aspires.
+
+¿Qué nivel de formación exigen para los diferentes cargos de enfermería en el concurso?
+Auxiliar de enfermería: título de auxiliar o técnico. Enfermero profesional: título profesional. Enfermero jefe o especialista: título profesional más especialización y experiencia. Revisa la OPEC de cada vacante.
+
+¿Puedo concursar como auxiliar de enfermería solo con el título de bachiller?
+No. Se requiere título de auxiliar o técnico en enfermería, registrado en SIMO. El bachiller no es suficiente.
+
+Quiero trabajar en un hospital, pero no es parte de la convocatoria. ¿Qué requisitos se necesitan?
+Para trabajar en un hospital público (ESE) debes ganar un concurso de méritos de la CNSC. No hay ingreso directo sin concurso. Para hospitales privados, el requisito lo fija cada institución (título, experiencia, tarjeta profesional).
+
+¿Cómo puedo trabajar en un hospital sin pasar por el concurso de la CNSC?
+En hospitales públicos es obligatorio el concurso de méritos. En hospitales privados puedes aplicar directamente enviando hoja de vida; los requisitos típicos son título, tarjeta profesional y experiencia.
+
+Si no hay convocatoria vigente, ¿puedo enviar mi hoja de vida a un hospital público?
+No, los hospitales públicos (ESE) solo vinculan personal mediante concurso de méritos. Debes esperar una convocatoria de la CNSC. En hospitales privados sí puedes enviar hoja de vida directamente.
+
+¿Exigen experiencia para los cargos de enfermería en el concurso?
+Depende del cargo. Para auxiliar de enfermería a veces no exigen experiencia, o piden 6 meses. Para enfermero profesional suelen pedir 1 o 2 años. Revisa los requisitos de la OPEC específica.
+
+¿Cuántos años de experiencia piden para enfermero jefe?
+Generalmente se exigen entre 2 y 4 años de experiencia profesional en cargos asistenciales o administrativos. Debes verificar la OPEC de la vacante.
+
+¿La experiencia debe ser en instituciones públicas o también sirve la privada?
+Sirve experiencia en cualquier institución de salud, pública o privada, siempre que esté debidamente certificada y sea relacionada con el cargo al que aspiras.
+
+¿Puedo presentar experiencia como auxiliar de enfermería si tengo título profesional?
+Sí, la experiencia como auxiliar puede ser válida para cargos de enfermero profesional si las funciones son afines. Cada OPEC define los requisitos.
+
+¿Qué viene después de la verificación de requisitos mínimos?
+Después de la verificación, la siguiente etapa es la aplicación de pruebas escritas (competencias básicas, funcionales y comportamentales).
+
+Si presento mis documentos y cumplen con los mínimos exigidos, ¿cuál sería la siguiente etapa?
+La siguiente etapa es la citación para las pruebas escritas. Recibirás un mensaje en SIMO con la fecha, hora y lugar del examen.
+
+¿Qué sigue después de que la CNSC me confirma que cumplo requisitos?
+Te citan para las pruebas de competencias. Son exámenes de razonamiento lógico, matemático, comprensión lectora, ética, trabajo en equipo y orientación al servicio.
+
+Explícame todo el proceso, desde que publican las vacantes hasta que nombran.
+1. Publicación de OPEC (vacantes y requisitos). 2. Inscripciones y pago del PIN. 3. Verificación de requisitos mínimos. 4. Aplicación de pruebas escritas. 5. Publicación de resultados. 6. Listado de elegibles en orden de mérito. 7. Nombramiento en período de prueba. 8. Si supera los 6 meses, empleado de carrera.
+
+Me refiero a las fases, y de qué tratan.
+Fase 1: divulgación de vacantes (se publican los cargos). Fase 2: inscripciones (registro y pago). Fase 3: verificación (revisan títulos y experiencia). Fase 4: pruebas (exámenes de conocimientos). Fase 5: elegibles (lista con puntajes). Fase 6: nombramiento (vinculación) y período de prueba (6 meses).
+
+¿Cuál es el orden del concurso paso a paso?
+1. OPEC, 2. Inscripción, 3. Verificación, 4. Pruebas, 5. Resultados, 6. Lista de elegibles, 7. Nombramiento, 8. Período de prueba.
+
+¿Qué valor tiene el PIN de participación para enfermería?
+El PIN para nivel técnico/asistencial es aproximadamente $43.350; para profesional es aproximadamente $65.000 (valores referenciales 2024).
+
+¿Qué costo tiene el PIN para participar en el concurso de la CNSC?
+El valor varía según el nivel del cargo: para auxiliar de enfermería (nivel asistencial) cuesta unos $43.350; para enfermero profesional unos $65.000.
+
+¿Cuánto hay que pagar por el derecho a concursar en la ESE 2?
+Debes pagar el PIN: para cargos asistenciales cerca de $43.350, para profesionales cerca de $65.000. Los valores pueden cambiar; revisa la convocatoria.
+
+¿Cuál es el precio del PIN para la convocatoria de enfermería?
+Aproximadamente $43.350 para auxiliar, $65.000 para profesional. Son valores referenciales de 2024.
+
+¿Qué entidades debo revisar para saber si tengo antecedentes que me inhabiliten?
+Debes consultar tres entidades: Procuraduría (antecedentes disciplinarios), Policía Nacional (antecedentes judiciales) y Contraloría (antecedentes fiscales).
+
+¿Cómo verifico mis antecedentes fiscales y judiciales antes de inscribirme?
+Antecedentes fiscales: Contraloría General de la República (www.contraloria.gov.co). Antecedentes judiciales: Policía Nacional (antecedentes.policia.gov.co). También consulta la Procuraduría para disciplinarios.
+
+¿En qué páginas verifico mis antecedentes fiscales y judiciales?
+Fiscales: Contraloría (www.contraloria.gov.co - registro de responsables fiscales). Judiciales: Policía Nacional (https://antecedentes.policia.gov.co). Disciplinarios: Procuraduría (www.procuraduria.gov.co).
+
+¿Dónde consulto antecedentes de policía y contraloría?
+Policía: portal de antecedentes judiciales en línea. Contraloría: certificado de antecedentes fiscales. Ambos se obtienen con tu cédula.
+
+¿Cuáles son los requisitos típicos para un cargo de auxiliar de enfermería en el Estado?
+Título de auxiliar o técnico en enfermería, tarjeta profesional (si aplica), cursos complementarios y experiencia comprobable. Los requisitos exactos varían por OPEC.
+
+¿La tarjeta profesional es obligatoria para auxiliar de enfermería?
+Depende. Para auxiliares de enfermería, algunos concursos piden tarjeta profesional, otros no. Para enfermeros profesionales es obligatoria. Revisa la OPEC.
+
+¿Y exigen experiencia para auxiliar de enfermería?
+No siempre. Muchas vacantes para auxiliar no exigen experiencia, o piden 6 meses. Para profesionales suelen pedir 1 o 2 años. Cada OPEC define.
+
+¿Qué estudios y experiencia piden para enfermero jefe?
+Título profesional en enfermería, especialización en administración de servicios de salud o similar, y experiencia mínima de 2 años en cargos de jefatura o coordinación.
+
+y los antecedentes de policía, ¿dónde se consultan?
+Los antecedentes judiciales se consultan en la página de la Policía Nacional: https://antecedentes.policia.gov.co. Ingresas tu cédula y obtienes el certificado.
+
+¿Dónde consulto antecedentes fiscales?
+En la Contraloría General de la República, sección “Registro de responsables fiscales” (www.contraloria.gov.co). Necesitas tener certificado de no haber sido declarado responsable fiscal.
+
+¿Qué son los antecedentes fiscales y por qué los piden?
+Son reportes de la Contraloría sobre personas que han sido declaradas responsables por daño fiscal. Para concursos públicos, es necesario no tener antecedentes fiscales vigentes.
+
+¿Y exigen experiencia?
+No siempre. Para auxiliar de enfermería muchas vacantes no exigen experiencia, o piden 6 meses. Para enfermero profesional suelen pedir 1 o 2 años. Cada OPEC define los requisitos.
+
+¿La tarjeta profesional es obligatoria? ¿Y la experiencia?
+Para enfermero profesional, la tarjeta profesional SÍ es obligatoria. Para auxiliar de enfermería, a veces no. La experiencia es exigida según la OPEC; para cargos profesionales suele pedirse 1-2 años.
+
+¿La tarjeta profesional es obligatoria para auxiliar de enfermería?
+No siempre. Depende de la OPEC. Para enfermero profesional sí es obligatoria.
+
+¿La experiencia es obligatoria para todos los cargos?
+No. Para algunos cargos de auxiliar no exigen experiencia; para profesionales sí suelen pedir.
+
+¿Qué porcentaje del salario cotiza el trabajador al SGSSS según la Ley 100?
+El trabajador cotiza el 4% de su salario. El empleador aporta el 8.5%. Total 12.5%.
+
+Oye, ¿cuánto descuentan del sueldo para salud según la Ley 100?
+Descuentan el 4% del salario del trabajador para salud. El empleador paga otro 8.5%.
+
+¿Cuál es el porcentaje de cotización al SGSSS que paga el empleado?
+El empleado paga el 4% de su ingreso base de cotización (IBC).
+
+¿Qué diferencia hay entre el Régimen Contributivo y el Subsidiado?
+El Contributivo es para trabajadores con capacidad de pago (cotizan el 12.5% entre empleador y trabajador). El Subsidiado es para población pobre no asegurada, financiado por el Estado.
+
+¿Qué es la UPC (Unidad de Pago por Capitación)?
+La UPC es el valor anual que el sistema reconoce a las EPS por cada afiliado para cubrir el Plan de Beneficios en Salud.
+
+¿Qué principios del SGSSS son más importantes para el auxiliar de enfermería?
+Solidaridad (unos financian a otros), integralidad (atención en todas las fases de la enfermedad), equidad (sin discriminación) y calidad (atención oportuna y segura).
+
+
+¿Qué porcentaje del salario cotiza el trabajador al SGSSS según la Ley 100?
+El trabajador cotiza el 4% de su salario; el empleador aporta el 8.5%. Total 12.5%.
+
+Oye, ¿cuánto descuentan del sueldo para salud según la Ley 100?
+
+El trabajador paga el 4% de su salario; el empleador aporta el 8.5%. Total 12.5%.
+
+¿Cuál es el porcentaje de cotización al Sistema General de Seguridad Social en Salud que paga el empleado?
+El empleado paga el 4% de su ingreso base de cotización (IBC).
+
+¿Qué porcentaje me descuentan de mi salario para salud?
+Te descuentan el 4% de tu salario; tu empleador paga el 8.5% adicional.
+
+¿Cuánto es la cotización del trabajador al SGSSS?
+Es el 4% del salario.
+
+¿Qué es la UPC (Unidad de Pago por Capitación) según la Ley 100?
+La UPC es el valor anual que el sistema reconoce a las EPS por cada afiliado para cubrir el Plan de Beneficios en Salud.
+
+¿Qué significa UPC en el sistema de salud?
+UPC significa Unidad de Pago por Capitación. Es el dinero que el Estado gira a las EPS por cada afiliado al año.
+
+¿Para qué sirve la UPC en el SGSSS?
+Sirve para financiar el Plan de Beneficios en Salud de cada afiliado.
+
+¿Cómo se llama el valor que reciben las EPS por cada afiliado?
+Se llama UPC (Unidad de Pago por Capitación).
+
+¿Qué es la UPC en salud?
+Es el monto que se paga anualmente por cada persona afiliada al SGSSS.
+
+¿Qué diferencia hay entre el Régimen Contributivo y el Subsidiado?
+El Contributivo es para trabajadores con capacidad de pago (cotizan el 12.5% entre empleador y trabajador). El Subsidiado es para población pobre no asegurada, financiado por el Estado.
+
+¿Cuál es la diferencia entre el régimen contributivo y el subsidiado?
+En el contributivo el afiliado paga una cotización; en el subsidiado el Estado paga la totalidad.
+
+¿En qué se diferencian el régimen contributivo y el subsidiado?
+El contributivo es para quienes tienen trabajo formal e ingresos; el subsidiado es para población de bajos recursos identificada por el SISBÉN.
+
+¿Qué régimen de salud aplica para un trabajador dependiente?
+El Régimen Contributivo.
+
+¿Quién financia el régimen subsidiado?
+Lo financia el Estado con recursos del presupuesto nacional.
+
+¿Qué principios del SGSSS debe conocer un auxiliar de enfermería?
+Solidaridad (unos financian a otros), integralidad (atención en todas las fases de la enfermedad), equidad (sin discriminación) y calidad (atención oportuna y segura).
+
+¿Cuáles son los principios más importantes del SGSSS para el cuidado diario?
+Solidaridad, integralidad, equidad y calidad.
+
+¿Qué significa el principio de integralidad en el SGSSS?
+Significa que el sistema debe garantizar atención en todas las fases de la enfermedad: promoción, prevención, diagnóstico, tratamiento y rehabilitación.
+
+¿Qué principio del SGSSS garantiza que nadie sea discriminado?
+El principio de equidad.
+
+¿Qué es la solidaridad en el sistema de salud?
+Que los afiliados con mayor capacidad de pago contribuyen a financiar a los de menor capacidad.
+
+¿Qué son las EPS según la Ley 100?
+Las EPS (Entidades Promotoras de Salud) son las encargadas de afiliar a los ciudadanos, recaudar las cotizaciones y garantizar la prestación del Plan de Beneficios en Salud.
+
+¿Qué función cumplen las EPS en el SGSSS?
+Afiliar a la población, recaudar aportes y coordinar la atención con IPS.
+
+¿Para qué sirve una EPS?
+Para que los afiliados tengan acceso a los servicios de salud a través de una red de IPS.
+
+¿Qué significa EPS?
+Entidad Promotora de Salud.
+
+¿Cuál es el rol de la EPS en el sistema de salud?
+Organizar y garantizar la prestación de servicios de salud a sus afiliados.
+
+¿Qué son las IPS según la Ley 100?
+Las IPS (Instituciones Prestadoras de Servicios de Salud) son hospitales, clínicas, centros de salud y laboratorios que prestan directamente los servicios de salud a los pacientes.
+
+¿Qué significa IPS en salud?
+Institución Prestadora de Servicios de Salud.
+
+¿Dónde se atienden los pacientes cuando van a una consulta?
+En una IPS (hospital, clínica, centro de salud).
+
+¿Qué diferencia hay entre EPS e IPS?
+La EPS administra el aseguramiento y la IPS presta los servicios de salud directamente.
+
+¿Qué son las ESE en relación con las IPS?
+Las ESE (Empresas Sociales del Estado) son IPS públicas.
+
+¿Qué es el Plan de Beneficios en Salud (PBS) según la Ley 100?
+Es el conjunto de servicios, tecnologías y medicamentos que el sistema garantiza a todos los afiliados. Antes se llamaba POS.
+
+¿Qué servicios cubre el PBS?
+Incluye consultas médicas, exámenes, hospitalización, cirugías, medicamentos y atención de urgencias.
+
+¿Qué significa PBS en el sistema de salud?
+Plan de Beneficios en Salud.
+
+¿Cuál es la diferencia entre POS y PBS?
+El POS era el plan obligatorio de salud; el PBS es su actualización con el mismo concepto.
+
+¿Qué debo hacer si una EPS niega un servicio que debe cubrir el PBS?
+Puedes presentar una tutela o queja ante la Superintendencia Nacional de Salud.
+
+¿Qué son las Empresas Sociales del Estado (ESE)?
+Son hospitales públicos descentralizados con personería jurídica, patrimonio propio y autonomía administrativa.
+
+¿Qué significa ESE en el sector salud?
+Empresa Social del Estado. Es un hospital público.
+
+¿Cómo se vinculan los auxiliares de enfermería a una ESE?
+Mediante concurso de méritos de la CNSC a través de SIMO.
+
+¿Qué ventajas tiene trabajar en una ESE?
+Estabilidad laboral, carrera administrativa y prestaciones de ley.
+
+¿Las ESE son entidades públicas o privadas?
+Son entidades públicas descentralizadas.
+
+¿Qué entidad recauda los recursos del SGSSS?
+La ADRES (Administradora de los Recursos del SGSSS), antes llamada FOSYGA.
+
+¿Qué es la ADRES en salud?
+Es la entidad que recauda, administra y gira los recursos del sistema de salud.
+
+¿Para qué sirve la ADRES?
+Para recibir las cotizaciones de empleadores y trabajadores y girar los recursos a las EPS.
+
+¿Qué entidad reemplazó al FOSYGA?
+La ADRES.
+
+¿Quién gira la UPC a las EPS?
+La ADRES.
+
+¿Qué derechos tienen los afiliados al SGSSS según la Ley 100?
+Derecho a recibir atención integral, oportuna y de calidad; elegir libremente su EPS e IPS; ser tratados con respeto y dignidad; recibir información clara.
+
+¿Qué derechos tiene un paciente en el sistema de salud colombiano?
+Atención digna, oportunidad, calidad, libre elección de EPS e IPS, e información clara.
+
+¿Puedo cambiar de EPS si no me gusta el servicio?
+Sí, tienes derecho a elegir libremente tu EPS dentro del territorio nacional.
+
+¿Qué hago si una IPS me trata mal?
+Puedes reclamar ante la EPS, la Superintendencia de Salud o la Personería.
+
+¿Los pacientes tienen derecho a conocer su diagnóstico y tratamiento?
+Sí, es un derecho fundamental.
+
+
+¿Qué debe registrar el auxiliar de enfermería en la historia clínica según el Decreto 780?
+Debe registrar signos vitales, administración de medicamentos, evolución del paciente, procedimientos realizados y cualquier incidente o evento adverso.
+
+¿Qué información tiene que anotar el personal de enfermería en la historia clínica?
+Registros claros, completos y oportunos de: valoración inicial, cuidados realizados, respuesta del paciente, administración de medicamentos y educación brindada.
+
+¿Qué datos de enfermería son obligatorios en la historia clínica?
+Signos vitales, medicamentos administrados, evolución diaria, procedimientos y eventos adversos.
+
+¿Qué pasa si no registro la administración de un medicamento?
+Es una falta grave porque el registro es obligatorio y legal.
+
+¿Cuánto tiempo se conserva la historia clínica?
+Mínimo 20 años desde la última atención.
+
+¿Qué establece el Decreto 780 sobre el consentimiento informado?
+El paciente debe autorizar por escrito cualquier procedimiento invasivo después de recibir información clara sobre riesgos y beneficios. El auxiliar de enfermería debe verificar que esté firmado antes del procedimiento.
+
+¿Cuándo se necesita el consentimiento informado?
+Para procedimientos invasivos como cirugías, endoscopias, cateterismos o administración de tratamientos con riesgos significativos.
+
+¿Qué debe hacer el auxiliar si un paciente no ha firmado el consentimiento?
+No puede realizar el procedimiento; debe informar al médico para que lo explique y obtenga la firma.
+
+¿El consentimiento informado es necesario en una urgencia vital?
+No, si hay peligro inminente de muerte o daño irreversible, se puede actuar sin consentimiento.
+
+¿Quién puede firmar el consentimiento si el paciente está inconsciente?
+Su representante legal (familiar más cercano) o, si no hay, el médico tratante puede decidir.
+
+¿Qué derechos tienen los pacientes según el Decreto 780?
+Derecho a atención digna, respetuosa, oportuna y de calidad; a ser informados sobre su diagnóstico y tratamiento; a la confidencialidad de su historia clínica.
+
+¿Puede un paciente negarse a un tratamiento?
+Sí, tiene derecho a rechazar un procedimiento, siempre que sea consciente de las consecuencias.
+
+¿Qué hacer si un paciente pide ver su historia clínica?
+Debe permitírsele el acceso, previa identificación, porque es su derecho.
+
+¿Cuál es el deber del paciente con el personal de salud?
+Respetar al personal, cumplir las indicaciones médicas y cuidar las instalaciones.
+
+¿Los pacientes tienen derecho a recibir información sobre su enfermedad?
+Sí, es un derecho fundamental.
+
+¿Qué son las redes integrales de prestación de servicios de salud?
+Son la articulación entre IPS de baja, mediana y alta complejidad para garantizar la continuidad del cuidado. El auxiliar de enfermería debe garantizar la referencia y contrarreferencia.
+
+¿Qué significa referencia y contrarreferencia en salud?
+Referencia es enviar un paciente de una IPS de menor complejidad a una de mayor. Contrarreferencia es devolverlo con recomendaciones para el seguimiento.
+
+¿Por qué son importantes las redes integradas?
+Para que el paciente no se pierda en el sistema y reciba atención continua y oportuna.
+
+¿Qué debe diligenciar el auxiliar en una remisión?
+Los formatos de referencia con datos del paciente, motivo de remisión, diagnóstico y tratamiento recibido.
+
+¿Qué pasa si no se hace la contrarreferencia?
+El paciente puede quedar sin seguimiento y aumentar el riesgo de complicaciones.
+
+¿Qué establece el Decreto 780 sobre la habilitación de IPS?
+Las IPS deben cumplir requisitos de habilitación (capacidad técnico-administrativa, infraestructura, dotación, talento humano). El auxiliar de enfermería debe cumplir con los estándares de bioseguridad y registro de actividades.
+
+¿Qué es la habilitación de una IPS?
+Es la certificación de que una IPS cumple las condiciones mínimas para operar legalmente.
+
+¿Qué estándares de habilitación debe cumplir el personal de enfermería?
+Tener tarjeta profesional vigente (si aplica), cumplir con la relación enfermera-paciente, registrar adecuadamente y usar elementos de protección.
+
+¿Qué entidad vigila la habilitación?
+La Secretaría de Salud departamental o distrital, con base en la Resolución 3100 de 2019.
+
+¿Cada cuánto se renueva la habilitación?
+Generalmente cada 3 años, con visitas de verificación.
+
+¿Qué es la bioseguridad según el Decreto 780?
+Son las medidas para proteger al personal de salud de riesgos biológicos. Incluye lavado de manos, uso de elementos de protección personal (guantes, batas, gafas) y disposición adecuada de residuos hospitalarios.
+
+¿Qué elementos de protección personal debe usar un auxiliar de enfermería?
+Guantes, bata, gafas y mascarilla según el procedimiento.
+
+¿Qué hacer si me pincho con una aguja contaminada?
+Lavar inmediatamente con agua y jabón, reportar al jefe inmediato y acudir a urgencias para profilaxis.
+
+¿Cada cuánto se debe lavar las manos el personal de salud?
+Antes y después del contacto con cada paciente, antes de un procedimiento aséptico, después de contacto con fluidos y después de tocar superficies del entorno.
+
+¿Qué ley regula la bioseguridad en Colombia?
+El Decreto 780 de 2016 y las normas del SOGC.
+
+¿Qué establece el Decreto 780 sobre la atención de urgencias?
+Las urgencias deben ser atendidas sin barreras administrativas, económicas o de afiliación. El personal de enfermería debe clasificar al paciente por triage y estabilizarlo.
+
+¿Qué es el triage en urgencias?
+Es la clasificación de pacientes por prioridad de atención según su gravedad.
+
+¿Puede negarse la atención en urgencias por falta de documentos?
+No, está prohibido.
+
+¿Qué debe hacer un auxiliar de enfermería en triage?
+Identificar pacientes con riesgo vital (ej. paro cardíaco) y activar el código azul.
+
+¿Qué significa código azul?
+Protocolo de emergencia para reanimación cardiopulmonar.
+
+¿Qué dice el Decreto 780 sobre la historia clínica electrónica?
+Debe ser clara, completa, oportuna y veraz. La historia clínica electrónica debe tener sistemas de respaldo y seguridad informática.
+
+¿Qué ventajas tiene la historia clínica electrónica?
+Acceso rápido, menos errores de legibilidad, posibilidad de compartir información entre IPS.
+
+¿Cuánto tiempo se conserva la historia clínica electrónica?
+También 20 años, con respaldos periódicos.
+
+¿Qué hacer si la historia clínica electrónica se daña?
+La IPS debe tener planes de contingencia y recuperación de datos.
+
+¿Es legal una historia clínica en papel?
+Sí, siempre que cumpla los requisitos de la Resolución 1995 de 1999.
+
+¿Qué obligaciones tiene el auxiliar de enfermería con la confidencialidad?
+No puede compartir información del paciente con terceros sin autorización, no tomar fotos o videos de la historia clínica, no discutir casos en lugares públicos, y dejar la historia clínica en lugar seguro.
+
+¿Puedo tomarle foto a la historia clínica de un paciente?
+No, es una violación a la confidencialidad y puede ser causal de sanción.
+
+¿Qué pasa si se pierde una historia clínica?
+La IPS debe reportarlo y puede ser sancionada. El personal que la extravió también puede ser responsable.
+
+¿La historia clínica puede ser usada como evidencia en un juicio?
+Sí, es un documento legal.
+
+¿Quién más puede ver mi historia clínica además del personal que me atiende?
+El paciente mismo, su representante legal o un juez con orden expresa.
+
+¿Qué establece el Decreto 780 sobre el talento humano en salud?
+El talento humano debe ser evaluado periódicamente por competencias. Los auxiliares de enfermería deben mantenerse actualizados mediante formación continua. Las instituciones deben garantizar condiciones laborales dignas y entornos seguros.
+
+¿Qué competencias debe tener un auxiliar de enfermería según el Decreto 780?
+Administración segura de medicamentos, comunicación efectiva, trabajo en equipo, registro en historia clínica y manejo de emergencias básicas.
+
+¿Las instituciones deben garantizar cursos de actualización?
+Sí, la formación continua es obligatoria.
+
+¿Qué hacer si trabajo en condiciones inseguras?
+Reportar al jefe inmediato o a la Secretaría de Salud.
+
+¿Los auxiliares de enfermería tienen derecho a reportar irregularidades sin temor a represalias?
+Sí, está protegido por la ley.
+
+¿Qué cuidados de enfermería están incluidos en el Plan de Beneficios en Salud (PBS)?
+Valoración inicial y continua del paciente, administración segura de medicamentos, curaciones y manejo de heridas, cuidado de ostomías, educación al paciente y acompañamiento durante la hospitalización.
+
+¿Qué servicios de enfermería cubre el PBS?
+La valoración de enfermería, administración de medicamentos, curaciones, cuidado de heridas quirúrgicas, manejo de ostomías, educación y acompañamiento.
+
+¿El PBS cubre la curación de heridas?
+Sí, está incluido.
+
+¿La educación al paciente está cubierta por el PBS?
+Sí, es un servicio de enfermería cubierto.
+
+¿El acompañamiento durante la hospitalización es un derecho?
+Sí, el paciente tiene derecho a cuidado de enfermería las 24 horas.
+
+¿Qué relación de enfermera por paciente establece la Resolución 2292 para hospitalización general?
+En hospitalización general, la relación es de una enfermera profesional por cada 10 pacientes. Durante la noche puede ser de una por cada 15 pacientes.
+
+¿Cuántos pacientes puede atender una enfermera en el día?
+Hasta 10 pacientes.
+
+¿Y en la noche?
+Hasta 15 pacientes.
+
+¿Esa relación aplica para auxiliares de enfermería?
+También, pero la norma habla de talento humano en general. Lo importante es que la carga no exceda la capacidad segura.
+
+¿Qué pasa si hay más pacientes que enfermeras?
+La institución debe ajustar su planta de personal; si no lo hace, puede poner en riesgo la seguridad del paciente.
+
+¿Qué obligación tiene el auxiliar de enfermería ante un error de medicación?
+Debe reportarlo inmediatamente, aunque el paciente no haya sufrido daño aparente. El reporte permite identificar fallas y prevenir futuros errores. No reportar es una falta grave.
+
+Si un paciente sufre una caída en el hospital, ¿qué debe hacer el auxiliar de enfermería?
+Evaluar al paciente, notificar al médico, registrar el evento en la historia clínica y reportar el evento adverso en el sistema de calidad de la IPS.
+
+¿Qué es un evento adverso según el Decreto 1011?
+Es un incidente no deseado que ocurre durante la atención y que puede causar daño al paciente, como errores de medicación, caídas, úlceras por presión o infecciones asociadas a la atención.
+
+¿Qué papel tiene el auxiliar de enfermería en la auditoría de calidad?
+Debe participar activamente en las auditorías internas, proporcionar información veraz sobre los cuidados realizados y colaborar en la implementación de planes de mejora.
+
+¿Qué es la cultura de seguridad en salud?
+Es el conjunto de valores, actitudes y comportamientos que priorizan la seguridad del paciente. El auxiliar de enfermería debe reportar eventos sin temor a sanciones y aprender de los errores.
+
+¿Qué estándares de calidad debe cumplir el auxiliar de enfermería según el Decreto 1011?
+Registro claro y completo de las actividades de cuidado, aplicación de protocolos para administración segura de medicamentos, prevención de caídas, prevención de úlceras por presión, y comunicación efectiva con el paciente y su familia.
+
+¿Qué debe hacer el auxiliar de enfermería si identifica una úlcera por presión en un paciente?
+Registrarla, iniciar los cuidados según protocolo (cambios de posición, uso de colchones antiescaras, curación) y reportarla como evento adverso si se adquirió durante la hospitalización.
+
+¿Qué son las guías de atención en enfermería?
+Son documentos técnicos que orientan la práctica clínica basada en evidencia. El personal de enfermería debe conocer y aplicar las guías relacionadas con su práctica: manejo de heridas, administración de medicamentos, prevención de infecciones, cuidado del paciente crítico y manejo del dolor.
+
+¿Qué participación tiene el auxiliar de enfermería en los comités de seguridad del paciente?
+Debe ser parte activa, presentar observaciones, analizar incidentes, proponer acciones correctivas y hacer seguimiento a los planes de mejora.
+
+¿Qué es el Sistema Obligatorio de Garantía de Calidad (SOGC)?
+Es el conjunto de mecanismos para garantizar la calidad de los servicios de salud, que incluye habilitación, acreditación, auditoría y medición de indicadores. El auxiliar de enfermería participa en la recolección de datos y en la implementación de acciones correctivas.
+
+¿Cuántos pacientes puede atender una auxiliar de enfermería en el día según la Resolución 3100?
+La relación debe ser de una auxiliar de enfermería por cada 10 pacientes en el día, y una por cada 15 pacientes en la noche.
+
+¿Cuál es la relación de auxiliar de enfermería por pacientes en turno diurno?
+Una auxiliar por cada 10 pacientes en hospitalización general durante el día.
+
+¿Qué dice la Resolución 3100 sobre la dotación de carros de paro en los servicios de hospitalización?
+Las IPS deben contar con carros de paro completamente dotados en cada servicio de hospitalización y urgencias, con equipos para reanimación cardiopulmonar y medicamentos de urgencia.
+
+¿Qué elementos de bioseguridad debe tener el auxiliar de enfermería según la Resolución 3100?
+Guantes, batas, gafas de protección, mascarillas y elementos para lavado de manos en cantidad suficiente según el número de camas y procedimientos.
+
+¿Qué equipos básicos debe tener una IPS para la atención de enfermería?
+Tensiómetros, estetoscopios, termómetros, oxímetros, bombas de infusión, monitores de signos vitales, camas con barandas y frenos, colchones antiescaras, y carros de paro.
+
+¿Qué relación de enfermera profesional por pacientes se exige en cuidados intensivos?
+Una enfermera profesional por cada 2 pacientes en UCI. Los auxiliares de enfermería apoyan bajo supervisión.
+
+¿Qué obligación tiene el auxiliar de enfermería sobre el estado de los equipos?
+Debe verificar diariamente el estado y disponibilidad de los equipos (tensiómetros, bombas de infusión, carros de paro) y reportar cualquier falla al jefe inmediato.
+
+¿Qué protocolos debe tener la IPS según la Resolución 3100?
+Protocolos escritos para administración de medicamentos, prevención de caídas, prevención de úlceras por presión, manejo de eventos adversos y bioseguridad.
+
+¿Cada cuánto debe realizarse auditoría de los registros de enfermería?
+Debe realizarse al menos trimestralmente, con seguimiento a los planes de mejoramiento.
+
+¿Qué es la habilitación de una IPS?
+Es el proceso obligatorio mediante el cual una IPS demuestra que cumple los requisitos mínimos de infraestructura, dotación, talento humano y procedimientos para operar legalmente.
+
+¿Qué debe hacer el auxiliar de enfermería en la RIAS para adultos mayores?
+Realizar valoración geriátrica integral (funcional, cognitiva, afectiva, social), tamizaje de síndromes geriátricos (caídas, incontinencia, deterioro cognitivo, polifarmacia), prevención de úlceras por presión, manejo de inmovilidad y riesgo de caídas, y educación sobre uso seguro de medicamentos.
+
+¿Qué cuidados debe brindar el personal de enfermería a un adulto mayor según la RIAS?
+Prevención de caídas, cambio de posición cada 2 horas para evitar úlceras por presión, manejo de incontinencia, apoyo en la movilización, revisión de medicamentos (deprescribir cuando sea posible) y educación al cuidador.
+
+¿Qué actividades de enfermería están contempladas en la RIAS para población infantil?
+Tamizajes de desarrollo psicomotor en cada control de crecimiento y desarrollo, aplicación del esquema nacional de vacunación, valoración de signos de alarma en el niño enfermo, educación a los padres sobre cuidado del recién nacido, prevención de accidentes en el hogar, identificación de signos de maltrato infantil y referencia oportuna a pediatría.
+
+¿Qué debe hacer el auxiliar de enfermería en la RIAS para adolescentes?
+Valoración de desarrollo puberal, tamizaje de riesgos psicosociales (consumo de sustancias, conductas suicidas, embarazo adolescente), educación sobre salud sexual y reproductiva, aplicación de vacunas (VPH, hepatitis B), detección de trastornos de la conducta alimentaria, y referencia a psicología o psiquiatría.
+
+¿Qué actividades de enfermería incluye la RIAS para población adulta (20-59 años)?
+Tamizaje de factores de riesgo cardiovascular (hipertensión, diabetes, dislipidemia, obesidad), educación sobre estilos de vida saludable (alimentación, actividad física, no tabaco, no alcohol), tamizaje de cáncer de cuello uterino (citología) y de mama, tamizaje de cáncer de próstata, y referencia a medicina interna.
+
+¿En qué consiste el seguimiento domiciliario por enfermería según las RIAS?
+Visitas programadas para pacientes con enfermedades crónicas, adultos mayores con dependencia, y pacientes dados de alta con necesidad de cuidados especiales. Incluye control de signos vitales, educación al paciente y cuidador, detección temprana de complicaciones, administración de medicamentos (cuando esté indicado) y referencia oportuna a la IPS.
+
+¿Qué síndromes geriátricos debe tamizar el auxiliar de enfermería?
+Caídas, incontinencia urinaria o fecal, deterioro cognitivo, polifarmacia (uso excesivo de medicamentos), inmovilidad y úlceras por presión.
+
+¿Qué educación en salud debe dar el auxiliar de enfermería al adulto mayor y su cuidador?
+Uso seguro de medicamentos (evitar automedicación), prevención de caídas (calzado adecuado, barandas, iluminación), alimentación saludable, hidratación, ejercicios de movilidad y signos de alarma que requieren consulta médica.
+
+¿Cada cuánto se deben realizar las visitas domiciliarias de enfermería?
+La periodicidad se define según la condición del paciente. Puede ser diaria, semanal o mensual. En pacientes estables crónicos suele ser cada 1-3 meses.
+
+¿Qué son las Rutas Integrales de Atención en Salud (RIAS)?
+Son guías técnicas que definen los protocolos que debe seguir el personal asistencial en cada etapa de la atención: promoción, prevención, diagnóstico, tratamiento y rehabilitación, para diferentes grupos poblacionales (infancia, adolescencia, adultez, adulto mayor).
+
+
+¿Qué procedimientos de enfermería están cubiertos por el PBS?
+Toma de signos vitales, administración de medicamentos (oral, IM, SC, IV), colocación y retiro de sondas nasogástricas y vesicales, curación de heridas, aspiración de secreciones, manejo de ventilación mecánica básica y RCP básico.
+
+¿Los auxiliares de enfermería pueden administrar medicamentos intravenosos?
+Sí, bajo supervisión y con entrenamiento, está cubierto por el PBS.
+
+¿La colocación de sonda vesical está cubierta?
+Sí.
+
+¿El PBS cubre la reanimación cardiopulmonar?
+Sí, es un procedimiento de urgencia.
+
+¿Qué hacer si una IPS cobra por estos procedimientos?
+Puede reclamar porque están incluidos en el PBS.
+
+¿Qué dice la Resolución 2292 sobre la atención de urgencias?
+La atención de urgencias no puede ser negada por falta de afiliación o documentos. El triage y la estabilización están cubiertos.
+
+¿Qué cubre el PBS en urgencias?
+Triage, valoración inicial, administración de medicamentos de urgencia, reanimación cardiopulmonar, manejo de vía aérea, estabilización y traslado si es necesario.
+
+¿Pueden cobrar por la atención de urgencias si no estoy afiliado?
+No, la atención de urgencias es obligatoria y no se puede negar. Después pueden cobrar, pero no condicionar la atención.
+
+¿Qué es el triage?
+Es la clasificación de pacientes por prioridad de atención.
+
+¿Qué código se activa en una parada cardiorrespiratoria?
+Código azul.
+
+¿Qué seguimiento de enfermería a pacientes crónicos cubre el PBS?
+Educación sobre la enfermedad y su manejo, control de signos vitales, verificación de adherencia al tratamiento, identificación temprana de complicaciones, coordinación con otros profesionales y referencia oportuna ante signos de alarma.
+
+¿Qué enfermedades crónicas tienen seguimiento cubierto?
+Diabetes, hipertensión, EPOC, insuficular cardíaca y enfermedad renal.
+
+¿El seguimiento puede ser telefónico?
+Sí, está contemplado.
+¿Qué debe enseñar el auxiliar de enfermería a un paciente diabético?
+Cómo medir la glucosa, signos de alarma de hipoglucemia, cuidado de pies y adherencia a la medicación.
+¿Cada cuánto debe hacerse seguimiento?
+Según la condición del paciente, pero al menos cada 3 meses.
+
+
+¿Qué relación de auxiliar de enfermería por pacientes establece la Resolución 2292 para cuidado intensivo?
+No la especifica directamente, pero por estándares internacionales y la Resolución 3100, en UCI una auxiliar puede atender hasta 2 pacientes con supervisión de una enfermera profesional (relación 1:2).
+
+¿Cuántas enfermeras profesionales por paciente en UCI?
+Una enfermera profesional por cada 2 pacientes (relación 1:2). Los auxiliares apoyan.
+
+¿En cuidados intermedios?
+Puede ser 1 auxiliar por cada 4-6 pacientes.
+
+¿Qué pasa si la UCI tiene sobrecarga?
+Aumenta el riesgo de eventos adversos. Se debe reportar.
+
+¿Qué norma regula la relación en UCI?
+Principalmente la Resolución 3100 de 2019 y estándares internacionales.
+
+¿El PBS cubre la atención domiciliaria de enfermería?
+Sí, incluye visitas de enfermería para pacientes con enfermedades crónicas, adultos mayores con dependencia, y pacientes dados de alta con necesidad de cuidados especiales.
+
+¿Qué hace el auxiliar en una visita domiciliaria?
+Control de signos vitales, curación de heridas, administración de medicamentos (si está indicado), educación al paciente y cuidador, y detección de complicaciones.
+
+¿Con qué frecuencia se hacen las visitas?
+Depende de la condición del paciente; puede ser diario, semanal o mensual.
+
+¿Quién autoriza la atención domiciliaria?
+La EPS o la IPS, según el plan de manejo.
+
+¿El paciente debe pagar algo adicional?
+No si está cubierto por el PBS.
+
+¿Qué dice la Resolución 2292 sobre la administración de medicamentos?
+El PBS cubre la administración segura de medicamentos por todas las vías (oral, intramuscular, subcutánea, intravenosa, etc.). El auxiliar debe verificar los 5 correctos (paciente, medicamento, dosis, vía, hora).
+
+¿Qué son los 5 correctos?
+Paciente correcto, medicamento correcto, dosis correcta, vía correcta, hora correcta.
+
+¿Qué hacer si hay una confusión con un medicamento?
+No administrar, verificar con otro profesional y reportar el incidente.
+
+¿El PBS cubre medicamentos de alto costo?
+Sí, si están en el listado del PBS.
+
+¿Dónde consultar si un medicamento está cubierto?
+En el listado de la Resolución 2292 o en la página de la ADRES.
+
+¿Qué derechos tienen los pacientes sobre los servicios de enfermería cubiertos?
+Derecho a recibir cuidado de enfermería las 24 horas durante la hospitalización, a ser informados sobre los cuidados, a la confidencialidad de su información y a que no se les niegue un servicio cubierto.
+
+¿Puede un paciente negarse a recibir un cuidado de enfermería?
+Sí, siempre que sea consciente de las consecuencias.
+
+¿Qué hacer si un paciente no entiende la explicación de un procedimiento?
+Explicar de nuevo con palabras sencillas y asegurarse de que comprenda.
+
+¿Los pacientes pueden solicitar cambio de enfermero si se sienten incómodos?
+Sí, pueden pedir cambio, aunque la IPS evaluará si es procedente.
+
+¿Qué ley garantiza estos derechos?
+La Ley 1751 de 2015 (Ley Estatutaria de Salud) y la Resolución 2292.
+
+¿Qué establece la Resolución 2292 sobre la relación enfermera-paciente en hospitalización pediátrica?
+Se recomienda una enfermera por cada 8 niños en hospitalización pediátrica, pero puede variar según la complejidad.
+
+¿Los auxiliares pueden atender niños?
+Sí, con la supervisión de una enfermera profesional.
+
+¿Qué cuidados especiales requieren los niños hospitalizados?
+Prevención de caídas, control de signos vitales, administración de medicamentos con cálculos exactos de peso, y apoyo emocional a la familia.
+
+¿Dónde se especifica la relación en pediatría?
+En los estándares de habilitación (Resolución 3100) y guías de la OMS.
+
+¿Cómo se corrigen los errores en los registros de enfermería según la Resolución 1995?
+Se traza una línea sobre el texto incorrecto (debe leerse lo escrito originalmente), se escribe la palabra "error" o "equivocación", se fecha y firma la corrección, y luego se escribe el texto correcto. No se tacha, borra ni usa corrector líquido.
+
+¿Qué debe hacer el auxiliar de enfermería si se equivoca al escribir en la historia clínica?
+No debe tachar ni usar corrector. Debe trazar una línea, escribir "error", fechar, firmar y luego anotar el dato correcto.
+
+¿Qué contenido debe tener la historia clínica en los registros de enfermería?
+Valoración inicial de enfermería (signos vitales, condiciones de ingreso, alergias, medicamentos previos), evolución diaria, administración de medicamentos (fecha, hora, medicamento, dosis, vía, firma), procedimientos realizados y educación brindada.
+
+¿Qué características debe cumplir el registro de enfermería en la historia clínica?
+Debe ser claro (sin tachones), legible (letra clara), completo (sin omitir información), oportuno (realizado durante o inmediatamente después de la atención) y veraz (basado en hechos reales).
+
+¿Quién puede consultar la historia clínica de un paciente?
+Solo el personal de salud directamente involucrado en la atención, el paciente mismo, su representante legal, o las autoridades judiciales mediante orden expresa.
+
+¿Puede un auxiliar de enfermería compartir información de un paciente con su familia sin autorización?
+No, a menos que el paciente lo autorice o sea su representante legal. La confidencialidad es obligatoria.
+
+¿Por cuánto tiempo debe conservarse la historia clínica?
+Mínimo 20 años contados desde la última atención del paciente.
+
+¿Qué hacer si un paciente solicita ver su historia clínica?
+Debe permitírsele el acceso, previa identificación, porque es su derecho. El auxiliar debe informar al paciente que puede solicitarlo formalmente en el departamento de archivo clínico.
+
+¿Qué abreviaturas se pueden usar en los registros de enfermería?
+Solo las aprobadas por la institución y cuyo significado esté documentado en un glosario disponible. Es preferible escribir los términos completos para evitar confusiones.
+
+¿Qué sanción puede tener un auxiliar de enfermería por violar la confidencialidad de la historia clínica?
+Puede ser sancionado disciplinariamente por la institución, por el Tribunal de Ética de Enfermería, e incluso penalmente si se demuestra daño al paciente.
+
+¿Cada cuánto tiempo deben re-certificarse los auxiliares de enfermería según la Resolución 1444?
+Los auxiliares de enfermería deben re-certificarse cada 5 años para mantener su habilitación laboral.
+
+¿Qué requisitos de formación continua exige la Resolución 1444 para la re-certificación?
+Haber completado al menos 120 horas de formación continua en los últimos 5 años, aprobar una evaluación de competencias (teórica y práctica), y no tener sanciones disciplinarias vigentes por faltas graves a la ética profesional.
+
+¿Qué temas obligatorios debe incluir la formación continua del auxiliar de enfermería?
+Administración segura de medicamentos, prevención de infecciones asociadas a la atención, manejo de eventos adversos, bioseguridad, cuidado humanizado y actualización en el Plan de Beneficios en Salud (PBS).
+
+¿Qué competencias debe demostrar el personal de enfermería según la Resolución 1444?
+Capacidad para administrar medicamentos de forma segura, habilidad para realizar procedimientos básicos (toma de signos vitales, curaciones, colocación de sondas), comunicación efectiva, trabajo en equipo, registro adecuado en historia clínica, conocimiento de derechos y deberes de los pacientes, y manejo de emergencias básicas (RCP, manejo de vía aérea).
+
+¿Qué condiciones laborales debe garantizar la institución al auxiliar de enfermería?
+Jornadas que no excedan los límites legales, descansos adecuados entre turnos, elementos de protección personal suficientes y de calidad, programas de prevención del desgaste profesional, espacios para alimentación y descanso, y protocolos para manejo de violencia laboral.
+
+¿Qué debe incluir el programa de bienestar laboral para enfermería?
+Pausas activas, acceso a servicios de salud mental y apoyo psicológico, horarios flexibles cuando sea posible, reconocimiento al desempeño destacado, y actividades de integración y esparcimiento.
+
+¿Cada cuánto se debe evaluar el desempeño del auxiliar de enfermería?
+Al menos una vez al año. La evaluación debe considerar calidad del registro en la historia clínica, cumplimiento de protocolos, habilidades técnicas, comunicación con pacientes, trabajo en equipo y puntualidad.
+
+¿Qué pasa si un auxiliar de enfermería no cumple con la re-certificación cada 5 años?
+Se suspende temporalmente la certificación, lo que puede inhabilitarlo para ejercer en instituciones de salud que exijan este requisito.
+
+¿Puede un auxiliar de enfermería reportar condiciones laborales inseguras sin temor a represalias?
+Sí, está protegido por la ley. Las instituciones no pueden tomar represalias contra el personal que reporta irregularidades.
+
+¿Qué relación tiene la Resolución 1444 con los concursos de méritos de la CNSC?
+Los concursos para cargos de enfermería en ESE deben considerar estos requisitos de formación continua y re-certificación como parte de las competencias exigidas.
+
+¿Qué indicador mide la frecuencia de errores al administrar medicamentos en enfermería?
+La tasa de errores de medicación, calculada como (número de errores de medicación reportados ÷ número total de dosis administradas) × 1000. Se expresa por cada 1000 dosis.
+
+¿Cómo se calcula la tasa de errores de medicación en enfermería?
+Se divide el número de errores de medicación reportados entre el total de dosis administradas en el mismo período, y se multiplica por 1000.
+
+¿Qué indicador mide la incidencia de úlceras por presión adquiridas en el hospital?
+Porcentaje de pacientes con úlceras por presión adquiridas durante la hospitalización, calculado como (pacientes con úlceras nuevas ÷ total de pacientes hospitalizados) × 100.
+
+¿Qué indicador evalúa la adherencia a los protocolos de administración de medicamentos?
+Porcentaje de adherencia a los 5 correctos (paciente, medicamento, dosis, vía, hora). Se mide mediante observación directa o auditoría de registros.
+
+¿Qué indicador de seguridad del paciente está relacionado con la administración de medicamentos?
+La tasa de errores de medicación reportados por cada 1000 dosis administradas. También el porcentaje de cumplimiento de los 5 correctos.
+
+¿Cómo se calcula la tasa de caídas de pacientes en el hospital?
+(Número de caídas de pacientes ÷ número de días de estancia) × 1000. Se expresa como caídas por cada 1000 días de estancia.
+
+¿Qué indica un alto porcentaje de adherencia al lavado de manos?
+Que el personal cumple con la medida más importante para prevenir infecciones asociadas a la atención. Se mide observando antes y después del contacto con cada paciente.
+
+¿Qué indicador mide la satisfacción del paciente con el cuidado de enfermería?
+Se mide mediante encuestas a pacientes, evaluando trato respetuoso, claridad en la información, respuesta oportuna a los llamados, cuidado del dolor y confort, y confidencialidad.
+
+¿Qué relación tiene la Resolución 256 con el Decreto 1011?
+La Resolución 256 define los indicadores de calidad que deben medirse para cumplir con el Sistema Obligatorio de Garantía de Calidad (SOGC) establecido en el Decreto 1011.
+
+¿Qué debe hacer el auxiliar de enfermería con los resultados de los indicadores?
+Participar en el análisis de los resultados, identificar áreas de mejora, implementar acciones correctivas y hacer seguimiento. Por ejemplo, si la tasa de caídas es alta, reforzar medidas de prevención.
+
+
+
+
+
+
+
+
+
+
+
+
+
 -----------------------------------
 
 fraseExperto: 💡 Modo Estudio: Aprendes el contenido sin presión, con feedback inmediato. Modo Simulacro: Entrenas tu velocidad, resistencia y conocimiento con tiempo límite y puntaje real. Usa ambos para estar completamente preparado para el concurso SIMO.
