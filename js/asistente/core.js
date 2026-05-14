@@ -49,19 +49,73 @@ export function agregarMensaje(texto, esUsuario) {
     body.scrollTop = body.scrollHeight;
 }
 
-// Procesar pregunta del usuario
+// ============================================
+// ESTADO DE DESAMBIGUACIÓN (contexto entre turnos)
+// ============================================
+let estadoConfirmacion = {
+    activo: false,
+    preguntaOriginal: null,
+    faqCandidata: null,
+    respuestaCorrecta: null
+};
+
+// ============================================
+// PROCESAR PREGUNTA (con desambiguación)
+// ============================================
 export async function procesarPregunta() {
     const input = document.getElementById('asistente-input');
-    const pregunta = input.value.trim();
-    if (!pregunta) return;
+    const textoUsuario = input.value.trim();
+    if (!textoUsuario) return;
     
-    agregarMensaje(pregunta, true);
+    agregarMensaje(textoUsuario, true);
     input.value = '';
     
-    const respuesta = await buscarRespuesta(pregunta);
-    setTimeout(() => {
-        agregarMensaje(respuesta, false);
-    }, 300);
+    // --------------------------------------------------
+    // CASO 1: Estamos esperando confirmación (sí/no)
+    // --------------------------------------------------
+    if (estadoConfirmacion.activo) {
+        const respuestaUsuario = textoUsuario.toLowerCase();
+        if (respuestaUsuario === 'sí' || respuestaUsuario === 'si' || respuestaUsuario === 's') {
+            // Usuario confirma → entregar la respuesta correcta
+            agregarMensaje(estadoConfirmacion.respuestaCorrecta, false);
+        } 
+        else if (respuestaUsuario === 'no' || respuestaUsuario === 'n') {
+            // Usuario niega → pedir reformular
+            agregarMensaje("Entiendo. ¿Podrías reformular tu pregunta con más detalles? Así podré ayudarte mejor.", false);
+        }
+        else {
+            // Respuesta no reconocida (ni sí ni no)
+            agregarMensaje(`Por favor, responde con "sí" o "no". ¿Te referías a "${estadoConfirmacion.faqCandidata}"?`, false);
+            // No desactivamos el estado, seguimos esperando sí/no
+            return;
+        }
+        // Desactivar el estado después de procesar
+        estadoConfirmacion.activo = false;
+        estadoConfirmacion.preguntaOriginal = null;
+        estadoConfirmacion.faqCandidata = null;
+        estadoConfirmacion.respuestaCorrecta = null;
+        return;
+    }
+    
+    // --------------------------------------------------
+    // CASO 2: Consulta normal (sin estado pendiente)
+    // --------------------------------------------------
+    const resultado = await buscarRespuesta(textoUsuario);
+    
+    if (resultado.necesitaConfirmacion) {
+        // Guardar estado y preguntar al usuario
+        estadoConfirmacion.activo = true;
+        estadoConfirmacion.preguntaOriginal = textoUsuario;
+        estadoConfirmacion.faqCandidata = resultado.tema;
+        estadoConfirmacion.respuestaCorrecta = resultado.respuestaCorrecta;
+        
+        const mensajeConfirmacion = `🤔 Te refieres a "${resultado.tema}" Responde "sí" o "no".`;
+        agregarMensaje(mensajeConfirmacion, false);
+    } 
+    else {
+        // Respuesta directa
+        agregarMensaje(resultado.respuesta, false);
+    }
 }
 
 // Mostrar/ocultar botones Subir según el estado del chat

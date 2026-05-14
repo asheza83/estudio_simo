@@ -120,6 +120,9 @@ function similitudCoseno(vecA, vecB) {
 // ============================================
 // BUSCAR RESPUESTA
 // ============================================
+// ============================================
+// BUSCAR RESPUESTA (con desambiguación)
+// ============================================
 export async function buscarRespuestaTFIDF(preguntaUsuario) {
     if (!modeloListo) {
         await new Promise((resolve) => {
@@ -128,33 +131,57 @@ export async function buscarRespuestaTFIDF(preguntaUsuario) {
         });
     }
     
-    if (faqs.length === 0) return null;
+    if (faqs.length === 0) return { respuesta: null, necesitaConfirmacion: false };
     
-    // Calcular embedding SOLO de la pregunta del usuario
     const pipe = await getQueryModel();
     const queryEmbedding = await pipe(preguntaUsuario, { pooling: 'mean', normalize: true });
     const queryVector = Array.from(queryEmbedding.data);
     
-    // Comparar con FAQs pre-calculadas
     const resultados = [];
     for (const faq of faqs) {
         const similitud = similitudCoseno(queryVector, faq.embedding);
         resultados.push({ faq, similitud });
     }
-    
     resultados.sort((a, b) => b.similitud - a.similitud);
     
-    const UMBRAL = 0.55;
+    const mejor = resultados[0];
+    const similitudMax = mejor?.similitud || 0;
+    const UMBRAL_CONFIANZA_ALTA = 0.85;
+    const UMBRAL_INCERTIDUMBRE = 0.65;  // entre 0.65 y 0.85 necesita confirmación
     
-    if (resultados.length > 0 && resultados[0].similitud >= UMBRAL) {
-        console.log(`🎯 Similitud: ${resultados[0].similitud.toFixed(3)}`);
-        console.log(`📖 FAQ encontrada: "${resultados[0].faq.pregunta}"`);
-        console.log(`💬 Respuesta: "${resultados[0].faq.respuesta}"`);
-        return resultados[0].faq.respuesta;
+    console.log(`🎯 Mejor similitud: ${similitudMax.toFixed(3)}`);
+    
+    // Caso 1: confianza alta → responder directamente
+    if (similitudMax >= UMBRAL_CONFIANZA_ALTA) {
+        console.log(`✅ Respuesta directa: "${mejor.faq.respuesta}"`);
+        return {
+            respuesta: mejor.faq.respuesta,
+            necesitaConfirmacion: false,
+            tema: mejor.faq.pregunta,
+            similitud: similitudMax
+        };
     }
     
-    console.log(`❌ No encontró respuesta (máx: ${resultados[0]?.similitud.toFixed(3) || 0})`);
-    return "No estoy seguro de haber entendido tu pregunta. ¿Podrías ser más específico?";
+    // Caso 2: zona de incertidumbre → preguntar al usuario
+    if (similitudMax >= UMBRAL_INCERTIDUMBRE && similitudMax < UMBRAL_CONFIANZA_ALTA) {
+        console.log(`⚠️ Zona gris (${similitudMax.toFixed(3)}). Preguntando confirmación sobre: "${mejor.faq.pregunta}"`);
+        return {
+            respuesta: null,
+            necesitaConfirmacion: true,
+            tema: mejor.faq.pregunta,
+            respuestaCorrecta: mejor.faq.respuesta,   // guardamos la respuesta por si el usuario dice "sí"
+            similitud: similitudMax
+        };
+    }
+    
+    // Caso 3: similitud muy baja
+    console.log(`❌ Sin respuesta clara (máx: ${similitudMax.toFixed(3)})`);
+    return {
+        respuesta: "No estoy seguro de haber entendido tu pregunta. ¿Podrías ser más específico?",
+        necesitaConfirmacion: false,
+        tema: null,
+        similitud: similitudMax
+    };
 }
 
 // ============================================
