@@ -8336,14 +8336,269 @@ Para reducir riesgos: caídas, confusión, sangrados, interacciones. Un adulto m
 ¿Una cosa, el auxiliar puede decidir qué medicamentos quitar?
 No. La deprescripción es orden médica. El auxiliar puede informar al médico si ve efectos adversos o si el paciente toma muchos medicamentos, pero la decisión final es del médico.
 
+Oiga, el glosario se me queda cargando y no muestra nada, ¿qué hago?
+Si el glosario no carga, puede ser por una conexión lenta o un error temporal. Prueba recargar la página (F5 o actualizar en celular). Si el problema persiste, limpia la caché de tu navegador. Los datos del glosario están en el archivo glosario.json; si lo descargaste, asegúrate de que esté en la carpeta correcta.
 
+¿Parce, el glosario se queda pegado, no carga los términos, ¿qué hago?
+Refresca la página. Si sigue igual, cierra y vuelve a abrir el navegador. También revisa tu conexión a internet. El glosario funciona offline si tienes todos los archivos, pero a veces el navegador puede bloquear la carga.
 
+¿Oiga, el glosario no me muestra nada, solo una pantalla en blanco, ¿qué puede ser?
+Puede que el archivo glosario.json esté dañado o falte. Si estás usando la versión descargada, verifica que el archivo exista. Si es la versión online, recarga la página y espera unos segundos.
 
+¿Una cosa, el glosario se demora mucho en responder, ¿es normal?
+No debería demorarse más de 1-2 segundos. Si tarda más, puede ser por muchos términos o conexión lenta. Prueba recargar o usar el modo offline si descargaste el proyecto.
 
+Oiga, busqué haloperidol en el glosario y me da la definición, pero ¿también dice las interacciones con otros medicamentos?
+No, el glosario solo da la definición básica del término. No incluye interacciones medicamentosas, dosis específicas ni efectos adversos detallados. Para eso, debes consultar el Vademécum o la farmacopea oficial.
 
+¿Parce, el glosario me dice si el clonazepam choca con el alcohol?
+No, el glosario es solo para definir términos, no para dar interacciones. Las interacciones son temas médicos más profundos que no están en esta herramienta.
 
+¿Oiga, en el glosario puedo ver los efectos secundarios de la risperidona?
+No, el glosario solo define el término "risperidona" como un antipsicótico. Para efectos secundarios e interacciones, consulta a un médico o el prospecto del medicamento.
 
+¿El glosario tiene información de dosis de medicamentos?
+No, el glosario solo define. Las dosis son parte de los exámenes de razonamiento matemático, no del glosario.
 
+Oiga, ¿qué significa RIPS? Lo vi en unos papeles del hospital pero no está en el glosario.
+RIPS significa Registro Individual de Prestación de Servicios de Salud. Es el formato técnico que se usa para reportar a las EPS los servicios que se prestaron a un paciente. No es un término común en el concurso de auxiliares, pero es bueno saberlo.
+
+¿Parce, qué es eso de RIPS? No aparece en el glosario.
+RIPS son las siglas de Registro Individual de Prestación de Servicios. Es un conjunto de datos que se envían a la EPS para facturar. No suele preguntarse en el concurso SIMO, pero lo agregaremos al glosario en futuras versiones.
+
+¿Oiga, RIPS es lo mismo que la historia clínica?
+No exactamente. La historia clínica es el documento completo del paciente. El RIPS es un resumen de datos para facturación y estadísticas. Incluye diagnóstico, procedimientos, fechas, etc.
+
+¿Qué significa RIPS en el sistema de salud colombiano?
+Registro Individual de Prestación de Servicios de Salud. Es obligatorio para todas las IPS y lo maneja el personal administrativo, pero los auxiliares deben conocerlo.
+
+Oiga, escribí "clonazepan" (sin la m) y no encontró nada, pero quería buscar clonazepam. ¿El glosario no corrige errores?
+El glosario busca la palabra exacta que escribes, no corrige automáticamente errores ortográficos. Si escribes mal, no encontrará el término. Escribe bien el nombre: "clonazepam". El asistente IA sí entiende errores leves, pero el buscador del glosario no.
+
+¿Parce, puse "haloperidol" con dos eles y no salió, ¿por qué?
+Porque escribiste mal. El glosario busca la palabra tal cual. Asegúrate de la ortografía. Si no estás seguro, usa el buscador con las primeras letras correctas y revisa la lista.
+
+¿Oiga, el glosario no tiene corrector ortográfico?
+No, el buscador del glosario es simple: compara exactamente lo que escribes con los términos. No tiene autocorrección. Para errores, usa el Asistente IA, que sí entiende variaciones.
+
+¿El glosario encuentra "acetaminofén" si escribo "acetaminofen" sin tilde?
+Sí, porque las tildes no importan. Pero si cambias letras, como "asetaminofen", no lo encontrará. Usa la palabra lo más cercana posible.
+
+Oiga, ¿el glosario tiene atajos de teclado para buscar más rápido?
+No, el glosario no tiene atajos de teclado específicos. Solo puedes usar Enter para activar la búsqueda después de escribir. En navegadores, Ctrl+F busca en la página, no en el glosario.
+
+¿Parce, puedo usar la tecla Enter para buscar en el glosario?
+Sí, después de escribir la palabra, presiona Enter. Eso sí es un atajo. Pero no hay otros como Ctrl+B o algo así.
+
+¿Oiga, hay un comando rápido para limpiar el buscador?
+No, solo borras manualmente con la tecla Supr o Backspace. No hay botón de limpiar.
+
+¿El glosario tiene un atajo para ir al campo de búsqueda sin usar el mouse?
+En la mayoría de navegadores, presiona Tab varias veces hasta que se seleccione el campo. No hay un atajo directo tipo Alt+G.
+
+Oiga, el glosario se demora mucho en mostrar los resultados después de escribir, ¿es normal?
+No debería demorarse más de 1-2 segundos. Si tarda más, puede ser por muchos términos filtrados (ej. una letra con muchísimas palabras) o por conexión lenta. Prueba a recargar la página o usar menos filtros a la vez.
+
+¿Parce, el glosario es lento, ¿cómo lo acelero?
+Los datos del glosario se cargan al abrir la página. Si usas la versión online, asegúrate de tener buena conexión. Si usas la versión descargada, verifica que el archivo glosario.json no esté dañado.
+
+¿Oiga, por qué tarda al filtrar por la letra "C"? Hay muchos términos?
+Exacto. La letra "C" tiene muchos términos (CNSC, concurso, confidencialidad, etc.). El glosario muestra 10 por página, pero la búsqueda interna puede tardar un poco. Es normal.
+
+¿El glosario se puede hacer más rápido quitando algunos términos?
+No, los términos son fijos. Pero puedes usar los filtros para reducir la lista antes de buscar. Por ejemplo, selecciona una categoría primero y luego busca dentro de ella.
+
+Oiga, ¿el glosario tiene términos de jurisprudencia? Por ejemplo, sentencias de la Corte Constitucional.
+No, el glosario solo incluye términos legales básicos (leyes, decretos, resoluciones) y conceptos de salud. Jurisprudencia (sentencias) no está incluido porque el concurso SIMO no pregunta de eso. Solo necesitas conocer las normas, no las sentencias.
+
+¿Parce, qué es jurisprudencia? ¿Eso viene en el examen?
+Jurisprudencia son las decisiones de los jueces y cortes. En el concurso para auxiliar de enfermería no suelen preguntar sentencias específicas. Solo lo básico de leyes y decretos.
+
+¿Oiga, en el glosario sale la Sentencia T-760? No la encuentro.
+No, no está. La Sentencia T-760 es importante para el sistema de salud, pero no es un término que debas memorizar para el concurso de enfermería. El glosario se enfoca en términos de la convocatoria, no en jurisprudencia.
+
+¿El glosario tiene fallos de la Corte Suprema?
+No. El concurso SIMO evalúa normatividad (leyes, decretos, resoluciones), no jurisprudencia. Por eso no está en el glosario.
+
+Oiga, quiero buscar "plan de beneficios" en el glosario, ¿puedo escribir toda la frase?
+El buscador del glosario busca palabras sueltas, no frases exactas. Si escribes "plan de beneficios", buscará términos que contengan "plan", "de" o "beneficios". Mejor busca "PBS" que es la sigla, o solo "beneficios". Para frases exactas, usa el Asistente IA.
+
+¿Parce, puedo buscar "historia clínica" como frase completa en el glosario?
+Sí, pero te mostrará términos que tengan "historia" o "clínica", no la frase exacta. El glosario no es un buscador de frases. Te recomiendo buscar "historia clínica" sin comillas y revisar la lista.
+
+¿Oiga, cómo busco una frase de dos palabras exactas en el glosario?
+No se puede. El buscador divide la frase en palabras y busca cada una por separado. Si quieres exactitud, usa el Asistente IA, que entiende contexto.
+
+¿El glosario tiene búsqueda por frase entre comillas como en Google?
+No, no es tan avanzado. Es un buscador simple. Para búsquedas complejas, está el Asistente IA.
+
+Oiga, en el buscador universal de leyes escribí una palabra que sé que está en la Ley 100, pero no aparece, ¿qué hago?
+Revisa la ortografía y que no tenga tildes (el buscador no distingue tildes, pero sí letras). Si sigue sin aparecer, prueba con una palabra similar o un sinónimo. El buscador busca en los textos de los artículos, no en los títulos. Si la palabra está solo en el título, no la encontrará.
+
+¿Parce, el buscador de leyes no encuentra "EPS" pero sí "afiliación", ¿por qué?
+Porque el artículo que buscas puede no tener la palabra "EPS" pero sí "afiliación". Prueba con diferentes palabras clave. Si estás seguro de que está, recarga la página y vuelve a intentar.
+
+¿Oiga, el buscador universal a veces no muestra resultados aunque la palabra sí está en alguna ley, ¿es un error?
+Puede ser que la palabra esté en un artículo que no está incluido en nuestra base de datos. La herramienta solo tiene los artículos más relevantes para el concurso, no la ley completa. Por eso algunas palabras pueden no aparecer.
+
+¿Qué hago si el buscador no encuentra un artículo que sé que existe?
+Usa el buscador específico dentro de la ley (haz clic en la ley y luego busca allí). A veces es más preciso. Si aún así no aparece, el artículo no está en nuestra selección.
+
+Oiga, en los casos prácticos hay paginación, pero quiero ir directamente a la página 5 sin tener que darle Siguiente muchas veces. ¿Se puede?
+No, la paginación solo tiene botones ◀ Anterior y Siguiente ▶. No hay un cuadro para escribir el número de página. Puedes dar clic rápido en Siguiente varias veces, o usar los filtros para reducir el número de páginas.
+
+¿Parce, puedo saltar a la página 10 de casos prácticos directamente?
+No hay función de salto directo. La paginación es secuencial. Puedes filtrar por competencia para que haya menos casos y así llegar más rápido a páginas avanzadas.
+
+¿Oiga, es molesto darle Siguiente muchas veces, ¿pueden agregar un selector de página?
+En la versión actual no. Pero es una buena sugerencia para futuras versiones. Mientras tanto, usa los filtros para reducir la cantidad de casos por página.
+
+¿Cómo voy a la última página de casos prácticos sin darle Siguiente 20 veces?
+No se puede. La paginación es básica. Puedes dar clic rápido o usar la rueda del ratón para bajar, pero igual tienes que pasar página por página.
+
+Oiga, ¿puedo descargar la Ley 100 completa en PDF desde la herramienta?
+No, la herramienta solo muestra los artículos más relevantes de cada ley, no la ley completa. No hay opción de descargar PDF. Pero puedes copiar el texto de los artículos y pegarlo en un documento.
+
+¿Parce, necesito la ley entera, ¿dónde la consigo?
+Puedes descargar leyes completas desde la página del Ministerio de Salud (minsalud.gov.co) o desde la imprenta nacional (imprenta.gov.co). En ESTUDIO SIMO solo están los artículos clave para el concurso.
+
+¿Oiga, puedo imprimir la vista de una ley completa desde la herramienta?
+Puedes imprimir la página usando Ctrl+P, pero solo saldrá lo que ves en pantalla (el resumen y los artículos listados). No es la ley completa.
+
+¿Hay algún enlace externo para ver la ley completa desde la herramienta?
+No hay enlaces directos. Los textos que mostramos son propios. Pero puedes buscar la ley por su nombre en Google y encontrar el PDF oficial.
+
+Oiga, en los casos prácticos, ¿puedo filtrar solo los que no he leído todavía?
+No, la herramienta no guarda qué casos has leído. No hay un filtro de "no leídos". Todos los casos se muestran siempre. Puedes recordar mentalmente cuáles has visto o usar los filtros por competencia para reducir la lista.
+
+¿Parce, hay una forma de marcar los casos prácticos como leídos?
+No hay esa funcionalidad. La herramienta no tiene sistema de usuarios ni guarda tu progreso en casos prácticos. Solo los exámenes de la pestaña Preguntas guardan progreso temporal.
+
+¿Oiga, quiero llevar un control de los casos que ya estudié, ¿qué puedo hacer?
+Puedes copiar los títulos de los casos a una hoja de cálculo y marcarlos manualmente. O simplemente usar los filtros para repasar por competencia y así no repetir los mismos.
+
+¿El sistema recuerda qué casos prácticos vi ayer?
+No, no guarda esa información. Solo los exámenes tienen guardado temporal. Los casos prácticos son para leer y aprender, no para seguimiento.
+
+Oiga, ¿puedo guardar una búsqueda que hice en el buscador de leyes para usarla después?
+No, el buscador no guarda el historial de búsquedas. Cada vez que escribes una palabra, es una búsqueda nueva. Si quieres repetir una búsqueda, debes volver a escribirla.
+
+¿Parce, hay un historial de búsquedas recientes?
+No, no hay historial. Puedes copiar la palabra que buscaste a un bloc de notas si quieres recordarla. La herramienta no almacena ese tipo de datos.
+
+¿Oiga, puedo marcar una ley como favorita para encontrarla rápido?
+No hay sistema de favoritos. Pero las leyes están en el listado inicial; solo haces clic en la que te interesa. No es necesario marcar favoritos.
+
+¿El buscador recuerda las últimas 5 palabras que busqué?
+No, no recuerda nada. Cada sesión comienza desde cero. Es intencional para privacidad.
+
+Oiga, busqué la palabra "tutela" en el buscador de leyes y no salió nada, ¿por qué?
+Porque en los artículos seleccionados de nuestras 12 normas no aparece la palabra "tutela". La tutela es un derecho constitucional, pero no está mencionada explícitamente en los artículos de salud que incluimos. Puede que no sea relevante para el concurso de auxiliar.
+
+¿Parce, la tutela no está en ninguna ley de salud?
+Sí, está en la Constitución, pero nosotros solo tenemos leyes específicas de salud (Ley 100, etc.). En esas leyes, la palabra "tutela" puede no aparecer. Por eso no la encuentra.
+
+¿Oiga, cómo busco información sobre tutela en salud?
+Puedes preguntarme al Asistente IA. Te explicaré que la tutela es un recurso legal para exigir el derecho a la salud. Pero en la sección de Normas, no hay artículos específicos sobre tutela.
+
+¿El buscador universal incluye la Constitución Política?
+No, solo las 12 normas del sector salud. La Constitución no está incluida. Por eso no aparecen términos como "tutela" o "derecho fundamental".
+
+Oiga, ¿los casos prácticos se actualizan con nuevas situaciones o son siempre los mismos?
+Actualmente son fijos, pero se espera agregar más casos en futuras versiones. No se actualizan automáticamente. Si hay cambios importantes, se publicará una nueva versión de la herramienta.
+
+¿Parce, los casos prácticos son los mismos desde que salió la herramienta?
+Puede que se hayan agregado algunos nuevos en actualizaciones, pero no es algo automático. Revisa la página de novedades o el repositorio de GitHub para ver si hay cambios.
+
+¿Oiga, puedo sugerir un caso práctico nuevo?
+Sí, puedes escribir tu caso aquí en el chat y lo consideraremos para futuras versiones. Si es relevante y de buena calidad, puede ser agregado.
+
+¿Los casos prácticos se actualizan según nuevas leyes?
+Si hay una ley nueva que afecte la atención de enfermería, se agregarán casos relacionados. Pero no es automático. La herramienta se actualiza periódicamente.
+
+Oiga, ¿el buscador de leyes guarda el historial de las palabras que he buscado?
+No, no guarda historial. Cada búsqueda es independiente. Si quieres repetir una búsqueda, debes volver a escribirla. La herramienta no almacena ese tipo de datos por privacidad.
+
+¿Parce, puedo ver las búsquedas que hice ayer?
+No, no hay historial. La herramienta no guarda tu actividad. Solo funciona en la sesión actual y no recuerda lo que buscaste antes.
+
+¿Oiga, es molesto tener que volver a escribir la misma palabra, ¿podrían agregar historial?
+Es una sugerencia válida. Actualmente no está implementado. Pero puedes copiar las palabras a un bloc de notas si haces muchas búsquedas repetitivas.
+
+¿El buscador tiene autocompletado con búsquedas anteriores?
+No, no tiene autocompletado ni sugiere búsquedas previas. Es un buscador simple, sin memoria.
+
+Oiga, ¿en los casos prácticos hay algún caso sobre pacientes con depresión?
+Sí, hay casos sobre depresión, especialmente en la categoría de ética profesional y orientación al servicio. Por ejemplo, un paciente con depresión severa que se niega a comer o a tomar la medicación. Puedes filtrar por "Comportamentales" para encontrarlos.
+
+¿Parce, hay un caso de un paciente con depresión que intenta autolesionarse?
+Sí, hay casos que incluyen riesgo de autolesión. Están diseñados para que practiques cómo actuar: activar código de seguridad, notificar al médico, etc. Busca en los casos prácticos y revisa las respuestas orientativas.
+
+¿Oiga, los casos de depresión incluyen manejo de psicofármacos?
+Algunos sí, como la administración de antidepresivos o ansiolíticos. Pero los casos se enfocan más en la conducta del profesional que en la farmacología específica.
+
+¿Dónde encuentro casos de depresión en la herramienta?
+En la pestaña Estudio SIMO, selecciona "Casos prácticos" y filtra por "Comportamentales". Lee los títulos; muchos mencionan depresión, ansiedad o riesgo suicida.
+
+Oiga, ¿puedo buscar una palabra dentro de los casos prácticos, como "depresión", para encontrar el caso rápido?
+No, la sección de casos prácticos no tiene buscador. Solo tiene filtros por competencia. Para encontrar un tema específico, debes leer los títulos o usar la paginación. Si quieres buscar por palabra, usa el Asistente IA o el glosario.
+
+¿Parce, puedo usar Ctrl+F en la página de casos prácticos para buscar?
+Sí, Ctrl+F busca en la página actual, pero solo en los textos visibles (los títulos y descripciones cortas). No busca dentro de las respuestas orientativas que están ocultas. Puedes abrir todas las respuestas y luego usar Ctrl+F.
+
+¿Oiga, sería útil un buscador de casos prácticos, ¿lo van a agregar?
+Es una buena sugerencia. Actualmente no está implementado, pero podríamos considerarlo en futuras versiones. Mientras tanto, usa los filtros por competencia para reducir la lista.
+
+¿Cómo encuentro un caso específico sin tener que leer todos?
+Usa los filtros: si buscas un caso de ética, filtra por "Comportamentales". Si es de matemáticas, "Básicas". Luego revisa los títulos rápidamente.
+
+Oiga, la información de la convocatoria ESE 2 en la herramienta, ¿se actualiza sola cuando la CNSC publique nuevos datos?
+No, la información de la convocatoria es estática. Está basada en los datos conocidos hasta la fecha de lanzamiento de la herramienta. Si la CNSC publica cambios (nuevas fechas, vacantes, etc.), debes actualizar la herramienta manualmente o esperar una nueva versión.
+
+¿Parce, los datos de la convocatoria están desactualizados?
+Hasta donde sabemos, están actualizados a la última información oficial. Pero te recomendamos verificar siempre en la página de la CNSC (cnsc.gov.co) por si hubiera cambios de última hora.
+
+¿Oiga, cómo me entero si la herramienta actualizó los datos de la convocatoria?
+Revisa el repositorio de GitHub o la página de novedades. Si hay una nueva versión, se anunciará. La herramienta no se actualiza automáticamente.
+
+¿La información de fechas de inscripción puede cambiar sin aviso?
+La CNSC es la fuente oficial. La herramienta mostrará lo que se sabe hasta el momento. Si hay cambios, actualizaremos. Pero tú también debes estar pendiente de la página oficial.
+
+Oiga, ¿puedo descargar una ley como archivo de texto (.txt) desde la herramienta?
+No, no hay opción de descarga directa. Puedes seleccionar y copiar el texto de los artículos que ves y pegarlo en un bloc de notas. Eso te dará un archivo de texto. Pero no es la ley completa, solo los artículos relevantes.
+
+¿Parce, puedo exportar la Ley 100 a un archivo para leerla sin internet?
+Sí, copia el texto de cada artículo (uno por uno) y pégalo en un documento. O usa el modo offline descargando todo el proyecto. Los textos de las leyes están en archivos JSON dentro de la carpeta datos/leyes/.
+
+¿Oiga, cómo saco el contenido de una ley a mi computador?
+Si descargaste el proyecto completo, ve a la carpeta `datos/leyes/`. Allí están los archivos JSON con el texto de cada ley. Puedes abrirlos con cualquier editor de texto.
+
+¿Hay un botón de "Guardar como" para las leyes?
+No, no lo hay. Pero puedes copiar y pegar manualmente. Es una limitación de la versión actual.
+
+Oiga, en el glosario, si busco una palabra que no existe, ¿qué aparece en la pantalla?
+Si no hay resultados, el glosario muestra un mensaje como "No se encontraron términos" o simplemente no muestra nada. Te sugiere revisar la ortografía o probar con otra palabra. También puedes usar los filtros por categoría o letra para encontrar términos similares.
+
+¿Parce, escribí una palabra en el buscador del glosario y no salió nada, ¿eso es normal?
+Sí, es normal si la palabra no está en el glosario. El sistema no muestra resultados. Revisa que hayas escrito bien la palabra (mínimo 3 letras) y prueba con un sinónimo o con una palabra más corta.
+
+¿Oiga, el glosario me dice algo cuando no encuentra lo que busco o se queda en blanco?
+Te muestra un mensaje indicando que no se encontraron términos coincidentes. No se queda en blanco. Si ves la página vacía, puede ser un error de carga. Recarga la página e intenta de nuevo.
+
+¿Una cosa, cuando no hay resultados en el glosario, ¿me sugiere algo o solo se queda quieto?
+Te sugiere revisar la ortografía y probar con otra palabra. También te recomienda usar los filtros por categoría o letra para navegar sin escribir. No te deja sin orientación.
+
+Oiga, en el glosario, ¿los términos están ordenados de la A a la Z o en otro orden?
+Sí, todos los términos del glosario se muestran en orden alfabético ascendente (de la A a la Z). Los filtros por letra te permiten ver solo los que empiezan con esa letra, pero el orden siempre es alfabético.
+
+¿Parce, el glosario ordena las palabras por orden alfabético o por la fecha en que se agregaron?
+Están ordenados alfabéticamente, no por fecha. Así es más fácil encontrar lo que buscas. El orden es de la A a la Z en todos los resultados.
+
+¿Oiga, si filtro por la letra 'C', ¿me muestra los términos en orden alfabético también?
+Sí, incluso cuando usas filtros (por letra o categoría), el orden sigue siendo alfabético. Primero los que empiezan con 'C', luego 'D', etc., dentro de ese filtro.
+
+¿Una cosa, puedo cambiar el orden del glosario a Z-A o por fecha?
+No, el glosario tiene un solo orden: alfabético ascendente (A-Z). No hay opción para invertir el orden o cambiar a fecha de inserción. Es para mantener la coherencia en la búsqueda.
 
 
 
