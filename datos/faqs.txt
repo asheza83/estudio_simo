@@ -8612,6 +8612,41 @@ Lo siento, eso no está implementado. ESTUDIO SIMO es una herramienta de estudio
 ¿Una cosa, la herramienta tiene la opción de [función que no existe]?
 No, ESTUDIO SIMO no incluye esa función. Las funcionalidades principales son: consulta de convocatoria, búsqueda en normas, exámenes de práctica (Estudio y Simulacro) y glosario de términos. Si no está en esa lista, probablemente no esté disponible. ¿En qué más te puedo ayudar?
 
+¿Puedo buscar 'EPS' en el buscador universal de leyes?
+Sí, el buscador universal te permite buscar cualquier palabra (como EPS, afiliación, artículo 157) en TODAS las normas simultáneamente. Te muestra cuántos artículos encontró y la lista de resultados. Es una de las funciones principales de la sección Normas.
+
+¿Oiga, puedo buscar palabras como 'EPS' en el buscador de leyes?
+Claro que sí. El buscador universal está diseñado para eso. Escribe la palabra que quieras (mínimo 3 letras) y presiona Enter. El sistema buscará en las 12 normas y te mostrará los artículos que contienen esa palabra.
+
+¿Parce, el buscador universal sirve para buscar 'EPS' o 'afiliación'?
+Sí, totalmente. Puedes buscar cualquier palabra clave relacionada con salud. El buscador te devuelve todos los artículos de todas las leyes donde aparece esa palabra. Es muy útil para estudiar conceptos transversales.
+
+¿Una cosa, con el buscador universal puedo encontrar artículos que hablen de 'EPS'?
+Sí, por supuesto. Escribe "EPS" en el buscador, presiona Enter, y te aparecerán todos los artículos de las 12 normas donde se menciona EPS. Así puedes comparar cómo se trata el mismo tema en diferentes leyes.
+
+¿Puedo buscar palabras en el buscador universal de leyes?
+Sí, el buscador universal te permite buscar cualquier palabra clave en TODAS las normas simultáneamente. Escribe la palabra (mínimo 3 letras) y presiona Enter. El sistema te mostrará cuántos artículos encontró y la lista de resultados agrupados por ley.
+
+¿El buscador universal de leyes funciona para encontrar términos específicos?
+Claro que sí. Está diseñado para buscar cualquier palabra que escribas en las 12 normas del sector salud. Es muy útil para encontrar conceptos que aparecen en varias leyes a la vez.
+
+¿Puedo usar el buscador universal para encontrar artículos de las normas?
+Sí. Escribe la palabra que te interese (ej. "derechos", "urgencias", "afiliación") y el buscador universal revisará todas las normas y te mostrará los artículos donde aparece esa palabra.
+
+¿El buscador universal de leyes me permite buscar cualquier palabra que yo quiera?
+Sí, totalmente. Es una herramienta de búsqueda libre. Escribes la palabra, presionas Enter, y el sistema te devuelve todos los artículos de todas las leyes que contienen esa palabra.
+
+¿El glosario tiene términos de la Ley 100?
+Sí, el glosario incluye muchos términos relacionados con la Ley 100, como "SGSSS", "EPS", "IPS", "UPC", "POS" (ahora PBS), "régimen contributivo", "régimen subsidiado", entre otros. Puedes filtrar por categoría o letra para encontrarlos fácilmente.
+
+¿Puedo encontrar términos de la Ley 100 en el glosario?
+Claro que sí. El glosario tiene una amplia selección de términos de todas las normas del sector salud, incluyendo la Ley 100. Busca palabras clave como "SGSSS", "cotización", "beneficios" o filtra por la letra que quieras.
+
+¿El glosario incluye términos de las leyes de salud como la Ley 100?
+Sí. El glosario está diseñado para cubrir los términos más importantes del concurso, incluyendo conceptos de la Ley 100, la Ley 1438, el Decreto 780, y las resoluciones más relevantes.
+
+¿Qué términos de la Ley 100 puedo encontrar en el glosario?
+Encontrarás términos como "Sistema General de Seguridad Social en Salud (SGSSS)", "EPS", "IPS", "UPC", "Plan de Beneficios", "cotización", "régimen contributivo", "régimen subsidiado", entre muchos otros.
 
 
 

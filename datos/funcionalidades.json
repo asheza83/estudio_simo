@@ -1,0 +1,256 @@
+{
+  "version": "1.0",
+  "fecha_actualizacion": "2026-05-15",
+  "descripcion": "Lista de funcionalidades existentes en ESTUDIO SIMO. El asistente la usa para responder si una funcionalidad específica está disponible.",
+  "funcionalidades_por_seccion": {
+    "estudio_simo": {
+      "nombre": "Pestaña Estudio SIMO",
+      "secciones": ["Inicio", "Convocatoria", "Normas", "Casos prácticos"],
+      "convocatoria": {
+        "disponible": true,
+        "descripcion": "Información de la convocatoria ESE 2",
+        "elementos": [
+          "fechas de inscripción (julio-agosto 2026)",
+          "vacantes totales (2.477 en 72 ESE)",
+          "modalidades (ascenso general 184, ascenso discapacidad 3, abierto general 2.293, abierto discapacidad 194)",
+          "requisitos para enfermería",
+          "enlaces para verificar antecedentes (Procuraduría, Policía, Contraloría)"
+        ]
+      },
+      "normas": {
+        "disponible": true,
+        "descripcion": "12 normas del sector salud con buscadores",
+        "leyes_incluidas": [
+          "Ley 100 de 1993",
+          "Ley 1122 de 2007",
+          "Ley 1438 de 2011",
+          "Ley 1751 de 2015",
+          "Decreto 780 de 2016",
+          "Decreto 1011 de 2006",
+          "Resolución 2292 de 2021 (PBS)",
+          "Resolución 3100 de 2019 (Habilitación)",
+          "Resolución 3280 de 2018 (RIAS)",
+          "Resolución 1995 de 1999 (Historia Clínica)",
+          "Resolución 1444 de 2025 (Talento Humano)",
+          "Resolución 256 de 2016 (Indicadores)"
+        ],
+        "buscador_universal": {
+          "disponible": true,
+          "descripcion": "Busca palabras en todas las normas simultáneamente"
+        },
+        "buscador_por_ley": {
+          "disponible": true,
+          "descripcion": "Dentro de cada ley, hay un buscador específico"
+        },
+        "ventana_emergente_articulo": {
+          "disponible": true,
+          "descripcion": "Al hacer clic en un artículo, se abre ventana con el texto completo"
+        },
+        "boton_subir_dentro_popup": {
+          "disponible": true,
+          "descripcion": "Si el artículo es largo, aparece un botón Subir dentro del popup"
+        }
+      },
+      "casos_practicos": {
+        "disponible": true,
+        "descripcion": "Situaciones reales de HOMERIS (salud mental)",
+        "filtros": ["TODAS", "Básicas", "Funcionales", "Comportamentales"],
+        "paginacion": "10 casos por página",
+        "respuesta_orientativa": {
+          "disponible": true,
+          "descripcion": "Botón 'Ver respuesta orientativa' que despliega explicación"
+        }
+      }
+    },
+    "preguntas": {
+      "nombre": "Pestaña Preguntas",
+      "modo_estudio": {
+        "disponible": true,
+        "descripcion": "Aprender sin presión",
+        "caracteristicas": [
+          "sin límite de tiempo",
+          "4 intentos por pregunta",
+          "feedback inmediato con explicación",
+          "5 preguntas por examen"
+        ]
+      },
+      "modo_simulacro": {
+        "disponible": true,
+        "descripcion": "Simular el examen real",
+        "caracteristicas": [
+          "60 segundos por pregunta",
+          "1 solo intento por pregunta",
+          "sin feedback durante el examen",
+          "puntaje SIMO al final",
+          "exportar resultados a PDF"
+        ]
+      },
+      "selectores_competencia": {
+        "disponible": true,
+        "descripcion": "Selectores anidados para elegir tipo de competencia y subcategoría",
+        "tipos": ["funcionales", "básicas", "comportamentales"]
+      },
+      "temporizador_global": {
+        "disponible": true,
+        "descripcion": "Barra de tiempo con colores: verde (>50%), amarillo (20-50%), rojo (<20%). Últimos 5 segundos parpadean"
+      },
+      "boton_cancelar_examen": {
+        "disponible": true,
+        "descripcion": "Borra todo el progreso y vuelve a selección de competencias"
+      },
+      "tabla_resultados": {
+        "disponible": true,
+        "descripcion": "Muestra puntaje SIMO (%), aciertos vs total, corte 70/100, APROBÓ/REPROBÓ"
+      },
+      "ver_preguntas_falladas": {
+        "disponible": true,
+        "solo_simulacro": true,
+        "descripcion": "Sección colapsable con solo las preguntas falladas"
+      },
+      "exportar_pdf": {
+        "disponible": true,
+        "solo_simulacro": true,
+        "descripcion": "Descarga PDF con puntaje, tiempos y preguntas falladas"
+      },
+      "repetir_examen": {
+        "disponible": true,
+        "descripcion": "Carga preguntas diferentes (aleatorias) del mismo banco"
+      },
+      "guardar_progreso": {
+        "disponible": true,
+        "descripcion": "Al cambiar de pestaña durante un examen, el progreso se guarda automáticamente. Al volver, pregunta si continuar"
+      }
+    },
+    "glosario": {
+      "nombre": "Pestaña Glosario",
+      "buscador": {
+        "disponible": true,
+        "descripcion": "Busca términos escritos (mínimo 3 letras)",
+        "caracteristicas": [
+          "mínimo 3 letras",
+          "resaltado amarillo de coincidencias",
+          "desplazamiento automático a resultados"
+        ]
+      },
+      "filtros_categoria": {
+        "disponible": true,
+        "opciones": ["Siglas", "Entidades", "Términos", "Principios", "Carrera"],
+        "descripcion": "Filtra términos por categoría"
+      },
+      "filtros_letra": {
+        "disponible": true,
+        "opciones": "A-Z",
+        "descripcion": "Filtra términos por letra inicial"
+      },
+      "combinacion_filtros": {
+        "disponible": true,
+        "descripcion": "Se puede combinar categoría + letra o letra + categoría"
+      },
+      "paginacion": {
+        "disponible": true,
+        "descripcion": "10 términos por página con botones Anterior y Siguiente"
+      },
+      "boton_subir": {
+        "disponible": true,
+        "descripcion": "Aparece al hacer scroll. Vuelve al inicio (filtros de búsqueda)"
+      }
+    },
+    "asistente_ia": {
+      "nombre": "Asistente IA",
+      "acceso": {
+        "pc": "Botón flotante en esquina inferior derecha",
+        "celular": "Botón en el header, junto a Ajustes e Instrucciones"
+      },
+      "ventana_chat": {
+        "disponible": true,
+        "descripcion": "Ventana con historial de conversación, campo de texto, botón Enviar y tecla Enter"
+      },
+      "base_conocimiento": {
+        "disponible": true,
+        "descripcion": "Preguntas y respuestas en archivo faqs.txt"
+      },
+      "motor": {
+        "disponible": true,
+        "descripcion": "MiniLM con embeddings pre-calculados (faqs_embeddings.json)"
+      },
+      "lenguaje_coloquial": {
+        "disponible": true,
+        "descripcion": "Entiende lenguaje coloquial colombiano (parce, quiubo, etc.)"
+      },
+      "sin_codigo_quemado": true
+    },
+    "ajustes": {
+      "nombre": "Ajustes",
+      "modo_oscuro": {
+        "disponible": true,
+        "descripcion": "Toggle para activar/desactivar. Cambia toda la interfaz a tonos oscuros. Se guarda en localStorage"
+      },
+      "tamaño_letra": {
+        "disponible": true,
+        "descripcion": "Botones A- y A+. 4 tamaños: pequeña, normal, grande, extra grande. Se guarda en localStorage"
+      }
+    },
+    "boton_subir_flotante": {
+      "nombre": "Botón Subir flotante",
+      "disponible": true,
+      "comportamiento": {
+        "aparece": "Al hacer scroll hacia abajo (a partir de 150px)",
+        "se_oculta": "Al volver al inicio o cuando el chat está abierto",
+        "en_general": "Sube al inicio de la página y recupera pestañas ocultas",
+        "en_glosario": "Vuelve a los filtros de búsqueda",
+        "en_leyes": "Sube al inicio del contenido de la ley",
+        "en_popup": "Botón Subir dentro del popup para artículos largos"
+      }
+    },
+    "modal_instrucciones": {
+      "nombre": "Modal de bienvenida e instrucciones",
+      "disponible": true,
+      "acceso": "Primera vez automático o con botón 📖 Instrucciones",
+      "contenido": "Explica las 6 competencias, 3 pestañas y funcionalidades importantes",
+      "comportamiento": "Guarda en localStorage si ya se mostró"
+    },
+    "generales": {
+      "offline": {
+        "disponible": true,
+        "descripcion": "Si descargas el proyecto completo, funciona sin internet (con archivos JSON)"
+      },
+      "gratuito": {
+        "disponible": true,
+        "descripcion": "Completamente gratuito, sin publicidad ni costos ocultos"
+      },
+      "responsive": {
+        "disponible": true,
+        "descripcion": "Se adapta a computadores, tabletas y celulares"
+      },
+      "guardar_preferencias": {
+        "disponible": true,
+        "descripcion": "Modo oscuro y tamaño de letra se guardan en localStorage"
+      }
+    }
+  },
+  "funcionalidades_no_disponibles": {
+    "nota": "Estas son funcionalidades que los usuarios suelen preguntar pero NO existen en ESTUDIO SIMO",
+    "listado": [
+      "ordenar casos prácticos por fecha o dificultad",
+      "descargar leyes completas en PDF",
+      "enlaces directos a artículos o términos del glosario",
+      "compartir filtros del glosario por enlace",
+      "guardar historial de búsquedas en el buscador universal o glosario",
+      "exportar glosario completo a archivo",
+      "filtrar por dos categorías a la vez en el glosario",
+      "cambiar el número de términos por página en el glosario",
+      "modo de vista de tarjetas en el glosario (solo lista)",
+      "impresión masiva de casos prácticos",
+      "agregar términos propios al glosario",
+      "cambiar el color de la barra de tiempo",
+      "pausar el temporizador del simulacro",
+      "cambiar el orden de los resultados del buscador universal",
+      "tener enlaces permanentes a leyes o artículos",
+      "recibir notificaciones de cambios en la convocatoria",
+      "compartir resultados de examen por enlace directo",
+      "ver historial de exámenes anteriores (no se guardan)",
+      "personalizar la interfaz más allá de modo oscuro y tamaño de letra",
+      "usar el asistente IA sin internet (requiere conexión para cargar el modelo)"
+    ]
+  }
+}
