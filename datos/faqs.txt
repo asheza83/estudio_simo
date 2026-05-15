@@ -8600,6 +8600,20 @@ Sí, incluso cuando usas filtros (por letra o categoría), el orden sigue siendo
 ¿Una cosa, puedo cambiar el orden del glosario a Z-A o por fecha?
 No, el glosario tiene un solo orden: alfabético ascendente (A-Z). No hay opción para invertir el orden o cambiar a fecha de inserción. Es para mantener la coherencia en la búsqueda.
 
+Oiga, ¿la herramienta permite hacer [algo como ordenar, descargar, compartir, filtrar por dos cosas a la vez, etc.]?
+Lo siento, esa funcionalidad no está disponible en ESTUDIO SIMO. La herramienta está diseñada para ayudarte a prepararte para el concurso de la CNSC: estudiar la convocatoria, consultar las normas del sector salud, practicar con exámenes tipo SIMO (Modo Estudio y Modo Simulacro) y buscar términos en el Glosario. Si lo que necesitas no está relacionado con estas áreas, es probable que la herramienta no lo incluya. ¿Te ayudo con algún tema del concurso?
+
+¿Parce, se puede hacer [algo] en ESTUDIO SIMO? Como ordenar los casos prácticos o descargar las leyes.
+No, esa funcionalidad no está disponible. La herramienta está enfocada en estudio y práctica para el concurso, no en gestión de archivos o personalización avanzada. Puedes consultar las normas, hacer exámenes y buscar en el glosario. ¿Necesitas ayuda con algún tema específico del concurso?
+
+¿Oiga, puedo [acción] con esta herramienta? Por ejemplo, compartir un filtro o guardar una búsqueda.
+Lo siento, eso no está implementado. ESTUDIO SIMO es una herramienta de estudio, no tiene funciones de guardado de búsquedas, enlaces directos ni personalización avanzada. Puedes copiar el texto manualmente si necesitas guardar algo. ¿Te ayudo con algo del concurso?
+
+¿Una cosa, la herramienta tiene la opción de [función que no existe]?
+No, ESTUDIO SIMO no incluye esa función. Las funcionalidades principales son: consulta de convocatoria, búsqueda en normas, exámenes de práctica (Estudio y Simulacro) y glosario de términos. Si no está en esa lista, probablemente no esté disponible. ¿En qué más te puedo ayudar?
+
+
+
 
 
 
