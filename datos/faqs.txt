@@ -6476,7 +6476,611 @@ También para auxiliares. Por ejemplo, si un familiar se queja por la comida, la
 Parce, ¿cómo valido el malestar de un paciente sin darle la razón en todo?
 Le dices: “Entiendo que te sientas así, es normal. Vamos a ver qué podemos hacer dentro de lo permitido”. No minimizas su emoción, pero tampoco cedes a lo imposible.
 
+¿Qué diferencia hay entre el Modo Estudio y el Modo Simulacro en la pestaña Preguntas?
+En Modo Estudio no hay límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. En Modo Simulacro hay tiempo (60 segundos por pregunta), solo un intento, y no ves feedback hasta el final.
 
+Oye, ¿cuál es la diferencia entre el modo estudio y el simulacro en los exámenes de práctica?
+El Modo Estudio es para aprender sin presión: sin tiempo, varios intentos, feedback inmediato. El Modo Simulacro replica el examen real: con tiempo, un solo intento, sin pistas durante la prueba.
+
+Parce, explícame las diferencias entre el modo estudio y el modo simulacro de la pestaña Preguntas.
+En el Modo Estudio no te corre el tiempo, puedes responder varias veces y ves al instante si fallaste. En el Simulacro hay reloj, solo tienes un intento y no sabes si está bien hasta el final.
+
+¿Qué es el Modo Estudio y para qué sirve?
+El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta.
+
+Oye, ¿cómo funciona el Modo Estudio en la pestaña Preguntas?
+Es un modo sin tiempo límite. Puedes responder, equivocarte, leer la explicación y volver a intentar hasta 4 veces. Te ayuda a aprender a tu ritmo.
+
+Parce, ¿el Modo Estudio tiene límite de tiempo?
+No, no tiene límite de tiempo. Puedes tomarte el tiempo que necesites para pensar y aprender sin estrés.
+
+¿Qué es el Modo Simulacro y para qué sirve?
+El Modo Simulacro simula las condiciones reales del examen SIMO. Tiene 60 segundos por pregunta, sin feedback durante el examen, solo un intento por pregunta, y al final obtienes un puntaje SIMO sobre 100.
+
+Oye, ¿cómo funciona el Modo Simulacro?
+Te muestra una pregunta y 4 opciones. Tienes 60 segundos para responder. No te dice si está bien o mal hasta el final. Cuando terminas todas las preguntas, ves tu puntaje y las respuestas correctas.
+
+Parce, ¿el simulacro tiene límite de tiempo o puedo tomarme mi tiempo?
+Tiene límite de tiempo: 60 segundos por pregunta. Si no respondes antes de que se acabe el tiempo, la pregunta se marca como incorrecta.
+
+¿Cómo funcionan los selectores de competencia en la pestaña Preguntas?
+Primero debes seleccionar el tipo de competencia (funcionales, básicas o comportamentales). Al seleccionar, aparece un segundo selector con las subcategorías específicas. Solo cuando eliges una subcategoría se habilita el botón COMENZAR EXAMEN.
+
+Oye, ¿cómo elijo qué tipo de preguntas voy a practicar?
+En la pestaña Preguntas, primero eliges el tipo de competencia: funcionales (leyes), básicas (lógica, matemáticas, lectura) o comportamentales (ética, trabajo en equipo, orientación al servicio). Luego eliges la subcategoría y ya puedes comenzar el examen.
+
+Parce, no me aparece el botón COMENZAR EXAMEN activo. ¿Qué hago?
+Primero selecciona el tipo de competencia (funcionales, básicas o comportamentales). Luego aparecerá un segundo selector donde debes elegir la subcategoría específica (ej. lógica, matemáticas, ética, etc.). Solo después de elegir la subcategoría se habilita el botón.
+
+¿Qué hace el botón Cancelar examen dentro de una prueba?
+Borra todo el progreso del examen actual (respuestas seleccionadas, intentos) y te devuelve a la pantalla de selección de competencias. No guarda nada.
+
+Oye, si me arrepiento a mitad del examen, ¿puedo cancelarlo y empezar de nuevo?
+Sí, hay un botón rojo que dice CANCELAR EXAMEN. Al hacer clic, se borra todo tu progreso y vuelves a la pantalla para elegir otra competencia o modo.
+
+Parce, ¿qué pasa si le doy a Cancelar examen sin querer?
+Se borra todo el progreso y no hay forma de recuperarlo. Tendrías que empezar el examen desde cero. Por eso es importante no darle cancelar si quieres conservar tus respuestas.
+
+¿Qué contiene la tabla de resultados al finalizar un examen?
+Muestra: una breve descripción, el recuadro RESULTADO SIMO (porcentaje, aciertos, corte de aprobación, APROBÓ/REPROBÓ, modo utilizado, explicación del cálculo), y un resumen de actividad con cada pregunta (acertadas en verde, erradas en rojo, mostrando número, enunciado, tu respuesta y si es incorrecta la respuesta correcta).
+
+Oye, ¿qué información me da la pantalla de resultados después del simulacro?
+Te muestra tu puntaje sobre 100, cuántas acertaste de cuántas, si aprobaste o no, el tiempo que tardaste, y un listado de todas las preguntas. Las correctas aparecen en verde, las incorrectas en rojo con la respuesta correcta.
+
+Parce, ¿dónde veo cuáles preguntas fallé en el simulacro?
+En la tabla de resultados, las preguntas incorrectas tienen fondo rojo y muestran cuál era la respuesta correcta. Además, hay un botón desplegable que dice “VER PREGUNTAS FALLADAS” donde solo aparecen las que fallaste.
+
+¿Cómo exporto los resultados a PDF?
+Solo está disponible en Modo Simulacro. Al finalizar el examen, haz clic en el botón "EXPORTAR RESULTADOS". El PDF se descarga automáticamente e incluye tu puntaje, aciertos, tiempos y el listado de preguntas falladas con sus respuestas correctas.
+
+Oye, ¿puedo guardar mis resultados en un archivo para mostrarlos después?
+Sí, pero solo en Modo Simulacro. Al final, das clic en “EXPORTAR RESULTADOS” y se descarga un PDF. En Modo Estudio no está disponible la exportación.
+
+Parce, ¿el Modo Estudio también permite exportar a PDF?
+No, la exportación a PDF solo está disponible en el Modo Simulacro.
+
+¿Puedo repetir el mismo examen después de ver mis resultados?
+Sí. Al final del examen, tienes el botón REPETIR EXAMEN. Al hacer clic, se cargan preguntas diferentes (aleatorias) del mismo banco de preguntas, tanto en Modo Estudio como en Modo Simulacro.
+
+Oye, si repito el examen, ¿me salen las mismas preguntas?
+No, salen diferentes. En ambos modos (Estudio y Simulacro), al hacer clic en REPETIR EXAMEN se seleccionan nuevas preguntas al azar del mismo banco. Así puedes practicar más variedad.
+
+Parce, ¿en el Modo Estudio las preguntas son siempre las mismas cuando repito?
+No, en Modo Estudio también cambian. Antes se creía que eran fijas, pero en la versión actual, al repetir examen se cargan preguntas diferentes (aleatorias) en ambos modos. Lo que cambia entre modos es el tiempo, los intentos y el feedback, no la fijeza de las preguntas.
+
+¿Qué significa APROBÓ y REPROBÓ en los resultados?
+APROBÓ significa que tu puntaje fue mayor o igual a 70/100. REPROBÓ significa que fue menor a 70/100. Es el mismo corte de aprobación que usa la CNSC en el concurso real.
+
+Oye, ¿con cuánto se aprueba el simulacro de ESTUDIO SIMO?
+Se aprueba con 70% o más. El puntaje se calcula como (aciertos al primer intento ÷ total de preguntas) × 100. En el simulacro son 5 preguntas, así que necesitas al menos 4 correctas para aprobar (4/5 = 80%).
+
+Parce, ¿y si saco 3 de 5? ¿Apruebo?
+No, 3 de 5 es 60%, que es menor a 70%. Eso sería REPROBÓ. Debes sacar mínimo 4 de 5 para aprobar en el simulacro.
+
+¿Qué significan los colores de la barra de tiempo en el Modo Simulacro?
+Verde: tiempo suficiente (>50% del tiempo disponible). Amarillo: tiempo moderado (20-50%). Rojo: tiempo crítico (<20%). Los últimos 5 segundos parpadean en rojo para alertarte.
+
+Oye, ¿cómo sé si voy bien de tiempo durante el simulacro?
+La barra de tiempo te lo indica. Si está verde vas bien, si está amarillo vas regular, si está rojo estás muy cerca del límite y debes responder rápido.
+
+Parce, ¿por qué la barra de tiempo parpadea en rojo?
+Porque quedan menos de 5 segundos para que se acabe el tiempo de esa pregunta. Es una alerta para que respondas inmediatamente.
+
+¿Qué pasa si cambio de pestaña durante un examen?
+El sistema guarda automáticamente tu progreso (pregunta actual, respuestas seleccionadas, intentos). Al volver a la pestaña Preguntas, aparecerá un modal preguntándote si quieres continuar donde lo dejaste o descartar el examen y empezar uno nuevo.
+
+Oye, ¿pierdo mi progreso si me salgo de la pestaña Preguntas?
+No, se guarda automáticamente. Cuando regreses, el sistema te preguntará si quieres retomar el examen o empezar uno nuevo. Puedes elegir.
+
+Parce, ¿el tiempo del simulacro sigue corriendo si cambio de pestaña?
+Sí, el temporizador no se detiene. Si cambias de pestaña, el tiempo sigue corriendo. Es mejor hacer el simulacro sin interrupciones.
+
+¿Puedo cambiar mi respuesta después de seleccionarla?
+Depende del modo. En Modo Estudio, puedes cambiar tu respuesta ANTES de hacer clic en VERIFICAR. Una vez verificas, queda guardada. En Modo Simulacro, puedes cambiar tu respuesta ANTES de hacer clic en SIGUIENTE. Una vez avanzaste, no puedes volver atrás.
+
+Oye, en el Modo Estudio, si ya verifiqué una respuesta y estaba mal, ¿puedo cambiarla?
+No, una vez que haces clic en VERIFICAR, esa respuesta queda guardada. Pero puedes intentar de nuevo porque tienes hasta 4 intentos por pregunta.
+
+Parce, en el simulacro, ¿puedo volver a una pregunta anterior para cambiar la respuesta?
+No. En el Modo Simulacro, una vez que haces clic en SIGUIENTE, no puedes regresar a la pregunta anterior. Tienes que responder bien a la primera.
+
+¿Qué significan los iconos en los resultados del Modo Estudio?
+✅ Verde: acertaste al primer intento. ⚠️ Amarillo: acertaste después de varios intentos (aprendiste). 🔴 Rojo: fallaste todas las opciones (requiere repaso). ⏰ Reloj: se acabó el tiempo (solo si el modo estudio tuviera tiempo, pero no tiene). ❌ Incorrecta: respuesta equivocada.
+
+Oye, ¿qué significa el ícono ⚠️ amarillo en los resultados del Modo Estudio?
+Significa que acertaste, pero no al primer intento, sino después de varios intentos. Aprendiste en el proceso, lo cual es positivo.
+
+Parce, ¿el cuadro rojo significa que reprobé?
+No necesariamente. En Modo Estudio, el cuadro rojo 🔴 significa que fallaste todas las opciones de esa pregunta y debes repasar ese tema. No es el resultado final del examen.
+
+¿Cuántas preguntas tiene cada examen en la pestaña Preguntas?
+Actualmente, 5 preguntas por examen. En futuras versiones, el simulacro podrá tener más preguntas configurables.
+
+Oye, ¿siempre son 5 preguntas o puedo cambiarlas?
+Por ahora son 5 preguntas fijas en ambos modos. Es una limitación de la versión actual. En el futuro se espera poder configurar más preguntas.
+
+Parce, ¿el examen real de la CNSC también tiene 5 preguntas?
+No. El examen real tiene 100 preguntas. El simulacro de ESTUDIO SIMO es una versión acortada para practicar, pero la fórmula del puntaje es la misma.
+
+¿Qué puedo encontrar en la pestaña Estudio SIMO?
+Contiene información teórica: convocatoria ESE 2, normas del sector salud (12 leyes, decretos y resoluciones) y casos prácticos, organizados en un selector con 4 opciones: Inicio, Convocatoria, Normas y Casos prácticos.
+
+Oye, ¿qué hay en la pestaña Estudio SIMO para estudiar?
+Está dividida en cuatro secciones: Inicio (visión general), Convocatoria (fechas, vacantes, requisitos), Normas (leyes y resoluciones) y Casos prácticos (situaciones reales de HOMERIS).
+
+Parce, ¿dónde está la información de la convocatoria ESE 2 dentro de la herramienta?
+En la pestaña Estudio SIMO, selecciona la opción “Convocatoria” en el menú desplegable. Allí encuentras fechas, vacantes, modalidades, requisitos y enlaces para verificar antecedentes.
+
+¿Cómo funciona el selector de secciones en la pestaña Estudio SIMO?
+Hay un menú desplegable que dice “Selecciona qué quieres estudiar”. Tiene 4 opciones: Inicio, Convocatoria, Normas y Casos prácticos. Al elegir una, cambia el contenido que ves en pantalla.
+
+Oye, no veo el menú desplegable de la pestaña Estudio SIMO. ¿Qué hago?
+Si hiciste scroll hacia abajo y las pestañas se ocultaron, el menú también puede quedar fuera de la pantalla. Haz clic en el botón azul “Subir” (esquina inferior derecha) para volver al inicio y el menú aparecerá de nuevo.
+
+Parce, ¿cómo hago para cambiar de una sección a otra en Estudio SIMO?
+Usa el menú desplegable que dice “📌 Selecciona qué quieres estudiar”. Allí eliges si quieres ver Inicio, Convocatoria, Normas o Casos prácticos.
+
+¿Qué contiene la sección Inicio de la pestaña Estudio SIMO?
+Una visión general del proyecto, qué encontrarás (convocatoria, normas, casos prácticos) y los tipos de pruebas SIMO (competencias básicas, funcionales y comportamentales). También explica cómo usar la herramienta.
+
+Oye, ¿para qué sirve la sección Inicio de Estudio SIMO?
+Es una introducción para que sepas qué puedes hacer en cada sección. Explica qué es la convocatoria, qué son las normas y cómo usar los casos prácticos.
+
+Parce, ¿la sección Inicio tiene información útil o solo es bienvenida?
+Tiene información útil: explica qué son las 6 competencias que evalúa SIMO, qué contiene cada sección y cómo moverte por la herramienta. Es como un mini tutorial.
+
+¿Qué información contiene la sección Convocatoria de Estudio SIMO?
+Información actualizada de la convocatoria ESE 2: fechas de inscripción (julio-agosto 2026), número de vacantes (2.477), requisitos para enfermería, modalidades (ascenso/abierto) y enlaces para verificar antecedentes en Procuraduría, Policía y Contraloría.
+
+Oye, ¿dónde consulto las fechas de la convocatoria ESE 2 dentro de la herramienta?
+En la pestaña Estudio SIMO, selecciona “Convocatoria” en el menú desplegable. Allí están las fechas y todos los detalles del concurso.
+
+Parce, ¿en la sección Convocatoria también están los enlaces para verificar antecedentes?
+Sí, incluye enlaces directos a la Procuraduría (antecedentes disciplinarios), Policía Nacional (judiciales) y Contraloría (fiscales). Así puedes consultarlos fácilmente.
+
+¿Qué es el buscador universal de leyes y cómo funciona?
+Es una herramienta dentro de la sección Normas que busca una palabra en TODAS las normas simultáneamente (Ley 100, Decreto 780, Resoluciones, etc.). Escribes una palabra (ej: EPS, afiliación, artículo 157) y presionas Enter. Muestra cuántos artículos encontró y la lista de resultados.
+
+Oye, ¿cómo busco un artículo específico en las normas del sector salud?
+Ve a Estudio SIMO > Normas. En el buscador universal, escribe la palabra o número de artículo que buscas (ej: “artículo 157”) y presiona Enter. Aparecerán todos los artículos de todas las leyes que contienen esa palabra.
+
+Parce, ¿el buscador universal revisa todas las normas a la vez?
+Sí, busca en las 12 normas (leyes, decretos y resoluciones) al mismo tiempo. Te muestra una tabla con la cantidad de artículos encontrados y la lista de resultados por norma.
+
+¿Qué pasa si hago clic en una ley específica, por ejemplo Ley 100?
+Se abre una nueva vista con: botón “← Volver a normas”, título completo de la ley, un resumen, un buscador de artículos específico para esa ley, y una lista de artículos relevantes de esa ley.
+
+Oye, ¿puedo buscar dentro de una sola ley y no en todas?
+Sí. Haz clic en la ley que te interesa (ej: Ley 100). Se abrirá una pantalla con un buscador exclusivo para esa ley. Allí puedes buscar palabras dentro de esa norma específica.
+
+Parce, ¿cómo vuelvo al listado de todas las normas después de entrar a una ley?
+Cada ley tiene un botón “← Volver a normas” en la parte superior izquierda. Haz clic allí y regresas al listado completo de las 12 normas.
+
+¿Qué contiene la ventana emergente que aparece al hacer clic en un artículo?
+Botón “Volver” para cerrar la ventana, título del artículo (ej: Art. 152: Definición...), y el texto completo del contenido del artículo. Si el artículo es muy largo, aparece un botón “Subir” dentro del popup para volver al inicio del artículo.
+
+Oye, ¿cómo veo el texto completo de un artículo de la ley?
+En la lista de resultados del buscador, haz clic en cualquier artículo. Se abre una ventana emergente con el título y el contenido completo. Si es muy largo, hay un botón de subir dentro de la misma ventana.
+
+Parce, ¿puedo copiar el texto de un artículo de la ley desde la ventana emergente?
+Sí, puedes seleccionar el texto y copiarlo. La ventana emergente permite seleccionar texto para que copies lo que necesites estudiar.
+
+¿Qué son los casos prácticos y cómo funcionan?
+Son situaciones reales que podrías enfrentar en HOMERIS (Hospital Mental de Risaralda). Tienen filtros por competencia (TODAS, Básicas, Funcionales, Comportamentales), paginación de 10 casos por página con botones Anterior y Siguiente, y cada caso tiene una respuesta orientativa que se despliega haciendo clic en “Ver respuesta orientativa”.
+
+Oye, ¿cómo filtro los casos prácticos por tipo de competencia?
+En la sección de casos prácticos, hay botones de filtro: TODAS, Básicas, Funcionales, Comportamentales. Selecciona uno y solo se mostrarán los casos de esa competencia.
+
+Parce, ¿los casos prácticos tienen respuestas o solo son para analizar?
+Tienen respuestas orientativas. Cada caso tiene un botón que dice “👁️ Ver respuesta orientativa”. Al hacer clic, se despliega una explicación de cómo abordar esa situación. Puedes ocultarla con “🙈 Ocultar respuesta”.
+
+¿Cómo navego entre las páginas de casos prácticos si hay muchos casos?
+En la parte inferior de la sección hay botones ◀ Anterior y Siguiente ▶. Cada página muestra 10 casos. Así puedes recorrer todos sin perderte.
+
+Oye, ¿cuántos casos prácticos hay en la herramienta?
+No hay un número fijo, pero la página muestra 10 casos por página. Puedes ir pasando de página con los botones Anterior y Siguiente. Se espera ampliar la colección en futuras versiones.
+
+Parce, ¿los casos prácticos son específicos de HOMERIS o son genéricos?
+Son específicos de HOMERIS (Hospital Mental de Risaralda). Están inspirados en situaciones reales de atención psiquiátrica para que practiques con el contexto del lugar donde quieres trabajar.
+
+¿Qué son las respuestas orientativas en los casos prácticos?
+Son explicaciones que te muestran cómo abordar el caso paso a paso, pero no son la única respuesta correcta. Te orientan sobre la conducta ética, el trabajo en equipo o la comunicación con el paciente y la familia.
+
+Oye, ¿puedo ver la respuesta orientativa sin responder el caso?
+Sí, no es un examen. Solo haces clic en “Ver respuesta orientativa” y se despliega la explicación. Así aprendes directamente sin tener que adivinar.
+
+Parce, ¿los casos prácticos tienen preguntas de opción múltiple o solo lectura?
+Solo lectura. Eres tú quien lee el caso y luego despliegas la respuesta orientativa para aprender. No hay botones de selección como en los exámenes de la pestaña Preguntas.
+
+¿Qué es el glosario de términos de ESTUDIO SIMO?
+Es una base de datos con más de 140 términos clave para el concurso. Incluye siglas (EPS, ESE, CNSC), entidades (ADRES, Supersalud), términos (historia clínica, consentimiento informado), principios (equidad, solidaridad) y carrera administrativa.
+
+Oye, ¿qué puedo consultar en el glosario?
+Puedes buscar definiciones de siglas (EPS, IPS, PBS), entidades (Ministerio de Salud, CNSC), principios de salud (universalidad, integralidad) y términos de enfermería (APS, RIAS, SOGC).
+
+Parce, ¿el glosario tiene términos de enfermería o solo leyes?
+Tiene ambos. Incluye términos de normatividad (Ley 100, Decreto 780), de enfermería (APS, PAE, PBS, RIPS), y del concurso (OPEC, CNSC, SIMO). Son más de 140 términos en total.
+
+¿Cómo busco una palabra en el glosario?
+Ve a la pestaña Glosario. En el buscador, escribe una palabra (mínimo 3 letras) y presiona Enter. Las coincidencias se resaltarán en amarillo y la página se desplazará automáticamente hacia los resultados.
+
+Oye, ¿qué pasa si escribo una palabra con menos de 3 letras en el glosario?
+No se activará la búsqueda. El buscador requiere mínimo 3 letras para funcionar. Es una regla para evitar búsquedas muy genéricas como “un”, “de” o “la”.
+
+Parce, ¿cómo hago para que el glosario me muestre solo las siglas?
+Usa los filtros de categoría. Hay botones para: TODAS, Siglas, Entidades, Términos, Principios, Carrera. Selecciona “Siglas” y solo verás términos como EPS, ESE, CNSC, OPEC, etc.
+
+¿Puedo filtrar el glosario por letra inicial?
+Sí. Debajo del buscador hay botones con las letras del alfabeto de la A a la Z. Haz clic en una letra (ej: C) y se mostrarán solo los términos que empiezan con esa letra, como “CNSC”, “Contención”, “Confidencialidad”.
+
+Oye, ¿puedo combinar un filtro de categoría y uno de letra al mismo tiempo?
+Sí. Primero selecciona una categoría (ej: Siglas) y luego una letra (ej: C). El sistema mostrará solo las siglas que empiezan con C. También funciona al revés: primero letra, luego categoría.
+
+Parce, ¿el glosario se desplaza automáticamente cuando busco o filtro?
+Sí. Al buscar una palabra o seleccionar una categoría o letra, la página se desplaza automáticamente hacia los resultados. No tienes que bajar manualmente.
+
+¿Cómo navego entre las páginas del glosario si hay muchos términos?
+El glosario muestra 10 términos por página. En la parte inferior hay botones ◀ Anterior y Siguiente ▶ para moverte entre páginas de resultados.
+
+Oye, ¿por qué algunos términos aparecen resaltados en amarillo?
+Cuando buscas una palabra, los términos que la contienen se pintan de amarillo. Así identificas rápidamente las coincidencias en la lista de resultados.
+
+Parce, no encuentro un término en el glosario. ¿Qué hago?
+Asegúrate de escribir al menos 3 letras y revisa la ortografía (sin tildes a veces funciona mejor). Si sigue sin aparecer, escríbelo aquí en el chat y te explico su significado.
+
+¿Qué hace el botón Subir en la página del glosario?
+Aparece en la esquina inferior derecha cuando haces scroll hacia abajo. Al hacer clic, sube al inicio de la página (filtros de búsqueda). Es útil para no tener que hacer scroll manualmente hacia arriba después de buscar un término.
+
+Oye, ¿el botón Subir del glosario es diferente al botón Subir general de la aplicación?
+En el glosario, el botón Subir te lleva directamente a los filtros de búsqueda (categorías y letras). En otras secciones, te lleva al inicio general de la página. Es un comportamiento adaptado para cada sección.
+
+Parce, ¿el glosario tiene términos actualizados con las nuevas normas?
+Sí, incluye términos de la Resolución 1444 de 2025, Resolución 2292 de 2021 y las demás normas relevantes para enfermería. Se actualiza periódicamente.
+
+¿El glosario incluye términos de salud mental específicos de HOMERIS?
+Sí, incluye términos como “contención mecánica”, “código azul”, “código de seguridad”, “agitación psicomotriz”, “fase aguda”, “verborragia” y “riesgo vital”. Están adaptados al contexto del hospital psiquiátrico.
+
+Oye, ¿puedo sugerir un término que no esté en el glosario?
+No directamente desde la herramienta, pero puedes pedirme a mí (el Asistente IA) que lo agregue a futuras versiones. Escríbelo en el chat y lo tendré en cuenta.
+
+Parce, ¿el glosario tiene términos de farmacología psiquiátrica?
+Sí, incluye medicamentos comunes en salud mental: haloperidol, clonazepam, risperidona, olanzapina, litio, escitalopram, entre otros. También términos como “liofilizado”, “reconstitución”, “dosis”, “5 correctos”.
+
+¿Qué significa que un término esté en la categoría “Carrera”?
+Son términos relacionados con la carrera administrativa y los concursos de méritos: concurso de méritos, empleado público, período de prueba, lista de elegibles, encargo, provisionalidad, evaluación del desempeño.
+
+Oye, ¿cómo sé a qué categoría pertenece un término?
+Al lado de cada término en los resultados aparece su categoría entre paréntesis: (siglas), (entidades), (términos), (principios) o (carrera). Así sabes de qué tipo es.
+
+Parce, ¿puedo copiar la definición de un término del glosario?
+Sí, puedes seleccionar el texto de la definición y copiarlo. No hay restricción para copiar contenido del glosario.
+
+¿El glosario tiene un botón para volver arriba dentro de una definición larga?
+No directamente en cada definición, pero si la página es larga, aparece el botón flotante Subir en la esquina inferior derecha que te lleva al inicio de los filtros.
+
+Oye, ¿los términos del glosario están disponibles en inglés?
+No, actualmente solo están en español. Está diseñado para el concurso en Colombia, donde las pruebas son en español.
+
+Parce, ¿el glosario funciona sin internet?
+Sí, si descargaste el proyecto completo (carpeta demo_estudio_simo), el glosario funciona offline porque los datos están en el archivo glosario.json.
+
+¿Qué diferencia hay entre los filtros del glosario y el buscador?
+El buscador encuentra términos que contienen una palabra específica (mínimo 3 letras). Los filtros por categoría o letra muestran todos los términos de ese tipo sin necesidad de escribir nada. Puedes combinarlos.
+
+Oye, ¿puedo ver todos los términos del glosario sin ningún filtro?
+Sí, solo entra a la pestaña Glosario y no selecciones ningún filtro ni escribas nada. Te mostrará los primeros 10 términos y puedes pasar páginas con Anterior y Siguiente.
+
+Parce, ¿el glosario tiene más de 140 términos o esa cifra es fija?
+Actualmente tiene más de 140 términos. La cifra exacta puede variar con las actualizaciones. Puedes ver el total en el archivo glosario.json o en la información de la herramienta.
+
+¿Qué es el Asistente IA de ESTUDIO SIMO?
+Es un chat flotante que puedes abrir desde el botón 🤖 IA. Responde preguntas sobre el concurso, los modos de estudio, las normas, el glosario, la convocatoria y el funcionamiento de la herramienta. Usa inteligencia artificial para entender lo que preguntas, incluso si usas lenguaje coloquial.
+
+Oye, ¿dónde encuentro el Asistente IA en la página?
+En computador está el botón flotante 🤖 IA en la esquina inferior derecha. En celular está en el header (parte superior), junto a los botones de Ajustes (⚙️) e Instrucciones (📖).
+
+Parce, ¿cómo abro el chat del asistente?
+Haz clic en el botón 🤖 IA. Se abrirá una ventana con el historial de conversación, un campo de texto para escribir y un botón Enviar.
+
+¿Qué puedo preguntarle al Asistente IA?
+Puedes preguntarle sobre la convocatoria ESE 2, las fechas de inscripción, los requisitos para enfermería, las diferencias entre Modo Estudio y Simulacro, cómo usar el glosario, qué significan las siglas (EPS, IPS, CNSC), y cualquier duda sobre las normas del sector salud.
+
+Oye, ¿el asistente entiende preguntas como “parce, ¿cómo hago para practicar?”?
+Sí, está diseñado para entender lenguaje coloquial colombiano como “parce”, “quiubo”, “qué más”, “pana”, “mi hermano”, “una duda”, etc. No necesita que escribas preguntas perfectamente estructuradas.
+
+Parce, ¿puedo preguntarle cosas que no tengan que ver con el concurso?
+No. Solo responde preguntas relacionadas con ESTUDIO SIMO, el concurso ESE 2, enfermería, la CNSC y las normas del sector salud. Si le preguntas sobre fútbol, recetas de cocina o astronomía, te dirá que no puede ayudarte.
+
+¿Cómo funciona el Asistente IA internamente?
+Usa un motor de inteligencia artificial llamado MiniLM (all-MiniLM-L6-v2) con Transformers.js. Compara tu pregunta con una base de conocimiento (archivo faqs_embeddings.json) y te da la respuesta más parecida. Todo se procesa en tu navegador, no envía datos a ningún servidor externo.
+
+Oye, ¿el asistente necesita internet para funcionar?
+Sí, necesita conexión a internet. La primera vez que lo usas descarga un modelo de inteligencia artificial (unos 70 MB) y luego lo usa localmente, pero siempre necesita conexión inicial y para procesar las preguntas.
+
+Parce, ¿qué pasa la primera vez que abro el asistente?
+Aparece un popup de carga con una barra de progreso. Puede tardar unos segundos mientras descarga el modelo. Una vez completado, el asistente ya está listo para responder.
+
+¿El asistente guarda el historial de mis preguntas?
+Sí, dentro de la conversación actual. Puedes ver todas las preguntas y respuestas anteriores mientras tengas abierta la ventana del chat. Si cierras y vuelves a abrir, se borra el historial.
+
+Oye, ¿puedo hacer varias preguntas seguidas sin cerrar el chat?
+Sí. El historial se mantiene visible durante toda la conversación. Puedes escribir una pregunta, esperar la respuesta, y luego escribir otra. Todo queda en la pantalla.
+
+Parce, ¿el asistente aprende de mis preguntas o siempre responde lo mismo?
+No aprende de cada conversación. Su conocimiento está fijo en el archivo faqs.txt y faqs_embeddings.json. Si actualizamos esos archivos, el asistente tendrá nuevas respuestas.
+
+¿Qué significa que el asistente tenga “umbrales de similitud”?
+Significa que compara tu pregunta con las FAQs usando un puntaje de similitud. Si la similitud es mayor a 0.85, responde directamente. Si está entre 0.65 y 0.85, te pregunta “¿Te refieres a…?” para confirmar. Si es menor a 0.65, te pide que reformules.
+
+Oye, ¿por qué a veces el asistente me pregunta “¿Te refieres a…?”?
+Porque tu pregunta tiene cierta ambigüedad y la similitud no es lo suficientemente alta como para responder directamente. Es una forma de evitar darte una respuesta equivocada.
+
+Parce, ¿puedo ayudar a mejorar el asistente si veo que responde mal?
+Sí, puedes reportar la pregunta y la respuesta esperada en el chat. El equipo de desarrollo puede agregar esa pregunta al faqs.txt para futuras versiones.
+
+¿El Asistente IA funciona en celular?
+Sí, en celular el botón 🤖 IA está en el header (parte superior), junto a Ajustes e Instrucciones. Al hacer clic, se abre la misma ventana de chat adaptada al tamaño de la pantalla.
+
+Oye, ¿el botón Subir se oculta cuando abro el chat?
+Sí. Cuando abres el Asistente IA, el botón flotante Subir se oculta automáticamente para que no interfiera. Al cerrar el chat, vuelve a aparecer si el scroll lo requiere.
+
+Parce, ¿el asistente puede calcular dosis de medicamentos?
+No. El asistente no debe hacer cálculos numéricos. Si le pides que calcule una dosis, te responderá que no puede hacer operaciones aritméticas y te explicará la fórmula para que lo hagas tú con calculadora.
+
+¿Cómo sé que el asistente está cargando la primera vez?
+Aparece una pantalla oscura con una barra de progreso y el mensaje “Iniciando Asistente SIMO”. Puede tardar unos segundos en completarse. No cierres la página mientras carga.
+
+Oye, ¿el asistente tiene respuestas para cuando digo “estoy perdido” o “no sé qué hacer”?
+Sí. Tiene respuestas preparadas para orientarte. Te explicará que la aplicación tiene tres pestañas y te preguntará si quieres empezar por la convocatoria, los exámenes o el glosario.
+
+Parce, ¿puedo preguntarle en voz alta o solo escribiendo?
+Solo escribiendo. No hay función de reconocimiento de voz. Debes escribir tu pregunta en el cuadro de texto y presionar Enviar o la tecla Enter.
+
+¿Qué pasa si escribo una pregunta muy larga o con errores ortográficos?
+El asistente intentará entender el significado, no las palabras exactas. Si hay errores leves, probablemente entienda igual. Si es muy confusa, te pedirá que reformules.
+
+Oye, ¿el asistente tiene un mensaje de bienvenida cuando abro el chat?
+Sí. La primera vez que abres el chat (si está vacío), aparece un mensaje de bienvenida que saluda y te invita a preguntar. Ese mensaje está en la primera línea del archivo faqs.txt.
+
+Parce, ¿puedo cerrar el chat con el botón ✖ o haciendo clic fuera de la ventana?
+Puedes cerrar con el botón ✖ en la esquina superior derecha de la ventana. También puedes hacer clic en la capa oscura de fondo (overlay) para cerrarlo.
+
+¿El asistente recuerda lo que hablé después de cerrar la ventana?
+No. El historial se borra al cerrar el chat. Cada vez que abres el asistente, comienza una conversación nueva. No guarda información entre sesiones.
+
+Oye, ¿puedo copiar las respuestas del asistente?
+Sí, puedes seleccionar el texto de las respuestas y copiarlo. No hay restricción para copiar el contenido.
+
+Parce, ¿el asistente tiene respuestas para cuando le pregunto “¿qué significan los colores de la barra de tiempo”?
+Sí. Está preparado para responder sobre el temporizador del simulacro: verde (tiempo suficiente), amarillo (tiempo moderado), rojo (tiempo crítico), y que los últimos 5 segundos parpadean en rojo.
+
+¿El Asistente IA puede ayudarme a entender un artículo de una ley?
+Sí, si le preguntas “¿Qué dice el artículo 152 de la Ley 100?”, buscará en su base de conocimiento. Si no lo tiene, te orientará sobre cómo encontrarlo en la pestaña Estudio SIMO > Normas.
+
+Oye, ¿el asistente distingue entre mayúsculas y minúsculas?
+No. El motor de IA normaliza el texto, así que da igual que escribas “CNSC” o “cnsc”. Entiende por el significado, no por el formato exacto.
+
+¿Cuáles son las tres pestañas principales de ESTUDIO SIMO?
+Las tres pestañas son: Estudio SIMO (información teórica de la convocatoria, normas y casos prácticos), Preguntas (exámenes de práctica en Modo Estudio y Simulacro) y Glosario (base de datos de términos clave).
+
+Oye, ¿cómo navego entre las pestañas de la aplicación?
+En la parte superior de la pantalla hay tres botones: SIMO, Preguntas y Glosario. Haz clic en el que quieras y se mostrará su contenido. La pestaña activa se resalta con un color diferente.
+
+Parce, ¿qué pasa con las pestañas cuando hago scroll hacia abajo?
+Cuando te desplazas hacia abajo, las pestañas se ocultan automáticamente para que tengas más espacio para el contenido. Aparece un botón flotante ↑ Subir en la esquina inferior derecha.
+
+¿Cómo recupero las pestañas si se ocultaron?
+Haz clic en el botón flotante ↑ Subir que aparece en la esquina inferior derecha. Al hacer clic, subes al inicio de la página y las pestañas vuelven a mostrarse.
+
+Oye, ¿el botón Subir aparece en todas las secciones?
+Sí, aparece en toda la aplicación cuando el contenido es extenso y haces scroll hacia abajo. En el glosario, específicamente, te lleva a los filtros de búsqueda. En las leyes, te lleva al inicio de la norma.
+
+Parce, ¿el botón Subir tiene texto o solo el ícono?
+Tiene el texto “Subir” debajo del ícono ↑ en la mayoría de los casos. En móvil puede mostrar solo el ícono por espacio, pero la funcionalidad es la misma.
+
+¿Dónde está el botón de Ajustes y qué puedo cambiar allí?
+Está en la parte superior derecha del header. Al hacer clic, se abre una ventana emergente con dos opciones: Modo oscuro (activar/desactivar) y Tamaño de letra (4 tamaños: pequeña, normal, grande, extra grande) usando botones A- y A+.
+
+Oye, ¿el modo oscuro cambia toda la interfaz o solo algunas partes?
+Cambia los colores de toda la interfaz a tonos oscuros, incluyendo fondos, textos, botones y ventanas emergentes. Es ideal para estudiar de noche o en ambientes con poca luz.
+
+Parce, ¿cómo activo el modo oscuro?
+Haz clic en el botón ⚙️ Ajustes (arriba a la derecha). En la ventana emergente, presiona el botón toggle que dice “🌙 Activar”. Para desactivarlo, presiona el mismo botón que ahora dirá “☀️ Desactivar”. La preferencia se guarda automáticamente.
+
+¿Cómo cambio el tamaño de la letra?
+Ve a Ajustes (⚙️), luego usa los botones A- (disminuir) y A+ (aumentar). Hay 4 tamaños disponibles: pequeña, normal, grande y extra grande. La preferencia se guarda en tu navegador.
+
+Oye, ¿el tamaño de letra se ajusta en todo el contenido o solo en algunas partes?
+Se ajusta en todo el contenido de la aplicación: textos, botones, menús, tablas y ventanas emergentes. La experiencia de lectura es consistente en todas las secciones.
+
+Parce, ¿la herramienta guarda mis preferencias de ajustes cuando cierro la página?
+Sí. Tanto el modo oscuro como el tamaño de letra se guardan en localStorage. Cuando vuelves a abrir la página, se cargan automáticamente tus preferencias anteriores.
+
+¿Qué es el modal de bienvenida o instrucciones?
+Es una ventana emergente que aparece la primera vez que ingresas a la aplicación. Explica las 6 competencias que evalúa SIMO, las 3 pestañas principales y las funcionalidades importantes (botón Subir, búsqueda en normas, ajustes, guardado de progreso, asistente IA, etc.).
+
+Oye, ¿puedo volver a ver las instrucciones después de cerrarlas?
+Sí. En el header superior derecho hay un botón 📖 Instrucciones. Al hacer clic, se abre el mismo modal con toda la información, esta vez sin el comportamiento de scroll forzado.
+
+Parce, ¿por qué el botón “Entendido, comenzar” aparece oculto al principio?
+La primera vez que ves el modal (autolanzado), el botón está oculto hasta que haces scroll hasta el final del contenido. Es para asegurarte de que leas toda la información. Cuando abres el modal manualmente con el botón Instrucciones, el botón tiene una banda blanca semitransparente y aparece al final sin necesidad de scroll.
+
+¿Qué significa “guardado de progreso al cambiar de pestaña durante un examen”?
+Si estás haciendo un examen en la pestaña Preguntas y cambias a otra pestaña (Estudio SIMO o Glosario), el sistema guarda automáticamente tu progreso. Al volver a la pestaña Preguntas, te preguntará si quieres continuar donde lo dejaste o descartar el examen.
+
+Oye, ¿pierdo mis respuestas si cambio de pestaña accidentalmente?
+No, se guardan automáticamente. Cuando regreses, el sistema te mostrará un mensaje preguntando si quieres retomar el examen o empezar uno nuevo. Puedes elegir continuar.
+
+Parce, ¿el guardado de progreso funciona también en el Modo Simulacro?
+Sí, funciona en ambos modos (Estudio y Simulacro). Guarda la pregunta actual, las respuestas seleccionadas y los intentos restantes. El temporizador del simulacro sigue corriendo aunque cambies de pestaña.
+
+¿Cómo exporto los resultados de un examen a PDF?
+Solo está disponible en Modo Simulacro. Al finalizar el examen, haz clic en el botón “EXPORTAR RESULTADOS”. El PDF se descarga automáticamente e incluye: puntaje SIMO, aciertos vs total, tiempo total empleado, tiempo promedio por pregunta y listado de preguntas falladas con la respuesta correcta.
+
+Oye, ¿puedo exportar los resultados del Modo Estudio a PDF?
+No, la exportación a PDF solo está disponible en el Modo Simulacro. En Modo Estudio, puedes copiar los resultados manualmente si quieres guardarlos.
+
+Parce, ¿el PDF que exporto se guarda en mi computador o solo se ve?
+Se descarga automáticamente a tu carpeta de Descargas. Puedes abrirlo, guardarlo o compartirlo. No se queda solo en la pantalla.
+
+¿Qué es el botón Cancelar examen y qué hace?
+Es un botón rojo que aparece dentro de un examen (en la parte superior). Al hacer clic, se borra todo el progreso del examen actual (respuestas, intentos) y vuelves a la pantalla de selección de competencias. No hay forma de recuperar lo borrado.
+
+Oye, si cancelo un examen por error, ¿puedo recuperar mis respuestas?
+No, al hacer clic en Cancelar examen se borra todo el progreso. No hay confirmación adicional. Por eso es importante no darle cancelar si quieres conservar tus respuestas.
+
+Parce, ¿qué diferencia hay entre Cancelar examen y cambiar de pestaña?
+Cancelar examen borra todo el progreso y te saca del examen. Cambiar de pestaña guarda automáticamente tu progreso para que puedas retomarlo después. Son comportamientos opuestos.
+
+¿La aplicación funciona en celular o solo en computador?
+Está diseñada para ser responsive. Funciona en celulares, tabletas y computadores. Solo necesitas un navegador web (Chrome, Edge, Safari, Firefox). La interfaz se adapta automáticamente al tamaño de la pantalla.
+
+Oye, ¿hay una aplicación móvil para descargar?
+No es una app nativa, es una página web responsive. Puedes abrir la URL en el navegador de tu celular y se verá bien. No necesitas instalar nada.
+
+Parce, ¿puedo usar ESTUDIO SIMO sin internet?
+Sí, si descargas el proyecto completo (carpeta demo_estudio_simo). Abres el archivo index.html en tu navegador y funciona offline, siempre que los archivos JSON estén disponibles. El asistente IA también funciona offline una vez que ha descargado el modelo la primera vez (requiere internet inicial).
+
+¿Qué es el botón Subir en las ventanas emergentes de artículos largos?
+Cuando abres un artículo de una ley dentro de la sección Normas, si el texto es muy largo, aparece un botón “Subir” dentro del popup. Al hacer clic, vuelves al inicio del artículo sin tener que hacer scroll manualmente.
+
+Oye, ¿el botón Subir del popup es diferente al botón Subir general de la página?
+Sí. El botón Subir general de la página está en la esquina inferior derecha y sube al inicio de la página completa. El botón Subir dentro del popup es específico para ese artículo y solo sube al inicio del contenido de la ventana emergente.
+
+Parce, ¿cómo cierro una ventana emergente de un artículo?
+Tiene un botón “Volver” o “Cerrar” (depende del contexto). Al hacer clic, la ventana emergente se cierra y regresas a la lista de artículos o a la ley que estabas viendo.
+
+¿La herramienta guarda mi progreso si cierro el navegador?
+No. El guardado de progreso solo funciona al cambiar de pestaña dentro de la misma sesión. Si cierras el navegador, se pierde el progreso del examen. Las preferencias de ajustes (modo oscuro, tamaño de letra) sí se guardan en localStorage.
+
+Oye, ¿puedo compartir mis resultados del simulacro con alguien?
+Sí, exporta el PDF y luego envías el archivo por correo o mensajería. No hay una función directa de compartir dentro de la herramienta, pero el PDF es fácil de reenviar.
+
+Parce, ¿los casos prácticos también tienen paginación como el glosario?
+Sí. Los casos prácticos muestran 10 casos por página, con botones ◀ Anterior y Siguiente ▶ para navegar. También tienen filtros por competencia (TODAS, Básicas, Funcionales, Comportamentales).
+
+¿Qué hace el botón “Ver preguntas falladas” en los resultados del simulacro?
+Es una sección colapsable. Al hacer clic, se despliega un listado con solo las preguntas que respondiste mal (o que se acabó el tiempo). Muestra tu respuesta y la respuesta correcta, para que puedas repasar específicamente lo que fallaste.
+
+Oye, ¿el botón “Ver preguntas falladas” aparece también en Modo Estudio?
+No, solo aparece en Modo Simulacro. En Modo Estudio ya ves todas las preguntas con sus estados (verde, amarillo, rojo) sin necesidad de filtrar.
+
+Parce, ¿puedo repetir el examen después de ver los resultados?
+Sí, al final hay un botón “REPETIR EXAMEN”. Al hacer clic, se cargan preguntas diferentes (aleatorias) del mismo banco, tanto en Modo Estudio como en Modo Simulacro. No repite las mismas preguntas a menos que el banco sea muy pequeño.
+
+¿Qué significa “diseño responsivo”?
+Significa que la interfaz se adapta automáticamente al tamaño de la pantalla. En computador se ven las pestañas con texto completo; en celular los botones se simplifican (ej. “Ajustes” se muestra solo como icono ⚙️) y el contenido se reorganiza para que sea fácil de leer sin hacer zoom.
+
+Oye, ¿necesito instalar algún plugin o extensión para usar ESTUDIO SIMO?
+No. Solo necesitas un navegador moderno (Chrome, Edge, Safari, Firefox). No requiere plugins adicionales, ni Java, ni Flash. Es JavaScript puro.
+
+Parce, ¿la aplicación tiene publicidad o costos ocultos?
+No. Es completamente gratuita y de acceso libre. No hay publicidad, no hay suscripciones, no hay costos ocultos. El concurso SIMO de la CNSC sí cobra un PIN de inscripción, pero ESTUDIO SIMO es gratis.
+
+¿Qué diferencia hay entre SIMO y el Sistema Maestro?
+SIMO es de la CNSC para concursos de carrera administrativa y requiere pago de PIN. El Sistema Maestro es del Ministerio de Educación para docentes y es gratuito. SIMO genera derechos de carrera; el Sistema Maestro no. Los concursos SIMO duran entre 1 y 2 años; el Sistema Maestro puede tardar solo días.
+
+Oye, ¿SIMO es lo mismo que el Sistema Maestro o son diferentes?
+Son diferentes. SIMO es para empleos públicos en general (enfermería, hospitales, gobernaciones). El Sistema Maestro es solo para docentes del sector público. SIMO cobra un PIN, el Sistema Maestro no.
+
+Parce, ¿cuál es mejor, SIMO o el Sistema Maestro?
+No es que uno sea mejor que el otro; son para cosas distintas. SIMO es para concurso de enfermería y otros cargos administrativos. El Sistema Maestro es para profesores. Si eres enfermero, te toca SIMO.
+
+¿Cómo busco vacantes de enfermería en la plataforma SIMO?
+Utiliza los filtros de búsqueda de SIMO. Puedes buscar por proceso de selección, por rango salarial, por departamento, o utilizando palabras clave como “enfermería”, “salud”, “enfermero”, “hospital”, “ESE” o “clínica pública”.
+
+Oye, ¿qué palabras clave debo usar para encontrar trabajo de enfermería en SIMO?
+Las más efectivas son: “enfermería”, “enfermero”, “salud”, “hospital”, “ESE”, “clínica pública” y “atención primaria”. También puedes filtrar por departamento o ciudad.
+
+Parce, no encuentro vacantes de enfermería en SIMO. ¿Qué hago?
+Revisa que estés usando las palabras clave correctas: “enfermería”, “enfermero”, “salud”. También puedes filtrar por departamento o consultar las convocatorias activas en la página principal de SIMO. A veces las vacantes se publican con nombres específicos como “auxiliar de enfermería” o “enfermero profesional”.
+
+¿Cómo me inscribo en SIMO paso a paso?
+Los pasos son: 1) Registro y creación de perfil en SIMO, cargando información personal, experiencia y formación. 2) Búsqueda e inscripción a vacantes por número de OPEC, proceso de selección, rango salarial o departamento. 3) Pago de derechos de participación (PIN). 4) Formalización de la aspiración verificando que toda la información sea correcta.
+
+Oye, ¿necesito pagar algo para inscribirme en SIMO?
+Sí, debes pagar un PIN. Para nivel técnico/asistencial (auxiliar de enfermería) cuesta aproximadamente $43.350. Para niveles profesionales cuesta aproximadamente $65.000. Son valores referenciales de 2024.
+
+Parce, ¿qué pasa si olvido mi contraseña de SIMO?
+En la página de inicio de SIMO, haz clic en “Olvidé mi contraseña”. Ingresas tu cédula o correo y te enviarán un enlace para recuperarla. Es un proceso estándar.
+
+¿Dónde consulto los resultados de las pruebas del concurso SIMO?
+Los resultados se publican en la plataforma SIMO (simo.cnsc.gov.co). La CNSC avisa con al menos 5 días hábiles de antelación la fecha de publicación. Puedes verlos en tu perfil, en la sección de la convocatoria a la que te inscribiste.
+
+Oye, ¿cuánto tiempo tengo para reclamar si no estoy de acuerdo con mis resultados?
+El plazo para realizar reclamaciones es de cinco días hábiles, contados a partir del día siguiente a la publicación de los resultados. El aspirante solo puede acceder personalmente a su propia prueba.
+
+Parce, ¿qué es el PIN del concurso SIMO?
+El PIN (Número de Identificación Personal) es el derecho de participación que debes pagar para inscribirte en un concurso de méritos de la CNSC. Sin el PIN no puedes formalizar tu aspiración a una vacante. Cada concurso tiene su propio PIN.
+
+¿Cuánto cuesta el PIN para auxiliar de enfermería?
+El PIN para nivel técnico/asistencial es aproximadamente $43.350. Para niveles profesionales es aproximadamente $65.000 (valores referenciales 2024). Puede variar según la convocatoria.
+
+Oye, ¿el PIN se paga una sola vez o por cada convocatoria?
+Se paga por cada convocatoria a la que quieras aspirar. Si te inscribes en dos concursos diferentes, debes pagar dos PIN diferentes.
+
+¿Qué es el período de prueba en el concurso?
+Es un período de seis meses después del nombramiento. Durante este tiempo, la entidad evalúa tu desempeño real en el puesto. Solo después de superarlo, eres considerado empleado de carrera con todos los derechos de estabilidad.
+
+Parce, ¿me pueden echar durante el período de prueba?
+Sí, si no superas la evaluación de desempeño. Pero no es un despido arbitrario; la entidad debe demostrar que no cumpliste con las funciones del cargo. Si lo superas, adquieres estabilidad laboral.
+
+¿Qué es una OPEC?
+OPEC (Oferta Pública de Empleo de Carrera) es la vacante publicada en SIMO para concursos de méritos. Representa un empleo público disponible en una entidad del Estado. Cada OPEC tiene un número único y describe el cargo, requisitos y la entidad que ofrece el empleo.
+
+Oye, ¿cómo busco una OPEC específica en SIMO?
+En SIMO, usa el buscador por número de OPEC si lo tienes. También puedes buscar por proceso de selección (ej: ESE 2), por rango salarial o por departamento. Al encontrar la OPEC, puedes inscribirte si cumples los requisitos.
+
+Parce, ¿qué es la carrera administrativa?
+Es el sistema que garantiza que los empleados públicos ingresen y asciendan por méritos, no por favores políticos. Te da estabilidad en el empleo si cumples bien tus funciones. Para ingresar, debes ganar un concurso de méritos de la CNSC.
+
+¿Puedo participar en varias convocatorias al mismo tiempo en SIMO?
+Sí. Te puedes inscribir en todas las convocatorias para las que cumplas requisitos. SIMO guarda tu perfil y documentos, así no tienes que subirlos cada vez. Solo pagas el PIN de cada convocatoria.
+
+Oye, ¿qué diferencia hay entre concurso abierto y concurso de ascenso?
+Abierto: pueden participar personas externas a la entidad (como tú, que quieres ingresar a HOMERIS). Ascenso: solo pueden participar empleados actuales de la entidad que quieren subir de cargo. Tú debes inscribirte en la modalidad abierto general.
+
+Parce, ¿puedo trabajar en el Estado sin pasar por SIMO?
+No. Para empleos públicos de carrera administrativa en Colombia es obligatorio el concurso de méritos. Existen algunas excepciones (cargos de libre nombramiento y remoción), pero no son la mayoría. Para enfermería en ESE, SÍ es obligatorio el concurso.
+
+¿Qué empleos públicos no requieren concurso SIMO?
+Los cargos de libre nombramiento y remoción (directivos, asesores) no requieren concurso. Pero para enfermería, técnico, profesional, etc., SÍ es obligatorio el concurso. No puedes entrar como enfermero a una ESE sin pasar por SIMO.
+
+Oye, ¿cuánto tiempo dura un concurso SIMO desde la apertura hasta el nombramiento?
+Desde la apertura de inscripciones hasta la lista de elegibles puede tomar entre 1 y 2 años, dependiendo del número de aspirantes y las etapas del proceso. Luego viene el período de prueba de 6 meses.
+
+¿Qué pasa si no apruebo el concurso?
+Puedes volver a presentarte en futuras convocatorias. No hay límite de intentos. La experiencia que ganaste te servirá para las siguientes. No te desanimes, muchos concursan varias veces hasta lograr el cargo.
+
+Parce, ¿hay límite de edad para participar en concursos SIMO?
+No. Los concursos de méritos no tienen límite de edad. Solo debes cumplir los requisitos del cargo (título, experiencia, etc.). Puedes concursar a los 25, 40 o 55 años si cumples los requisitos.
+
+¿Dónde veo el estado de mi inscripción en SIMO?
+Ingresa a SIMO con tu usuario y contraseña, ve a “Mis inscripciones” o “Procesos de selección”. Allí ves cada convocatoria en la que participas y su estado actual (inscrito, en verificación, citado a pruebas, resultados publicados, etc.).
+
+Oye, ¿puedo inscribirme desde mi celular en SIMO?
+Sí. SIMO está diseñado para computadores y celulares. Puedes registrarte, subir documentos e inscribirte desde el navegador de tu teléfono. La plataforma es responsive.
+
+Parce, ¿la CNSC me puede excluir del concurso por documentos falsos?
+Sí. Presentar documentos falsos es causal de exclusión y puede acarrear sanciones disciplinarias e incluso penales. Siempre debes ser honesto con tu experiencia y estudios.
+
+¿Qué documentos necesito para inscribirme en SIMO?
+Cédula de ciudadanía, título profesional o acta de grado, tarjeta profesional si aplica, certificados laborales (si tienes experiencia), y diplomas de cursos adicionales. Los documentos deben estar en formato PDF o JPG y no pesar más de 5 MB.
+
+Oye, ¿puedo subir mis documentos después de inscribirme?
+Sí, pero es mejor hacerlo antes. La plataforma SIMO permite cargar documentos en cualquier momento, pero para cada convocatoria debes verificar que estén actualizados antes de que cierre la inscripción.
+
+Parce, ¿qué hago si el sistema SIMO no me deja cargar un documento?
+Revisa que el archivo sea PDF o JPG y no pese más de 5 MB. Si el problema persiste, contacta a la CNSC a través de su página de soporte. También puedes intentar con otro navegador.
+
+¿Hay curso o tutorial oficial para usar SIMO?
+La CNSC tiene manuales y videos tutoriales en su página web. También ESTUDIO SIMO te prepara con información actualizada de la plataforma y el concurso. Puedes preguntarme a mí (el Asistente IA) cualquier duda.
+
+Oye, ¿qué significa “lista de elegibles”?
+Es la lista de personas que aprobaron el concurso, ordenadas por puntaje de mayor a menor. Las entidades nombran en orden estricto a medida que hay vacantes disponibles. Si estás en la lista, tienes posibilidades de ser llamado.
+
+Parce, ¿puedo cambiar mi respuesta después de enviarla en el examen real de SIMO?
+No. En el examen real SIMO, una vez seleccionas una opción y avanzas, NO puedes volver atrás. Por eso el Modo Simulacro replica esa regla: no puedes cambiar respuestas después de avanzar a la siguiente pregunta.
 
 
 
