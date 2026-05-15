@@ -836,15 +836,6 @@ APROBÓ significa que tu puntaje fue mayor o igual a 70/100. Es la calificación
 ¿Aquello o aquello qué es o aquello para qué sirve?
 No sé exactamente a qué te refieres con "aquello". ¿Podrías ser más específico? Dime de qué elemento, botón o sección de la aplicación estás hablando.
 
-¿La luna o el sol o la tierra o el universo?
-Lo siento, no puedo ayudarte con temas de astronomía. Solo puedo responder preguntas sobre ESTUDIO SIMO, el concurso ESE 2, enfermería o la CNSC. ¿Tienes alguna duda sobre la herramienta?
-
-¿El mundial o el fútbol o el deporte?
-Lo siento, no sé nada sobre deportes. Soy un asistente especializado en el concurso SIMO para enfermería. ¿Puedo ayudarte con algo relacionado?
-
-¿Como se hace una torta o recetas de cocina?
-Lo siento, no conozco recetas de cocina. Solo puedo ayudarte con temas relacionados con ESTUDIO SIMO, el concurso ESE 2, enfermería o la CNSC. ¿Tienes alguna duda sobre la herramienta?
-
 ¿Explícame sobre ESTUDIO SIMO? Es una herramienta gratuita de preparación para auxiliares de enfermería que buscan ingresar al Hospital Mental de Risaralda (HOMERIS) mediante el concurso de méritos ESE 2 de la CNSC. Solo necesitas un navegador web (Chrome, Edge, Safari, Firefox) y conexión a internet. Funciona en computadores, tabletas y celulares.
 ¿Hola? 👋 ¡Hola! ¿En qué puedo ayudarte hoy?
 ¿Que mas o que más? 👋 ¡Hola! ¿En qué puedo ayudarte hoy?
@@ -4627,7 +4618,7 @@ Ve a Ajustes (⚙️) en la esquina superior derecha, y usa los botones A- y A+ 
 Necesito leer mejor, ¿cómo agrando el texto?
 Entra al menú de Ajustes (⚙️) y presiona A+. Si quieres volver a tamaño normal, usa A-.
 
-modalidades
+¿Cuales modalidades existen para el concurso?
 Las modalidades del concurso ESE 2 son: ascenso general (184 vacantes), ascenso discapacidad (3), abierto general (2.293) y abierto discapacidad (194).
 
 modalidades de participacion
@@ -4783,13 +4774,13 @@ Sí. Tanto en Modo Estudio como en Modo Simulacro, al repetir el examen se selec
 Al darle a repetir examen, ¿me salen las mismas preguntas?
 No, salen diferentes. Es aleatorio. Así puedes practicar más variedad.
 
-modalidades de la pestaña preguntas
+¿modalidades de la pestaña preguntas?
 Los modos de la pestaña Preguntas son: Modo Estudio (aprender sin presión) y Modo Simulacro (simular el examen real).
 
 ¿qué modalidades de estudio hay?
 En la pestaña Preguntas tienes dos modalidades: Modo Estudio y Modo Simulacro.
 
-modalidades de examen
+¿modalidades de examen dentro de Estudio SIMO?
 Las modalidades de examen son: Estudio (sin tiempo, feedback inmediato) y Simulacro (con tiempo, sin feedback hasta el final).
 
 ¿Qué es eso de SIMO y de la CNSC?
@@ -4849,8 +4840,12 @@ Ascenso discapacidad y abierto discapacidad. Tienen 3 y 194 vacantes respectivam
 ¿Existen cupos reservados para personas con discapacidad en la convocatoria?
 Sí, hay cupos en dos modalidades: ascenso discapacidad (3 plazas) y abierto discapacidad (194 plazas).
 
-¿Puedo concursar si tengo discapacidad? ¿Qué modalidad debo elegir?
+¿Puedo concursar si tengo discapacidad?
 Sí, puedes elegir entre ascenso discapacidad (si ya trabajas en la ESE y quieres ascender) o abierto discapacidad (para ingreso externo). Ambos tienen cupos reservados.
+
+¿Qué modalidad puedo escoger si tengo discapacidad?
+Puedes elegir entre ascenso discapacidad (si ya trabajas en la ESE y quieres ascender) o abierto discapacidad (para ingreso externo). Ambos tienen cupos reservados.
+
 
 Por favor, cuéntame sobre la convocatoria de la CNSC y de las pruebas de SIMO.
 La convocatoria ESE 2 tiene 2.477 vacantes, inscripciones en julio-agosto 2026. Las pruebas SIMO evalúan razonamiento lógico, matemático, comprensión lectora, ética, trabajo en equipo y orientación al servicio.
@@ -4975,10 +4970,10 @@ En la Contraloría General de la República, sección “Registro de responsable
 ¿Qué son los antecedentes fiscales y por qué los piden?
 Son reportes de la Contraloría sobre personas que han sido declaradas responsables por daño fiscal. Para concursos públicos, es necesario no tener antecedentes fiscales vigentes.
 
-¿Y exigen experiencia?
+¿Y exigen experiencia para postularse a una vacante?
 No siempre. Para auxiliar de enfermería muchas vacantes no exigen experiencia, o piden 6 meses. Para enfermero profesional suelen pedir 1 o 2 años. Cada OPEC define los requisitos.
 
-¿La tarjeta profesional es obligatoria? ¿Y la experiencia?
+¿La tarjeta profesional o la experiencia es obligatoria?
 Para enfermero profesional, la tarjeta profesional SÍ es obligatoria. Para auxiliar de enfermería, a veces no. La experiencia es exigida según la OPEC; para cargos profesionales suele pedirse 1-2 años.
 
 ¿La tarjeta profesional es obligatoria para auxiliar de enfermería?
@@ -5157,7 +5152,6 @@ Puedes reclamar ante la EPS, la Superintendencia de Salud o la Personería.
 ¿Los pacientes tienen derecho a conocer su diagnóstico y tratamiento?
 Sí, es un derecho fundamental.
 
-
 ¿Qué debe registrar el auxiliar de enfermería en la historia clínica según el Decreto 780?
 Debe registrar signos vitales, administración de medicamentos, evolución del paciente, procedimientos realizados y cualquier incidente o evento adverso.
 
@@ -5329,9 +5323,6 @@ En hospitalización general, la relación es de una enfermera profesional por ca
 ¿Cuántos pacientes puede atender una enfermera en el día?
 Hasta 10 pacientes.
 
-¿Y en la noche?
-Hasta 15 pacientes.
-
 ¿Esa relación aplica para auxiliares de enfermería?
 También, pero la norma habla de talento humano en general. Lo importante es que la carga no exceda la capacidad segura.
 
@@ -5479,9 +5470,6 @@ No la especifica directamente, pero por estándares internacionales y la Resoluc
 ¿Cuántas enfermeras profesionales por paciente en UCI?
 Una enfermera profesional por cada 2 pacientes (relación 1:2). Los auxiliares apoyan.
 
-¿En cuidados intermedios?
-Puede ser 1 auxiliar por cada 4-6 pacientes.
-
 ¿Qué pasa si la UCI tiene sobrecarga?
 Aumenta el riesgo de eventos adversos. Se debe reportar.
 
@@ -5529,9 +5517,6 @@ Explicar de nuevo con palabras sencillas y asegurarse de que comprenda.
 
 ¿Los pacientes pueden solicitar cambio de enfermero si se sienten incómodos?
 Sí, pueden pedir cambio, aunque la IPS evaluará si es procedente.
-
-¿Qué ley garantiza estos derechos?
-La Ley 1751 de 2015 (Ley Estatutaria de Salud) y la Resolución 2292.
 
 ¿Qué establece la Resolución 2292 sobre la relación enfermera-paciente en hospitalización pediátrica?
 Se recomienda una enfermera por cada 8 niños en hospitalización pediátrica, pero puede variar según la complejidad.
@@ -5634,6 +5619,867 @@ La Resolución 256 define los indicadores de calidad que deben medirse para cump
 
 ¿Qué debe hacer el auxiliar de enfermería con los resultados de los indicadores?
 Participar en el análisis de los resultados, identificar áreas de mejora, implementar acciones correctivas y hacer seguimiento. Por ejemplo, si la tasa de caídas es alta, reforzar medidas de prevención.
+
+¿Cuántos pacientes puede atender una auxiliar de enfermería en el día según el Decreto 780?
+El Decreto 780 no fija una relación numérica; esa relación viene de la Resolución 3100 de 2019. En hospitalización general, una auxiliar puede atender hasta 10 pacientes en el turno diurno.
+
+¿Cuántos pacientes puede atender una auxiliar de enfermería en la noche?
+En el turno nocturno, según la Resolución 3100 de 2019, la relación es de una auxiliar por cada 15 pacientes en hospitalización general.
+
+¿Qué evalúa el razonamiento lógico en el concurso SIMO?
+Evalúa tu capacidad para seguir reglas, deducir conclusiones y evitar contradicciones. Por ejemplo, si te dicen que ante una crisis se activa un código y que si se activa el código se debe notificar al jefe, y luego te dicen que no se notificó, tú debes deducir que no hubo crisis.
+
+¿En qué consiste la prueba de razonamiento lógico para auxiliares de enfermería?
+Mide qué tan bien puedes aplicar reglas y sacar conclusiones lógicas en situaciones propias de un hospital psiquiátrico, como activar protocolos de emergencia o interpretar órdenes médicas.
+
+¿Cómo me preparo para la parte de razonamiento lógico del examen SIMO?
+Practica con silogismos: si A → B y B → C, entonces A → C. Usa el contrarrecíproco: 'si A entonces B' equivale a 'si no B entonces no A'. No añadas información externa a lo que dice el texto.
+
+¿Qué evalúa el razonamiento matemático en el concurso SIMO?
+Evalúa tu habilidad para hacer cálculos, aplicar reglas de tres, sacar porcentajes y calcular dosis de medicamentos. Es muy importante para la administración segura de fármacos en enfermería.
+
+¿Qué tipo de ejercicios matemáticos vienen en el examen para auxiliares de enfermería?
+Vienen problemas de dosis: si un paciente necesita 5 mg por cada 10 kg, ¿cuánto se le da si pesa 68 kg? También reglas de tres, porcentajes (ej. 15% de aumento en gastos) y cálculo de personal (si hay 19 pacientes y la relación es 1 enfermera por cada 3, ¿cuántas se necesitan?).
+
+¿Cómo se calcula una dosis de medicamento en el examen SIMO?
+Usas la regla de tres simple: (dosis deseada ÷ dosis disponible) × volumen = ml a administrar. Por ejemplo, si un frasco tiene 500 mg en 10 ml, para dar 120 mg calculas (120 ÷ 500) × 10 = 2,4 ml.
+
+¿Qué evalúa la comprensión lectora en el concurso SIMO?
+Mide tu capacidad para entender textos médicos, identificar la idea principal, hacer inferencias y distinguir hechos de opiniones. Por ejemplo, leer un fragmento de una historia clínica y determinar qué síntoma no aparece.
+
+¿Cómo se estudia para la prueba de comprensión lectora del SIMO?
+Lee textos de protocolos hospitalarios, identifica la idea principal al inicio o al final, usa solo lo que el texto sugiere (no inventes), y diferencia entre hechos (verificables) y opiniones (juicios personales).
+
+¿Qué habilidades de lectura evalúa el examen para auxiliares de enfermería?
+Evalúa que puedas extraer información explícita (ej. orden de acciones en un protocolo), hacer inferencias (ej. si no se notificó, deducir que no hubo crisis) y reconocer sinónimos en contexto.
+
+¿Qué evalúa la ética profesional en el concurso SIMO?
+Evalúa cómo actuarías ante dilemas éticos: confidencialidad, respeto a la autonomía del paciente, reporte de errores, trato digno sin estigmatización, y manejo de situaciones con familiares agresivos.
+
+¿Cómo se mide la ética profesional en el examen de enfermería?
+Te ponen situaciones reales, como un compañero que comete un error sin daño aparente, y debes elegir la conducta correcta: reportar el error para prevenir futuros incidentes, no ocultarlo.
+
+¿Qué principios éticos debo conocer para el concurso de la CNSC?
+Debes conocer la confidencialidad (no revelar información sin autorización), la autonomía del paciente (respetar su negativa a tratamientos), la obligación de reportar eventos adversos, y el trato digno sin discriminación por trastornos mentales.
+
+¿Qué evalúa el trabajo en equipo en el concurso SIMO?
+Evalúa cómo te coordinas con otros profesionales en emergencias, cómo manejas los cambios de turno, cómo apoyas a compañeros sobrecargados, y cómo resuelves conflictos dentro del equipo.
+
+¿Qué situaciones de trabajo en equipo preguntan en el examen para auxiliares de enfermería?
+Por ejemplo: en una emergencia con un paciente agresivo, el líder debe asignar roles claros (contención, comunicación, registro). También preguntan cómo manejar información incompleta en el cambio de turno (pedir aclaraciones).
+
+¿Cómo se demuestra el trabajo en equipo en el examen de la CNSC?
+Te plantean casos como: un compañero está abrumado y comete un error menor; la conducta correcta es apoyarlo y redistribuir tareas, no ignorarlo o reportarlo de inmediato.
+
+¿Qué evalúa la orientación al servicio en el concurso SIMO?
+Evalúa tu capacidad para tratar con respeto y empatía a pacientes y familiares, explicar normas con alternativas, validar emociones, y adaptar la comunicación a las necesidades de cada persona (ansiedad, discapacidad cognitiva).
+
+¿Cómo se mide la orientación al servicio en el examen para auxiliares de enfermería?
+Te ponen situaciones como: un familiar se queja porque no puede entrar alimentos; la mejor respuesta es explicar la norma y ofrecer alternativas del servicio de nutrición, no ceder ni ignorar.
+
+¿Qué debo saber de orientación al servicio para el concurso de HOMERIS?
+Debes saber validar el malestar del paciente (ej. “nadie me entiende”), explorar sus preocupaciones sin minimizar, y ofrecer soluciones colaborativas, como resúmenes escritos para pacientes ansiosos.
+
+¿Qué evalúa el razonamiento lógico en el concurso SIMO?
+Evalúa tu capacidad para seguir reglas, deducir conclusiones y evitar contradicciones. Por ejemplo, si te dicen que ante una crisis se activa un código y que si se activa el código se debe notificar al jefe, y luego te dicen que no se notificó, tú debes deducir que no hubo crisis.
+
+Oye, ¿en qué consiste esa prueba de lógica que pone la CNSC para enfermeros?
+Mide qué tan bien puedes aplicar reglas y sacar conclusiones lógicas en situaciones propias de un hospital psiquiátrico, como activar protocolos de emergencia o interpretar órdenes médicas.
+
+Parce, ¿qué es eso de razonamiento lógico que preguntan en el examen SIMO?
+Es tu habilidad para seguir reglas y deducir cosas. Por ejemplo: si un paciente está en crisis se activa un código, y si se activa el código se llama al jefe. Si no llamaron al jefe, entonces el paciente no estaba en crisis.
+
+Una duda, ¿para qué sirve el razonamiento lógico en el día a día del auxiliar de enfermería?
+Te ayuda a tomar decisiones rápidas y correctas siguiendo protocolos, como saber cuándo activar un código de emergencia o qué hacer si falta un paso en un procedimiento.
+
+¿Cómo me preparo para la parte de razonamiento lógico del examen SIMO?
+Practica con silogismos: si A → B y B → C, entonces A → C. Usa el contrarrecíproco: 'si A entonces B' equivale a 'si no B entonces no A'. No añadas información externa a lo que dice el texto.
+
+---
+
+¿Qué evalúa el razonamiento matemático en el concurso SIMO?
+Evalúa tu habilidad para hacer cálculos, aplicar reglas de tres, sacar porcentajes y calcular dosis de medicamentos. Es muy importante para la administración segura de fármacos en enfermería.
+
+Oye, ¿qué clase de problemas matemáticos vienen en el examen de la CNSC para auxiliares?
+Vienen problemas de dosis: si un paciente necesita 5 mg por cada 10 kg, ¿cuánto se le da si pesa 68 kg? También reglas de tres, porcentajes (ej. 15% de aumento en gastos) y cálculo de personal (si hay 19 pacientes y la relación es 1 enfermera por cada 3, ¿cuántas se necesitan?).
+
+Parce, ¿cómo se calcula una dosis de medicamento en el examen SIMO?
+Usas la regla de tres simple: (dosis deseada ÷ dosis disponible) × volumen = ml a administrar. Por ejemplo, si un frasco tiene 500 mg en 10 ml, para dar 120 mg calculas (120 ÷ 500) × 10 = 2,4 ml.
+
+¿Qué tengo que estudiar de matemáticas para el concurso de enfermería?
+Regla de tres, porcentajes, cálculo de dosis, y redondeo al alza para personal necesario. Verifica siempre las unidades (mg, ml, gramos).
+
+Una duda, ¿el examen de matemáticas es muy difícil para auxiliares?
+No es difícil si practicas con ejemplos reales de enfermería: dosis, porcentajes de ocupación de camas, cálculo de personal por relación enfermera-paciente.
+
+---
+
+¿Qué evalúa la comprensión lectora en el concurso SIMO?
+Mide tu capacidad para entender textos médicos, identificar la idea principal, hacer inferencias y distinguir hechos de opiniones. Por ejemplo, leer un fragmento de una historia clínica y determinar qué síntoma no aparece.
+
+Oye, ¿qué es eso de comprensión lectora en el examen de la CNSC?
+Es tu habilidad para leer un texto (como un protocolo o una historia clínica) y entender bien lo que dice, sacar conclusiones, y saber qué información está y qué no está.
+
+Parce, ¿cómo estudio para la prueba de lectura crítica del SIMO?
+Lee textos de protocolos hospitalarios, identifica la idea principal (suele estar al inicio o al final), usa solo lo que el texto sugiere (no inventes), y diferencia entre hechos (verificables) y opiniones (juicios personales).
+
+¿Qué habilidades de lectura evalúa el examen para auxiliares de enfermería?
+Evalúa que puedas extraer información explícita (ej. orden de acciones en un protocolo), hacer inferencias (ej. si no se notificó, deducir que no hubo crisis) y reconocer sinónimos en contexto.
+
+Una duda, ¿en qué se diferencia la comprensión lectora de la lectura crítica?
+Comprensión es entender lo que dice el texto; lectura crítica es además evaluar la intención del autor y distinguir hechos de opiniones. En el SIMO vienen ambas.
+
+---
+
+¿Qué evalúa la ética profesional en el concurso SIMO?
+Evalúa cómo actuarías ante dilemas éticos: confidencialidad, respeto a la autonomía del paciente, reporte de errores, trato digno sin estigmatización, y manejo de situaciones con familiares agresivos.
+
+Oye, ¿qué principios éticos debo conocer para el concurso de la CNSC?
+Debes conocer la confidencialidad (no revelar información sin autorización), la autonomía del paciente (respetar su negativa a tratamientos), la obligación de reportar eventos adversos, y el trato digno sin discriminación por trastornos mentales.
+
+Parce, ¿cómo se mide la ética profesional en el examen de enfermería?
+Te ponen situaciones reales, como un compañero que comete un error sin daño aparente, y debes elegir la conducta correcta: reportar el error para prevenir futuros incidentes, no ocultarlo.
+
+Una duda, ¿qué hago si un familiar se pone agresivo porque no le doy información confidencial?
+Explicas respetuosamente la norma de confidencialidad y ofreces hablar con el médico tratante, que es quien puede dar información autorizada.
+
+¿Qué dice la ética sobre recibir regalos de pacientes?
+La norma institucional generalmente prohíbe recibir regalos. Debes agradecer la intención, explicar la norma y rechazar gentilmente sin dañar la relación terapéutica.
+
+---
+
+¿Qué evalúa el trabajo en equipo en el concurso SIMO?
+Evalúa cómo te coordinas con otros profesionales en emergencias, cómo manejas los cambios de turno, cómo apoyas a compañeros sobrecargados, y cómo resuelves conflictos dentro del equipo.
+
+Oye, ¿qué situaciones de trabajo en equipo preguntan en el examen para auxiliares de enfermería?
+Por ejemplo: en una emergencia con un paciente agresivo, el líder debe asignar roles claros (contención, comunicación, registro). También preguntan cómo manejar información incompleta en el cambio de turno (pedir aclaraciones).
+
+Parce, ¿cómo se demuestra el trabajo en equipo en el examen de la CNSC?
+Te plantean casos como: un compañero está abrumado y comete un error menor; la conducta correcta es apoyarlo y redistribuir tareas, no ignorarlo o reportarlo de inmediato.
+
+Una duda, ¿qué hago si en el cambio de turno me dan información incompleta?
+Pides aclaraciones específicas sobre los puntos faltantes de manera respetuosa. No aceptes información incompleta para no quedar mal, porque eso puede afectar la seguridad del paciente.
+
+¿Cómo actúa un buen líder de equipo en una emergencia psiquiátrica?
+Asigna roles claros: uno se posiciona frente al paciente hablando calmadamente, otro retira objetos peligrosos, otro activa el código si es necesario. No actúa sin coordinar.
+
+---
+
+¿Qué evalúa la orientación al servicio en el concurso SIMO?
+Evalúa tu capacidad para tratar con respeto y empatía a pacientes y familiares, explicar normas con alternativas, validar emociones, y adaptar la comunicación a las necesidades de cada persona (ansiedad, discapacidad cognitiva).
+
+Oye, ¿cómo se mide la orientación al servicio en el examen para auxiliares de enfermería?
+Te ponen situaciones como: un familiar se queja porque no puede entrar alimentos; la mejor respuesta es explicar la norma y ofrecer alternativas del servicio de nutrición, no ceder ni ignorar.
+
+Parce, ¿qué debo saber de orientación al servicio para el concurso de HOMERIS?
+Debes saber validar el malestar del paciente (ej. “nadie me entiende”), explorar sus preocupaciones sin minimizar, y ofrecer soluciones colaborativas, como resúmenes escritos para pacientes ansiosos.
+
+Una duda, ¿cómo respondo a un paciente con ansiedad que pregunta lo mismo varias veces?
+Respondes con paciencia, verificas su comprensión y le ofreces un resumen escrito para que lo consulte cuando lo necesite. No muestres irritabilidad ni ignores.
+
+¿Qué hago si un paciente con discapacidad cognitiva no entiende las instrucciones?
+Usas lenguaje sencillo, muestras los instrumentos, explicas paso a paso con calma, y verificas que haya comprendido. Adaptas la comunicación a su capacidad.
+
+En el concurso SIMO, ¿la ética profesional se evalúa con casos prácticos o con preguntas de teoría?
+Se evalúa con casos prácticos (dilemas éticos) donde debes elegir la conducta correcta ante situaciones reales, como reportar errores o manejar confidencialidad.
+
+Oye, ¿cómo preguntan la ética en el examen de la CNSC? ¿Ponen situaciones o preguntan definiciones?
+Ponen situaciones reales (dilemas) como qué hacer si un familiar pide información confidencial o si un compañero comete un error.
+
+Parce, ¿qué tipo de preguntas vienen en la parte de ética profesional del concurso SIMO?
+Vienen casos prácticos donde tienes que decidir la acción correcta, por ejemplo: un paciente se niega al tratamiento, un familiar se pone agresivo, o te ofrecen un regalo.
+
+¿Cómo pueden evaluar el trabajo en equipo en un examen escrito de la CNSC?
+Te presentan situaciones hipotéticas de coordinación en emergencias, cambio de turno o conflictos entre compañeros, y debes elegir la respuesta más colaborativa y efectiva.
+
+Oye, si el examen es solo de marcar opciones, ¿cómo miden el trabajo en equipo?
+Con casos escritos: por ejemplo, ante un paciente agresivo y un equipo descoordinado, debes seleccionar qué acción tomaría un buen líder o cómo apoyar a un compañero sobrecargado.
+
+Parce, ¿qué espera la CNSC que responda en las preguntas de trabajo en equipo?
+Espera que elijas opciones que demuestren colaboración, comunicación asertiva, apoyo a compañeros y asignación clara de roles en emergencias.
+
+Explícame con un ejemplo por qué si no se notificó al jefe entonces el paciente no estaba en crisis.
+Si la regla es: crisis → código azul → notificar al jefe. Si no se notificó, entonces no hubo código azul; y si no hubo código azul, entonces no hubo crisis. Eso es el contrarrecíproco.
+
+No entiendo eso de que si no se notificó entonces no hubo crisis. Ponme un ejemplo paso a paso.
+Paso 1: crisis → código azul. Paso 2: código azul → notificar. Si no notificaron, es imposible que se haya activado el código azul; si no se activó código, es imposible que haya crisis. Por lo tanto, no hubo crisis.
+
+Oye, ¿cómo se llama la regla lógica que dice que 'si no se notificó entonces no hubo crisis'?
+Se llama contrarrecíproco: 'si A entonces B' equivale a 'si no B entonces no A'. Aplicado: crisis (A) → notificación (B); no notificación (no B) → no crisis (no A).
+
+¿Para qué me sirve el razonamiento lógico en el día a día de auxiliar de enfermería en un hospital?
+Te sirve para seguir protocolos sin saltarte pasos, deducir si una situación cumple condiciones para activar una alerta, y evitar conclusiones erróneas al interpretar órdenes o síntomas.
+
+Parce, no le veo sentido a estudiar lógica, ¿en qué me ayuda cuando tenga un paciente agudo?
+Te ayuda a encadenar acciones: si paciente agresivo → retirar objetos peligrosos → llamar ayuda → aplicar contención. Saber que si no llamaste ayuda, es porque tal vez no había peligro real.
+
+Oye, ¿un ejemplo real de lógica en enfermería psiquiátrica?
+Ejemplo: regla – si hay autolesión, se activa plan de seguridad. No se activó plan, entonces no hubo autolesión. Así evitas sobreactuar.
+
+Un compañero comete un error de medicación sin daño aparente, ¿debo reportarlo?
+Sí, debes reportarlo al jefe inmediato o al comité de seguridad del paciente, porque permite corregir fallas del sistema y prevenir errores futuros.
+
+Parce, si nadie se da cuenta de un error de un compañero, ¿lo reporto o me callo?
+Lo reportas de manera confidencial y constructiva, sin ánimo de perjudicar al compañero, porque la seguridad del paciente está primero.
+
+¿Qué hago si veo que otro auxiliar da una dosis equivocada pero el paciente no sufrió daño?
+Reportas el incidente según el protocolo de la institución (a jefe o comité). No ocultes el error, porque mañana podría pasarle a otro y causar daño real.
+
+¿Qué es una inferencia en lectura crítica? Dame un ejemplo concreto.
+Inferir es sacar una conclusión que no está escrita explícitamente. Ejemplo: si el texto dice “el paciente llegó con taquicardia, sudoración y dijo que sentía que se iba a morir”, puedes inferir que estaba teniendo una crisis de angustia, aunque el texto no lo diga directamente.
+
+Oye, ponme un ejemplo de inferencia en un texto médico.
+Texto: “El paciente refiere dolor en el pecho y dificultad para respirar, y tiene antecedentes de hipertensión”. Inferencia: probablemente está teniendo una crisis hipertensiva o un problema cardíaco, aunque el texto no lo diagnostique.
+
+Parce, ¿cómo hago una inferencia en el examen de lectura crítica?
+Lee lo que dice el texto, no añadas información de afuera, pero puedes deducir cosas que están implícitas. Ejemplo: si el texto dice “el paciente se negó a recibir visitas de su familia”, puedes inferir que hay conflicto familiar o que el paciente no quiere verlos, aunque el texto no lo explique.
+
+¿Cuánto es 5 mg por cada 10 kg para un paciente de 68 kg? Dame el número.
+Lo siento, no puedo hacer cálculos numéricos. Mi función es responder preguntas sobre el concurso SIMO, las normas de salud, los modos de estudio y el funcionamiento de ESTUDIO SIMO. Para ejercicios matemáticos, te recomiendo practicar con una calculadora o repasar los temas de razonamiento matemático por tu cuenta.
+
+¿Puedes calcular la dosis de haloperidol para un paciente de 68 kg?
+No, no realizo cálculos numéricos. Puedo explicarte cómo se hace la regla de tres, pero no dar resultados concretos porque no soy una calculadora.
+
+Haz la cuenta: 5 mg × (68 ÷ 10) = ?
+No puedo hacer operaciones aritméticas. Te explico la fórmula: dosis = (peso del paciente ÷ 10) × 5. El resultado debes obtenerlo con calculadora.
+
+Oye, ¿cómo preguntan la ética en el examen de la CNSC? ¿Ponen situaciones o preguntan definiciones?
+Ponen situaciones reales (dilemas) como qué hacer si un familiar pide información confidencial o si un compañero comete un error.
+
+Parce, ¿qué tipo de preguntas vienen en la parte de ética profesional del concurso SIMO?
+Vienen casos prácticos donde tienes que decidir la acción correcta, por ejemplo: un paciente se niega al tratamiento, un familiar se pone agresivo, o te ofrecen un regalo.
+
+Una duda, ¿la parte de ética en el concurso viene con casos de la vida real o con pura teoría?
+Viene con casos de la vida real (dilemas éticos), no con teoría de principios. Te ponen una situación y debes elegir la conducta correcta.
+
+¿Qué es una inferencia en lectura crítica? Dame un ejemplo concreto de una historia clínica.
+Inferir es sacar una conclusión que no está escrita explícitamente. Ejemplo: si la historia clínica dice “el paciente llegó con taquicardia, sudoración y dijo que sentía que se iba a morir”, puedes inferir que estaba teniendo una crisis de angustia o un ataque de pánico, aunque el texto no lo diga directamente.
+
+Oye, ponme un ejemplo de inferencia en un texto médico.
+Texto: “El paciente se negó a recibir visitas de su familia”. Inferencia: probablemente hay conflicto familiar o el paciente no quiere ver a sus familiares, aunque el texto no lo explique.
+
+Parce, ¿cómo hago una inferencia en el examen de lectura crítica? Explícamelo con un ejemplo de verdad.
+Lee lo que dice el texto, no añadas información de afuera, pero puedes deducir cosas que están implícitas. Ejemplo: si dice “el paciente no quiso colaborar con la toma de la medicación”, puedes inferir que estaba desconfiado o que tenía efectos adversos, aunque no lo diga.
+
+¿Qué es una inferencia? Explícamelo con un ejemplo de una historia clínica, no solo la definición.
+Inferir es leer entre líneas. Por ejemplo, si la historia dice “el paciente llegó sudando y con el corazón acelerado”, infieres que está ansioso o en crisis, aunque la palabra “ansiedad” no aparezca.
+
+Si el texto dice “el paciente se negó a recibir visitas de su familia”, ¿qué puedo inferir?
+Puedes inferir que existe conflicto familiar, que el paciente no quiere ver a sus familiares, o que se siente incómodo con ellos. Es una conclusión lógica que no está escrita explícitamente.
+
+Oye, el texto dice “el paciente se negó a recibir visitas de su familia”. ¿Qué conclusión puedes sacar sin que el texto lo diga directamente?
+Que probablemente hay problemas familiares o que el paciente está molesto con sus familiares.
+
+Parce, si en la historia clínica aparece “paciente se negó a recibir visitas de su familia”, ¿qué puedo inferir sobre su estado emocional?
+Puedes inferir que el paciente está enojado, triste o tiene un conflicto con su familia, aunque el texto no lo explique.
+
+Dame un ejemplo de un problema de porcentajes que pueda venir en el examen SIMO.
+Un ejemplo: “El gasto mensual en psicofármacos de HOMERIS aumentó un 15% respecto al mes anterior. Si el gasto del mes anterior fue de $8.200.000, ¿cuál es el nuevo gasto?” La respuesta se obtiene calculando el 15% y sumándolo.
+
+Oye, ¿qué tipo de problema de porcentajes podría preguntar la CNSC?
+Por ejemplo, calcular el porcentaje de ocupación de camas: si hay 32 camas ocupadas de 40, ¿cuál es el porcentaje de ocupación? Respuesta: 80%.
+
+Parce, ponme un ejemplo de un problema de porcentajes con aumento de gastos.
+“El gasto en nómina de auxiliares aumentó un 8% este mes. Si el mes pasado fue $45.000.000, ¿cuánto es el nuevo gasto?” El cálculo es 45.000.000 × 0,08 = 3.600.000 de aumento; nuevo gasto $48.600.000.
+
+¿Qué tipo de problemas matemáticos vienen? ¿Puras cuentas de dosis o también porcentajes?
+Vienen dosis (regla de tres), porcentajes (aumentos, ocupación de camas) y cálculo de personal (redondeo al alza). Por ejemplo, si la relación es 1:3 y hay 19 pacientes, se necesitan 7 enfermeras.
+
+¿Qué evalúa el razonamiento matemático? No entiendo para qué sirve en enfermería.
+Evalúa tu habilidad para hacer cálculos necesarios en el día a día: calcular dosis de medicamentos, sacar porcentajes de ocupación, determinar cuánto personal se necesita según la relación enfermera-paciente, y verificar unidades (mg, ml, gramos).
+
+Oye, ¿para qué me sirve el razonamiento matemático como auxiliar de enfermería?
+Te sirve para no equivocarte en las dosis, para saber si una unidad está muy llena (porcentaje de ocupación) y para calcular cuántas enfermeras deben estar en un turno según el número de pacientes.
+
+Parce, no entiendo para qué estudiar matemáticas si yo solo voy a dar medicamentos. ¿En qué me ayuda?
+Te ayuda a calcular dosis exactas (ej. si un frasco tiene 500 mg en 10 ml y necesitas 120 mg, debes saber cuántos ml aspirar). Un error de cálculo puede ser peligroso para el paciente.
+
+¿De qué sirve la regla de tres en el trabajo de enfermería?
+Sirve para ajustar dosis, para calcular concentraciones y para resolver problemas de proporciones. Es una herramienta diaria para administrar medicamentos de forma segura.
+
+¿Cómo se llama la regla lógica de que si no pasa B entonces no pasó A? La del examen.
+Se llama contrarrecíproco: 'si A entonces B' equivale a 'si no B entonces no A'.
+
+Oye, ¿cuál es el nombre de la regla que dice que si no se notificó entonces no hubo crisis?
+Contrarrecíproco. Se aplica así: crisis (A) → notificación (B); no notificación (no B) → no crisis (no A).
+
+Parce, en lógica, ¿cómo se le dice a la regla que invierte y niega? La de “si no B entonces no A”.
+Se llama contrarrecíproco. Es equivalente a “si A entonces B”.
+
+¿Cómo se llama esa regla que usé para deducir que si no notificaron entonces no hubo crisis?
+Se llama contrarrecíproco. Es una regla de inferencia válida en lógica.
+
+Ponme un ejemplo de un silogismo para el examen SIMO, algo de enfermería.
+Ejemplo: “Todos los pacientes con diagnóstico de esquizofrenia requieren evaluación psiquiátrica semanal. Juan tiene diagnóstico de esquizofrenia. Por lo tanto, Juan requiere evaluación psiquiátrica semanal.”
+
+Oye, ¿cómo es un silogismo en el contexto de enfermería?
+Otro ejemplo: “Si un paciente tiene antecedentes de autolesiones, entonces debe tener plan de seguridad. Si tiene plan de seguridad, entonces se debe revisar cada semana. Un paciente tiene antecedentes de autolesiones. Por lo tanto, su plan de seguridad debe revisarse cada semana.”
+
+Parce, dame un ejemplo de silogismo con tres frases, algo de HOMERIS.
+Premisa 1: Si un paciente está en crisis, se activa código azul. Premisa 2: Si se activa código azul, se notifica al enfermero jefe. Conclusión: Si un paciente está en crisis, entonces se notifica al enfermero jefe.
+
+¿Qué es un silogismo? Ponme un ejemplo fácil de enfermería.
+Un silogismo es una cadena lógica: Si A → B y B → C, entonces A → C. Ejemplo: Si hay fiebre (A) → hay infección (B). Si hay infección (B) → se necesita antibiótico (C). Por lo tanto, si hay fiebre, se necesita antibiótico.
+
+¿Qué es eso de los 5 correctos en medicamentos? ¿Para qué sirven?
+Los 5 correctos son: paciente correcto, medicamento correcto, dosis correcta, vía correcta y hora correcta. Sirven para prevenir errores en la administración de medicamentos y garantizar la seguridad del paciente.
+
+Oye, ¿cuáles son los 5 correctos y por qué son importantes?
+Son las cinco verificaciones que debes hacer antes de dar un medicamento: el paciente es quien dice ser, el medicamento es el indicado, la dosis es la ordenada, la vía es la correcta (oral, IV, IM) y la hora es la programada. Así evitas confusiones.
+
+Parce, explícame eso de los 5 correctos. ¿Qué tengo que revisar cada vez que voy a dar una medicina?
+Revisas: 1) ¿Es el paciente correcto? (nombre, cédula). 2) ¿Es el medicamento correcto? (nombre y concentración). 3) ¿Es la dosis correcta? (mg o ml). 4) ¿Es la vía correcta? (oral, intravenosa, intramuscular). 5) ¿Es la hora correcta? (cada 8, 12 horas).
+
+¿Para qué sirven los 5 correctos? ¿Qué pasa si no los aplico?
+Sirven para evitar errores de medicación. Si no los aplicas, puedes darle el medicamento a otro paciente, administrar una dosis equivocada, usar una vía incorrecta (peligroso), o darlo a la hora equivocada.
+
+¿Cómo se corrige un error en la historia clínica? ¿Se puede borrar con corrector?
+No se puede borrar ni usar corrector líquido. Se traza una línea sobre el texto incorrecto (que permita leer lo escrito originalmente), se escribe la palabra “error” o “equivocación”, se fecha y firma la corrección, y luego se escribe el texto correcto.
+
+Oye, me equivoqué al escribir en la historia clínica, ¿qué hago? ¿Tacho y escribo encima?
+No taches ni borres. Traza una línea, escribe “error”, fecha, firma y luego escribe el dato correcto.
+
+Parce, si me equivoco en un registro de enfermería, ¿puedo usar corrector líquido?
+No, está prohibido. Debes corregir con una línea, la palabra “error”, tu firma y la fecha.
+
+¿Cuál es el procedimiento correcto para enmendar un error en la historia clínica?
+Traza una línea sobre el texto equivocado, escribe “error” o “equivocación”, fecha y firma la corrección, y escribe el texto correcto a continuación. No se elimina el original.
+
+¿Qué tipo de problemas matemáticos vienen? ¿Puras cuentas de dosis o también porcentajes?
+Vienen problemas de dosis (regla de tres), de porcentajes (aumentos, ocupación de camas) y de cálculo de personal (división con redondeo al alza).
+
+Oye, en el examen de matemáticas de la CNSC, ¿qué temas tocan?
+Dosis de medicamentos, porcentajes (como el aumento de un gasto o el porcentaje de ocupación), y relación enfermera-paciente (dividir el número de pacientes entre la relación y redondear al alza).
+
+Parce, además de las dosis, ¿qué otros problemas matemáticos pueden preguntar?
+Porcentajes: por ejemplo, si hay 24 pacientes de 32 camas, ¿cuál es el porcentaje de ocupación? (75%). También cálculo de personal: si la relación es 1:6 y hay 38 pacientes, ¿cuántas enfermeras se necesitan? (7).
+
+¿El examen de matemáticas trae solo cuentas de medicamentos o también cosas de porcentajes y personal?
+Trae los tres tipos: dosis (muy importante), porcentajes (ej. aumento de costos) y cálculo de personal según la relación.
+
+¿Qué es la Atención Primaria en Salud (APS)? ¿Eso solo es para médicos?
+La APS es la estrategia de atención que coordina los servicios de salud desde el primer nivel, con enfoque familiar y comunitario. No es solo para médicos; los auxiliares de enfermería participan en equipos básicos de salud realizando visitas domiciliarias, promoción de hábitos saludables y detección temprana de riesgos.
+
+Oye, ¿qué es eso de Atención Primaria en Salud? ¿Los auxiliares tienen algo que ver?
+Sí, los auxiliares hacen parte de los Equipos Básicos de Salud (EBS) según la Ley 1438. Realizan tamizajes, vacunación, educación a la comunidad y seguimiento de pacientes crónicos en sus casas.
+
+Parce, explícame qué es la APS y si yo como auxiliar tengo que saber de eso.
+APS significa Atención Primaria en Salud. Es la puerta de entrada al sistema. Los auxiliares participan activamente en promoción de la salud, prevención de la enfermedad y visitas domiciliarias, bajo la coordinación de enfermeras profesionales.
+
+¿Qué hace un auxiliar de enfermería en la Atención Primaria en Salud?
+Realiza actividades como control de crecimiento y desarrollo en niños, vacunación, detección de factores de riesgo cardiovascular, educación sobre alimentación saludable y seguimiento de pacientes con enfermedades crónicas (diabetes, hipertensión).
+
+¿Qué dice la Ley 1751 sobre la atención de urgencias? ¿Pueden negarme la atención si no tengo documentos?
+La Ley 1751 (Ley Estatutaria de Salud) prohíbe negar la atención de urgencias por falta de documentos, afiliación o capacidad de pago. El personal de enfermería está obligado a estabilizar al paciente y garantizar su atención.
+
+Oye, según la Ley 1751, ¿me pueden negar la atención en urgencias si no tengo cédula o carnet de la EPS?
+No, está prohibido. La atención de urgencias debe ser prestada sin ninguna barrera administrativa. Primero atienden y después se encargan de la documentación.
+
+Parce, qué dice la Ley Estatutaria de Salud (Ley 1751) sobre las urgencias?
+Dice que ninguna IPS puede negar la atención de urgencias por falta de afiliación, documentos o pago. El personal de salud actúa de buena fe y no puede ser sancionado por atender sin autorización previa.
+
+¿Pueden negarme la atención en urgencias si no tengo documentos? ¿Qué ley lo prohíbe?
+No pueden negarla. La Ley 1751 de 2015 lo prohíbe expresamente. Es un derecho fundamental a la salud.
+
+Recibir una caja de chocolates de un paciente, ¿está bien o está mal? ¿Qué hago?
+La norma institucional generalmente prohíbe recibir regalos. Debes agradecer la intención, explicar la norma y rechazar gentilmente sin dañar la relación terapéutica. Si el regalo es de muy bajo valor y es costumbre, algunas instituciones permiten aceptarlo pero reportándolo.
+
+Oye, un paciente me regaló una caja de chocolates, ¿me la puedo comer o está mal?
+Lo ético es no aceptar regalos. Explícale que es por norma institucional, que ya con su agradecimiento es suficiente. Si insiste mucho, consulta con tu supervisor.
+
+Parce, ¿qué hago si un paciente me da una caja de chocolates como agradecimiento? ¿Lo acepto?
+No debes aceptarlo. Agradece, explica que no puedes recibir regalos por las normas del hospital, y sugiere que done algo a la institución si quiere agradecer.
+
+¿Está mal recibir una caja de chocolates de un paciente? ¿Qué dice la ética?
+La ética profesional desaconseja recibir regalos, incluso pequeños, porque puede crear expectativas de trato preferencial o comprometer la objetividad. Lo mejor es rechazar gentilmente.
+
+¿Qué es una inferencia en lectura crítica? Dame un ejemplo en una historia clínica.
+Inferir es sacar una conclusión que no está escrita explícitamente. Ejemplo: si la historia clínica dice “el paciente llegó con taquicardia, sudoración y dijo que sentía que se iba a morir”, puedes inferir que estaba teniendo una crisis de angustia, aunque el texto no lo diga directamente.
+
+Dame un ejemplo de un problema de porcentajes que pueda venir en el examen SIMO.
+Ejemplo: “El gasto mensual en psicofármacos aumentó un 15% respecto al mes anterior. Si el gasto anterior fue de $8.200.000, ¿cuál es el nuevo gasto?” Para resolverlo, calculas el 15% de 8.200.000 (1.230.000) y lo sumas (9.430.000).
+
+¿Qué tipo de problemas de porcentajes vienen en el examen de la CNSC?
+Vienen problemas como: calcular el nuevo valor después de un aumento porcentual, o calcular el porcentaje de ocupación de camas (ej. 32 de 40 pacientes es 80%).
+
+Ponme un ejemplo de porcentajes aplicado a enfermería.
+Ejemplo: una unidad tiene capacidad para 40 pacientes y hay 32 ocupando camas. ¿Cuál es el porcentaje de ocupación? Respuesta: (32÷40)×100 = 80%.
+
+Si un gasto aumentó un 15% y antes era 8.200.000, ¿cómo se hace la cuenta? No me des el resultado, dime el procedimiento.
+El procedimiento es: primero calcula el 15% de 8.200.000 (multiplica 8.200.000 × 0,15). Luego suma ese valor al original. El resultado no te lo daré porque no hago cálculos numéricos.
+
+¿Cómo se calcula un aumento del 15% sobre una cantidad? Explícame el paso a paso.
+Paso 1: multiplica la cantidad original por 0,15 para obtener el incremento. Paso 2: suma el incremento a la cantidad original. Puedes hacerlo con calculadora.
+
+¿Qué operaciones hay que hacer para saber el nuevo valor después de un aumento porcentual?
+Multiplicar la cantidad original por el porcentaje (en decimal) para hallar el incremento, y luego sumarlo a la original.
+
+¿Puedes calcular cuánto es el 15% de 8.200.000? Dame el número.
+Lo siento, no puedo hacer cálculos numéricos. Mi función es responder preguntas sobre el concurso SIMO, las normas de salud, los modos de estudio y el funcionamiento de ESTUDIO SIMO.
+
+Haz la división: 19 ÷ 3, dime cuántas enfermeras se necesitan.
+No realizo operaciones aritméticas. Te explico la fórmula: divide el número de pacientes entre la relación (3) y redondea al alza. El resultado debes obtenerlo con calculadora.
+
+¿Cuántas enfermeras se necesitan para 19 pacientes si la relación es 1:3? No me des la fórmula, dame el número.
+No puedo dar resultados numéricos. Te ayudo con el procedimiento: 19 ÷ 3 = 6,33; redondeando al alza son 7 enfermeras. Ese cálculo puedes hacerlo con calculadora.
+
+¿Qué evalúa el razonamiento matemático en el concurso SIMO?
+Evalúa tu habilidad para hacer cálculos, aplicar reglas de tres, sacar porcentajes y calcular dosis de medicamentos. Es importante para administrar fármacos de forma segura.
+
+¿Para qué sirve el razonamiento matemático en el día a día de un auxiliar de enfermería?
+Sirve para calcular dosis de medicamentos (ej. regla de tres), determinar porcentajes de ocupación de camas, y calcular la cantidad de personal necesario según la relación enfermera-paciente.
+
+Oye, no entiendo para qué me sirven las matemáticas en el hospital. ¿Me explicas?
+Te sirven para no equivocarte con las dosis: si un frasco tiene 500 mg en 10 ml, puedes calcular cuántos ml necesitas para dar 120 mg. También para saber si una unidad está muy llena (porcentajes).
+
+¿Qué es la confidencialidad en enfermería? ¿Cuándo se puede romper?
+La confidencialidad es la obligación de no revelar información del paciente sin autorización. Solo se puede romper cuando exista riesgo inminente para la vida del paciente o de terceros, o por orden judicial.
+
+¿En qué casos un auxiliar de enfermería puede compartir información confidencial?
+Cuando haya peligro inminente para el paciente o para otros (ej. paciente amenaza con lastimar a alguien), o cuando un juez lo ordene mediante una orden expresa.
+
+¿Se puede romper la confidencialidad si un paciente amenaza con autolesionarse?
+Sí, si hay riesgo inminente para su vida o la de otros, puedes informar al médico o al equipo para protegerlo.
+
+Ponme un ejemplo de un silogismo para el examen SIMO, relacionado con enfermería.
+Ejemplo: “Todos los pacientes con riesgo de caídas requieren barandas elevadas. Los pacientes de la tercera edad tienen riesgo de caídas. Por lo tanto, los pacientes de la tercera edad requieren barandas elevadas.” Eso es un silogismo.
+
+¿Cómo es un silogismo? Dame un ejemplo en un hospital.
+Premisa 1: Si un paciente está en crisis, se activa código azul. Premisa 2: Si se activa código azul, se notifica al jefe. Conclusión: Si un paciente está en crisis, se notifica al jefe.
+
+Parce, necesito un ejemplo de silogismo para entenderlo bien.
+Ejemplo: Todo medicamento psicotrópico requiere prescripción médica. El haloperidol es un psicotrópico. Por lo tanto, el haloperidol requiere prescripción médica.
+
+¿Qué son los 5 correctos en la administración de medicamentos y para qué sirven?
+Los 5 correctos son: paciente correcto, medicamento correcto, dosis correcta, vía correcta y hora correcta. Sirven para prevenir errores de medicación.
+
+¿Cuáles son los 5 correctos que debe verificar un auxiliar de enfermería antes de administrar un medicamento?
+Paciente, medicamento, dosis, vía y hora. Verificar estos cinco evita errores.
+
+Oye, ¿qué es eso de los 5 correctos que tanto mencionan en enfermería?
+Es un protocolo de seguridad: antes de dar un medicamento, revisas que sea el paciente indicado, el fármaco correcto, la dosis exacta, la vía adecuada y la hora estipulada.
+
+¿Cómo se corrige un error en la historia clínica? ¿Se puede borrar con corrector?
+No se puede borrar ni usar corrector. Se traza una línea sobre el texto incorrecto (debe leerse lo escrito originalmente), se escribe la palabra “error”, se fecha y firma, y luego se escribe el texto correcto.
+
+Si me equivoqué al escribir en la historia clínica, ¿qué hago?
+No taches ni uses líquido corrector. Traza una línea sobre el error, escribe “error”, fecha, firma y anota el dato correcto al lado.
+
+¿Cuál es el procedimiento para corregir un registro de enfermería erróneo?
+Línea sobre el texto incorrecto, escribir “error”, fechar, firmar y luego el texto correcto.
+
+¿Qué tipo de problemas matemáticos vienen en el examen SIMO para auxiliares?
+Vienen problemas de dosis (regla de tres), porcentajes (aumentos, ocupación de camas), y cálculo de personal (relación enfermera-paciente con redondeo al alza).
+
+¿El examen de matemáticas trae puras cuentas de dosis o también porcentajes?
+Trae ambos: dosis (ej. mg por kg), porcentajes (ej. aumento de gastos, ocupación) y división para personal necesario.
+
+¿Qué temas de matemáticas debo estudiar para el concurso de enfermería?
+Regla de tres, porcentajes, redondeo al alza, y verificación de unidades (mg, ml, gramos).
+
+¿Qué es la Atención Primaria en Salud (APS) según la Ley 1438?
+Es la estrategia de coordinación intersectorial que permite la atención integral e integrada desde la salud pública, la promoción, prevención, diagnóstico, tratamiento y rehabilitación. Es la puerta de entrada al sistema.
+
+¿La Atención Primaria en Salud solo es para médicos o también para auxiliares?
+También para auxiliares. Los Equipos Básicos de Salud (EBS) incluyen médicos, enfermeros y auxiliares, y realizan visitas domiciliarias, promoción y prevención.
+
+Oye, ¿qué es eso de APS que sale en el concurso?
+APS significa Atención Primaria en Salud. Es la estrategia de la Ley 1438 para que la población reciba atención desde su territorio, con equipos de salud que incluyen auxiliares de enfermería.
+
+¿Qué dice la Ley 1751 sobre la atención de urgencias? ¿Pueden negarme la atención si no tengo documentos?
+La Ley 1751 prohíbe negar la atención de urgencias por falta de afiliación, documentos o autorizaciones previas. Las IPS deben estabilizar al paciente sin ninguna barrera administrativa.
+
+¿Puede una IPS negarme la atención en urgencias porque no tengo cédula o carné de EPS?
+No, está prohibido. La atención de urgencias es obligatoria y no se puede condicionar a ningún documento.
+
+Oye, ¿es verdad que no pueden negar la atención en urgencias aunque no tenga papeles?
+Sí, es cierto. La Ley 1751 de 2015 establece que las urgencias deben ser atendidas sin barreras administrativas, económicas o de afiliación.
+
+¿Cómo se llama la regla lógica de que “si no pasa B entonces no pasó A”?
+Se llama contrarrecíproco. Es la equivalencia: “si A entonces B” es igual a “si no B entonces no A”.
+
+¿Qué nombre recibe la regla que dice que si no se notificó entonces no hubo crisis?
+Contrarrecíproco. Aplicado a la crisis: crisis → notificar; no notificación → no crisis.
+
+Oye, ¿cómo se llama esa propiedad lógica del si-entonces?
+Contrarrecíproco. Si la regla original es A → B, su contrarrecíproco es ¬B → ¬A.
+
+Si en un texto clínico dice “el paciente se negó a recibir visitas de su familia”, ¿qué puedo inferir?
+Puedes inferir que existe algún conflicto familiar o que el paciente está enojado o triste con su familia, aunque el texto no lo explique directamente.
+
+¿Qué conclusión no explícita se puede sacar si un paciente rechaza las visitas de sus familiares?
+Se puede inferir que hay problemas en la relación familiar o que el paciente se siente incómodo con ellos.
+
+¿Puedo inferir que la familia es violenta si el paciente no quiere verlos?
+No necesariamente. Solo puedes inferir que hay algún tipo de malestar o conflicto, pero no su causa. No añadas información externa.
+
+Un familiar se pone agresivo porque no le doy información del paciente. ¿Qué hago paso a paso?
+1. Mantén la calma y no te enfrentes. 2. Explica respetuosamente que la información es confidencial. 3. Ofrece hablar con el médico tratante, que es quien puede dar información autorizada.
+
+¿Cómo manejo a un familiar que me grita pidiendo datos del paciente?
+No des información confidencial. Explica la norma y derívalo al médico. Si la agresividad persiste, retírate y llama a seguridad.
+
+Parce, un familiar se pone bravo porque no le digo nada. ¿Qué hago?
+Explícale que por ley no puedes dar información sin autorización del paciente. Ofrécele que hable con el médico tratante.
+
+Recibir una caja de chocolates de un paciente, ¿está bien o está mal? ¿Qué hago?
+La norma institucional generalmente prohíbe recibir regalos. Agradece la intención, explica la norma y recházalo gentilmente sin dañar la relación terapéutica.
+
+¿Puedo aceptar un regalo pequeño de un paciente como agradecimiento?
+No es recomendable. Está prohibido por la mayoría de códigos de ética y normas institucionales. Recházalo con educación.
+
+Oye, un paciente me dio una caja de bombones, ¿lo acepto o no?
+No lo aceptes. Dile: “Te agradezco mucho el detalle, pero no puedo recibir regalos por norma de la institución. Lo que más me alegra es saber que te sientes bien.”
+
+Si reporto el error de mi compañero, ¿me van a perjudicar o lo van a castigar?
+No te perjudican. La cultura de seguridad del paciente promueve reportar errores para mejorar procesos, no para castigar personas. El análisis se enfoca en las fallas del sistema.
+
+¿Pueden despedir a mi compañero si reporto su error de medicación?
+No es el objetivo. El sistema analiza por qué ocurrió el error (falta de entrenamiento, confusión de etiquetas, etc.) y corrige los procesos. No se busca castigar al profesional.
+
+Parce, si cuento que otro auxiliar se equivocó, ¿me van a echar a mí o a él?
+No. Reportar un error es una responsabilidad ética. Las instituciones de salud tienen procedimientos de mejora, no de castigo. Tu compañero recibirá apoyo para no repetirlo.
+
+En una emergencia con un paciente agresivo y el equipo descoordinado, ¿qué se supone que debo responder en el examen?
+Debes seleccionar la opción donde el líder asigna roles claros: uno habla calmadamente frente al paciente, otro retira objetos peligrosos, otro activa el código de seguridad. No actuar sin coordinar.
+
+¿Qué respuesta es la correcta en el examen cuando el equipo está descoordinado ante un paciente agresivo?
+La respuesta correcta es que el líder del equipo asigna funciones específicas (contención verbal, seguridad del entorno, activación de código) y todos las cumplen.
+
+Oye, en una crisis con un paciente violento, ¿qué se espera que conteste en la prueba SIMO?
+La respuesta esperada es: “Asignar roles: una persona habla con el paciente, otra retira objetos peligrosos, otra llama al código de seguridad”.
+
+¿Para qué me sirve estudiar lógica para trabajar en un hospital psiquiátrico?
+El razonamiento lógico te ayuda a seguir protocolos sin saltarte pasos, deducir si una situación cumple condiciones para activar una alerta, y evitar conclusiones erróneas al interpretar órdenes o síntomas. Por ejemplo, si la regla es “crisis → código azul” y no se activó el código, deduces que no hubo crisis.
+
+Oye, ¿de qué me sirve la lógica si solo quiero atender pacientes psiquiátricos?
+Te sirve para tomar decisiones rápidas y correctas: si un paciente está agresivo, sabes que primero debes retirar objetos peligrosos, luego llamar ayuda, etc. La lógica te ayuda a encadenar acciones sin omitir pasos.
+
+Parce, no le veo el sentido a estudiar lógica para trabajar en un hospital mental. ¿Para qué?
+Para no cometer errores al seguir protocolos. Ejemplo: si la regla dice “autolesión → plan de seguridad” y no hay plan activado, deduces que no hubo autolesión. Así evitas actuar de más.
+
+---
+
+Si un paciente llega a urgencias con taquicardia, sudoración y diciendo “me voy a morir”, ¿qué puedo inferir?
+Puedes inferir que está teniendo una crisis de ansiedad o un ataque de pánico, aunque el texto no lo diga explícitamente. Es una conclusión lógica basada en los síntomas.
+
+El texto clínico dice: “paciente llegó con taquicardia, sudoración y sensación de muerte inminente”. ¿Qué conclusión no escrita puedes sacar?
+Que probablemente está sufriendo un episodio de ansiedad severa o una crisis de angustia.
+
+Oye, ¿cómo hago una inferencia con este ejemplo: paciente sudando, corazón acelerado y dice que se va a morir?
+Inferir es leer entre líneas. En ese caso, puedes inferir que el paciente tiene miedo o está en pánico, aunque el texto no use esas palabras.
+
+---
+
+En el examen de ética de la CNSC, ¿vienen casos prácticos o preguntas de teoría?
+Vienen casos prácticos (dilemas éticos) donde debes elegir la conducta correcta ante situaciones reales, como reportar errores, manejar confidencialidad o recibir regalos.
+
+Oye, ¿cómo es la prueba de ética en el concurso SIMO? ¿Ponen situaciones o preguntan definiciones?
+Ponen situaciones reales. Por ejemplo: “Un compañero comete un error sin daño aparente, ¿qué haces?” o “Un familiar agresivo pide información, ¿cómo actúas?” No preguntan teoría de principios.
+
+Parce, ¿qué tipo de preguntas vienen en ética profesional? ¿Casos o teoría?
+Vienen casos prácticos. Te describen una situación y tú eliges la opción éticamente correcta. No te preguntan definiciones de principios.
+
+---
+
+¿Cómo pueden evaluar el trabajo en equipo en un examen escrito de la CNSC?
+Te presentan situaciones hipotéticas de coordinación en emergencias, cambio de turno o conflictos entre compañeros, y debes elegir la respuesta más colaborativa y efectiva. Por ejemplo, ante un paciente agresivo y un equipo descoordinado, la opción correcta es que el líder asigne roles claros.
+
+Oye, si el examen es de marcar opciones, ¿cómo miden el trabajo en equipo?
+Con casos escritos. Te ponen un escenario de descoordinación y varias opciones; debes seleccionar la que demuestre comunicación asertiva, apoyo a compañeros y asignación de tareas.
+
+Parce, ¿cómo sé que responder en una pregunta de trabajo en equipo si no hay un equipo real?
+Imagina que eres el líder. La respuesta correcta suele ser la que organiza al equipo, asigna funciones específicas y garantiza la seguridad de todos, no la que actúa solo o ignora a los demás.
+
+---
+
+Un paciente se niega a un tratamiento médico necesario, ¿debo respetar su decisión siempre?
+Sí, debes respetar su autonomía siempre que el paciente tenga capacidad de decidir (no esté bajo efectos de sustancias, no tenga una enfermedad que nuble su juicio). Si hay riesgo vital inminente y el paciente no puede decidir, se puede actuar sin consentimiento.
+
+¿Qué es la autonomía del paciente? ¿Si no quiere tomar un medicamento, lo obligo?
+No. La autonomía es su derecho a decidir sobre su cuerpo. No puedes obligarlo a menos que haya peligro inminente para su vida o la de otros y el paciente no esté en sus cabales.
+
+Oye, un paciente se niega a la medicación y está lúcido, ¿qué hago?
+Lo respetas, documentas la negativa en la historia clínica e informas al médico para buscar alternativas. No la administras por la fuerza.
+
+---
+
+¿Qué hago si un paciente lúcido se niega a un procedimiento que necesita?
+Respetas su decisión, documentas la negativa y buscas alternativas. Solo puedes actuar sin consentimiento si hay riesgo vital inminente y el paciente no puede decidir por sí mismo.
+
+¿Un paciente puede rechazar un tratamiento que le salve la vida?
+Sí, si está lúcido y consciente de las consecuencias. Es su derecho. Debes respetarlo y documentarlo.
+
+¿Qué dice la ley sobre la negativa de un paciente a un tratamiento?
+La Ley 1751 y la jurisprudencia reconocen el derecho a rechazar tratamientos, siempre que el paciente tenga capacidad de decisión. En urgencias vitales sin capacidad de decisión, se puede actuar.
+
+---
+
+Si el texto de una historia clínica dice “el paciente se negó a recibir visitas de su familia”, ¿qué puedo inferir sin que el texto lo diga?
+Puedes inferir que existe algún conflicto familiar o que el paciente está molesto con sus familiares. También que prefiere estar solo o que se siente incómodo en su presencia.
+
+¿Qué conclusión no explícita se puede sacar de “paciente rechazó visitas de su familia”?
+Que hay problemas en la relación familiar o que el paciente está pasando por un momento emocional difícil que le hace evitar a su familia.
+
+Oye, si un paciente no quiere ver a su familia, ¿qué infieres?
+Infieres que hay una razón emocional o conflictiva detrás, pero no puedes saber cuál exactamente. No añadas información externa como “la familia es violenta”.
+
+---
+
+¿Qué es la confidencialidad en enfermería y en qué casos se puede romper?
+La confidencialidad es la obligación de no revelar información del paciente sin autorización. Solo se puede romper cuando exista riesgo inminente para la vida del paciente o de terceros (ej. paciente amenaza con matar a alguien), o por orden judicial.
+
+¿En qué situaciones debo romper la confidencialidad?
+Cuando el paciente representa un peligro inminente para sí mismo o para otros (amenaza de suicidio o de agresión grave), o cuando un juez lo ordena por escrito.
+
+¿Puedo compartir información confidencial si un paciente me dice que va a autolesionarse?
+Sí, si hay riesgo inminente para su vida, debes informar al médico o al equipo para protegerlo. Eso es una excepción a la confidencialidad.
+
+En el examen de ética del concurso SIMO, ¿los casos son reales o preguntan teoría?
+Vienen casos prácticos (dilemas éticos), no preguntas de teoría. Te ponen situaciones como “un familiar agresivo pide información” o “un compañero comete un error”, y debes elegir la conducta correcta.
+
+¿El examen de ética de la CNSC tiene preguntas de teoría o son situaciones reales?
+Son situaciones reales. No preguntan definiciones de principios éticos, sino qué harías en un caso concreto.
+
+Parce, en la prueba de ética, ¿qué tipo de preguntas vienen? ¿Casos o definiciones?
+Vienen casos prácticos. Te describen una situación y tú eliges la acción éticamente correcta.
+
+---
+
+Si un paciente me dice que se va a suicidar cuando salga del hospital, ¿puedo romper la confidencialidad?
+Sí, si hay riesgo inminente para su vida, debes informar al médico o al equipo de salud para protegerlo. Eso es una excepción a la confidencialidad.
+
+¿Puedo contar que un paciente amenaza con suicidarse si me lo dijo en confianza?
+Sí, cuando hay peligro inminente para su vida, la confidencialidad se rompe para salvarle la vida. Debes reportarlo inmediatamente.
+
+Oye, un paciente me confiesa que se va a matar cuando salga. ¿Lo reporto o me callo?
+Lo reportas. No es una violación de la confidencialidad porque hay riesgo inminente de muerte. Tu obligación es protegerlo.
+
+---
+
+Si no se notificó al enfermero jefe después de una supuesta crisis, ¿qué puedo concluir sobre el paciente?
+Por la regla lógica del contrarrecíproco: si crisis → código azul → notificar, y no se notificó, entonces no hubo código azul y, por lo tanto, no hubo crisis. El paciente no estaba en crisis.
+
+En HOMERIS, la regla es: crisis → código azul → notificar al jefe. No se notificó. ¿El paciente estaba en crisis?
+No, no estaba en crisis. Si hubiera estado en crisis, se habría notificado. Como no se notificó, se deduce que no hubo crisis.
+
+Parce, si no llamaron al enfermero jefe, ¿el paciente tuvo una crisis?
+No. La regla dice que toda crisis obliga a notificar. Si no notificaron, entonces no hubo crisis.
+
+---
+
+¿Qué hago si un paciente me regala una caja de bombones? ¿Lo acepto?
+No debes aceptarlo. La mayoría de códigos de ética y normas institucionales prohíben recibir regalos. Agradece la intención, explica la norma y recházalo gentilmente.
+
+Recibir una caja de chocolates de un paciente, ¿está mal? ¿Puedo aceptarla?
+Está mal si la institución lo prohíbe. Debes rechazarla explicando que es por norma, no porque no quieras. Si es de muy bajo valor y es costumbre, consulta con tu supervisor.
+
+Oye, un paciente me dio bombones como agradecimiento. ¿Me los como?
+No es recomendable. Agradécele, pero explícale que no puedes recibir regalos por política del hospital. Ofrécele que done algo a la institución si quiere agradecer.
+
+---
+
+Un compañero se equivoca de dosis, nadie se da cuenta, el paciente no sufrió daño. ¿Debo reportarlo?
+Sí, debes reportarlo al jefe o al comité de seguridad. El reporte permite corregir fallas del sistema (ej. etiquetas confusas) y prevenir errores futuros. No ocultes el error.
+
+Parce, si otro auxiliar da mal un medicamento pero no pasó nada, ¿lo reporto?
+Sí. El error debe reportarse aunque no haya habido daño, porque la próxima vez podría causar daño real. La cultura de seguridad agradece el reporte.
+
+¿Qué hago si veo que un compañero administra una dosis equivocada pero el paciente está bien?
+Reportas el incidente. No importa que no haya daño; lo importante es que se analice por qué ocurrió y se evite que vuelva a pasar.
+
+---
+
+Si reporto el error de un compañero, ¿me van a despedir a mí o a él?
+No te van a despedir. La cultura de seguridad del paciente promueve reportar errores para mejorar procesos, no para castigar personas. El análisis se enfoca en las fallas del sistema, no en culpar al profesional.
+
+¿Pueden echarme si reporto que otro auxiliar se equivocó?
+No. Reportar un error es un deber ético y está protegido. Las instituciones de salud tienen procedimientos de mejora, no de castigo.
+
+Parce, si cuento que otro se equivocó, ¿me van a perjudicar?
+No. Reportar errores es parte de la seguridad del paciente. No se persigue al que reporta, sino que se analiza el error para que no se repita.
+
+---
+
+Calcula la dosis: 68 kg, 5 mg por cada 10 kg. Dame solo el número.
+Lo siento, no puedo hacer cálculos numéricos. Mi función es responder preguntas sobre el concurso SIMO, las normas de salud, los modos de estudio y el funcionamiento de ESTUDIO SIMO. Para ejercicios matemáticos, te recomiendo practicar con una calculadora.
+
+¿Puedes hacer la cuenta: 5 mg × (68 ÷ 10)? Dame el resultado numérico.
+No realizo operaciones aritméticas. Te explico la fórmula: dosis = (peso del paciente ÷ 10) × 5. El resultado debes obtenerlo con calculadora.
+
+Oye, necesito que me digas el número: 5 mg por cada 10 kg para 68 kg.
+No puedo dar resultados numéricos. Te ayudo con el procedimiento: (68 ÷ 10) × 5 = ?. Ese cálculo puedes hacerlo con calculadora.
+
+¿Qué evalúa la prueba de razonamiento lógico en el concurso SIMO?
+Evalúa tu capacidad para seguir reglas, deducir conclusiones y evitar contradicciones. Por ejemplo, si te dicen que “crisis → código azul” y que “código azul → notificar al jefe”, y luego te dicen que no se notificó, debes deducir que no hubo crisis.
+
+Oye, ¿en qué consiste esa prueba de lógica que pone la CNSC?
+Mide qué tan bien puedes aplicar reglas y sacar conclusiones lógicas en situaciones propias de un hospital psiquiátrico, como activar protocolos de emergencia o interpretar órdenes médicas.
+
+Parce, ¿qué es eso de razonamiento lógico que preguntan en el examen SIMO?
+Es tu habilidad para seguir reglas y deducir cosas. Por ejemplo: si un paciente está en crisis se activa un código, y si se activa el código se llama al jefe. Si no llamaron al jefe, entonces el paciente no estaba en crisis.
+
+Una duda, ¿para qué sirve el razonamiento lógico en el día a día del auxiliar?
+Te ayuda a tomar decisiones rápidas y correctas siguiendo protocolos, como saber cuándo activar un código de emergencia o qué hacer si falta un paso en un procedimiento.
+
+¿Cómo me preparo para la parte de razonamiento lógico del examen?
+Practica con silogismos: si A → B y B → C, entonces A → C. Usa el contrarrecíproco: “si A entonces B” equivale a “si no B entonces no A”. No añadas información externa a lo que dice el texto.
+
+Oye, ¿cómo hago para practicar la lógica que viene en el concurso?
+Haz ejercicios de seguir reglas: por ejemplo, si el protocolo dice que ante autolesión se activa plan de seguridad, y no se activó el plan, entonces no hubo autolesión. Eso es lógica aplicada.
+
+Parce, ¿un ejemplo de lógica en el hospital?
+Ejemplo: regla – “si paciente agresivo → retirar objetos peligrosos”. Si no retiraron objetos, entonces el paciente no estaba agresivo. Así evitas actuar sin necesidad.
+
+¿Qué es el contrarrecíproco y para qué sirve en el examen de lógica?
+El contrarrecíproco es la equivalencia lógica: “si A entonces B” es igual a “si no B entonces no A”. Sirve para deducir conclusiones cuando te dan información negativa. Ejemplo: si no se notificó al jefe, entonces no hubo crisis.
+
+Oye, explícame eso del contrarrecíproco con un ejemplo de enfermería.
+Regla: si hay fiebre (A) → hay infección (B). Si no hay infección (no B), entonces no hay fiebre (no A). Así puedes deducir que si el paciente no tiene infección, no puede tener fiebre por esa causa.
+
+Parce, cómo se aplica el contrarrecíproco en un protocolo de crisis?
+En HOMERIS: crisis → código azul → notificar al jefe. Si no notificaron (no B), entonces no hubo código azul (no A), y por lo tanto no hubo crisis. Así sabes que no era necesario activar nada.
+
+¿Qué evalúa la prueba de razonamiento lógico en el concurso SIMO?
+Evalúa tu capacidad para seguir reglas, deducir conclusiones y evitar contradicciones. Por ejemplo, si te dicen que “crisis → código azul” y que “código azul → notificar al jefe”, y luego te dicen que no se notificó, debes deducir que no hubo crisis.
+
+Oye, ¿en qué consiste esa prueba de lógica que pone la CNSC?
+Mide qué tan bien puedes aplicar reglas y sacar conclusiones lógicas en situaciones propias de un hospital psiquiátrico, como activar protocolos de emergencia o interpretar órdenes médicas.
+
+Parce, ¿qué es eso de razonamiento lógico que preguntan en el examen SIMO?
+Es tu habilidad para seguir reglas y deducir cosas. Por ejemplo: si un paciente está en crisis se activa un código, y si se activa el código se llama al jefe. Si no llamaron al jefe, entonces el paciente no estaba en crisis.
+
+Una duda, ¿para qué sirve el razonamiento lógico en el día a día del auxiliar?
+Te ayuda a tomar decisiones rápidas y correctas siguiendo protocolos, como saber cuándo activar un código de emergencia o qué hacer si falta un paso en un procedimiento.
+
+¿Cómo me preparo para la parte de razonamiento lógico del examen?
+Practica con silogismos: si A → B y B → C, entonces A → C. Usa el contrarrecíproco: “si A entonces B” equivale a “si no B entonces no A”. No añadas información externa a lo que dice el texto.
+
+Oye, explícame eso del contrarrecíproco con un ejemplo de enfermería.
+Regla: si hay fiebre (A) → hay infección (B). Si no hay infección (no B), entonces no hay fiebre (no A). Así puedes deducir que si el paciente no tiene infección, no puede tener fiebre por esa causa.
+
+Parce, cómo se aplica el contrarrecíproco en un protocolo de crisis.
+En HOMERIS: crisis → código azul → notificar al jefe. Si no notificaron, entonces no hubo código azul, y por lo tanto no hubo crisis. Así sabes que no era necesario activar nada.
+
+---
+
+El razonamiento matemático en el concurso, ¿qué evalúa?
+Evalúa tu habilidad para hacer cálculos, aplicar reglas de tres, sacar porcentajes y calcular dosis de medicamentos. Es importante para administrar fármacos de forma segura.
+
+Oye, ¿qué clase de problemas matemáticos vienen en el examen de la CNSC para auxiliares?
+Vienen problemas de dosis: “5 mg por cada 10 kg, paciente de 68 kg, ¿cuántos mg?” También reglas de tres, porcentajes (ej. aumento del 15% en gastos) y cálculo de personal (si hay 19 pacientes y la relación es 1:3, ¿cuántas enfermeras se necesitan?).
+
+Parce, ¿cómo se calcula una dosis de medicamento en el examen SIMO?
+Se usa la regla de tres simple: (dosis deseada ÷ dosis disponible) × volumen = ml a administrar. Ejemplo: frasco de 500 mg en 10 ml, necesitas 120 mg → (120 ÷ 500) × 10 = 2,4 ml.
+
+¿Para qué me sirve el razonamiento matemático en el trabajo diario de auxiliar?
+Te sirve para no equivocarte en las dosis, para calcular porcentajes de ocupación de camas, y para saber cuántas enfermeras deben estar en un turno según el número de pacientes.
+
+Una cosa, ¿cómo se calcula el porcentaje de ocupación de una unidad?
+Se divide el número de pacientes ocupados entre la capacidad total y se multiplica por 100. Ejemplo: 24 camas ocupadas de 32 → (24 ÷ 32) × 100 = 75%.
+
+Oye, ¿el examen de matemáticas trae problemas de porcentajes o solo dosis?
+Trae ambos: dosis (regla de tres), porcentajes (aumentos, ocupación) y cálculo de personal (redondeo al alza). No solo dosis.
+
+Y la regla de tres, ¿cómo se aplica en dosis?
+Se plantea: si “X mg” están en “Y ml”, entonces “Z mg” estarán en “? ml”. La fórmula: (Z × Y) ÷ X = ml a administrar.
+
+---
+
+¿Qué evalúa la comprensión lectora en el concurso SIMO?
+Mide tu capacidad para entender textos médicos, identificar la idea principal, hacer inferencias y distinguir hechos de opiniones. Por ejemplo, leer un fragmento de una historia clínica y determinar qué síntoma no aparece.
+
+Oye, ¿qué es eso de comprensión lectora en el examen de la CNSC?
+Es tu habilidad para leer un texto (como un protocolo o una historia clínica) y entender bien lo que dice, sacar conclusiones, y saber qué información está y qué no está.
+
+Parce, ¿cómo estudio para la prueba de lectura crítica del SIMO?
+Lee textos de protocolos hospitalarios, identifica la idea principal (suele estar al inicio o al final), usa solo lo que el texto sugiere (no inventes), y diferencia entre hechos (verificables) y opiniones (juicios personales).
+
+Una duda, ¿en qué se diferencia la comprensión lectora de la lectura crítica?
+Comprensión es entender lo que dice el texto; lectura crítica es además evaluar la intención del autor y distinguir hechos de opiniones. En el SIMO vienen ambas.
+
+¿Cómo identifico si una pregunta de lectura crítica es de inferencia?
+Si la respuesta no está escrita explícitamente en el texto, sino que debes deducirla, es una pregunta de inferencia. Ejemplo: texto dice “paciente se negó a recibir visitas”, inferencia: “hay conflicto familiar”.
+
+Oye, dame un ejemplo de inferencia en un texto médico.
+Texto: “El paciente llegó con taquicardia, sudoración y dijo que se iba a morir”. Inferencia: está teniendo una crisis de angustia o un ataque de pánico, aunque el texto no lo diga.
+
+Parce, ¿qué hago si el texto dice una cosa y yo sé otra por experiencia?
+En la lectura crítica solo debes usar lo que dice el texto, no tu experiencia personal. Si el texto no lo menciona, no lo inventes.
+
+---
+
+¿Qué evalúa la ética profesional en el concurso SIMO?
+Evalúa cómo actuarías ante dilemas éticos: confidencialidad, respeto a la autonomía del paciente, reporte de errores, trato digno sin estigmatización, y manejo de situaciones con familiares agresivos.
+
+Oye, ¿cómo preguntan la ética en el examen de la CNSC? ¿Ponen situaciones o preguntan definiciones?
+Ponen situaciones reales (dilemas). Por ejemplo: “Un compañero comete un error sin daño aparente, ¿qué haces?” o “Un familiar agresivo pide información, ¿cómo actúas?” No preguntan teoría de principios.
+
+Parce, ¿qué tipo de preguntas vienen en la parte de ética profesional del concurso SIMO?
+Vienen casos prácticos donde tienes que decidir la acción correcta, por ejemplo: un paciente se niega al tratamiento, un familiar se pone agresivo, o te ofrecen un regalo.
+
+Una duda, ¿qué hago si un familiar se pone agresivo porque no le doy información confidencial?
+1. Mantén la calma. 2. Explica respetuosamente la norma de confidencialidad. 3. Ofrece hablar con el médico tratante, que es quien puede dar información autorizada.
+
+¿Qué dice la ética sobre recibir regalos de pacientes?
+La norma institucional generalmente prohíbe recibir regalos. Debes agradecer la intención, explicar la norma y rechazar gentilmente sin dañar la relación terapéutica.
+
+Oye, un paciente me regaló una caja de bombones, ¿lo acepto?
+No es recomendable. Agradécele, explícale que no puedes recibir regalos por política del hospital. Si es de muy bajo valor, consulta con tu supervisor.
+
+¿Qué es la autonomía del paciente? ¿Si se niega a un tratamiento, lo obligo?
+No. La autonomía es su derecho a decidir sobre su cuerpo. Solo puedes actuar sin consentimiento si hay peligro inminente para su vida o la de otros y el paciente no está en sus cabales.
+
+---
+
+¿Qué evalúa el trabajo en equipo en el concurso SIMO?
+Evalúa cómo te coordinas con otros profesionales en emergencias, cómo manejas los cambios de turno, cómo apoyas a compañeros sobrecargados, y cómo resuelves conflictos dentro del equipo.
+
+Oye, ¿cómo miden el trabajo en equipo si el examen es escrito y no hay equipo real?
+Con casos escritos. Te ponen un escenario de descoordinación y varias opciones; debes seleccionar la que demuestre comunicación asertiva, apoyo a compañeros y asignación clara de roles.
+
+Parce, en una emergencia con un paciente agresivo y el equipo descoordinado, ¿qué se supone que debo responder en el examen?
+Debes seleccionar la opción donde el líder asigna roles claros: uno habla calmadamente frente al paciente, otro retira objetos peligrosos, otro activa el código de seguridad. No actuar sin coordinar.
+
+Una duda, ¿qué hago si en el cambio de turno me dan información incompleta?
+Pides aclaraciones específicas sobre los puntos faltantes de manera respetuosa. No aceptes información incompleta para no quedar mal, porque eso puede afectar la seguridad del paciente.
+
+¿Cómo actúa un buen líder de equipo en una emergencia psiquiátrica?
+Asigna roles claros: uno se posiciona frente al paciente hablando calmadamente, otro retira objetos peligrosos, otro activa el código si es necesario. No actúa sin coordinar.
+
+Oye, ¿qué espera la CNSC que responda en las preguntas de trabajo en equipo?
+Espera que elijas opciones que demuestren colaboración, comunicación asertiva, apoyo a compañeros y asignación clara de roles en emergencias.
+
+Si un compañero está abrumado y comete un error menor, ¿qué debo hacer?
+Apoyarlo para completar sus tareas y sugerir redistribución de trabajo. No lo ignores ni lo reportes de inmediato sin antes ofrecer ayuda.
+
+---
+
+¿Qué evalúa la orientación al servicio en el concurso SIMO?
+Evalúa tu capacidad para tratar con respeto y empatía a pacientes y familiares, explicar normas con alternativas, validar emociones, y adaptar la comunicación a las necesidades de cada persona (ansiedad, discapacidad cognitiva).
+
+Oye, ¿cómo se mide la orientación al servicio en el examen para auxiliares de enfermería?
+Te ponen situaciones como: un familiar se queja porque no puede entrar alimentos; la mejor respuesta es explicar la norma y ofrecer alternativas del servicio de nutrición, no ceder ni ignorar.
+
+Parce, ¿qué debo saber de orientación al servicio para el concurso de HOMERIS?
+Debes saber validar el malestar del paciente (ej. “nadie me entiende”), explorar sus preocupaciones sin minimizar, y ofrecer soluciones colaborativas, como resúmenes escritos para pacientes ansiosos.
+
+Una duda, ¿cómo respondo a un paciente con ansiedad que pregunta lo mismo varias veces?
+Respondes con paciencia, verificas su comprensión y le ofreces un resumen escrito para que lo consulte cuando lo necesite. No muestres irritabilidad ni ignores.
+
+¿Qué hago si un paciente con discapacidad cognitiva no entiende las instrucciones?
+Usas lenguaje sencillo, muestras los instrumentos, explicas paso a paso con calma, y verificas que haya comprendido. Adaptas la comunicación a su capacidad.
+
+Oye, ¿la orientación al servicio es solo para recepcionistas o también para auxiliares?
+También para auxiliares. Por ejemplo, si un familiar se queja por la comida, la mejor respuesta es explicar la norma y ofrecer alternativas, no negar todo ni ceder sin explicación.
+
+Parce, ¿cómo valido el malestar de un paciente sin darle la razón en todo?
+Le dices: “Entiendo que te sientas así, es normal. Vamos a ver qué podemos hacer dentro de lo permitido”. No minimizas su emoción, pero tampoco cedes a lo imposible.
+
+
+
+
+
 
 
 
