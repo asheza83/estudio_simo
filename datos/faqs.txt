@@ -4742,7 +4742,7 @@ cuándo publican los resultados del concurso
 La CNSC anuncia la fecha con 5 días hábiles de anticipación. Luego los publican en SIMO.
 
 Al repetir un examen en ESTUDIO SIMO, ¿las preguntas son las mismas o cambian?
-En **Modo Estudio** las 5 preguntas son fijas para que aprendas. En **Modo Simulacro**, al hacer clic en REPETIR EXAMEN, se cargan preguntas diferentes (aleatorias) del mismo banco.
+Tanto en **Modo Estudio** como en En **Modo Simulacro**, al hacer clic en REPETIR EXAMEN, se cargan preguntas diferentes (aleatorias).
 
 ¿son siempre las mismas preguntas cuando repito el simulacro?
 No, en Modo Simulacro las preguntas se reorganizan aleatoriamente cada vez que repites el examen.
@@ -7082,6 +7082,1259 @@ Es la lista de personas que aprobaron el concurso, ordenadas por puntaje de mayo
 Parce, ¿puedo cambiar mi respuesta después de enviarla en el examen real de SIMO?
 No. En el examen real SIMO, una vez seleccionas una opción y avanzas, NO puedes volver atrás. Por eso el Modo Simulacro replica esa regla: no puedes cambiar respuestas después de avanzar a la siguiente pregunta.
 
+La barra de tiempo en el simulacro, ¿por qué se pone roja a veces? ¿Qué significa?
+La barra de tiempo es global (tiempo total del examen). Se pone roja cuando queda menos del 20% del tiempo total. En los últimos 5 segundos, la barra parpadea en rojo para alertar que el tiempo está por agotarse. Si el tiempo llega a cero, el examen termina automáticamente y se muestran los resultados.
+
+Oye, ¿qué significa el color rojo en la barra de tiempo del simulacro?
+Significa que queda menos del 20% del tiempo total del examen. Es una alerta para que sepas que estás cerca del límite.
+
+Parce, ¿por qué la barra de tiempo parpadea en rojo al final del simulacro?
+Porque quedan menos de 5 segundos para que termine el tiempo global del examen. Cuando llegue a cero, el examen se cierra automáticamente y se ven los resultados.
+
+¿Para qué me sirven las matemáticas si solo voy a administrar medicamentos?
+Te sirven para calcular dosis exactas (regla de tres), determinar porcentajes de ocupación de camas, y calcular cuántas enfermeras se necesitan según la relación paciente-enfermera.
+
+Oye, ¿de qué me sirve estudiar matemáticas para dar pastillas en un hospital?
+Te sirve para no equivocarte en las dosis: si un frasco tiene 500 mg en 10 ml y necesitas 120 mg, debes saber cuántos ml aspirar. Un error puede ser peligroso.
+
+Parce, no entiendo para qué aprendo matemáticas si mi trabajo es dar medicamentos. ¿Me explicas?
+Las matemáticas te ayudan a calcular dosis, a saber si una unidad está muy llena (porcentajes) y a saber cuántas enfermeras deben estar en un turno según el número de pacientes.
+
+Una duda, ¿en qué me ayuda la regla de tres en el trabajo diario de auxiliar?
+Te ayuda a ajustar dosis, a calcular concentraciones y a resolver problemas de proporciones. Es una herramienta diaria para administrar medicamentos de forma segura.
+
+En el concurso SIMO, ¿qué evalúa la prueba de comprensión lectora?
+Evalúa tu capacidad para entender textos médicos, identificar la idea principal, hacer inferencias y distinguir hechos de opiniones.
+
+Oye, ¿qué miden con eso de comprensión lectora en el examen de la CNSC?
+Miden qué tan bien lees un texto (como un protocolo o una historia clínica) y entiendes lo que dice, sacas conclusiones y sabes qué información está y qué no está.
+
+Parce, ¿qué es eso de comprensión lectora en el concurso? ¿Es solo entender lo que dice el texto?
+Es entender lo que dice el texto, pero también identificar la idea principal, hacer inferencias (sacar conclusiones no escritas) y distinguir entre hechos y opiniones.
+
+Una cosa, ¿la prueba de lectura del SIMO es solo entender o también hay que analizar?
+Hay que entender (comprensión) y analizar (lectura crítica). La lectura crítica evalúa la intención del autor y si lo que dice es un hecho verificable o una opinión.
+
+¿Qué hago si un paciente con ansiedad me pregunta la misma hora de medicamento cinco veces seguidas?
+Respondes con paciencia, verificas su comprensión y le ofreces un resumen escrito para que lo consulte cuando lo necesite. No muestres irritabilidad ni ignores.
+
+Oye, un paciente me pregunta la misma información una y otra vez por ansiedad. ¿Cómo manejo la situación?
+Le explicas de nuevo con calma, le das un papel con la información por escrito y le preguntas si entendió. No te desesperes ni lo ignores.
+
+Parce, un paciente me repite la misma pregunta mil veces. ¿Me desespero o qué hago?
+No te desesperes. La ansiedad hace que olviden o necesiten reafirmación. Responde con paciencia y ofrécele un resumen escrito para que lo tenga a mano.
+
+Una duda, ¿cómo calmo a un paciente ansioso que no deja de preguntar lo mismo?
+Validas su preocupación: “Entiendo que estés preocupado, es normal”. Luego respondes con calma y le das la información por escrito para que no tenga que preguntar de nuevo.
+
+¿El Asistente IA entiende si le hablo con palabras como “parce”, “pana” o “mi hermano”?
+Sí, está diseñado para entender lenguaje coloquial colombiano. Puedes decirle “parce, ¿cómo hago para practicar?” y te responderá sin problema.
+
+Oye, ¿el robot ese entiende si le pregunto de forma relajada, no tan formal?
+Sí, entiende preguntas coloquiales. No necesitas escribir con puntuación perfecta ni estructura formal. Le puedes decir “quiubo, ¿cómo estudio para el examen?”.
+
+Parce, si le hablo al asistente como “pana, ayúdame con esto”, ¿me va a entender?
+Sí, el asistente fue entrenado para entender el lenguaje natural, incluyendo expresiones coloquiales colombianas como “parce”, “pana”, “quiubo”, “qué más”, etc.
+
+Una duda, ¿puedo preguntarle al chat con errores ortográficos o palabras mal escritas?
+En general sí, porque entiende por el significado, no por las palabras exactas. Pero si el error es muy grande, puede pedirte que reformules.
+
+¿Dónde está el botón del Asistente IA en el celular?
+En celular, el botón 🤖 IA está en el header (parte superior de la pantalla), junto a los botones de Ajustes (⚙️) e Instrucciones (📖).
+
+Oye, no encuentro el ícono del robot en mi teléfono. ¿Dónde está?
+Mira en la parte superior de la pantalla, donde están los otros botones (Ajustes e Instrucciones). Ahí está el botón con forma de robot. Si no lo ves, recarga la página.
+
+Parce, en el computador el asistente está abajo a la derecha, pero en el celular ¿dónde lo encuentro?
+En el celular está en el header superior, no es flotante como en PC. Busca el ícono 🤖 entre los botones de la parte superior.
+
+Una cosa, ¿el botón del asistente cambia de lugar en el celular?
+Sí. En celular está en el header (parte superior) para ahorrar espacio. En computador está como botón flotante en la esquina inferior derecha.
+
+¿Si repito el examen en ESTUDIO SIMO, las preguntas son las mismas o cambian?
+En ambos modos (Estudio y Simulacro), al hacer clic en REPETIR EXAMEN se cargan preguntas diferentes (aleatorias) del mismo banco. La diferencia entre modos no es la fijeza de las preguntas, sino el tiempo, los intentos y el feedback.
+
+Parce, si repito el examen en Modo Estudio, ¿me salen las mismas preguntas?
+No, en Modo Estudio también cambian. Antes se creía que eran fijas, pero en la versión actual, al repetir examen se seleccionan nuevas preguntas al azar en ambos modos.
+
+Oye, ¿en el simulacro las preguntas cambian cada vez que repito?
+Sí, en el simulacro son aleatorias. En Modo Estudio también cambian. Así puedes practicar más variedad sin memorizar respuestas.
+
+Una duda, ¿las preguntas son fijas en Modo Estudio o cambian?
+Cambian. Lo que es fijo en Modo Estudio es que no hay límite de tiempo y puedes intentar varias veces, pero las preguntas se renuevan al repetir el examen.
+
+¿Qué significan los colores de la barra de tiempo en el Modo Simulacro?
+La barra es global (tiempo total del examen). Verde: tiempo suficiente (>50%). Amarillo: tiempo moderado (20-50%). Rojo: tiempo crítico (<20%). En los últimos 5 segundos, la barra parpadea en rojo. Si el tiempo llega a cero, el examen termina automáticamente y se muestran los resultados.
+
+Oye, ¿por qué la barra de tiempo se pone roja en el simulacro?
+Porque queda menos del 20% del tiempo total del examen. Es una alerta para que sepas que estás cerca del límite. Los últimos 5 segundos parpadean.
+
+Parce, ¿qué significa que la barra de tiempo parpadee en rojo al final?
+Significa que quedan menos de 5 segundos para que termine el tiempo global del examen. Cuando llegue a cero, el examen se cierra automáticamente y se ven los resultados.
+
+Una duda, ¿la barra de tiempo es por pregunta o global?
+Es global. Mide el tiempo total del examen, no el de cada pregunta. Los colores te indican cómo vas en relación con el tiempo total disponible.
+
+¿Para qué sirven las matemáticas si solo voy a dar inyecciones y pastillas?
+Te sirven para calcular dosis exactas. Por ejemplo, si un frasco tiene 500 mg en 10 ml y necesitas 120 mg, debes saber cuántos ml aspirar usando regla de tres. Un error puede ser peligroso.
+
+Oye, no entiendo pa qué me enseñan tanta cuenta si mi trabajo es cuidar pacientes.
+Las matemáticas te ayudan a no equivocarte con las dosis, a calcular porcentajes de ocupación de camas y a saber cuántas enfermeras deben estar en un turno según el número de pacientes.
+
+Parce, ¿en qué me ayuda la regla de tres en el día a día de auxiliar?
+Te ayuda a ajustar dosis, a calcular concentraciones y a resolver problemas de proporciones. Es una herramienta diaria para administrar medicamentos de forma segura.
+
+Una cosa, ¿de qué me sirve saber porcentajes si yo solo doy medicamentos?
+Te sirve para saber, por ejemplo, si una unidad está muy llena: 24 de 32 camas ocupadas es 75% de ocupación. Así puedes planificar mejor tu trabajo.
+
+¿El asistente IA entiende si le hablo como “parce, ayúdame con esto”?
+Sí, está diseñado para entender lenguaje coloquial colombiano. Puedes decirle “parce, ¿cómo hago para practicar?” y te responderá sin problema.
+
+Oye, ¿el robot ese entiende el lenguaje relajado o toca hablarle muy formal?
+Sí, entiende preguntas coloquiales. No necesitas escribir con puntuación perfecta ni estructura formal. Le puedes decir “quiubo, ¿cómo estudio para el examen?”.
+
+Parce, si le pregunto “quiubo, cómo estudio para el examen”, ¿me va a entender?
+Sí, te va a entender. El asistente fue entrenado con expresiones colombianas como “quiubo”, “parce”, “pana”, “qué más”, “mi hermano”, etc.
+
+Una duda, ¿puedo preguntarle al chat con errores ortográficos o palabras mal escritas?
+En general sí, porque entiende por el significado, no por las palabras exactas. Pero si el error es muy grande, puede pedirte que reformules.
+
+¿Dónde está el botón del Asistente IA en el celular?
+En celular, el botón 🤖 IA está en el header (parte superior de la pantalla), junto a los botones de Ajustes (⚙️) e Instrucciones (📖).
+
+Oye, no encuentro el ícono del robot en mi teléfono. ¿Dónde está?
+Mira en la parte superior de la pantalla, donde están los otros botones (Ajustes e Instrucciones). Ahí está el botón con forma de robot. Si no lo ves, recarga la página.
+
+Parce, en el computador el asistente está abajo a la derecha, pero en el celular ¿dónde lo encuentro?
+En el celular está en el header superior, no es flotante como en PC. Busca el ícono 🤖 entre los botones de la parte superior.
+
+Una cosa, ¿el botón del asistente cambia de lugar en el celular?
+Sí. En celular está en el header (parte superior) para ahorrar espacio. En computador está como botón flotante en la esquina inferior derecha.
+
+¿La barra de tiempo del simulacro es por cada pregunta o es el tiempo total del examen?
+La barra de tiempo es global. Mide el tiempo total del examen, no el de cada pregunta. Los colores te indican cómo vas en relación con el tiempo total disponible.
+
+Oye, ¿qué significa que la barra de tiempo se ponga roja en el examen de práctica?
+Significa que queda menos del 20% del tiempo total del examen. Es una alerta para que sepas que estás cerca del límite. Los últimos 5 segundos la barra parpadea en rojo.
+
+Parce, ¿qué pasa si la barra de tiempo llega a cero en el simulacro?
+Si el tiempo global llega a cero, el examen termina automáticamente y se muestran los resultados. Las preguntas que no hayas respondido se marcan como incorrectas.
+
+Una duda, si la barra parpadea en rojo, ¿debo responder más rápido esa pregunta?
+La barra es global, no por pregunta. Si parpadea en rojo, significa que queda muy poco tiempo para todo el examen. Debes responder lo más rápido posible o el examen se cerrará solo.
+
+¿Qué significan los colores de la barra de tiempo en el Modo Simulacro?
+Verde: tiempo suficiente (>50%). Amarillo: tiempo moderado (20-50%). Rojo: tiempo crítico (<20%). En los últimos 5 segundos, la barra parpadea en rojo. Si el tiempo llega a cero, el examen termina automáticamente.
+
+¿Las matemáticas esas del examen pa qué sirven si mi fuerte es dar medicamentos?
+Las matemáticas te sirven para calcular dosis exactas. Por ejemplo: regla de tres para convertir mg a ml, porcentajes para concentraciones, y operaciones básicas para administración segura. Un error puede causar sobredosis o subdosis.
+
+¿Parce, pa qué me sirve la regla de tres en la enfermería? Yo no soy bueno pa eso.
+La regla de tres es esencial para calcular dosis. Ejemplo: Si un frasco tiene 500 mg en 10 ml y necesitas 120 mg, la regla de tres te dice cuántos ml aspirar: (120 mg × 10 ml) ÷ 500 mg = 2.4 ml. Sin eso, te puedes equivocar feo.
+
+¿Una vaina, cómo hago para no equivocarme con las dosis? ¿Las matemáticas ayudan o es puro cuento?
+Sí ayudan y mucho. Las matemáticas te dan precisión: cálculo de dosis por peso corporal (mg/kg), conversión de unidades (mg a mcg, ml a gotas), y regla de tres para diluciones. Practica con los ejercicios del modo estudio y ya verás.
+
+¿Oiga, qué tienen que ver sumar y restar con cuidar pacientes mentales? ¿Eso sí sirve?
+Sí, total. En salud mental también das medicamentos psicotrópicos (haloperidol, clonazepam, etc.) que necesitan dosis exactas. Un error en la dosis puede ser peligroso o hasta letal. Las matemáticas te salvan la vida y la del paciente.
+
+¿Dónde está ese botón del asistente en el celular? Busco y no lo veo por ningún lado.
+En el celular, el botón NO está flotando como en PC. Está en el HEADER (la barra superior), al lado del botón de Ajustes (⚙️) y del botón de Instrucciones (📖). Busca un ícono de burbuja o mensaje. Si no lo ves, rota el celular a horizontal o actualiza la página.
+
+¿Parce, en el teléfono no me sale el círculo ese de la IA que sale en la computadora, dónde está?
+En PC es un botón flotante circular en la esquina inferior derecha. En CELULAR cambia: se mueve al HEADER (arriba) para no tapar el contenido. Mira la parte superior de la pantalla, al lado del engranaje de Ajustes. Ahí debe estar el ícono del asistente.
+
+¿Cómo hago pa preguntarle algo al robot desde el celular si no encuentro el botón?
+Toca el ícono que parece una burbuja de chat o un robot en la barra superior (header). Si no lo ves, prueba girar el celular a horizontal (landscape) o bajar un poco la página. Si aún nada, cierra y vuelve abrir la página. Está ahí.
+
+¿Oiga, el botón flotante ese no me sale en el móvil, será que mi celular es muy viejo?
+No es por viejo. Es que en móvil el botón flotante se oculta automáticamente para no tapar el contenido. En su lugar, aparece en el HEADER (arriba a la derecha). Busca un ícono de chat o un robot junto a los otros botones. Si no lo ves, actualiza la página o limpia el caché.
+
+¿Oiga, usted me entiende si le hablo en criollo como en la calle? Por ejemplo "parce" o "vecx".
+Sí, claro. El asistente entiende lenguaje coloquial colombiano: "parce", "vecx", "quiubo", "qué más", "una vaina", etc. No necesitas hablar formal. Pregunta como se te dé la gana, que yo te entiendo.
+
+¿Parce, usted habla en español fino o puede explicarme más relajado como entre compas?
+El asistente puede explicarte de manera relajada y sencilla. Pero ten en cuenta que el concurso SIMO evalúa con términos técnicos, entonces a veces toca usar palabras más formales para que aprendas bien. Si algo no entiendes, dime y te lo explico más fácil.
+
+¿Una pregunta marica, puedo decirle "jefe" o "vecx" o se ofende o qué?
+Jajaja, no me ofendo para nada. Puedes decirme "jefe", "vecx", "parce", "amigo", o como te sientas más cómodo. Lo importante es que entiendas el contenido del concurso. El respeto es mutuo, pero la confianza también.
+
+¿Y si le hablo con groserías me responde igual o me banea o qué pasa?
+El asistente no te va a responder con groserías, pero tampoco te va a banear ni bloquear. Lo que hace es ignorar la grosería y tratar de entender tu pregunta real. Si la grosería no aporta, simplemente la salta. Mejor evitarlas para que la ayuda sea más precisa.
+
+¿Esa barrita que se va llenando de colores, verde, amarillo, rojo, qué es?
+Esa barra es el temporizador global del examen. Te muestra el tiempo total que te queda. Verde = vas bien (>50% del tiempo disponible). Amarillo = vas regular (20-50%). Rojo = estás muy cerca al límite (<20%). Los últimos 5 segundos parpadea en rojo.
+
+¿Oiga, la rayita esa de colores marca el tiempo de cada pregunta o es el tiempo de todo el examen?
+Es el tiempo TOTAL del examen completo, no el de cada pregunta. Mide cuánto llevas del tiempo global disponible. Si haces simulacro de 100 preguntas, la barra te dice cómo vas en relación a las 100, no por cada una.
+
+¿Dónde dice el tiempo que me queda? No veo ningún reloj, solo veo una barra de colores.
+La barra de colores ES el tiempo. Mira la parte superior del examen: hay un recuadro con el tiempo en formato MM:SS y al lado está la barra de progreso. La barra se llena o se vacía según el tiempo consumido. Rojo parpadeando = menos de 5 segundos.
+
+¿Parce, el temporizador ese cómo se ve? No lo ubico en la pantalla del examen.
+Busca en la parte superior del recuadro de la pregunta. Ahí dice "TIEMPO RESTANTE" o "00:00". Al lado hay una barra horizontal. Si está en modo simulacro, el tiempo corre. Si es modo estudio, el tiempo no tiene límite. Si no lo ves, revisa que hayas dado clic en "COMENZAR EXAMEN".
+
+¿Y si se me acaba el tiempo en el simulacro qué pasa? ¿Pierdo todo o solo la pregunta en la que iba?
+Pierdes SOLO la pregunta que estabas respondiendo cuando se acabó el tiempo. Esa pregunta se marca como INCORRECTA (como si la hubieras fallado). Las preguntas anteriores ya quedaron guardadas con tus respuestas. El examen te muestra los resultados de todas.
+
+¿Oiga, si el reloj llega a cero me echan del examen o todavía puedo seguir?
+Cuando llega a cero, el examen se DETIENE automáticamente. No puedes seguir respondiendo. Te lleva directamente a la pantalla de resultados con las respuestas que alcanzaste a dar. Las preguntas sin responder cuentan como incorrectas.
+
+¿Qué pasa cuando el tiempo se acaba? ¿Me muestra algo en pantalla o se cierra todo?
+Aparece un mensaje diciendo que el tiempo ha terminado. Luego te redirige automáticamente a la tabla de resultados. Allí ves: tu puntaje, cuántas acertaste, cuántas fallaste, y cuántas se quedaron sin responder por tiempo.
+
+¿Pierdo la pregunta si se acaba el tiempo antes de responder o puedo responder después?
+No, no puedes responder después. Una vez el tiempo llega a cero, esa pregunta se marca como incorrecta sin opción a responderla. Por eso es importante llevar un ritmo: no te detengas mucho en una sola pregunta. Si no sabes, responde algo y sigue.
+
+
+----------------------------
+
+¿Qué diferencia hay entre una ley, un decreto y una resolución? Me enredo mucho.
+Una LEY la expide el Congreso de la República y es la norma de mayor jerarquía (ej: Ley 100). Un DECRETO lo expide el Presidente para reglamentar una ley (ej: Decreto 780). Una RESOLUCIÓN la expide un ministro o entidad para temas específicos (ej: Resolución 3100 de habilitación).
+
+¿Parce, cuál es la diferencia entre una ley y un decreto? No entiendo cuál es cuál.
+La ley la hace el Congreso (ej: Ley 100 del SGSSS). El decreto lo hace el Presidente para explicar cómo se aplica la ley (ej: Decreto 780). Primero va la ley, luego el decreto. La resolución es de un ministerio.
+
+¿Oiga, una resolución qué es? ¿Es menos importante que una ley?
+Sí, la resolución es de menor jerarquía. La emite un ministro (ej: Ministerio de Salud) para temas muy específicos como habilitación de IPS (Resolución 3100) o el plan de beneficios (Resolución 2292). Las leyes son las más importantes.
+
+¿Una cosa, qué es más importante, la Ley 100 o el Decreto 780?
+La Ley 100 es la ley creadora del SGSSS, es más importante y tiene mayor jerarquía. El Decreto 780 es un decreto único que compila muchas normas, pero sigue siendo inferior a la ley.
+
+¿Por qué a veces me sale una ventana de bienvenida y a veces no?
+La primera vez que entras a la aplicación, aparece automáticamente el modal de bienvenida para explicarte las 3 pestañas y las funcionalidades. Después de que le das "Entendido", se guarda en tu navegador y no vuelve a salir sola. Si quieres verla otra vez, haz clic en el botón 📖 Instrucciones del header.
+
+¿Oiga, esa ventana de instrucciones que sale al principio, por qué ya no sale más?
+Porque la herramienta recuerda que ya la viste (usa localStorage). Solo se muestra automáticamente la primera vez. Si necesitas volver a verla, usa el botón 📖 Instrucciones en la parte superior derecha.
+
+¿Parce, cómo hago para que vuelva a salir la ventana de bienvenida si la cerré?
+No se puede volver a mostrar automáticamente, pero puedes abrirla manualmente con el botón 📖 Instrucciones en el header. Ese botón abre el mismo modal con toda la información.
+
+¿Una duda, por qué el botón "Entendido" no aparece al principio en la ventana de bienvenida?
+Es para obligarte a leer todo el contenido. El botón "Entendido, comenzar" está oculto hasta que haces scroll hasta el final del modal. Así te aseguras de no perderte ninguna funcionalidad importante.
+
+¿Qué es el SNEC en el concurso SIMO? Lo vi en unos documentos.
+SNEC significa Sistema Nacional de Empleo Público (SNEP, a veces escrito SNEC). Es el sistema que articula la CNSC, el DAFP y las entidades para gestionar el empleo público en Colombia. Para el concurso, solo debes saber que existe.
+
+¿Oiga, qué significan las siglas SNEC? No las encuentro en el glosario.
+SNEC puede referirse al Sistema Nacional de Empleo Público. No es un término que pregunte mucho la CNSC en las pruebas de auxiliar de enfermería, pero es bueno saber que existe. El foco está en SIMO, CNSC y OPEC.
+
+¿Parce, el SNEC es lo mismo que la CNSC o son cosas diferentes?
+Son diferentes. La CNSC es la Comisión Nacional del Servicio Civil (organiza los concursos). El SNEC es el Sistema Nacional de Empleo Público (el marco general). Para tu examen, enfócate en CNSC y SIMO.
+
+¿Eso de la ESE 2 qué es, un hospital o qué?
+ESE 2 es el nombre de la convocatoria de la CNSC para vincular personal a las Empresas Sociales del Estado (hospitales públicos). No es un hospital específico, son 72 ESE en todo el país. HOMERIS es una de ellas.
+
+¿Oiga, qué es eso de ESE 2? ¿Un hospital o una cosa?
+Es una convocatoria de méritos para 72 hospitales públicos (ESE) del país. La sigla ESE significa Empresa Social del Estado.
+
+¿Parce, la ESE 2 es el concurso ese de la CNSC o es otro?
+Sí, es el concurso de méritos número 2 para Empresas Sociales del Estado. Ahí está incluido HOMERIS.
+
+---
+
+¿El PIN se paga por cada intento o es una sola vez?
+El PIN se paga UNA SOLA VEZ por cada convocatoria a la que te inscribas. Si te inscribes en la ESE 2, pagas un PIN. Si después te inscribes en otra convocatoria diferente, debes pagar otro PIN. No es por intento de examen, es por inscripción.
+
+¿Oiga, el PIN toca pagarlo cada vez que hago el examen o solo una vez?
+Solo una vez por convocatoria. Pagas el PIN cuando te inscribes en la ESE 2. Si no pasas y te vuelves a inscribir en otra convocatoria futura, toca pagar otro PIN.
+
+¿Parce, el PIN es por cada intento de concurso o es un solo pago pa siempre?
+Es por cada concurso. Pagas el PIN para la ESE 2. Si después quieres concursar en otra ESE, pagas otro PIN.
+
+---
+
+¿Si no pago el PIN, puedo presentarme igual?
+No. Sin el PIN pagado NO puedes formalizar tu inscripción. No te dejarán presentar las pruebas. El PIN es obligatorio para participar.
+
+¿Oiga, puedo hacer el examen sin pagar el PIN?
+No, es obligatorio. Sin el PIN pagado, la CNSC no te registra como aspirante válido.
+
+¿Parce, si no tengo plata pa pagar el PIN, igual me dejan presentar?
+No. El PIN es el derecho de participación. Sin pago, no hay inscripción formal.
+
+---
+
+¿Parce, yo soy enfermero pero tengo 55 años, puedo concursar?
+Sí. Los concursos de méritos de la CNSC NO tienen límite de edad. Puedes concursar a los 20, 40, 55 o 70 años mientras cumplas los requisitos del cargo.
+
+¿Oiga, hay tope de edad pa presentarse al concurso de la CNSC?
+No, no hay límite de edad. Puedes concursar a cualquier edad.
+
+¿Una persona de 60 años puede inscribirse en la ESE 2?
+Sí, no hay restricción por edad. Lo que importa es que cumplas los requisitos de título y experiencia.
+
+---
+
+¿Qué pasa si me inscribo y luego veo que no cumplo un requisito?
+La CNSC hace una verificación de requisitos mínimos. Si no cumples, te excluyen del concurso y no presentas las pruebas. No te devuelven el PIN. Por eso debes revisar bien los requisitos antes de inscribirte.
+
+¿Oiga, si me inscribo sin tener todos los papeles, qué pasa?
+Te excluyen en la etapa de verificación. No pasas a las pruebas. El PIN no se devuelve.
+
+¿Parce, si miento en los requisitos y luego me descubren?
+Te excluyen del concurso y pueden inhabilitarte para futuras convocatorias. Además, mentir en documentos públicos es una falta grave.
+
+---
+
+¿Cuántas vacantes hay pa auxiliares en HOMERIS específicamente?
+Ese dato específico no está publicado aún. La convocatoria general dice 2.477 vacantes en 72 ESE, pero el desglose por ESE y por cargo lo publicarán en la etapa de divulgación de OPEC. Debes revisar SIMO cuando abran las inscripciones.
+
+¿Oiga, y en HOMERIS específicamente cuántos auxiliares necesitan?
+Todavía no se ha publicado ese dato. Cuando abran las inscripciones, en SIMO aparecerán las OPEC de cada cargo con el número de vacantes por ESE.
+
+¿Parce, sabe cuántas plazas hay pa auxiliares en el Hospital Mental de Risaralda?
+Aún no está definido. La convocatoria general da el total nacional. Los detalles por cada ESE los publicarán más adelante.
+
+---
+
+¿Oiga, y los cupos pa discapacidad cómo se acreditan?
+Debes tener un certificado de discapacidad expedido por una entidad de salud autorizada (EPS, junta de calificación). En la inscripción en SIMO, marcas la casilla de discapacidad y adjuntas el certificado. La CNSC verifica.
+
+¿Parce, cómo demuestro que tengo discapacidad pa los cupos especiales?
+Con un certificado médico oficial que acredite tu condición. Lo subes a SIMO al inscribirte.
+
+¿Qué papeles necesito pa los cupos de discapacidad en el concurso?
+Un certificado de discapacidad vigente, expedido por una entidad competente (EPS o junta de calificación).
+
+Ley 100, Ley 1438, Decreto 780… ¿cuál es la más importante?
+La Ley 100 de 1993 es la más importante porque creó el Sistema General de Seguridad Social en Salud (SGSSS). Las demás leyes y decretos la modifican o reglamentan. Para el concurso, debes conocer todas, pero la Ley 100 es la base.
+
+¿Parce, de todas esas leyes, cuál es la más pesada en el examen?
+La Ley 100 es la más importante porque es la que creó el sistema. Pero también preguntan bastante del Decreto 780 y la Resolución 3100.
+
+¿Oiga, si solo pudiera estudiar una ley, cuál sería?
+La Ley 100 de 1993. Es el pilar del SGSSS. Las demás normas complementan o reglamentan aspectos específicos.
+
+---
+
+¿Parce, por qué hay tantas resoluciones?
+Porque cada resolución aborda un tema específico: una es del plan de beneficios (2292), otra es de habilitación (3100), otra es de historia clínica (1995), etc. Es más fácil actualizar una resolución que modificar una ley entera.
+
+¿Oiga, no podían meter todo en una sola ley?
+Las leyes son muy difíciles de modificar (las hace el Congreso). Las resoluciones las puede modificar un ministro, por eso son más flexibles para actualizar temas específicos como el PBS o la habilitación.
+
+¿Por qué hay 6 resoluciones diferentes en lugar de una sola?
+Porque cada resolución regula un aspecto distinto del sistema de salud. Es más ordenado y fácil de actualizar por separado.
+
+---
+
+¿Oiga, yo como auxiliar debo saberme todas las leyes de memoria?
+No es necesario memorizarlas palabra por palabra. Debes conocer los conceptos principales de cada norma: qué creó, qué regula y los artículos más importantes (ej: el derecho a la salud, la obligación de atender urgencias, la confidencialidad).
+
+¿Parce, toca aprenderse todas las leyes de pe a pa?
+No. Enfócate en entender el espíritu de cada ley: la Ley 100 creó el SGSSS, la Ley 1751 es el derecho a la salud, el Decreto 780 compila normas, etc.
+
+¿Oiga, cómo estudio tantas leyes sin volverme loco?
+Usa el buscador universal de la pestaña Estudio SIMO. Busca palabras clave como "derechos", "confidencialidad", "urgencias". Así encuentras los artículos relevantes sin leer todo.
+
+---
+
+¿Oiga, por qué hay una ley del 93 que todavía hablan de ella?
+Porque la Ley 100 de 1993 es la norma fundacional del sistema de salud colombiano. Creó las EPS, las IPS, el POS (ahora PBS), la cotización obligatoria. Es la "madre" de todas las normas de salud. Por eso sigue vigente.
+
+¿Parce, una ley tan vieja del 93 todavía sirve?
+Sí, la Ley 100 sigue vigente. Ha sido modificada por otras leyes (1438, 1751), pero su estructura base sigue siendo la que organiza el SGSSS.
+
+¿Oiga, no debería haber una ley nueva que reemplace la del 93?
+La Ley 1751 de 2015 (Ley Estatutaria de Salud) es más reciente y establece el derecho fundamental a la salud, pero no reemplaza toda la Ley 100. La Ley 100 sigue siendo el marco operativo del sistema.
+
+¿En el modo estudio puedo hacer trampa y ver la respuesta antes de responder?
+No hay "trampa". El modo estudio te permite ver la respuesta correcta DESPUÉS de fallar, para que aprendas. No puedes verla antes de seleccionar una opción. Está diseñado para aprender, no para hacer trampa.
+
+¿Parce, en el modo estudio puedo ver la respuesta sin responder?
+No. Primero debes seleccionar una opción y hacer clic en VERIFICAR. Si fallas, te muestran la correcta. Si aciertas, también.
+
+¿Oiga, cómo le hago pa ver la respuesta en el modo estudio sin tener que fallar?
+No se puede. El modo estudio muestra la respuesta solo después de que intentas responder. Así aprendes activamente, no solo leyendo.
+
+---
+
+¿Oiga, por qué el botón VERIFICAR está deshabilitado a veces?
+Porque debes seleccionar una opción de respuesta primero. El botón VERIFICAR solo se activa cuando tienes una opción seleccionada. Es para evitar que verifiques sin responder.
+
+¿Parce, el botón VERIFICAR no me deja darle, está como gris?
+Selecciona primero una de las 4 opciones (haz clic en el círculo). El botón se pondrá azul y ya podrás verificar.
+
+¿Por qué no puedo verificar si no he elegido nada?
+Porque no tienes una respuesta para comparar. Elige una opción y el botón se habilita automáticamente.
+
+---
+
+¿Oiga, el temporizador del simulacro se pausa si me pongo a pensar mucho?
+No. El temporizador NO se pausa. Sigue corriendo aunque no estés haciendo nada, aunque cambies de pestaña, aunque te pongas a pensar. El tiempo es continuo hasta que se acabe o termines el examen.
+
+¿Parce, si me quedo pensando 5 minutos, el reloj se para?
+No, el reloj sigue corriendo. Si se acaba el tiempo, el examen termina y esa pregunta se marca como incorrecta.
+
+¿Oiga, puedo pausar el simulacro para ir al baño?
+No, el tiempo no se pausa. Es como el examen real de la CNSC: el reloj no se detiene. Organiza tu tiempo para no tener que interrumpirte.
+
+---
+
+¿Puedo hacer el simulacro con mis amigos y comparar resultados?
+Puedes hacerlo cada uno por su lado y luego comparar manualmente. La herramienta no tiene una función multijugador ni para compartir resultados directamente, pero puedes exportar a PDF y compartir el archivo.
+
+¿Parce, puedo invitar a mis compañeros y hacer el simulacro en grupo?
+No hay modo grupal. Cada uno debe hacer su propio simulacro en su computador o celular. Luego pueden comparar puntajes y preguntas falladas exportando los PDF.
+
+¿Oiga, cómo comparto mis resultados con un compañero?
+Exporta los resultados a PDF (solo en simulacro). Ese PDF lo puedes enviar por WhatsApp, correo o como quieras.
+
+---
+
+¿El examen de ESTUDIO SIMO es más fácil o más difícil que el de la CNSC?
+Está diseñado para ser similar en dificultad, pero es más corto (5 preguntas vs 100). Las preguntas son del mismo estilo y nivel que las del concurso real, basadas en las competencias y normas que evalúa SIMO.
+
+¿Parce, el simulacro de ESTUDIO SIMO es más fácil que el examen real?
+No debería ser más fácil. Está hecho con preguntas similares en dificultad. La diferencia es la cantidad: 5 preguntas vs 100. Si practicas con 5 y aprendes bien, estarás preparado para 100.
+
+¿Oiga, el examen de verdad es más duro que el simulacro?
+Es similar en dificultad, pero la presión de 100 preguntas seguidas es mayor. Por eso entrenas con el simulacro: para acostumbrarte al ritmo y la presión.
+
+---
+
+¿Parce, las preguntas de práctica son las mismas que vienen en el concurso real?
+No, son preguntas similares, no las mismas. La CNSC no publica las preguntas reales del examen. ESTUDIO SIMO usa preguntas creadas con los mismos temas, competencias y dificultad.
+
+¿Oiga, en el simulacro me salen las preguntas que vienen en el examen de la CNSC?
+No. La CNSC no revela su banco de preguntas. ESTUDIO SIMO te prepara con preguntas similares, pero no son las mismas que verás el día del concurso.
+
+¿Si estudio con ESTUDIO SIMO, me voy a encontrar las mismas preguntas en el concurso?
+No, sería imposible. Pero si dominas los temas y el estilo de las preguntas, tendrás muchas posibilidades de responder bien las del concurso real.
+
+---
+
+¿Parce, el simulacro de 5 preguntas me prepara pa las 100 del concurso?
+Te prepara en calidad (tipo de preguntas, dificultad, tiempo por pregunta) pero no en resistencia mental. Hacer 100 preguntas seguidas es más cansador. Por eso te recomendamos usar el simulacro frecuentemente para entrenar tu velocidad y concentración.
+
+¿Oiga, con 5 preguntas de práctica es suficiente para el examen real?
+Es un buen punto de partida, pero idealmente practica muchas veces. Cada repetición te da 5 preguntas nuevas. Si repites 20 veces, habrás practicado 100 preguntas diferentes.
+
+¿El simulacro corto me prepara para el examen largo?
+Te prepara en el formato y la dificultad, pero la resistencia la entrenas haciendo muchos simulacros seguidos. Haz 10 simulacros (50 preguntas) y verás cómo mejora tu ritmo.
+
+¿El asistente ese guarda lo que le pregunto para vendérselo a alguien?
+No. El asistente funciona completamente en tu navegador. No envía tus preguntas a ningún servidor externo. No guarda tu historial entre sesiones. Es 100% privado.
+
+¿Parce, el robot guarda mis conversaciones?
+Solo las guarda dentro de la misma sesión mientras tengas abierta la ventana del chat. Cuando cierras, se borra todo. No se vende ni se comparte nada.
+
+¿Oiga, mis preguntas quedan guardadas en algún lado?
+No, solo en tu navegador temporalmente. El asistente no tiene acceso a servidores externos. Todo se procesa localmente.
+
+---
+
+¿Parce, puedo hacerle preguntas en inglés?
+El asistente está entrenado principalmente en español. Si le preguntas en inglés, puede que entienda algo básico, pero no está optimizado para eso. Mejor pregúntale en español.
+
+¿Oiga, el asistente habla inglés?
+Su fuerte es el español. Si le escribes en inglés, puede que no entienda bien o te responda en español. Es mejor usar español.
+
+¿Puedo preguntarle cosas en inglés?
+Puedes intentarlo, pero no está diseñado para eso. Lo ideal es preguntar en español.
+
+---
+
+¿Oiga, el asistente se enoja si le pregunto lo mismo muchas veces?
+No, no se enoja. Es una inteligencia artificial, no tiene emociones. Puedes preguntar lo mismo las veces que quieras y siempre te responderá de forma educada y útil.
+
+¿Parce, si le pregunto la misma cosa 20 veces, se va a emputar?
+No, no tiene emociones. Te responderá igual las 20 veces. Así que pregunta sin miedo.
+
+¿El asistente se cansa de responder lo mismo?
+No, no se cansa. Es un programa. Puedes repetir la pregunta cuantas veces necesites.
+
+---
+
+¿Si le digo una grosería me responde mal o se bloquea?
+No se bloquea ni responde mal. Simplemente ignora la grosería y trata de entender tu pregunta real. Si la grosería no aporta, la omite. No hay castigo, pero tampoco te responderá con groserías.
+
+¿Parce, puedo putear al asistente?
+Puedes hacerlo, pero no te va a responder igual. Va a ignorar la grosería y tratar de ayudarte igual. Mejor evita las groserías para que la ayuda sea más efectiva.
+
+¿Oiga, si le digo una mala palabra, el chat se cierra?
+No, no pasa nada. Solo ignora la grosería y sigue funcionando. Pero no te va a responder con groserías.
+
+---
+
+¿Puedo pedirle que me haga un resumen de la Ley 100?
+Sí, puedes pedirle un resumen de los puntos clave de la Ley 100. Te dará un resumen basado en el contenido de la herramienta. No es un resumen exhaustivo, pero cubre los temas más relevantes para el concurso.
+
+¿Parce, el asistente me puede explicar la Ley 100 en palabras sencillas?
+Sí, pídele: "Explícame la Ley 100 fácil" o "Hazme un resumen de la Ley 100". Te dará los conceptos principales sin tanto tecnicismo.
+
+¿Oiga, el robot sabe de la Ley 100 o solo de la herramienta?
+Sabe de la Ley 100 porque está en su base de conocimiento (archivo faqs.txt). Puedes preguntarle sobre sus artículos más importantes.
+
+---
+
+¿Oiga, por qué a veces me dice "no entendí" y otras veces sí?
+Porque tu pregunta puede ser ambigua o no tener una coincidencia clara en su base de conocimiento. También depende de la similitud con las FAQs: si está por debajo del umbral (0.65), te pide reformular. Si está entre 0.65 y 0.85, te pregunta "¿Te refieres a...?" para confirmar.
+
+¿Parce, por qué el asistente a veces no me entiende?
+Puede ser porque tu pregunta es muy general ("esto", "eso") o combina muchos temas. Intenta ser más específico: en lugar de "¿cómo funciona?", di "¿cómo funciona el modo estudio?".
+
+¿Por qué el asistente no entiende algunas preguntas si es inteligente?
+Su inteligencia está limitada a las FAQs que tiene. Si tu pregunta no se parece a ninguna de las 2.317 que tiene en su base, no podrá responder bien. Reformula o divide la pregunta en partes más pequeñas.
+
+---
+
+¿Puedo pedirle que me genere un examen personalizado?
+No, el asistente no puede generar exámenes nuevos. Los exámenes ya están predefinidos en los archivos JSON de preguntas. Puedes elegir la competencia y subcategoría, pero no personalizar las preguntas específicas.
+
+¿Parce, el robot me puede hacer un examen con mis temas débiles?
+No, los exámenes son fijos por competencia. Pero puedes practicar varias veces y las preguntas cambiarán aleatoriamente dentro del mismo banco.
+
+¿Oiga, puedo pedirle al asistente que cree preguntas nuevas?
+No, no puede generar preguntas. Su función es responder dudas, no crear contenido de examen.
+
+---
+
+¿Oiga, el asistente funciona en modo oscuro también?
+Sí, el chat del asistente se adapta al modo oscuro. Si activaste el modo oscuro en los ajustes, el chat también se verá en tonos oscuros. No necesita configuración adicional.
+
+¿Parce, el robot se pone oscuro si pongo modo oscuro?
+Sí, la ventana del chat cambia automáticamente al modo oscuro cuando lo activas en los ajustes.
+
+¿Oiga, el chat del asistente también se oscurece?
+Sí, todo el diseño es consistente. Modo oscuro aplica a toda la interfaz, incluyendo el chat.
+
+---
+
+¿Puedo cambiarle el nombre al asistente? Quiero llamarlo "Jefe".
+No, el nombre es fijo: "Asistente SIMO". No puedes cambiarlo desde la interfaz. Pero puedes llamarlo "Jefe" en tus preguntas; él te va a responder igual.
+
+¿Parce, puedo renombrar el robot?
+No, se llama "Asistente SIMO". Pero puedes decirle "Jefe" o "Vecx" en la conversación, no hay problema.
+
+¿Oiga, cómo le cambio el nombre al asistente?
+No se puede cambiar. Pero trata de llamarlo como quieras en tus mensajes, él te entenderá.
+
+---
+
+¿El asistente tiene horario o responde a las 3 de la mañana?
+El asistente funciona las 24 horas del día, los 7 días de la semana. No duerme, no descansa. Puedes preguntarle a cualquier hora, incluso a las 3 AM, y te responderá de inmediato (siempre que tengas internet).
+
+¿Parce, el robot trabaja de noche también?
+Sí, 24/7. No tiene horario laboral. Puedes preguntarle a cualquier hora.
+
+¿Oiga, si le escribo a las 2 de la mañana me contesta?
+Sí, contesta igual que a las 2 de la tarde. No hay horarios restringidos.
+
+---
+
+¿Parce, puedo compartir la respuesta del asistente por WhatsApp?
+No hay un botón directo para compartir, pero puedes copiar el texto de la respuesta y pegarlo en WhatsApp, correo, o donde quieras. El contenido es tuyo para compartir.
+
+¿Oiga, puedo enviar lo que me responde el asistente a mis compañeros?
+Sí, selecciona el texto de la respuesta, cópialo y pégalo en WhatsApp, Telegram o cualquier otra app.
+
+¿Cómo comparto una respuesta del chat con otra persona?
+Copia el texto manualmente (Ctrl+C o mantener presionado en celular) y pégalo donde quieras. No hay botón de compartir directo.
+
+¿Parce, cómo hago para que las pestañas no se escondan nunca?
+No se puede desactivar esa función. Es un comportamiento intencional para maximizar el espacio de lectura cuando haces scroll hacia abajo. Si quieres que vuelvan, solo haz clic en el botón Subir (↑) en la esquina inferior derecha.
+
+¿Oiga, hay una forma de fijar las pestañas para que no desaparezcan?
+No, el diseño de la herramienta no permite fijar las pestañas. Están programadas para ocultarse al hacer scroll. Subir al inicio las recupera.
+
+¿Parce, me molestan las pestañas que se esconden, cómo las dejo quietas?
+No se puede. Es una característica de la interfaz. Acostúmbrate a usar el botón Subir para recuperarlas.
+
+---
+
+¿Puedo poner la letra más grande solo en las preguntas y no en todo?
+No, el ajuste de tamaño de letra es global. Aplica a toda la interfaz: preguntas, menús, resultados, glosario, etc. No se puede personalizar por secciones.
+
+¿Parce, quiero letra grande solo en las preguntas, el resto normal ¿se puede?
+No, el tamaño de letra se cambia para toda la aplicación. Usa el botón A+ o A- en Ajustes (⚙️) y todo se ajusta junto.
+
+¿Oiga, puedo agrandar solo el texto de las preguntas?
+No, no hay opción independiente. El cambio afecta a toda la página.
+
+---
+
+¿Parce, el modo oscuro me cansa menos la vista?
+Sí, especialmente si estudias de noche o en ambientes con poca luz. Reduce el brillo y el contraste de la pantalla, lo que disminuye la fatiga visual. Muchos usuarios lo prefieren para sesiones largas de estudio.
+
+¿Oiga, el modo oscuro es mejor para la vista?
+Para estudiar en la noche o en oscuridad, sí. Para el día, el modo claro suele ser mejor. Puedes cambiarlo según necesites.
+
+¿El modo oscuro ayuda a no cansar los ojos?
+Reduce la fatiga visual en ambientes oscuros. No es mágico, pero es más cómodo que un fondo blanco brillante de noche.
+
+---
+
+¿Oiga, la herramienta tiene un modo "solo texto" para leer más fácil?
+No hay un modo especial de "solo texto". Pero puedes activar el modo oscuro y ajustar el tamaño de letra para mejorar la legibilidad. También puedes copiar el contenido que te interese a un editor de texto si prefieres leer fuera de la herramienta.
+
+¿Parce, puedo quitar los colores y ver solo texto?
+No, la interfaz mantiene los colores. Pero el modo oscuro reduce el contraste y puede ser más cómodo para leer.
+
+¿Hay una versión de solo texto de ESTUDIO SIMO?
+No, todo el contenido viene con formato visual. Pero puedes seleccionar y copiar texto a un bloc de notas si prefieres.
+
+---
+
+¿Qué significa que la página sea "responsiva"? Me suena a inglés.
+"Responsiva" o "responsive" significa que la página se adapta automáticamente al tamaño de la pantalla. Si la ves en una computadora grande, se ve con columnas anchas. Si la ves en un celular, los elementos se reorganizan para que quepan y sean fáciles de tocar con los dedos.
+
+¿Parce, qué es eso de "diseño responsivo"?
+Es que la página se ve bien tanto en computador como en celular. Se ajusta sola. No tienes que hacer zoom ni moverte horizontalmente.
+
+¿Oiga, responsiva es lo mismo que adaptable?
+Sí, la página se adapta a la pantalla donde la veas. Eso es diseño responsivo.
+
+---
+
+¿Parce, puedo cambiar el color de la barra de tiempo?
+No, la barra de tiempo tiene colores fijos: verde, amarillo, rojo. No se pueden cambiar. Están diseñados así para que reconozcas rápidamente tu situación de tiempo.
+
+¿Oiga, la barra de tiempo puede ser azul o morada?
+No, los colores son fijos. Verde (bien), amarillo (regular), rojo (crítico). No hay opción de personalización.
+
+¿Puedo cambiar el color de la barra de progreso en el simulacro?
+No, los colores son estándar para que todos los usuarios tengan la misma referencia visual.
+
+---
+
+¿Oiga, por qué a veces el botón Subir no aparece aunque baje la página?
+El botón Subir aparece solo cuando has hecho scroll hacia abajo al menos 150 píxeles. Si bajas muy poco, no aparece. Además, si el chat del asistente está abierto, el botón Subir se oculta para no interferir.
+
+¿Parce, el botón Subir a veces no sale, ¿está roto?
+No está roto. Solo aparece cuando bajas lo suficiente (más de 150px). También se oculta si el chat está abierto. Cierra el chat y verás que vuelve a aparecer.
+
+¿Por qué no aparece la flecha para subir cuando bajo la página?
+Baja un poco más. Si estás apenas comenzando a bajar, el botón no aparece hasta que hayas hecho scroll suficiente.
+
+---
+
+¿Puedo ocultar el header para tener más espacio?
+No, el header (la barra superior con las pestañas y botones) es fijo. No se puede ocultar manualmente. Pero cuando haces scroll hacia abajo, las pestañas se ocultan automáticamente, dándote más espacio. El botón Subir te permite recuperarlas.
+
+¿Parce, puedo quitar la barra de arriba para ver más contenido?
+Cuando bajas la página, las pestañas se esconden solas. El header se reduce. No se puede ocultar completamente.
+
+¿Oiga, cómo le hago para que el header desaparezca?
+No desaparece por completo, pero las pestañas sí se ocultan al hacer scroll. Es el espacio máximo que puedes ganar.
+
+¿Parce, puedo descargar los casos prácticos en PDF?
+No hay un botón de exportación específico para casos prácticos. Puedes copiar el texto manualmente y pegarlo en un editor de texto o imprimir la página desde tu navegador (Ctrl+P). No tienen una función de PDF propia.
+
+¿Oiga, puedo guardar los casos prácticos para estudiarlos sin internet?
+Puedes copiar el texto y pegarlo en un documento. O si descargaste el proyecto completo, los casos están en el archivo datos/casos.json y puedes verlos offline abriendo index.html.
+
+¿Cómo descargo los casos prácticos a mi computador?
+No hay botón de descarga. Puedes seleccionar el texto, copiarlo y pegarlo en Word o Google Docs. O si eres técnico, abre datos/casos.json en el proyecto descargado.
+
+---
+
+¿Parce, puedo enviar un caso práctico que me pasó en mi trabajo?
+No hay una función para subir casos nuevos. Pero puedes escribir tu caso aquí en el chat y el equipo de desarrollo podría considerarlo para futuras versiones. No hay garantía de que lo agreguen, pero lo revisamos.
+
+¿Oiga, cómo hago para que la herramienta incluya un caso que yo viví?
+Escríbelo aquí en el chat con detalles (contexto, pregunta, respuesta orientativa). Si es relevante y de buena calidad, puede ser agregado en futuras actualizaciones.
+
+¿Puedo contribuir con casos prácticos nuevos?
+Sí, enviándolos por este medio. No hay un formulario oficial, pero si nos lo compartes, lo revisamos.
+
+---
+
+¿Puedo hacer un examen solo con casos prácticos?
+No, los casos prácticos están en la pestaña Estudio SIMO, no en la pestaña Preguntas. Son para leer y analizar, no para responder con opción múltiple. No hay un "modo examen" para casos prácticos.
+
+¿Parce, hay un examen específico de casos prácticos?
+No. Los casos prácticos son material de estudio, no un examen. Puedes leerlos y ver las respuestas orientativas, pero no te califican.
+
+¿Oiga, cómo pongo a prueba lo que aprendí de los casos prácticos?
+Puedes tomar los exámenes de la pestaña Preguntas en las competencias comportamentales (ética, trabajo en equipo, orientación al servicio). Allí preguntan situaciones similares a los casos prácticos.
+
+¿La herramienta recopila mis datos personales?
+No. ESTUDIO SIMO no recopila ningún dato personal. No pide nombre, correo, ni guarda información de identificación. Todo funciona localmente en tu navegador. Solo se guardan tus preferencias (modo oscuro, tamaño de letra) en tu propio dispositivo.
+
+¿Parce, la página está guardando mi información?
+No guarda nada personal. Las preferencias (modo oscuro, tamaño letra) se guardan en tu navegador, no en nuestros servidores. No hay registro de usuarios.
+
+¿Oiga, tengo que crear una cuenta para usar la herramienta?
+No. No hay registro, no hay contraseñas, no hay cuentas. Abres la página y la usas sin dar ningún dato personal.
+
+---
+
+¿Parce, quién hizo ESTUDIO SIMO?
+ESTUDIO SIMO fue desarrollado por un equipo independiente de desarrolladores y expertos en enfermería, con el objetivo de ayudar a los auxiliares de enfermería a prepararse para el concurso de la CNSC. No es una herramienta oficial de la CNSC, pero está alineada con su contenido.
+
+¿Oiga, la CNSC hizo esta herramienta?
+No, es una herramienta independiente, no oficial. Pero está basada en los temas y competencias que evalúa SIMO. Es un recurso de apoyo, no una publicación oficial del Estado.
+
+¿Quién está detrás de ESTUDIO SIMO?
+Es un proyecto independiente de preparación para concursos. No tiene afiliación directa con la CNSC, pero su contenido es fiel a las normas y competencias del concurso.
+
+-----------------------------
+------------------------------
+
+¿Oiga, puedo inscribirme si vivo en otra ciudad diferente a Risaralda?
+Sí, la convocatoria ESE 2 es NACIONAL. Puedes vivir en cualquier ciudad de Colombia y presentarte a las vacantes de HOMERIS (Risaralda) o de cualquier otra ESE del país. Solo debes poder viajar para presentar las pruebas (se realizan en la ciudad de la ESE o en una sede cercana).
+
+¿Parce, yo vivo en Bogotá, puedo concursar para HOMERIS en Risaralda?
+Sí, el concurso es abierto a nivel nacional. No importa dónde vivas. Lo único es que las pruebas se hacen presencialmente en la jurisdicción de la ESE o en una ciudad principal cercana. Deberías poder viajar si quedas citado.
+
+¿Si vivo en Medellín, puedo inscribirme a una vacante en HOMERIS?
+Sí. La convocatoria no restringe por lugar de residencia. Puedes vivir en cualquier departamento y concursar para cualquier ESE del país. La CNSC publicará las sedes de aplicación de pruebas cuando te citen.
+
+¿Una persona de Cali puede concursar para un hospital en Risaralda?
+Claro que sí. La convocatoria es nacional. No hay restricción geográfica para inscribirse.
+
+¿Oiga, y si no tengo tarjeta profesional todavía?
+Depende del cargo. Para AUXILIAR de enfermería, algunos concursos NO exigen tarjeta profesional, solo el título de auxiliar o técnico. Para ENFERMERO PROFESIONAL, la tarjeta profesional SÍ es obligatoria. Revisa la OPEC específica de la vacante a la que quieras inscribirte.
+
+¿Parce, puedo presentarme como auxiliar sin tarjeta profesional?
+Sí, para auxiliar de enfermería muchos concursos no piden tarjeta profesional. Solo necesitas el título de auxiliar o técnico en enfermería registrado en SIMO. Pero verifica la OPEC porque a veces sí la exigen.
+
+¿Oiga, soy enfermero profesional pero no tengo tarjeta aún, ¿puedo concursar?
+No. Para cargos de enfermero profesional, la tarjeta profesional es obligatoria. Debes tramitarla antes de inscribirte. Sin tarjeta, te excluirán en la verificación de requisitos.
+
+¿Si soy auxiliar, la tarjeta profesional es obligatoria?
+No siempre. Depende de la OPEC. Muchas vacantes para auxiliar no la piden. Pero algunas sí. Revisa bien los requisitos de la vacante específica antes de inscribirte.
+
+¿La convocatoria ESE 2 es nacional o solo en Risaralda?
+Es NACIONAL. La convocatoria ESE 2 cubre 72 ESE (Empresas Sociales del Estado) en todo el país, no solo Risaralda. HOMERIS es una de ellas. Puedes concursar para ESE en cualquier departamento.
+
+¿Parce, la ESE 2 es solo para hospitales de Risaralda?
+No, es para 72 ESE de toda Colombia. Incluye hospitales y clínicas públicas en diferentes departamentos. HOMERIS está en Risaralda, pero hay vacantes en todo el país.
+
+¿Oiga, puedo concursar para una ESE en otro departamento diferente al mío?
+Sí. La convocatoria es nacional. Puedes elegir vacantes en cualquier departamento del país, siempre que cumplas los requisitos.
+
+¿Esta convocatoria es solo para Risaralda o también para otras ciudades?
+Es para 72 ESE en todo el territorio nacional. Incluye Risaralda, pero también otras ciudades y departamentos.
+
+¿El abierto general es pa los que no trabajan en el Estado o pa todo el mundo?
+Abierto general es para TODOS: tanto si trabajas en el Estado como si no. No hay restricción. La diferencia con ascenso es que ascenso solo puede participar personal que YA trabaja en la misma ESE. Abierto general puede participar cualquier persona que cumpla requisitos.
+
+¿Parce, si ya trabajo en el Estado, puedo inscribirme en abierto general?
+Sí. Abierto general no excluye a empleados públicos. Puedes concursar en abierto general aunque ya trabajes en el Estado. La restricción es al revés: ascorno solo para empleados de la ESE, pero abierto es para todos.
+
+¿Oiga, abierto general significa que puedo entrar sin ser funcionario público?
+Sí, abierto general está abierto a cualquier ciudadano que cumpla requisitos, así no haya trabajado nunca en el Estado. Es la modalidad para ingreso externo.
+
+¿Si soy empleado público, me toca abierto general o ascenso?
+Puedes elegir. Si quieres cambiar de ESE o de cargo, puedes ir por abierto general. Si quieres ascender dentro de la misma ESE, puedes ir por ascenso. Ambas son válidas para empleados públicos.
+
+¿Ascenso general significa que si ya trabajo en una ESE puedo subir de puesto?
+Sí, exactamente. Ascenso general es la modalidad para empleados que YA trabajan en una ESE y quieren ASCENDER a un cargo superior dentro de la MISMA ESE. Por ejemplo, de auxiliar a enfermero profesional, o de enfermero a jefe.
+
+¿Parce, si trabajo en una ESE, puedo ascender sin concursar?
+No. El ascenso requiere concurso de méritos. Tienes que inscribirte en la modalidad de ascenso, presentar las pruebas y competir con otros empleados de la misma ESE. No es automático.
+
+¿Oiga, qué significa "ascenso general" en el concurso?
+Significa que solo pueden participar empleados que ya pertenecen a la ESE donde está la vacante. Es para que suban de cargo dentro de la misma institución. Si no trabajas allí, no puedes usar ascenso.
+
+¿Si quiero ascender de auxiliar a enfermero en la misma ESE donde trabajo, qué modalidad uso?
+Usas la modalidad de ASCENSO GENERAL. Tienes que cumplir los requisitos del nuevo cargo y presentar las pruebas. No es automático, pero tienes la ventaja de que solo compites con otros empleados de la misma ESE.
+
+¿Parce, la Resolución 3100 esa de qué trata?
+La Resolución 3100 de 2019 regula la HABILITACIÓN de las IPS (hospitales, clínicas, centros de salud). Define los estándares mínimos que deben cumplir en infraestructura, dotación, talento humano y procedimientos para poder operar legalmente.
+
+¿Oiga, qué es la Resolución 3100? La veo en el listado.
+Es la norma de habilitación de servicios de salud. Establece qué requisitos debe cumplir una IPS para poder atender pacientes: camas, equipos, personal, protocolos. Es muy importante para el concurso.
+
+¿Para qué sirve la Resolución 3100 de 2019?
+Sirve para que las IPS demuestren que tienen condiciones mínimas de calidad y seguridad. Sin habilitación, no pueden funcionar legalmente. El auxiliar de enfermería debe conocer los estándares relacionados con su trabajo (relación enfermera-paciente, bioseguridad, etc.).
+
+¿Qué relación tiene la Resolución 3100 con enfermería?
+Define cuántos pacientes puede atender una enfermera (relación 1:10 en día, 1:15 en noche). También exige carros de paro, elementos de bioseguridad y protocolos escritos. Es clave para el día a día del auxiliar.
+
+¿Oiga, el Decreto 1011 es el del SUG o el de habilitación?
+El Decreto 1011 de 2006 es del SUG (Sistema Obligatorio de Garantía de Calidad). No es de habilitación. La habilitación es de la Resolución 3100. El SUG incluye habilitación, acreditación, auditoría e indicadores.
+
+¿Parce, qué es el Decreto 1011?
+Es el decreto que creó el Sistema Obligatorio de Garantía de Calidad (SOGC) en salud. Define los mecanismos para garantizar la calidad: habilitación, acreditación, auditoría y medición de indicadores.
+
+¿El Decreto 1011 es el mismo que la Resolución 3100?
+No. El Decreto 1011 crea el sistema de calidad. La Resolución 3100 desarrolla una parte específica: la habilitación. El Decreto 1011 es más general y marco.
+
+¿Qué debe saber un auxiliar del Decreto 1011?
+Debe saber que existe el SOGC, que los indicadores de calidad (como tasa de caídas, errores de medicación) se miden con base en este decreto, y que participa en las auditorías de calidad.
+
+¿Qué significa RIAS? Eso de la 3280.
+RIAS significa Rutas Integrales de Atención en Salud. Son guías técnicas que definen cómo debe atender el personal de salud a diferentes grupos poblacionales (niños, adolescentes, adultos, adultos mayores) en cada etapa de la atención: promoción, prevención, diagnóstico, tratamiento y rehabilitación.
+
+¿Parce, qué es eso de RIAS que sale en la Resolución 3280?
+Son las Rutas Integrales de Atención en Salud. Básicamente, son protocolos que te dicen qué hacer según la edad del paciente y su condición. Por ejemplo, qué cuidados dar a un adulto mayor, qué tamizajes hacer a un niño, etc.
+
+¿Oiga, la Resolución 3280 de 2018 qué regula?
+Regula las RIAS (Rutas Integrales de Atención en Salud). Es una norma muy importante para enfermería porque define actividades como la valoración geriátrica, tamizajes, visitas domiciliarias, y el seguimiento a pacientes crónicos.
+
+¿Qué RIAS son más importantes para auxiliar de enfermería?
+La RIAS de adulto mayor (prevención de caídas, úlceras por presión), RIAS de infancia (control de crecimiento, vacunación), y RIAS de enfermedades crónicas (diabetes, hipertensión, seguimiento domiciliario).
+
+¿La Resolución 1995 del 99 todavía sirve o ya se murió?
+SÍ, sigue vigente. La Resolución 1995 de 1999 regula la HISTORIA CLÍNICA. Establece su contenido, características (claridad, legibilidad, oportunidad, veracidad), corrección de errores, conservación (20 años) y confidencialidad. No ha sido derogada.
+
+¿Parce, la Resolución 1995 de 1999 todavía está vigente?
+Sí, sigue vigente. Es la norma principal sobre historia clínica. El Decreto 780 de 2016 la complementa, pero no la deroga. Los auxiliares deben conocer sus reglas sobre registros y correcciones.
+
+¿Oiga, la Resolución 1995 ya está reemplazada por otra?
+No. Sigue vigente. Lo que pasa es que el Decreto 780 compila muchas normas, pero la Resolución 1995 sigue siendo la norma específica para historia clínica. No ha sido derogada.
+
+¿Qué dice la Resolución 1995 sobre la historia clínica?
+Define que la historia clínica debe ser clara, completa, oportuna y veraz. Explica cómo corregir errores (con línea, no corrector). Establece que se conserva 20 años. Es muy importante para el concurso.
+
+¿La Ley 1751 es la del derecho a la salud o es otra?
+Sí, la Ley 1751 de 2015 es la LEY ESTATUTARIA DE SALUD. Establece que la salud es un derecho fundamental autónomo e irrenunciable. Es la norma más importante después de la Ley 100.
+
+¿Parce, qué es la Ley 1751?
+Es la ley que dice que la salud es un derecho fundamental. Eso significa que cualquier persona puede exigirlo por tutela si se lo niegan. Obliga a las EPS e IPS a garantizar la atención sin barreras administrativas.
+
+¿Oiga, la Ley 1751 es la misma que la Ley 100?
+No, son diferentes. La Ley 100 creó el SGSSS. La Ley 1751 vino después (2015) y elevó la salud a derecho fundamental. Ambas son importantes, pero la 1751 es más reciente y tiene rango estatutario.
+
+¿Qué debe saber un auxiliar de la Ley 1751?
+Que no se puede negar la atención de urgencias por falta de documentos. Que el paciente tiene derecho a decidir sobre su tratamiento (autonomía). Que la salud es un derecho, no una mercancía.
+
+¿La Resolución 1444 del 2025 ya está vigente?
+Depende de la fecha actual. La Resolución 1444 de 2025 es del Ministerio de Salud y regula el TALENTO HUMANO EN SALUD. Si estamos después de su fecha de publicación y no hubo suspensión judicial, sí está vigente. En ESTUDIO SIMO la incluimos como norma de estudio porque es relevante para el concurso.
+
+¿Parce, la Resolución 1444 de 2025 ya rige?
+Fue expedida en 2025. Para el concurso ESE 2 (inscripciones julio-agosto 2026), ya debería estar vigente. Es importante porque define la recertificación de auxiliares cada 5 años y las condiciones laborales.
+
+¿Oiga, qué dice la Resolución 1444 de 2025?
+Regula el talento humano en salud: recertificación periódica (cada 5 años), formación continua (120 horas), evaluación de competencias, condiciones laborales dignas y programas de bienestar. Es clave para los auxiliares.
+
+¿Ya es obligatoria la recertificación con la 1444?
+Si la resolución está vigente, sí. Los auxiliares de enfermería deben recertificarse cada 5 años con 120 horas de formación continua y una evaluación de competencias. Es un requisito nuevo.
+
+¿Qué es el PBS? Eso de la 2292.
+PBS significa Plan de Beneficios en Salud. Es el conjunto de servicios, tecnologías y medicamentos que el sistema de salud colombiano garantiza a todos los afiliados. Antes se llamaba POS. Está definido por la Resolución 2292 de 2021.
+
+¿Parce, qué es el PBS de la Resolución 2292?
+Es el plan de beneficios. Allí están listados todos los servicios que las EPS deben cubrir: consultas, exámenes, medicamentos, cirugías, hospitalización, etc. Si un servicio está en el PBS, la EPS no puede cobrarlo aparte.
+
+¿Oiga, el PBS es lo mismo que el POS?
+Sí, es el mismo concepto, solo cambió el nombre. POS era Plan Obligatorio de Salud. PBS es Plan de Beneficios en Salud. Ambos son la lista de servicios garantizados. La Resolución 2292 actualizó el PBS.
+
+¿Qué servicios de enfermería cubre el PBS?
+Cubre toma de signos vitales, administración de medicamentos, curaciones, colocación de sondas, aspiración de secreciones, RCP, y cuidado de enfermería las 24 horas durante hospitalización.
+
+¿El POS ya no existe, verdad?
+Correcto. El POS (Plan Obligatorio de Salud) cambió de nombre a PBS (Plan de Beneficios en Salud) con la Resolución 2292 de 2021. En esencia es lo mismo: la lista de servicios garantizados. Pero el término correcto ahora es PBS.
+
+¿Parce, qué pasó con el POS?
+Fue reemplazado por el PBS. La Resolución 2292 de 2021 actualizó el plan de beneficios y cambió el nombre. Pero la idea es la misma: servicios que las EPS deben cubrir.
+
+¿Oiga, todavía hablan del POS en el concurso?
+Lo correcto es PBS. Pero como muchos todavía conocen el término POS, puede aparecer en algunas preguntas. Tú debes saber que POS fue reemplazado por PBS con la Resolución 2292 de 2021.
+
+¿El POS sigue vigente o ya se eliminó?
+Ya no se usa el nombre POS. Ahora se llama PBS. Los servicios son similares pero actualizados. La Resolución 2292 es la norma vigente.
+
+¿Qué diferencia hay entre la Ley 100 y la Ley 1438?
+La Ley 100 de 1993 CREÓ el Sistema General de Seguridad Social en Salud (SGSSS). La Ley 1438 de 2011 FORTALECIÓ el sistema, enfocándose en Atención Primaria en Salud (APS) y la universalización. La 1438 es una modificación y complemento de la 100, no una ley independiente.
+
+¿Parce, en qué se diferencia la Ley 100 de la Ley 1438?
+La Ley 100 es la creadora del sistema. La Ley 1438 es una reforma que puso énfasis en la atención primaria, los equipos básicos de salud y la participación comunitaria. La 1438 no reemplaza a la 100, la actualiza.
+
+¿Oiga, cuál es más importante, la Ley 100 o la 1438?
+La Ley 100 es más importante porque es la fundacional. Pero la Ley 1438 es muy relevante para el concurso porque introdujo el concepto de APS y los Equipos Básicos de Salud (EBS), donde los auxiliares participan activamente.
+
+¿Qué aportó la Ley 1438 al SGSSS?
+Fortalecer la Atención Primaria en Salud, crear los Equipos Básicos de Salud (médico, enfermera, auxiliar), promover la participación social, y avanzar hacia la universalización del aseguramiento.
+
+¿Parce, la Ley 1122 es la de la rectoría del sector salud?
+Sí, la Ley 1122 de 2007 fortaleció la RECTORÍA del sector salud, es decir, la capacidad del Ministerio de Salud para dirigir, regular y vigilar el sistema. También creó la Superintendencia Nacional de Salud y la Comisión de Regulación en Salud (CRES).
+
+¿Oiga, qué hizo la Ley 1122?
+Fortalecer al Ministerio de Salud como rector del sistema. También creó la Superintendencia Nacional de Salud para vigilar a las EPS e IPS, y la CRES para regular precios y planes de beneficios.
+
+¿Qué debe saber un auxiliar de la Ley 1122?
+Que existe la Superintendencia de Salud, a donde se puede quejar si una EPS o IPS no presta un servicio del PBS. También que el Ministerio es la autoridad máxima en salud.
+
+¿La Ley 1122 sigue vigente?
+Sí, sigue vigente. Fue modificada por leyes posteriores (1438, 1751), pero sus bases de rectoría y supervisión siguen siendo la estructura actual.
+
+¿Oiga, hay preguntas de psicofármacos en el banco?
+Sí, el banco de preguntas de ESTUDIO SIMO incluye preguntas sobre psicofármacos comunes en salud mental: haloperidol, clonazepam, risperidona, olanzapina, litio, etc. Pueden preguntar sobre dosis, efectos adversos, administración y precauciones.
+
+¿Parce, el examen de práctica tiene preguntas de medicamentos psiquiátricos?
+Sí, especialmente en la competencia de razonamiento matemático (cálculo de dosis) y en la competencia funcional (normas de administración segura). También en ética profesional (manejo de pacientes con psicofármacos).
+
+¿Oiga, puedo practicar con preguntas de haloperidol o clonazepam?
+Sí. En el banco hay preguntas sobre esos medicamentos. Elige la subcategoría de "funcionales" o "matemáticas" y encontrarás ejemplos de cálculo de dosis y administración.
+
+¿Qué tipo de preguntas de psicofármacos vienen?
+Por ejemplo: "Un paciente tiene orden de haloperidol 5 mg IM. El frasco tiene 50 mg en 10 ml. ¿Cuántos ml debe administrar?" También preguntas sobre efectos adversos: "¿Cuál de los siguientes es un efecto adverso común del haloperidol?" (síntomas extrapiramidales).
+
+¿Oiga, qué significa "verborragia"? Esa palabra rara.
+Verborragia significa habla excesiva e incontrolable. El paciente habla mucho, rápido, sin pausas, y es difícil interrumpirlo. Es un síntoma común en episodios maníacos (trastorno bipolar) o en algunos cuadros de ansiedad.
+
+¿Parce, qué es verborragia en psiquiatría?
+Es cuando un paciente habla sin parar, se le va la lengua, no deja hablar a otros, y salta de un tema a otro. Es característico de la manía o hipomanía.
+
+¿Oiga, verborragia es lo mismo que verborrea?
+Sí, son sinónimos. Verborragia o verborrea significa flujo excesivo de palabras. El paciente no puede dejar de hablar. En el glosario de ESTUDIO SIMO está definido.
+
+¿Qué diferencia hay entre verborragia y logorrea?
+Son lo mismo. Logorrea es otro término griego que significa lo mismo: habla excesiva. En el contexto psiquiátrico, es un síntoma de desinhibición.
+
+¿Cómo hago para ver todos los términos de una vez sin paginación?
+No se puede. El glosario está diseñado para mostrar 10 términos por página para no sobrecargar la pantalla. Puedes navegar con los botones Anterior y Siguiente, o filtrar por categoría o letra para reducir la cantidad de términos por página.
+
+¿Parce, hay una forma de ver el glosario completo en una sola pantalla?
+No, la paginación está fija. Pero si quieres ver una lista más larga, usa los filtros. Por ejemplo, selecciona "Siglas" o una letra como "C" y verás menos términos por página. Es más manejable.
+
+¿Oiga, puedo quitar la paginación para ver todo de una vez?
+No es posible. La paginación es una característica de diseño para que la página no sea demasiado larga. Puedes copiar los términos página por página si quieres una lista completa fuera de la herramienta.
+
+¿Cómo veo más de 10 términos a la vez?
+No se puede. Son 10 por página. Pero puedes pasar páginas rápidamente con los botones Anterior y Siguiente. O filtrar por categoría para que haya menos páginas.
+
+¿Parce, el glosario tiene las siglas de los medicamentos?
+Tiene los nombres completos de los medicamentos más comunes (haloperidol, clonazepam, risperidona, olanzapina, litio), pero no las siglas (ej: HLD, CZP) porque esas no son estándar en enfermería. Se usan los nombres genéricos.
+
+¿Oiga, puedo buscar "HLD" en el glosario?
+No, las siglas de medicamentos no están en el glosario porque no son oficiales. Busca por el nombre completo: "haloperidol". Ese sí está.
+
+¿Qué siglas de medicamentos están en el glosario?
+En realidad, no hay siglas de medicamentos. Solo están los nombres completos. Las siglas como "ASA" (ácido acetilsalicílico) o "DxM" (dexametasona) no son estándar en el concurso. Usa los nombres genéricos.
+
+¿El glosario tiene "paracetamol" o "acetaminofén"?
+Sí, acetaminofén está en el glosario como término. También ibuprofeno, diclofenaco, etc. Busca por el nombre genérico.
+
+¿Parce, el chat tiene límite de caracteres por pregunta?
+Técnicamente sí, pero es muy alto (miles de caracteres). Puedes escribir preguntas largas sin problema. En la práctica, si tu pregunta es muy extensa, el asistente podría procesarla más lento, pero no hay un límite práctico que afecte al usuario normal.
+
+¿Oiga, puedo escribir una pregunta muy larga o se corta?
+Puedes escribir preguntas largas. El campo de texto no tiene un límite visible. Pero si escribes una novela, el modelo puede tardar en procesarla. Mejor sé conciso: una o dos líneas es suficiente.
+
+¿El chat se bloquea si escribo demasiado?
+No debería. Pero si tu pregunta es muy larga (más de 500 palabras), el asistente podría tener dificultades para encontrar la mejor coincidencia. Recomendamos preguntas cortas y específicas.
+
+¿Cuántos caracteres puedo escribir en el chat?
+El campo de texto acepta cientos de caracteres. No hay un límite publicado. Para una experiencia óptima, mantén tus preguntas entre 50 y 200 caracteres.
+
+¿Oiga, el asistente sabe quién soy o es anónimo?
+Es ANÓNIMO. El asistente no guarda tu nombre, correo, IP, ni ninguna información personal. Cada conversación es independiente y se borra al cerrar el chat. No hay registro de usuarios. Puedes preguntar con total privacidad.
+
+¿Parce, el robot me identifica como persona?
+No. El asistente no sabe quién eres. No pide nombre, no guarda datos. Solo procesa tu pregunta en el momento y la olvida cuando cierras la ventana.
+
+¿El asistente guarda mi historial con mi nombre?
+No. No hay nombres de usuario. El historial se borra al cerrar el chat. Nadie sabe qué preguntaste, ni siquiera la herramienta lo guarda permanentemente.
+
+¿Puedo preguntar cosas privadas sin que se sepa que fui yo?
+Sí. El asistente es completamente anónimo. No hay identificación de usuarios. Puedes preguntar con tranquilidad.
+
+¿El botón Ajustes tiene más opciones aparte de letra y modo oscuro?
+Actualmente solo tiene esas dos: Modo oscuro (toggle Activar/Desactivar) y Tamaño de letra (4 tamaños con botones A- y A+). En futuras versiones podrían agregarse más opciones, como contraste alto o fuente para dislexia, pero por ahora solo esas.
+
+¿Parce, en Ajustes puedo cambiar el sonido o las notificaciones?
+No. La herramienta no tiene sonidos ni notificaciones. Los ajustes son solo visuales: modo oscuro y tamaño de letra.
+
+¿Oiga, Ajustes tiene alguna opción para cambiar el idioma?
+No. La herramienta está solo en español. No hay opción de cambiar a inglés u otros idiomas.
+
+¿Qué más puedo personalizar en Ajustes?
+Por ahora, solo el tema (claro/oscuro) y el tamaño del texto. Son las opciones más útiles para la comodidad de estudio.
+
+¿Parce, el botón de Instrucciones es el que tiene el librito ese?
+Sí, exactamente. El botón con el ícono de un libro o librito (📖) es el de INSTRUCCIONES. Está en la parte superior derecha del header, junto a los botones de Ajustes (⚙️) y el Asistente IA (🤖 en celular). Al hacer clic, abre el modal de bienvenida con la explicación de la herramienta.
+
+¿Oiga, cuál es el botón de Instrucciones? El del libro?
+Sí, el que parece un librito abierto (📖). Ese es el botón de Instrucciones. Si tienes dudas sobre cómo usar la herramienta, dale clic y te saldrá una ventana con toda la explicación.
+
+¿Parce, ese ícono de libro para qué sirve?
+Es el botón de Instrucciones. Abre el modal de bienvenida donde se explican las 3 pestañas, las 6 competencias y las funcionalidades importantes. Es útil si olvidaste algo o quieres repasar.
+
+¿El botón de Instrucciones es el que está al lado del de Ajustes?
+Sí, en el header superior derecho. Primero está el botón de Instrucciones (📖) y al lado el de Ajustes (⚙️). En celular también aparece el de IA (🤖).
+
+¿Qué pasa si no estoy de acuerdo con la respuesta orientativa?
+Las respuestas orientativas son sugerencias basadas en buenas prácticas y normatividad, no son verdades absolutas. Si no estás de acuerdo, puedes consultar la normativa original (Ley 100, Decreto 780, etc.) en la pestaña Estudio SIMO. También puedes preguntarle al Asistente IA para obtener otra perspectiva.
+
+¿Parce, si creo que la respuesta de un caso práctico está mal, qué hago?
+Puedes contrastarla con las normas. Busca el tema en el buscador universal de leyes. Si encuentras evidencia de que la respuesta debería ser otra, escríbenos por este chat y lo revisamos para futuras versiones.
+
+¿Oiga, las respuestas orientativas son obligatorias o solo sugerencias?
+Son sugerencias orientativas, no respuestas únicas. En el concurso real puede haber matices. La respuesta orientativa te da un marco, pero en tu práctica diaria puede haber variaciones según el contexto.
+
+¿Puedo sugerir una respuesta diferente para un caso práctico?
+Sí. Escríbenos aquí con el caso y tu propuesta de respuesta. La revisaremos y, si es más acertada, la actualizaremos en futuras versiones.
+
+¿Parce, hay casos de pacientes agresivos en salud mental?
+Sí, los casos prácticos de ESTUDIO SIMO incluyen situaciones de pacientes psiquiátricos agresivos. Por ejemplo, manejo de crisis, contención verbal, activación de código de seguridad, retiro de objetos peligrosos, y trabajo en equipo durante la emergencia.
+
+¿Oiga, puedo practicar con casos de pacientes violentos?
+Sí. En la pestaña Estudio SIMO, selecciona la categoría "Casos prácticos" y filtra por "Comportamentales". Allí encontrarás casos sobre manejo de agresividad, ética en la contención, y trabajo en equipo en emergencias psiquiátricas.
+
+¿Qué casos de agresividad hay en la herramienta?
+Hay casos como: "Paciente con agitación psicomotriz que golpea la puerta", "Familiar agresivo porque no le dan información confidencial", "Paciente con psicosis que amenaza al personal", y "Contención mecánica bajo orden médica".
+
+¿Cómo maneja la herramienta los casos de violencia?
+Presenta la situación y luego una respuesta orientativa basada en protocolos: mantener la calma, retirar objetos peligrosos, activar código de seguridad, usar contención verbal, y solo aplicar contención mecánica con orden médica.
+
+¿Oiga, los casos prácticos incluyen dilemas éticos?
+Sí, muchos. Los casos prácticos de la categoría "Comportamentales" incluyen dilemas éticos comunes en salud mental: confidencialidad vs. deber de informar, autonomía del paciente vs. beneficencia, límites de la contención, rechazo de tratamiento, manejo de errores, y relación con familiares agresivos.
+
+¿Parce, puedo practicar dilemas éticos con los casos prácticos?
+Sí. Los casos están diseñados para que reflexiones sobre qué harías en situaciones reales. Después puedes desplegar la respuesta orientativa para comparar. Es una excelente forma de prepararte para la prueba de ética profesional.
+
+¿Qué dilemas éticos vienen en los casos prácticos?
+Por ejemplo: "Paciente con depresión severa se niega a comer. ¿Qué haces?", "Compañero comete error de medicación sin daño aparente. ¿Lo reportas?", "Familiar pide información confidencial del paciente. ¿Qué le dices?"
+
+¿Los casos de dilemas éticos tienen una única respuesta correcta?
+No siempre. La respuesta orientativa te da un marco basado en principios éticos y normatividad, pero en la práctica puede haber matices. Lo importante es que entiendas los principios: confidencialidad, autonomía, beneficencia, justicia, y el deber de reportar errores.
+
+Oiga, ¿el concurso ese es solo pa enfermeros o también pa otros cargos?
+No, la convocatoria ESE 2 incluye MÚLTIPLES CARGOS de diferentes áreas: enfermería (auxiliares, profesionales, jefes), médicos, administrativos, técnicos, odontología, psicología, trabajo social, etc. No es solo para enfermeros. Las vacantes específicas se publican en las OPEC.
+
+¿Parce, ese concurso de la ESE 2 es solo pa enfermería o hay pa otras cosas también?
+Hay de todo: médicos, auxiliares, administrativos, psicólogos, odontólogos, técnicos. La convocatoria es para 72 hospitales públicos, necesitan personal de muchas áreas.
+
+¿Una cosa, yo soy auxiliar de enfermería, pero mi hermana es administradora, ¿ella también puede concursar?
+Sí, si hay vacantes para su perfil. La convocatoria no es exclusiva de enfermería. Cuando abran las OPEC en SIMO, pueden buscar por palabras clave como "administrativo", "técnico", "médico", etc.
+
+¿Oiga, el concurso ESE 2 es solo para profesionales de la salud o también para personal de apoyo?
+Incluye personal asistencial (auxiliares, enfermeros, médicos) y también administrativo (secretarias, auxiliares administrativos, contadores, etc.). Hay vacantes para muchos perfiles.
+
+¿Si no tengo plata pa pagar el PIN, no puedo hacer nada? ¿No hay becas o algo así?
+La CNSC no otorga becas ni exoneraciones para el pago del PIN. Es un derecho de participación obligatorio. Sin embargo, algunas entidades territoriales o cajas de compensación ofrecen apoyos económicos para formación y concursos. Debes consultar en tu región.
+
+¿Parce, no tengo plata pa pagar el PIN, ¿hay forma de que me lo regalen o algo?
+No hay becas directas de la CNSC. Pero puedes averiguar en la caja de compensación de tu ciudad o en la secretaría de salud departamental. A veces dan subsidios para capacitación y concursos.
+
+¿Oiga, si soy de bajos recursos, ¿me exoneran del pago del PIN?
+No hay exoneración automática. El PIN es obligatorio para todos los aspirantes. Algunas alcaldías o gobernaciones tienen programas de apoyo, pero no es parte del concurso.
+
+¿Una cosa, conocen alguna ayuda pa pagar el PIN si uno no tiene trabajo?
+No hay un programa nacional. Te sugiero preguntar en la Secretaría de Salud de tu departamento o en la caja de compensación (Comfama, Comfenalco, etc.). Ellos a veces dan apoyos.
+
+---------------------
+-----------------------
+-----------------------
+
+Oiga, ¿el concurso ese es solo pa enfermeros o también pa otros cargos?
+No, la convocatoria ESE 2 incluye MÚLTIPLES CARGOS de diferentes áreas: enfermería (auxiliares, profesionales, jefes), médicos, administrativos, técnicos, odontología, psicología, trabajo social, etc. No es solo para enfermeros. Las vacantes específicas se publican en las OPEC.
+
+¿Parce, ese concurso de la ESE 2 es solo pa enfermería o hay pa otras cosas también?
+Hay de todo: médicos, auxiliares, administrativos, psicólogos, odontólogos, técnicos. La convocatoria es para 72 hospitales públicos, necesitan personal de muchas áreas.
+
+¿Una cosa, yo soy auxiliar de enfermería, pero mi hermana es administradora, ¿ella también puede concursar?
+Sí, si hay vacantes para su perfil. La convocatoria no es exclusiva de enfermería. Cuando abran las OPEC en SIMO, pueden buscar por palabras clave como "administrativo", "técnico", "médico", etc.
+
+¿Oiga, el concurso ESE 2 es solo para profesionales de la salud o también para personal de apoyo?
+Incluye personal asistencial (auxiliares, enfermeros, médicos) y también administrativo (secretarias, auxiliares administrativos, contadores, etc.). Hay vacantes para muchos perfiles.
+
+¿Si no tengo plata pa pagar el PIN, no puedo hacer nada? ¿No hay becas o algo así?
+La CNSC no otorga becas ni exoneraciones para el pago del PIN. Es un derecho de participación obligatorio. Sin embargo, algunas entidades territoriales o cajas de compensación ofrecen apoyos económicos para formación y concursos. Debes consultar en tu región.
+
+¿Parce, no tengo plata pa pagar el PIN, ¿hay forma de que me lo regalen o algo?
+No hay becas directas de la CNSC. Pero puedes averiguar en la caja de compensación de tu ciudad o en la secretaría de salud departamental. A veces dan subsidios para capacitación y concursos.
+
+¿Oiga, si soy de bajos recursos, ¿me exoneran del pago del PIN?
+No hay exoneración automática. El PIN es obligatorio para todos los aspirantes. Algunas alcaldías o gobernaciones tienen programas de apoyo, pero no es parte del concurso.
+
+¿Una cosa, conocen alguna ayuda pa pagar el PIN si uno no tiene trabajo?
+No hay un programa nacional. Te sugiero preguntar en la Secretaría de Salud de tu departamento o en la caja de compensación (Comfama, Comfenalco, etc.). Ellos a veces dan apoyos.
+
+Oiga, yo soy auxiliar pero no tengo el título todavía, solo la experiencia, ¿sirve?
+No. Para concursar en un cargo de auxiliar de enfermería necesitas el TÍTULO de auxiliar o técnico en enfermería registrado en SIMO. La experiencia no reemplaza el título. Es un requisito de formación mínima excluyente.
+
+¿Parce, llevo 10 años trabajando como auxiliar pero nunca saqué el título, ¿puedo concursar?
+No, es obligatorio el título. Sin el título registrado en SIMO, te excluyen en la verificación de requisitos mínimos. La experiencia no sustituye la formación.
+
+¿Oiga, si tengo mucha experiencia pero no el papel, ¿no sirve de nada?
+Para el concurso, el título es requisito mínimo excluyente. La experiencia suma puntos adicionales, pero sin el título no puedes ni siquiera inscribirte.
+
+¿Una cosa, puedo presentar una constancia de estudios en lugar del título?
+No. Necesitas el título o acta de grado registrada en SIMO. Las constancias de estudios en curso no son válidas para el concurso.
+
+Una duda, si me inscribo y después veo que me falta un papel, ¿me devuelven la plata?
+No. El PIN no es reembolsable. Si la CNSC te excluye en la verificación de requisitos mínimos por falta de documentos, no te devuelven el dinero. Por eso debes revisar bien los requisitos ANTES de pagar e inscribirte.
+
+¿Parce, si me rechazan porque me faltó un papel, me devuelven el PIN?
+No, el PIN no se devuelve bajo ninguna circunstancia. Es un derecho de participación no reembolsable. Asegúrate de cumplir todos los requisitos antes de pagar.
+
+¿Oiga, si la CNSC me excluye por su error, sí me devuelven la plata?
+En teoría, si es error comprobado de la CNSC, podrías reclamar. Pero es muy raro. En la práctica, el PIN no es reembolsable. Mejor revisa bien tus papeles antes de inscribirte.
+
+¿Una cosa, si me retiro voluntariamente, me devuelven el PIN?
+No. Una vez pagado, el PIN no es reembolsable, ni siquiera si te retiras por decisión propia.
+
+Parce, yo tengo una discapacidad leve, ¿cuento o no cuento para esos cupos?
+Depende de lo que diga el certificado de discapacidad. Si tienes un certificado oficial de discapacidad expedido por una entidad de salud autorizada (EPS, junta de calificación), SÍ aplicas, independientemente de si es leve o moderada. Lo importante es que esté certificado.
+
+¿Oiga, tengo una discapacidad leve (ej. pérdida auditiva parcial), ¿puedo aplicar a los cupos de discapacidad?
+Sí, si tienes el certificado oficial. La ley no distingue entre grados de discapacidad para estos cupos. Lo que importa es que esté documentado.
+
+¿Una cosa, si mi discapacidad es muy leve y no me afecta para trabajar, ¿cuento igual?
+Si tienes el certificado, sí. No importa la severidad. El certificado es lo que acredita la condición.
+
+¿Parce, cómo sé si mi discapacidad es aceptada para los cupos especiales?
+Con el certificado de discapacidad vigente expedido por una EPS o junta de calificación. Si lo tienes, puedes marcar la casilla de discapacidad en SIMO y adjuntarlo.
+
+¿El ascenso es solo pa los que ya trabajan en ESE o también pa contratistas?
+Ascenso es SOLO para empleados de carrera administrativa o empleados públicos temporales (de planta) de la ESE. Los contratistas (contratos de prestación de servicios) NO pueden participar en la modalidad de ascenso porque no son empleados públicos.
+
+¿Parce, yo soy contratista de una ESE, ¿puedo ascender por concurso?
+No. La modalidad de ascenso es solo para personal de planta (empleados públicos). Como contratista, puedes participar en ABIERTO GENERAL, pero no en ascenso.
+
+¿Oiga, si tengo contrato de prestación de servicios en un hospital público, ¿cuento como empleado para ascenso?
+No. Los contratistas no son empleados públicos. No puedes usar la modalidad de ascenso. Solo abierto general.
+
+¿Una cosa, si llevo años como contratista, ¿no puedo ascender nunca por esa vía?
+Solo si te nombran en propiedad (empleado de planta) primero. Mientras seas contratista, solo puedes concursar por abierto general.
+
+Parce, yo soy contratista de un hospital público, ¿puedo ascender o no?
+No. La modalidad de ascenso EXIGE ser empleado público de la ESE (de planta, con derechos de carrera o provisional). Los contratistas de prestación de servicios no califican para ascenso. Debes inscribirte en ABIERTO GENERAL.
+
+¿Oiga, si soy contratista pero quiero un cargo superior en la misma ESE, ¿qué modalidad uso?
+No puedes usar ascenso. Usa ABIERTO GENERAL. Esa modalidad sí permite participar a cualquier persona, independientemente de su vínculo laboral actual.
+
+¿Una cosa, hay alguna forma de que un contratista ascienda sin pasar por abierto general?
+No. Para acceder a un cargo de carrera en una ESE, el contratista debe ganar el concurso por abierto general. No hay atajos.
+
+¿Parce, entonces los contratistas estamos condenados a siempre ser contratistas si no ganamos el abierto?
+Sí. Para ser empleado público de carrera, debes ganar el concurso por abierto general. El ascenso es solo para quienes ya son empleados públicos.
+
+Oiga, esas vacantes del concurso son solo pa auxiliares o también pa profesionales?
+Hay de TODO: auxiliares de enfermería, técnicos, enfermeros profesionales, especialistas, jefes de enfermería, médicos, odontólogos, psicólogos, trabajadores sociales, administrativos, etc. La convocatoria ESE 2 tiene 2.477 vacantes distribuidas en diferentes niveles y áreas.
+
+¿Parce, yo soy enfermero profesional, ¿hay vacantes para mí en el concurso?
+Sí. Hay vacantes para enfermeros profesionales y también para jefes de enfermería. En la etapa de OPEC, puedes buscar por "enfermero profesional" o "enfermero jefe".
+
+¿Oiga, mi hermana es médica, ¿ella también puede concursar?
+Sí, si hay vacantes para médicos generales o especialistas en alguna de las 72 ESE. La convocatoria no es exclusiva de enfermería.
+
+¿Una cosa, hay vacantes para odontólogos o psicólogos?
+Sí, también. Dependiendo de las necesidades de cada ESE. Debes revisar las OPEC cuando las publiquen.
+
+Parce, yo trabajo en una ESE de Cali, ¿puedo ascender en HOMERIS (Risaralda) o solo en la mía?
+Ascenso es solo para ascender DENTRO DE LA MISMA ESE donde ya trabajas. Si quieres cambiar de ESE (de Cali a HOMERIS), debes usar la modalidad de ABIERTO GENERAL, no ascenso. Ascenso no permite movilidad entre ESE.
+
+¿Oiga, si quiero subir de cargo pero en otra ciudad, ¿puedo usar ascenso?
+No. Ascenso es para el mismo empleador (la misma ESE). Para cambiar de ESE, usas abierto general.
+
+¿Una cosa, trabajo en una ESE de Medellín, ¿puedo ascender a un cargo en HOMERIS?
+No. Ascenso es intra-ESE. Para irte a HOMERIS, concursas por abierto general. Para ascender dentro de tu ESE actual, usas ascenso.
+
+¿Parce, entonces ascenso no me sirve si quiero irme a otra ciudad?
+Exacto. Ascenso es para subir de puesto donde ya trabajas. Si quieres cambiar de ESE, es abierto general.
+
+¿Qué es la UPC en salud? Veo esa sigla y no sé qué es.
+UPC significa Unidad de Pago por Capitación. Es el valor anual que el sistema de salud reconoce a las EPS por cada afiliado para cubrir el Plan de Beneficios en Salud (PBS). La ADRES gira ese dinero a las EPS.
+
+¿Parce, qué es la UPC en el SGSSS?
+Es la plata que el Estado le da a las EPS por cada persona afiliada. Se calcula por persona (capitación), no por servicio. La EPS usa esa plata para pagar IPS, medicamentos, etc.
+
+---
+
+¿Oiga, qué significa ADRES? Esa entidad que maneja la plata.
+ADRES significa Administradora de los Recursos del Sistema General de Seguridad Social en Salud. Es la entidad que recauda, administra y gira los recursos del sistema de salud (cotizaciones, UPC, etc.). Reemplazó al antiguo FOSYGA.
+
+¿Parce, qué es la ADRES?
+Es la entidad encargada de manejar toda la plata del sistema de salud. Recibe las cotizaciones de empleadores y trabajadores, y gira los recursos a las EPS y otras entidades.
+
+---
+
+¿El SISBÉN es solo para el régimen subsidiado o también para contributivo?
+El SISBÉN es una herramienta de clasificación socioeconómica. Se usa principalmente para identificar población pobre y vulnerable para el régimen SUBSIDIADO. Pero también puede ser consultado para otros beneficios sociales. No es exclusivo del régimen subsidiado, pero su uso principal es ese.
+
+¿Parce, para qué sirve el SISBÉN en salud?
+Para determinar qué personas tienen derecho al régimen subsidiado (salud gratis). Si tienes SISBÉN bajo, el Estado te afilia al régimen subsidiado. Si tienes trabajo formal, entras al régimen contributivo.
+
+---
+
+¿Qué es la integralidad en el SGSSS? Esa palabra rara.
+Integralidad es un principio del SGSSS. Significa que el sistema debe garantizar atención en TODAS las fases de la enfermedad: promoción, prevención, diagnóstico, tratamiento, rehabilitación y cuidado paliativo. No puede fragmentar la atención.
+
+¿Parce, qué es la integralidad en salud?
+Es que el paciente recibe atención completa para su enfermedad, desde la prevención hasta la rehabilitación. No lo pueden dejar a medias.
+
+---
+
+¿Qué es la solidaridad en salud? Eso de que unos pagan por otros.
+Solidaridad es un principio del SGSSS. Significa que los afiliados con mayor capacidad de pago (los que trabajan y cotizan) contribuyen a financiar a los de menor capacidad (régimen subsidiado). Es la base del sistema: todos ponen para que todos tengan acceso.
+
+¿Parce, qué es la solidaridad en el sistema de salud?
+Que los que más tienen ayudan a los que menos tienen. Los trabajadores cotizan un porcentaje de su salario, y ese dinero se usa para financiar la salud de los pobres. Es un principio ético del SGSSS.
+
+--------------------------
+--------------------------
+--------------------------
+--------------------------
+
+¿Si soy contratista pero quiero un cargo fijo? ¿Qué hago?
+Para obtener un cargo fijo (empleo de carrera) en una ESE, debes GANAR EL CONCURSO DE MÉRITOS en la modalidad de ABIERTO GENERAL. Como contratista, no puedes acceder directamente a un cargo fijo. Debes inscribirte en SIMO cuando haya vacantes, pagar el PIN, presentar las pruebas y quedar en lista de elegibles.
+
+¿Parce, yo soy contratista de un hospital público, ¿cómo hago para tener un cargo fijo?
+Tienes que ganar el concurso de la CNSC. No hay otro camino. Inscríbete en ABIERTO GENERAL, presenta las pruebas, y si apruebas, entras a la lista de elegibles. Cuando te nombren, pasas a ser empleado público de carrera.
+
+¿Oiga, llevo años como contratista, ¿no puedo volverme fijo sin concurso?
+No. La ley obliga a concurso de méritos para ingresar a la carrera administrativa. No importa cuántos años lleves como contratista. El único camino es SIMO.
+
+¿Una cosa, si soy contratista, ¿tengo alguna ventaja en el concurso sobre alguien de afuera?
+No. En abierto general, todos compiten en igualdad de condiciones. La experiencia que tengas como contratista cuenta para los puntajes, pero no te da derecho a ascenso ni a preferencia.
+
+Si soy contratista pero llevo 10 años en el mismo hospital... ¿no tengo derecho a ascender?
+No. La modalidad de ASCENSO es exclusiva para empleados públicos de planta (carrera administrativa o provisionales). Los contratistas, aunque lleven 10 o 20 años, NO son empleados públicos. No tienen derecho a ascenso. Deben concursar por ABIERTO GENERAL.
+
+¿Parce, llevo 10 años como contratista en el mismo hospital, ¿no puedo ascender a un cargo superior?
+No puedes usar ascenso. Solo abierto general. Los años de experiencia te ayudan a sumar puntos en el concurso, pero no te dan derecho a ascender sin concursar.
+
+¿Oiga, si he sido contratista por más de una década, ¿no me dan algún beneficio para el concurso?
+Tu experiencia laboral certificada suma puntaje en la prueba de antecedentes, pero no te exime del concurso ni te da derecho a ascenso. Sigue siendo abierto general para ti.
+
+¿Una cosa, no es justo que un contratista de tantos años no pueda ascender. ¿No hay una ley que lo permita?
+No. La carrera administrativa solo aplica a empleados públicos de planta. Los contratistas son una figura temporal. Para acceder a la carrera, debes ganar el concurso como cualquier ciudadano.
+
+¿Y si no paso el período de prueba? ¿Me echan así no más?
+Si no superas el período de prueba de 6 meses, la entidad puede declarar insatisfactoria tu evaluación y RETIRARTE del cargo. No adquieres derechos de carrera. Pero no es automático; debe haber una evaluación documentada que demuestre que no cumpliste con las funciones. Puedes reclamar si consideras que fue injusto.
+
+¿Parce, qué pasa si no apruebo el período de prueba?
+Te pueden desvincular. No te conviertes en empleado de carrera. El período de prueba es un filtro para ver si realmente sirves para el cargo. Si no pasas, te retiran.
+
+¿Oiga, si no paso la prueba de los 6 meses, ¿pierdo todo? ¿No hay segunda oportunidad?
+No hay segunda oportunidad. Si la evaluación es insatisfactoria, la entidad puede retirarte. Pero debes tener derecho a conocer las razones y a presentar descargos. No es un despido arbitrario.
+
+¿Una cosa, si me echan en el período de prueba, ¿puedo volver a concursar después?
+Sí. No hay prohibición. Puedes volver a presentarte en futuras convocatorias. Pero tendrás que empezar desde cero: inscripción, pruebas, lista de elegibles, nuevo nombramiento, nuevo período de prueba.
+
+Oiga, ¿qué es el SOGC? Me salió en un caso práctico y no sé qué es.
+SOGC significa SISTEMA OBLIGATORIO DE GARANTÍA DE CALIDAD (también se usa SUG). Es el conjunto de mecanismos que deben implementar las IPS para garantizar la calidad de los servicios de salud. Incluye habilitación, acreditación, auditoría y medición de indicadores. Fue creado por el Decreto 1011 de 2006.
+
+¿Parce, qué es eso del SOGC en salud?
+Es el Sistema Obligatorio de Garantía de Calidad. Todas las IPS (hospitales, clínicas) deben cumplirlo. El auxiliar de enfermería participa en auditorías, registra indicadores (caídas, errores de medicación) y sigue los protocolos de bioseguridad.
+
+¿Oiga, el SOGC es lo mismo que la habilitación?
+La habilitación es UNA PARTE del SOGC. El SOGC también incluye acreditación, auditoría e indicadores. Es más amplio. La Resolución 3100 regula la habilitación, que es parte del SOGC.
+
+¿Una cosa, qué debe saber un auxiliar sobre el SOGC?
+Que existe, que mide calidad, que participas en la recolección de indicadores, en las auditorías internas, y que debes conocer los estándares de habilitación (resolución 3100). También que el Decreto 1011 es el que lo creó.
+
+¿Qué significa polifarmacia? Lo vi en un caso y no entendí.
+Polifarmacia significa el uso de MÚLTIPLES MEDICAMENTOS al mismo tiempo, generalmente 5 o más. Es común en adultos mayores y pacientes con enfermedades crónicas. Aumenta el riesgo de interacciones, efectos adversos y caídas. El auxiliar debe vigilar signos de toxicidad y reportar al médico.
+
+¿Parce, qué es polifarmacia en salud?
+Es cuando un paciente toma muchos medicamentos a la vez (5 o más). Es peligroso porque pueden chocar entre sí. El auxiliar debe estar atento a efectos raros y reportar.
+
+¿Oiga, la polifarmacia es mala o buena?
+Generalmente es mala si no está justificada. Aumenta el riesgo de caídas, confusión, y efectos adversos. En adultos mayores, se recomienda "deprescripción" (quitar medicamentos innecesarios).
+
+¿Una cosa, cuántos medicamentos son polifarmacia?
+Se considera polifarmacia cuando el paciente toma 5 o más medicamentos de forma crónica. Cuantos más, mayor riesgo.
+
+¿Qué es deprescripción? Esa palabra no la había escuchado nunca.
+Deprescripción es el proceso de REDUCIR o ELIMINAR medicamentos que ya no son necesarios o que pueden causar más daño que beneficio. Es común en adultos mayores con polifarmacia. El auxiliar puede ayudar identificando efectos adversos y reportándolos al médico.
+
+¿Parce, qué es deprescripción en salud?
+Es lo contrario de prescripción: quitar medicamentos que ya no sirven o que hacen daño. Se hace en pacientes que toman muchas pastillas (polifarmacia). El médico decide cuáles quitar, y el auxiliar ayuda con el seguimiento.
+
+¿Oiga, para qué sirve la deprescripción?
+Para reducir riesgos: caídas, confusión, sangrados, interacciones. Un adulto mayor no necesita tomar 10 pastillas si 5 ya no le sirven. Deprescripción mejora calidad de vida.
+
+¿Una cosa, el auxiliar puede decidir qué medicamentos quitar?
+No. La deprescripción es orden médica. El auxiliar puede informar al médico si ve efectos adversos o si el paciente toma muchos medicamentos, pero la decisión final es del médico.
 
 
 
@@ -7100,3 +8353,4 @@ No. En el examen real SIMO, una vez seleccionas una opción y avanzas, NO puedes
 -----------------------------------
 
 fraseExperto: 💡 Modo Estudio: Aprendes el contenido sin presión, con feedback inmediato. Modo Simulacro: Entrenas tu velocidad, resistencia y conocimiento con tiempo límite y puntaje real. Usa ambos para estar completamente preparado para el concurso SIMO.
+
