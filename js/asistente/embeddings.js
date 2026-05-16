@@ -1,15 +1,48 @@
 // js/asistente/embeddings.js
-// Versión OPTIMIZADA - Usa embeddings pre-calculados
+// Versión OPTIMIZADA - Usa embeddings pre-calculados (soporta float16)
 // Solo calcula embedding de la pregunta del usuario
 
 import { pipeline, env } from 'https://cdn.jsdelivr.net/npm/@xenova/transformers@2.7.0';
 
 env.allowRemoteModels = true;
 
-let faqs = [];
+let faqs = [];          // Array de objetos con pregunta, respuesta, embedding (Float32Array)
 let modeloListo = false;
 let colaDeEspera = [];
 let queryModel = null;
+
+// ============================================
+// CONVERSIÓN float16 (bits) -> float32
+// ============================================
+function float16BitsToFloat32(bits) {
+    let s = (bits >> 15) & 0x1;
+    let e = (bits >> 10) & 0x1F;
+    let m = bits & 0x3FF;
+    
+    if (e === 0) {
+        // denormal or zero
+        if (m === 0) return s === 0 ? 0 : -0;
+        let value = m / 1024.0;
+        return s === 0 ? value * Math.pow(2, -14) : -value * Math.pow(2, -14);
+    } else if (e === 0x1F) {
+        // NaN or Inf
+        if (m === 0) return s === 0 ? Infinity : -Infinity;
+        return NaN;
+    } else {
+        let exponent = e - 15;
+        let mantissa = m / 1024.0;
+        let value = (1 + mantissa) * Math.pow(2, exponent);
+        return s === 0 ? value : -value;
+    }
+}
+
+function convertirEmbeddingF16aF32(uint16Array) {
+    const float32 = new Float32Array(uint16Array.length);
+    for (let i = 0; i < uint16Array.length; i++) {
+        float32[i] = float16BitsToFloat32(uint16Array[i]);
+    }
+    return float32;
+}
 
 // ============================================
 // POPUP DE CARGA
@@ -49,7 +82,7 @@ function ocultarPopupCarga() {
 }
 
 // ============================================
-// CARGAR EMBEDDINGS PRE-CALCULADOS
+// CARGAR EMBEDDINGS PRE-CALCULADOS (soporta float16 y legacy)
 // ============================================
 async function cargarEmbeddings() {
     mostrarPopupCarga();
@@ -66,20 +99,35 @@ async function cargarEmbeddings() {
     }, 100);
     
     const response = await fetch('datos/faqs_embeddings.json?t=' + Date.now());
-
-    /*const response = await fetch('datos/faqs_embeddings.json', {
-        cache: 'force-cache'
-    });*/
-    
     const data = await response.json();
     
     clearInterval(interval);
     
-    faqs = data;
+    // Detectar formato
+    if (data.version === 'float16') {
+        // Nuevo formato: { version: "float16", embeddings: [ { pregunta, respuesta, embedding_f16 } ] }
+        console.log('✅ Detectado formato float16, convirtiendo vectores...');
+        faqs = data.embeddings.map(item => ({
+            pregunta: item.pregunta,
+            respuesta: item.respuesta,
+            embedding: convertirEmbeddingF16aF32(item.embedding_f16)
+        }));
+    } else if (Array.isArray(data)) {
+        // Formato legacy: array directo con embedding en float32
+        console.log('✅ Detectado formato legacy (float32)');
+        faqs = data.map(item => ({
+            pregunta: item.pregunta,
+            respuesta: item.respuesta,
+            embedding: new Float32Array(item.embedding)   // asegurar Float32Array
+        }));
+    } else {
+        throw new Error('Formato de embeddings no reconocido');
+    }
+    
     modeloListo = true;
     
     actualizarPopup('Asistente listo', 100);
-    console.log(`✅ ${faqs.length} FAQs cargadas (pre-calculadas)`);
+    console.log(`✅ ${faqs.length} FAQs cargadas (${data.version === 'float16' ? 'float16 convertido' : 'float32'})`);
     
     colaDeEspera.forEach(cb => cb());
     colaDeEspera = [];
@@ -100,7 +148,7 @@ async function getQueryModel() {
 }
 
 // ============================================
-// SIMILITUD DE COSENO
+// SIMILITUD DE COSENO (optimizada con Float32Array)
 // ============================================
 function similitudCoseno(vecA, vecB) {
     let productoPunto = 0;
@@ -117,9 +165,6 @@ function similitudCoseno(vecA, vecB) {
     return productoPunto / (Math.sqrt(normaA) * Math.sqrt(normaB));
 }
 
-// ============================================
-// BUSCAR RESPUESTA
-// ============================================
 // ============================================
 // BUSCAR RESPUESTA (con desambiguación)
 // ============================================
@@ -147,7 +192,7 @@ export async function buscarRespuestaTFIDF(preguntaUsuario) {
     const mejor = resultados[0];
     const similitudMax = mejor?.similitud || 0;
     const UMBRAL_CONFIANZA_ALTA = 0.85;
-    const UMBRAL_INCERTIDUMBRE = 0.65;  // entre 0.65 y 0.85 necesita confirmación
+    const UMBRAL_INCERTIDUMBRE = 0.65;
     
     console.log(`🎯 Mejor similitud: ${similitudMax.toFixed(3)}`);
     
@@ -169,7 +214,7 @@ export async function buscarRespuestaTFIDF(preguntaUsuario) {
             respuesta: null,
             necesitaConfirmacion: true,
             tema: mejor.faq.pregunta,
-            respuestaCorrecta: mejor.faq.respuesta,   // guardamos la respuesta por si el usuario dice "sí"
+            respuestaCorrecta: mejor.faq.respuesta,
             similitud: similitudMax
         };
     }

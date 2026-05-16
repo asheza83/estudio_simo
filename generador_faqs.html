@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generador de FAQs con embeddings (faqs_embeddings.json)</title>
+    <title>Generador de FAQs con embeddings (float16) - faqs_embeddings.json</title>
     <style>
-        * {
-            box-sizing: border-box;
-        }
+        * { box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', system-ui, sans-serif;
             background: #f3f6fc;
@@ -23,113 +21,21 @@
             box-shadow: 0 20px 35px -12px rgba(0,0,0,0.1);
             padding: 2rem;
         }
-        h1 {
-            font-size: 1.8rem;
-            margin-bottom: 0.5rem;
-            background: linear-gradient(135deg, #0b3b5f, #1b6b8f);
-            background-clip: text;
-            -webkit-background-clip: text;
-            color: transparent;
-        }
-        .sub {
-            color: #4b5563;
-            margin-bottom: 2rem;
-            border-left: 3px solid #1e6f9f;
-            padding-left: 1rem;
-        }
-        .card {
-            background: #f9fafb;
-            border-radius: 24px;
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-            border: 1px solid #e2e8f0;
-        }
-        label {
-            font-weight: 600;
-            display: block;
-            margin-bottom: 0.5rem;
-            color: #0f2b3d;
-        }
-        input[type="file"] {
-            width: 100%;
-            padding: 0.8rem;
-            border: 2px dashed #cbd5e1;
-            border-radius: 20px;
-            background: #ffffff;
-            cursor: pointer;
-            transition: 0.2s;
-        }
-        input[type="file"]:hover {
-            border-color: #1e6f9f;
-            background: #fefce8;
-        }
-        button {
-            background: #1e6f9f;
-            color: white;
-            border: none;
-            padding: 0.8rem 1.8rem;
-            border-radius: 40px;
-            font-weight: 600;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: 0.2s;
-            margin-top: 1rem;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        button:hover:not(:disabled) {
-            background: #0f4e72;
-            transform: scale(1.02);
-        }
-        button:disabled {
-            background: #94a3b8;
-            cursor: not-allowed;
-        }
-        .progress-area {
-            background: #eef2ff;
-            border-radius: 20px;
-            padding: 1rem;
-            margin: 1rem 0;
-            font-family: monospace;
-            font-size: 0.85rem;
-        }
-        .log {
-            background: #0f172a;
-            color: #a5f3fc;
-            padding: 1rem;
-            border-radius: 16px;
-            max-height: 200px;
-            overflow-y: auto;
-            font-family: monospace;
-            font-size: 0.75rem;
-            white-space: pre-wrap;
-        }
-        .success {
-            color: #065f46;
-            background: #d1fae5;
-            border-radius: 20px;
-            padding: 0.8rem;
-            margin: 1rem 0;
-        }
-        .error {
-            color: #991b1b;
-            background: #fee2e2;
-            border-radius: 20px;
-            padding: 0.8rem;
-            margin: 1rem 0;
-        }
-        hr {
-            margin: 1rem 0;
-            border: none;
-            border-top: 1px solid #e2e8f0;
-        }
-        .footer {
-            font-size: 0.7rem;
-            text-align: center;
-            margin-top: 2rem;
-            color: #6c757d;
-        }
+        h1 { font-size: 1.8rem; margin-bottom: 0.5rem; background: linear-gradient(135deg, #0b3b5f, #1b6b8f); background-clip: text; -webkit-background-clip: text; color: transparent; }
+        .sub { color: #4b5563; margin-bottom: 2rem; border-left: 3px solid #1e6f9f; padding-left: 1rem; }
+        .card { background: #f9fafb; border-radius: 24px; padding: 1.5rem; margin-bottom: 2rem; border: 1px solid #e2e8f0; }
+        label { font-weight: 600; display: block; margin-bottom: 0.5rem; color: #0f2b3d; }
+        input[type="file"] { width: 100%; padding: 0.8rem; border: 2px dashed #cbd5e1; border-radius: 20px; background: #ffffff; cursor: pointer; transition: 0.2s; }
+        input[type="file"]:hover { border-color: #1e6f9f; background: #fefce8; }
+        button { background: #1e6f9f; color: white; border: none; padding: 0.8rem 1.8rem; border-radius: 40px; font-weight: 600; font-size: 1rem; cursor: pointer; transition: 0.2s; margin-top: 1rem; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        button:hover:not(:disabled) { background: #0f4e72; transform: scale(1.02); }
+        button:disabled { background: #94a3b8; cursor: not-allowed; }
+        .progress-area { background: #eef2ff; border-radius: 20px; padding: 1rem; margin: 1rem 0; font-family: monospace; font-size: 0.85rem; }
+        .log { background: #0f172a; color: #a5f3fc; padding: 1rem; border-radius: 16px; max-height: 200px; overflow-y: auto; font-family: monospace; font-size: 0.75rem; white-space: pre-wrap; }
+        .success { color: #065f46; background: #d1fae5; border-radius: 20px; padding: 0.8rem; margin: 1rem 0; }
+        .error { color: #991b1b; background: #fee2e2; border-radius: 20px; padding: 0.8rem; margin: 1rem 0; }
+        .footer { font-size: 0.7rem; text-align: center; margin-top: 2rem; color: #6c757d; }
     </style>
-    <!-- Importamos Transformers.js desde CDN -->
     <script type="importmap">
         {
             "imports": {
@@ -140,20 +46,16 @@
 </head>
 <body>
 <div class="container">
-    <h1>📚 Generador de FAQs Vectorizadas</h1>
-    <div class="sub">Carga un archivo <code>faqs.txt</code> con preguntas y respuestas → obtendrás <code>faqs_embeddings.json</code> listo para usar en ESTUDIO SIMO.</div>
+    <h1>📚 Generador de FAQs Vectorizadas (float16)</h1>
+    <div class="sub">Carga <code>faqs.txt</code> → obtendrás <code>faqs_embeddings.json</code> con embeddings en <strong>float16</strong> (mitad de tamaño).</div>
 
     <div class="card">
         <label>📂 1. Selecciona tu archivo faqs.txt</label>
         <input type="file" id="fileInput" accept=".txt,.text/plain">
         <p style="font-size:0.8rem; margin-top:0.5rem; color:#4b5563">
-            Formato esperado:<br>
-            <strong>Pregunta:</strong> ¿Qué es ESTUDIO SIMO?<br>
-            <strong>Respuesta:</strong> Es una herramienta gratuita...<br>
-            (separar cada par pregunta/respuesta con una línea en blanco o simplemente una por línea intercalada)<br>
-            Ejemplo: pregunta en una línea, respuesta en la siguiente línea, luego otra pregunta, etc.
+            Formato: pregunta en una línea, respuesta en la siguiente, opcional línea en blanco entre pares.
         </p>
-        <button id="generateBtn" disabled>⚙️ Generar embeddings y descargar JSON</button>
+        <button id="generateBtn" disabled>⚙️ Generar embeddings (float16) y descargar JSON</button>
     </div>
 
     <div id="statusArea" class="progress-area" style="display: none;">
@@ -163,35 +65,102 @@
 
     <div id="downloadSection" style="display: none;"></div>
     <div class="footer">
-        ⚡ Usa el modelo <strong>Xenova/all-MiniLM-L6-v2</strong> (384 dimensiones). Los embeddings se calculan EN tu navegador.<br>
-        No se envía ningún dato a servidores. Procesa ~10-20 preguntas por segundo (según tu PC).
+        ⚡ Modelo <strong>Xenova/all-MiniLM-L6-v2</strong> (384 dims). Los embeddings se convierten a float16.<br>
+        ✅ <strong>Importante:</strong> El archivo JSON generado incluye una propiedad <code>"version": "float16"</code> y los vectores están empaquetados como <code>Uint16Array</code>. Tu asistente necesitará la función de descompresión (incluida en la documentación).
     </div>
 </div>
 
 <script type="module">
     import { pipeline, env } from '@xenova/transformers';
 
-    // Configuración opcional: mostrar progreso de descarga del modelo
     env.localModelPath = 'https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.0/dist/models/';
     env.backends.onnx.wasm.proxy = false;
     
-    // Elementos DOM
+    // ---- Funciones de conversión float32 <-> float16 (IEEE 754 binary16) ----
+    // Convierte un número float32 a su representación entera de 16 bits (0-65535)
+    function float32ToFloat16Bits(value) {
+        let f32 = new Float32Array(1);
+        f32[0] = value;
+        let u32 = new Uint32Array(f32.buffer)[0];
+        let sign = (u32 >> 31) & 0x1;
+        let exponent = (u32 >> 23) & 0xFF;
+        let mantissa = u32 & 0x7FFFFF;
+        
+        let halfSign = sign << 15;
+        let halfExp, halfMant;
+        
+        if (exponent === 0xFF) { // NaN or Inf
+            halfExp = 0x1F;
+            halfMant = mantissa === 0 ? 0 : 0x200;
+        } else if (exponent === 0) { // denormal or zero
+            halfExp = 0;
+            halfMant = Math.round(mantissa / (1 << 13));
+        } else {
+            let newExp = exponent - 127 + 15;
+            if (newExp >= 0x1F) { // overflow to Inf
+                halfExp = 0x1F;
+                halfMant = 0;
+            } else if (newExp <= 0) { // underflow to denormal
+                halfExp = 0;
+                halfMant = Math.round((mantissa | 0x800000) / (1 << (24 - newExp)));
+            } else {
+                halfExp = newExp;
+                halfMant = Math.round(mantissa / (1 << 13));
+            }
+        }
+        return (halfSign | (halfExp << 10) | (halfMant & 0x3FF)) & 0xFFFF;
+    }
+    
+    // Convierte un entero de 16 bits (representación float16) a número float32
+    function float16BitsToFloat32(bits) {
+        let s = (bits >> 15) & 0x1;
+        let e = (bits >> 10) & 0x1F;
+        let m = bits & 0x3FF;
+        
+        if (e === 0) {
+            // denormal or zero
+            if (m === 0) return s === 0 ? 0 : -0;
+            let value = m / 1024.0;
+            return s === 0 ? value * Math.pow(2, -14) : -value * Math.pow(2, -14);
+        } else if (e === 0x1F) {
+            // NaN or Inf
+            if (m === 0) return s === 0 ? Infinity : -Infinity;
+            return NaN;
+        } else {
+            let exponent = e - 15;
+            let mantissa = m / 1024.0;
+            let value = (1 + mantissa) * Math.pow(2, exponent);
+            return s === 0 ? value : -value;
+        }
+    }
+    
+    // Convierte un array de float32 a un array de enteros uint16 (bits de float16)
+    function convertFloat32ArrayToUint16(float32Array) {
+        const uint16Array = new Uint16Array(float32Array.length);
+        for (let i = 0; i < float32Array.length; i++) {
+            uint16Array[i] = float32ToFloat16Bits(float32Array[i]);
+        }
+        return Array.from(uint16Array); // Devuelve array plano para JSON
+    }
+    
+    // ---- Fin funciones conversión ----
+    
+    let extractor = null;
+    let modelLoading = false;
+    
     const fileInput = document.getElementById('fileInput');
     const generateBtn = document.getElementById('generateBtn');
     const statusArea = document.getElementById('statusArea');
     const progressText = document.getElementById('progressText');
     const logArea = document.getElementById('logArea');
     const downloadSection = document.getElementById('downloadSection');
-
-    let extractor = null;  // pipeline de embeddings
-    let modelLoading = false;
-
+    
     function addLog(msg, isError = false) {
         const prefix = isError ? '❌ ' : '✅ ';
         logArea.innerHTML += prefix + msg + '\n';
         logArea.scrollTop = logArea.scrollHeight;
     }
-
+    
     async function loadModel() {
         if (extractor) return extractor;
         if (modelLoading) {
@@ -204,7 +173,6 @@
         progressText.innerText = 'Descargando modelo (aprox 70MB) ... puede tardar unos segundos la primera vez.';
         addLog('Cargando modelo Xenova/all-MiniLM-L6-v2 ...');
         try {
-            // Usamos feature-extraction pipeline
             extractor = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
             addLog('Modelo listo ✅');
             progressText.innerText = 'Modelo cargado. Ahora selecciona un archivo .txt';
@@ -216,30 +184,24 @@
             throw err;
         }
     }
-
-    // Función para normalizar embedding (opcional, pero lo dejamos como array plano)
+    
     async function getEmbedding(text) {
         if (!extractor) throw new Error('Modelo no disponible');
         const result = await extractor(text, { pooling: 'mean', normalize: true });
-        // result es un tensor, lo convertimos a array plano
+        // result es un tensor, lo convertimos a array float32
         const embedding = Array.from(result.data);
-        return embedding;
+        return embedding; // array de float32
     }
-
-    // Parsea el archivo .txt con formato: pregunta, luego respuesta, luego pregunta...
-    // Soporta dos formatos:
-    // 1) Líneas alternas: pregunta\nrespuesta\npregunta\nrespuesta...
-    // 2) Separación con línea en blanco.
+    
     function parseFAQText(content) {
         const lines = content.split(/\r?\n/);
         const items = [];
         let currentQuestion = null;
         let currentAnswer = null;
-
+    
         for (let i = 0; i < lines.length; i++) {
             let line = lines[i].trim();
             if (line === '') {
-                // línea vacía: si tenemos pregunta y respuesta pendientes, las guardamos
                 if (currentQuestion && currentAnswer) {
                     items.push({ pregunta: currentQuestion, respuesta: currentAnswer });
                     currentQuestion = null;
@@ -247,23 +209,13 @@
                 }
                 continue;
             }
-            // Si no tenemos pregunta, esta línea es la pregunta
             if (currentQuestion === null) {
                 currentQuestion = line;
             } else if (currentAnswer === null) {
                 currentAnswer = line;
-                // si después de esto no hay línea en blanco, lo guardamos igual (por si el archivo no tiene saltos)
-                // pero esperamos al siguiente ciclo para ver si hay vacío. Sin embargo, también puede ser que el archivo no use líneas vacías.
-                // Para ser flexible: si la siguiente línea existe y no está vacía, significa que la respuesta puede tener múltiples líneas?
-                // Para simplificar, tomamos la línea actual como respuesta completa. Mejor usamos un método más robusto:
-                // Acumulamos respuestas multilínea?  Mejor asumir que respuesta está en una sola línea.
-                // Si la respuesta tiene varias líneas, se podría unir, pero para este caso típico es una línea.
-                // Guardamos el par inmediatamente?  Pero eso rompería si la respuesta tiene más líneas.
-                // Vamos a guardar después de leer la línea de respuesta y esperar la siguiente línea vacía o nueva pregunta.
-                // Lo dejamos así: almacenamos al encontrar línea vacía o al final.
+                // No guardamos aún, esperamos línea vacía o final
             }
         }
-        // Al final del archivo, si queda par sin guardar
         if (currentQuestion && currentAnswer) {
             items.push({ pregunta: currentQuestion, respuesta: currentAnswer });
         } else if (currentQuestion && !currentAnswer) {
@@ -271,10 +223,9 @@
         }
         return items;
     }
-
-    // Generar JSON con embeddings
+    
     async function generateEmbeddingsFromItems(items) {
-        const faqsWithEmbeddings = [];
+        const faqsWithFloat16 = [];
         const total = items.length;
         for (let idx = 0; idx < total; idx++) {
             const item = items[idx];
@@ -283,24 +234,22 @@
             progressText.innerText = `Procesando ${idx+1}/${total}: "${pregunta.substring(0, 50)}..."`;
             addLog(`🔍 Calculando embedding para: ${pregunta.substring(0, 60)}`);
             try {
-                const embedding = await getEmbedding(pregunta);
-                faqsWithEmbeddings.push({
+                const embeddingFloat32 = await getEmbedding(pregunta);
+                const embeddingUint16 = convertFloat32ArrayToUint16(embeddingFloat32);
+                faqsWithFloat16.push({
                     pregunta: pregunta,
                     respuesta: respuesta,
-                    embedding: embedding
+                    embedding_f16: embeddingUint16   // array de enteros (0-65535)
                 });
             } catch (e) {
                 addLog(`❌ Error con pregunta: ${pregunta} -> ${e.message}`, true);
-                // opcional: continuar con un vector de ceros? mejor no.
                 throw e;
             }
-            // pequeña pausa para no saturar UI
             await new Promise(r => setTimeout(r, 10));
         }
-        return faqsWithEmbeddings;
+        return faqsWithFloat16;
     }
-
-    // Descargar JSON
+    
     function downloadJSON(data, filename = 'faqs_embeddings.json') {
         const jsonStr = JSON.stringify(data, null, 2);
         const blob = new Blob([jsonStr], { type: 'application/json' });
@@ -313,8 +262,7 @@
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
     }
-
-    // Manejar el archivo cargado
+    
     fileInput.addEventListener('change', async (e) => {
         const file = e.target.files[0];
         if (!file) {
@@ -323,51 +271,46 @@
             return;
         }
         generateBtn.disabled = false;
-        // limpiar área de descarga previa
         downloadSection.innerHTML = '';
         downloadSection.style.display = 'none';
         
-        // Leer contenido
         const reader = new FileReader();
         reader.onload = async (ev) => {
             const content = ev.target.result;
-            // Parsear preguntas/respuestas
             const items = parseFAQText(content);
             if (items.length === 0) {
                 alert('No se encontraron pares pregunta/respuesta válidos en el archivo. Revisa el formato.');
                 return;
             }
             addLog(`📄 Archivo cargado: ${items.length} preguntas encontradas.`);
-            
-            // Cargar modelo si no está listo
             try {
                 await loadModel();
             } catch(err) {
                 alert('No se pudo cargar el modelo de IA. Revisa tu conexión o recarga la página.');
                 return;
             }
-            
-            // Mostrar área de progreso
             statusArea.style.display = 'block';
             generateBtn.disabled = true;
-            
             try {
-                const faqsWithEmbeddings = await generateEmbeddingsFromItems(items);
-                addLog(`✨ Generados ${faqsWithEmbeddings.length} embeddings correctamente.`);
+                const faqsWithFloat16 = await generateEmbeddingsFromItems(items);
+                // Incluir versión para que el asistente sepa que debe descomprimir
+                const outputData = {
+                    version: "float16",
+                    embeddings: faqsWithFloat16
+                };
+                addLog(`✨ Generados ${faqsWithFloat16.length} embeddings en formato float16.`);
                 progressText.innerText = '¡Proceso completado! Haz clic para descargar.';
-                
-                // Mostrar botón de descarga
                 downloadSection.style.display = 'block';
                 downloadSection.innerHTML = `
                     <div class="success">
-                        🎉 ¡Éxito! Se generaron ${faqsWithEmbeddings.length} preguntas vectorizadas.
+                        🎉 ¡Éxito! Se generaron ${faqsWithFloat16.length} preguntas con vectores float16.
                         <br><br>
                         <button id="downloadBtn">📥 Descargar faqs_embeddings.json</button>
                     </div>
                 `;
                 const downloadBtn = document.getElementById('downloadBtn');
                 downloadBtn.addEventListener('click', () => {
-                    downloadJSON(faqsWithEmbeddings, 'faqs_embeddings.json');
+                    downloadJSON(outputData, 'faqs_embeddings.json');
                 });
                 generateBtn.disabled = false;
             } catch (err) {
@@ -378,10 +321,8 @@
         };
         reader.readAsText(file, 'UTF-8');
     });
-
-    // Precargar el modelo silenciosamente cuando la página esté lista? No, para no consumir recursos innecesarios hasta que se cargue archivo.
-    // Pero mostramos un mensaje de que el modelo se cargará al elegir el archivo.
-    addLog('Esperando archivo .txt... El modelo se descargará automáticamente al procesar.');
+    
+    addLog('Esperando archivo .txt... El modelo se descargará al procesar.');
 </script>
 </body>
 </html>
