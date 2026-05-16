@@ -9,45 +9,6 @@ let conocimientoData = getConocimientoData();
 let mensajeBienvenida = null;
 
 // ============================================
-// FUNCIÓN PARA LIMPIAR EL TEMA DE LA CONTRAPREGUNTA
-// ============================================
-function limpiarTemaParaContrapregunta(tema) {
-    if (!tema) return "ese tema";
-    
-    let limpio = tema.trim();
-    let minusculas = limpio.toLowerCase();
-    
-    const muletillas = [
-        "oye,", "oye ", "parce,", "parce ", "pana,", "pana ",
-        "mi hermano,", "mi hermano ", "hermano ", "entonces,", "entonces ",
-        "una duda,", "una duda ", "a ver,", "a ver ", "cuéntame,", "cuéntame ",
-        "dime,", "dime ", "o sea,", "o sea ", "bueno,", "bueno ",
-        "pues,", "pues ", "mira,", "mira ", "parcero,", "parcero "
-    ];
-    for (const m of muletillas) {
-        if (minusculas.startsWith(m)) {
-            limpio = limpio.slice(m.length).trim();
-            break;
-        }
-    }
-    
-    // Eliminar solo los signos de apertura ¿ (no los de cierre ?)
-    limpio = limpio.replace(/¿/g, "");
-    
-    // Capitalizar primera letra
-    if (limpio.length > 0) {
-        limpio = limpio.charAt(0).toUpperCase() + limpio.slice(1);
-    }
-    
-    // Si es muy largo (>80), truncar y añadir "..."
-    if (limpio.length > 80) {
-        limpio = limpio.substring(0, 77) + "...";
-    }
-    
-    return limpio;
-}
-
-// ============================================
 // CARGAR BIENVENIDA DESDE FAQS.TXT
 // ============================================
 async function cargarBienvenida() {
@@ -141,9 +102,15 @@ export async function procesarPregunta() {
     // --------------------------------------------------
     const resultado = await buscarRespuesta(textoUsuario);
     
+    // LOGS PARA DEPURACIÓN
+    console.log('📦 resultado.tema recibido:', resultado.tema);
+    
     if (resultado.necesitaConfirmacion) {
-        // Limpiar el tema para la contrapregunta
-        const temaLimpio = limpiarTemaParaContrapregunta(resultado.tema);
+        // El tema ya viene limpio desde embeddings.js
+        const temaLimpio = resultado.tema;
+        
+        // LOGS PARA DEPURACIÓN
+        console.log('🧹 temaLimpio (ya viene limpio de embeddings):', temaLimpio);
         
         // Guardar estado y preguntar al usuario
         estadoConfirmacion.activo = true;

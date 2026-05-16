@@ -6,13 +6,13 @@ import { pipeline, env } from 'https://cdn.jsdelivr.net/npm/@xenova/transformers
 
 env.allowRemoteModels = true;
 
-let faqs = [];          // Array de objetos con pregunta, respuesta, embedding (Float32Array)
+let faqs = [];
 let modeloListo = false;
 let colaDeEspera = [];
 let queryModel = null;
 
 // ============================================
-// CONVERSIÓN float16 (bits) -> float32
+// CONVERSIÓN float16 -> float32
 // ============================================
 function float16BitsToFloat32(bits) {
     let s = (bits >> 15) & 0x1;
@@ -43,13 +43,48 @@ function convertirEmbeddingF16aF32(uint16Array) {
 }
 
 // ============================================
-// CARGAR EMBEDDINGS PRE-CALCULADOS (soporta float16 y legacy)
+// LIMPIAR TEMA (eliminar ¿ y muletillas)
+// ============================================
+function limpiarTema(tema) {
+    if (!tema) return tema;
+    
+    let limpio = tema.trim();
+    
+    // 1. Primero eliminar signos ¿ (para que las muletillas queden al inicio)
+    limpio = limpio.replace(/¿/g, "");
+    
+    // 2. Eliminar muletillas comunes al inicio
+    const muletillas = [
+        "oye,", "oye ", "parce,", "parce ", "pana,", "pana ",
+        "mi hermano,", "mi hermano ", "hermano ", "entonces,", "entonces ",
+        "una duda,", "una duda ", "a ver,", "a ver ", "cuéntame,", "cuéntame ",
+        "dime,", "dime ", "o sea,", "o sea ", "bueno,", "bueno ",
+        "pues,", "pues ", "mira,", "mira ", "parcero,", "parcero "
+    ];
+    
+    const minusculas = limpio.toLowerCase();
+    for (const m of muletillas) {
+        if (minusculas.startsWith(m)) {
+            limpio = limpio.slice(m.length).trim();
+            break;
+        }
+    }
+    
+    // Capitalizar primera letra
+    if (limpio.length > 0) {
+        limpio = limpio.charAt(0).toUpperCase() + limpio.slice(1);
+    }
+    
+    return limpio;
+}
+
+// ============================================
+// CARGAR EMBEDDINGS
 // ============================================
 async function cargarEmbeddings() {
     console.log('🔍 Cargando embeddings pre-calculados en segundo plano...');
     
     const response = await fetch('datos/faqs_embeddings.json');
-    //const response = await fetch('datos/faqs_embeddings.json?t=' + Date.now());
     const data = await response.json();
     
     if (data.version === 'float16') {
@@ -78,7 +113,7 @@ async function cargarEmbeddings() {
 }
 
 // ============================================
-// CARGAR MODELO PARA PREGUNTAS (solo una vez)
+// CARGAR MODELO MINILM
 // ============================================
 async function getQueryModel() {
     if (!queryModel) {
@@ -143,7 +178,7 @@ export async function buscarRespuestaTFIDF(preguntaUsuario) {
         return {
             respuesta: mejor.faq.respuesta,
             necesitaConfirmacion: false,
-            tema: mejor.faq.pregunta,
+            tema: limpiarTema(mejor.faq.pregunta),
             similitud: similitudMax
         };
     }
@@ -153,7 +188,7 @@ export async function buscarRespuestaTFIDF(preguntaUsuario) {
         return {
             respuesta: null,
             necesitaConfirmacion: true,
-            tema: mejor.faq.pregunta,
+            tema: limpiarTema(mejor.faq.pregunta),
             respuestaCorrecta: mejor.faq.respuesta,
             similitud: similitudMax
         };
