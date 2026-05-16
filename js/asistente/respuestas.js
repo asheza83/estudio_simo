@@ -28,7 +28,20 @@ const VERBOS_ACCION = [
     'notificar',        // notificaciones
     'recordar',         // recordatorios
     'suscribir',        // suscripciones
-    'invitar'           // invitar amigos
+    'invitar',           // invitar amigos
+    // NUEVOS (de la última prueba)
+    'corregir',      // para corregir errores ortográficos
+    'estudiar',      // para chat grupal
+    'seguir',        // para seguir usuarios
+    'entrenar',      // para entrenar al asistente
+    'marcar',        // para marcar preguntas favoritas
+    'practicar',     // para modo práctica
+    'práctica',      // variante con acento
+    'lotes',         // para preguntas por lotes
+    'gamificar',     // para gamificación
+    'puntuar',       // para puntos y niveles
+    'competir',      // para competir con otros
+    'correo'         // para envío de correos
 ];
 
 // Excepciones: verbos de acción que SÍ corresponden a funcionalidades existentes
