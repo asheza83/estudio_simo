@@ -20,12 +20,10 @@ function float16BitsToFloat32(bits) {
     let m = bits & 0x3FF;
     
     if (e === 0) {
-        // denormal or zero
         if (m === 0) return s === 0 ? 0 : -0;
         let value = m / 1024.0;
         return s === 0 ? value * Math.pow(2, -14) : -value * Math.pow(2, -14);
     } else if (e === 0x1F) {
-        // NaN or Inf
         if (m === 0) return s === 0 ? Infinity : -Infinity;
         return NaN;
     } else {
@@ -45,67 +43,16 @@ function convertirEmbeddingF16aF32(uint16Array) {
 }
 
 // ============================================
-// POPUP DE CARGA
-// ============================================
-function mostrarPopupCarga() {
-    const overlay = document.getElementById('loader-overlay');
-    if (overlay) {
-        overlay.style.display = 'flex';
-        document.body.style.overflow = 'hidden';
-        document.body.style.pointerEvents = 'none';
-    }
-}
-
-function actualizarPopup(texto, porcentaje) {
-    const mensaje = document.getElementById('loader-mensaje');
-    const barra = document.getElementById('loader-progress-bar');
-    const porcentajeSpan = document.getElementById('loader-porcentaje');
-    
-    if (mensaje) mensaje.textContent = texto;
-    if (barra) barra.style.width = `${porcentaje}%`;
-    if (porcentajeSpan) porcentajeSpan.textContent = `${porcentaje}%`;
-    
-    console.log(`📊 ${texto} ${porcentaje}%`);
-}
-
-function ocultarPopupCarga() {
-    const overlay = document.getElementById('loader-overlay');
-    if (overlay) {
-        overlay.style.opacity = '0';
-        setTimeout(() => {
-            overlay.style.display = 'none';
-            overlay.style.opacity = '1';
-            document.body.style.overflow = '';
-            document.body.style.pointerEvents = '';
-        }, 500);
-    }
-}
-
-// ============================================
 // CARGAR EMBEDDINGS PRE-CALCULADOS (soporta float16 y legacy)
 // ============================================
 async function cargarEmbeddings() {
-    mostrarPopupCarga();
-    actualizarPopup('Cargando base de conocimiento...', 0);
+    console.log('🔍 Cargando embeddings pre-calculados en segundo plano...');
     
-    console.log('🔍 Cargando embeddings pre-calculados...');
-    
-    let progreso = 0;
-    const interval = setInterval(() => {
-        if (progreso < 90) {
-            progreso += 15;
-            actualizarPopup('Cargando base de conocimiento...', progreso);
-        }
-    }, 100);
-    
-    const response = await fetch('datos/faqs_embeddings.json?t=' + Date.now());
+    const response = await fetch('datos/faqs_embeddings.json');
+    //const response = await fetch('datos/faqs_embeddings.json?t=' + Date.now());
     const data = await response.json();
     
-    clearInterval(interval);
-    
-    // Detectar formato
     if (data.version === 'float16') {
-        // Nuevo formato: { version: "float16", embeddings: [ { pregunta, respuesta, embedding_f16 } ] }
         console.log('✅ Detectado formato float16, convirtiendo vectores...');
         faqs = data.embeddings.map(item => ({
             pregunta: item.pregunta,
@@ -113,26 +60,21 @@ async function cargarEmbeddings() {
             embedding: convertirEmbeddingF16aF32(item.embedding_f16)
         }));
     } else if (Array.isArray(data)) {
-        // Formato legacy: array directo con embedding en float32
         console.log('✅ Detectado formato legacy (float32)');
         faqs = data.map(item => ({
             pregunta: item.pregunta,
             respuesta: item.respuesta,
-            embedding: new Float32Array(item.embedding)   // asegurar Float32Array
+            embedding: new Float32Array(item.embedding)
         }));
     } else {
         throw new Error('Formato de embeddings no reconocido');
     }
     
     modeloListo = true;
-    
-    actualizarPopup('Asistente listo', 100);
     console.log(`✅ ${faqs.length} FAQs cargadas (${data.version === 'float16' ? 'float16 convertido' : 'float32'})`);
     
     colaDeEspera.forEach(cb => cb());
     colaDeEspera = [];
-    
-    setTimeout(ocultarPopupCarga, 1000);
 }
 
 // ============================================
@@ -148,7 +90,7 @@ async function getQueryModel() {
 }
 
 // ============================================
-// SIMILITUD DE COSENO (optimizada con Float32Array)
+// SIMILITUD DE COSENO
 // ============================================
 function similitudCoseno(vecA, vecB) {
     let productoPunto = 0;
@@ -166,7 +108,7 @@ function similitudCoseno(vecA, vecB) {
 }
 
 // ============================================
-// BUSCAR RESPUESTA (con desambiguación)
+// BUSCAR RESPUESTA
 // ============================================
 export async function buscarRespuestaTFIDF(preguntaUsuario) {
     if (!modeloListo) {
@@ -196,7 +138,6 @@ export async function buscarRespuestaTFIDF(preguntaUsuario) {
     
     console.log(`🎯 Mejor similitud: ${similitudMax.toFixed(3)}`);
     
-    // Caso 1: confianza alta → responder directamente
     if (similitudMax >= UMBRAL_CONFIANZA_ALTA) {
         console.log(`✅ Respuesta directa: "${mejor.faq.respuesta}"`);
         return {
@@ -207,7 +148,6 @@ export async function buscarRespuestaTFIDF(preguntaUsuario) {
         };
     }
     
-    // Caso 2: zona de incertidumbre → preguntar al usuario
     if (similitudMax >= UMBRAL_INCERTIDUMBRE && similitudMax < UMBRAL_CONFIANZA_ALTA) {
         console.log(`⚠️ Zona gris (${similitudMax.toFixed(3)}). Preguntando confirmación sobre: "${mejor.faq.pregunta}"`);
         return {
@@ -219,7 +159,6 @@ export async function buscarRespuestaTFIDF(preguntaUsuario) {
         };
     }
     
-    // Caso 3: similitud muy baja
     console.log(`❌ Sin respuesta clara (máx: ${similitudMax.toFixed(3)})`);
     return {
         respuesta: "No estoy seguro de haber entendido tu pregunta. ¿Podrías ser más específico?",

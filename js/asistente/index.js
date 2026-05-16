@@ -5,10 +5,12 @@
 import { cargarConocimiento } from './datos.js';
 import { toggleAsistente, procesarPregunta } from './core.js';
 
-// Inicializar asistente
+// Inicializar asistente (sin bloquear)
 export async function initAsistente() {
-    await cargarConocimiento();
+    // Iniciar carga en segundo plano (NO esperar)
+    cargarConocimiento();
     
+    // Asignar eventos inmediatamente
     const btnPC = document.getElementById('asistente-btn');
     if (btnPC) btnPC.onclick = toggleAsistente;
     
