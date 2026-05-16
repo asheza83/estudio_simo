@@ -1,7 +1,7 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "fecha_actualizacion": "2026-05-15",
-  "descripcion": "Lista de funcionalidades existentes en ESTUDIO SIMO. El asistente la usa para responder si una funcionalidad específica está disponible.",
+  "descripcion": "Lista completa de funcionalidades existentes en ESTUDIO SIMO, basada en el manual de usuario y la estructura de navegación.",
   "funcionalidades_por_seccion": {
     "estudio_simo": {
       "nombre": "Pestaña Estudio SIMO",
@@ -49,6 +49,10 @@
         "boton_subir_dentro_popup": {
           "disponible": true,
           "descripcion": "Si el artículo es largo, aparece un botón Subir dentro del popup"
+        },
+        "vista_ley_especifica": {
+          "disponible": true,
+          "descripcion": "Al hacer clic en una ley, se abre una vista detallada con botón '← Volver a normas', título, texto breve, buscador específico y lista de artículos relevantes"
         }
       },
       "casos_practicos": {
@@ -59,6 +63,10 @@
         "respuesta_orientativa": {
           "disponible": true,
           "descripcion": "Botón 'Ver respuesta orientativa' que despliega explicación"
+        },
+        "ocultar_respuesta": {
+          "disponible": true,
+          "descripcion": "Botón 'Ocultar respuesta' para cerrar la respuesta desplegada"
         }
       }
     },
@@ -72,7 +80,11 @@
           "4 intentos por pregunta",
           "feedback inmediato con explicación",
           "5 preguntas por examen"
-        ]
+        ],
+        "boton_verificar": {
+          "disponible": true,
+          "descripcion": "Botón VERIFICAR en Modo Estudio, se activa al seleccionar una opción"
+        }
       },
       "modo_simulacro": {
         "disponible": true,
@@ -83,24 +95,32 @@
           "sin feedback durante el examen",
           "puntaje SIMO al final",
           "exportar resultados a PDF"
-        ]
+        ],
+        "boton_siguiente": {
+          "disponible": true,
+          "descripcion": "Botón SIGUIENTE en Modo Simulacro, avanza sin feedback"
+        }
       },
       "selectores_competencia": {
         "disponible": true,
-        "descripcion": "Selectores anidados para elegir tipo de competencia y subcategoría",
+        "descripcion": "Selectores anidados para elegir tipo de competencia y subcategoría (solo en Modo Estudio)",
         "tipos": ["funcionales", "básicas", "comportamentales"]
       },
       "temporizador_global": {
         "disponible": true,
-        "descripcion": "Barra de tiempo con colores: verde (>50%), amarillo (20-50%), rojo (<20%). Últimos 5 segundos parpadean"
+        "descripcion": "Barra de tiempo con colores: verde (>50%), amarillo (20-50%), rojo (<20%). Los últimos 5 segundos parpadean."
+      },
+      "barra_progreso_tiempo": {
+        "disponible": true,
+        "descripcion": "Barra horizontal que se reduce visualmente junto con el temporizador"
       },
       "boton_cancelar_examen": {
         "disponible": true,
-        "descripcion": "Borra todo el progreso y vuelve a selección de competencias"
+        "descripcion": "Borra todo el progreso y vuelve a selección de competencias. En Simulacro pide confirmación."
       },
       "tabla_resultados": {
         "disponible": true,
-        "descripcion": "Muestra puntaje SIMO (%), aciertos vs total, corte 70/100, APROBÓ/REPROBÓ"
+        "descripcion": "Muestra puntaje SIMO (%), aciertos vs total, corte 70/100, APROBÓ/REPROBÓ, resumen de actividad"
       },
       "ver_preguntas_falladas": {
         "disponible": true,
@@ -110,11 +130,15 @@
       "exportar_pdf": {
         "disponible": true,
         "solo_simulacro": true,
-        "descripcion": "Descarga PDF con puntaje, tiempos y preguntas falladas"
+        "descripcion": "Descarga PDF con puntaje, tiempos, preguntas falladas y respuestas correctas"
       },
       "repetir_examen": {
         "disponible": true,
-        "descripcion": "Carga preguntas diferentes (aleatorias) del mismo banco"
+        "descripcion": "Carga preguntas diferentes (aleatorias) del mismo banco y reinicia el examen"
+      },
+      "cambiar_competencia": {
+        "disponible": true,
+        "descripcion": "Termina el examen, borra progreso y vuelve a la pantalla de selección de modo y competencia"
       },
       "guardar_progreso": {
         "disponible": true,
@@ -125,12 +149,16 @@
       "nombre": "Pestaña Glosario",
       "buscador": {
         "disponible": true,
-        "descripcion": "Busca términos escritos (mínimo 3 letras)",
+        "descripcion": "Busca términos escritos (mínimo 3 letras). Las coincidencias se resaltan en amarillo. La página se desplaza automáticamente a los resultados.",
         "caracteristicas": [
           "mínimo 3 letras",
-          "resaltado amarillo de coincidencias",
-          "desplazamiento automático a resultados"
+          "resaltado amarillo",
+          "desplazamiento automático"
         ]
+      },
+      "resaltado_amarillo": {
+        "disponible": true,
+        "descripcion": "Las palabras que coinciden con la búsqueda se resaltan en amarillo en los resultados"
       },
       "filtros_categoria": {
         "disponible": true,
@@ -148,7 +176,7 @@
       },
       "paginacion": {
         "disponible": true,
-        "descripcion": "10 términos por página con botones Anterior y Siguiente"
+        "descripcion": "10 términos por página con botones Anterior y Siguiente. Indicador de página actual."
       },
       "boton_subir": {
         "disponible": true,
@@ -163,21 +191,24 @@
       },
       "ventana_chat": {
         "disponible": true,
-        "descripcion": "Ventana con historial de conversación, campo de texto, botón Enviar y tecla Enter"
+        "descripcion": "Ventana con historial de conversación (solo sesión actual), campo de texto, botón Enviar y tecla Enter"
       },
       "base_conocimiento": {
         "disponible": true,
-        "descripcion": "Preguntas y respuestas en archivo faqs.txt"
-      },
-      "motor": {
-        "disponible": true,
-        "descripcion": "MiniLM con embeddings pre-calculados (faqs_embeddings.json)"
+        "descripcion": "Preguntas y respuestas en archivo faqs.txt, procesadas con MiniLM"
       },
       "lenguaje_coloquial": {
         "disponible": true,
-        "descripcion": "Entiende lenguaje coloquial colombiano (parce, quiubo, etc.)"
+        "descripcion": "Entiende lenguaje coloquial colombiano (parce, quiubo, qué más, etc.)"
       },
-      "sin_codigo_quemado": true
+      "sin_codigo_quemado": {
+        "disponible": true,
+        "descripcion": "No tiene listas de saludos o respuestas fijas en el código; todo está en la FAQ"
+      },
+      "popup_carga": {
+        "disponible": true,
+        "descripcion": "La primera vez que se abre, muestra una barra de progreso mientras descarga el modelo"
+      }
     },
     "ajustes": {
       "nombre": "Ajustes",
@@ -207,12 +238,12 @@
       "disponible": true,
       "acceso": "Primera vez automático o con botón 📖 Instrucciones",
       "contenido": "Explica las 6 competencias, 3 pestañas y funcionalidades importantes",
-      "comportamiento": "Guarda en localStorage si ya se mostró"
+      "comportamiento": "Guarda en localStorage si ya se mostró. Primera vez: botón oculto hasta scroll completo. Manual: botón visible al final."
     },
     "generales": {
       "offline": {
         "disponible": true,
-        "descripcion": "Si descargas el proyecto completo, funciona sin internet (con archivos JSON)"
+        "descripcion": "Si descargas el proyecto completo, funciona sin internet (siempre que los archivos JSON estén disponibles)"
       },
       "gratuito": {
         "disponible": true,
@@ -229,7 +260,7 @@
     }
   },
   "funcionalidades_no_disponibles": {
-    "nota": "Estas son funcionalidades que los usuarios suelen preguntar pero NO existen en ESTUDIO SIMO",
+    "nota": "Estas son funcionalidades que los usuarios suelen preguntar pero NO existen en ESTUDIO SIMO (según el manual y la estructura actual)",
     "listado": [
       "ordenar casos prácticos por fecha o dificultad",
       "descargar leyes completas en PDF",

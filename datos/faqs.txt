@@ -8648,6 +8648,452 @@ Sí. El glosario está diseñado para cubrir los términos más importantes del 
 ¿Qué términos de la Ley 100 puedo encontrar en el glosario?
 Encontrarás términos como "Sistema General de Seguridad Social en Salud (SGSSS)", "EPS", "IPS", "UPC", "Plan de Beneficios", "cotización", "régimen contributivo", "régimen subsidiado", entre muchos otros.
 
+¿Puedo imprimir una página de ESTUDIO SIMO?
+Sí, puedes usar Ctrl+P (Windows) o Cmd+P (Mac) para imprimir cualquier página que estés viendo. Es una función del navegador, no de la aplicación. La herramienta no tiene un botón de imprimir propio.
+
+¿Cómo imprimo los resultados del examen?
+Puedes usar Ctrl+P en tu navegador para imprimir la pantalla de resultados. También puedes exportar los resultados a PDF en Modo Simulacro y luego imprimir ese archivo.
+
+¿Se puede imprimir la pantalla sin usar el navegador?
+No, la única forma de imprimir es usando las funciones nativas del navegador (Ctrl+P o menú de impresión). La aplicación no tiene un botón de imprimir.
+
+¿En la sección de normas hay un botón para volver al listado de normas?
+Sí. Cada ley tiene un botón "← Volver a normas" en la parte superior. Haz clic allí para regresar al listado completo de las 12 normas.
+
+¿Cómo vuelvo al listado de normas después de ver una ley específica?
+Cada ley tiene un botón "← Volver a normas" en la parte superior izquierda. Haz clic allí y regresas al listado completo de las 12 normas.
+
+¿Dónde está el botón para regresar al listado de todas las normas?
+Cuando estás dentro de una ley (ej. Ley 100), en la parte superior verás un botón azul que dice "← Volver a normas". Ese te lleva de regreso.
+
+¿Hay una forma de salir de una ley y volver a la lista de normas?
+Sí, usa el botón "← Volver a normas" que aparece en la parte superior de cada vista de ley. También puedes usar el botón "Atrás" del navegador, pero el botón de la ley es más directo.
+
+¿Los casos prácticos tienen un botón para ocultar la respuesta orientativa?
+Sí. Cada caso tiene un botón "👁️ Ver respuesta orientativa" para mostrar la explicación, y un botón "🙈 Ocultar respuesta" para cerrarla.
+
+¿Cómo oculto la respuesta después de leerla en un caso práctico?
+Una vez que desplegaste la respuesta con "Ver respuesta orientativa", el mismo botón cambia a "Ocultar respuesta". Haz clic allí y la respuesta se esconde.
+
+¿Se puede cerrar la respuesta de un caso práctico sin recargar la página?
+Sí, solo haz clic en el botón "Ocultar respuesta" que aparece después de abrirla. La respuesta se pliega sin afectar el resto de la página.
+
+¿Los casos prácticos tienen un botón para cerrar la explicación?
+Sí, después de hacer clic en "Ver respuesta orientativa", el botón cambia a "Ocultar respuesta". Al hacer clic, la respuesta se cierra.
+
+¿El Modo Estudio tiene un botón llamado VERIFICAR?
+Sí. En Modo Estudio, después de seleccionar una opción de respuesta, se activa el botón VERIFICAR. Al hacer clic, te dice si acertaste o fallaste, y puedes intentar hasta 4 veces.
+
+¿Para qué sirve el botón VERIFICAR en el Modo Estudio?
+Sirve para comprobar si la respuesta que elegiste es correcta. Si aciertas, puedes pasar a la siguiente pregunta. Si fallas, te muestra la respuesta correcta y puedes intentar de nuevo (hasta 4 intentos).
+
+¿En el Modo Estudio hay un botón para comprobar mi respuesta?
+Sí, se llama VERIFICAR. Solo está disponible cuando seleccionas una opción. Te da feedback inmediato para que aprendas de tus errores.
+
+¿Cómo verifico si mi respuesta es correcta en el Modo Estudio?
+Selecciona una opción y luego haz clic en el botón azul VERIFICAR. El sistema te dirá si acertaste o fallaste, y te mostrará la respuesta correcta si te equivocaste.
+
+¿La barra de tiempo del simulacro se reduce visualmente mientras pasa el tiempo?
+Sí. Además de cambiar de color (verde, amarillo, rojo), la barra se va acortando horizontalmente a medida que avanza el tiempo. Los últimos 5 segundos parpadea en rojo.
+
+¿Cómo sé cuánto tiempo me queda viendo la barra de tiempo?
+La barra se va encogiendo de derecha a izquierda. También hay un número en formato MM:SS. Cuando la barra está casi vacía y parpadea en rojo, quedan menos de 5 segundos.
+
+¿La barra de tiempo solo cambia de color o también se achica?
+Ambas. Cambia de color según el porcentaje de tiempo restante (verde >50%, amarillo 20-50%, rojo <20%) Y también se va reduciendo su tamaño horizontalmente.
+
+¿Qué indica la barra de tiempo del simulacro además del color?
+Te muestra visualmente cuánto tiempo te queda: cuanto más corta la barra, menos tiempo. Es un complemento del número en minutos y segundos.
+
+¿El glosario resalta en amarillo las palabras que busco?
+Sí. Cuando escribes una palabra en el buscador del glosario (mínimo 3 letras) y presionas Enter, los términos que coinciden se resaltan en amarillo para que los identifiques rápidamente.
+
+¿Cómo identifico qué términos del glosario coinciden con mi búsqueda?
+Se pintan automáticamente de amarillo. Así ves de un vistazo cuáles términos contienen la palabra que buscaste.
+
+¿El glosario me marca las coincidencias de búsqueda?
+Sí, con un fondo amarillo. Es muy útil cuando hay muchos términos y quieres ver rápidamente los que contienen la palabra que escribiste.
+
+¿Por qué algunos términos del glosario aparecen con fondo amarillo?
+Porque son los que coinciden con tu búsqueda. El resaltado amarillo es temporal y desaparece cuando borras el campo de búsqueda o recargas la página.
+
+¿Puedo imprimir una página de ESTUDIO SIMO?
+Sí, puedes usar Ctrl+P (Windows) o Cmd+P (Mac) para imprimir cualquier página que estés viendo. Es una función del navegador, no de la aplicación. La herramienta no tiene un botón de imprimir propio.
+
+¿Cómo imprimo los resultados del examen?
+Puedes usar Ctrl+P en tu navegador para imprimir la pantalla de resultados. También puedes exportar los resultados a PDF en Modo Simulacro y luego imprimir ese archivo.
+
+¿Se puede imprimir la pantalla sin usar el navegador?
+No, la única forma de imprimir es usando las funciones nativas del navegador (Ctrl+P o menú de impresión). La aplicación no tiene un botón de imprimir.
+
+¿Hay un botón de imprimir dentro de la aplicación?
+No, la aplicación no tiene un botón de imprimir. Pero puedes usar la función de impresión de tu navegador (Ctrl+P) en cualquier momento.
+
+¿En la sección de normas hay un botón para volver al listado de normas?
+Sí. Cada ley tiene un botón "← Volver a normas" en la parte superior. Haz clic allí para regresar al listado completo de las 12 normas.
+
+¿Dónde está el botón para regresar a la lista de todas las normas?
+Cuando estás dentro de una ley (ej. Ley 100), en la parte superior verás un botón azul que dice "← Volver a normas". Ese te lleva de regreso al listado completo.
+
+¿Cómo vuelvo al listado de normas después de ver una ley específica?
+Cada ley tiene un botón "← Volver a normas" en la parte superior izquierda. Haz clic allí y regresas al listado completo de las 12 normas.
+
+¿Hay un botón para salir de una ley y volver a la lista de normas?
+Sí, está en la parte superior y dice "← Volver a normas". También puedes usar el botón "Atrás" del navegador, pero el botón de la ley es más directo.
+
+¿Los casos prácticos tienen un botón para ocultar la respuesta orientativa?
+Sí. Después de hacer clic en "Ver respuesta orientativa", el botón cambia a "Ocultar respuesta". Al hacer clic en él, la respuesta se pliega.
+
+¿Cómo oculto la respuesta después de leerla en un caso práctico?
+Una vez que desplegaste la respuesta con "Ver respuesta orientativa", el mismo botón cambia a "Ocultar respuesta". Haz clic allí y la respuesta se esconde.
+
+¿Se puede cerrar la respuesta de un caso práctico sin recargar la página?
+Sí, solo haz clic en el botón "Ocultar respuesta" que aparece después de abrirla. La respuesta se pliega sin afectar el resto de la página.
+
+¿Los casos prácticos tienen un botón para cerrar la explicación?
+Sí, después de hacer clic en "Ver respuesta orientativa", el botón cambia a "Ocultar respuesta". Al hacer clic, la respuesta se cierra.
+
+¿El Modo Estudio tiene un botón llamado VERIFICAR?
+Sí. En Modo Estudio, después de seleccionar una opción de respuesta, se activa el botón VERIFICAR. Al hacer clic, te dice si acertaste o fallaste, y puedes intentar hasta 4 veces.
+
+¿Para qué sirve el botón VERIFICAR en el Modo Estudio?
+Sirve para comprobar si la respuesta que elegiste es correcta. Si aciertas, puedes pasar a la siguiente pregunta. Si fallas, te muestra la respuesta correcta y puedes intentar de nuevo.
+
+¿En el Modo Estudio hay un botón para comprobar mi respuesta?
+Sí, se llama VERIFICAR. Solo está disponible cuando seleccionas una opción. Te da feedback inmediato para que aprendas de tus errores.
+
+¿Cómo verifico si mi respuesta es correcta en el Modo Estudio?
+Selecciona una opción y luego haz clic en el botón azul VERIFICAR. El sistema te dirá si acertaste o fallaste, y te mostrará la respuesta correcta si te equivocaste.
+
+¿La barra de tiempo del simulacro se reduce visualmente mientras pasa el tiempo?
+Sí. Además de cambiar de color (verde, amarillo, rojo), la barra se va acortando horizontalmente a medida que avanza el tiempo. Los últimos 5 segundos parpadea en rojo.
+
+¿La barra de tiempo solo cambia de color o también se achica?
+Ambas. Cambia de color según el porcentaje de tiempo restante (verde >50%, amarillo 20-50%, rojo <20%) Y también se va reduciendo su tamaño horizontalmente.
+
+¿Cómo sé cuánto tiempo me queda viendo la barra de tiempo?
+La barra se va encogiendo de derecha a izquierda. También hay un número en formato MM:SS. Cuando la barra está casi vacía y parpadea en rojo, quedan menos de 5 segundos.
+
+¿Qué indica la barra de tiempo del simulacro además del color?
+Te muestra visualmente cuánto tiempo te queda: cuanto más corta la barra, menos tiempo. Es un complemento del número en minutos y segundos.
+
+¿El glosario resalta en amarillo las palabras que busco?
+Sí. Cuando escribes una palabra en el buscador del glosario (mínimo 3 letras) y presionas Enter, los términos que coinciden se resaltan en amarillo para que los identifiques rápidamente.
+
+¿Cómo identifico qué términos del glosario coinciden con mi búsqueda?
+Se pintan automáticamente de amarillo. Así ves de un vistazo cuáles términos contienen la palabra que buscaste.
+
+¿El glosario me marca las coincidencias de búsqueda?
+Sí, con un fondo amarillo. Es muy útil cuando hay muchos términos y quieres ver rápidamente los que contienen la palabra que escribiste.
+
+¿Por qué algunos términos del glosario aparecen con fondo amarillo?
+Porque son los que coinciden con tu búsqueda. El resaltado amarillo es temporal y desaparece cuando borras el campo de búsqueda o recargas la página.
+
+¿Puedo imprimir una página de ESTUDIO SIMO con Ctrl+P?
+Sí, puedes usar Ctrl+P (Windows) o Cmd+P (Mac) para imprimir cualquier página que estés viendo en ESTUDIO SIMO. Es una función del navegador, no de la aplicación. La herramienta no tiene un botón de imprimir propio.
+
+¿Cómo imprimo los resultados del examen usando el teclado?
+Puedes usar Ctrl+P (Windows) o Cmd+P (Mac) para imprimir la pantalla de resultados. También puedes exportar los resultados a PDF en Modo Simulacro y luego imprimir ese archivo.
+
+¿Se puede imprimir la pantalla sin usar el navegador?
+No, la única forma de imprimir es usando las funciones nativas del navegador (Ctrl+P o menú de impresión). La aplicación no tiene un botón de imprimir.
+
+¿Hay un botón de imprimir dentro de la aplicación?
+No, la aplicación no tiene un botón de imprimir. Pero puedes usar la función de impresión de tu navegador (Ctrl+P) en cualquier momento.
+
+¿Puedo descargar las preguntas fallidas en PDF?
+Sí, en Modo Simulacro, al final del examen puedes hacer clic en "EXPORTAR RESULTADOS". El PDF que se genera incluye el listado completo de preguntas falladas con sus respuestas correctas.
+
+¿Cómo exporto las preguntas que fallé a un archivo?
+Termina un simulacro y en la pantalla de resultados haz clic en el botón "EXPORTAR RESULTADOS". El PDF se descargará automáticamente e incluirá todas las preguntas falladas.
+
+¿El Modo Estudio permite descargar las preguntas fallidas en PDF?
+No, la exportación a PDF solo está disponible en Modo Simulacro. En Modo Estudio puedes ver las preguntas falladas en pantalla, pero no descargarlas.
+
+¿Qué información trae el PDF de resultados del simulacro?
+Incluye tu puntaje SIMO, aciertos vs total, tiempo total empleado, tiempo promedio por pregunta, y el listado completo de preguntas falladas con la respuesta correcta.
+
+¿Puedo descargar las preguntas fallidas en PDF?
+Sí, en Modo Simulacro. Al finalizar el examen, haz clic en el botón "EXPORTAR RESULTADOS". El PDF que se genera incluye el listado completo de preguntas falladas con sus respuestas correctas.
+
+¿Cómo exporto las preguntas que fallé a un archivo?
+Termina un simulacro y en la pantalla de resultados haz clic en "EXPORTAR RESULTADOS". El PDF se descargará automáticamente e incluirá todas las preguntas falladas.
+
+¿El Modo Estudio permite descargar las preguntas fallidas en PDF?
+No, la exportación a PDF solo está disponible en Modo Simulacro. En Modo Estudio puedes ver las preguntas falladas en pantalla, pero no descargarlas.
+
+¿Qué información trae el PDF de resultados del simulacro?
+Incluye tu puntaje SIMO, aciertos vs total, tiempo total empleado, tiempo promedio por pregunta, y el listado completo de preguntas falladas con la respuesta correcta.
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+
+¿Puedo buscar por rango de fechas en las normas?
+No, el buscador universal solo permite buscar por palabras clave, no por rango de fechas. No puedes filtrar leyes por fecha de expedición o publicación.
+
+¿Se puede filtrar las normas por fecha de publicación?
+No, el buscador universal no tiene filtro por fechas. Solo busca palabras clave. Para saber la fecha de una ley, debes ver su título (ej. Ley 100 de 1993).
+
+¿Hay forma de buscar leyes entre dos fechas específicas?
+No, esa funcionalidad no está disponible. El buscador universal solo busca palabras, no rangos de fechas.
+
+¿Puedo ordenar los resultados del buscador por año de la ley?
+No, los resultados se muestran agrupados por ley, pero no se pueden ordenar por año.
+
+¿Se puede filtrar los casos prácticos por palabras clave?
+No, los casos prácticos solo se pueden filtrar por competencia (TODAS, Básicas, Funcionales, Comportamentales). No hay un buscador de palabras clave dentro de los casos.
+
+¿Puedo buscar un caso práctico que hable de "depresión"?
+No hay un buscador de casos prácticos. Para encontrar un tema específico, debes leer los títulos o usar los filtros por competencia y revisar manualmente.
+
+¿Hay forma de buscar un caso por palabra clave?
+No, la sección de casos prácticos no tiene buscador. Solo puedes filtrar por competencia y navegar por las páginas.
+
+¿Cómo encuentro un caso práctico sobre un tema específico sin leer todos?
+Usa los filtros por competencia para reducir la lista (ej. "Comportamentales" para temas de ética), luego revisa los títulos rápidamente. No hay búsqueda por palabras clave.
+
+¿Puedo buscar en varias categorías del glosario a la vez?
+No, solo puedes filtrar por una categoría a la vez (Siglas, Entidades, Términos, Principios o Carrera). Puedes combinarla con el filtro por letra, pero no con otra categoría.
+
+¿Se pueden seleccionar dos categorías al mismo tiempo en el glosario?
+No, el glosario solo permite un filtro de categoría activo. Si seleccionas "Siglas" y luego "Entidades", se reemplaza el filtro anterior.
+
+¿Hay forma de ver Siglas y Entidades juntas en el glosario?
+No, debes seleccionar una categoría a la vez. Puedes ver TODAS las categorías sin filtrar, o una específica.
+
+¿Puedo combinar el filtro de categoría con otro de categoría?
+No, solo se puede combinar categoría + letra, no categoría + categoría.
+
+¿Puedo agrupar los resultados del buscador por relevancia?
+No, los resultados del buscador universal se muestran agrupados por ley, no se pueden reordenar por relevancia. El orden es fijo.
+
+¿Se pueden ordenar los artículos encontrados por los más relevantes primero?
+No, el buscador universal no ordena por relevancia. Muestra los artículos agrupados por ley en el orden en que aparecen.
+
+¿Hay forma de cambiar el orden de los resultados del buscador universal?
+No, los resultados no se pueden reordenar. Aparecen agrupados por ley en un orden fijo.
+
+¿Puedo ver primero los resultados de la Ley 100 antes que otros?
+No, el orden de los resultados es fijo. No se puede priorizar una ley sobre otra.
+
+¿Puedo exportar mis resultados del Modo Estudio a Excel?
+No, la exportación a Excel no está disponible. Puedes exportar resultados a PDF solo en Modo Simulacro. En Modo Estudio, los resultados solo se ven en pantalla.
+
+¿Cómo guardo mis resultados del Modo Estudio en una hoja de cálculo?
+No se puede exportar directamente. Puedes copiar manualmente los datos de la pantalla de resultados y pegarlos en Excel.
+
+¿El Modo Estudio permite descargar los resultados en algún formato?
+No, el Modo Estudio no tiene opción de exportación. Solo el Modo Simulacro permite exportar a PDF.
+
+¿Puedo pasar mis resultados del Modo Estudio a un archivo?
+Solo copiando manualmente. No hay botón de exportación en Modo Estudio.
+
+¿Hay forma de desactivar las animaciones de la página?
+No, las animaciones de la página (como el fade al cambiar de página o el fadeInUp de los selectores) no se pueden desactivar.
+
+¿Puedo quitar los efectos visuales de la aplicación?
+No, los efectos visuales son parte del diseño y no se pueden desactivar.
+
+¿Se puede acelerar la interfaz eliminando las animaciones?
+No, las animaciones no se pueden eliminar. La interfaz ya está optimizada para ser rápida.
+
+¿Hay un modo de rendimiento sin animaciones?
+No, la aplicación no tiene un modo de rendimiento. Las animaciones son sutiles y no afectan significativamente el rendimiento.
+
+¿Se puede ocultar el encabezado permanentemente?
+No, el encabezado siempre es visible. Solo las pestañas se ocultan temporalmente al hacer scroll, y aparecen de nuevo al subir o usar el botón Subir.
+
+¿Cómo hago para que el header desaparezca completamente?
+No desaparece por completo, pero las pestañas sí se ocultan al hacer scroll. El botón Subir las recupera.
+
+¿Puedo fijar las pestañas para que no se oculten?
+No, las pestañas están diseñadas para ocultarse al hacer scroll y así darte más espacio. Puedes recuperarlas con el botón Subir.
+
+¿Hay una opción para quitar el encabezado superior?
+No, el encabezado con el logo y los botones es fijo y no se puede ocultar.
+
+¿Hay forma de invitar a un amigo a hacer un simulacro conmigo?
+No, la herramienta no tiene funciones multijugador ni para compartir sesiones. Cada usuario debe hacer su propio simulacro en su dispositivo.
+
+¿Puedo hacer un simulacro en grupo con mis compañeros?
+No, no hay modo grupal. Cada persona debe hacer su simulacro por separado y luego pueden comparar resultados exportando los PDF.
+
+¿Se puede compartir una sesión de simulacro en tiempo real?
+No, la herramienta no permite compartir sesiones en vivo. Puedes compartir tu pantalla si quieres que alguien vea cómo lo haces.
+
+¿Hay una función para competir con otros usuarios?
+No, ESTUDIO SIMO es una herramienta individual de estudio, no tiene funciones competitivas.
+
+¿La aplicación me avisa cuando hay nuevas preguntas disponibles?
+No, la aplicación no envía notificaciones. Las actualizaciones se publican en el repositorio de GitHub. Debes revisar manualmente o estar atento a nuevas versiones.
+
+¿Recibiré una alerta si agregan más preguntas al banco?
+No, la herramienta no tiene sistema de notificaciones. Puedes seguir el repositorio de GitHub para enterarte de actualizaciones.
+
+¿Hay algún canal de aviso para nuevas funcionalidades?
+No hay notificaciones automáticas. La página de novedades o el repositorio de GitHub son los lugares para ver cambios.
+
+¿Cómo me entero de que actualizaron la herramienta?
+Revisa el repositorio de GitHub o la página de novedades. La herramienta no te avisará automáticamente.
+
+¿Puedo recibir recordatorios para estudiar cada día?
+No, la aplicación no tiene función de recordatorios. Puedes usar la alarma o calendario de tu teléfono para recordarte estudiar.
+
+¿La herramienta me puede enviar un correo para que no olvide estudiar?
+No, ESTUDIO SIMO no envía correos ni notificaciones. No tiene acceso a tu correo electrónico.
+
+¿Hay una opción de recordatorio diario en la aplicación?
+No, esa funcionalidad no está disponible. Tienes que gestionar tus horarios de estudio por tu cuenta.
+
+¿Puedo programar alertas para no perder la constancia?
+No, la aplicación no tiene programación de alertas. Te sugerimos usar herramientas externas como recordatorios del calendario.
+
+¿Hay alertas cuando se acerca la fecha de las inscripciones?
+No, debes consultar la página oficial de la CNSC para fechas actualizadas. La herramienta muestra la información disponible, pero no envía alertas.
+
+¿La aplicación me avisará cuando abran las inscripciones?
+No, la información de la convocatoria es estática. Te recomendamos revisar periódicamente la página de la CNSC (cnsc.gov.co) para fechas oficiales.
+
+¿Puedo suscribirme para que me notifiquen el inicio de inscripciones?
+No, la herramienta no tiene sistema de notificaciones. Debes estar pendiente de la página oficial.
+
+¿Recibiré una alerta si cambian las fechas de la convocatoria?
+No, la herramienta no envía alertas. La información se actualiza manualmente en nuevas versiones.
+
+¿Puedo suscribirme a notificaciones de cambios en la convocatoria?
+No, la herramienta no envía notificaciones. La información de la convocatoria es estática y se actualiza con nuevas versiones de la herramienta.
+
+¿Hay un botón para activar alertas de novedades?
+No, no hay sistema de notificaciones. Puedes seguir el repositorio de GitHub para enterarte de actualizaciones.
+
+¿Cómo me entero si la CNSC cambia las fechas del concurso?
+La herramienta mostrará la información actualizada en futuras versiones. Pero debes consultar la página oficial de la CNSC para fechas exactas y cambios de última hora.
+
+¿Puedo recibir un correo cuando actualicen la convocatoria?
+No, ESTUDIO SIMO no tiene acceso a tu correo. No envía notificaciones por ningún medio.
+
+¿Hay un modo de alto contraste para personas con discapacidad visual?
+No, los únicos modos disponibles son claro y oscuro (modo oscuro). No hay un modo específico de alto contraste.
+
+¿Puedo aumentar el contraste de la aplicación?
+No, la aplicación no tiene ajustes de contraste más allá del modo oscuro. Puedes usar los ajustes de accesibilidad de tu navegador o sistema operativo.
+
+¿La herramienta es accesible para personas con baja visión?
+Tiene modo oscuro y ajuste de tamaño de letra, pero no modo de alto contraste específico. Recomendamos usar las herramientas de accesibilidad de tu navegador.
+
+¿Hay opciones de accesibilidad además del tamaño de letra?
+Solo modo oscuro y tamaño de letra. No hay otras opciones de accesibilidad como alto contraste o fuente para dislexia.
+
+¿Hay un modo oscuro automático que se active al anochecer?
+No, el modo oscuro se activa manualmente desde el botón de Ajustes. No se activa automáticamente según la hora del día.
+
+¿Puedo programar el modo oscuro para que se active solo?
+No, la aplicación no tiene programación horaria. Debes activar el modo oscuro manualmente cuando lo necesites.
+
+¿El modo oscuro sigue la configuración del sistema operativo?
+No, es independiente. Debes activarlo desde los ajustes de ESTUDIO SIMO. No se sincroniza con el modo oscuro de tu dispositivo.
+
+¿Hay forma de que el modo oscuro se active con el atardecer?
+No, esa funcionalidad no está disponible. El modo oscuro es manual.
+
+¿Puedo hablar con el asistente por voz en lugar de escribir?
+No, el asistente solo acepta entrada de texto escrito. No tiene reconocimiento de voz.
+
+¿Hay un botón de micrófono para preguntar hablando?
+No, esa funcionalidad no está disponible. Solo puedes escribir tus preguntas en el chat.
+
+¿Puedo dictarle mi pregunta al asistente?
+No, el asistente no procesa voz. Debes escribir tu pregunta en el campo de texto.
+
+¿Se puede usar el asistente con comandos de voz?
+No, solo entrada de texto. El asistente entiende lenguaje escrito, no voz.
+
+¿El asistente guarda mis conversaciones para consultarlas después?
+No, el asistente solo mantiene el historial mientras la ventana del chat está abierta. Al cerrar la ventana, el historial se borra.
+
+¿Puedo recuperar conversaciones anteriores con el asistente?
+No, no se guarda historial entre sesiones. Cada vez que abres el chat, comienza una conversación nueva.
+
+¿Dónde puedo ver lo que hablé con el asistente ayer?
+No se guarda. El historial se borra al cerrar la ventana. Si quieres conservar una respuesta, cópiala manualmente.
+
+¿El asistente tiene memoria de largo plazo?
+No, el asistente solo recuerda la conversación actual mientras la ventana está abierta. Al cerrar, se olvida todo.
+
+¿Puedo pedirle al asistente que me genere un plan de estudio personalizado?
+No, el asistente responde preguntas específicas, pero no genera planes de estudio completos. Puedes pedirle consejos sobre cómo estudiar, pero no un plan detallado.
+
+¿Hay una función que me diga qué estudiar cada día?
+No, la herramienta no genera planes de estudio personalizados. Tú decides qué competencias y temas practicar.
+
+¿El asistente puede recomendarme un horario de estudio?
+No, solo puede darte consejos generales. No crea horarios ni calendarios de estudio.
+
+¿Puedo obtener una ruta de estudio según mis debilidades?
+No, el asistente no tiene acceso a tu historial de respuestas. No puede identificar tus debilidades automáticamente.
+
+¿El asistente puede recomendarme qué temas estudiar según mis fallos?
+No, el asistente no tiene acceso a tu historial de respuestas. No sabe qué preguntas fallaste. Puedes ver tus fallos en la tabla de resultados del simulacro.
+
+¿La herramienta analiza mis errores y me sugiere qué repasar?
+No, la herramienta muestra qué preguntas fallaste, pero no hace un análisis automático ni te recomienda temas específicos.
+
+¿Puedo pedirle al asistente que revise mis fallos y me ayude?
+No, el asistente no tiene acceso a tus resultados. Debes decirle qué tema te cuesta y él te ayudará con explicaciones.
+
+¿Hay un sistema que me diga en qué competencias estoy más débil?
+No, la herramienta no hace ese análisis. Puedes revisar manualmente la tabla de resultados para identificar tus fallos.
+
+¿Puedo usar la aplicación sin conexión a internet después de la primera carga?
+Sí, si descargaste el proyecto completo (carpeta demo_estudio_simo), puedes abrir index.html en tu navegador y funciona offline, siempre que los archivos JSON estén disponibles. El asistente IA requiere internet la primera vez para descargar el modelo, pero luego puede funcionar offline.
+
+¿El asistente IA funciona sin internet?
+No, el asistente necesita conexión a internet para procesar las preguntas, incluso después de la primera carga. El resto de la herramienta (pestañas, exámenes, glosario) sí funciona offline si descargaste el proyecto.
+
+¿Qué partes de la herramienta funcionan sin internet?
+Las pestañas Estudio SIMO, Preguntas y Glosario funcionan offline si descargaste el proyecto. El asistente IA no, requiere internet.
+
+¿Puedo estudiar sin conexión después de haber cargado la página una vez?
+Sí, excepto el asistente IA. Los exámenes, normas y glosario funcionan offline si tienes los archivos descargados.
+
+¿Hay una versión para descargar en la tienda de aplicaciones?
+No, ESTUDIO SIMO es una página web, no una aplicación de tienda (app store). Puedes acceder a ella desde el navegador de tu celular o computador.
+
+¿Puedo instalar ESTUDIO SIMO como una app en mi teléfono?
+No es una app nativa, pero puedes agregar la página a la pantalla de inicio de tu celular (la mayoría de navegadores tienen la opción "Agregar a pantalla de inicio").
+
+¿Hay una versión para iOS o Android en las tiendas?
+No, la herramienta es solo web. Funciona en cualquier dispositivo con navegador, pero no está publicada en App Store ni Google Play.
+
+¿Puedo descargar la aplicación desde Play Store?
+No, ESTUDIO SIMO no está en las tiendas de aplicaciones. Solo está disponible como página web en https://estudio-simo.netlify.app/
+
+¿Se puede sincronizar mi progreso entre diferentes dispositivos?
+No, el progreso no se sincroniza. Los resultados no se guardan en la nube. Si usas la herramienta en otro dispositivo, empezarás desde cero en ese dispositivo.
+
+¿Puedo retomar un examen en otro computador?
+No, el progreso se guarda solo en el dispositivo donde estás trabajando. No hay sincronización entre dispositivos.
+
+¿Mis resultados se guardan en la nube para verlos desde cualquier lado?
+No, los resultados se muestran al final pero no se guardan en la nube. Puedes exportar el PDF y llevarlo a otro dispositivo.
+
+¿Hay una cuenta de usuario para guardar mi progreso?
+No, la herramienta no tiene sistema de usuarios ni cuentas. No guarda tu progreso históricamente.
+
+¿Puedo recuperar un examen cerrado accidentalmente?
+No, si cancelas un examen, el progreso se borra y no se puede recuperar. No hay confirmación adicional. Por eso es importante no darle cancelar si quieres conservar tus respuestas.
+
+¿Qué pasa si cierro la pestaña del navegador sin terminar el examen?
+El progreso se pierde. No se guarda automáticamente al cerrar el navegador. Solo se guarda al cambiar de pestaña dentro de la misma ventana.
+
+¿Hay forma de recuperar un examen que se cerró por error?
+No, una vez cerrado el examen o cancelado, el progreso se borra permanentemente. Tendrías que empezar desde cero.
+
+¿El examen se guarda si se me cierra el navegador?
+No, el guardado de progreso solo funciona al cambiar de pestaña dentro de la misma sesión. Si cierras el navegador, se pierde el progreso.
+
+
 
 
 
