@@ -1,8 +1,8 @@
 {
-  "titulo": "¡Bienvenido a ESTUDIO SIMO...!",
-  "subtitulo": "Plataforma de preparación integral para el concurso ESE 2 - Enfermería HOMERIS",
-  "intro": "Esta aplicación te ayudará a dominar las seis competencias que evalúa SIMO para auxiliares de enfermería, específicamente para el ingreso al Hospital Mental de Risaralda.",
-  
+  "titulo": "¡Bienvenido a ESTUDIO SIMO!",
+  "subtitulo": "Preparación completa para el concurso ESE 2 - Enfermería HOMERIS",
+  "intro": "Esta aplicación te ayudará a dominar las seis competencias que evalúa SIMO para auxiliares de enfermería, especialmente para ingresar al Hospital Mental de Risaralda (HOMERIS).",
+
   "competencias": {
     "titulo": "Las 6 competencias que evalúa SIMO son:",
     "lista": [
@@ -14,9 +14,9 @@
       "🎯 Orientación al servicio"
     ]
   },
-  
+
   "pestanasExplicacion": "La aplicación tiene 3 pestañas principales:",
-  
+
   "secciones": [
     {
       "icono": "📚",
@@ -25,9 +25,9 @@
       "puntos": [
         "🏠 Inicio (visión general): Explicación de la herramienta, tipos de pruebas SIMO y consejos iniciales.",
         "📋 Convocatoria ESE 2: Fechas, vacantes, requisitos, modalidades y enlaces útiles.",
-        "📚 Normas del sector salud: Resúmenes de leyes (Ley 100, Ley 1438), decretos y resoluciones con buscador integrado.  Clic en alguna de las normas (leyes, decretos o resoluciones) para mirar los árticulos disponibles",
-        "🩺 Casos prácticos: Situaciones reales clasificadas por competencia, con respuestas orientativas desplegables.",
-        "🎯 Selector de secciones: Puedes elegir entre estas 4 opciones anteriores (Inicio, Convocatoria, Normas y Casos Prácticos) mediante el menú desplegable."
+        "📚 Normas del sector salud: Resúmenes de leyes (Ley 100, Ley 1438, etc.), decretos y resoluciones con buscador integrado. Haz clic en cualquier norma para ver sus artículos disponibles.",
+        "🩺 Casos prácticos: Más de 100 situaciones reales clasificadas por competencia (básicas, funcionales, comportamentales). Cada caso incluye una respuesta orientativa con explicación paso a paso, y al desplegarla aparece con una animación suave.",
+        "🎯 Selector de secciones: Puedes elegir entre estas 4 opciones (Inicio, Convocatoria, Normas, Casos) mediante un menú desplegable."
       ]
     },
     {
@@ -35,69 +35,69 @@
       "titulo": "Pestaña Preguntas",
       "descripcion": "Aquí pondrás a prueba tus conocimientos. Tienes 2 modos de estudio:",
       "puntos": [
-        "📚 Modo Estudio: Sin límite de tiempo. Contiene 5 preguntas al azar, y cada pregunta posee 4 opciones de respuesta. Recibes retroalimentacion (feedback) de inmediato con explicaciones. Ideal para aprender.",
-        "⏱️ Modo Simulacro: Contiene 100 preguntas de temas variados, temporizador (60 segundos por pregunta). Sin feedback durante el examen. Al final obtienes un puntaje SIMO sobre 100. Corte de aprobación: 70/100.",
-        "🎯 Selector doble (solo para el Modo Estudio): Primero elige el tipo de competencia (funcionales, basicas o comportamentales), luego la subcategoría específica para cada competencia.",
-        "📊 Tabla de Resultados (al final de las preguntas): Contiene dos tablas (modo estudio).  La primera Muestra puntaje, aciertos, tiempos y si APROBASTE o REPROBASTE.  La segunda es el Resumen de la Actividad con las 5 preguntas (en verde las correctas, y en rojo las incorrectas) ",
-        "🔍 Preguntas falladas (solo para modo Simulacro): Se agrupan en una sección colapsable para que revises tus errores.",
+        "📚 Modo Estudio: Sin límite de tiempo. Son 5 preguntas al azar, cada una con 4 opciones. Recibes una explicación inmediata después de responder. Ideal para aprender sin presión.",
+        "⏱️ Modo Simulacro: 100 preguntas que mezclan todas las competencias. Temporizador de 60 segundos por pregunta. No recibes pistas durante el examen. Al final obtienes un puntaje SIMO sobre 100. El corte de aprobación es 70/100.",
+        "🎯 Selector doble (solo para el Modo Estudio): Primero eliges el tipo de competencia (funcionales, básicas o comportamentales), luego la subcategoría específica.",
+        "📊 Tabla de resultados: Al terminar, ves tu puntaje, aciertos, tiempos y si aprobaste o reprobaste. También hay un resumen con cada pregunta: en verde las correctas, en rojo las incorrectas (con la respuesta correcta).",
+        "🔍 Preguntas falladas (solo en simulacro): Se agrupan en una sección que puedes desplegar para revisar tus errores.",
         "📥 Exportar a PDF: Solo en simulacro. Descarga un informe con tu puntaje, tiempos y preguntas falladas.",
-        "Botones:  1) Repetir Examen: Permite seguir practicanto (cambia las preguntas - son al azar).  2) Cambiar competencia:  Permite volver a la pantalla de seleccion de Modo (Estudio o Simulacro)"
+        "Botones: 1) Repetir Examen: vuelve a generar preguntas al azar para seguir practicando. 2) Cambiar competencia: regresa a la pantalla de selección de modo."
       ]
     },
     {
       "icono": "📖",
       "titulo": "Pestaña Glosario",
-      "descripcion": "Contiene una base de datos de términos clave para el concurso SIMO con énfasis en enfermería:",
+      "descripcion": "Base de datos de términos clave para el concurso, enfocada en enfermería:",
       "puntos": [
-        "📚 Más de 140 términos en 5 categorías: siglas, entidades, términos, principios, carrera.",
-        "🔍 Buscador por palabra (mínimo 3 letras) con resaltado en amarillo de las coincidencias encontradas (ENTER para buscar).",
-        "📂 Filtros por categoría y por letra inicial (A-Z).",
-        "📄 Paginación de 10 términos por página.",
-        "⬆️ Al hacer scroll, aparece un botón flotante para volver a los filtros."
+        "📚 Más de 140 términos organizados en 5 categorías: siglas, entidades, términos, principios y carrera.",
+        "🔍 Buscador por palabra (mínimo 3 letras). Escribe y presiona Enter; las coincidencias se resaltan en amarillo.",
+        "📂 Filtros por categoría y por letra inicial (A-Z). Puedes combinar ambos filtros.",
+        "📄 Paginación: 10 términos por página con botones Anterior y Siguiente.",
+        "⬆️ Al hacer scroll hacia abajo, aparece un botón flotante para volver rápidamente a los filtros."
       ]
     }
   ],
-  
+
   "funcionalidades": [
     {
       "icono": "⬆️",
-      "titulo": "Scroll (desplazamiento) y pestañas",
-      "descripcion": "Cuando te desplaces hacia abajo, las pestañas superiores (Estudio SIMO, Preguntas y Glosario) se ocultarán para aprovechar el espacio. Aparecerá un botón flotante azul con el texto Subir. Haz clic en él para retornar al inicio de la página y mostrarlas nuevamente."
+      "titulo": "Desplazamiento (scroll) y pestañas",
+      "descripcion": "Cuando bajas la página, las pestañas superiores (Estudio SIMO, Preguntas, Glosario) se ocultan para aprovechar el espacio. Aparece un botón azul con el texto 'Subir'. Haz clic en él para volver al inicio y mostrar las pestañas nuevamente. Este botón también aparece dentro de las ventanas de artículos largos para volver al principio del artículo."
     },
     {
       "icono": "🤖",
       "titulo": "Asistente IA",
-      "descripcion": "En PC: Botón azul flotante en la esquina inferior derecha (con una figura de un robot). En celular: Botón en el encabezado (junto a Ajustes e Instrucciones). Contiene un cuadro de texto donde puedes escribir preguntas en cualquier momento sobre la aplicación, las normas, los exámenes o el concurso."
+      "descripcion": "En computadora: botón flotante azul con un robot en la esquina inferior derecha. En celular: botón en el encabezado (junto a Ajustes e Instrucciones). Puedes escribir preguntas en cualquier momento sobre la aplicación, las normas, los exámenes o el concurso. El asistente entiende lenguaje coloquial colombiano (como 'parce', 'quiubo', '¿qué más?') y tiene una base de conocimiento de más de 2.900 preguntas y respuestas frecuentes."
     },
     {
       "icono": "📖",
       "titulo": "Botón Instrucciones",
-      "descripcion": "Abrirá este mismo mensaje de bienvenida. Puedes volver a mirarlo cuando quieras haciendo clic en el botón 📖 Instrucciones ubicado en la parte superior derecha."
+      "descripcion": "Abre este mismo mensaje de bienvenida. Puedes consultarlo cuando quieras haciendo clic en el botón '📖 Instrucciones' que está en la parte superior derecha."
     },
     {
       "icono": "🔍",
-      "titulo": "Búsqueda en Normas del sector salud",
-      "descripcion": "Este buscardo esta en la pestaña Estudio SIMO, sección Normas del sector salud, la cual contiene un buscador universal. Escribe una palabra o término (ej: EPS, afiliación, artículo 157) y presiona Enter. El sistema buscará en los árticulos (disponibles) de todas las leyes, resoluciones y decretos y mostrará los que contengan esa palabra. Haz clic en cualquier resultado para ver el contenido completo en una ventana emergente."
+      "titulo": "Búsqueda en normas del sector salud",
+      "descripcion": "Dentro de la pestaña Estudio SIMO, en la sección 'Normas del sector salud', hay un buscador universal. Escribe una palabra (ej. EPS, afiliación, artículo 157) y presiona Enter. El sistema busca en todas las leyes, decretos y resoluciones y muestra los artículos que contienen esa palabra. Haz clic en cualquier resultado para leer el contenido completo en una ventana emergente."
     },
     {
       "icono": "📖",
-      "titulo": "Búsqueda en Glosario",
-      "descripcion": "En la pestaña Glosario, escribe un término (mínimo 3 letras) en el buscador y presiona Enter. Las coincidencias se resaltarán en amarillo. También puedes filtrar por categoría o por letra inicial (A-Z)."
+      "titulo": "Búsqueda en el Glosario",
+      "descripcion": "En la pestaña Glosario, escribe un término (mínimo 3 letras) y presiona Enter. Las palabras coincidentes se resaltan en amarillo. También puedes filtrar por categoría o por letra inicial (A-Z)."
     },
     {
       "icono": "⚙️",
       "titulo": "Botón Ajustes",
-      "descripcion": "En la parte superior derecha encontrarás el botón de Ajustes (⚙️ Ajustes). Desde allí puedes activar el modo oscuro (ideal para estudiar de noche), o volver al modo claro, ademáas de poder cambiar el tamaño de la letra (pequeña, normal, grande, extra grande) con los botones A- y A+."
+      "descripcion": "En la parte superior derecha encontrarás el botón '⚙️ Ajustes'. Desde allí puedes activar el modo oscuro (ideal para estudiar de noche) o volver al modo claro, y también cambiar el tamaño de la letra (pequeña, normal, grande, extra grande) con los botones A- y A+."
     },
     {
       "icono": "💾",
-      "titulo": "Guardar progreso (para la pestaña Preguntas)",
-      "descripcion": "Si cambias de pestaña durante un examen, el sistema guarda automáticamente tu avance (pregunta actual, respuestas seleccionadas, intentos). Al volver, continuarás donde habías quedado."
+      "titulo": "Guardar progreso (en la pestaña Preguntas)",
+      "descripcion": "Si cambias de pestaña durante un examen, la aplicación guarda automáticamente tu avance (pregunta actual, respuestas seleccionadas, intentos). Cuando vuelvas, continuarás justo donde lo dejaste."
     },
     {
       "icono": "❌",
       "titulo": "Cancelar examen",
-      "descripcion": "Dentro de un examen, encontrarás un botón rojo Cancelar examen. Al usarlo, se borrará todo el progreso de la prueba actual y volverás a la pantalla de selección de modos (Estudio o Simulacro)."
+      "descripcion": "Dentro de un examen hay un botón rojo 'Cancelar examen'. Al usarlo, se borra todo el progreso de la prueba actual y regresas a la pantalla de selección de modos (Estudio o Simulacro)."
     },
     {
       "icono": "📊",
@@ -107,24 +107,24 @@
     {
       "icono": "🔍",
       "titulo": "Preguntas falladas (modo Simulacro)",
-      "descripcion": "En el resumen del simulacro, las preguntas incorrectas se agrupan en una sección colapsable. Puedes expandirla para revisar tus errores y las respuestas correctas."
+      "descripcion": "En el resumen del simulacro, las preguntas incorrectas se agrupan en una sección que puedes desplegar. Así puedes revisar tus errores y las respuestas correctas."
     },
     {
       "icono": "⏱️",
       "titulo": "Tiempos en el simulacro",
-      "descripcion": "Durante el simulacro, ves una barra de progreso con colores (verde >50%, amarillo 20-50%, rojo <20%). Al finalizar, se muestran el tiempo total empleado y el tiempo promedio por pregunta."
+      "descripcion": "Durante el simulacro, ves una barra de progreso que cambia de color (verde si hay mucho tiempo, amarillo cuando falta poco, rojo cuando el tiempo se acaba). Al finalizar, se muestran el tiempo total que usaste y el tiempo promedio por pregunta."
     },
     {
       "icono": "📥",
       "titulo": "Exportar resultados a PDF",
-      "descripcion": "Solo disponible en Modo Simulacro. Al finalizar, puedes hacer clic en 'EXPORTAR RESULTADOS' para descargar un PDF con: puntaje, aciertos, tiempos y preguntas falladas."
+      "descripcion": "Solo disponible en el Modo Simulacro. Al terminar, puedes hacer clic en 'EXPORTAR RESULTADOS' para descargar un archivo PDF con tu puntaje, aciertos, tiempos y preguntas falladas."
     },
     {
       "icono": "🏆",
       "titulo": "Puntaje SIMO",
-      "descripcion": "El puntaje se calcula como: (Aciertos al primer intento / Total preguntas) × 100. Corte de aprobación: 70/100. Ejemplo: 4 aciertos de 5 = 80/100 → APROBÓ."
+      "descripcion": "El puntaje se calcula así: (aciertos en el primer intento / total de preguntas) × 100. El mínimo para aprobar es 70 sobre 100. Por ejemplo, 4 aciertos de 5 dan 80/100 → APROBADO."
     }
   ],
-  
-  "fraseExperto": "💡 Modo Estudio: Aprendes el contenido sin presión, con feedback inmediato. Modo Simulacro: Entrenas tu velocidad, resistencia y conocimiento con tiempo límite y puntaje real. Usa ambos para estar completamente preparado para el concurso SIMO."
+
+  "fraseExperto": "💡 Modo Estudio: Aprendes el contenido sin presión, con explicaciones inmediatas. Modo Simulacro: Entrenas tu velocidad y resistencia con tiempo límite y puntaje real. Usa ambos para llegar completamente preparado al concurso SIMO."
 }
