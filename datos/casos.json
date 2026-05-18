@@ -5,39 +5,39 @@
       "id": 1,
       "titulo": "Cálculo de personal de enfermería",
       "situacion": "En un hospital hay 3 enfermeras por cada 10 pacientes. ¿Cuántas enfermeras se necesitan para atender a 50 pacientes?",
-      "respuesta": "Se necesitan 15 enfermeras. La relación es 3 enfermeras × (50 pacientes ÷ 10 pacientes) = 3 × 5 = 15 enfermeras.",
+      "respuesta": "Paso 1: Calcula cuántos grupos de 10 pacientes hay en 50 pacientes.\n50 pacientes / 10 pacientes = 5 grupos.\nPaso 2: Multiplica las enfermeras por grupo (3) por el número de grupos (5).\n3 enfermeras × 5 grupos = 15 enfermeras.\nResultado: Se necesitan 15 enfermeras.",
       "categoria": "competencias-basicas",
       "tipo": "Razonamiento lógico - matemático"
     },
     {
       "id": 2,
       "titulo": "Análisis de fragmento de la Ley 100",
-      "situacion": "El Artículo 153 de la Ley 100 de 1993 habla de lo siguiente: El Sistema General de Seguridad Social en Salud se desarrollará bajo una serie de Principios. De las siguientes opciones, ¿cuál NO es un principio del SGSSS según el fragmento? Opciones: A) Universalidad, B) Solidaridad, C) Gratuidad total, D) Eficiencia.",
-      "respuesta": "La opción C) Gratuidad total no es un principio del SGSSS. Los principios mencionados en el fragmento son: universalidad, solidaridad, integralidad, unidad, participación, equidad, calidad, eficiencia y sostenibilidad.",
+      "situacion": "El Artículo 153 de la Ley 100 de 1993 enumera principios del SGSSS. ¿Cuál de estos NO es un principio: A) Universalidad, B) Solidaridad, C) Gratuidad total, D) Eficiencia?",
+      "respuesta": "Paso 1: Recuerda los principios del SGSSS según la Ley 100: universalidad, solidaridad, integralidad, unidad, participación, equidad, calidad, eficiencia y sostenibilidad.\nPaso 2: Compara las opciones con esa lista.\n- Universalidad: sí está.\n- Solidaridad: sí está.\n- Eficiencia: sí está.\n- Gratuidad total: no aparece.\nResultado: La opción C) Gratuidad total no es un principio del SGSSS.",
       "categoria": "competencias-basicas",
       "tipo": "Lectura crítica"
     },
     {
       "id": 3,
       "titulo": "Interpretación de historia clínica",
-      "situacion": "En un resumen de historia clínica se lee: 'Paciente de 65 años, hipertenso, diabético tipo 2, acude por disnea y dolor torácico'. ¿Cuál es la prioridad inicial del enfermero(a)?",
-      "respuesta": "La prioridad inicial es evaluar la función respiratoria y cardiovascular del paciente (frecuencia respiratoria, saturación de oxígeno, frecuencia cardíaca, presión arterial), y notificar al médico de inmediato.",
+      "situacion": "Historia clínica: 'Paciente de 65 años, hipertenso, diabético tipo 2, acude por disnea y dolor torácico'. ¿Cuál es la prioridad inicial del enfermero?",
+      "respuesta": "Paso 1: Identifica los signos de alarma: disnea (dificultad para respirar) y dolor torácico (posible infarto).\nPaso 2: Prioriza la función respiratoria y cardiovascular.\nPaso 3: Evalúa frecuencia respiratoria, saturación de oxígeno, frecuencia cardíaca y presión arterial.\nPaso 4: Notifica al médico de inmediato.\nResultado: La prioridad es evaluar signos vitales y notificar al médico.",
       "categoria": "competencias-basicas",
       "tipo": "Comprensión de textos - priorización clínica"
     },
     {
       "id": 4,
       "titulo": "Porcentaje de ocupación hospitalaria",
-      "situacion": "Una unidad de cuidados intensivos tiene 12 camas. En un día determinado, hay 9 pacientes ocupando camas. ¿Cuál es el porcentaje de ocupación?",
-      "respuesta": "El porcentaje de ocupación es del 75%. Cálculo: (9 pacientes / 12 camas) × 100 = 75%.",
+      "situacion": "Una unidad de cuidados intensivos tiene 12 camas. En un día hay 9 pacientes ocupando camas. ¿Cuál es el porcentaje de ocupación?",
+      "respuesta": "Paso 1: Usa la fórmula: (pacientes ocupados / total de camas) × 100.\nPaso 2: Reemplaza: (9 / 12) × 100.\nPaso 3: Calcula la división: 9 / 12 = 0.75.\nPaso 4: Multiplica por 100: 0.75 × 100 = 75.\nResultado: El porcentaje de ocupación es 75%.",
       "categoria": "competencias-basicas",
-      "tipo": "Matemáticas básicas - porcentajes"
+      "tipo": "Matemáticas - porcentajes"
     },
     {
       "id": 5,
       "titulo": "Cirugía no incluida en el PBS",
-      "situacion": "Un paciente afiliado al Régimen Subsidiado requiere una cirugía que no está incluida en el PBS. La EPS se niega a autorizarla. ¿Cuál es el procedimiento para garantizar el derecho a la salud?",
-      "respuesta": "El paciente puede interponer una tutela. La Corte Constitucional ha establecido que cuando un servicio no está en el PBS pero es necesario para la vida o integridad, debe ser autorizado. El personal de enfermería debe documentar la negativa de la EPS y apoyar al paciente en el proceso de tutela.",
+      "situacion": "Un paciente del Régimen Subsidiado necesita una cirugía que no está en el PBS. La EPS se la niega. ¿Qué procedimiento debe seguir?",
+      "respuesta": "Paso 1: Documenta la negativa de la EPS por escrito.\nPaso 2: El paciente puede interponer una tutela. La Corte Constitucional ha dicho que si el servicio es necesario para la vida o integridad, debe autorizarse aunque no esté en el PBS.\nPaso 3: El personal de enfermería debe apoyar al paciente en el proceso, informándole y acompañándolo.\nResultado: El procedimiento es interponer una tutela.",
       "categoria": "competencias-funcionales",
       "tipo": "Normatividad - derechos en salud"
     },
@@ -45,39 +45,39 @@
       "id": 6,
       "titulo": "Porcentaje de cotización al SGSSS",
       "situacion": "Según la Ley 100 de 1993, ¿cuál es el porcentaje total de cotización al SGSSS para un trabajador dependiente?",
-      "respuesta": "La cotización total es del 12.5% sobre el Ingreso Base de Cotización (IBC), distribuido así: el empleador aporta el 8.5% y el trabajador el 4%.",
+      "respuesta": "Paso 1: La cotización total es del 12.5% sobre el Ingreso Base de Cotización (IBC).\nPaso 2: El empleador aporta el 8.5% y el trabajador el 4%.\nPaso 3: Suma: 8.5% + 4% = 12.5%.\nResultado: El porcentaje total es 12.5%.",
       "categoria": "competencias-funcionales",
       "tipo": "Normatividad - cotizaciones"
     },
     {
       "id": 7,
       "titulo": "Etapas del Proceso de Atención de Enfermería (PAE)",
-      "situacion": "Ordene cronológicamente las etapas del PAE: ejecución, valoración, diagnóstico, planeación, evaluación.",
-      "respuesta": "El orden correcto es: 1. Valoración, 2. Diagnóstico, 3. Planeación, 4. Ejecución, 5. Evaluación.",
+      "situacion": "Ordena cronológicamente las etapas del PAE: ejecución, valoración, diagnóstico, planeación, evaluación.",
+      "respuesta": "Paso 1: Recuerda el orden lógico del PAE:\n1. Valoración (recolectar datos)\n2. Diagnóstico (identificar problemas)\n3. Planeación (definir objetivos e intervenciones)\n4. Ejecución (realizar las intervenciones)\n5. Evaluación (verificar resultados).\nResultado: El orden correcto es: valoración, diagnóstico, planeación, ejecución, evaluación.",
       "categoria": "competencias-funcionales",
       "tipo": "Proceso de atención de enfermería"
     },
     {
       "id": 8,
       "titulo": "Error en administración de medicamento",
-      "situacion": "Un compañero enfermero comete un error en la administración de un medicamento, pero nadie se da cuenta. El paciente no sufrió daño aparente. ¿Qué haría usted?",
-      "respuesta": "Debe reportar el error al jefe inmediato o al comité de seguridad del paciente. El reporte no es para sancionar, sino para identificar fallas en el sistema y prevenir futuros errores. La ética profesional exige transparencia.",
+      "situacion": "Un compañero comete un error en la medicación, pero nadie se da cuenta y el paciente no sufrió daño aparente. ¿Qué haría usted?",
+      "respuesta": "Paso 1: La ética profesional exige transparencia.\nPaso 2: Reporta el error al jefe inmediato o al comité de seguridad del paciente.\nPaso 3: El reporte no es para sancionar, sino para identificar fallas en el sistema y prevenir futuros errores.\nResultado: Debes reportar el error.",
       "categoria": "competencias-comportamentales",
       "tipo": "Ética profesional"
     },
     {
       "id": 9,
       "titulo": "Confusión en paro cardiorrespiratorio",
-      "situacion": "Durante un paro cardiorrespiratorio, hay confusión entre los miembros del equipo sobre las funciones de cada uno. Como enfermero(a), ¿cómo actúa?",
-      "respuesta": "Debe recordar las funciones asignadas en el código de paro: compresiones torácicas, vía aérea, acceso venoso, registro de eventos y tiempos. Si hay confusión, asigne roles claros: 'Fulano, compresiones. Zutana, vía aérea. Mengana, registro'.",
+      "situacion": "Durante un paro cardiorrespiratorio hay confusión sobre las funciones de cada uno. ¿Cómo actúa como enfermero?",
+      "respuesta": "Paso 1: Recuerda las funciones básicas en un código de paro: compresiones torácicas, vía aérea, acceso venoso, registro de eventos y tiempos.\nPaso 2: Asigna roles claros señalando a cada persona: 'Fulano, compresiones. Zutana, vía aérea. Mengana, registro'.\nPaso 3: Si hay desorden, prioriza la reanimación mientras organizas al equipo.\nResultado: Asigna roles claramente para restablecer el orden.",
       "categoria": "competencias-comportamentales",
       "tipo": "Trabajo en equipo - respuesta a emergencias"
     },
     {
       "id": 10,
       "titulo": "Solicitud de información médica por familiar",
-      "situacion": "Un familiar de un paciente le exige información médica que usted no puede revelar por confidencialidad. ¿Cómo maneja la situación?",
-      "respuesta": "Explique respetuosamente que la información médica es confidencial y solo puede ser revelada al paciente o a su representante legal autorizado. Ofrezca acompañarlo a hablar con el médico tratante.",
+      "situacion": "Un familiar le exige información médica que usted no puede revelar por confidencialidad. ¿Cómo maneja la situación?",
+      "respuesta": "Paso 1: Mantén la calma y respeta la confidencialidad.\nPaso 2: Explica respetuosamente que la información médica solo puede ser revelada al paciente o a su representante legal autorizado.\nPaso 3: Ofrece acompañarlo a hablar con el médico tratante.\nResultado: Comunica con empatía los límites legales y ofrece alternativas.",
       "categoria": "competencias-comportamentales",
       "tipo": "Orientación al servicio - comunicación asertiva"
     },
@@ -85,9 +85,721 @@
       "id": 11,
       "titulo": "Priorización de pacientes en estado crítico",
       "situacion": "Tiene tres pacientes en estado crítico al mismo tiempo. ¿Cómo prioriza sus acciones?",
-      "respuesta": "Aplique el triaje: priorice al paciente con mayor riesgo vital inminente (paro respiratorio, hemorragia activa, inconsciencia). Use la clasificación ABCDE (vía aérea, respiración, circulación, discapacidad, exposición).",
+      "respuesta": "Paso 1: Aplica el triaje: prioriza al paciente con mayor riesgo vital inminente.\nPaso 2: Usa la regla ABCDE (vía aérea, respiración, circulación, discapacidad, exposición).\nPaso 3: Atiende primero al que no respira, tiene hemorragia activa o está inconsciente.\nResultado: Prioriza según el riesgo vital más alto.",
       "categoria": "competencias-comportamentales",
       "tipo": "Estrés laboral - priorización"
+    },
+    {
+      "id": 12,
+      "titulo": "Cálculo de dosis de haloperidol",
+      "situacion": "Un médico ordena haloperidol 5 mg IM. La ampolla contiene 5 mg por cada mL. ¿Cuántos mL debe administrar?",
+      "respuesta": "Paso 1: Identifica la concentración: 5 mg por 1 mL.\nPaso 2: La dosis ordenada es 5 mg.\nPaso 3: Calcula: (5 mg ordenados) / (5 mg por mL) = 1 mL.\nResultado: Debe administrar 1 mL.",
+      "categoria": "competencias-basicas",
+      "tipo": "Matemáticas - cálculo de dosis"
+    },
+    {
+      "id": 13,
+      "titulo": "Porcentaje de pacientes con depresión",
+      "situacion": "En una unidad de salud mental de 40 pacientes, 12 tienen diagnóstico de depresión. ¿Qué porcentaje representa?",
+      "respuesta": "Paso 1: Usa la fórmula: (número de casos / total) × 100.\nPaso 2: Reemplaza: (12 / 40) × 100.\nPaso 3: Divide: 12 / 40 = 0.3.\nPaso 4: Multiplica: 0.3 × 100 = 30.\nResultado: Representa el 30%.",
+      "categoria": "competencias-basicas",
+      "tipo": "Matemáticas - porcentajes"
+    },
+    {
+      "id": 14,
+      "titulo": "Distribución de turnos en HOMERIS",
+      "situacion": "En una semana, 4 enfermeros cubren 6 turnos cada uno. Si faltan 2 enfermeros, ¿cuántos turnos debe cubrir cada uno de los restantes para mantener el mismo total?",
+      "respuesta": "Paso 1: Calcula el total de turnos: 4 enfermeros × 6 turnos = 24 turnos.\nPaso 2: Quedan 2 enfermeros (4 - 2 = 2).\nPaso 3: Divide el total entre los que quedan: 24 turnos / 2 enfermeros = 12 turnos cada uno.\nResultado: Cada enfermero debe cubrir 12 turnos.",
+      "categoria": "competencias-basicas",
+      "tipo": "Razonamiento lógico - distribución"
+    },
+    {
+      "id": 15,
+      "titulo": "Lectura crítica: deberes de los afiliados a la EPS",
+      "situacion": "Un paciente dice: 'Puedo exigir cualquier medicamento aunque no esté en el PBS'. ¿Es correcto según la Ley 100?",
+      "respuesta": "Paso 1: El Plan de Beneficios en Salud (PBS) define los servicios y medicamentos cubiertos.\nPaso 2: Los afiliados tienen derecho a lo incluido en el PBS.\nPaso 3: Para un medicamento no incluido, se requiere orden médica justificada y, en algunos casos, tutela si es vital.\nResultado: No es correcto. No es un derecho absoluto exigir cualquier medicamento.",
+      "categoria": "competencias-basicas",
+      "tipo": "Lectura crítica - PBS"
+    },
+    {
+      "id": 16,
+      "titulo": "Regla de tres para dilución de lorazepam",
+      "situacion": "Una ampolla de lorazepam tiene 4 mg en 2 mL. Se necesita administrar 1 mg. ¿Cuántos mL se deben extraer?",
+      "respuesta": "Paso 1: Plantea la regla de tres: 4 mg → 2 mL, 1 mg → X mL.\nPaso 2: X = (1 mg × 2 mL) / 4 mg.\nPaso 3: Calcula: (1 × 2) = 2; 2 / 4 = 0.5.\nResultado: Se deben extraer 0.5 mL.",
+      "categoria": "competencias-basicas",
+      "tipo": "Matemáticas - diluciones"
+    },
+    {
+      "id": 17,
+      "titulo": "Razonamiento: horarios de visita en psiquiatría",
+      "situacion": "Las visitas son de 2 a 4 PM y de 6 a 8 PM. ¿Cuántas horas totales de visita hay al día?",
+      "respuesta": "Paso 1: Primera franja: de 2 a 4 PM son 2 horas.\nPaso 2: Segunda franja: de 6 a 8 PM son 2 horas.\nPaso 3: Suma: 2 + 2 = 4.\nResultado: Hay 4 horas totales de visita.",
+      "categoria": "competencias-basicas",
+      "tipo": "Razonamiento lógico"
+    },
+    {
+      "id": 18,
+      "titulo": "Interpretación de nota médica: riesgo suicida",
+      "situacion": "Nota: 'Paciente con ideación suicida, sin plan, con apoyo familiar'. ¿Qué acción prioritaria debe tomar el enfermero?",
+      "respuesta": "Paso 1: Evalúa el riesgo inmediato: aunque no tiene plan, la ideación es un factor de alerta.\nPaso 2: Asegura un entorno seguro (retira objetos peligrosos).\nPaso 3: Notifica al psiquiatra y activa el protocolo de acompañamiento.\nPaso 4: No dejes al paciente solo.\nResultado: La prioridad es evaluar el riesgo, asegurar el entorno y notificar al médico.",
+      "categoria": "competencias-basicas",
+      "tipo": "Lectura crítica - priorización"
+    },
+    {
+      "id": 19,
+      "titulo": "Cálculo de índice de masa corporal (IMC)",
+      "situacion": "Paciente pesa 70 kg y mide 1.70 m. Calcule su IMC.",
+      "respuesta": "Paso 1: Fórmula del IMC = peso / (altura × altura).\nPaso 2: Altura al cuadrado: 1.70 × 1.70 = 2.89.\nPaso 3: Divide: 70 kg / 2.89 = 24.22.\nResultado: El IMC es 24.2 (peso normal).",
+      "categoria": "competencias-basicas",
+      "tipo": "Matemáticas - fórmulas"
+    },
+    {
+      "id": 20,
+      "titulo": "Porcentaje de camas ocupadas en crisis",
+      "situacion": "Una unidad de corta estancia tiene 15 camas. Actualmente hay 12 pacientes. ¿Cuál es el porcentaje de ocupación?",
+      "respuesta": "Paso 1: Fórmula: (pacientes / total de camas) × 100.\nPaso 2: Reemplaza: (12 / 15) × 100.\nPaso 3: Divide: 12 / 15 = 0.8.\nPaso 4: Multiplica: 0.8 × 100 = 80.\nResultado: El porcentaje de ocupación es 80%.",
+      "categoria": "competencias-basicas",
+      "tipo": "Matemáticas - porcentajes"
+    },
+    {
+      "id": 21,
+      "titulo": "Secuencia lógica de protocolo de contención",
+      "situacion": "Ordena los pasos para contener a un paciente agresivo: 1) Asegurar el entorno, 2) Intentar verbalización, 3) Llamar al equipo de seguridad, 4) Usar sujeción mecánica si es necesario.",
+      "respuesta": "Paso 1: Primero intenta la verbalización (2) para calmar al paciente.\nPaso 2: Luego asegura el entorno (1) retirando objetos peligrosos.\nPaso 3: Si no funciona, llama al equipo de seguridad (3).\nPaso 4: Como último recurso, usa sujeción mecánica (4).\nResultado: El orden es: 2, 1, 3, 4.",
+      "categoria": "competencias-basicas",
+      "tipo": "Razonamiento lógico - protocolos"
+    },
+    {
+      "id": 22,
+      "titulo": "Regla de tres para infusión de medicamento",
+      "situacion": "Se deben administrar 500 mL de solución salina en 4 horas. El equipo macrogoteo da 20 gotas por mL. ¿Cuántas gotas por minuto se necesitan?",
+      "respuesta": "Paso 1: Calcula el total de gotas: 500 mL × 20 gotas/mL = 10,000 gotas.\nPaso 2: Convierte 4 horas a minutos: 4 × 60 = 240 minutos.\nPaso 3: Divide: 10,000 gotas / 240 minutos = 41.666.\nPaso 4: Redondea: aproximadamente 42 gotas por minuto.\nResultado: Se necesitan 42 gotas por minuto.",
+      "categoria": "competencias-basicas",
+      "tipo": "Matemáticas - goteo"
+    },
+    {
+      "id": 23,
+      "titulo": "Interpretación de escala de Glasgow",
+      "situacion": "Paciente con sobredosis: abre ojos al estímulo, emite sonidos incomprensibles y retira al dolor. ¿Cuál es su puntaje Glasgow?",
+      "respuesta": "Paso 1: Apertura ocular al estímulo = 2 puntos.\nPaso 2: Respuesta verbal: sonidos incomprensibles = 2 puntos.\nPaso 3: Respuesta motora: retira al dolor = 4 puntos.\nPaso 4: Suma: 2 + 2 + 4 = 8.\nResultado: Glasgow 8 (coma moderado).",
+      "categoria": "competencias-basicas",
+      "tipo": "Lectura crítica - escalas"
+    },
+    {
+      "id": 24,
+      "titulo": "Porcentaje de pacientes que mejoran con terapia",
+      "situacion": "De 80 pacientes con trastorno de ansiedad, 60 reportan mejoría. ¿Qué porcentaje mejoró?",
+      "respuesta": "Paso 1: Fórmula: (mejoría / total) × 100.\nPaso 2: Reemplaza: (60 / 80) × 100.\nPaso 3: Divide: 60 / 80 = 0.75.\nPaso 4: Multiplica: 0.75 × 100 = 75.\nResultado: Mejoró el 75%.",
+      "categoria": "competencias-basicas",
+      "tipo": "Matemáticas - porcentajes"
+    },
+    {
+      "id": 25,
+      "titulo": "Razonamiento: relación enfermera-paciente en salud mental",
+      "situacion": "En una unidad psiquiátrica, la norma dice 1 enfermera por cada 6 pacientes. Si hay 24 pacientes, ¿cuántas enfermeras se requieren?",
+      "respuesta": "Paso 1: Divide el total de pacientes entre la proporción: 24 pacientes / 6 pacientes por enfermera = 4.\nPaso 2: Se necesitan 4 enfermeras.\nResultado: Se requieren 4 enfermeras.",
+      "categoria": "competencias-basicas",
+      "tipo": "Razonamiento lógico - proporciones"
+    },
+    {
+      "id": 26,
+      "titulo": "Lectura crítica: consentimiento informado en psiquiatría",
+      "situacion": "Un paciente con trastorno psicótico activo rechaza la medicación. ¿Es válido su rechazo sin evaluar competencia?",
+      "respuesta": "Paso 1: El consentimiento informado requiere capacidad de comprensión.\nPaso 2: En un episodio psicótico agudo, el paciente puede no ser competente para decidir.\nPaso 3: Se debe evaluar la competencia por un psiquiatra. Si no es competente, se sigue el protocolo de tratamiento involuntario si hay riesgo.\nResultado: No es automáticamente válido; debe evaluarse la competencia.",
+      "categoria": "competencias-basicas",
+      "tipo": "Lectura crítica - ética médica"
+    },
+    {
+      "id": 27,
+      "titulo": "Cálculo de dosis de quetiapina",
+      "situacion": "Se ordena quetiapina 100 mg. Las tabletas son de 50 mg. ¿Cuántas tabletas debe tomar el paciente?",
+      "respuesta": "Paso 1: Dosis ordenada: 100 mg.\nPaso 2: Presentación: 50 mg por tableta.\nPaso 3: Divide: 100 mg / 50 mg por tableta = 2 tabletas.\nResultado: Debe tomar 2 tabletas.",
+      "categoria": "competencias-basicas",
+      "tipo": "Matemáticas - cálculo de dosis"
+    },
+    {
+      "id": 28,
+      "titulo": "Porcentaje de adherencia al tratamiento",
+      "situacion": "Un paciente debe tomar 30 dosis de un medicamento al mes. Solo tomó 21. ¿Qué porcentaje de adherencia tuvo?",
+      "respuesta": "Paso 1: Fórmula: (dosis tomadas / dosis prescritas) × 100.\nPaso 2: Reemplaza: (21 / 30) × 100.\nPaso 3: Divide: 21 / 30 = 0.7.\nPaso 4: Multiplica: 0.7 × 100 = 70.\nResultado: La adherencia fue del 70%.",
+      "categoria": "competencias-basicas",
+      "tipo": "Matemáticas - porcentajes"
+    },
+    {
+      "id": 29,
+      "titulo": "Interpretación de escala de Norton",
+      "situacion": "Un paciente encamado tiene puntaje Norton de 12. ¿Qué significa y qué cuidados requiere?",
+      "respuesta": "Paso 1: La escala de Norton valora riesgo de úlceras por presión. Rango: 5 a 20.\nPaso 2: Menos de 14 indica riesgo alto.\nPaso 3: Con 12, el paciente tiene riesgo alto.\nPaso 4: Requiere cambios de posición cada 2 horas, superficies especiales y vigilancia de la piel.\nResultado: Riesgo alto de úlceras; aplicar protocolo de prevención.",
+      "categoria": "competencias-basicas",
+      "tipo": "Lectura crítica - escalas"
+    },
+    {
+      "id": 30,
+      "titulo": "Cálculo de índice de masa corporal (IMC) con sobrepeso",
+      "situacion": "Paciente pesa 85 kg y mide 1.65 m. Calcule su IMC y clasifíquelo.",
+      "respuesta": "Paso 1: Altura al cuadrado: 1.65 × 1.65 = 2.7225.\nPaso 2: IMC = 85 kg / 2.7225 = 31.23.\nPaso 3: Clasificación: 30-34.9 es obesidad grado I.\nResultado: IMC 31.2, obesidad grado I.",
+      "categoria": "competencias-basicas",
+      "tipo": "Matemáticas - fórmulas"
+    },
+    {
+      "id": 31,
+      "titulo": "Razonamiento lógico: programación de citas",
+      "situacion": "En un consultorio, cada cita dura 20 minutos y hay 5 horas disponibles. ¿Cuántas citas se pueden programar?",
+      "respuesta": "Paso 1: Convierte 5 horas a minutos: 5 × 60 = 300 minutos.\nPaso 2: Divide el total de minutos entre la duración por cita: 300 minutos / 20 minutos por cita = 15.\nResultado: Se pueden programar 15 citas.",
+      "categoria": "competencias-basicas",
+      "tipo": "Razonamiento lógico"
+    },
+    {
+      "id": 32,
+      "titulo": "Porcentaje de reducción de síntomas",
+      "situacion": "Un paciente tenía una puntuación de 40 en una escala de ansiedad. Después del tratamiento bajó a 28. ¿Qué porcentaje de reducción logró?",
+      "respuesta": "Paso 1: Calcula la reducción absoluta: 40 - 28 = 12 puntos.\nPaso 2: Fórmula: (reducción / puntaje inicial) × 100.\nPaso 3: Reemplaza: (12 / 40) × 100 = 0.3 × 100 = 30.\nResultado: Reducción del 30%.",
+      "categoria": "competencias-basicas",
+      "tipo": "Matemáticas - porcentajes"
+    },
+    {
+      "id": 33,
+      "titulo": "Lectura crítica: indicadores de calidad en salud mental",
+      "situacion": "Un indicador de calidad es 'porcentaje de pacientes readmitidos antes de 30 días'. Si una unidad tiene 15% de readmisión, ¿es aceptable?",
+      "respuesta": "Paso 1: No hay un estándar único, pero se compara con metas institucionales o nacionales.\nPaso 2: En general, una readmisión mayor al 10-12% se considera alta.\nPaso 3: 15% está por encima de lo deseable, indicaría problemas en el tratamiento o seguimiento.\nResultado: 15% es alto; se deben revisar los planes de egreso y continuidad de cuidados.",
+      "categoria": "competencias-basicas",
+      "tipo": "Lectura crítica - indicadores"
+    },
+    {
+      "id": 34,
+      "titulo": "Regla de tres para preparar solución de clorpromazina",
+      "situacion": "Se necesita preparar 25 mg de clorpromazina. La ampolla tiene 50 mg en 2 mL. ¿Cuántos mL extraer?",
+      "respuesta": "Paso 1: Regla de tres: 50 mg → 2 mL, 25 mg → X mL.\nPaso 2: X = (25 mg × 2 mL) / 50 mg.\nPaso 3: Calcula: (25 × 2) = 50; 50 / 50 = 1.\nResultado: Se extrae 1 mL.",
+      "categoria": "competencias-basicas",
+      "tipo": "Matemáticas - diluciones"
+    },
+    {
+      "id": 35,
+      "titulo": "Razonamiento: priorización de llamadas telefónicas",
+      "situacion": "Recibe tres llamadas: 1) familiar de paciente agitado, 2) médico solicitando resultado de laboratorio, 3) paciente con dolor torácico. ¿Cuál atiende primero?",
+      "respuesta": "Paso 1: Prioriza por riesgo vital: paciente con dolor torácico puede ser emergencia cardíaca.\nPaso 2: Segundo, atender al médico porque influye en el tratamiento.\nPaso 3: Tercero, al familiar, que puede esperar o ser atendido por otro personal.\nResultado: Atiende primero al paciente con dolor torácico.",
+      "categoria": "competencias-basicas",
+      "tipo": "Razonamiento lógico - priorización"
+    },
+    {
+      "id": 36,
+      "titulo": "Porcentaje de efectividad de un programa",
+      "situacion": "De 120 pacientes en un programa de rehabilitación psicosocial, 90 logran reintegración laboral. ¿Qué porcentaje de efectividad tiene el programa?",
+      "respuesta": "Paso 1: Fórmula: (exitosos / total) × 100.\nPaso 2: Reemplaza: (90 / 120) × 100.\nPaso 3: Divide: 90 / 120 = 0.75.\nPaso 4: Multiplica: 0.75 × 100 = 75.\nResultado: Efectividad del 75%.",
+      "categoria": "competencias-basicas",
+      "tipo": "Matemáticas - porcentajes"
+    },
+    {
+      "id": 37,
+      "titulo": "Interpretación de fragmento del Decreto 780 de 2016",
+      "situacion": "El Decreto 780 dice: 'El SGSSS es el conjunto de entidades, políticas y normas que rigen la prestación de servicios de salud'. ¿Cuál es su principal objetivo?",
+      "respuesta": "Paso 1: El objetivo del SGSSS es garantizar el acceso a servicios de salud de calidad para todos los colombianos.\nPaso 2: Incluye principios de universalidad, solidaridad y eficiencia.\nPaso 3: Busca proteger el derecho fundamental a la salud.\nResultado: El principal objetivo es garantizar el acceso equitativo y de calidad a la salud.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Lectura crítica - Decreto 780"
+    },
+    {
+      "id": 38,
+      "titulo": "Régimen de afiliación al SGSSS",
+      "situacion": "Un trabajador independiente con ingresos altos debe afiliarse al SGSSS. ¿En qué régimen debe estar?",
+      "respuesta": "Paso 1: El SGSSS tiene dos regímenes: Contributivo (para trabajadores con capacidad de pago) y Subsidiado (para población pobre y vulnerable).\nPaso 2: Un trabajador independiente con ingresos altos pertenece al régimen contributivo.\nPaso 3: Debe cotizar como independiente sobre el 40% de sus ingresos.\nResultado: Debe afiliarse al régimen contributivo.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - afiliación"
+    },
+    {
+      "id": 39,
+      "titulo": "Decreto 1011 de 2006: Sistema Obligatorio de Garantía de Calidad",
+      "situacion": "¿Cuáles son los cuatro componentes del SOGC según el Decreto 1011?",
+      "respuesta": "Paso 1: Los componentes son:\n1. Habilitación (cumplir condiciones básicas).\n2. Auditoría para el mejoramiento.\n3. Acreditación (voluntaria).\n4. Sistema único de habilitación.\nResultado: Los cuatro componentes son habilitación, auditoría, acreditación y sistema único de habilitación.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - calidad"
+    },
+    {
+      "id": 40,
+      "titulo": "Resolución 1444 de 2025: Talento humano en salud",
+      "situacion": "Según la Resolución 1444, ¿qué documento deben presentar los enfermeros auxiliares para ejercer en Colombia?",
+      "respuesta": "Paso 1: La Resolución 1444 regula el talento humano en salud.\nPaso 2: Para auxiliares de enfermería, exige título de auxiliar y registro en el ReTHUS (Registro de Talento Humano en Salud).\nPaso 3: También debe estar inscrito ante la Secretaría de Salud correspondiente.\nResultado: Deben presentar título de auxiliar de enfermería y estar registrados en el ReTHUS.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - talento humano"
+    },
+    {
+      "id": 41,
+      "titulo": "Ley 1751 de 2015: Derecho fundamental a la salud",
+      "situacion": "Un paciente demanda un tratamiento costoso no incluido en el PBS. ¿Bajo qué argumento legal puede solicitarlo?",
+      "respuesta": "Paso 1: La Ley 1751 de 2015 consagra la salud como derecho fundamental.\nPaso 2: Establece que la no inclusión en el PBS no justifica la negativa si el tratamiento es necesario para la vida o integridad.\nPaso 3: Puede pedir el amparo mediante tutela.\nResultado: Puede solicitar el tratamiento bajo el derecho fundamental a la salud y la necesidad médica.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - derecho a la salud"
+    },
+    {
+      "id": 42,
+      "titulo": "Resolución 2292 de 2021: Plan de Beneficios en Salud (PBS)",
+      "situacion": "¿Cuáles son las dos vías de acceso al PBS según la Resolución 2292?",
+      "respuesta": "Paso 1: Las vías son:\n1. Atención por demanda inducida (usuarios buscan servicios directamente).\n2. Atención por demanda provocada (el sistema promueve servicios preventivos).\nResultado: Las vías son demanda inducida y demanda provocada.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - PBS"
+    },
+    {
+      "id": 43,
+      "titulo": "Resolución 3100 de 2019: Habilitación de servicios de salud",
+      "situacion": "Un hospital quiere abrir una unidad de salud mental. ¿Qué debe cumplir según la Resolución 3100?",
+      "respuesta": "Paso 1: La Resolución 3100 define los estándares de habilitación.\nPaso 2: Para salud mental, se requiere: talento humano especializado (psiquiatra, psicólogo, enfermero), infraestructura adecuada (consultorios, espacios seguros), protocolos de atención, registro de pacientes.\nPaso 3: Debe solicitar la habilitación ante la Secretaría de Salud.\nResultado: Debe cumplir estándares de talento humano, infraestructura, protocolos y obtener licencia de habilitación.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - habilitación"
+    },
+    {
+      "id": 44,
+      "titulo": "Resolución 3280 de 2018: Rutas Integrales de Atención (RIAS)",
+      "situacion": "La RIAS para depresión incluye tamizaje, diagnóstico, tratamiento y seguimiento. ¿Quién puede realizar el tamizaje en primer nivel?",
+      "respuesta": "Paso 1: Según la RIAS, el tamizaje para depresión puede ser realizado por personal de enfermería capacitado.\nPaso 2: Usa escalas validadas como PHQ-2 o PHQ-9.\nPaso 3: Si es positivo, se deriva a psicología o psiquiatría.\nResultado: El tamizaje lo puede realizar enfermería.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - RIAS"
+    },
+    {
+      "id": 45,
+      "titulo": "Resolución 1995 de 1999: Historia Clínica",
+      "situacion": "¿Por cuánto tiempo debe conservarse la historia clínica de un paciente adulto según esta resolución?",
+      "respuesta": "Paso 1: La Resolución 1995 establece que la historia clínica debe conservarse por 20 años después de la última atención.\nPaso 2: Para menores de edad, se conserva hasta 10 años después de cumplir la mayoría de edad o 20 años después de la última atención, el que sea mayor.\nResultado: Para adultos, 20 años.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - historia clínica"
+    },
+    {
+      "id": 46,
+      "titulo": "Resolución 256 de 2016: Indicadores de calidad",
+      "situacion": "¿Qué indicador mide la oportunidad en la atención de urgencias según la Resolución 256?",
+      "respuesta": "Paso 1: La Resolución 256 define varios indicadores de calidad.\nPaso 2: El indicador de oportunidad en urgencias es el 'tiempo de atención en triage' y el 'tiempo de ingreso a hospitalización desde urgencias'.\nPaso 3: Estos se reportan periódicamente a la entidad territorial.\nResultado: El tiempo de atención en triage y el tiempo de ingreso a hospitalización.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - indicadores"
+    },
+    {
+      "id": 47,
+      "titulo": "Ley 1122 de 2007: Reforma al SGSSS",
+      "situacion": "¿Qué entidad creó la Ley 1122 para la inspección y vigilancia del sistema de salud?",
+      "respuesta": "Paso 1: La Ley 1122 de 2007 creó la Superintendencia Nacional de Salud.\nPaso 2: Esta entidad vigila a las EPS, IPS y demás actores.\nPaso 3: Tiene funciones de control, inspección y sanciones.\nResultado: Creó la Superintendencia Nacional de Salud.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - reforma"
+    },
+    {
+      "id": 48,
+      "titulo": "Ley 1438 de 2011: Fortalecimiento del SGSSS",
+      "situacion": "¿Qué enfoque principal introdujo la Ley 1438 en el SGSSS?",
+      "respuesta": "Paso 1: La Ley 1438 de 2011 fortaleció el SGSSS con enfoque de Atención Primaria en Salud (APS).\nPaso 2: Promovió la prevención, el cuidado integral y la participación comunitaria.\nPaso 3: Creó las redes integradas de servicios de salud.\nResultado: Introdujo el enfoque de Atención Primaria en Salud (APS).",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - APS"
+    },
+    {
+      "id": 49,
+      "titulo": "Cotización al SGSSS: trabajador independiente",
+      "situacion": "Un trabajador independiente declara ingresos mensuales de $2,000,000. ¿Sobre qué base cotiza?",
+      "respuesta": "Paso 1: Según la Ley 100, el trabajador independiente cotiza sobre el 40% de sus ingresos.\nPaso 2: Calcula: $2,000,000 × 0.40 = $800,000.\nPaso 3: Aplica la tarifa del 12.5% sobre esa base: $800,000 × 0.125 = $100,000.\nResultado: La base de cotización es $800,000.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - cotizaciones"
+    },
+    {
+      "id": 50,
+      "titulo": "SISBÉN y afiliación al régimen subsidiado",
+      "situacion": "¿Qué puntaje del SISBÉN permite acceder al régimen subsidiado?",
+      "respuesta": "Paso 1: El SISBÉN clasifica a la población por niveles.\nPaso 2: Actualmente, los grupos A (pobreza extrema) y B (pobreza moderada) son elegibles para el régimen subsidiado.\nPaso 3: Los grupos C y D no son elegibles y deben ir al régimen contributivo.\nResultado: Pertenecer al grupo A o B del SISBÉN.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - SISBÉN"
+    },
+    {
+      "id": 51,
+      "titulo": "Derechos de los pacientes según la Ley 100",
+      "situacion": "Enumere al menos tres derechos de los pacientes según la Ley 100.",
+      "respuesta": "Paso 1: Algunos derechos son:\n1. Elegir libremente la EPS y el médico.\n2. Recibir atención oportuna y de calidad.\n3. Consentimiento informado.\n4. Confidencialidad de la historia clínica.\n5. Recibir información clara sobre su estado de salud.\nResultado: Ejemplos: elección de EPS, atención oportuna, consentimiento informado.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - derechos"
+    },
+    {
+      "id": 52,
+      "titulo": "Deberes de los pacientes",
+      "situacion": "¿Cuál es un deber del paciente según el SGSSS?",
+      "respuesta": "Paso 1: Los deberes incluyen:\n1. Suministrar información veraz sobre su salud.\n2. Cumplir las indicaciones médicas.\n3. Asistir a las citas programadas.\n4. Usar adecuadamente los servicios.\nResultado: Un deber es cumplir las indicaciones médicas.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - deberes"
+    },
+    {
+      "id": 53,
+      "titulo": "Portabilidad en salud",
+      "situacion": "Un afiliado se muda de ciudad. ¿Puede recibir atención en su nueva ciudad sin tramitar traslado?",
+      "respuesta": "Paso 1: La portabilidad permite que un afiliado reciba atención en cualquier lugar del país.\nPaso 2: Las EPS deben garantizar la prestación de servicios a través de su red o convenios.\nPaso 3: Para servicios programados no urgentes, puede requerir autorización.\nResultado: Sí, puede recibir atención mediante el mecanismo de portabilidad.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - portabilidad"
+    },
+    {
+      "id": 54,
+      "titulo": "Auditoría médica",
+      "situacion": "¿Cuál es el objetivo de la auditoría médica según el Decreto 1011?",
+      "respuesta": "Paso 1: La auditoría médica busca mejorar la calidad y eficiencia de la atención.\nPaso 2: Evalúa la pertinencia, oportunidad y seguridad de los actos médicos.\nPaso 3: Genera recomendaciones para corregir desviaciones.\nResultado: Mejorar la calidad y eficiencia de la atención.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - auditoría"
+    },
+    {
+      "id": 55,
+      "titulo": "Indicadores de estructura, proceso y resultado",
+      "situacion": "Clasifique: 'Número de camas por cada mil habitantes' es un indicador de: estructura, proceso o resultado.",
+      "respuesta": "Paso 1: Los indicadores de estructura miden recursos disponibles (infraestructura, talento humano, equipos).\nPaso 2: El número de camas por mil habitantes es un indicador de estructura.\nResultado: Es un indicador de estructura.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - indicadores"
+    },
+    {
+      "id": 56,
+      "titulo": "Resolución 1444 de 2025: ReTHUS",
+      "situacion": "¿Qué es el ReTHUS y para qué sirve?",
+      "respuesta": "Paso 1: ReTHUS significa Registro de Talento Humano en Salud.\nPaso 2: Es una base de datos única donde se inscriben todos los profesionales y auxiliares de la salud.\nPaso 3: Sirve para garantizar la idoneidad, habilitación y disponibilidad del personal.\nResultado: Es el registro oficial del talento humano en salud.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - talento humano"
+    },
+    {
+      "id": 57,
+      "titulo": "Acreditación en salud",
+      "situacion": "Diferencie habilitación de acreditación.",
+      "respuesta": "Paso 1: Habilitación: requisito obligatorio que deben cumplir las IPS para funcionar.\nPaso 2: Acreditación: certificación voluntaria de excelencia, otorgada por entes externos.\nPaso 3: La acreditación es un nivel superior de calidad.\nResultado: Habilitación es obligatoria; acreditación es voluntaria y de excelencia.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - calidad"
+    },
+    {
+      "id": 58,
+      "titulo": "Política de Atención Primaria en Salud (APS)",
+      "situacion": "Mencione dos estrategias de la APS en salud mental.",
+      "respuesta": "Paso 1: Estrategias de APS en salud mental:\n1. Promoción de la salud mental en la comunidad.\n2. Detección temprana de trastornos en centros de atención primaria.\n3. Derivación oportuna a especialistas.\n4. Seguimiento de pacientes crónicos.\nResultado: Ejemplos: promoción de la salud mental y detección temprana.",
+      "categoria": "competencias-funcionales",
+      "tipo": "APS"
+    },
+    {
+      "id": 59,
+      "titulo": "Decreto 780 de 2016: Decreto Único Reglamentario",
+      "situacion": "¿Cuál es la ventaja de tener un Decreto Único Reglamentario?",
+      "respuesta": "Paso 1: Antes había muchos decretos dispersos.\nPaso 2: El Decreto 780 compila todas las normas reglamentarias del sector salud en un solo documento.\nPaso 3: Facilita la consulta y aplicación de la normatividad.\nResultado: Unifica y simplifica la normatividad del sector salud.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - Decreto 780"
+    },
+    {
+      "id": 60,
+      "titulo": "Sistema Único de Habilitación (SUH)",
+      "situacion": "¿Qué entidad otorga la habilitación a una IPS?",
+      "respuesta": "Paso 1: El SUH es administrado por las Secretarías Departamentales o Distritales de Salud.\nPaso 2: La habilitación la otorga la entidad territorial (Secretaría de Salud) después de verificar el cumplimiento de estándares.\nResultado: La Secretaría de Salud departamental o distrital.",
+      "categoria": "competencias-funcionales",
+      "tipo": "Normatividad - habilitación"
+    },
+    {
+      "id": 61,
+      "titulo": "Comité de ética hospitalaria",
+      "situacion": "¿Cuál es la función principal del comité de ética en un hospital de salud mental?",
+      "respuesta": "Paso 1: El comité de ética asesora en conflictos éticos.\nPaso 2: En salud mental, aborda temas como internaciones involuntarias, capacidad de consentimiento, límites de la contención.\nPaso 3: También revisa protocolos y capacita al personal.\nResultado: Asesorar en conflictos éticos y proteger los derechos de los pacientes.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 62,
+      "titulo": "Secreto profesional en psiquiatría",
+      "situacion": "Un paciente con esquizofrenia le cuenta que quiere hacer daño a su vecino. ¿Debe romper el secreto profesional?",
+      "respuesta": "Paso 1: El secreto profesional es obligatorio, pero tiene excepciones por peligro a terceros.\nPaso 2: Si hay riesgo inminente, debe informar al equipo tratante y, si es necesario, a las autoridades.\nPaso 3: La ley permite revelar información para prevenir un daño grave.\nResultado: Sí, debe romper el secreto para prevenir un daño a terceros.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 63,
+      "titulo": "Límites en la relación terapéutica",
+      "situacion": "Un paciente le ofrece un regalo costoso como agradecimiento. ¿Qué debe hacer?",
+      "respuesta": "Paso 1: Los regalos pueden generar dependencia o malinterpretación.\nPaso 2: Se puede aceptar un detalle simbólico de bajo valor, pero no regalos costosos.\nPaso 3: Explique con respeto que no puede aceptar el regalo por ética profesional.\nResultado: Rechazar el regalo costoso, explicando las normas éticas.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 64,
+      "titulo": "Negligencia en el cuidado",
+      "situacion": "Un compañero deja a un paciente con riesgo de caídas sin supervisión. ¿Qué acción toma?",
+      "respuesta": "Paso 1: La seguridad del paciente es prioridad.\nPaso 2: Interviene de inmediato para proteger al paciente.\nPaso 3: Después, habla con el compañero en privado sobre la falta.\nPaso 4: Si se repite, repórtalo al superior.\nResultado: Protege al paciente y luego aborda la situación con el compañero.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 65,
+      "titulo": "Confidencialidad en grupos terapéuticos",
+      "situacion": "Durante una terapia grupal, un familiar de un paciente le pide información sobre lo que se habla. ¿Cómo procede?",
+      "respuesta": "Paso 1: La confidencialidad grupal es esencial.\nPaso 2: No puede revelar información de otros miembros sin su consentimiento.\nPaso 3: Explique al familiar que no puede compartir detalles del grupo.\nResultado: Mantener la confidencialidad y negarse a dar información.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 66,
+      "titulo": "Trabajo en equipo en crisis de agitación psicomotriz",
+      "situacion": "Un paciente se agita y tira objetos. ¿Cómo debe actuar el equipo?",
+      "respuesta": "Paso 1: Activar el protocolo de manejo de crisis.\nPaso 2: Asignar roles: uno se comunica con el paciente, otro retira objetos peligrosos, otro llama al médico.\nPaso 3: Mantener la calma y evitar confrontación.\nPaso 4: Si no cede, aplicar contención farmacológica o mecánica ordenada por médico.\nResultado: Trabajo coordinado, roles claros y priorizar seguridad.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Trabajo en equipo"
+    },
+    {
+      "id": 67,
+      "titulo": "Comunicación efectiva en el pase de visita",
+      "situacion": "El médico deja indicaciones verbales poco claras. ¿Qué debe hacer el enfermero?",
+      "respuesta": "Paso 1: Solicitar que repita o aclare la orden.\nPaso 2: Anotar por escrito las indicaciones para evitar errores.\nPaso 3: Confirmar con el médico la comprensión.\nPaso 4: Aplicar la técnica SBAR (Situación, Antecedentes, Evaluación, Recomendación).\nResultado: Pedir aclaración y documentar para garantizar seguridad.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Trabajo en equipo"
+    },
+    {
+      "id": 68,
+      "titulo": "Orientación al servicio: familiar enojado",
+      "situacion": "Un familiar le grita porque la cita de su ser querido fue cancelada. ¿Cómo maneja la situación?",
+      "respuesta": "Paso 1: Mantener la calma y no responder con enojo.\nPaso 2: Escuchar activamente y validar su molestia.\nPaso 3: Explicar el motivo de la cancelación y ofrecer soluciones (reprogramar, hablar con el coordinador).\nPaso 4: Agradecer su comprensión.\nResultado: Empatía, escucha activa y ofrecer soluciones.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Orientación al servicio"
+    },
+    {
+      "id": 69,
+      "titulo": "Empatía con paciente deprimido",
+      "situacion": "Un paciente con depresión dice: 'No sirvo para nada'. ¿Qué respuesta es más empática?",
+      "respuesta": "Paso 1: Evitar frases hechas como 'anímese'.\nPaso 2: Responder: 'Entiendo que se siente así. Estoy aquí para ayudarle. ¿Quiere hablar más de eso?'\nPaso 3: Validar sentimientos sin juzgar.\nResultado: Una respuesta empática valida el sentimiento y ofrece apoyo.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Orientación al servicio"
+    },
+    {
+      "id": 70,
+      "titulo": "Sobrecarga laboral y autocuidado",
+      "situacion": "Un compañero está agotado y comete errores frecuentes. ¿Qué puede hacer el equipo?",
+      "respuesta": "Paso 1: Hablar con el compañero y ofrecer apoyo.\nPaso 2: Reorganizar tareas para aliviar su carga.\nPaso 3: Sugerirle que hable con el jefe para ajustar turnos.\nPaso 4: Recordar la importancia del autocuidado en salud mental.\nResultado: Apoyar al compañero y buscar redistribución de tareas.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Trabajo en equipo"
+    },
+    {
+      "id": 71,
+      "titulo": "Actitud ante error propio",
+      "situacion": "Usted comete un error en la administración de un medicamento. ¿Qué hace?",
+      "respuesta": "Paso 1: Reconocer el error de inmediato.\nPaso 2: Evaluar el daño al paciente y tomar medidas correctivas.\nPaso 3: Informar al médico y al jefe.\nPaso 4: Registrar el incidente para análisis.\nResultado: Reportar el error y actuar con transparencia.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 72,
+      "titulo": "Violencia laboral en salud mental",
+      "situacion": "Un paciente le agrede físicamente. ¿Qué debe hacer después de atender la emergencia?",
+      "respuesta": "Paso 1: Garantizar su propia seguridad y la de otros.\nPaso 2: Reportar la agresión al superior y al comité de riesgos laborales.\nPaso 3: Recibir atención médica si es necesario.\nPaso 4: Buscar apoyo psicológico para manejar el estrés.\nResultado: Reportar el incidente y buscar apoyo institucional.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 73,
+      "titulo": "Respeto a la autonomía del paciente",
+      "situacion": "Un paciente competente rechaza un tratamiento indicado. ¿Debe obligársele?",
+      "respuesta": "Paso 1: El paciente competente tiene derecho a rechazar tratamiento.\nPaso 2: Informarle sobre riesgos y consecuencias.\nPaso 3: Documentar el rechazo en la historia clínica.\nPaso 4: Respetar su decisión, a menos que haya riesgo vital inminente y él no pueda decidir.\nResultado: Respetar la autonomía, previa información y documentación.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 74,
+      "titulo": "Trabajo interdisciplinario en salud mental",
+      "situacion": "¿Qué profesionales integran típicamente un equipo de salud mental en un hospital?",
+      "respuesta": "Paso 1: Psiquiatra, psicólogo, enfermero, trabajador social, terapeuta ocupacional.\nPaso 2: También puede incluir auxiliares de enfermería, fonoaudiólogo, nutricionista según el caso.\nPaso 3: El trabajo en equipo es esencial para abordaje integral.\nResultado: Psiquiatra, psicólogo, enfermero, trabajador social, terapeuta ocupacional.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Trabajo en equipo"
+    },
+    {
+      "id": 75,
+      "titulo": "Comunicación con familiares de pacientes con demencia",
+      "situacion": "Un familiar se queja de que su madre con demencia no recibe buena atención. ¿Cómo actúa?",
+      "respuesta": "Paso 1: Escuchar la queja sin interrumpir.\nPaso 2: Mostrar empatía: 'Entiendo su preocupación'.\nPaso 3: Explicar las intervenciones realizadas y los desafíos de la demencia.\nPaso 4: Invitarlo a participar en el plan de cuidados.\nResultado: Escucha activa, empatía y participación del familiar.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Orientación al servicio"
+    },
+    {
+      "id": 76,
+      "titulo": "Protocolo de contención mecánica",
+      "situacion": "¿Cuáles son las condiciones éticas para aplicar contención mecánica?",
+      "respuesta": "Paso 1: Solo por orden médica.\nPaso 2: Cuando hay riesgo inminente para el paciente o terceros.\nPaso 3: Usar el menor tiempo posible y con supervisión continua.\nPaso 4: Documentar todo el proceso.\nResultado: Orden médica, riesgo inminente, mínimo tiempo, supervisión y registro.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 77,
+      "titulo": "Estrés por alta demanda asistencial",
+      "situacion": "El servicio está saturado y los pacientes se quejan por demoras. ¿Cómo maneja el estrés sin descuidar la calidad?",
+      "respuesta": "Paso 1: Priorizar según urgencia (triaje).\nPaso 2: Comunicar claramente las demoras a los pacientes.\nPaso 3: Solicitar refuerzo a la coordinación.\nPaso 4: Mantener la calma y trabajar en equipo.\nResultado: Priorización, comunicación, pedir ayuda y autocontrol.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Orientación al servicio"
+    },
+    {
+      "id": 78,
+      "titulo": "Prevención del síndrome de burnout",
+      "situacion": "Mencione tres estrategias de autocuidado para el personal de enfermería en salud mental.",
+      "respuesta": "Paso 1: Realizar pausas activas durante la jornada.\nPaso 2: Participar en supervisiones o grupos de apoyo entre pares.\nPaso 3: Mantener hábitos saludables: sueño, alimentación, ejercicio.\nPaso 4: Buscar ayuda psicológica si hay síntomas de burnout.\nResultado: Pausas activas, apoyo entre pares, hábitos saludables.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Trabajo en equipo"
+    },
+    {
+      "id": 79,
+      "titulo": "Conflicto entre equipo médico y enfermería",
+      "situacion": "Un médico trata con brusquedad al personal de enfermería. ¿Qué puede hacer el enfermero?",
+      "respuesta": "Paso 1: No responder con agresividad.\nPaso 2: Hablar en privado con el médico para expresar el malestar.\nPaso 3: Si persiste, reportarlo al jefe de enfermería o al comité de convivencia.\nPaso 4: Priorizar siempre la seguridad del paciente.\nResultado: Diálogo respetuoso y, si no funciona, reporte a superiores.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Trabajo en equipo"
+    },
+    {
+      "id": 80,
+      "titulo": "Información a familiares sobre pronóstico",
+      "situacion": "Un familiar pregunta si su hijo con esquizofrenia se va a curar. ¿Qué responde?",
+      "respuesta": "Paso 1: Ser honesto pero esperanzador.\nPaso 2: Explicar que la esquizofrenia es crónica, pero con tratamiento se logra estabilidad y buena calidad de vida.\nPaso 3: Evitar falsas promesas de curación.\nPaso 4: Recomendar apoyo psicológico familiar.\nResultado: Información realista sobre el curso crónico y la posibilidad de estabilidad.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Orientación al servicio"
+    },
+    {
+      "id": 81,
+      "titulo": "Actuación ante sospecha de maltrato infantil",
+      "situacion": "Un niño con moretones sospechosos es traído por sus padres. ¿Cuál es el deber legal del enfermero?",
+      "respuesta": "Paso 1: No acusar directamente.\nPaso 2: Documentar los hallazgos en la historia clínica.\nPaso 3: Reportar la sospecha al médico y al comité de protección infantil.\nPaso 4: Activar la ruta de atención a víctimas de maltrato.\nResultado: Reportar la sospecha a las autoridades competentes.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 82,
+      "titulo": "Manejo de pacientes manipuladores",
+      "situacion": "Un paciente con trastorno límite de personalidad intenta dividir al equipo. ¿Qué estrategia usar?",
+      "respuesta": "Paso 1: Mantener una comunicación unificada y consistente entre todos los miembros del equipo.\nPaso 2: Establecer límites claros y consecuencias.\nPaso 3: No permitir que el paciente enfrente a un profesional contra otro.\nPaso 4: Reuniones de equipo para acordar respuestas.\nResultado: Unificar criterios y establecer límites claros.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Trabajo en equipo"
+    },
+    {
+      "id": 83,
+      "titulo": "Reacción ante paciente con ideación homicida",
+      "situacion": "Un paciente confiesa que planea matar a su expareja. ¿Qué debe hacer?",
+      "respuesta": "Paso 1: Evaluar la inminencia del riesgo.\nPaso 2: Informar al psiquiatra y al equipo.\nPaso 3: Activar el protocolo de protección a posibles víctimas.\nPaso 4: Si hay peligro inminente, notificar a la policía.\nResultado: Reportar al equipo y activar medidas de protección.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 84,
+      "titulo": "Acompañamiento en duelo",
+      "situacion": "Un paciente perdió a su hijo y está en crisis. ¿Cómo puede ayudar el enfermero?",
+      "respuesta": "Paso 1: Ofrecer presencia y escucha activa.\nPaso 2: Evitar frases como 'ya pasará'.\nPaso 3: Validar su dolor: 'Es muy duro lo que está pasando'.\nPaso 4: Conectarlo con el psicólogo si es necesario.\nResultado: Escucha empática, validación y derivación a salud mental.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Orientación al servicio"
+    },
+    {
+      "id": 85,
+      "titulo": "Trabajo con pacientes agresivos: desescalamiento verbal",
+      "situacion": "Describa dos técnicas de desescalamiento verbal para un paciente agresivo.",
+      "respuesta": "Paso 1: Mantener distancia segura y postura corporal relajada.\nPaso 2: Usar un tono de voz calmado y bajo.\nPaso 3: Validar sus sentimientos: 'Entiendo que esté enojado'.\nPaso 4: Ofrecer opciones: '¿Quiere sentarse a hablar?'\nResultado: Técnicas: mantener calma, validar sentimientos, ofrecer opciones.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Trabajo en equipo"
+    },
+    {
+      "id": 86,
+      "titulo": "Registro de incidentes en seguridad del paciente",
+      "situacion": "¿Por qué es importante reportar los incidentes sin culpa?",
+      "respuesta": "Paso 1: El reporte sin culpa permite identificar fallas en el sistema.\nPaso 2: Facilita el aprendizaje y la implementación de barreras.\nPaso 3: Fomenta una cultura de seguridad, no de castigo.\nPaso 4: Reduce la recurrencia de eventos adversos.\nResultado: Para mejorar la seguridad del paciente mediante análisis sistémico.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 87,
+      "titulo": "Importancia del lavado de manos",
+      "situacion": "Un enfermero se lava las manos solo al inicio del turno. ¿Está bien?",
+      "respuesta": "Paso 1: El lavado de manos debe ser antes y después de cada contacto con el paciente.\nPaso 2: También después de tocar superficies contaminadas, antes de procedimientos asépticos.\nPaso 3: La OMS recomienda los 5 momentos para la higiene de manos.\nResultado: No está bien; debe lavarse las manos frecuentemente.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Seguridad del paciente"
+    },
+    {
+      "id": 88,
+      "titulo": "Acomodación de horarios para cuidadores familiares",
+      "situacion": "Un familiar pide horarios flexibles de visita para poder trabajar. ¿Cómo responder?",
+      "respuesta": "Paso 1: Revisar las normas de visita de la institución.\nPaso 2: Si es posible, ofrecer opciones dentro de los horarios establecidos.\nPaso 3: Explicar que las restricciones son por seguridad y bienestar del paciente.\nPaso 4: Si el caso lo justifica, solicitar una excepción a la coordinación.\nResultado: Buscar soluciones dentro de las normas, con empatía.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Orientación al servicio"
+    },
+    {
+      "id": 89,
+      "titulo": "Conducta pasiva-agresiva en el equipo",
+      "situacion": "Un colega hace comentarios sarcásticos en reuniones. ¿Cómo manejarlo?",
+      "respuesta": "Paso 1: No responder con sarcasmo.\nPaso 2: En privado, preguntar si hay algún problema que pueda ayudar a resolver.\nPaso 3: Mantener un tono asertivo y profesional.\nPaso 4: Si persiste, reportarlo al superior.\nResultado: Abordaje privado y asertivo, luego escalar si es necesario.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Trabajo en equipo"
+    },
+    {
+      "id": 90,
+      "titulo": "Miedo a contagiarse en pandemia",
+      "situacion": "Un enfermero expresa miedo a contagiarse durante una epidemia. ¿Qué debe hacer la institución?",
+      "respuesta": "Paso 1: Proveer equipos de protección personal adecuados.\nPaso 2: Capacitar en el uso correcto.\nPaso 3: Ofrecer apoyo psicológico.\nPaso 4: Rotar personal para evitar sobrecarga.\nResultado: La institución debe garantizar protección y apoyo.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Trabajo en equipo"
+    },
+    {
+      "id": 91,
+      "titulo": "Uso de redes sociales y confidencialidad",
+      "situacion": "¿Puede un enfermero publicar fotos de pacientes en redes sociales aunque no se vea el rostro?",
+      "respuesta": "Paso 1: La confidencialidad incluye cualquier información que permita identificar al paciente.\nPaso 2: Aunque no se vea el rostro, detalles como habitación, diagnóstico o pertenencias pueden identificarlo.\nPaso 3: No se debe publicar nada relacionado con pacientes sin consentimiento.\nResultado: No, está prohibido.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 92,
+      "titulo": "Barreras para la comunicación con pacientes psiquiátricos",
+      "situacion": "Un paciente con catatonia no habla. ¿Cómo se comunica con él?",
+      "respuesta": "Paso 1: Utilizar lenguaje no verbal: contacto visual suave, postura abierta.\nPaso 2: Hablar con calma, frases cortas.\nPaso 3: No presionar para que responda.\nPaso 4: Observar signos de respuesta mínima (parpadeo, movimiento).\nResultado: Comunicación no verbal, paciencia y observación.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Orientación al servicio"
+    },
+    {
+      "id": 93,
+      "titulo": "Síndrome de abstinencia de sustancias",
+      "situacion": "Un paciente con abstinencia de alcohol está agitado y confuso. ¿Qué prioridad tiene?",
+      "respuesta": "Paso 1: Evaluar constantes vitales y nivel de conciencia.\nPaso 2: Proteger al paciente de caídas o autolesiones.\nPaso 3: Administrar tratamiento según protocolo (benzodiacepinas, tiamina).\nPaso 4: Monitorizar para detectar delirium tremens.\nResultado: Prioridad es la estabilización física y prevención de complicaciones.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 94,
+      "titulo": "Capacitación continua en ética",
+      "situacion": "¿Por qué es importante la formación continua en ética para el personal de enfermería?",
+      "respuesta": "Paso 1: La ética en salud mental enfrenta dilemas complejos.\nPaso 2: La formación actualiza conocimientos sobre derechos humanos.\nPaso 3: Ayuda a tomar decisiones basadas en principios.\nPaso 4: Mejora la calidad de la atención y la confianza del paciente.\nResultado: Para enfrentar dilemas actualizados y proteger los derechos.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 95,
+      "titulo": "Rechazo a tratamiento por razones religiosas",
+      "situacion": "Un paciente testigo de Jehová rechaza una transfusión. ¿Qué hace la enfermera?",
+      "respuesta": "Paso 1: Respetar la decisión del paciente competente.\nPaso 2: Informar al médico para buscar alternativas.\nPaso 3: Documentar el rechazo.\nPaso 4: No imponer la transfusión contra su voluntad.\nResultado: Respetar autonomía y buscar alternativas.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 96,
+      "titulo": "Trabajo en equipo en alta rotación de personal",
+      "situacion": "Cómo mantener la cohesión del equipo cuando hay alta rotación de enfermeros temporales.",
+      "respuesta": "Paso 1: Realizar inducción breve pero clara a los nuevos.\nPaso 2: Asignar un tutor o compañero de apoyo.\nPaso 3: Mantener manuales de procedimientos accesibles.\nPaso 4: Fomentar reuniones cortas diarias para alinear criterios.\nResultado: Inducción, tutoría y comunicación constante.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Trabajo en equipo"
+    },
+    {
+      "id": 97,
+      "titulo": "Queja de un paciente por trato irrespetuoso",
+      "situacion": "Un paciente se queja de que un compañero lo trató con grosería. ¿Qué debe hacer?",
+      "respuesta": "Paso 1: Escuchar al paciente y disculparse en nombre de la institución.\nPaso 2: Registrar la queja.\nPaso 3: Hablar con el compañero en privado, sin juzgar, para entender lo sucedido.\nPaso 4: Si hay evidencia, tomar medidas correctivas.\nResultado: Atender la queja, mediar y corregir.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Orientación al servicio"
+    },
+    {
+      "id": 98,
+      "titulo": "Consentimiento informado en adolescentes",
+      "situacion": "Un adolescente de 16 años con depresión requiere hospitalización. ¿Quién debe firmar el consentimiento?",
+      "respuesta": "Paso 1: En Colombia, los adolescentes de 14 a 18 años pueden dar su consentimiento para procedimientos relacionados con salud mental si están en capacidad de hacerlo.\nPaso 2: Idealmente, también se informa y se obtiene asentimiento de los padres.\nPaso 3: En caso de urgencia vital, se puede proceder sin consentimiento.\nResultado: El adolescente competente puede consentir, pero se involucra a los padres.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Ética"
+    },
+    {
+      "id": 99,
+      "titulo": "Manejo de quejas por falta de medicamentos",
+      "situacion": "Un paciente se queja porque no hay un psicofármaco en la farmacia. ¿Qué respuesta dar?",
+      "respuesta": "Paso 1: Disculparse por la situación.\nPaso 2: Informar al médico para que prescriba un sustituto o gestione el medicamento.\nPaso 3: Explicar al paciente los pasos que se están tomando.\nPaso 4: Hacer seguimiento hasta resolver.\nResultado: Empatía, comunicación proactiva y seguimiento.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Orientación al servicio"
+    },
+    {
+      "id": 100,
+      "titulo": "Rol del enfermero en la prevención del suicidio",
+      "situacion": "¿Qué acciones de enfermería son clave para prevenir el suicidio en pacientes hospitalizados?",
+      "respuesta": "Paso 1: Evaluar el riesgo periódicamente con escalas.\nPaso 2: Asegurar un entorno seguro (sin objetos peligrosos).\nPaso 3: Observación continua y acompañamiento.\nPaso 4: Establecer una alianza terapéutica.\nPaso 5: Informar al equipo y activar protocolo si hay ideas activas.\nResultado: Evaluación de riesgo, entorno seguro, observación y alianza terapéutica.",
+      "categoria": "competencias-comportamentales",
+      "tipo": "Prevención"
     }
   ]
 }

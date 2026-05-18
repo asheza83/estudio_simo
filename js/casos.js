@@ -26,6 +26,18 @@ export async function cargarCasos() {
             </div>
         `;
 
+        // Descripción de las competencias
+        html += `
+            <div style="margin-bottom: 16px; background-color: var(--bg-principal); padding: 12px; border-radius: 10px; font-size: 1.3rem;">
+                <p style="margin: 0 0 8px 0; font-weight: bold;">📌 ¿Qué significa cada competencia?</p>
+                <div style="display: flex; flex-wrap: wrap; gap: 12px;">
+                    <span><strong>📖 Básicas:</strong> Razonamiento lógico, matemáticas y comprensión lectora.</span>
+                    <span><strong>🩺 Funcionales:</strong> Normatividad del sector salud (Leyes, decretos, resoluciones).</span>
+                    <span><strong>🤝 Comportamentales:</strong> Ética, trabajo en equipo y orientación al servicio.</span>
+                </div>
+            </div>
+        `;
+
         // Filtros por categoría
         html += `
             <div style="margin-bottom: 16px;">
@@ -112,7 +124,7 @@ function actualizarListaCasos() {
                     <p><strong>Situación:</strong> ${caso.situacion}</p>
                     <details class="caso-details">
                         <summary class="caso-summary">👁️ Ver respuesta orientativa</summary>
-                        <p style="margin-top: 10px; padding: 12px; background-color: var(--bg-secundario); border-left: 3px solid var(--azul); border-radius: 8px; color: var(--texto-principal);">${caso.respuesta}</p>
+                        <div class="respuesta-pasos">${caso.respuesta.replace(/\n/g, '<br>')}</div>
                     </details>
                 </div>
             `;

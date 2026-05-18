@@ -767,3 +767,27 @@ body {
         transform: translateY(0);
     }
 }
+
+/* Estilo para respuestas desplegadas con pasos */
+.caso-details {
+    margin-top: 12px;
+    transition: background 0.2s;
+    border-radius: 10px;
+}
+
+/* Cuando el details está abierto, cambia el fondo del bloque de respuesta */
+details.caso-details[open] .respuesta-pasos {
+    background-color: #e0f0ff;  /* o el color que quieras */
+    border-left: 3px solid var(--azul);
+    transition: background 0.2s;
+}
+
+.respuesta-pasos {
+    white-space: pre-wrap;    /* Respeta los saltos de línea y espacios */
+    font-family: inherit;
+    line-height: 1.5;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #dc3545;
+    border-radius: 8px;
+}
