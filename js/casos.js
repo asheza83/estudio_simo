@@ -28,12 +28,12 @@ export async function cargarCasos() {
 
         // Descripción de las competencias
         html += `
-            <div style="margin-bottom: 16px; background-color: var(--bg-principal); padding: 12px; border-radius: 10px; font-size: 1.3rem;">
-                <p style="margin: 0 0 8px 0; font-weight: bold;">📌 ¿Qué significa cada competencia?</p>
+            <div style="margin-bottom: 16px; background-color: var(--bg-principal); padding: 12px; border-radius: 10px; font-size: 1.2rem;">
+                <p style="margin: 0 0 8px 0; font-weight: bold;">📌 ¿Qué tipo de casos contiene cada competencia?</p>
                 <div style="display: flex; flex-wrap: wrap; gap: 12px;">
-                    <span><strong>📖 Básicas:</strong> Razonamiento lógico, matemáticas y comprensión lectora.</span>
-                    <span><strong>🩺 Funcionales:</strong> Normatividad del sector salud (Leyes, decretos, resoluciones).</span>
-                    <span><strong>🤝 Comportamentales:</strong> Ética, trabajo en equipo y orientación al servicio.</span>
+                    <span><strong>📖 Básicas:</strong> Casos de razonamiento lógico, matemáticas aplicadas y comprensión lectora.</span>
+                    <span><strong>🩺 Funcionales:</strong> Casos sobre normatividad del sector salud (leyes, decretos, resoluciones).</span>
+                    <span><strong>🤝 Comportamentales:</strong> Casos de ética profesional, trabajo en equipo y orientación al servicio.</span>
                 </div>
             </div>
         `;
@@ -130,6 +130,44 @@ function actualizarListaCasos() {
             `;
         });
         container.innerHTML = html;
+
+        // Control manual de apertura/cierre con animaciones
+        document.querySelectorAll('.caso-details').forEach(details => {
+            const summary = details.querySelector('summary');
+            const respuesta = details.querySelector('.respuesta-pasos');
+            let animating = false;
+
+            // Eliminar comportamiento nativo del summary
+            summary.style.cursor = 'pointer';
+            
+            summary.addEventListener('click', function(e) {
+                e.preventDefault();  // Evita que el details alterne solo
+                if (animating) return;
+
+                if (details.open) {
+                    // ----- CERRAR -----
+                    animating = true;
+                    respuesta.style.animation = 'fadeSlideOut 0.25s ease forwards';
+                    setTimeout(() => {
+                        details.open = false;   // Ahora sí se cierra
+                        respuesta.style.animation = ''; // Limpiar animación
+                        animating = false;
+                        // Cambiar texto del summary
+                        summary.innerHTML = '👁️ Ver respuesta orientativa';
+                    }, 350);
+                } else {
+                    // ----- ABRIR -----
+                    details.open = true;
+                    respuesta.style.animation = 'fadeSlideIn 0.25s ease forwards';
+                    animating = true;
+                    setTimeout(() => {
+                        respuesta.style.animation = '';
+                        animating = false;
+                        summary.innerHTML = '🙈 Ocultar respuesta';
+                    }, 450);
+                }
+            });
+        });
     }
     
     // Restaurar transición para futuros fades (opcional)

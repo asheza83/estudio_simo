@@ -1,0 +1,62 @@
+/* ============================================
+   ESTILOS PARA CASOS PRÁCTICOS
+   ============================================ */
+
+/* Contenedor del details y animaciones */
+.caso-details {
+    margin-top: 12px;
+    transition: background 0.2s;
+    border-radius: 10px;
+}
+
+.respuesta-pasos {
+    white-space: pre-wrap;
+    font-family: inherit;
+    line-height: 1.5;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--bg-secundario);
+    border-radius: 8px;
+    /* Sin opacidad por defecto, la animación la controla JS */
+}
+
+/* Fondo cuando el details está abierto (opcional) */
+details.caso-details[open] .respuesta-pasos {
+    background-color: #b5d0e9;  /* Azul claro para modo claro */
+    border-left: 3px solid var(--azul);
+    transition: background-color 0.3s ease, border-left 0.2s ease;
+}
+
+/* Modo oscuro: fondo más oscuro pero distinguible */
+body.dark-mode details.caso-details[open] .respuesta-pasos {
+    background-color: #1e3a5f;  /* Azul oscuro */
+    border-left: 3px solid var(--azul);
+}
+
+/* Modo oscuro: texto del summary en blanco para mejor contraste */
+body.dark-mode .caso-summary {
+    color: white !important;
+}
+
+/* Animaciones de entrada/salida (usadas por JavaScript) */
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeSlideOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+}
