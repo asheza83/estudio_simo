@@ -1,0 +1,58 @@
+/* ============================================
+   ESTILOS PARA PROCEDIMIENTOS DE ENFERMERÍA
+   ============================================ */
+
+/* Los procedimientos usan los mismos estilos base que los casos,
+   pero puedes personalizarlos si lo deseas. Por ahora, solo
+   añadimos un margen adicional para separar los elementos. */
+
+.procedimiento-item {
+    margin-bottom: 20px;
+}
+
+/* Para que las listas de pasos se vean mejor */
+#procedimientos-lista p {
+    margin: 8px 0;
+}
+
+#procedimientos-lista strong {
+    color: var(--azul);
+}
+
+body.dark-mode #procedimientos-lista strong {
+    color: #4c9aff;
+}
+
+/* Ocultar el triángulo nativo del summary */
+.procedimiento-details summary {
+    list-style: none;
+}
+.procedimiento-details summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Animaciones (si no están en casos.css, cópialas aquí) */
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fadeSlideOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+}
+.procedimiento-contenido {
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+}

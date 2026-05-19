@@ -44,6 +44,7 @@
                         <option value="simo">📋 Información de la convocatoria SIMO</option>
                         <option value="normas">📚 Normas del sector salud</option>
                         <option value="casos">🩺 Casos prácticos y dilemas éticos</option>
+                        <option value="procedimientos">🩺 Procedimientos de enfermería</option>
                     </select>
                 </div>
 
@@ -222,6 +223,13 @@
                     </div>
                 </div>
 
+                <!-- SECCIÓN PROCEDIMIENTOS -->
+                <div id="seccion-procedimientos" class="seccion-estudio" style="display: none;">
+                    <div id="procedimientos-container">
+                        <p>Cargando procedimientos...</p>
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -381,6 +389,7 @@
     <script type="module" src="js/casos.js"></script>
     <script type="module" src="js/app.js"></script>
     <script type="module" src="./js/preguntas/index.js"></script>
+    <script type="module" src="js/procedimientos.js"></script>
     <!-- ✅ DEBE SER ASÍ -->
     <script type="module">
         import { initAsistente } from './js/asistente/index.js';
@@ -435,6 +444,11 @@
                         if (seleccion === 'normas') {
                             if (typeof mostrarPantallaPrincipal === 'function') {
                                 mostrarPantallaPrincipal();
+                            }
+                        }
+                        if (seleccion === 'procedimientos') {
+                            if (typeof window.cargarProcedimientos === 'function') {
+                                window.cargarProcedimientos();
                             }
                         }
                     }, 150);

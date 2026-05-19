@@ -1,0 +1,728 @@
+{
+  "version": "1.0",
+  "procedimientos": [
+    {
+      "id": 1,
+      "titulo": "Contención mecánica",
+      "objetivo": "Proteger al paciente y al personal durante agitación severa cuando otras medidas han fallado.",
+      "categoria": "Seguridad",
+      "material": [
+        "4 correas acolchadas",
+        "Cama con barandas",
+        "Almohadas",
+        "Hoja de registro"
+      ],
+      "pasos": [
+        "1. Obtén orden médica por escrito.",
+        "2. Explica al paciente (si es posible) y a la familia.",
+        "3. Coloca correas en muñecas y tobillos, dejando espacio para la circulación sanguínea (debe pasar un dedo).",
+        "4. Fija las correas a la cama sin tensión excesiva.",
+        "5. Vigila cada 15 minutos: signos vitales, piel, estado emocional.",
+        "6. Libera extremidades cada 2 horas una por una para movilización.",
+        "7. Documenta cada acción y tiempo de liberación."
+      ],
+      "precauciones": [
+        "No usar en problemas respiratorios graves.",
+        "Vigilar enrojecimiento o lesiones en la piel.",
+        "Nunca dejar al paciente solo.",
+        "Reevaluar cada 4 horas; debe ser lo más breve posible."
+      ],
+      "normativa": [
+        "Resolución 1444 de 2025",
+        "Ley 100 de 1993"
+      ],
+      "tiempo_estimado": "Variable (horas)"
+    },
+    {
+      "id": 2,
+      "titulo": "Desescalamiento verbal",
+      "objetivo": "Reducir la agitación mediante comunicación calmada y empática, evitando contenciones.",
+      "categoria": "Comunicación",
+      "material": [],
+      "pasos": [
+        "1. Mantén distancia segura (un brazo).",
+        "2. Habla con tono bajo y pausado.",
+        "3. Valida sentimientos: 'Entiendo que estás molesto'.",
+        "4. Ofrece opciones limitadas: '¿Prefieres sentarte o hablar?'.",
+        "5. Evita órdenes directas o amenazas.",
+        "6. Si la agitación aumenta, pide ayuda."
+      ],
+      "precauciones": [
+        "No grites ni toques sin consentimiento.",
+        "Si el paciente tiene un arma, no intentes desescalar solo."
+      ],
+      "normativa": [
+        "Protocolos institucionales"
+      ],
+      "tiempo_estimado": "Variable (minutos)"
+    },
+    {
+      "id": 3,
+      "titulo": "Administración de haloperidol IM",
+      "objetivo": "Administrar haloperidol IM para controlar agitación psicótica aguda.",
+      "categoria": "Medicación",
+      "material": [
+        "Ampolla haloperidol 5 mg/mL",
+        "Jeringa 1 mL",
+        "Agujas 21G y 23G",
+        "Alcohol, algodón, guantes"
+      ],
+      "pasos": [
+        "1. Lávate manos y ponte guantes.",
+        "2. Verifica orden médica (ej. 5 mg IM).",
+        "3. La ampolla tiene 5 mg en 1 mL → necesitas 1 mL.",
+        "4. Extrae 1 mL con aguja 21G.",
+        "5. Cambia a aguja 23G (evita partículas y reduce dolor).",
+        "6. Limpia la piel del glúteo o deltoides.",
+        "7. Administra por vía IM profunda.",
+        "8. Desecha en recipiente de punzocortantes (tarro rojo).",
+        "9. Documenta: medicamento, dosis, hora, sitio."
+      ],
+      "precauciones": [
+        "Verifica alergias en historia clínica. Si hay antecedente, consulta al médico.",
+        "Monitoriza efectos extrapiramidales (rigidez, distonía)."
+      ],
+      "normativa": [
+        "Resolución 1444 de 2025"
+      ],
+      "tiempo_estimado": "5 minutos"
+    },
+    {
+      "id": 4,
+      "titulo": "Administración de lorazepam IM (con regla de tres)",
+      "objetivo": "Administrar lorazepam IM en crisis de ansiedad o agitación, calculando la dosis correcta.",
+      "categoria": "Medicación",
+      "material": [
+        "Ampolla lorazepam 4 mg / 2 mL",
+        "Jeringa 2 mL",
+        "Agujas 21G y 23G",
+        "Alcohol, algodón, guantes"
+      ],
+      "pasos": [
+        "1. Lávate manos y ponte guantes.",
+        "2. Orden médica: ej. 2 mg IM.",
+        "3. Ampolla: 4 mg en 2 mL. Calcula: (2 mg × 2 mL) / 4 mg = 1 mL.",
+        "4. Extrae 1 mL con aguja 21G.",
+        "5. Cambia a aguja 23G.",
+        "6. Administra en glúteo (zona dorsoglútea) IM profundo.",
+        "7. Desecha en tarro rojo.",
+        "8. Documenta."
+      ],
+      "precauciones": [
+        "Efecto sedante: monitoriza nivel de conciencia y respiración.",
+        "No mezclar con otros medicamentos en la misma jeringa."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "5 minutos"
+    },
+    {
+      "id": 5,
+      "titulo": "Evaluación de escala de Glasgow",
+      "objetivo": "Medir el nivel de conciencia en pacientes con alteración neurológica (trauma, sobredosis).",
+      "categoria": "Valoración",
+      "material": [
+        "Hoja de registro"
+      ],
+      "pasos": [
+        "1. Apertura ocular: espontánea (4), a la voz (3), al dolor (2), ninguna (1).",
+        "2. Respuesta verbal: orientado (5), confuso (4), palabras inapropiadas (3), sonidos (2), ninguna (1).",
+        "3. Respuesta motora: obedece (6), localiza dolor (5), retira al dolor (4), flexión (3), extensión (2), ninguna (1).",
+        "4. Suma los puntajes. Máx 15 (alerta), mín 3 (coma)."
+      ],
+      "precauciones": [
+        "Si está intubado, anota '1T' en verbal.",
+        "No aplicar dolor si hay fracturas evidentes."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "2 minutos"
+    },
+    {
+      "id": 6,
+      "titulo": "Prevención de caídas",
+      "objetivo": "Reducir el riesgo de caídas en pacientes con alteración motora o sedación.",
+      "categoria": "Cuidados básicos",
+      "material": [
+        "Barandas",
+        "Alarma de cama",
+        "Calzado antideslizante"
+      ],
+      "pasos": [
+        "1. Identifica pacientes de riesgo (escala de Morse).",
+        "2. Mantén barandas elevadas.",
+        "3. Coloca alarma de cama o silla.",
+        "4. Asegura calzado antideslizante (no medias resbalosas).",
+        "5. Enséñale a pedir ayuda antes de levantarse.",
+        "6. Realiza rondas frecuentes."
+      ],
+      "precauciones": [
+        "Reevalúa el riesgo diariamente."
+      ],
+      "normativa": [
+        "Resolución 3100 de 2019"
+      ],
+      "tiempo_estimado": "Continuo"
+    },
+    {
+      "id": 7,
+      "titulo": "Toma de muestras en paciente agitado",
+      "objetivo": "Obtener muestras de sangre de forma segura en pacientes agitados.",
+      "categoria": "Procedimientos clínicos",
+      "material": [
+        "Torniquete, alcohol, aguja mariposa",
+        "Tubos al vacío",
+        "Guantes",
+        "Inmovilización suave"
+      ],
+      "pasos": [
+        "1. Pide ayuda a otro enfermero o seguridad.",
+        "2. Explica brevemente al paciente.",
+        "3. Inmoviliza suavemente el brazo sin fuerza bruta.",
+        "4. Realiza la punción rápida.",
+        "5. Obtén la muestra.",
+        "6. Presiona con algodón.",
+        "7. Desecha en tarro rojo."
+      ],
+      "precauciones": [
+        "Si el riesgo de agresión es alto, reprograma."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "10 minutos"
+    },
+    {
+      "id": 8,
+      "titulo": "Cuidados post-contención (debrieffing)",
+      "objetivo": "Realizar el retiro de correas de forma segura y analizar el evento con el equipo.",
+      "categoria": "Seguridad",
+      "material": [
+        "Formulario de registro"
+      ],
+      "pasos": [
+        "1. Retira correas una a una, explicando al paciente.",
+        "2. Revisa la piel en muñecas y tobillos.",
+        "3. Ofrece líquidos y alimentos si ha pasado tiempo.",
+        "4. Registra todo el evento (motivo, duración, incidentes).",
+        "5. Reunión breve con el equipo para análisis."
+      ],
+      "precauciones": [
+        "Documenta como evento adverso si aplica.",
+        "Ofrece apoyo psicológico al paciente y al personal."
+      ],
+      "normativa": [
+        "Resolución 1444 de 2025"
+      ],
+      "tiempo_estimado": "15-30 minutos"
+    },
+    {
+      "id": 9,
+      "titulo": "Prevención de úlceras por presión (escala de Norton)",
+      "objetivo": "Prevenir úlceras por presión mediante evaluación y cambios posturales.",
+      "categoria": "Cuidados básicos",
+      "material": [
+        "Colchón de aire",
+        "Crema hidratante",
+        "Cojines"
+      ],
+      "pasos": [
+        "1. Aplica escala de Norton al ingreso y cada 48h.",
+        "2. Cambia posición cada 2 horas.",
+        "3. Inspecciona zonas de presión (sacro, talones, codos).",
+        "4. Mantén piel limpia y seca.",
+        "5. Usa superficies especiales si es necesario."
+      ],
+      "precauciones": [
+        "No masajees zonas enrojecidas."
+      ],
+      "normativa": [
+        "Decreto 1011 de 2006"
+      ],
+      "tiempo_estimado": "Continuo"
+    },
+    {
+      "id": 10,
+      "titulo": "Manejo de ideación suicida activa",
+      "objetivo": "Proteger al paciente con riesgo de suicidio mediante evaluación y vigilancia.",
+      "categoria": "Seguridad",
+      "material": [
+        "Hoja de evaluación de riesgo"
+      ],
+      "pasos": [
+        "1. Pregunta directamente: '¿Has pensado en hacerte daño?'.",
+        "2. Evalúa plan, medios y acceso.",
+        "3. Retira objetos peligrosos (cuerdas, cuchillas).",
+        "4. Acompaña al paciente en todo momento.",
+        "5. Notifica al psiquiatra.",
+        "6. Activa protocolo de observación 1:1."
+      ],
+      "precauciones": [
+        "No dejes solo al paciente bajo ninguna circunstancia."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "Inmediato"
+    },
+    {
+      "id": 11,
+      "titulo": "Evaluación de abstinencia alcohólica (escala CIWA-Ar)",
+      "objetivo": "Medir la severidad de la abstinencia alcohólica para guiar el tratamiento.",
+      "categoria": "Valoración",
+      "material": [
+        "Formulario CIWA-Ar",
+        "Esfigmomanómetro"
+      ],
+      "pasos": [
+        "1. Pregunta por náuseas, agitación, alucinaciones.",
+        "2. Observa temblor, sudoración.",
+        "3. Toma signos vitales.",
+        "4. Suma puntaje (máx 67).",
+        "5. <9: leve (ambulatorio); 9-15: moderado; >15: grave (riesgo de delirium)."
+      ],
+      "precauciones": [
+        "Si hay delirium tremens, no confíes solo en la escala."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "5-10 minutos"
+    },
+    {
+      "id": 12,
+      "titulo": "Administración de medicamentos VO en pacientes resistentes",
+      "objetivo": "Lograr la administración de medicamentos orales en pacientes que se niegan.",
+      "categoria": "Medicación",
+      "material": [
+        "Medicamento",
+        "Jugo o puré",
+        "Jeringa oral (opcional)"
+      ],
+      "pasos": [
+        "1. Explica al paciente la necesidad del medicamento.",
+        "2. Ofrécelo mezclado con puré, yogurt o compota.",
+        "3. Si se niega, espera 5-10 min y vuelve a intentar.",
+        "4. Si persiste, notifica al médico para evaluar cambio de vía o fármaco."
+      ],
+      "precauciones": [
+        "No tritures medicamentos de liberación prolongada.",
+        "No engañes ni fuerces al paciente."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "10-15 minutos"
+    },
+    {
+      "id": 13,
+      "titulo": "Manejo de paciente con crisis de pánico",
+      "objetivo": "Ayudar al paciente a recuperar la calma durante una crisis de ansiedad aguda.",
+      "categoria": "Comunicación",
+      "material": [
+        "Espacio tranquilo",
+        "Agua (opcional)"
+      ],
+      "pasos": [
+        "1. Acompaña al paciente a un lugar tranquilo y sin estímulos.",
+        "2. Habla con voz calmada, frases cortas y lentas.",
+        "3. Guía su respiración: 'Inhala por la nariz... exhala por la boca'.",
+        "4. Valida su miedo: 'Esto es difícil, pero va a pasar'.",
+        "5. Ofrécele agua si lo desea.",
+        "6. Permanece con él hasta que la crisis ceda."
+      ],
+      "precauciones": [
+        "No minimices su sensación ('no es para tanto').",
+        "No toques al paciente sin preguntar antes."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "10-20 minutos"
+    },
+    {
+      "id": 14,
+      "titulo": "Administración de biperideno IM (efectos extrapiramidales)",
+      "objetivo": "Tratar la distonía aguda o rigidez por antipsicóticos.",
+      "categoria": "Medicación",
+      "material": [
+        "Ampolla biperideno 5 mg / 1 mL",
+        "Jeringa 1 mL",
+        "Aguja 23G",
+        "Alcohol, algodón, guantes"
+      ],
+      "pasos": [
+        "1. Verifica orden médica (ej. 5 mg IM).",
+        "2. La ampolla tiene 5 mg en 1 mL → extrae 1 mL.",
+        "3. Administra en glúteo IM profundo.",
+        "4. Monitorea mejoría de los síntomas (distonía, rigidez).",
+        "5. Documenta."
+      ],
+      "precauciones": [
+        "Puede causar somnolencia; vigila caídas.",
+        "No usar en glaucoma de ángulo cerrado (verificar antecedentes)."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "3 minutos"
+    },
+    {
+      "id": 15,
+      "titulo": "Evaluación de riesgo de suicidio (escala PLA)",
+      "objetivo": "Identificar factores de riesgo suicida de forma rápida.",
+      "categoria": "Valoración",
+      "material": [
+        "Formulario PLA"
+      ],
+      "pasos": [
+        "1. Pregunta: '¿Has pensado en la muerte o en hacerte daño?'.",
+        "2. Si responde sí, explora: plan, medios, fecha prevista.",
+        "3. Aplica escala PLA: P (plan), L (letality – medios letales), A (accesibilidad).",
+        "4. Puntaje ≥ 2 requiere vigilancia especial y notificar al psiquiatra."
+      ],
+      "precauciones": [
+        "No dejar al paciente sin supervisión si responde afirmativamente."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "5 minutos"
+    },
+    {
+      "id": 16,
+      "titulo": "Prevención de laceraciones en pacientes con agitación",
+      "objetivo": "Evitar lesiones en la piel por uñas o movimientos bruscos.",
+      "categoria": "Cuidados básicos",
+      "material": [
+        "Cortauñas",
+        "Lima",
+        "Guantes de contención (si se usan)"
+      ],
+      "pasos": [
+        "1. Inspecciona uñas del paciente al ingreso y cada turno.",
+        "2. Corta las uñas si están largas (con cuidado, sin lastimar).",
+        "3. Lima bordes filosos.",
+        "4. En pacientes muy agitados, usa guantes de contención suaves."
+      ],
+      "precauciones": [
+        "No cortar uñas si el paciente está muy agitado; esperar a que esté tranquilo."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "5 minutos"
+    },
+    {
+      "id": 17,
+      "titulo": "Higiene en paciente catatónico",
+      "objetivo": "Realizar higiene básica respetando la inmovilidad y el confort.",
+      "categoria": "Cuidados básicos",
+      "material": [
+        "Esponja, jabón neutro",
+        "Toallas, crema hidratante",
+        "Cubeta con agua tibia"
+      ],
+      "pasos": [
+        "1. Explica lo que vas a hacer aunque el paciente no responda.",
+        "2. Lava una zona a la vez, tapando el resto.",
+        "3. Usa agua tibia y movimientos suaves.",
+        "4. Seca bien y aplica crema.",
+        "5. Cambia ropa de cama y pijama si están húmedos."
+      ],
+      "precauciones": [
+        "Respeta la rigidez; no fuerces movimientos.",
+        "Vigila la piel en busca de lesiones."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "15-20 minutos"
+    },
+    {
+      "id": 18,
+      "titulo": "Alimentación en paciente con negativismo",
+      "objetivo": "Asegurar la ingesta de nutrientes cuando el paciente rechaza comer.",
+      "categoria": "Cuidados básicos",
+      "material": [
+        "Comida semisólida (puré, compota)",
+        "Cuchara pequeña",
+        "Vaso con sorbete"
+      ],
+      "pasos": [
+        "1. Ofrece pequeñas cantidades (una cucharada cada vez).",
+        "2. Si rechaza la cuchara, prueba con sorbete para líquidos.",
+        "3. No forces ni regañes.",
+        "4. Retira la comida si continúa rechazando; vuelve a intentar en 30 min.",
+        "5. Registra ingesta y notifica si lleva > 24h sin comer."
+      ],
+      "precauciones": [
+        "Riesgo de atragantamiento: supervisa de cerca."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "20-30 minutos"
+    },
+    {
+      "id": 19,
+      "titulo": "Manejo de estreñimiento por antipsicóticos",
+      "objetivo": "Aliviar el estreñimiento inducido por medicación.",
+      "categoria": "Cuidados básicos",
+      "material": [
+        "Laxante (prescrito)",
+        "Abundante agua",
+        "Registro de deposiciones"
+      ],
+      "pasos": [
+        "1. Pregunta por última deposición (frecuencia y consistencia).",
+        "2. Ofrece líquidos tibios y aumenta fibra si es posible.",
+        "3. Administra laxante según orden médica (ej. senósidos).",
+        "4. Si no hay deposición en 3 días, notifica al médico.",
+        "5. Evita tacto rectal sin orden médica."
+      ],
+      "precauciones": [
+        "Pacientes con riesgo de íleo (antecedentes quirúrgicos) vigilar."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "Variable"
+    },
+    {
+      "id": 20,
+      "titulo": "Prevención de trombosis venosa profunda (TVP) en pacientes encamados",
+      "objetivo": "Reducir el riesgo de TVP en pacientes inmovilizados.",
+      "categoria": "Cuidados básicos",
+      "material": [
+        "Medias de compresión",
+        "Ejercicios pasivos (movilización)"
+      ],
+      "pasos": [
+        "1. Evalúa factores de riesgo (edad, obesidad, inmovilidad).",
+        "2. Aplica medias de compresión si está indicado.",
+        "3. Realiza ejercicios pasivos de tobillos cada 4 horas (flexo-extensión).",
+        "4. Mantén hidratación adecuada.",
+        "5. Vigila signos de TVP: edema, dolor, enrojecimiento en piernas."
+      ],
+      "precauciones": [
+        "No usar medias si hay insuficiencia arterial grave."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "Continuo"
+    },
+    {
+      "id": 21,
+      "titulo": "Administración de oxígeno en paciente con crisis respiratoria",
+      "objetivo": "Asegurar oxigenación adecuada mientras se espera asistencia médica.",
+      "categoria": "Procedimientos clínicos",
+      "material": [
+        "Fuente de oxígeno",
+        "Mascarilla o cánula nasal",
+        "Flujómetro"
+      ],
+      "pasos": [
+        "1. Verifica saturación de oxígeno (pulsioxímetro).",
+        "2. Coloca cánula nasal a 2-3 L/min o mascarilla a 5-8 L/min.",
+        "3. Asegura que el flujo sea el indicado.",
+        "4. Monitorea saturación cada 5-10 min.",
+        "5. Notifica al médico si no mejora."
+      ],
+      "precauciones": [
+        "Pacientes con EPOC: usar bajo indicación médica (riesgo de hipoventilación)."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "Continuo"
+    },
+    {
+      "id": 22,
+      "titulo": "Toma de glucemia capilar en paciente agitado",
+      "objetivo": "Obtener glucosa sanguínea de forma rápida y segura.",
+      "categoria": "Procedimientos clínicos",
+      "material": [
+        "Glucómetro",
+        "Tira reactiva",
+        "Lanceta",
+        "Algodón",
+        "Guantes"
+      ],
+      "pasos": [
+        "1. Ponte guantes.",
+        "2. Explica al paciente el procedimiento.",
+        "3. Pide ayuda para inmovilizar suavemente el dedo.",
+        "4. Punza el lateral del dedo (evita centro).",
+        "5. Aplica sangre en la tira.",
+        "6. Presiona con algodón.",
+        "7. Lee resultado y registra."
+      ],
+      "precauciones": [
+        "No punzar si el paciente tiene temblor intenso; espera ayuda."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "5 minutos"
+    },
+    {
+      "id": 23,
+      "titulo": "Manejo de fuga de paciente (prevención y protocolo)",
+      "objetivo": "Prevenir y actuar ante intentos de fuga en pacientes psiquiátricos.",
+      "categoria": "Seguridad",
+      "material": [
+        "Alarma de puerta (opcional)",
+        "Lista de pacientes con riesgo de fuga"
+      ],
+      "pasos": [
+        "1. Identifica pacientes con antecedentes de fuga o ideación.",
+        "2. Asegura puertas de acceso restringido (enfermería).",
+        "3. Realiza rondas frecuentes, especialmente en horarios de cambio de turno.",
+        "4. Si el paciente huye, activa protocolo institucional: alerta a seguridad y portería.",
+        "5. Notifica a familiares y al médico tratante."
+      ],
+      "precauciones": [
+        "No persigas al paciente si hay riesgo de agresión hacia ti."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "Continuo"
+    },
+    {
+      "id": 24,
+      "titulo": "Registro de internación involuntaria",
+      "objetivo": "Documentar adecuadamente la internación no voluntaria según normativa.",
+      "categoria": "Ética y documentación",
+      "material": [
+        "Formulario de internación involuntaria",
+        "Historia clínica"
+      ],
+      "pasos": [
+        "1. Verifica que la orden médica especifique el motivo (riesgo para sí o terceros).",
+        "2. Registra hora y fecha de inicio.",
+        "3. Documenta las medidas de seguridad adoptadas.",
+        "4. Informa al familiar (si existe) dentro de las primeras 24h.",
+        "5. A diario, justifica la necesidad de continuar la internación."
+      ],
+      "precauciones": [
+        "No retrasar la notificación a la autoridad judicial si aplica (según normativa local)."
+      ],
+      "normativa": [
+        "Ley 100 de 1993"
+      ],
+      "tiempo_estimado": "15 minutos"
+    },
+    {
+      "id": 25,
+      "titulo": "Manejo de alucinaciones durante crisis",
+      "objetivo": "Ayudar al paciente a manejar alucinaciones sin angustiarse.",
+      "categoria": "Comunicación",
+      "material": [],
+      "pasos": [
+        "1. No niegues la alucinación ('no es real' puede angustiar más).",
+        "2. Di: 'Entiendo que ves eso, pero aquí estás seguro'.",
+        "3. Redirige la atención: 'Mira este objeto, ¿qué color tiene?'.",
+        "4. Si hay alucinaciones auditivas, canta o habla en voz alta para enmascarar.",
+        "5. Si no cede, avisa al médico para ajustar medicación."
+      ],
+      "precauciones": [
+        "No te rías ni minimices."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "Variable"
+    },
+    {
+      "id": 26,
+      "titulo": "Preparación y administración de inyección de depósito (antipsicótico de larga duración)",
+      "objetivo": "Administrar medicación depot de forma segura y eficaz.",
+      "categoria": "Medicación",
+      "material": [
+        "Polvo y diluyente (ej. haloperidol decanoato)",
+        "Jeringa de 2-3 mL",
+        "Aguja 21G (extracción) y 23G (administración)",
+        "Alcohol, guantes"
+      ],
+      "pasos": [
+        "1. Reconstituye el polvo con el diluyente según las instrucciones del fabricante.",
+        "2. Agita suavemente hasta disolución completa.",
+        "3. Extrae la dosis prescrita (ej. 100 mg).",
+        "4. Cambia aguja.",
+        "5. Administra en glúteo profundo (técnica Z).",
+        "6. No masajees el sitio.",
+        "7. Documenta."
+      ],
+      "precauciones": [
+        "La inyección depot es oleosa; usar aguja de calibre más grueso (21G) a veces. Verificar flujo.",
+        "No administrar por vía intravenosa."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "10 minutos"
+    },
+    {
+      "id": 27,
+      "titulo": "Retiro de puntos de sutura en paciente colaborador",
+      "objetivo": "Retirar puntos de sutura en zona superficial, sin dolor ni infección.",
+      "categoria": "Procedimientos clínicos",
+      "material": [
+        "Pinza de disección",
+        "Tijeras de punta fina",
+        "Solución salina",
+        "Gasas estériles",
+        "Guantes"
+      ],
+      "pasos": [
+        "1. Lávate manos y ponte guantes estériles.",
+        "2. Limpia la herida con suero fisiológico.",
+        "3. Con la pinza, sujeta el nudo y levántalo ligeramente.",
+        "4. Introduce una punta de la tijera bajo el hilo y corta cerca del nudo.",
+        "5. Tira del hilo hacia el lado de la herida (no hacia arriba).",
+        "6. Verifica que no queden fragmentos.",
+        "7. Desecha los puntos en recipiente de punzocortantes."
+      ],
+      "precauciones": [
+        "Si la herida está inflamada o con pus, suspende y notifica al médico."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "10 minutos"
+    },
+    {
+      "id": 28,
+      "titulo": "Prevención de aspiración en paciente con disfagia",
+      "objetivo": "Evitar la aspiración de alimentos o líquidos en pacientes con trastorno de deglución.",
+      "categoria": "Cuidados básicos",
+      "material": [
+        "Comida espesada (papillas, purés)",
+        "Espátula de cuchara pequeña",
+        "Posición semi-Fowler"
+      ],
+      "pasos": [
+        "1. Coloca al paciente en posición semi-Fowler (45-90 grados).",
+        "2. Ofrece alimentos de textura espesa (evita líquidos claros).",
+        "3. Administra cucharadas pequeñas y espera a que trague.",
+        "4. No uses jeringas para forzar la comida.",
+        "5. Vigila signos de aspiración: tos, ahogo, cambio de voz."
+      ],
+      "precauciones": [
+        "Consulta con fonoaudiología si está disponible."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "20-30 minutos"
+    },
+    {
+      "id": 29,
+      "titulo": "Toma de presión arterial en paciente con delirium",
+      "objetivo": "Obtener presión arterial confiable en paciente confuso o agitado.",
+      "categoria": "Procedimientos clínicos",
+      "material": [
+        "Esfigmomanómetro",
+        "Estetoscopio"
+      ],
+      "pasos": [
+        "1. Pide ayuda a otro enfermero para contener suavemente.",
+        "2. Coloca el brazalete en un brazo accesible.",
+        "3. Si no se puede, usa monitor automático.",
+        "4. Toma la medida en el momento más tranquilo (evita inmediatamente después de una crisis).",
+        "5. Documenta la medición y las condiciones (ej. 'con ayuda de dos personas')."
+      ],
+      "precauciones": [
+        "No retrases la toma si es urgente; prioriza la seguridad."
+      ],
+      "normativa": [],
+      "tiempo_estimado": "5 minutos"
+    },
+    {
+      "id": 30,
+      "titulo": "Registro de incidentes en el Sistema Obligatorio de Garantía de Calidad (SOGC)",
+      "objetivo": "Notificar eventos adversos para mejorar la seguridad del paciente.",
+      "categoria": "Ética y documentación",
+      "material": [
+        "Formulario de incidentes institucional"
+      ],
+      "pasos": [
+        "1. Describe el evento: fecha, hora, lugar, personas involucradas.",
+        "2. Explica qué sucedió (sin emitir juicios de culpa).",
+        "3. Señala las causas posibles y las barreras que fallaron.",
+        "4. Propone medidas correctivas.",
+        "5. Entrega al comité de calidad."
+      ],
+      "precauciones": [
+        "El reporte no debe usarse para sancionar personal, sino para mejorar sistemas."
+      ],
+      "normativa": [
+        "Decreto 1011 de 2006"
+      ],
+      "tiempo_estimado": "15 minutos"
+    }
+  ]
+}
