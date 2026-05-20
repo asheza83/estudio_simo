@@ -715,7 +715,7 @@ Manifestaciones psicóticas que representan un exceso o distorsión de funciones
 ¿Qué es Síntomas negativos?
 Déficits en funciones emocionales y conductuales normales, como aplanamiento afectivo, abulia (falta de voluntad), anhedonia (incapacidad para sentir placer), alogia (pobreza del lenguaje) y aislamiento social.
 
-¿Qué es Terapia electroconvulsiva (TEC)?
+¿Qué es Terapia electroconvulsiva  o electroshock(TEC)?
 Procedimiento psiquiátrico bajo anestesia general que induce una breve convulsión cerebral controlada mediante estimulación eléctrica. Se usa en depresión severa resistente a fármacos, catatonia o manía grave.
 
 ¿Qué es Antidepresivos ISRS?
@@ -743,4 +743,7 @@ Escala que mide nivel de conciencia evaluando apertura ocular (1-4), respuesta v
 Escala que mide nivel de conciencia evaluando apertura ocular (1-4), respuesta verbal (1-5) y respuesta motora (1-6). Máx 15, mín 3.
 
 ¿Qué es la escala de Glasgo?
+Escala que mide nivel de conciencia evaluando apertura ocular (1-4), respuesta verbal (1-5) y respuesta motora (1-6). Máx 15, mín 3.
+
+¿Qué es la escala de Glasgou?
 Escala que mide nivel de conciencia evaluando apertura ocular (1-4), respuesta verbal (1-5) y respuesta motora (1-6). Máx 15, mín 3.
