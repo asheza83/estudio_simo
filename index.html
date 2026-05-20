@@ -42,6 +42,7 @@
                     <select id="seccionEstudio" style="width: 100%;">
                         <option value="inicio">🏠 Inicio - Visión general</option>
                         <option value="simo">📋 Información de la convocatoria SIMO</option>
+                        <option value="requisitos">📋 Requisitos de inscripción</option>
                         <option value="normas">📚 Normas del sector salud</option>
                         <option value="casos">🩺 Casos prácticos y dilemas éticos</option>
                         <option value="procedimientos">🩺 Procedimientos de enfermería</option>
@@ -227,6 +228,156 @@
                 <div id="seccion-procedimientos" class="seccion-estudio" style="display: none;">
                     <div id="procedimientos-container">
                         <p>Cargando procedimientos...</p>
+                    </div>
+                </div>
+
+                <!-- SECCIÓN REQUISITOS Y VALORACIÓN DE ANTECEDENTES -->
+                <div id="seccion-requisitos" class="seccion-estudio" style="display: none;">
+                    <div style="background-color: var(--azul); color: white; padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+                        <h3 style="margin: 0 0 5px 0;">📋 Requisitos de inscripción y valoración de antecedentes</h3>
+                        <p style="margin: 0;">El primer filtro del concurso: documentos que debes tener listos para no quedar fuera</p>
+                    </div>
+
+                    <!-- Advertencia importante -->
+                    <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 15px; margin-bottom: 20px; border-radius: 8px;">
+                        <strong>⚠️ ESTA FASE ES ELIMINATORIA</strong>
+                        <p style="margin: 10px 0 0 0;">Muchos aspirantes pierden la oportunidad no por falta de conocimiento, sino por errores o falta de documentos. Revisa cada punto con anticipación. La CNSC no permite subsanar después del cierre de inscripciones.</p>
+                    </div>
+
+                    <!-- Punto 1: Documentación educativa -->
+                    <details class="requisito-details" style="margin-bottom: 15px; background-color: var(--bg-principal); border-radius: 12px; padding: 8px;">
+                        <summary style="font-weight: bold; cursor: pointer; padding: 8px; list-style: none;">📌 1. Documentación educativa (título y tarjeta profesional)</summary>
+                        <div style="padding: 12px; margin-top: 8px; background-color: var(--bg-secundario); border-radius: 10px;">
+                            <p><strong>Título de Auxiliar de Enfermería o técnico equivalente:</strong> Debe ser otorgado por una institución reconocida por el Ministerio de Educación Nacional. El título debe estar registrado en el sistema de la institución y, si es del exterior, debe estar convalidado.</p>
+                            <p><strong>Tarjeta profesional:</strong> Vigente, expedida por el Consejo Técnico Nacional de Enfermería. Sin este documento no puedes ejercer ni concursar.</p>
+                            <p><strong>Recomendaciones prácticas:</strong></p>
+                            <ul>
+                                <li>Digitaliza ambos documentos en PDF, a menos de 5 MB cada uno.</li>
+                                <li>Verifica que el nombre completo coincida exactamente con tu documento de identidad.</li>
+                                <li>Si tu tarjeta está vencida, inicia el proceso de renovación con anticipación (puede tardar semanas).</li>
+                            </ul>
+                        </div>
+                    </details>
+
+                    <!-- Punto 2: Experiencia laboral -->
+                    <details class="requisito-details" style="margin-bottom: 15px; background-color: var(--bg-principal); border-radius: 12px; padding: 8px;">
+                        <summary style="font-weight: bold; cursor: pointer; padding: 8px; list-style: none;">📌 2. Certificados de experiencia laboral</summary>
+                        <div style="padding: 12px; margin-top: 8px; background-color: var(--bg-secundario); border-radius: 10px;">
+                            <p>Los certificados deben cumplir con requisitos estrictos. La CNSC rechaza aquellos que no incluyan:</p>
+                            <ul>
+                                <li>Fechas exactas de inicio y finalización (día, mes, año).</li>
+                                <li>Descripción clara de las funciones realizadas (relacionadas con el cargo al que aspiras).</li>
+                                <li>Cargo desempeñado y horas de trabajo (tiempo completo o medio tiempo).</li>
+                                <li>Nombre, cargo y firma de quien certifica (representante legal o jefe de recursos humanos).</li>
+                            </ul>
+                            <p><strong>Consejo:</strong> Si tu empleador no tiene un formato oficial, usa el formato de la CNSC (descargable desde la plataforma SIMO). No aceptan certificados con funciones genéricas como "realizó labores propias del cargo".</p>
+                        </div>
+                    </details>
+
+                    <!-- Punto 3: Cursos y capacitaciones (Resolución 1444 de 2025) -->
+                    <details class="requisito-details" style="margin-bottom: 15px; background-color: var(--bg-principal); border-radius: 12px; padding: 8px;">
+                        <summary style="font-weight: bold; cursor: pointer; padding: 8px; list-style: none;">📌 3. Cursos y capacitaciones (Resolución 1444 de 2025)</summary>
+                        <div style="padding: 12px; margin-top: 8px; background-color: var(--bg-secundario); border-radius: 10px;">
+                            <p>La <strong>Resolución 1444 de 2025</strong> (Política de Talento Humano en Salud) establece los cursos obligatorios y recomendados para auxiliares de enfermería. Para el concurso, se valoran especialmente los siguientes:</p>
+                            <ul>
+                                <li><strong>Curso de Atención Primaria en Salud (APS)</strong> – mínimo 40 horas.</li>
+                                <li><strong>Curso de Manejo de Crisis en Salud Mental</strong> – con énfasis en contención verbal y desescalamiento.</li>
+                                <li><strong>Curso de Bioseguridad y prevención de riesgos laborales</strong> – actualizado.</li>
+                                <li><strong>Curso de Primeros Auxilios Psicológicos (PAP)</strong> – avalado por entidad reconocida.</li>
+                                <li><strong>Curso de Administración segura de medicamentos</strong> – incluyendo cálculo de dosis.</li>
+                                <li><strong>Curso de Manejo de historia clínica y registro de enfermería</strong> – según Resolución 1995 de 1999.</li>
+                            </ul>
+                            <p><strong>Recomendación:</strong> Si no tienes alguno, existen plataformas gratuitas o de bajo costo (Coursera, EdX, SENA virtual, Ministerios de Salud). Guarda los certificados en PDF y asegúrate de que incluyan intensidad horaria y contenidos.</p>
+                        </div>
+                    </details>
+
+                    <!-- Punto 4: Verificación de antecedentes -->
+                    <details class="requisito-details" style="margin-bottom: 15px; background-color: var(--bg-principal); border-radius: 12px; padding: 8px;">
+                        <summary style="font-weight: bold; cursor: pointer; padding: 8px; list-style: none;">📌 4. Verificación de antecedentes (Procuraduría, Policía, Contraloría)</summary>
+                        <div style="padding: 12px; margin-top: 8px; background-color: var(--bg-secundario); border-radius: 10px;">
+                            <p>La CNSC cruza tus datos con estas entidades. Si tienes reportes, tu inscripción será rechazada. Verifica con al menos 3 meses de anticipación:</p>
+                            <ul>
+                                <li><strong>Procuraduría General de la Nación:</strong> <a href="https://www.procuraduria.gov.co/Pages/Consulta-de-Antecedentes.aspx" target="_blank" rel="noopener noreferrer">Certificado de antecedentes disciplinarios</a> – debe estar en "ningún reporte".</li>
+                                <li><strong>Policía Nacional:</strong> <a href="https://antecedentes.policia.gov.co:7005/WebJudicial/" target="_blank" rel="noopener noreferrer">Certificado de antecedentes judiciales</a> – sin anotaciones vigentes.</li>
+                                <li><strong>Contraloría General de la República:</strong> <a href="https://www.contraloria.gov.co/web/guest/persona-natural" target="_blank" rel="noopener noreferrer">Certificado de responsabilidad fiscal</a> – sin sanciones.</li>
+                            </ul>
+                            <p>Los certificados se generan en línea en minutos. Guárdalos en PDF. Si tienes alguna anotación, consulta con un abogado si es posible la rehabilitación o si afecta el concurso.</p>
+                        </div>
+                    </details>
+
+                    <!-- Punto 5: Perfil en SIMO y SISBÉN -->
+                    <details class="requisito-details" style="margin-bottom: 15px; background-color: var(--bg-principal); border-radius: 12px; padding: 8px;">
+                        <summary style="font-weight: bold; cursor: pointer; padding: 8px; list-style: none;">📌 5. Registro en SIMO y SISBÉN (si aplica)</summary>
+                        <div style="padding: 12px; margin-top: 8px; background-color: var(--bg-secundario); border-radius: 10px;">
+                            <p><strong>Plataforma SIMO:</strong> Debes tener tu perfil completo, con datos exactos (nombres, documento, correo, teléfono). Cualquier error puede invalidar tu inscripción.</p>
+                            <p><strong>SISBÉN (solo para régimen subsidiado):</strong> Si aspiras a una vacante que requiere clasificación en grupos A o B, verifica que tu encuesta esté actualizada. Consulta en tu alcaldía o en el portal del SISBÉN.</p>
+                            <p><strong>Consejo:</strong> Ingresa ahora a SIMO, revisa cada campo y corrige lo necesario. No esperes a las fechas de inscripción (julio-agosto 2026).</p>
+                        </div>
+                    </details>
+
+                    <!-- Checklist rápido al final -->
+                    <!-- Checklist funcional con localStorage y sub-checklists -->
+                    <div style="background-color: rgba(13, 110, 253, 0.1); padding: 15px; border-radius: 12px; margin-top: 20px;">
+                        <p style="font-weight: bold; margin: 0 0 10px 0;">✅ Lista de verificación de documentos</p>
+                        <div id="checklist-requisitos">
+                            
+                            <!-- 1. Documentación educativa -->
+                            <label style="display: block; margin-bottom: 8px;">
+                                <input type="checkbox" data-doc="titulo"> 📜 Título y tarjeta profesional
+                            </label>
+                            
+                            <!-- 2. Certificados laborales -->
+                            <label style="display: block; margin-bottom: 8px;">
+                                <input type="checkbox" data-doc="certificados"> 📋 Certificados laborales en formato CNSC
+                            </label>
+                            
+                            <!-- 3. Cursos Resolución 1444 (sub-lista) -->
+                            <div style="margin: 12px 0 8px 20px; font-weight: bold;">🎓 Cursos de la Resolución 1444:</div>
+                            <div style="margin-left: 40px;">
+                                <label style="display: block; margin-bottom: 5px;">
+                                    <input type="checkbox" data-doc="curso_aps"> Atención Primaria en Salud (APS) – mínimo 40h
+                                </label>
+                                <label style="display: block; margin-bottom: 5px;">
+                                    <input type="checkbox" data-doc="curso_crisis"> Manejo de Crisis en Salud Mental
+                                </label>
+                                <label style="display: block; margin-bottom: 5px;">
+                                    <input type="checkbox" data-doc="curso_bioseguridad"> Bioseguridad y prevención de riesgos laborales
+                                </label>
+                                <label style="display: block; margin-bottom: 5px;">
+                                    <input type="checkbox" data-doc="curso_pap"> Primeros Auxilios Psicológicos (PAP)
+                                </label>
+                                <label style="display: block; margin-bottom: 5px;">
+                                    <input type="checkbox" data-doc="curso_medicamentos"> Administración segura de medicamentos
+                                </label>
+                                <label style="display: block; margin-bottom: 5px;">
+                                    <input type="checkbox" data-doc="curso_historia"> Manejo de historia clínica y registro de enfermería
+                                </label>
+                            </div>
+                            
+                            <!-- 4. Antecedentes (sub-lista) -->
+                            <div style="margin: 12px 0 8px 20px; font-weight: bold;">🔍 Verificación de antecedentes:</div>
+                            <div style="margin-left: 40px;">
+                                <label style="display: block; margin-bottom: 5px;">
+                                    <input type="checkbox" data-doc="ante_procuraduria"> Procuraduría (disciplinarios)
+                                </label>
+                                <label style="display: block; margin-bottom: 5px;">
+                                    <input type="checkbox" data-doc="ante_policia"> Policía Nacional (judiciales)
+                                </label>
+                                <label style="display: block; margin-bottom: 5px;">
+                                    <input type="checkbox" data-doc="ante_contraloria"> Contraloría (responsabilidad fiscal)
+                                </label>
+                            </div>
+                            
+                            <!-- 5. Perfil SIMO -->
+                            <label style="display: block; margin-bottom: 8px; margin-top: 12px;">
+                                <input type="checkbox" data-doc="perfil"> 🖥️ Perfil SIMO actualizado
+                            </label>
+                        </div>
+                        
+                        <div style="margin-top: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span id="resumen-documentos" style="font-weight: bold;">📄 Documentos listos: 0/11</span>
+                            <button id="reiniciar-checklist" class="boton-reiniciar" style="padding: 6px 12px; font-size: 0.8rem;">Reiniciar lista</button>
+                        </div>
                     </div>
                 </div>
 
@@ -817,6 +968,179 @@
             window.setModoEvaluacion('estudio');
         }
 
+        // Control manual de apertura/cierre para los acordeones de la sección Requisitos
+        function inicializarAcordeonesRequisitos() {
+            document.querySelectorAll('.requisito-details').forEach(details => {
+                // Evitar reinicializar si ya tiene el listener
+                if (details.hasAttribute('data-inicializado')) return;
+                details.setAttribute('data-inicializado', 'true');
+                
+                const summary = details.querySelector('summary');
+                const contenido = details.querySelector('div'); // El div interno con la info
+                let animating = false;
+                
+                if (!summary || !contenido) return;
+                
+                summary.style.cursor = 'pointer';
+                
+                summary.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    if (animating) return;
+                    
+                    if (details.open) {
+                        // Cerrar con animación
+                        animating = true;
+                        contenido.style.animation = 'fadeSlideOut 0.25s ease forwards';
+                        setTimeout(() => {
+                            details.open = false;
+                            contenido.style.animation = '';
+                            animating = false;
+                            // Cambiar flecha (la clase CSS ya la maneja con ::before, pero forzamos actualización)
+                            // No es necesario cambiar texto porque la flecha depende del atributo open
+                        }, 250);
+                    } else {
+                        // Abrir con animación
+                        details.open = true;
+                        contenido.style.animation = 'fadeSlideIn 0.25s ease forwards';
+                        animating = true;
+                        setTimeout(() => {
+                            contenido.style.animation = '';
+                            animating = false;
+                        }, 250);
+                    }
+                });
+            });
+        }
+
+        // Ejecutar después de que el DOM esté listo y cada vez que se muestre la sección (por si se carga dinámicamente)
+        document.addEventListener('DOMContentLoaded', function() {
+            inicializarAcordeonesRequisitos();
+        });
+
+        // También observar cambios de sección (por si el selector cambia y se añaden nuevos acordeones)
+        const observerRequisitos = new MutationObserver(function(mutations) {
+            if (document.getElementById('seccion-requisitos')?.style.display === 'block') {
+                inicializarAcordeonesRequisitos();
+            }
+        });
+        observerRequisitos.observe(document.getElementById('seccion-requisitos') || document.body, { attributes: true, childList: true, subtree: true });
+        
+        // ============================================
+        // POPUP DE RECORDATORIO SI FALTAN DOCUMENTOS
+        // ============================================
+        function mostrarPopupFaltantes() {
+            const saved = localStorage.getItem('checklistRequisitos');
+            if (!saved) return; // No hay datos guardados, no mostrar popup
+            
+            const estados = JSON.parse(saved);
+            const faltantes = [];
+            
+            // Mapeo de nombres amigables (debe coincidir con los data-doc de tus checkboxes)
+            const nombresMap = {
+                titulo: '📜 Título y tarjeta profesional',
+                certificados: '📋 Certificados laborales en formato CNSC',
+                curso_aps: '🎓 Curso APS (40h)',
+                curso_crisis: '🎓 Manejo de Crisis en Salud Mental',
+                curso_bioseguridad: '🎓 Bioseguridad y prevención de riesgos',
+                curso_pap: '🎓 Primeros Auxilios Psicológicos (PAP)',
+                curso_medicamentos: '🎓 Administración segura de medicamentos',
+                curso_historia: '🎓 Manejo de historia clínica',
+                ante_procuraduria: '🔍 Antecedentes Procuraduría',
+                ante_policia: '🔍 Antecedentes Policía Nacional',
+                ante_contraloria: '🔍 Antecedentes Contraloría',
+                perfil: '🖥️ Perfil SIMO actualizado'
+            };
+            
+            for (const [doc, completado] of Object.entries(estados)) {
+                if (!completado && nombresMap[doc]) {
+                    faltantes.push(nombresMap[doc]);
+                }
+            }
+            
+            if (faltantes.length === 0) return; // Todo completo
+            
+            // Crear popup
+            const popup = document.createElement('div');
+            popup.id = 'popup-recordatorio';
+            popup.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0,0,0,0.85);
+                z-index: 2000;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            `;
+            
+            const contenido = document.createElement('div');
+            contenido.style.cssText = `
+                background-color: var(--bg-secundario);
+                max-width: 500px;
+                width: 90%;
+                max-height: 85%;
+                overflow-y: auto;
+                margin: 20px;
+                border-radius: 20px;
+                padding: 24px;
+                box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+                text-align: center;
+            `;
+            
+            contenido.innerHTML = `
+                <div style="text-align: center;">
+                    <span style="font-size: 3rem;">⚠️</span>
+                    <h2 style="color: var(--azul); margin: 10px 0 5px 0;">¡Revisa tus documentos!</h2>
+                    <p style="color: var(--texto-secundario); margin-bottom: 20px;">
+                        Antes de inscribirte en el concurso SIMO, asegúrate de tener listos todos los documentos.
+                    </p>
+                    <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 12px; text-align: left; border-radius: 8px; margin-bottom: 20px;">
+                        <strong>📄 Documentos pendientes:</strong>
+                        <ul style="margin: 10px 0 0 20px;">
+                            ${faltantes.map(f => `<li>${f}</li>`).join('')}
+                        </ul>
+                    </div>
+                    <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+                        <button id="popup-ver-requisitos" class="boton-reiniciar" style="background-color: var(--azul);">Ver requisitos</button>
+                        <button id="popup-cerrar" class="boton-reiniciar" style="background-color: #6c757d;">Recordar después</button>
+                    </div>
+                </div>
+            `;
+            
+            popup.appendChild(contenido);
+            document.body.appendChild(popup);
+            
+            // Eventos
+            document.getElementById('popup-ver-requisitos').addEventListener('click', () => {
+                popup.remove();
+                // Cambiar a la sección de requisitos
+                const selector = document.getElementById('seccionEstudio');
+                if (selector) {
+                    selector.value = 'requisitos';
+                    selector.dispatchEvent(new Event('change'));
+                    setTimeout(() => {
+                        document.getElementById('seccion-requisitos')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }, 200);
+                }
+            });
+            document.getElementById('popup-cerrar').addEventListener('click', () => {
+        popup.remove();
+    });
+}
+
+// Mostrar popup solo una vez por sesión (usando sessionStorage)
+document.addEventListener('DOMContentLoaded', function() {
+    if (!sessionStorage.getItem('popupRecordatorioMostrado')) {
+        sessionStorage.setItem('popupRecordatorioMostrado', 'true');
+        // Pequeño retardo para asegurar que el DOM y el checklist estén listos
+        setTimeout(() => {
+            mostrarPopupFaltantes();
+        }, 1000);
+    }
+});        
+        
         function observarFinDelModal() {
             const contenido = document.getElementById('modal-bienvenida-contenido');
             const boton = document.getElementById('btn-cerrar-bienvenida');

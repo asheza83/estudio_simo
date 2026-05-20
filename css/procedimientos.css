@@ -30,6 +30,62 @@ body.dark-mode #procedimientos-lista strong {
 .procedimiento-details summary::-webkit-details-marker {
     display: none;
 }
+/* Estilos para acordeones de la sección Requisitos (con línea azul y animación) */
+.requisito-details {
+    margin-bottom: 15px;
+    background-color: var(--bg-principal);
+    border-radius: 12px;
+    border-left: 4px solid var(--azul);   /* ← línea azul a la izquierda */
+    transition: background 0.2s;
+    overflow: hidden;                     /* evita desbordes en animación */
+}
+
+.requisito-details summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px 16px;
+    border-radius: 12px;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+}
+
+/* Flecha personalizada */
+.requisito-details summary::before {
+    content: "▶";
+    font-size: 0.8rem;
+    transition: transform 0.2s;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.requisito-details[open] summary::before {
+    content: "▼";
+}
+
+.requisito-details summary:hover {
+    background-color: var(--borde);
+}
+
+/* Contenedor del contenido (se anima) */
+.requisito-details > div {
+    padding: 12px;
+    margin-top: 8px;
+    background-color: var(--bg-secundario);
+    border-radius: 10px;
+    margin-left: 24px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+}
+
+/* Ocultar el triángulo nativo en navegadores WebKit */
+.requisito-details summary::-webkit-details-marker {
+    display: none;
+}
 
 /* Animaciones (si no están en casos.css, cópialas aquí) */
 @keyframes fadeSlideIn {
