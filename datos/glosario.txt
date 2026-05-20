@@ -1,0 +1,746 @@
+¿Qué es ADRES?
+Administradora de los Recursos del Sistema General de Seguridad Social en Salud. Entidad encargada de recaudar, administrar, girar y controlar los recursos del SGSSS. Antes se llamaba FOSYGA.
+
+¿Qué es APS?
+Atención Primaria en Salud. Estrategia de coordinación intersectorial que permite la atención integral desde la salud pública, promoción, prevención, diagnóstico, tratamiento y rehabilitación.
+
+¿Qué es ARL?
+Administradora de Riesgos Laborales. Entidad encargada de afiliar trabajadores al Sistema General de Riesgos Laborales y cubrir accidentes de trabajo y enfermedades laborales.
+
+¿Qué es BDUA?
+Base Única de Afiliados. Contiene la información de los afiliados identificados de los distintos regímenes del SGSSS (Subsidiado, Contributivo y Regímenes especiales).
+
+¿Qué es CCF?
+Caja de Compensación Familiar. Entidad que administra el subsidio familiar y presta servicios sociales a trabajadores y sus familias.
+
+¿Qué es CIE-10?
+Clasificación Internacional de Enfermedades, décima versión. Sistema de codificación de diagnósticos y procedimientos médicos usado en historias clínicas y RIPS.
+
+¿Qué es CNSC?
+Comisión Nacional del Servicio Civil. Entidad autónoma encargada de administrar los concursos de méritos para empleos públicos de carrera administrativa en Colombia.
+
+¿Qué es COPACO?
+Comités de Participación Comunitaria en Salud. Espacios de participación ciudadana que vigilan la calidad de los servicios de salud.
+
+¿Qué es CRUE?
+Centro Regulador de Urgencias y Emergencias. Entidad encargada de coordinar y regular la atención de urgencias y emergencias en el territorio.
+
+¿Qué es CUPS?
+Clasificación Única de Procedimientos en Salud. Códigos para identificar y facturar procedimientos médicos en el sistema de salud colombiano.
+
+¿Qué es EAPB?
+Entidad Administradora de Planes de Beneficios. Término genérico que incluye EPS y otras entidades que administran el aseguramiento en salud.
+
+¿Qué es EBS?
+Equipos Básicos de Salud. Grupos interdisciplinarios de médicos, enfermeros y auxiliares que atienden población territorial asignada según la Ley 1438 de 2011.
+
+¿Qué es EPS?
+Entidad Promotora de Salud. Afilia ciudadanos al SGSSS y garantiza la prestación del PBS a través de su red de IPS.
+
+¿Qué es ESE?
+Empresa Social del Estado. Hospital público descentralizado con personería jurídica, patrimonio propio y autonomía administrativa.
+
+¿Qué es ETESA?
+Empresa Territorial para la Salud. Entidades departamentales que administran recursos de salud para población pobre no asegurada.
+
+¿Qué es FFDS?
+Fondo Financiero Distrital de Salud. Cuenta especial del presupuesto distrital para administrar los recursos de salud del Distrito Capital.
+
+¿Qué es FOSYGA?
+Fondo de Solidaridad y Garantía. Antigua entidad administradora de recursos del SGSSS, reemplazada por ADRES con la Ley 1753 de 2015.
+
+¿Qué es IBC?
+Ingreso Base de Cotización. Valor sobre el cual se calcula el aporte al sistema de seguridad social. Para trabajadores dependientes es su salario mensual.
+
+¿Qué es IPS?
+Institución Prestadora de Servicios de Salud. Hospitales, clínicas, centros de salud y laboratorios que prestan servicios de salud directamente.
+
+¿Qué es MIPRES?
+Módulo Integral de Prescripción. Herramienta para prescribir medicamentos y servicios no incluidos en el PBS bajo condiciones específicas.
+
+¿Qué es OPEC?
+Oferta Pública de Empleo de Carrera. Vacante publicada en SIMO para concursos de méritos.
+
+¿Qué es PAMEC?
+Programa de Auditoría para el Mejoramiento de la Calidad. Instrumento mediante el cual las IPS implementan el componente de Auditoría para el Mejoramiento de la Calidad.
+
+¿Qué es PBS?
+Plan de Beneficios en Salud. Servicios, tecnologías y medicamentos garantizados a todos los afiliados. Antes llamado POS.
+
+¿Qué es PDSP?
+Plan Decenal de Salud Pública. Define prioridades, metas e indicadores de salud pública del país por 10 años.
+
+¿Qué es PIC?
+Plan de Intervenciones Colectivas. Acciones de promoción y prevención dirigidas a toda la población a cargo del Estado.
+
+¿Qué es PILA?
+Planilla Integrada de Liquidación de Aportes. Sistema de reporte y pago de aportes a seguridad social por parte de empleadores.
+
+¿Qué es POS?
+Plan Obligatorio de Salud. Antiguo nombre del PBS. Conjunto de servicios que el sistema garantizaba a los afiliados.
+
+¿Qué es REPS?
+Registro Especial de Prestadores de Servicios de Salud. Base de datos de IPS y profesionales habilitados para operar en Colombia.
+
+¿Qué es RETHUS?
+Registro Único de Talento Humano en Salud. Consolida datos de formación y experiencia del personal de salud en Colombia.
+
+¿Qué es RIAS?
+Rutas Integrales de Atención en Salud. Guías técnicas para promoción, prevención, diagnóstico, tratamiento y rehabilitación definidas por Resolución 3280 de 2018.
+
+¿Qué es RIPS?
+Registro Individual de Prestación de Servicios de Salud. Datos que reportan las IPS sobre cada atención médica realizada.
+
+¿Qué es RUAF?
+Registro Único de Afiliados. Base de datos con información de todas las personas afiliadas al SGSSS.
+
+¿Qué es RUPS?
+Registro Único de Procedimientos en Salud. Herramienta virtual donde las agremiaciones de profesionales de la salud presentan nominaciones de procedimientos.
+
+¿Qué es SCRUE?
+Subdirección Centro Regulador de Urgencias y Emergencias. Dependencia encargada de la regulación de urgencias y emergencias en el Distrito.
+
+¿Qué es SDS?
+Secretaría Distrital de Salud. Entidad territorial encargada de dirigir y coordinar el sector salud en el Distrito Capital.
+
+¿Qué es SGSSI?
+Sistema General de Seguridad Social Integral. Creado por Ley 100 de 1993, incluye pensiones, salud y riesgos laborales.
+
+¿Qué es SGSSS?
+Sistema General de Seguridad Social en Salud. Organiza y regula la prestación de servicios de salud en Colombia a través de EPS e IPS.
+
+¿Qué es SGRED?
+Subdirección de Gestión del Riesgo, Emergencias y Desastres. Dependencia encargada de la gestión del riesgo en salud pública.
+
+¿Qué es SIAU?
+Sistema de Información y Atención al Usuario. Conjunto de procesos para identificar las necesidades de los usuarios y brindarles satisfacción en los servicios de salud.
+
+¿Qué es SIMO?
+Sistema de Apoyo para la Igualdad, el Mérito y la Oportunidad. Plataforma tecnológica de la CNSC para concursos de méritos.
+
+¿Qué es SISBEN?
+Sistema de Identificación de Potenciales Beneficiarios. Clasifica la población según condiciones socioeconómicas para asignar subsidios de salud.
+
+¿Qué es SISPRO?
+Sistema Integral de Información de la Protección Social. Herramienta que consolida información para la toma de decisiones en salud y protección social.
+
+¿Qué es SMLMV?
+Salario Mínimo Legal Mensual Vigente. Base salarial fijada por el Gobierno para calcular cotizaciones al sistema de seguridad social.
+
+¿Qué es SOAT?
+Seguro Obligatorio de Accidentes de Tránsito. Cubre atención médica por lesiones en accidentes de tránsito a todas las víctimas.
+
+¿Qué es SOGCS?
+Sistema Obligatorio de Garantía de Calidad en Salud. Establecido por Decreto 1011 de 2006, define estándares de calidad en servicios de salud.
+
+¿Qué es SSSI?
+Sistema de Seguridad Social Integral. Conjunto de instituciones y procedimientos para garantizar calidad de vida mediante cobertura integral de contingencias.
+
+¿Qué es UPC?
+Unidad de Pago por Capitación. Valor anual que el sistema reconoce a las EPS por cada afiliado para cubrir las prestaciones del PBS.
+
+¿Qué es UPC-S?
+Unidad de Pago por Capitación del Régimen Subsidiado. Valor reconocido por el Estado a las EPS por cada afiliado subsidiado.
+
+¿Qué es Consejo Nacional de Seguridad Social en Salud?
+Organismo de dirección del SGSSS con representantes del Gobierno, EPS, IPS, trabajadores y usuarios.
+
+¿Qué es CRES?
+Comisión de Regulación en Salud. Antigua entidad que definía valor de UPC y contenidos del POS, funciones asumidas por el Ministerio.
+
+¿Qué es Defensoría del Pueblo?
+Entidad encargada de velar por la promoción y protección de los derechos humanos, incluyendo el derecho a la salud.
+
+¿Qué es Gerente de ESE?
+Máxima autoridad administrativa de una ESE, designado por Gobernador o Alcalde con criterios de mérito y capacidad.
+
+¿Qué es HOMERIS?
+Hospital Mental de Risaralda. ESE especializada en salud mental ubicada en el departamento de Risaralda.
+
+¿Qué es Hospital Universitario?
+IPS de alta complejidad vinculada a una universidad para formación de profesionales de la salud e investigación.
+
+¿Qué es ICBF?
+Instituto Colombiano de Bienestar Familiar. Protege derechos de la niñez y la familia, coordina acciones de salud con el SGSSS.
+
+¿Qué es INPEC?
+Instituto Nacional Penitenciario y Carcelario. Responsable de la atención en salud de la población privada de la libertad.
+
+¿Qué es INS?
+Instituto Nacional de Salud. Encargado de vigilancia epidemiológica, control de enfermedades e investigación en salud pública.
+
+¿Qué es INVIMA?
+Instituto Nacional de Vigilancia de Medicamentos y Alimentos. Regula calidad de medicamentos, alimentos y dispositivos médicos.
+
+¿Qué es Junta Directiva de ESE?
+Órgano de dirección de una ESE conformado por representantes comunitarios, gubernamentales y trabajadores de la salud.
+
+¿Qué es Ministerio de Salud?
+Ministerio de Salud y Protección Social. Máxima autoridad del sector salud, formula políticas, expide normas y dirige el SGSSS.
+
+¿Qué es Secretarías de Salud?
+Entidades departamentales y municipales encargadas de dirigir y coordinar la salud pública en su jurisdicción territorial.
+
+¿Qué es SISPI?
+Sistema Indígena de Salud Propio e Intercultural. Reconoce y articula saberes y prácticas de salud de pueblos indígenas con el SGSSS.
+
+¿Qué es Supersalud?
+Superintendencia Nacional de Salud. Entidad de inspección, vigilancia y control de EPS, IPS y demás entidades del SGSSS.
+
+¿Qué es Acreditación?
+Proceso voluntario de evaluación externa que certifica que una IPS supera los estándares mínimos de calidad establecidos.
+
+¿Qué es Actores del Sistema?
+Entidades, profesionales, usuarios y organizaciones que interactúan en el SGSSS: EPS, IPS, Entidades Territoriales, IETS, trabajadores de la salud y pacientes.
+
+¿Qué es Afiliación?
+Proceso obligatorio por el cual una persona se vincula al SGSSS a través de una EPS en el régimen contributivo o subsidiado.
+
+¿Qué es Aseguradores?
+Entidades privadas que aseguran a la población, actúan como intermediarias y administradoras de los recursos que provee el Estado mediante la UPC.
+
+¿Qué es Aseguramiento Universal?
+Política del Estado para garantizar que todos los residentes en Colombia estén afiliados al SGSSS.
+
+¿Qué es Atención Ambulatoria?
+Modalidad de atención en salud en la cual toda actividad, procedimiento o intervención se realiza sin necesidad de internar u hospitalizar al paciente.
+
+¿Qué es Atención de Urgencia?
+Conjunto de acciones realizadas por un equipo de salud capacitado para satisfacer la demanda de atención generada por urgencias.
+
+¿Qué es Atención Domiciliaria?
+Servicio para el manejo de pacientes agudos o crónicos en su domicilio, con apoyo de profesionales de salud y participación de la familia o cuidador.
+
+¿Qué es Atención Integral?
+Modelo de atención que aborda al paciente como un todo, considerando aspectos físicos, mentales y sociales de su salud.
+
+¿Qué es Atención Pre-Hospitalaria?
+Servicio que se presta a la comunidad en el sitio de ocurrencia de urgencias, emergencias o desastres, incluyendo salvamento, atención médica y transporte.
+
+¿Qué es Auditoría en Salud?
+Evaluación sistemática de la calidad de los servicios de salud, definida en el SOGCS para el mejoramiento continuo.
+
+¿Qué es Calidad de la Atención en Salud?
+Provisión de servicios de salud accesibles y equitativos con nivel profesional óptimo, logrando la adhesión y satisfacción del usuario.
+
+¿Qué es Confidencialidad?
+Obligación legal y ética del personal de salud de proteger la información privada del paciente contenida en la historia clínica.
+
+¿Qué es Consentimiento informado?
+Derecho del paciente a recibir información clara sobre su diagnóstico y tratamiento antes de autorizar cualquier procedimiento médico. En salud mental, puede implicar evaluación de capacidad de decisión.
+
+¿Qué es Contrarreferencia?
+Proceso mediante el cual una IPS de alta complejidad devuelve el paciente a su IPS de origen con las recomendaciones de seguimiento.
+
+¿Qué es Cotización?
+Aporte económico que empleadores y trabajadores pagan al SGSSS, calculado como un porcentaje del Ingreso Base de Cotización (IBC).
+
+¿Qué es Determinantes Sociales?
+Condiciones sociales, económicas y ambientales que influyen en la salud de las personas y comunidades.
+
+¿Qué es Enfoque Diferencial?
+Principio que reconoce la diversidad cultural, étnica y territorial en la atención en salud, adaptando los servicios a las necesidades de cada grupo.
+
+¿Qué es Evento Adverso?
+Situación no deseada durante la atención en salud que resulta en daño al paciente, pudiendo ser prevenible mediante protocolos de seguridad.
+
+¿Qué es Garantía de la Calidad?
+Conjunto de acciones que realizan los individuos y las instituciones para mantener y mejorar la calidad de los servicios de salud.
+
+¿Qué es Gestión Integral del Riesgo en Salud?
+Conjunto de acciones dirigidas a minimizar el riesgo de ocurrencia de enfermedad y reducir la severidad de sus consecuencias.
+
+¿Qué es Gobernanza en Salud?
+Procesos para la toma de decisiones que afectan al sistema de salud, donde interactúan actores estratégicos y organizaciones.
+
+¿Qué es Habilitación?
+Proceso obligatorio por el cual una IPS demuestra que cumple los requisitos mínimos para operar legalmente, según Resolución 3100 de 2019.
+
+¿Qué es Historia Clínica?
+Documento legal que registra todos los datos de salud de un paciente. Regulada por Resolución 1995 de 1999.
+
+¿Qué es Humanización del Servicio?
+Principio que orienta la atención en salud hacia el respeto, la dignidad y la empatía con el paciente y su familia.
+
+¿Qué es Interdependencia?
+Existencia o disponibilidad de servicios o productos, propios o contratados, necesarios para prestar en forma oportuna, segura e integral los servicios de salud.
+
+¿Qué es Modalidad Extramural?
+Servicios ofrecidos a la población en espacios no destinados a salud o en áreas de difícil acceso, acondicionados temporalmente para actividades y procedimientos específicos.
+
+¿Qué es Modalidad Intramural?
+Atención ambulatoria y hospitalaria que se realiza en una misma estructura de salud.
+
+¿Qué es Modelo Integral de Atención en Salud (MIAS)?
+Modelo operacional que adopta herramientas para garantizar oportunidad, continuidad, integralidad, aceptabilidad y calidad en la atención en salud.
+
+¿Qué es Monitoreo de la Calidad?
+Recopilación, consolidación y análisis sistemático de información para identificar problemas de calidad y gestionar el mejoramiento continuo.
+
+¿Qué es Participación Social?
+Derecho de los usuarios a intervenir en la gestión y control del sistema de salud mediante asociaciones, veedurías y comités.
+
+¿Qué es Pertinencia?
+Característica que refiere la obtención de servicios que se requieren, con los mayores beneficios y el menor riesgo a nivel individual y colectivo.
+
+¿Qué es Portabilidad?
+Derecho del afiliado a recibir atención en salud en cualquier lugar del territorio nacional, aunque su EPS no tenga presencia allí.
+
+¿Qué es Prevención de la Enfermedad?
+Medidas para reducir factores de riesgo, detectar tempranamente enfermedades y evitar complicaciones en la población.
+
+¿Qué es Primer Nivel de Complejidad?
+Atención básica, puerta de entrada a la red de servicios. Incluye consulta externa, urgencias, hospitalización de patología y partos de bajo riesgo.
+
+¿Qué es Procedimiento Invasivo?
+Procedimiento realizado por profesional de la medicina o enfermería en el cual el cuerpo es intervenido química y/o mecánicamente.
+
+¿Qué es Profesional Independiente de Salud?
+Persona natural egresada de un programa de educación superior de ciencias de la salud con facultades para actuar de manera autónoma en la prestación del servicio.
+
+¿Qué es Promoción de la Salud?
+Conjunto de acciones dirigidas a mejorar las condiciones de salud de individuos y comunidades mediante educación y entornos saludables.
+
+¿Qué es Rectoría?
+Función de la autoridad sanitaria para ejercer responsabilidades de política pública en salud, permitiendo la toma de decisiones encaminadas a garantizar el derecho a la salud.
+
+¿Qué es Red Integrada de Servicios de Salud?
+Oferta pública de prestación de servicios de salud organizada en subredes que corresponden a cada ESE.
+
+¿Qué es Red Prestadora de Servicios?
+Conjunto articulado de servicios de salud ubicados en un espacio geográfico que trabajan de manera organizada y coordinada.
+
+¿Qué es Redes Integradas de Servicios?
+Conjunto de IPS que prestan servicios coordinados entre niveles de atención para garantizar continuidad, referencia y contrarreferencia.
+
+¿Qué es Referencia?
+Proceso mediante el cual una IPS de menor complejidad remite un paciente a una de mayor complejidad para atención especializada.
+
+¿Qué es Régimen Contributivo?
+Régimen del SGSSS para trabajadores dependientes e independientes con capacidad de pago. La cotización total es del 12.5% del IBC.
+
+¿Qué es Régimen de Excepción?
+Sectores de población que se rigen por normas de seguridad social anteriores a la Ley 100 de 1993, como Fuerzas Militares, Magisterio y Ecopetrol.
+
+¿Qué es Régimen Especial?
+Regímenes de excepción para grupos como Fuerzas Militares, Policía, Magisterio y Ecopetrol, con normas propias de seguridad social.
+
+¿Qué es Régimen Subsidiado?
+Régimen del SGSSS para población pobre no asegurada y sin capacidad de pago, financiado por el Estado con recursos públicos.
+
+¿Qué es Seguridad del Paciente?
+Conjunto de medidas y protocolos para prevenir errores, eventos adversos y garantizar una atención en salud sin daños.
+
+¿Qué es Servicio Social Obligatorio?
+Desempeño de una profesión de salud con carácter social mediante el cual los egresados contribuyen a la solución de problemas de salud.
+
+¿Qué es Sistema de Referencia y Contrarreferencia?
+Conjunto de procesos, procedimientos y actividades técnicas y administrativas que permiten prestar servicios de salud garantizando calidad, accesibilidad y continuidad.
+
+¿Qué es Sostenibilidad Financiera?
+Capacidad del sistema de salud para mantenerse viable económicamente a largo plazo sin comprometer la calidad de los servicios.
+
+¿Qué es Telemedicina?
+Provisión de servicios de salud a distancia usando tecnologías de información y comunicación para facilitar el acceso y la oportunidad en la atención.
+
+¿Qué es Telesalud?
+Modalidad de prestación de servicios de salud a distancia usando TIC para mejorar el acceso y la oportunidad de la atención.
+
+¿Qué es Urgencias?
+Atención inmediata de salud requerida por una condición que pone en peligro la vida o la integridad de una persona.
+
+¿Qué es Vigilancia Epidemiológica?
+Sistema de recolección, análisis e interpretación de datos de salud para la planificación, ejecución y evaluación de intervenciones en salud pública.
+
+¿Qué es Accesibilidad?
+Principio del derecho a la salud que garantiza que los servicios estén al alcance geográfico, económico y cultural de todos.
+
+¿Qué es Aceptabilidad?
+Principio del derecho a la salud que exige que los servicios respeten la diversidad cultural y las condiciones de cada población.
+
+¿Qué es Calidad?
+Principio del SGSSS que exige que los servicios de salud sean oportunos y cumplan con estándares técnicos y humanos.
+
+¿Qué es Continuidad?
+Principio del derecho a la salud que garantiza que la atención no se interrumpa por razones administrativas o económicas.
+
+¿Qué es Disponibilidad?
+Principio del derecho a la salud (Ley 1751 de 2015) que exige suficientes servicios y personal de salud para la población.
+
+¿Qué es Eficiencia?
+Principio del SGSSS que busca el uso óptimo de los recursos del sistema para obtener los mejores resultados en salud.
+
+¿Qué es Equidad?
+Principio del SGSSS que garantiza que todos los afiliados reciban el mismo trato sin discriminación en el acceso a servicios.
+
+¿Qué es Integralidad?
+Principio del SGSSS que garantiza atención en todas las fases de la enfermedad: promoción, prevención, diagnóstico, tratamiento y rehabilitación.
+
+¿Qué es Oportunidad?
+Principio del derecho a la salud que exige que los servicios se presten en el momento en que se necesitan, sin demoras injustificadas.
+
+¿Qué es Participación?
+Principio del SGSSS que garantiza el derecho de la comunidad a intervenir en la dirección y control del sistema de salud.
+
+¿Qué es Progresividad?
+Principio del derecho a la salud que obliga al Estado a mejorar gradualmente la cobertura y calidad de los servicios.
+
+¿Qué es Solidaridad?
+Principio del SGSSS según el cual los afiliados con mayor capacidad de pago contribuyen a financiar a los de menor capacidad.
+
+¿Qué es Sostenibilidad?
+Principio del SGSSS que exige que el sistema sea financieramente viable a largo plazo.
+
+¿Qué es Unidad?
+Principio del SGSSS que establece un sistema único para todos los afiliados, sin regímenes que fragmenten la atención.
+
+¿Qué es Universalidad?
+Principio del SGSSS que establece que todos los habitantes del territorio nacional deben estar afiliados al sistema de salud.
+
+¿Qué es Carrera Administrativa?
+Sistema de ingreso, permanencia y ascenso en empleos públicos basado en el mérito, administrado por la CNSC mediante concursos.
+
+¿Qué es Concurso de Méritos?
+Proceso de selección para empleos públicos basado en pruebas de conocimientos, competencias y experiencia, administrado por la CNSC a través de SIMO.
+
+¿Qué es Empleado Público?
+Persona que ocupa un cargo de carrera administrativa en una entidad del Estado, vinculada mediante concurso de méritos.
+
+¿Qué es Encargo?
+Asignación temporal de funciones de un cargo superior a un empleado público mientras se provee definitivamente por concurso.
+
+¿Qué es Evaluación del Desempeño?
+Proceso periódico que mide el rendimiento laboral del empleado público, determinando su permanencia y posibilidad de ascenso.
+
+¿Qué es Formación Continua?
+Programas de actualización y capacitación que las instituciones de salud deben garantizar a su talento humano según Ley 1438 de 2011.
+
+¿Qué es Libre Nombramiento y Remoción?
+Tipo de vinculación a la administración pública en cargos directivos o de confianza, que no requieren concurso de méritos.
+
+¿Qué es Período de Prueba?
+Tiempo durante el cual el empleado público demuestra sus capacidades para el cargo. Si no lo supera, regresa al cargo anterior o se desvincula.
+
+¿Qué es Provisionalidad?
+Situación de quien ocupa un cargo de carrera sin haber superado concurso, mientras se realiza la convocatoria correspondiente.
+
+¿Qué es Talento Humano en Salud?
+Conjunto de profesionales, técnicos y auxiliares que prestan servicios de salud, regulado por la Ley 1438 y la Resolución 1444 de 2025.
+
+¿Qué es Trabajador Oficial?
+Persona que presta servicios a una entidad pública en actividades de construcción y sostenimiento de obras, con régimen laboral diferente al empleado público.
+
+¿Qué es Auxilio de transporte?
+Beneficio económico que recibe el trabajador para cubrir los costos de desplazamiento desde su lugar de residencia al sitio de trabajo. Para funcionarios públicos, está regulado por la Ley 100 de 1993 y decretos reglamentarios. En el sector salud, aplica al personal asistencial y administrativo según la normativa laboral vigente.
+
+¿Qué es Vacancia Definitiva?
+Situación de un empleo público que queda sin titular por renuncia, jubilación, muerte o destitución, y debe proveerse por concurso.
+
+¿Qué es Código azul?
+Protocolo de activación de respuesta rápida ante crisis aguda en salud mental, que moviliza al equipo de contención y al médico psiquiatra. También se usa en emergencias médicas generales.
+
+¿Qué es Fase aguda?
+Etapa inicial o más intensa de una enfermedad mental, caracterizada por síntomas severos como agitación, psicosis o comportamiento disruptivo, que requiere intervención inmediata.
+
+¿Qué es Contención mecánica?
+Procedimiento de inmovilización temporal de un paciente psiquiátrico en crisis para prevenir daño a sí mismo o a terceros, regulado por estrictos protocolos clínicos y éticos.
+
+¿Qué es Psicofármaco?
+Medicamento utilizado para el tratamiento de trastornos mentales, incluyendo antipsicóticos, antidepresivos, ansiolíticos y estabilizadores del estado de ánimo.
+
+¿Qué es Riesgo vital?
+Condición médica en la que existe una probabilidad real e inmediata de muerte del paciente, requiriendo intervención urgente para preservar la vida.
+
+¿Qué es Haloperidol?
+Antipsicótico típico utilizado en el tratamiento de trastornos psicóticos agudos, agitación y crisis de salud mental en entornos hospitalarios.
+
+¿Qué es Clonazepam?
+Benzodiazepina utilizada como anticonvulsivante y ansiolítico. En salud mental, se emplea para tratar trastornos de ansiedad, pánico y crisis epilépticas.
+
+¿Qué es Liofilizado?
+Producto farmacéutico que ha sido deshidratado mediante congelación y sublimación para conservar su estabilidad, requiriendo reconstitución antes de su administración.
+
+¿Qué es Reconstitución de liofilizado?
+Procedimiento de agregar un diluyente (generalmente agua estéril) a un medicamento liofilizado para obtener una solución inyectable lista para administrar.
+
+¿Qué es Antipsicótico?
+Medicamento utilizado para tratar síntomas psicóticos como alucinaciones, delirios o agitación severa. Incluye haloperidol, olanzapina, risperidona, entre otros.
+
+¿Qué es Agitación psicomotriz?
+Estado de excesiva actividad motora asociada a tensión interna, inquietud y respuesta aumentada a estímulos externos, común en trastornos psiquiátricos agudos.
+
+¿Qué es Verborragia?
+Alteración del lenguaje caracterizada por un flujo excesivo de palabras, a menudo incontrolable, asociada a estados maníacos o crisis psicóticas.
+
+¿Qué es Código de seguridad?
+Protocolo de activación inmediata en situaciones de riesgo para la seguridad del paciente o del personal, movilizando al equipo correspondiente según el tipo de emergencia.
+
+¿Qué es Autonomía?
+Principio ético que reconoce el derecho del paciente a tomar decisiones informadas sobre su salud, respetando sus valores y preferencias.
+
+¿Qué es Trastorno límite de la personalidad?
+Trastorno psiquiátrico caracterizado por inestabilidad emocional, relaciones interpersonales intensas, impulsividad y alteración de la autoimagen.
+
+¿Qué es Validación emocional?
+Técnica de comunicación que reconoce y acepta las emociones del paciente sin juzgarlas, fundamental en la atención de salud mental para reducir la ansiedad y construir confianza.
+
+¿Qué es Contención verbal?
+Estrategia de manejo de crisis que utiliza la comunicación calmada y no confrontacional para reducir la agitación del paciente evitando la contención mecánica.
+
+¿Qué es Adherencia terapéutica?
+Grado en que el paciente sigue las indicaciones médicas (medicación, seguimiento, cambios de hábitos). La orientación al servicio mejora la adherencia mediante comunicación clara y apoyo.
+
+¿Qué es Peligro inminente?
+Situación clínica en la que un paciente representa una amenaza inmediata y grave para su integridad física, la de otros o para su propia vida, justificando intervenciones urgentes como la contención o el aislamiento.
+
+¿Qué es Abducción?
+Movimiento de separación de un miembro u órgano respecto al eje del cuerpo. Por ejemplo, separar el brazo del torso.
+
+¿Qué es Abrasión?
+Pérdida de la capa superficial de la piel (epidermis) causada por fricción o raspadura contra una superficie rugosa.
+
+¿Qué es Apnea?
+Cese temporal de la respiración, que puede durar segundos o minutos. Es monitorizada especialmente durante el sueño o en pacientes sedados.
+
+¿Qué es Bradicardia?
+Disminución anormal de la frecuencia cardíaca. En adultos, se considera cuando es inferior a 60 latidos por minuto.
+
+¿Qué es Bradipnea?
+Disminución anormal de la frecuencia respiratoria. Se presenta cuando una persona respira más lento de lo normal.
+
+¿Qué es Cefalea?
+Término médico para referirse al dolor de cabeza, un síntoma común en diversos trastornos médicos y psiquiátricos.
+
+¿Qué es Catéter?
+Tubo delgado y flexible fabricado de material estéril, usado para introducir o drenar fluidos del cuerpo.
+
+¿Qué es Citología?
+Rama de la biología que estudia las células. En medicina, se analizan muestras para detectar anomalías.
+
+¿Qué es Colostomía?
+Procedimiento quirúrgico que crea una abertura (estoma) en el abdomen para conectar el colon a la superficie de la piel.
+
+¿Qué es Disfagia?
+Dificultad para tragar alimentos o líquidos. Puede estar acompañada de dolor.
+
+¿Qué es Emesis?
+Acto de vomitar los alimentos ingeridos o parte de ellos.
+
+¿Qué es Eupnea?
+Respiración normal, tranquila y sin esfuerzo.
+
+¿Qué es Hematoma?
+Acumulación de sangre debajo de la piel debido a la ruptura de vasos sanguíneos, conocido comúnmente como 'moretón'.
+
+¿Qué es Hemiplejia?
+Parálisis total o parcial que afecta a un lado del cuerpo (brazo y pierna del mismo lado), generalmente por una lesión cerebral.
+
+¿Qué es Hipercalcemia?
+Nivel anormalmente elevado de calcio en la sangre.
+
+¿Qué es Intraabdominal?
+Término que hace referencia a cualquier cosa que se encuentra dentro de la cavidad abdominal.
+
+¿Qué es Leucopoyesis?
+Proceso de producción de leucocitos (glóbulos blancos) en la médula ósea.
+
+¿Qué es Otalgia?
+Término médico para referirse al dolor de oído.
+
+¿Qué es Oxigenoterapia?
+Administración controlada de oxígeno para tratar o prevenir la hipoxia (falta de oxígeno en los tejidos).
+
+¿Qué es Abulia?
+Falta de voluntad o energía para iniciar o completar cualquier actividad, incluso las más básicas como bañarse o comer. Frecuente en depresión mayor.
+
+¿Qué es Afecto?
+Expresión externa observable de las emociones de una persona (tono de voz, gestos). Puede ser plano, restringido, lábil o apropiado.
+
+¿Qué es Anhedonia?
+Incapacidad para experimentar placer en actividades que antes se consideraban gratificantes o placenteras.
+
+¿Qué es Ansiedad?
+Respuesta natural al estrés, caracterizada por sentimientos de miedo, preocupación síquica y aprensión. Es uno de los trastornos mentales más comunes.
+
+¿Qué es Catatonia?
+Estado de inmovilidad motora extrema, negativismo, mutismo o agitación sin propósito aparente. El paciente puede mantener posturas rígidas por horas.
+
+¿Qué es Delirio?
+Estado de confusión agudo y fluctuante de la conciencia, con alteraciones cognitivas. Generalmente tiene una causa médica subyacente.
+
+¿Qué es Esquizofrenia?
+Trastorno mental grave que afecta la capacidad de pensar, sentir y comportarse con claridad. Se caracteriza por psicosis (alucinaciones, delirios) y deterioro funcional.
+
+¿Qué es Trastorno Bipolar?
+Trastorno del estado de ánimo que cursa con episodios de manía (euforia, energía aumentada) y depresión.
+
+¿Qué es Trastorno Obsesivo-Compulsivo (TOC)?
+Presencia de obsesiones (pensamientos recurrentes) y compulsiones (comportamientos repetitivos) que el individuo se siente impulsado a realizar.
+
+¿Qué es Tutela (salud)?
+Mecanismo legal para proteger derechos fundamentales como la salud. Permite a un paciente solicitar un servicio o medicamento no incluido en el PBS si es necesario para su vida o integridad.
+
+¿Qué es Efectos extrapiramidales?
+Trastornos del movimiento causados por antipsicóticos: rigidez, distonía aguda, acatisia (inquietud motora) y discinesia tardía.
+
+¿Qué es Distonía aguda?
+Contracción muscular sostenida e involuntaria que puede afectar cuello, lengua o cara, como efecto adverso temprano de antipsicóticos.
+
+¿Qué es Contrarrecíproco?
+Regla lógica que dice: si 'P → Q', entonces 'no Q → no P'. Ejemplo: si no se registró la contención, entonces no se aplicó contención.
+
+¿Qué es Silogismo?
+Razonamiento deductivo donde de dos premisas se obtiene una conclusión. Ejemplo: todos los humanos son mortales; Juan es humano; luego Juan es mortal.
+
+¿Qué es Contención farmacológica?
+Uso de medicamentos (antipsicóticos, benzodiacepinas) para controlar la agitación psicomotriz o la agresividad en crisis psiquiátricas.
+
+¿Qué es Depósito (antipsicótico)?
+Formulación de liberación prolongada administrada por vía intramuscular (ej. haloperidol decanoato, risperidona microesferas) cada 2-4 semanas para asegurar adherencia en pacientes crónicos.
+
+¿Qué es Técnica Z?
+Técnica de administración intramuscular que evita reflujo del medicamento, retrayendo la piel lateralmente antes de inyectar y soltándola al retirar la aguja.
+
+¿Qué es Debriefing (post-contención)?
+Reunión posterior a una crisis donde el equipo analiza lo sucedido, registra incidentes y ofrece apoyo psicológico al paciente y personal.
+
+¿Qué es Ideación suicida?
+Pensamientos recurrentes sobre la muerte, autolesión o el deseo de terminar con la propia vida. Requiere evaluación inmediata de riesgo.
+
+¿Qué es Abstinencia alcohólica?
+Conjunto de síntomas (temblor, sudoración, taquicardia, alucinaciones) que aparecen al suspender el alcohol en personas dependientes.
+
+¿Qué es Delirium tremens?
+Forma grave de abstinencia alcohólica con confusión, agitación, fiebre, alucinaciones visuales y riesgo de muerte si no se trata.
+
+¿Qué es Escala de Glasgow?
+Escala que mide nivel de conciencia evaluando apertura ocular (1-4), respuesta verbal (1-5) y respuesta motora (1-6). Máx 15, mín 3.
+
+¿Qué es Escala CIWA-Ar?
+Escala de 10 ítems para medir severidad de abstinencia alcohólica. Puntaje <9: leve; 9-15: moderado; >15: grave (riesgo de delirium tremens).
+
+¿Qué es Lorazepam?
+Benzodiazepina de acción intermedia usada en crisis de ansiedad, agitación y como anticonvulsivante. Se administra por vía oral o intramuscular.
+
+¿Qué es Haloperidol decanoato?
+Antipsicótico de depósito de liberación prolongada, administrado cada 2-4 semanas para mantener niveles estables en pacientes crónicos.
+
+¿Qué es Biperideno?
+Fármaco anticolinérgico usado para revertir efectos extrapiramidales agudos (distonía, rigidez) inducidos por antipsicóticos.
+
+¿Qué es Triaje?
+Clasificación de pacientes según la urgencia de su condición para priorizar la atención en servicios de emergencia y optimizar recursos. Usa escalas como Manchester o SHOT.
+
+¿Qué es Desescalamiento verbal?
+Estrategia de comunicación que utiliza tono calmado, validación emocional y ofrecimiento de opciones para reducir la agitación de un paciente, evitando el uso de contenciones físicas o farmacológicas.
+
+¿Qué es Prevención de caídas?
+Conjunto de medidas para reducir el riesgo de caídas en pacientes con alteración motora o sedación, incluyendo barandas, alarmas de cama, calzado antideslizante y rondas frecuentes.
+
+¿Qué es Escala de Norton?
+Herramienta de valoración del riesgo de úlceras por presión, evalúa cinco parámetros (condición física, estado mental, actividad, movilidad e incontinencia). Puntaje máximo 20; <14 indica riesgo alto.
+
+¿Qué es Crisis de pánico?
+Episodio súbito de miedo intenso acompañado de palpitaciones, sensación de ahogo, mareo y miedo a morir. En salud mental, requiere acompañamiento calmado y técnicas de respiración guiada.
+
+¿Qué es Escala PLA?
+Instrumento rápido para evaluar riesgo suicida: P (plan), L (letalidad de los medios), A (accesibilidad). Puntaje ≥ 2 indica alto riesgo y requiere vigilancia especial y notificación al psiquiatra.
+
+¿Qué es Trombosis venosa profunda (TVP)?
+Formación de coágulos en venas profundas (generalmente piernas) por inmovilidad. La prevención incluye medias de compresión, ejercicios pasivos y movilización precoz.
+
+¿Qué es Internación involuntaria?
+Hospitalización psiquiátrica sin consentimiento del paciente cuando existe riesgo inminente para sí mismo o terceros. Requiere orden médica justificada y notificación a familiar y autoridad judicial.
+
+¿Qué es Alucinaciones?
+Percepción sensorial sin estímulo externo real. Pueden ser auditivas (voces), visuales, táctiles u olfativas. En crisis psiquiátrica, se debe validar el malestar sin confirmar la realidad de la percepción.
+
+¿Qué es Glucemia capilar?
+Medición de glucosa en sangre obtenida por punción en la yema del dedo. Fundamental en pacientes con diabetes, hipoglucemia o agitación de causa metabólica.
+
+¿Qué es Fuga de paciente?
+Intento o consumación de salida no autorizada de un paciente psiquiátrico del hospital. La prevención incluye identificación de pacientes de riesgo, rondas frecuentes y control de accesos.
+
+¿Qué es Retiro de puntos de sutura?
+Procedimiento de enfermería para extraer puntos de sutura superficiales una vez la herida ha cicatrizado. Requiere material estéril (pinza, tijeras) y verificación de ausencia de infección.
+
+¿Qué es Estreñimiento por antipsicóticos?
+Efecto adverso frecuente de medicamentos como clozapina, olanzapina o haloperidol, debido a su acción anticolinérgica. El manejo incluye hidratación, fibra y laxantes prescritos.
+
+¿Qué es Laceraciones?
+Heridas lineales o irregulares en la piel, a veces autoinfligidas en pacientes psiquiátricos. La prevención incluye corte de uñas, uso de guantes de contención suaves y vigilancia activa.
+
+¿Qué es Administración oral (VO)?
+Vía de administración de medicamentos por boca. En pacientes resistentes, puede requerir mezcla con puré o compota, evitando triturar fármacos de liberación prolongada.
+
+¿Qué es Negativismo?
+Actitud de oposición o resistencia pasiva a indicaciones, común en pacientes catatónicos o con depresión severa. En alimentación, implica ofrecer pequeñas cantidades sin forzar.
+
+¿Qué es Bioseguridad?
+Conjunto de medidas preventivas (lavado de manos, uso de guantes, desecho de punzocortantes en tarro rojo) para evitar la transmisión de infecciones en el entorno clínico.
+
+¿Qué es Registro de incidentes?
+Documento donde se notifican eventos adversos, cuasi errores o situaciones de riesgo para la seguridad del paciente. Es fundamental para el análisis sistémico y la mejora continua de la calidad.
+
+¿Qué es Escala de Morse?
+Herramienta para evaluar riesgo de caídas en adultos mayores. Valora antecedentes de caídas, diagnóstico secundario, ayuda al caminar, terapia intravenosa, marcha y estado mental.
+
+¿Qué es Posición semi-Fowler?
+Posición del paciente sentado con la cabecera de la cama elevada entre 45 y 60 grados, útil para prevenir aspiración en pacientes con disfagia o para facilitar la respiración.
+
+¿Qué es Esfigmomanómetro?
+Instrumento para medir la presión arterial, compuesto por un brazalete inflable y un manómetro (aneroide o digital).
+
+¿Qué es Trastorno de pánico?
+Trastorno de ansiedad caracterizado por episodios recurrentes e inesperados de miedo intenso (crisis de pánico), acompañados de palpitaciones, sudoración, temblor, sensación de ahogo y miedo a perder el control o morir.
+
+¿Qué es Trastorno de estrés postraumático (TEPT)?
+Trastorno que ocurre después de exponerse a un evento traumático (violencia, accidente, desastre). Se manifiesta con recuerdos intrusivos, pesadillas, hipervigilancia y evitación de estímulos relacionados.
+
+¿Qué es Trastorno de ansiedad generalizada (TAG)?
+Preocupación excesiva y persistente por múltiples aspectos de la vida (trabajo, salud, familia), difícil de controlar, acompañada de inquietud, fatiga, tensión muscular y alteraciones del sueño.
+
+¿Qué es Manía?
+Episodio de estado de ánimo anormalmente elevado, expansivo o irritable, con aumento de la actividad, energía, autoestima grandiosa, disminución de la necesidad de sueño, verborragia y comportamientos impulsivos. Característico del trastorno bipolar.
+
+¿Qué es Ideas delirantes?
+Creencias falsas, firmes y no modificables por la razón, que no se corresponden con la realidad ni con el nivel cultural del paciente. Comunes en trastornos psicóticos como la esquizofrenia.
+
+¿Qué es Insight (conciencia de enfermedad)?
+Capacidad del paciente para reconocer que tiene un trastorno mental, comprender sus síntomas y aceptar la necesidad de tratamiento. Su falta es común en psicosis y puede afectar la adherencia.
+
+¿Qué es Síntomas positivos?
+Manifestaciones psicóticas que representan un exceso o distorsión de funciones normales, como alucinaciones, delirios, pensamiento desorganizado y comportamiento catatónico.
+
+¿Qué es Síntomas negativos?
+Déficits en funciones emocionales y conductuales normales, como aplanamiento afectivo, abulia (falta de voluntad), anhedonia (incapacidad para sentir placer), alogia (pobreza del lenguaje) y aislamiento social.
+
+¿Qué es Terapia electroconvulsiva (TEC)?
+Procedimiento psiquiátrico bajo anestesia general que induce una breve convulsión cerebral controlada mediante estimulación eléctrica. Se usa en depresión severa resistente a fármacos, catatonia o manía grave.
+
+¿Qué es Antidepresivos ISRS?
+Inhibidores selectivos de la recaptación de serotonina, como fluoxetina, sertralina, escitalopram. Son fármacos de primera línea para depresión y trastornos de ansiedad, con menos efectos adversos que los tricíclicos.
+
+¿Qué es Litio?
+Estabilizador del ánimo de primera línea para el trastorno bipolar. Requiere control periódico de niveles séricos, función renal y tiroidea. Efectos adversos: temblor, polidipsia, poliuria, hipotiroidismo.
+
+¿Qué es Clozapina?
+Antipsicótico atípico de segunda línea para esquizofrenia resistente. Requiere monitoreo estricto de glóbulos blancos por riesgo de agranulocitosis. Efectos adversos: sedación, sialorrea, aumento de peso, miocarditis.
+
+¿Qué es Síndrome neuroléptico maligno?
+Emergencia médica potencialmente mortal asociada a antipsicóticos. Se caracteriza por rigidez muscular, fiebre, alteración de conciencia, disautonomía (taquicardia, labilidad arterial) y elevación de CK. Requiere suspensión del fármaco y cuidados intensivos.
+
+¿Qué es Acatisia?
+Efecto adverso extrapiramidal frecuente por antipsicóticos, caracterizado por una sensación subjetiva de inquietud interna y necesidad imperiosa de moverse (balancearse, cruzar piernas, caminar sin propósito).
+
+¿Qué es Discinesia tardía?
+Trastorno del movimiento tardío e irreversible causado por uso prolongado de antipsicóticos (especialmente típicos). Se manifiesta con movimientos involuntarios de la lengua, labios, cara y extremidades.
+
+¿Qué es la escala de Glascow?
+Escala que mide nivel de conciencia evaluando apertura ocular (1-4), respuesta verbal (1-5) y respuesta motora (1-6). Máx 15, mín 3.
+
+¿Qué es la escala de Glascou?
+Escala que mide nivel de conciencia evaluando apertura ocular (1-4), respuesta verbal (1-5) y respuesta motora (1-6). Máx 15, mín 3.
+
+¿Qué es la escala de Glasgo?
+Escala que mide nivel de conciencia evaluando apertura ocular (1-4), respuesta verbal (1-5) y respuesta motora (1-6). Máx 15, mín 3.

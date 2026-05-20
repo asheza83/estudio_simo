@@ -9093,6 +9093,27 @@ No, una vez cerrado el examen o cancelado, el progreso se borra permanentemente.
 ¿El examen se guarda si se me cierra el navegador?
 No, el guardado de progreso solo funciona al cambiar de pestaña dentro de la misma sesión. Si cierras el navegador, se pierde el progreso.
 
+¿Cómo pauso un examen y lo retomo después?
+No es posible pausar un examen. Puedes cancelarlo con el botón rojo "Cancelar examen" y empezar de cero cuando quieras. El progreso no se guarda entre sesiones, pero al cambiar de pestaña se te preguntará si quieres guardar el avance.
+
+¿Cómo reinicio mi progreso y empiezo de cero?
+No hay un botón de reinicio general. Cada examen es independiente. Si quieres empezar un nuevo examen, usa el botón "Repetir examen" o "Cancelar examen". Los resultados no se almacenan; cada simulacro genera preguntas aleatorias.
+
+¿Se puede pausar el examen?
+No, no se puede pausar. Puedes cancelarlo y empezar de nuevo. Si cambias de pestaña durante un examen, el sistema te preguntará si quieres guardar el progreso para continuar después.
+
+¿Cómo puedo pausar un simulacro a la mitad?
+La aplicación no tiene función de pausa. Tienes dos opciones: cancelar el examen (se pierde el progreso) o cambiar de pestaña (el sistema guarda automáticamente y puedes continuar al volver).
+
+¿Cómo empiezo desde cero todos los exámenes?
+No hay un botón de reinicio global. Para cada examen, puedes usar "Cancelar examen" o "Repetir examen" para comenzar de nuevo sin guardar resultados previos.
+
+¿Los resultados de los exámenes se guardan para siempre?
+No, los resultados no se almacenan de forma permanente. Cada examen es independiente. Puedes exportar a PDF los resultados del simulacro si quieres conservarlos.
+
+¿Puedo borrar mi historial de exámenes?
+No hay historial de exámenes almacenado. Cada examen es independiente y los resultados no persisten entre sesiones, por lo que no hay nada que borrar.
+
 
 
 

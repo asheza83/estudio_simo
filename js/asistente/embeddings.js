@@ -145,7 +145,7 @@ function similitudCoseno(vecA, vecB) {
 // ============================================
 // BUSCAR RESPUESTA
 // ============================================
-export async function buscarRespuestaTFIDF(preguntaUsuario) {
+async function buscarRespuestaTFIDF(preguntaUsuario) {
     if (!modeloListo) {
         await new Promise((resolve) => {
             if (modeloListo) resolve();
@@ -204,14 +204,85 @@ export async function buscarRespuestaTFIDF(preguntaUsuario) {
 }
 
 // ============================================
-// EXPORTAR FUNCIONES
+// GLOSARIO SEMÁNTICO (usando embeddings)
 // ============================================
-export async function cargarFAQsVectorizadas() {
+let glosarioEmbeddings = null;
+let glosarioLista = null;
+
+async function cargarGlosarioEmbeddings() {
+    if (glosarioEmbeddings) return;
+    try {
+        const response = await fetch('datos/glosario_embeddings.json');
+        const data = await response.json();
+        if (data.version === 'float16') {
+            glosarioLista = data.embeddings.map(item => ({
+                pregunta: item.pregunta,
+                respuesta: item.respuesta,
+                embedding: convertirEmbeddingF16aF32(item.embedding_f16)
+            }));
+        } else if (Array.isArray(data)) {
+            glosarioLista = data.map(item => ({
+                pregunta: item.pregunta,
+                respuesta: item.respuesta,
+                embedding: new Float32Array(item.embedding)
+            }));
+        } else {
+            throw new Error('Formato de embeddings de glosario no reconocido');
+        }
+        console.log(`✅ Glosario semántico cargado: ${glosarioLista.length} términos`);
+    } catch (error) {
+        console.error('Error cargando glosario embeddings:', error);
+        glosarioLista = [];
+    }
+}
+
+async function buscarEnGlosarioSemantico(preguntaUsuario) {
+    // Asegurar que el modelo de preguntas esté listo
+    if (!modeloListo) {
+        await new Promise((resolve) => {
+            if (modeloListo) resolve();
+            else colaDeEspera.push(resolve);
+        });
+    }
+    if (!glosarioLista) {
+        await cargarGlosarioEmbeddings();
+    }
+    if (!glosarioLista || glosarioLista.length === 0) {
+        return null;
+    }
+
+    const pipe = await getQueryModel();
+    const queryEmbedding = await pipe(preguntaUsuario, { pooling: 'mean', normalize: true });
+    const queryVector = Array.from(queryEmbedding.data);
+
+    let mejorSimilitud = 0;
+    let mejorItem = null;
+
+    for (const item of glosarioLista) {
+        const sim = similitudCoseno(queryVector, item.embedding);
+        if (sim > mejorSimilitud) {
+            mejorSimilitud = sim;
+            mejorItem = item;
+        }
+    }
+
+    const UMBRAL_GLOSARIO = 0.85; // puedes ajustar
+    if (mejorSimilitud >= UMBRAL_GLOSARIO) {
+        console.log(`📖 Glosario semántico: "${mejorItem.pregunta}" (sim: ${mejorSimilitud.toFixed(3)})`);
+        return mejorItem.respuesta;
+    }
+    return null;
+}
+
+// ============================================
+// EXPORTAR FUNCIONES (único lugar)
+// ============================================
+async function cargarFAQsVectorizadas() {
     await cargarEmbeddings();
     return true;
 }
 
-export async function obtenerFAQsLista() {
+async function obtenerFAQsLista() {
     if (!modeloListo) {
         await new Promise((resolve) => {
             if (modeloListo) resolve();
@@ -220,3 +291,5 @@ export async function obtenerFAQsLista() {
     }
     return faqs.map(f => ({ pregunta: f.pregunta, respuesta: f.respuesta }));
 }
+
+export { buscarRespuestaTFIDF, cargarFAQsVectorizadas, obtenerFAQsLista, buscarEnGlosarioSemantico };
