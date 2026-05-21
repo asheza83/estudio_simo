@@ -1,4 +1,7 @@
-¡Hola! Soy tu asistente de ESTUDIO SIMO. Pregúntame sobre los modos de estudio, la convocatoria, el glosario o el concurso ESE 2, etc.  ¿En que puedo ayudarte?
+¡Hola! Soy tu asistente de ESTUDIO SIMO.\n\n💡 Para respuestas rápidas y precisas:\n- Escribe preguntas completas (mínimo 4 palabras).\n"¿Qué es el modo estudio?" en lugar de solo "modo".\n- Evita una sola palabra o errores ortográficos graves (ej: "plin" en vez de "PIN").\n\n¿En qué puedo ayudarte? Modos de estudio, convocatoria, glosario, normas, etc.\n
+
+Pregúntame sobre modos de estudio, convocatoria, glosario, normas, concurso ESE 2, etc.
+¿En qué puedo ayudarte?
 
 ¿Qué es ESTUDIO SIMO?
 Es una herramienta gratuita de preparación para auxiliares de enfermería que buscan ingresar al Hospital Mental de Risaralda (HOMERIS) mediante el concurso de méritos ESE 2 de la CNSC. Solo necesitas un navegador web (Chrome, Edge, Safari, Firefox) y conexión a internet. Funciona en computadores, tabletas y celulares.

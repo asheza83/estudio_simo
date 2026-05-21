@@ -20,7 +20,8 @@ async function cargarBienvenida() {
         for (const linea of lineas) {
             const lineaTrim = linea.trim();
             if (lineaTrim !== '' && !lineaTrim.startsWith('¿')) {
-                mensajeBienvenida = "👋 " + lineaTrim;
+                let raw = "👋 " + lineaTrim;
+                mensajeBienvenida = raw.replace(/\\n/g, '\n');
                 break;
             }
         }

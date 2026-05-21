@@ -37,7 +37,10 @@ const EXCEPCIONES = [
     'cambiar:competencia después del examen', 'cambiar:respuesta antes de verificar',
     'cambiar:tamaño de letra en ajustes', 'cambiar:modo oscuro en ajustes', 'cambiar:opción en modo estudio',
     'compartir:pdf de resultados', 'compartir:archivo pdf',
-    'imprimir:página con ctrl+p', 'imprimir:página', 'imprimir:con ctrl+p', 'imprimir:pantalla con ctrl+p', 'imprimir:pantalla'
+    'imprimir:página con ctrl+p', 'imprimir:página', 'imprimir:con ctrl+p', 'imprimir:pantalla con ctrl+p', 'imprimir:pantalla',
+    // NUEVAS EXCEPCIONES:
+    'imprimir:resultados',       // Para preguntas como "¿Cómo imprimir los resultados?" → responder que se puede usar Ctrl+P
+    'descargar:app'              // Para preguntas como "¿Puedo descargar la app?" → responder que es una página web, no hay app nativa
 ];
 
 // ---------- Glosario ----------
