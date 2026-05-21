@@ -89,7 +89,6 @@ function distanciaLevenshtein(a, b) {
 
 // Extraer la parte relevante de la pregunta (eliminar palabras comunes)
 function extraerCandidato(pregunta) {
-    // Palabras vacías que no forman parte del término
     const palabrasVacias = [
         'qué', 'que', 'es', 'son', 'está', 'esta', 'estan', 'definición', 'definicion',
         'significa', 'explica', 'explícame', 'decirme', 'podria', 'puedes', 'porfa', 'ayuda',
@@ -99,7 +98,6 @@ function extraerCandidato(pregunta) {
     ];
     let palabras = pregunta.toLowerCase().split(/\s+/);
     palabras = palabras.filter(p => !palabrasVacias.includes(p) && p.length > 1);
-    // Si después de filtrar no quedan palabras, devolvemos la pregunta original limpia
     if (palabras.length === 0) return normalizarTexto(pregunta);
     return palabras.join(' ');
 }
@@ -110,14 +108,12 @@ function buscarEnGlosario(preguntaOriginal, glosario) {
     const candidato = extraerCandidato(preguntaNorm);
     
     let mejorMatch = null;
-    let mejorPuntaje = 0; // 0 = no encontrado, 1 = exacto, 2 = aproximado con baja distancia
+    let mejorPuntaje = 0;
     
     for (const item of glosario.terminos) {
         const terminoNorm = normalizarTexto(item.termino);
         
-        // 1. Coincidencia exacta: el término aparece como subcadena en la pregunta
         if (preguntaNorm.includes(terminoNorm)) {
-            // Priorizar términos más largos
             if (terminoNorm.length > mejorPuntaje) {
                 mejorPuntaje = terminoNorm.length;
                 mejorMatch = item;
@@ -125,7 +121,6 @@ function buscarEnGlosario(preguntaOriginal, glosario) {
             continue;
         }
         
-        // 2. Coincidencia exacta con el candidato extraído
         if (candidato.includes(terminoNorm) || terminoNorm.includes(candidato)) {
             if (terminoNorm.length > mejorPuntaje) {
                 mejorPuntaje = terminoNorm.length;
@@ -134,14 +129,11 @@ function buscarEnGlosario(preguntaOriginal, glosario) {
             continue;
         }
         
-        // 3. Coincidencia aproximada: distancia de Levenshtein entre el candidato y el término
-        // Solo si la longitud del término es similar al candidato (diferencia <= 3)
         if (Math.abs(candidato.length - terminoNorm.length) <= 3) {
             const distancia = distanciaLevenshtein(candidato, terminoNorm);
             const maxLen = Math.max(candidato.length, terminoNorm.length);
-            const umbral = Math.floor(maxLen * 0.3); // 30% de cambios
+            const umbral = Math.floor(maxLen * 0.3);
             if (distancia <= umbral) {
-                // Asignar puntaje inverso a la distancia (menos distancia es mejor)
                 const puntaje = 1000 - distancia;
                 if (puntaje > mejorPuntaje) {
                     mejorPuntaje = puntaje;
@@ -162,7 +154,6 @@ async function consultarGlosario(pregunta) {
     }
     return null;
 }
-// -----------------------------
 
 function contieneVerboAccion(pregunta) {
     const preguntaLower = pregunta.toLowerCase();
@@ -192,6 +183,69 @@ function respuestaNoDisponible() {
     return "Lo siento, esa funcionalidad no está disponible en ESTUDIO SIMO. La herramienta está diseñada para ayudarte a prepararte para el concurso de la CNSC: estudiar la convocatoria, consultar las normas del sector salud, practicar con exámenes tipo SIMO (Modo Estudio y Modo Simulacro) y buscar términos en el Glosario. ¿Te ayudo con algún tema del concurso?";
 }
 
+// ============================================================
+// Función mejorada para eliminar redundancia entre glosario y FAQ
+// ============================================================
+function eliminarRedundancia(textoBase, textoComplemento) {
+    // Normalizar ambos textos (minúsculas, eliminar puntuación, espacios extra)
+    const normalizar = (str) => str.toLowerCase()
+        .replace(/[^\w\s]/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+    
+    const baseNorm = normalizar(textoBase);
+    let complementoNorm = normalizar(textoComplemento);
+    
+    // Buscar si complementoNorm comienza con baseNorm (o una parte significativa)
+    if (complementoNorm.startsWith(baseNorm)) {
+        // Quitar la parte redundante del complemento original (respetando mayúsculas)
+        let corte = textoBase.length;
+        // Avanzar hasta el siguiente espacio o carácter no alfabético
+        while (corte < textoComplemento.length && ![' ', '.', ',', ';', '\n'].includes(textoComplemento[corte])) {
+            corte++;
+        }
+        let resultado = textoComplemento.slice(corte).trim();
+        if (resultado.length > 0) {
+            resultado = resultado.charAt(0).toUpperCase() + resultado.slice(1);
+        }
+        return resultado;
+    }
+    
+    // Si no hay coincidencia completa, buscar prefijo común más corto
+    let maxMatch = 0;
+    for (let i = Math.min(baseNorm.length, complementoNorm.length); i > 20; i--) {
+        if (baseNorm.slice(0, i) === complementoNorm.slice(0, i)) {
+            maxMatch = i;
+            break;
+        }
+    }
+    
+    if (maxMatch > 20) {
+        // Buscar en el texto original dónde termina esa coincidencia (aproximadamente)
+        let corte = maxMatch;
+        let indiceOriginal = 0;
+        let caracteresNormalizados = 0;
+        for (let j = 0; j < textoComplemento.length && caracteresNormalizados < maxMatch; j++) {
+            const c = textoComplemento[j].toLowerCase();
+            if (/[a-z0-9]/i.test(c)) {
+                caracteresNormalizados++;
+            }
+            indiceOriginal = j;
+        }
+        corte = indiceOriginal + 1;
+        while (corte < textoComplemento.length && ![' ', '.', ',', ';', '\n'].includes(textoComplemento[corte])) {
+            corte++;
+        }
+        let resultado = textoComplemento.slice(corte).trim();
+        if (resultado.length > 0) {
+            resultado = resultado.charAt(0).toUpperCase() + resultado.slice(1);
+        }
+        return resultado;
+    }
+    
+    return textoComplemento;
+}
+
 export async function buscarRespuesta(pregunta) {
     // 1. Procesar opciones numéricas
     const respuestaNumerica = procesarOpcionNumerica(pregunta.trim());
@@ -199,27 +253,68 @@ export async function buscarRespuesta(pregunta) {
     
     // 2. Detectar verbos de acción (funcionalidades)
     const verbo = contieneVerboAccion(pregunta);
-    if (verbo) {
-        if (esExcepcion(pregunta, verbo)) {
-            // Es excepción → continúa
-        } else {
-            console.log(`🔍 Detectada funcionalidad no disponible (verbo: ${verbo})`);
-            return { respuesta: respuestaNoDisponible(), necesitaConfirmacion: false };
+    if (verbo && !esExcepcion(pregunta, verbo)) {
+        console.log(`🔍 Detectada funcionalidad no disponible (verbo: ${verbo})`);
+        return { respuesta: respuestaNoDisponible(), necesitaConfirmacion: false };
+    }
+    
+        // 3. Consultar ambas fuentes en paralelo
+    const [respuestaGlosario, resultadoFAQ] = await Promise.all([
+        buscarEnGlosarioSemantico(pregunta),
+        buscarRespuestaTFIDF(pregunta)
+    ]);
+    
+    // Inicializar mejor respuesta
+    let mejorRespuesta = null;
+    let mejorSimilitud = -1;
+    let necesitaConfirmacion = false;
+    let temaConfirmacion = null;
+    let respuestaCorrectaConfirmacion = null;
+    
+    // Evaluar glosario (si tiene objeto con respuesta y similitud)
+    if (respuestaGlosario && respuestaGlosario.respuesta) {
+        mejorRespuesta = respuestaGlosario.respuesta;
+        mejorSimilitud = respuestaGlosario.similitud;
+    }
+    
+    // Evaluar FAQ
+    if (resultadoFAQ) {
+        let similitudFAQ = resultadoFAQ.similitud || 0;
+        let textoFAQ = null;
+        
+        if (resultadoFAQ.respuesta && !resultadoFAQ.respuesta.includes("No estoy seguro")) {
+            textoFAQ = resultadoFAQ.respuesta;
+        } else if (resultadoFAQ.necesitaConfirmacion) {
+            // Zona gris: guardar datos para posible confirmación
+            necesitaConfirmacion = true;
+            temaConfirmacion = resultadoFAQ.tema;
+            respuestaCorrectaConfirmacion = resultadoFAQ.respuestaCorrecta;
+            textoFAQ = null; // no es respuesta directa
+        }
+        
+        // Si la FAQ tiene respuesta directa y su similitud es mayor que la actual
+        if (textoFAQ && similitudFAQ > mejorSimilitud) {
+            mejorRespuesta = textoFAQ;
+            mejorSimilitud = similitudFAQ;
+            necesitaConfirmacion = false; // es respuesta directa, no zona gris
         }
     }
     
-    // 3. NUEVO: Buscar primero en el glosario semántico (embeddings)
-    const respuestaGlosarioSemantico = await buscarEnGlosarioSemantico(pregunta);
-    if (respuestaGlosarioSemantico) {
-        return { respuesta: `📖 Según la definición contenida en el glosario: ${respuestaGlosarioSemantico}`, necesitaConfirmacion: false };
+    // Si la mejor opción resulta ser de FAQ y está en zona gris (y no había glosario mejor)
+    if (necesitaConfirmacion && mejorSimilitud === (resultadoFAQ?.similitud || 0) && !respuestaGlosario) {
+        return {
+            respuesta: null,
+            necesitaConfirmacion: true,
+            tema: temaConfirmacion,
+            respuestaCorrecta: respuestaCorrectaConfirmacion
+        };
     }
     
-    // 4. Consultar glosario exacto (coincidencia de texto + Levenshtein)
-    const respuestaGlosarioExacto = await consultarGlosario(pregunta);
-    if (respuestaGlosarioExacto) {
-        return { respuesta: respuestaGlosarioExacto, necesitaConfirmacion: false };
+    // Si tenemos una respuesta directa (glosario o FAQ con alta confianza)
+    if (mejorRespuesta) {
+        return { respuesta: mejorRespuesta, necesitaConfirmacion: false };
     }
     
-    // 5. Si no se encontró en el glosario, buscar en FAQ normal
-    return await buscarRespuestaTFIDF(pregunta);
+    // Si no hay ninguna respuesta
+    return { respuesta: "No estoy seguro de haber entendido tu pregunta. ¿Podrías ser más específico?", necesitaConfirmacion: false };
 }

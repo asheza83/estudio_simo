@@ -266,10 +266,14 @@ async function buscarEnGlosarioSemantico(preguntaUsuario) {
         }
     }
 
-    const UMBRAL_GLOSARIO = 0.85; // puedes ajustar
+    const UMBRAL_GLOSARIO = 0.85;
     if (mejorSimilitud >= UMBRAL_GLOSARIO) {
         console.log(`📖 Glosario semántico: "${mejorItem.pregunta}" (sim: ${mejorSimilitud.toFixed(3)})`);
-        return mejorItem.respuesta;
+        // DEVOLVER OBJETO con respuesta y similitud
+        return {
+            respuesta: mejorItem.respuesta,
+            similitud: mejorSimilitud
+        };
     }
     return null;
 }
