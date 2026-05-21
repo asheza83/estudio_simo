@@ -87,6 +87,40 @@ body.dark-mode #procedimientos-lista strong {
     display: none;
 }
 
+/* Agrandar checkboxes en la lista de requisitos */
+#checklist-requisitos input[type="checkbox"] {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    margin-right: 12px !important;
+    vertical-align: middle !important;
+    cursor: pointer !important;
+}
+
+:root {
+    --naranja: #fd7e14;  /* naranja */
+    --error: #dc3545;
+    --exito: #28a745;
+}
+
+/* Forzar color del texto en el aviso eliminatorio, incluso en modo oscuro */
+#seccion-requisitos div[style*="background-color: #fff3cd"] strong,
+#seccion-requisitos div[style*="background-color: #fff3cd"] p {
+    color: #856404 !important;  /* marrón/ámbar oscuro, legible sobre amarillo */
+}
+
+/* Forzar color de enlaces en la sección de requisitos (modo claro y oscuro) */
+#seccion-requisitos a,
+#seccion-requisitos a:link,
+#seccion-requisitos a:visited {
+    color: #0066cc !important;  /* Azul fuerte legible en ambos modos */
+    text-decoration: underline;
+}
+
+#seccion-requisitos a:hover {
+    color: #004499 !important;
+    text-decoration: none;
+}
+
 /* Animaciones (si no están en casos.css, cópialas aquí) */
 @keyframes fadeSlideIn {
     from {

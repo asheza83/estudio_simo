@@ -50,7 +50,6 @@
                 </div>
 
                 <!-- SECCIÓN INICIO - versión corregida -->
-                                <!-- SECCIÓN INICIO - versión simplificada -->
                 <div id="seccion-inicio" class="seccion-estudio">
                     <!-- NOTA DEL MENÚ DESPLEGABLE -->
                     <div style="background-color: rgba(13, 110, 253, 0.1); border-left: 4px solid var(--azul); padding: 12px; border-radius: 8px; margin-bottom: 20px;">
@@ -239,7 +238,7 @@
                     </div>
 
                     <!-- Advertencia importante -->
-                    <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 15px; margin-bottom: 20px; border-radius: 8px;">
+                    <div style="background-color: #fff3cd; border-left: 4px solid #5098db; padding: 15px; margin-bottom: 20px; border-radius: 8px;">
                         <strong>⚠️ ESTA FASE ES ELIMINATORIA</strong>
                         <p style="margin: 10px 0 0 0;">Muchos aspirantes pierden la oportunidad no por falta de conocimiento, sino por errores o falta de documentos. Revisa cada punto con anticipación. La CNSC no permite subsanar después del cierre de inscripciones.</p>
                     </div>
@@ -318,8 +317,11 @@
                     <!-- Checklist rápido al final -->
                     <!-- Checklist funcional con localStorage y sub-checklists -->
                     <div style="background-color: rgba(13, 110, 253, 0.1); padding: 15px; border-radius: 12px; margin-top: 20px;">
-                        <p style="font-weight: bold; margin: 0 0 10px 0;">✅ Lista de verificación de documentos</p>
-                        <div id="checklist-requisitos">
+                        <div style="margin-top: 12px; display: flex; justify-content: space-between; align-items: center;">
+                            <span id="resumen-documentos" style="font-weight: bold;">📄 Documentos listos: 0/11</span>
+                        </div>
+                        <p style="font-weight: bold; margin: 0 0 10px 0;">Lista de verificación de documentos</p>
+                        <div id="checklist-requisitos" >
                             
                             <!-- 1. Documentación educativa -->
                             <label style="display: block; margin-bottom: 8px;">
@@ -374,10 +376,7 @@
                             </label>
                         </div>
                         
-                        <div style="margin-top: 12px; display: flex; justify-content: space-between; align-items: center;">
-                            <span id="resumen-documentos" style="font-weight: bold;">📄 Documentos listos: 0/11</span>
-                            <button id="reiniciar-checklist" class="boton-reiniciar" style="padding: 6px 12px; font-size: 0.8rem;">Reiniciar lista</button>
-                        </div>
+                        
                     </div>
                 </div>
 
@@ -1030,36 +1029,47 @@
         // ============================================
         function mostrarPopupFaltantes() {
             const saved = localStorage.getItem('checklistRequisitos');
-            if (!saved) return; // No hay datos guardados, no mostrar popup
+            if (!saved) return;
             
             const estados = JSON.parse(saved);
-            const faltantes = [];
+            const faltantes = { generales: [], cursos: [], antecedentes: [] };
             
-            // Mapeo de nombres amigables (debe coincidir con los data-doc de tus checkboxes)
             const nombresMap = {
                 titulo: '📜 Título y tarjeta profesional',
                 certificados: '📋 Certificados laborales en formato CNSC',
-                curso_aps: '🎓 Curso APS (40h)',
-                curso_crisis: '🎓 Manejo de Crisis en Salud Mental',
-                curso_bioseguridad: '🎓 Bioseguridad y prevención de riesgos',
-                curso_pap: '🎓 Primeros Auxilios Psicológicos (PAP)',
-                curso_medicamentos: '🎓 Administración segura de medicamentos',
-                curso_historia: '🎓 Manejo de historia clínica',
-                ante_procuraduria: '🔍 Antecedentes Procuraduría',
-                ante_policia: '🔍 Antecedentes Policía Nacional',
-                ante_contraloria: '🔍 Antecedentes Contraloría',
-                perfil: '🖥️ Perfil SIMO actualizado'
+                perfil: '🖥️ Perfil SIMO actualizado',
+                curso_aps: 'Curso de Atención Primaria en Salud (APS) – mínimo 40h',
+                curso_crisis: 'Curso de Manejo de Crisis en Salud Mental',
+                curso_bioseguridad: 'Curso de Bioseguridad y prevención de riesgos laborales',
+                curso_pap: 'Curso de Primeros Auxilios Psicológicos (PAP)',
+                curso_medicamentos: 'Curso de Administración segura de medicamentos',
+                curso_historia: 'Curso de Manejo de historia clínica y registro de enfermería',
+                ante_procuraduria: 'Antecedentes Procuraduría (disciplinarios)',
+                ante_policia: 'Antecedentes Policía Nacional (judiciales)',
+                ante_contraloria: 'Antecedentes Contraloría (responsabilidad fiscal)'
             };
             
             for (const [doc, completado] of Object.entries(estados)) {
                 if (!completado && nombresMap[doc]) {
-                    faltantes.push(nombresMap[doc]);
+                    if (doc.startsWith('curso_')) faltantes.cursos.push(nombresMap[doc]);
+                    else if (doc.startsWith('ante_')) faltantes.antecedentes.push(nombresMap[doc]);
+                    else faltantes.generales.push(nombresMap[doc]);
                 }
             }
             
-            if (faltantes.length === 0) return; // Todo completo
+            if (faltantes.generales.length + faltantes.cursos.length + faltantes.antecedentes.length === 0) return;
             
-            // Crear popup
+            let listaHtml = '';
+            if (faltantes.generales.length) {
+                listaHtml += `<ul style="margin: 10px 0 0 20px; color: #333;">${faltantes.generales.map(f => `<li style="margin-bottom: 5px;">${f}</li>`).join('')}</ul>`;
+            }
+            if (faltantes.cursos.length) {
+                listaHtml += `<div style="margin-top: 12px;"><strong style="color: #333;">🎓 Cursos pendientes:</strong></div><ul style="margin: 5px 0 0 20px; color: #333;">${faltantes.cursos.map(f => `<li style="margin-bottom: 5px;">${f}</li>`).join('')}</ul>`;
+            }
+            if (faltantes.antecedentes.length) {
+                listaHtml += `<div style="margin-top: 12px;"><strong style="color: #333;">🔍 Antecedentes pendientes:</strong></div><ul style="margin: 5px 0 0 20px; color: #333;">${faltantes.antecedentes.map(f => `<li style="margin-bottom: 5px;">${f}</li>`).join('')}</ul>`;
+            }
+            
             const popup = document.createElement('div');
             popup.id = 'popup-recordatorio';
             popup.style.cssText = `
@@ -1077,7 +1087,7 @@
             
             const contenido = document.createElement('div');
             contenido.style.cssText = `
-                background-color: var(--bg-secundario);
+                background-color: #b8d9ff;
                 max-width: 500px;
                 width: 90%;
                 max-height: 85%;
@@ -1092,19 +1102,17 @@
             contenido.innerHTML = `
                 <div style="text-align: center;">
                     <span style="font-size: 3rem;">⚠️</span>
-                    <h2 style="color: var(--azul); margin: 10px 0 5px 0;">¡Revisa tus documentos!</h2>
-                    <p style="color: var(--texto-secundario); margin-bottom: 20px;">
+                    <h2 style="color: #004080; margin: 10px 0 5px 0;">¡Revisa tus documentos!</h2>
+                    <p style="color: #004080; margin-bottom: 20px;">
                         Antes de inscribirte en el concurso SIMO, asegúrate de tener listos todos los documentos.
                     </p>
                     <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 12px; text-align: left; border-radius: 8px; margin-bottom: 20px;">
-                        <strong>📄 Documentos pendientes:</strong>
-                        <ul style="margin: 10px 0 0 20px;">
-                            ${faltantes.map(f => `<li>${f}</li>`).join('')}
-                        </ul>
+                        <strong style="color: #333;">📄 Documentos pendientes:</strong>
+                        ${listaHtml}
                     </div>
                     <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-                        <button id="popup-ver-requisitos" class="boton-reiniciar" style="background-color: var(--azul);">Ver requisitos</button>
-                        <button id="popup-cerrar" class="boton-reiniciar" style="background-color: #6c757d;">Recordar después</button>
+                        <button id="popup-ver-requisitos" class="boton-reiniciar" style="background-color: #0077b6; color: white; border: none; padding: 8px 16px; border-radius: 8px; cursor: pointer;">Ver requisitos</button>
+                        <button id="popup-cerrar" class="boton-reiniciar" style="background-color: #6c757d; color: white; border: none; padding: 8px 16px; border-radius: 8px; cursor: pointer;">Recordar después</button>
                     </div>
                 </div>
             `;
@@ -1112,10 +1120,8 @@
             popup.appendChild(contenido);
             document.body.appendChild(popup);
             
-            // Eventos
             document.getElementById('popup-ver-requisitos').addEventListener('click', () => {
                 popup.remove();
-                // Cambiar a la sección de requisitos
                 const selector = document.getElementById('seccionEstudio');
                 if (selector) {
                     selector.value = 'requisitos';
@@ -1126,20 +1132,101 @@
                 }
             });
             document.getElementById('popup-cerrar').addEventListener('click', () => {
-        popup.remove();
-    });
-}
+                popup.remove();
+            });
+        }
+        
+        // Mostrar popup solo una vez por sesión (usando sessionStorage)
+        document.addEventListener('DOMContentLoaded', function() {
+            if (!sessionStorage.getItem('popupRecordatorioMostrado')) {
+                sessionStorage.setItem('popupRecordatorioMostrado', 'true');
+                // Pequeño retardo para asegurar que el DOM y el checklist estén listos
+                setTimeout(() => {
+                    mostrarPopupFaltantes();
+                }, 2000);
+            }
+        });     
 
-// Mostrar popup solo una vez por sesión (usando sessionStorage)
-document.addEventListener('DOMContentLoaded', function() {
-    if (!sessionStorage.getItem('popupRecordatorioMostrado')) {
-        sessionStorage.setItem('popupRecordatorioMostrado', 'true');
-        // Pequeño retardo para asegurar que el DOM y el checklist estén listos
-        setTimeout(() => {
-            mostrarPopupFaltantes();
-        }, 1000);
-    }
-});        
+        // ============================================
+        // CHECKLIST CON LOCALSTORAGE
+        // ============================================
+        function guardarChecklist() {
+            const checkboxes = document.querySelectorAll('#checklist-requisitos input[type="checkbox"]');
+            const estados = {};
+            checkboxes.forEach(cb => {
+                const doc = cb.getAttribute('data-doc');
+                if (doc) estados[doc] = cb.checked;
+            });
+            localStorage.setItem('checklistRequisitos', JSON.stringify(estados));
+            actualizarResumen();
+        }
+
+        function cargarChecklist() {
+            const saved = localStorage.getItem('checklistRequisitos');
+            if (!saved) return;
+            const estados = JSON.parse(saved);
+            const checkboxes = document.querySelectorAll('#checklist-requisitos input[type="checkbox"]');
+            checkboxes.forEach(cb => {
+                const doc = cb.getAttribute('data-doc');
+                if (estados[doc] !== undefined) cb.checked = estados[doc];
+            });
+            actualizarResumen();
+        }
+
+        function actualizarResumen() {
+            const resumenSpan = document.getElementById('resumen-documentos');
+            if (!resumenSpan) return;
+            const checkboxes = document.querySelectorAll('#checklist-requisitos input[type="checkbox"]');
+            const total = checkboxes.length;
+            let completados = 0;
+            checkboxes.forEach(cb => { if (cb.checked) completados++; });
+            resumenSpan.textContent = `📄 Documentos listos: ${completados}/${total}`;
+            // Asignar color según cantidad de documentos listos
+            if (completados <= 4) {
+                resumenSpan.style.color = 'var(--error)';   // Rojo (necesitas definir --error en CSS)
+            } else if (completados <= 11) {
+                resumenSpan.style.color = 'var(--advertencia)'; // Amarillo
+            } else {
+                resumenSpan.style.color = 'var(--exito)';      // Verde
+            } 
+        }
+
+        function reiniciarChecklist() {
+            if (confirm('¿Seguro que quieres reiniciar la lista? Se perderá el progreso guardado.')) {
+                const checkboxes = document.querySelectorAll('#checklist-requisitos input[type="checkbox"]');
+                checkboxes.forEach(cb => cb.checked = false);
+                guardarChecklist();
+            }
+        }
+
+        function inicializarChecklist() {
+            const container = document.getElementById('checklist-requisitos');
+            if (!container || container.hasAttribute('data-checklist-listener')) return;
+            container.setAttribute('data-checklist-listener', 'true');
+            
+            const checkboxes = document.querySelectorAll('#checklist-requisitos input[type="checkbox"]');
+            checkboxes.forEach(cb => cb.addEventListener('change', guardarChecklist));
+            
+            const btnReiniciar = document.getElementById('reiniciar-checklist');
+            if (btnReiniciar) btnReiniciar.addEventListener('click', reiniciarChecklist);
+            
+            cargarChecklist();
+        }
+
+        // Inicializar cuando la sección sea visible
+        const observerCheck = new MutationObserver(() => {
+            if (document.getElementById('seccion-requisitos')?.style.display === 'block') {
+                inicializarChecklist();
+            }
+        });
+        observerCheck.observe(document.body, { childList: true, subtree: true, attributes: true });
+
+        // También al cargar la página, por si la sección ya está visible
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                if (document.getElementById('seccion-requisitos')?.style.display === 'block') inicializarChecklist();
+            }, 500);
+        });
         
         function observarFinDelModal() {
             const contenido = document.getElementById('modal-bienvenida-contenido');
