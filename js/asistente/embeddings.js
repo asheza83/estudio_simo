@@ -1,6 +1,6 @@
 // js/asistente/embeddings.js
 // Versión OPTIMIZADA - Usa embeddings pre-calculados (soporta float16)
-// Solo calcula embedding de la pregunta del usuario
+// Soporta modo desarrollo con ?modo=dev
 
 import { pipeline, env } from 'https://cdn.jsdelivr.net/npm/@xenova/transformers@2.7.0';
 
@@ -43,6 +43,21 @@ function convertirEmbeddingF16aF32(uint16Array) {
 }
 
 // ============================================
+// DETERMINAR QUÉ ARCHIVO CARGAR (según URL)
+// ============================================
+function getArchivoEmbeddings() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const modoDev = urlParams.get('modo') === 'dev';
+    const archivo = modoDev ? 'datos/faqs_dev_embeddings.json' : 'datos/faqs_embeddings.json';
+    if (modoDev) {
+        console.log('🔧 Modo DESARROLLO activado - cargando:', archivo);
+    } else {
+        console.log('📦 Modo PRODUCCIÓN - cargando:', archivo);
+    }
+    return archivo;
+}
+
+// ============================================
 // LIMPIAR TEMA (eliminar ¿ y muletillas)
 // ============================================
 function limpiarTema(tema) {
@@ -79,12 +94,13 @@ function limpiarTema(tema) {
 }
 
 // ============================================
-// CARGAR EMBEDDINGS
+// CARGAR EMBEDDINGS (según modo)
 // ============================================
 async function cargarEmbeddings() {
     console.log('🔍 Cargando embeddings pre-calculados en segundo plano...');
     
-    const response = await fetch('datos/faqs_embeddings.json');
+    const archivo = getArchivoEmbeddings();
+    const response = await fetch(archivo);
     const data = await response.json();
     
     if (data.version === 'float16') {
@@ -103,6 +119,14 @@ async function cargarEmbeddings() {
         }));
     } else {
         throw new Error('Formato de embeddings no reconocido');
+    }
+
+    if (faqs.length > 0) {
+        console.log('📌 Ejemplo de primer FAQ:', {
+            tienePregunta: !!faqs[0].pregunta,
+            pregunta: faqs[0].pregunta,
+            respuesta: faqs[0].respuesta?.substring(0, 50)
+        });
     }
     
     modeloListo = true;
@@ -179,7 +203,8 @@ async function buscarRespuestaTFIDF(preguntaUsuario) {
             respuesta: mejor.faq.respuesta,
             necesitaConfirmacion: false,
             tema: limpiarTema(mejor.faq.pregunta),
-            similitud: similitudMax
+            similitud: similitudMax,
+            pregunta: mejor.faq.pregunta
         };
     }
     
@@ -190,7 +215,8 @@ async function buscarRespuestaTFIDF(preguntaUsuario) {
             necesitaConfirmacion: true,
             tema: limpiarTema(mejor.faq.pregunta),
             respuestaCorrecta: mejor.faq.respuesta,
-            similitud: similitudMax
+            similitud: similitudMax,
+            pregunta: mejor.faq.pregunta
         };
     }
     
@@ -237,7 +263,6 @@ async function cargarGlosarioEmbeddings() {
 }
 
 async function buscarEnGlosarioSemantico(preguntaUsuario) {
-    // Asegurar que el modelo de preguntas esté listo
     if (!modeloListo) {
         await new Promise((resolve) => {
             if (modeloListo) resolve();
@@ -269,7 +294,6 @@ async function buscarEnGlosarioSemantico(preguntaUsuario) {
     const UMBRAL_GLOSARIO = 0.85;
     if (mejorSimilitud >= UMBRAL_GLOSARIO) {
         console.log(`📖 Glosario semántico: "${mejorItem.pregunta}" (sim: ${mejorSimilitud.toFixed(3)})`);
-        // DEVOLVER OBJETO con respuesta y similitud
         return {
             respuesta: mejorItem.respuesta,
             similitud: mejorSimilitud

@@ -38,9 +38,8 @@ const EXCEPCIONES = [
     'cambiar:tamaño de letra en ajustes', 'cambiar:modo oscuro en ajustes', 'cambiar:opción en modo estudio',
     'compartir:pdf de resultados', 'compartir:archivo pdf',
     'imprimir:página con ctrl+p', 'imprimir:página', 'imprimir:con ctrl+p', 'imprimir:pantalla con ctrl+p', 'imprimir:pantalla',
-    // NUEVAS EXCEPCIONES:
-    'imprimir:resultados',       // Para preguntas como "¿Cómo imprimir los resultados?" → responder que se puede usar Ctrl+P
-    'descargar:app'              // Para preguntas como "¿Puedo descargar la app?" → responder que es una página web, no hay app nativa
+    'imprimir:resultados',
+    'descargar:app'
 ];
 
 // ---------- Glosario ----------
@@ -61,6 +60,19 @@ async function cargarGlosario() {
     }
 }
 
+// Extraer tema de una pregunta del FAQ (ej: "¿Qué son los antecedentes disciplinarios?" -> "antecedentes disciplinarios")
+// También maneja "hablame de antecedentes fiscales" -> "antecedentes fiscales"
+function extraerTemaDePregunta(preguntaFAQ) {
+    if (!preguntaFAQ) return null;
+    let tema = preguntaFAQ.toLowerCase()
+        .replace(/^¿(qué es|qué son|qué significa|qué es eso de|qué|cuál es|cuáles son|cómo funciona|cómo se usa|para qué sirve|dónde se|dónde puedo|puedo|me puedes|hablame de|dime sobre|cuéntame de|explícame)/i, '')
+        .replace(/^hablame de /i, '')
+        .replace(/[¿?¡!]/g, '')
+        .trim();
+    if (tema.length < 3) return null;
+    return tema;
+}
+
 function normalizarTexto(texto) {
     return texto.toLowerCase()
         .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -68,7 +80,6 @@ function normalizarTexto(texto) {
         .trim();
 }
 
-// Distancia de Levenshtein
 function distanciaLevenshtein(a, b) {
     const lenA = a.length;
     const lenB = b.length;
@@ -90,7 +101,6 @@ function distanciaLevenshtein(a, b) {
     return matriz[lenB][lenA];
 }
 
-// Extraer la parte relevante de la pregunta (eliminar palabras comunes)
 function extraerCandidato(pregunta) {
     const palabrasVacias = [
         'qué', 'que', 'es', 'son', 'está', 'esta', 'estan', 'definición', 'definicion',
@@ -186,11 +196,7 @@ function respuestaNoDisponible() {
     return "Lo siento, esa funcionalidad no está disponible en ESTUDIO SIMO. La herramienta está diseñada para ayudarte a prepararte para el concurso de la CNSC: estudiar la convocatoria, consultar las normas del sector salud, practicar con exámenes tipo SIMO (Modo Estudio y Modo Simulacro) y buscar términos en el Glosario. ¿Te ayudo con algún tema del concurso?";
 }
 
-// ============================================================
-// Función mejorada para eliminar redundancia entre glosario y FAQ
-// ============================================================
 function eliminarRedundancia(textoBase, textoComplemento) {
-    // Normalizar ambos textos (minúsculas, eliminar puntuación, espacios extra)
     const normalizar = (str) => str.toLowerCase()
         .replace(/[^\w\s]/g, '')
         .replace(/\s+/g, ' ')
@@ -199,11 +205,8 @@ function eliminarRedundancia(textoBase, textoComplemento) {
     const baseNorm = normalizar(textoBase);
     let complementoNorm = normalizar(textoComplemento);
     
-    // Buscar si complementoNorm comienza con baseNorm (o una parte significativa)
     if (complementoNorm.startsWith(baseNorm)) {
-        // Quitar la parte redundante del complemento original (respetando mayúsculas)
         let corte = textoBase.length;
-        // Avanzar hasta el siguiente espacio o carácter no alfabético
         while (corte < textoComplemento.length && ![' ', '.', ',', ';', '\n'].includes(textoComplemento[corte])) {
             corte++;
         }
@@ -214,7 +217,6 @@ function eliminarRedundancia(textoBase, textoComplemento) {
         return resultado;
     }
     
-    // Si no hay coincidencia completa, buscar prefijo común más corto
     let maxMatch = 0;
     for (let i = Math.min(baseNorm.length, complementoNorm.length); i > 20; i--) {
         if (baseNorm.slice(0, i) === complementoNorm.slice(0, i)) {
@@ -224,7 +226,6 @@ function eliminarRedundancia(textoBase, textoComplemento) {
     }
     
     if (maxMatch > 20) {
-        // Buscar en el texto original dónde termina esa coincidencia (aproximadamente)
         let corte = maxMatch;
         let indiceOriginal = 0;
         let caracteresNormalizados = 0;
@@ -252,58 +253,58 @@ function eliminarRedundancia(textoBase, textoComplemento) {
 export async function buscarRespuesta(pregunta) {
     // 1. Procesar opciones numéricas
     const respuestaNumerica = procesarOpcionNumerica(pregunta.trim());
-    if (respuestaNumerica) return { respuesta: respuestaNumerica, necesitaConfirmacion: false };
+    if (respuestaNumerica) return { respuesta: respuestaNumerica, necesitaConfirmacion: false, tema: null };
     
-    // 2. Detectar verbos de acción (funcionalidades)
+    // 2. Detectar verbos de acción
     const verbo = contieneVerboAccion(pregunta);
     if (verbo && !esExcepcion(pregunta, verbo)) {
         console.log(`🔍 Detectada funcionalidad no disponible (verbo: ${verbo})`);
-        return { respuesta: respuestaNoDisponible(), necesitaConfirmacion: false };
+        return { respuesta: respuestaNoDisponible(), necesitaConfirmacion: false, tema: null };
     }
     
-        // 3. Consultar ambas fuentes en paralelo
+    // 3. Consultar ambas fuentes
     const [respuestaGlosario, resultadoFAQ] = await Promise.all([
         buscarEnGlosarioSemantico(pregunta),
         buscarRespuestaTFIDF(pregunta)
     ]);
     
-    // Inicializar mejor respuesta
     let mejorRespuesta = null;
     let mejorSimilitud = -1;
     let necesitaConfirmacion = false;
     let temaConfirmacion = null;
     let respuestaCorrectaConfirmacion = null;
+    let temaRespuestaDirecta = null;
     
-    // Evaluar glosario (si tiene objeto con respuesta y similitud)
+    // Evaluar glosario
     if (respuestaGlosario && respuestaGlosario.respuesta) {
         mejorRespuesta = respuestaGlosario.respuesta;
         mejorSimilitud = respuestaGlosario.similitud;
+        temaRespuestaDirecta = respuestaGlosario.termino || null;
     }
     
     // Evaluar FAQ
     if (resultadoFAQ) {
         let similitudFAQ = resultadoFAQ.similitud || 0;
         let textoFAQ = null;
+        let temaFAQ = null;
         
         if (resultadoFAQ.respuesta && !resultadoFAQ.respuesta.includes("No estoy seguro")) {
             textoFAQ = resultadoFAQ.respuesta;
+            temaFAQ = extraerTemaDePregunta(resultadoFAQ.pregunta);
         } else if (resultadoFAQ.necesitaConfirmacion) {
-            // Zona gris: guardar datos para posible confirmación
             necesitaConfirmacion = true;
             temaConfirmacion = resultadoFAQ.tema;
             respuestaCorrectaConfirmacion = resultadoFAQ.respuestaCorrecta;
-            textoFAQ = null; // no es respuesta directa
         }
         
-        // Si la FAQ tiene respuesta directa y su similitud es mayor que la actual
         if (textoFAQ && similitudFAQ > mejorSimilitud) {
             mejorRespuesta = textoFAQ;
             mejorSimilitud = similitudFAQ;
-            necesitaConfirmacion = false; // es respuesta directa, no zona gris
+            necesitaConfirmacion = false;
+            temaRespuestaDirecta = temaFAQ;
         }
     }
     
-    // Si la mejor opción resulta ser de FAQ y está en zona gris (y no había glosario mejor)
     if (necesitaConfirmacion && mejorSimilitud === (resultadoFAQ?.similitud || 0) && !respuestaGlosario) {
         return {
             respuesta: null,
@@ -313,11 +314,9 @@ export async function buscarRespuesta(pregunta) {
         };
     }
     
-    // Si tenemos una respuesta directa (glosario o FAQ con alta confianza)
     if (mejorRespuesta) {
-        return { respuesta: mejorRespuesta, necesitaConfirmacion: false };
+        return { respuesta: mejorRespuesta, necesitaConfirmacion: false, tema: temaRespuestaDirecta };
     }
     
-    // Si no hay ninguna respuesta
-    return { respuesta: "No estoy seguro de haber entendido tu pregunta. ¿Podrías ser más específico?", necesitaConfirmacion: false };
+    return { respuesta: "No estoy seguro de haber entendido tu pregunta. ¿Podrías ser más específico?", necesitaConfirmacion: false, tema: null };
 }

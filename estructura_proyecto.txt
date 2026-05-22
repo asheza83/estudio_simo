@@ -1,0 +1,118 @@
+Listado de rutas de carpetas
+El n£mero de serie del volumen es 3447-529D
+C:.
+|   estructura_proyecto.txt
+|   generador_faqs.html
+|   generador_faqs_dev.html
+|   index.html
+|   index.json
+|   
++---css
+|       asistente.css
+|       base.css
+|       biblioteca.css
+|       casos.css
+|       glosario.css
+|       header.css
+|       leyes.css
+|       main.css
+|       modal.css
+|       preguntas.css
+|       procedimientos.css
+|       responsive.css
+|       tabs.css
+|       
++---datos
+|   |   bienvenida.json
+|   |   casos.json
+|   |   faqs.txt
+|   |   faqs_dev.txt
+|   |   faqs_embeddings.json
+|   |   glosario.json
+|   |   glosario.txt
+|   |   glosario_embeddings.json
+|   |   procedimientos.json
+|   |   
+|   +---leyes
+|   |       decreto1011.json
+|   |       decreto780.json
+|   |       ley100.json
+|   |       ley1122.json
+|   |       ley1438.json
+|   |       ley1751.json
+|   |       resolucion1444.json
+|   |       resolucion1995.json
+|   |       resolucion2292.json
+|   |       resolucion256.json
+|   |       resolucion3100.json
+|   |       resolucion3280.json
+|   |       
+|   \---preguntas
+|       |   simulacro.json
+|       |   
+|       +---basicas
+|       |       lectura-critica.json
+|       |       logicas.json
+|       |       matematicas.json
+|       |       
+|       +---comportamentales
+|       |       etica.json
+|       |       orientacion-servicio.json
+|       |       trabajo-equipo.json
+|       |       
+|       \---funcionales
+|               decreto1011.json
+|               decreto780.json
+|               ley100.json
+|               ley1122.json
+|               ley1438.json
+|               ley1751.json
+|               resolucion1444.json
+|               resolucion1995.json
+|               resolucion2292.json
+|               resolucion256.json
+|               resolucion3100.json
+|               resolucion3280.json
+|               
++---img
+\---js
+    |   ajustes.js
+    |   app.js
+    |   articulos.js
+    |   asistente.js
+    |   biblioteca.js
+    |   casos.js
+    |   estado.js
+    |   glosario.js
+    |   leyes.js
+    |   navegacion.js
+    |   procedimientos.js
+    |   utils.js
+    |   
+    +---asistente
+    |       core.js
+    |       datos.js
+    |       embeddings.js
+    |       index.js
+    |       limpiador.js
+    |       numerico.js
+    |       respuestas.js
+    |       tfidf.js
+    |       
+    \---preguntas
+            config.js
+            examen.js
+            generador.js
+            globales.js
+            guardado.js
+            helpers.js
+            index.js
+            inicio.js
+            opciones.js
+            pdf.js
+            resumen.js
+            selects.js
+            temporizador.js
+            ui.js
+            visual.js
+            

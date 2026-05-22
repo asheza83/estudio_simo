@@ -1,4 +1,4 @@
-¡Hola! Soy tu asistente de ESTUDIO SIMO.\n\n💡 Para respuestas rápidas y precisas:\n- Escribe preguntas completas (mínimo 4 palabras).\n"¿Qué es el modo estudio?" en lugar de solo "modo".\n- Evita una sola palabra o errores ortográficos graves (ej: "plin" en vez de "PIN").\n\n¿En qué puedo ayudarte? Modos de estudio, convocatoria, glosario, normas, etc.\n
+¡Hola! Soy tu asistente de ESTUDIO SIMO.\n\n💡 Para respuestas rápidas y precisas: - Escribe preguntas completas tales como "¿Qué es el modo estudio?" en lugar de solo "modo".\n- Evita errores ortográficos graves (ej: "plin" en vez de "PIN").\n\n¿En qué puedo ayudarte? Modos de estudio, convocatoria, glosario, normas, etc.\n
 
 Pregúntame sobre modos de estudio, convocatoria, glosario, normas, concurso ESE 2, etc.
 ¿En qué puedo ayudarte?
@@ -9715,6 +9715,129 @@ Sí, está pensada para el concurso ESE 2 que incluye vacantes para auxiliares y
 
 ¿La aplicación es solo para profesionales de enfermería o también para auxiliares?
 Es para ambos. Especialmente para auxiliares, porque incluye requisitos específicos (título técnico, cursos de la Resolución 1444) y casos prácticos del nivel asistencial.
+
+¿Dónde se buscan los antecedentes disciplinarios?
+Los antecedentes disciplinarios se consultan en la página web de la Procuraduría General de la Nación: www.procuraduria.gov.co. También debes consultar los antecedentes judiciales en la Policía Nacional (antecedentes.policia.gov.co) y los fiscales en la Contraloría (www.contraloria.gov.co). Los tres certificados se generan en línea al instante con tu cédula.
+
+¿Dónde puedo consultar mis antecedentes?
+Los antecedentes disciplinarios se consultan en la página web de la Procuraduría General de la Nación: www.procuraduria.gov.co. También debes consultar los antecedentes judiciales en la Policía Nacional (antecedentes.policia.gov.co) y los fiscales en la Contraloría (www.contraloria.gov.co). Los tres certificados se generan en línea al instante con tu cédula.
+
+¿Dónde los busco?
+Los antecedentes disciplinarios se consultan en la página web de la Procuraduría General de la Nación: www.procuraduria.gov.co. También debes consultar los antecedentes judiciales en la Policía Nacional (antecedentes.policia.gov.co) y los fiscales en la Contraloría (www.contraloria.gov.co). Los tres certificados se generan en línea al instante con tu cédula.
+
+¿Dónde consultar antecedentes disciplinarios?
+Los antecedentes disciplinarios se consultan en la página web de la Procuraduría General de la Nación: www.procuraduria.gov.co. También debes consultar los antecedentes judiciales en la Policía Nacional (antecedentes.policia.gov.co) y los fiscales en la Contraloría (www.contraloria.gov.co). Los tres certificados se generan en línea al instante con tu cédula.
+
+¿Dónde se sacan los certificados de antecedentes?
+Los antecedentes disciplinarios se consultan en la página web de la Procuraduría General de la Nación: www.procuraduria.gov.co. También debes consultar los antecedentes judiciales en la Policía Nacional (antecedentes.policia.gov.co) y los fiscales en la Contraloría (www.contraloria.gov.co). Los tres certificados se generan en línea al instante con tu cédula.
+
+¿Qué son los antecedentes disciplinarios?
+Los antecedentes disciplinarios son reportes de sanciones de la Procuraduría General de la Nación. Pueden inhabilitarte para participar en concursos públicos si los tienes.
+
+¿Dónde se consultan los antecedentes disciplinarios?
+Los antecedentes disciplinarios se consultan en la página web de la Procuraduría: www.procuraduria.gov.co. Se generan al instante con tu cédula.
+
+hablame de antecedentes disciplinarios
+Los antecedentes disciplinarios son reportes de la Procuraduría. Se consultan en www.procuraduria.gov.co.
+
+¿Qué son los antecedentes judiciales?
+Los antecedentes judiciales son los reportes de condenas o anotaciones que tiene una persona ante la Policía Nacional. Se consultan en línea en antecedentes.policia.gov.co. Deben estar sin anotaciones para concursar.
+
+¿Dónde se consultan los antecedentes judiciales?
+Los antecedentes judiciales se consultan en el portal de la Policía Nacional: antecedentes.policia.gov.co. Se generan al instante con tu número de cédula.
+
+hablame de antecedentes judiciales
+Los antecedentes judiciales son los reportes de la Policía Nacional. Se consultan en antecedentes.policia.gov.co.
+
+¿Qué son los antecedentes fiscales?
+Los antecedentes fiscales son reportes de la Contraloría General de la República sobre personas declaradas responsables por daño al erario. Se consultan en www.contraloria.gov.co.
+
+¿Dónde se consultan los antecedentes fiscales?
+Los antecedentes fiscales se consultan en la página de la Contraloría: www.contraloria.gov.co, sección persona natural.
+
+hablame de antecedentes fiscales
+Los antecedentes fiscales son certificados de la Contraloría. Se consultan en www.contraloria.gov.co.
+
+¿Qué es el PIN?
+El PIN (Número de Identificación Personal) es el derecho de participación que debes pagar para inscribirte en un concurso de méritos de la CNSC.
+
+¿Dónde se paga el PIN?
+El PIN se genera y paga en la plataforma SIMO (simo.cnsc.gov.co) al inscribirte en una convocatoria.
+
+¿Cuánto cuesta el PIN?
+El valor del PIN es aproximadamente $43.350 para nivel técnico/asistencial y $65.000 para nivel profesional (valores referenciales 2024).
+
+hablame del PIN
+El PIN es el derecho de participación que se paga en SIMO para inscribirte en un concurso de méritos de la CNSC.
+
+¿Dónde lo pago?
+El PIN se paga en la plataforma SIMO (simo.cnsc.gov.co) después de seleccionar la vacante a la que aspiras.
+
+¿Qué son las normas del sector salud?
+Las normas del sector salud son leyes, decretos y resoluciones que regulan el Sistema General de Seguridad Social en Salud (SGSSS) en Colombia.
+
+¿Dónde se consultan las normas?
+Las normas del sector salud están en la pestaña Estudio SIMO > Normas. Puedes usar el buscador universal o seleccionar una ley específica.
+
+¿Cómo se estudian las normas?
+Puedes estudiar las normas usando el buscador universal en la pestaña Estudio SIMO, o seleccionando cada ley para ver sus artículos relevantes.
+
+¿Cuáles son las normas más importantes?
+Las normas más importantes son: Ley 100 de 1993, Ley 1438 de 2011, Ley 1751 de 2015, Decreto 780 de 2016, Decreto 1011 de 2006, y resoluciones 2292, 3100, 3280, 1995, 1444 y 256.
+
+¿Qué es el glosario?
+El glosario es una base de datos con más de 140 términos clave para el concurso, organizados en categorías: siglas, entidades, términos, principios y carrera.
+
+¿Dónde se busca en el glosario?
+En la pestaña Glosario, escribe un término (mínimo 3 letras) y presiona Enter. Las coincidencias se resaltan en amarillo.
+
+¿Cómo se filtran los términos del glosario?
+Puedes filtrar el glosario por categoría (Siglas, Entidades, Términos, Principios, Carrera) y por letra inicial (A-Z). Puedes combinar ambos filtros.
+
+¿Qué significan esas siglas?
+Para conocer el significado de una sigla, búscala en el glosario o pregúntame directamente.
+
+¿Qué es el modo estudio?
+El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta y recibes feedback inmediato.
+
+¿Qué es el modo simulacro?
+El Modo Simulacro simula las condiciones reales del examen SIMO. Tiene 60 segundos por pregunta, sin feedback durante el examen, y al final obtienes un puntaje SIMO sobre 100.
+
+¿Cuál modo uso?
+Si quieres aprender sin presión usa Modo Estudio. Si quieres simular el examen real usa Modo Simulacro.
+
+¿Dónde se seleccionan los modos?
+Los modos se seleccionan en la pestaña Preguntas, haciendo clic en la tarjeta correspondiente (Estudio o Simulacro).
+
+¿Cómo se comienza un examen?
+Primero selecciona el modo. En modo estudio, elige competencia y subcategoría. Luego haz clic en COMENZAR EXAMEN.
+
+¿Cómo se exportan los resultados a PDF?
+Solo en Modo Simulacro. Al finalizar el examen, haz clic en "EXPORTAR RESULTADOS". El PDF se descarga automáticamente.
+
+¿Dónde se descarga el PDF?
+El PDF se descarga a tu carpeta de Descargas. Incluye puntaje, aciertos, tiempos y preguntas falladas.
+
+¿Cómo se imprimen los resultados?
+Puedes imprimir los resultados usando Ctrl+P (Windows) o Cmd+P (Mac). También exporta a PDF y luego imprime ese archivo.
+
+¿Cómo se calcula el puntaje SIMO?
+El puntaje SIMO se calcula como (aciertos al primer intento ÷ total de preguntas) × 100. El corte de aprobación es 70/100.
+
+¿Qué significa aprobó?
+APROBÓ significa que tu puntaje fue mayor o igual a 70/100. REPROBÓ significa que fue menor a 70/100.
+
+¿Dónde están los procedimientos de enfermería?
+Los procedimientos de enfermería están en la pestaña Estudio SIMO, seleccionando "Procedimientos de enfermería" en el menú desplegable.
+
+¿Cómo se aplican los procedimientos?
+Los procedimientos son de carácter informativo. Para aplicarlos, sigue los pasos descritos bajo supervisión de un profesional.
+
+¿Dónde pago el PIN de SIMO?
+El PIN se paga en la plataforma SIMO (simo.cnsc.gov.co) después de seleccionar la vacante a la que aspiras.
+
+
+
 
 
 
