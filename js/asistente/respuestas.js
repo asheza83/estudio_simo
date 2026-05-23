@@ -64,13 +64,30 @@ async function cargarGlosario() {
 // También maneja "hablame de antecedentes fiscales" -> "antecedentes fiscales"
 function extraerTemaDePregunta(preguntaFAQ) {
     if (!preguntaFAQ) return null;
-    let tema = preguntaFAQ.toLowerCase()
-        .replace(/^¿(qué es|qué son|qué significa|qué es eso de|qué|cuál es|cuáles son|cómo funciona|cómo se usa|para qué sirve|dónde se|dónde puedo|puedo|me puedes|hablame de|dime sobre|cuéntame de|explícame)/i, '')
-        .replace(/^hablame de /i, '')
+    let limpia = preguntaFAQ.toLowerCase()
+        .replace(/^¿(qué es|qué son|qué significa|qué es eso de|qué|cuál es|cuáles son|cómo funciona|cómo se usa|para qué sirve|dónde se|dónde puedo|puedo|me puedes|hablame de|dime sobre|cuéntame de|explícame|cómo|cómo sacar|cómo se calcula|cuál es la fórmula|qué significa|cuánto cuesta|cuánto vale|cuánto hay que pagar|qué precio tiene|cuál es el costo)/i, '')
         .replace(/[¿?¡!]/g, '')
         .trim();
-    if (tema.length < 3) return null;
-    return tema;
+    
+    // Lista de temas canónicos (puedes copiarla de core.js o mantenerla aquí)
+    const temasCanonicos = [
+        'pin', 'antecedentes', 'normas', 'glosario', 'modo estudio', 'simulacro', 'exportar',
+        'puntaje simo', 'resultados', 'examen', 'preguntas', 'casos prácticos', 'procedimientos'
+    ];
+    
+    // Buscar si alguna palabra clave canónica aparece en la frase limpia
+    for (const tema of temasCanonicos) {
+        if (limpia.includes(tema)) {
+            return tema;  // devuelve el tema canónico (ej. "pin", "puntaje simo")
+        }
+    }
+    
+    // Si no, devolver la frase cortada a las primeras 2-3 palabras (útil para preguntas genéricas)
+    const palabras = limpia.split(/\s+/);
+    if (palabras.length > 3) {
+        return palabras.slice(0, 3).join(' ');
+    }
+    return limpia;
 }
 
 function normalizarTexto(texto) {

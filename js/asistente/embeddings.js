@@ -1,6 +1,6 @@
 // js/asistente/embeddings.js
 // Versión OPTIMIZADA - Usa embeddings pre-calculados (soporta float16)
-// Soporta modo desarrollo con ?modo=dev
+// Siempre carga y fusiona el archivo grande (base) y el pequeño (parche)
 
 import { pipeline, env } from 'https://cdn.jsdelivr.net/npm/@xenova/transformers@2.7.0';
 
@@ -43,21 +43,6 @@ function convertirEmbeddingF16aF32(uint16Array) {
 }
 
 // ============================================
-// DETERMINAR QUÉ ARCHIVO CARGAR (según URL)
-// ============================================
-function getArchivoEmbeddings() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const modoDev = urlParams.get('modo') === 'dev';
-    const archivo = modoDev ? 'datos/faqs_dev_embeddings.json' : 'datos/faqs_embeddings.json';
-    if (modoDev) {
-        console.log('🔧 Modo DESARROLLO activado - cargando:', archivo);
-    } else {
-        console.log('📦 Modo PRODUCCIÓN - cargando:', archivo);
-    }
-    return archivo;
-}
-
-// ============================================
 // LIMPIAR TEMA (eliminar ¿ y muletillas)
 // ============================================
 function limpiarTema(tema) {
@@ -65,7 +50,7 @@ function limpiarTema(tema) {
     
     let limpio = tema.trim();
     
-    // 1. Primero eliminar signos ¿ (para que las muletillas queden al inicio)
+    // 1. Eliminar signos ¿
     limpio = limpio.replace(/¿/g, "");
     
     // 2. Eliminar muletillas comunes al inicio
@@ -94,33 +79,64 @@ function limpiarTema(tema) {
 }
 
 // ============================================
-// CARGAR EMBEDDINGS (según modo)
+// CARGAR EMBEDDINGS (fusiona grande + pequeño)
 // ============================================
 async function cargarEmbeddings() {
     console.log('🔍 Cargando embeddings pre-calculados en segundo plano...');
     
-    const archivo = getArchivoEmbeddings();
-    const response = await fetch(archivo);
-    const data = await response.json();
+    let todosLosFaqs = [];
     
-    if (data.version === 'float16') {
-        console.log('✅ Detectado formato float16, convirtiendo vectores...');
-        faqs = data.embeddings.map(item => ({
-            pregunta: item.pregunta,
-            respuesta: item.respuesta,
-            embedding: convertirEmbeddingF16aF32(item.embedding_f16)
-        }));
-    } else if (Array.isArray(data)) {
-        console.log('✅ Detectado formato legacy (float32)');
-        faqs = data.map(item => ({
-            pregunta: item.pregunta,
-            respuesta: item.respuesta,
-            embedding: new Float32Array(item.embedding)
-        }));
-    } else {
-        throw new Error('Formato de embeddings no reconocido');
+    // Función auxiliar para cargar un archivo y devolver sus FAQs
+    async function cargarArchivo(archivo, nombre) {
+        try {
+            const response = await fetch(archivo);
+            if (!response.ok) throw new Error(`HTTP ${response.status}`);
+            const data = await response.json();
+            if (data.version === 'float16') {
+                const items = data.embeddings.map(item => ({
+                    pregunta: item.pregunta,
+                    respuesta: item.respuesta,
+                    embedding: convertirEmbeddingF16aF32(item.embedding_f16)
+                }));
+                console.log(`✅ ${nombre}: ${items.length} preguntas`);
+                return items;
+            } else if (Array.isArray(data)) {
+                const items = data.map(item => ({
+                    pregunta: item.pregunta,
+                    respuesta: item.respuesta,
+                    embedding: new Float32Array(item.embedding)
+                }));
+                console.log(`✅ ${nombre}: ${items.length} preguntas`);
+                return items;
+            } else {
+                console.warn(`⚠️ Formato no reconocido en ${archivo}`);
+                return null;
+            }
+        } catch (e) {
+            console.warn(`⚠️ No se pudo cargar ${nombre} (${archivo}):`, e.message);
+            return null;
+        }
     }
-
+    
+    // Cargar archivo grande (base)
+    const grande = await cargarArchivo('datos/faqs_embeddings.json', 'Base (grande)');
+    if (grande) todosLosFaqs.push(...grande);
+    
+    // Cargar archivo pequeño (parche)
+    const pequeno = await cargarArchivo('datos/faqs_dev_embeddings.json', 'Parche (pequeño)');
+    if (pequeno) {
+        todosLosFaqs.push(...pequeno);
+        console.log(`➕ Fusionado: ${grande?.length || 0} (base) + ${pequeno.length} (parche) = ${todosLosFaqs.length} total`);
+    } else {
+        console.log(`📦 Solo base: ${grande?.length || 0} preguntas`);
+    }
+    
+    if (todosLosFaqs.length === 0) {
+        throw new Error('No se pudo cargar ningún archivo de FAQs');
+    }
+    
+    faqs = todosLosFaqs;
+    
     if (faqs.length > 0) {
         console.log('📌 Ejemplo de primer FAQ:', {
             tienePregunta: !!faqs[0].pregunta,
@@ -130,7 +146,7 @@ async function cargarEmbeddings() {
     }
     
     modeloListo = true;
-    console.log(`✅ ${faqs.length} FAQs cargadas (${data.version === 'float16' ? 'float16 convertido' : 'float32'})`);
+    console.log(`✅ ${faqs.length} FAQs cargadas en total`);
     
     colaDeEspera.forEach(cb => cb());
     colaDeEspera = [];
@@ -303,7 +319,7 @@ async function buscarEnGlosarioSemantico(preguntaUsuario) {
 }
 
 // ============================================
-// EXPORTAR FUNCIONES (único lugar)
+// EXPORTAR FUNCIONES
 // ============================================
 async function cargarFAQsVectorizadas() {
     await cargarEmbeddings();

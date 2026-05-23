@@ -9,6 +9,69 @@ let historialConversacion = [];
 let conocimientoData = getConocimientoData();
 let mensajeBienvenida = null;
 
+// ========== TEMAS Y COMPATIBILIDAD (sin tildes) ==========
+const COMPATIBILIDAD = {
+    // Convocatoria y concurso
+    'convocatoria': ['ese 2', 'vacantes', 'inscripciones', 'modalidades', 'ascenso', 'abierto', 'requisitos', 'fechas', 'plazas'],
+    'simo': ['simo', 'plataforma simo', 'aplicativo simo', 'registro simo'],
+    'cnsc': ['cnsc', 'comision nacional del servicio civil', 'concurso de meritos', 'carrera administrativa'],
+    'pin': ['pin', 'derecho de participacion', 'pagar pin', 'costo pin', 'precio pin', 'valor pin', 'pago pin'],
+    
+    // Normas del sector salud
+    'leyes': ['ley', 'decreto', 'resolucion', 'norma', 'ley 100', 'ley 1438', 'ley 1751', 'decreto 780', 'decreto 1011', 'resolucion 2292', 'resolucion 3100', 'resolucion 3280', 'resolucion 1995', 'resolucion 1444', 'resolucion 256'],
+    'normas': ['normas del sector salud', 'normatividad', 'legislacion', 'marco legal'],
+    
+    // Casos prácticos
+    'casos practicos': ['caso practico', 'casos practicos', 'dilema etico', 'situacion real', 'competencia basica', 'competencia funcional', 'competencia comportamental'],
+    
+    // Procedimientos de enfermería
+    'procedimientos': ['procedimiento de enfermeria', 'procedimientos', 'cuidado', 'protocolo', 'seguridad del paciente', 'medicacion', 'valoracion', 'cuidados basicos', 'comunicacion', 'contencion', 'codigo azul'],
+    
+    // Glosario
+    'glosario': ['glosario', 'termino', 'siglas', 'definicion', 'significado', 'diccionario'],
+    
+    // Modos de estudio
+    'modo estudio': ['modo estudio', 'estudio', 'aprender sin presion', 'feedback inmediato', 'varios intentos', 'sin limite de tiempo'],
+    'modo simulacro': ['simulacro', 'modo simulacro', 'entrenar velocidad', 'tiempo limite', 'puntaje real', '100 preguntas', '60 segundos'],
+    
+    // Preguntas y exámenes
+    'preguntas': ['pregunta', 'examen', 'test', 'competencia', 'selectores', 'comenzar examen', 'resultados', 'puntaje simo', 'aciertos', 'aprobo', 'reprobo'],
+    
+    // Ajustes
+    'ajustes': ['ajustes', 'configuracion', 'modo oscuro', 'tamano letra', 'fuente', 'preferencias'],
+    
+    // Asistente IA
+    'asistente': ['asistente', 'chat', 'bot', 'ia', 'inteligencia artificial', 'preguntar', 'respuesta automatica'],
+    
+    // Antecedentes
+    'antecedentes': ['antecedentes', 'procuraduria', 'policia', 'contraloria', 'fiscales', 'judiciales', 'disciplinarios', 'certificado de antecedentes'],
+    
+    // Exportar resultados
+    'exportar': ['exportar', 'pdf', 'resultados pdf', 'descargar resultados', 'imprimir', 'guardar resultados'],
+    
+    // Ayuda y manual
+    'ayuda': ['ayuda', 'instrucciones', 'manual', 'tutorial', 'como usar', 'funcionalidades'],
+    
+    // Botón subir
+    'subir': ['subir', 'boton subir', 'flecha subir', 'scroll arriba'],
+    
+    // Competencias SIMO
+    'competencias': ['razonamiento logico', 'razonamiento matematico', 'comprension lectora', 'etica profesional', 'trabajo en equipo', 'orientacion al servicio'],
+    
+    // Resultados y tiempos
+    'resultados examen': ['resultados', 'calificacion', 'puntaje', 'nota', 'aciertos', 'fallos', 'preguntas falladas'],
+    'tiempos': ['tiempo', 'temporizador', 'barra de tiempo', 'segundos restantes'],
+    'historial': ['historial', 'guardar progreso', 'continuar examen', 'retomar'],
+    'cancelar': ['cancelar examen', 'borrar progreso']
+};
+
+// Normalizar texto (minúsculas, sin tildes)
+function normalizarTexto(texto) {
+    return texto.toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .trim();
+}
+
 // ============================================
 // CARGAR BIENVENIDA DESDE FAQS.TXT
 // ============================================
@@ -54,19 +117,12 @@ let estadoConfirmacion = {
     respuestaCorrecta: null
 };
 
+// Verifica si un tema es compatible con una pregunta
 function esTemaCompatible(tema, pregunta) {
     if (!tema) return false;
     const temaLower = tema.toLowerCase();
     const preguntaLower = pregunta.toLowerCase();
-    const compatibilidad = {
-        'pin': ['pagar', 'costo', 'precio', 'valor', 'pago'],
-        'antecedentes': ['antecedentes', 'procuraduría', 'policía', 'contraloría', 'fiscales', 'judiciales', 'disciplinarios'],
-        'normas': ['normas', 'leyes', 'decretos', 'resoluciones', 'estudiar'],
-        'glosario': ['glosario', 'términos', 'siglas', 'filtros'],
-        'modo estudio': ['modo', 'estudio', 'simulacro', 'examen', 'practicar'],
-        'exportar': ['exportar', 'pdf', 'resultados', 'imprimir']
-    };
-    for (const [clave, palabras] of Object.entries(compatibilidad)) {
+    for (const [clave, palabras] of Object.entries(COMPATIBILIDAD)) {
         if (temaLower.includes(clave) || palabras.some(p => temaLower.includes(p))) {
             return palabras.some(p => preguntaLower.includes(p));
         }
@@ -74,12 +130,27 @@ function esTemaCompatible(tema, pregunta) {
     return true;
 }
 
+// Detecta si la pregunta ya contiene un tema propio (no necesita contexto)
+function preguntaTieneTemaPropio(pregunta) {
+    const preguntaNorm = normalizarTexto(pregunta);
+    for (const clave of Object.keys(COMPATIBILIDAD)) {
+        if (preguntaNorm.includes(normalizarTexto(clave))) return true;
+        for (const palabra of COMPATIBILIDAD[clave]) {
+            if (preguntaNorm.includes(normalizarTexto(palabra))) return true;
+        }
+    }
+    return false;
+}
+
+// Enriquecer la pregunta con contexto del historial si es necesario
 function enriquecerConContexto(pregunta) {
-    const preguntaLower = pregunta.toLowerCase();
-    const pronombres = ['los', 'las', 'lo', 'la', 'ello', 'eso', 'allí', 'ahí', 'ese', 'esa', 'aquello'];
-    const necesitaContexto = pronombres.some(p => preguntaLower.includes(p)) ||
-                              (preguntaLower.includes('dónde') && preguntaLower.length < 15);
-    if (necesitaContexto && historialConversacion.length > 0) {
+    // Si la pregunta ya tiene tema propio, no necesita contexto
+    if (preguntaTieneTemaPropio(pregunta)) {
+        return pregunta;
+    }
+    
+    // Si no tiene tema y hay historial, buscar el último tema compatible
+    if (historialConversacion.length > 0) {
         for (let i = historialConversacion.length - 1; i >= 0; i--) {
             const entry = historialConversacion[i];
             if (entry.rol === 'bot' && entry.tema && !entry.texto.includes('🤔 Te refieres a')) {
@@ -101,7 +172,8 @@ export async function procesarPregunta() {
 
     // ========== CASO 1: SALUDO PURO (≤ 3 palabras) ==========
     const saludos = [
-        'hola', 'buenas', 'buenos días', 'buenas tardes', 'buenas noches',
+        'hola', 'buenas', 'buenos días', 'buenas tardes', 'buenas noches', 'holis',
+        'buena tarde', 'buena noche', 'buen dia',
         'saludo', 'saludos', 'hello', 'hi',
         'quiubo', 'qué hubo', 'que hubo', 'quiubo parce', 'parce', 'parcero',
         'que más', 'qué más', 'que mas', 'entonces', 'tonces', 'o sea',
@@ -172,7 +244,7 @@ export async function procesarPregunta() {
         return;
     }
 
-    // Procesar la pregunta (usando la pregunta extraída)
+    // Procesar la pregunta (usando la pregunta extraída y enriquecida con contexto)
     const preguntaEnriquecida = enriquecerConContexto(preguntaParaBuscar);
     console.log('🧠 Original:', textoUsuario);
     console.log('🧠 Pregunta a buscar:', preguntaParaBuscar);
