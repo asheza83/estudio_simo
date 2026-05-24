@@ -42,7 +42,6 @@ const EXCEPCIONES = [
     'descargar:app'
 ];
 
-// ---------- Glosario ----------
 let glosarioData = null;
 let glosarioCargado = false;
 
@@ -60,33 +59,32 @@ async function cargarGlosario() {
     }
 }
 
-// Extraer tema de una pregunta del FAQ (ej: "¿Qué son los antecedentes disciplinarios?" -> "antecedentes disciplinarios")
-// También maneja "hablame de antecedentes fiscales" -> "antecedentes fiscales"
+// Extraer tema de una pregunta del FAQ (versión mejorada)
 function extraerTemaDePregunta(preguntaFAQ) {
     if (!preguntaFAQ) return null;
     let limpia = preguntaFAQ.toLowerCase()
-        .replace(/^¿(qué es|qué son|qué significa|qué es eso de|qué|cuál es|cuáles son|cómo funciona|cómo se usa|para qué sirve|dónde se|dónde puedo|puedo|me puedes|hablame de|dime sobre|cuéntame de|explícame|cómo|cómo sacar|cómo se calcula|cuál es la fórmula|qué significa|cuánto cuesta|cuánto vale|cuánto hay que pagar|qué precio tiene|cuál es el costo)/i, '')
+        .replace(/^¿(qué es|que es|qué son|qué significa|qué es eso de|qué|cuál es|cuáles son|cómo funciona|cómo se usa|para qué sirve|dónde se|dónde puedo|puedo|me puedes|hablame de|dime sobre|cuéntame de|explícame|cómo|cómo sacar|cómo se calcula|cuál es la fórmula|qué significa|cuánto cuesta|cuánto vale|cuánto hay que pagar|qué precio tiene|cuál es el costo)/i, '')
         .replace(/[¿?¡!]/g, '')
         .trim();
+
+    // Detectar normas específicas (ley, decreto, resolución) y devolver identificador completo
+    const patronNorma = /\b(ley|decreto|resoluci[oó]n)\s+(\d{3,4})\b/i;
+    const match = limpia.match(patronNorma);
+    if (match) {
+        return `${match[1]} ${match[2]}`.toLowerCase(); // ej. "ley 100", "decreto 1011"
+    }
     
-    // Lista de temas canónicos (puedes copiarla de core.js o mantenerla aquí)
     const temasCanonicos = [
         'pin', 'antecedentes', 'normas', 'glosario', 'modo estudio', 'simulacro', 'exportar',
         'puntaje simo', 'resultados', 'examen', 'preguntas', 'casos prácticos', 'procedimientos'
     ];
     
-    // Buscar si alguna palabra clave canónica aparece en la frase limpia
     for (const tema of temasCanonicos) {
-        if (limpia.includes(tema)) {
-            return tema;  // devuelve el tema canónico (ej. "pin", "puntaje simo")
-        }
+        if (limpia.includes(tema)) return tema;
     }
     
-    // Si no, devolver la frase cortada a las primeras 2-3 palabras (útil para preguntas genéricas)
     const palabras = limpia.split(/\s+/);
-    if (palabras.length > 3) {
-        return palabras.slice(0, 3).join(' ');
-    }
+    if (palabras.length > 3) return palabras.slice(0, 3).join(' ');
     return limpia;
 }
 
@@ -228,9 +226,7 @@ function eliminarRedundancia(textoBase, textoComplemento) {
             corte++;
         }
         let resultado = textoComplemento.slice(corte).trim();
-        if (resultado.length > 0) {
-            resultado = resultado.charAt(0).toUpperCase() + resultado.slice(1);
-        }
+        if (resultado.length > 0) resultado = resultado.charAt(0).toUpperCase() + resultado.slice(1);
         return resultado;
     }
     
@@ -258,28 +254,22 @@ function eliminarRedundancia(textoBase, textoComplemento) {
             corte++;
         }
         let resultado = textoComplemento.slice(corte).trim();
-        if (resultado.length > 0) {
-            resultado = resultado.charAt(0).toUpperCase() + resultado.slice(1);
-        }
+        if (resultado.length > 0) resultado = resultado.charAt(0).toUpperCase() + resultado.slice(1);
         return resultado;
     }
-    
     return textoComplemento;
 }
 
 export async function buscarRespuesta(pregunta) {
-    // 1. Procesar opciones numéricas
     const respuestaNumerica = procesarOpcionNumerica(pregunta.trim());
     if (respuestaNumerica) return { respuesta: respuestaNumerica, necesitaConfirmacion: false, tema: null };
     
-    // 2. Detectar verbos de acción
     const verbo = contieneVerboAccion(pregunta);
     if (verbo && !esExcepcion(pregunta, verbo)) {
         console.log(`🔍 Detectada funcionalidad no disponible (verbo: ${verbo})`);
         return { respuesta: respuestaNoDisponible(), necesitaConfirmacion: false, tema: null };
     }
     
-    // 3. Consultar ambas fuentes
     const [respuestaGlosario, resultadoFAQ] = await Promise.all([
         buscarEnGlosarioSemantico(pregunta),
         buscarRespuestaTFIDF(pregunta)
@@ -292,19 +282,17 @@ export async function buscarRespuesta(pregunta) {
     let respuestaCorrectaConfirmacion = null;
     let temaRespuestaDirecta = null;
     
-    // Evaluar glosario
     if (respuestaGlosario && respuestaGlosario.respuesta) {
         mejorRespuesta = respuestaGlosario.respuesta;
         mejorSimilitud = respuestaGlosario.similitud;
         temaRespuestaDirecta = respuestaGlosario.termino || null;
     }
     
-    // Evaluar FAQ
     if (resultadoFAQ) {
         let similitudFAQ = resultadoFAQ.similitud || 0;
         let textoFAQ = null;
         let temaFAQ = null;
-        
+
         if (resultadoFAQ.respuesta && !resultadoFAQ.respuesta.includes("No estoy seguro")) {
             textoFAQ = resultadoFAQ.respuesta;
             temaFAQ = extraerTemaDePregunta(resultadoFAQ.pregunta);
@@ -312,9 +300,13 @@ export async function buscarRespuesta(pregunta) {
             necesitaConfirmacion = true;
             temaConfirmacion = resultadoFAQ.tema;
             respuestaCorrectaConfirmacion = resultadoFAQ.respuestaCorrecta;
+            // *** CORRECCIÓN: actualizar mejorSimilitud ***
+            if (similitudFAQ > mejorSimilitud) {
+                mejorSimilitud = similitudFAQ;
+            }
         }
-        
-        if (textoFAQ && similitudFAQ > mejorSimilitud) {
+
+        if (textoFAQ && similitudFAQ >= mejorSimilitud) {
             mejorRespuesta = textoFAQ;
             mejorSimilitud = similitudFAQ;
             necesitaConfirmacion = false;

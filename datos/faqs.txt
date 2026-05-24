@@ -9770,9 +9770,6 @@ El valor del PIN es aproximadamente $43.350 para nivel técnico/asistencial y $6
 hablame del PIN
 El PIN es el derecho de participación que se paga en SIMO para inscribirte en un concurso de méritos de la CNSC.
 
-¿Dónde lo pago?
-El PIN se paga en la plataforma SIMO (simo.cnsc.gov.co) después de seleccionar la vacante a la que aspiras.
-
 ¿Qué son las normas del sector salud?
 Las normas del sector salud son leyes, decretos y resoluciones que regulan el Sistema General de Seguridad Social en Salud (SGSSS) en Colombia.
 

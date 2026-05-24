@@ -34,6 +34,21 @@ function float16BitsToFloat32(bits) {
     }
 }
 
+async function calcularSimilitud(textoA, textoB) {
+    if (!modeloListo) {
+        await new Promise((resolve) => {
+            if (modeloListo) resolve();
+            else colaDeEspera.push(resolve);
+        });
+    }
+    const pipe = await getQueryModel();
+    const embA = await pipe(textoA, { pooling: 'mean', normalize: true });
+    const embB = await pipe(textoB, { pooling: 'mean', normalize: true });
+    const vecA = Array.from(embA.data);
+    const vecB = Array.from(embB.data);
+    return similitudCoseno(vecA, vecB);
+}
+
 function convertirEmbeddingF16aF32(uint16Array) {
     const float32 = new Float32Array(uint16Array.length);
     for (let i = 0; i < uint16Array.length; i++) {
@@ -336,4 +351,4 @@ async function obtenerFAQsLista() {
     return faqs.map(f => ({ pregunta: f.pregunta, respuesta: f.respuesta }));
 }
 
-export { buscarRespuestaTFIDF, cargarFAQsVectorizadas, obtenerFAQsLista, buscarEnGlosarioSemantico };
+export { buscarRespuestaTFIDF, cargarFAQsVectorizadas, obtenerFAQsLista, buscarEnGlosarioSemantico, calcularSimilitud };
