@@ -1,5 +1,5 @@
 // ============================================
-// CORE - Funciones principales del chat
+// CORE - Funciones principales del chat (optimizado para móvil)
 // ============================================
 
 import { getConocimientoData } from './datos.js';
@@ -10,74 +10,145 @@ let historialConversacion = [];
 let conocimientoData = getConocimientoData();
 let mensajeBienvenida = null;
 
-// ========== TEMAS Y COMPATIBILIDAD (sin tildes) ==========
-const COMPATIBILIDAD = {
-    'convocatoria': ['ese 2', 'vacantes', 'inscripciones', 'modalidades', 'ascenso', 'abierto', 'requisitos', 'fechas', 'plazas'],
-    'simo': ['plataforma simo', 'aplicativo simo', 'registro simo'],
-    'cnsc': ['comision nacional del servicio civil', 'concurso de meritos', 'carrera administrativa'],
-    'pin': ['derecho de participacion', 'pagar', 'costo', 'precio', 'valor', 'pago', 'obtener'],
-    'leyes': ['ley', 'decreto', 'resolucion', 'norma', 'ley 100', 'ley 1438', 'ley 1751', 'decreto 780', 'decreto 1011', 'resolucion 2292', 'resolucion 3100', 'resolucion 3280', 'resolucion 1995', 'resolucion 1444', 'resolucion 256'],
-    'normas': ['normas del sector salud', 'normatividad', 'legislacion', 'marco legal'],
-    'casos practicos': ['caso practico', 'casos practicos', 'dilema etico', 'situacion real', 'competencia basica', 'competencia funcional', 'competencia comportamental'],
-    'procedimientos': ['procedimiento de enfermeria', 'procedimientos', 'cuidado', 'protocolo', 'seguridad del paciente', 'medicacion', 'valoracion', 'cuidados basicos', 'comunicacion', 'contencion', 'codigo azul'],
-    'glosario': ['termino', 'siglas', 'definicion', 'significado', 'diccionario', 'filtrar', 'filtro', 'buscar', 'ordenar', 'clasificar'],    
-    'modo estudio': ['estudio', 'aprender sin presion', 'feedback inmediato', 'varios intentos', 'sin limite de tiempo'],
-    'modo simulacro': ['simulacro', 'entrenar velocidad', 'tiempo limite', 'puntaje real', '100 preguntas', '60 segundos'],
-    'preguntas': ['pregunta', 'examen', 'test', 'competencia', 'selectores', 'comenzar examen', 'resultados', 'puntaje simo', 'aciertos', 'aprobo', 'reprobo'],
-    'ajustes': ['configuracion', 'modo oscuro', 'tamano letra', 'fuente', 'preferencias'],
-    'asistente': ['chat', 'bot', 'ia', 'inteligencia artificial', 'preguntar', 'respuesta automatica'],
-    'antecedentes': ['procuraduria', 'policia', 'contraloria', 'fiscales', 'judiciales', 'disciplinarios', 'certificado de antecedentes', 'consultar', 'consulto', 'consulta', 'ver', 'revisar', 'obtener'],    
-    'exportar': ['pdf', 'resultados pdf', 'descargar resultados', 'imprimir', 'guardar resultados'],
-    'ayuda': ['instrucciones', 'manual', 'tutorial', 'como usar', 'funcionalidades'],
-    'subir': ['boton subir', 'flecha subir', 'scroll arriba'],
-    'competencias': ['razonamiento logico', 'razonamiento matematico', 'comprension lectora', 'etica profesional', 'trabajo en equipo', 'orientacion al servicio'],
-    'resultados examen': ['calificacion', 'puntaje', 'nota', 'aciertos', 'fallos', 'preguntas falladas'],
-    'tiempos': ['temporizador', 'barra de tiempo', 'segundos restantes'],
-    'historial': ['guardar progreso', 'continuar examen', 'retomar'],
-    'cancelar': ['cancelar examen', 'borrar progreso']
-};
+// Caché para similitudes (clave: pregunta|prototipo)
+const cacheSimilitudes = new Map();
 
-// ========== PROTOTIPOS PARA COMPATIBILIDAD SEMÁNTICA ==========
-const TEMAS_PROTOTIPOS = {
-    'convocatoria': 'informacion sobre la convocatoria ese 2 vacantes inscripciones',
-    'simo': 'plataforma simo registro aplicativo',
-    'cnsc': 'comision nacional del servicio civil concurso de meritos',
-    'pin': 'pagar el pin costo del pin precio del pin obtener el pin valor del pin obtenerlo conseguirlo',
-    'leyes': 'normas leyes decretos resoluciones sector salud',
-    'normas': 'estudiar las normas del sector salud',
-    'casos practicos': 'casos practicos dilemas eticos situaciones reales',
-    'procedimientos': 'procedimientos de enfermeria cuidado protocolos',
-    'glosario': 'buscar termino en el glosario definicion significado filtrarlo ordenarlo',
-    'modo estudio': 'usar modo estudio aprender sin presion feedback inmediato',
-    'modo simulacro': 'usar modo simulacro entrenar velocidad tiempo limite',
-    'preguntas': 'preguntas examen competencias selectores',
-    'ajustes': 'configuracion ajustes modo oscuro tamaño letra',
-    'asistente': 'asistente ia chat bot',
-    'antecedentes': 'consultar antecedentes procuraduria policia contraloria consultarlos revisarlos',
-    'exportar': 'exportar resultados a pdf descargar imprimir',
-    'ayuda': 'ayuda instrucciones manual tutorial',
-    'subir': 'boton subir flecha subir scroll arriba',
+// ========== PROTOTIPOS COMPLETOS (para compatibilidad) ==========
+const TEMAS_PROTOTIPOS_COMPLETOS = {
+    'convocatoria': 'informacion sobre la convocatoria ese 2 vacantes inscripciones modalidades ascenso abierto requisitos fechas plazas. ¿Para qué sirve la convocatoria? ¿Qué utilidad tiene?',
+    'simo': 'plataforma simo registro aplicativo. ¿Para qué sirve SIMO? ¿Qué función cumple?',
+    'cnsc': 'comision nacional del servicio civil concurso de meritos carrera administrativa. ¿Para qué sirve la CNSC?',
+    'pin': 'derecho de participacion pagar costo precio valor pago obtener. ¿Para qué sirve el PIN? ¿Qué utilidad tiene el PIN? ¿Qué función cumple?',
+    'leyes': 'ley decreto resolucion norma ley 100 ley 1438 ley 1751 decreto 780 decreto 1011 resolucion 2292 resolucion 3100 resolucion 3280 resolucion 1995 resolucion 1444 resolucion 256. ¿Para qué sirven las leyes de salud? ¿Qué utilidad tienen?',
+    'normas': 'normas del sector salud normatividad legislacion marco legal. ¿Para qué sirven las normas?',
+    'casos practicos': 'caso practico casos practicos dilema etico situacion real competencia basica competencia funcional competencia comportamental. ¿Para qué sirven los casos prácticos? ¿En qué ayudan?',
+    'procedimientos': 'procedimiento de enfermeria procedimientos cuidado protocolo seguridad del paciente medicacion valoracion cuidados basicos comunicacion contencion codigo azul. ¿Para qué sirven los procedimientos?',
+    'glosario': 'termino siglas definicion significado diccionario filtrar filtro buscar ordenar clasificar. ¿Para qué sirve el glosario? ¿Con qué fin se usa?',
+    'modo estudio': 'estudio aprender sin presion feedback inmediato varios intentos sin limite de tiempo. ¿Para qué sirve el modo estudio?',
+    'modo simulacro': 'simulacro entrenar velocidad tiempo limite puntaje real 100 preguntas 60 segundos. ¿Para qué sirve el modo simulacro? ¿Para qué se usa?',
+    'preguntas': 'pregunta examen test competencia selectores comenzar examen resultados puntaje simo aciertos aprobo reprobo. ¿Para qué sirve la sección de preguntas?',
+    'ajustes': 'configuracion modo oscuro tamano letra fuente preferencias. ¿Para qué sirven los ajustes?',
+    'asistente': 'chat bot ia inteligencia artificial preguntar respuesta automatica. ¿Para qué sirve el asistente?',
+    'antecedentes': 'procuraduria policia contraloria fiscales judiciales disciplinarios certificado de antecedentes consultar. ¿Para qué sirven los antecedentes?',
+    'exportar': 'pdf resultados pdf descargar resultados imprimir guardar resultados. ¿Para qué sirve exportar resultados?',
+    'ayuda': 'instrucciones manual tutorial como usar funcionalidades. ¿Para qué sirve la ayuda?',
+    'subir': 'boton subir flecha subir scroll arriba. ¿Para qué sirve el botón subir?',
     'competencias': 'competencias simo razonamiento logico matematico lectura etica trabajo en equipo orientacion al servicio',
-    'resultados examen': 'resultados calificacion puntaje aciertos fallos',
-    'tiempos': 'tiempo temporizador barra de tiempo segundos',
+    'resultados examen': 'calificacion puntaje nota aciertos fallos preguntas falladas',
+    'tiempos': 'tiempo temporizador barra de tiempo segundos restantes',
     'historial': 'guardar progreso continuar examen retomar',
     'cancelar': 'cancelar examen borrar progreso'
 };
 
-// ========== PROTOTIPO PARA DETECCIÓN SEMÁNTICA DE PROPÓSITO ==========
-const PROTOTIPO_PROPOSITO = "¿para qué sirve? ¿qué utilidad tiene? ¿qué uso? ¿con qué finalidad? ¿para qué se usa? ¿qué función cumple?";
+// ========== PROTOTIPOS REDUCIDOS (solo temas comunes para detección rápida) ==========
+const TEMAS_PROTOTIPOS_REDUCIDOS = {
+    'convocatoria': 'informacion sobre la convocatoria ese 2 vacantes inscripciones modalidades ascenso abierto requisitos fechas plazas',
+    'pin': 'derecho de participacion pagar costo precio valor pago obtener. ¿Para qué sirve el PIN?',
+    'leyes': 'ley decreto resolucion norma ley 100 ley 1438 ley 1751 decreto 780. ¿Para qué sirven las leyes?',
+    'modo simulacro': 'simulacro entrenar velocidad tiempo limite puntaje real 100 preguntas. ¿Para qué sirve el modo simulacro?',
+    'glosario': 'termino siglas definicion significado diccionario filtrar filtro buscar ordenar clasificar. ¿Para qué sirve el glosario?',
+    'casos practicos': 'caso practico casos practicos dilema etico situacion real. ¿Para qué sirven los casos prácticos?',
+    'modo estudio': 'estudio aprender sin presion feedback inmediato varios intentos sin limite de tiempo'
+};
+
+// Umbrales
+const UMBRAL_TEMA_PROPIO = 0.65;
 const UMBRAL_PROPOSITO = 0.70;
+const UMBRAL_COMPATIBILIDAD = 0.65;
 
-const UMBRAL_COMPATIBILIDAD = 0.65; // Ajustable
+// Prototipo de propósito
+const PROTOTIPO_PROPOSITO = "¿para qué sirve? ¿qué utilidad tiene? ¿qué uso? ¿con qué finalidad? ¿para qué se usa? ¿qué función cumple?";
 
-function normalizarTexto(texto) {
-    return texto.toLowerCase()
-        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-        .trim();
+// ========== FUNCIÓN CON CACHÉ ==========
+async function calcularSimilitudConCache(pregunta, prototipo) {
+    const key = `${pregunta}|${prototipo}`;
+    if (cacheSimilitudes.has(key)) {
+        return cacheSimilitudes.get(key);
+    }
+    const similitud = await calcularSimilitud(pregunta, prototipo);
+    cacheSimilitudes.set(key, similitud);
+    return similitud;
+}
+
+// ========== DETECCIÓN DE TEMA PROPIO (solo con prototipos reducidos) ==========
+async function preguntaTieneTemaPropio(pregunta) {
+    // Preguntas muy cortas (menos de 4 palabras) generalmente no tienen tema propio
+    const palabras = pregunta.trim().split(/\s+/).length;
+    if (palabras <= 3) return false;
+    
+    for (const [tema, prototipo] of Object.entries(TEMAS_PROTOTIPOS_REDUCIDOS)) {
+        const similitud = await calcularSimilitudConCache(pregunta, prototipo);
+        if (similitud >= UMBRAL_TEMA_PROPIO) {
+            console.log(`🔍 Pregunta "${pregunta}" tiene tema propio: ${tema} (similitud ${similitud.toFixed(3)})`);
+            return true;
+        }
+    }
+    return false;
+}
+
+// ========== COMPATIBILIDAD CON TEMA (usa prototipos completos) ==========
+async function esTemaCompatible(tema, pregunta) {
+    if (!tema) return false;
+    const temaKey = tema.toLowerCase();
+    const prototipo = TEMAS_PROTOTIPOS_COMPLETOS[temaKey];
+    if (!prototipo) return false;
+    const similitud = await calcularSimilitudConCache(pregunta, prototipo);
+    console.log(`🔍 Compatibilidad tema "${temaKey}" con pregunta "${pregunta}": similitud ${similitud.toFixed(3)}`);
+    return similitud >= UMBRAL_COMPATIBILIDAD;
+}
+
+// ========== DETECCIÓN DE PROPÓSITO ==========
+async function esPreguntaDeProposito(pregunta) {
+    // Si la pregunta es muy corta y no tiene signos, evitar falsos positivos
+    const palabras = pregunta.trim().split(/\s+/).length;
+    if (palabras <= 2 && !pregunta.includes('?')) return false;
+    
+    const similitud = await calcularSimilitudConCache(pregunta, PROTOTIPO_PROPOSITO);
+    console.log(`🎯 Similitud con propósito: ${similitud.toFixed(3)} (pregunta: "${pregunta}")`);
+    return similitud >= UMBRAL_PROPOSITO;
+}
+
+// ========== ENRIQUECIMIENTO CON CONTEXTO ==========
+async function enriquecerConContexto(pregunta) {
+    // 1. Detectar propósito (prioritario)
+    const esPropositoGenerico = await esPreguntaDeProposito(pregunta);
+    
+    if (esPropositoGenerico && historialConversacion.length > 0) {
+        for (let i = historialConversacion.length - 1; i >= 0; i--) {
+            const entry = historialConversacion[i];
+            if (entry.rol === 'bot' && entry.tema && !entry.texto.includes('🤔 Te refieres a')) {
+                const tema = entry.tema;
+                let temaCapitalizado = tema.charAt(0).toUpperCase() + tema.slice(1);
+                const preguntaCanonica = `¿Para qué sirve ${temaCapitalizado}?`;
+                console.log(`🔄 Reescribiendo propósito: "${pregunta}" -> "${preguntaCanonica}" (tema: ${tema})`);
+                return preguntaCanonica;
+            }
+        }
+    }
+
+    // 2. Si la pregunta ya tiene su propio tema (detectado rápido), devolverla sin cambios
+    if (await preguntaTieneTemaPropio(pregunta)) {
+        return pregunta;
+    }
+    
+    // 3. Intentar enriquecer con el último tema del historial (compatibilidad)
+    if (historialConversacion.length > 0) {
+        for (let i = historialConversacion.length - 1; i >= 0; i--) {
+            const entry = historialConversacion[i];
+            if (entry.rol === 'bot' && entry.tema && !entry.texto.includes('🤔 Te refieres a')) {
+                if (await esTemaCompatible(entry.tema, pregunta)) {
+                    return `${pregunta} (refiriéndose a ${entry.tema})`;
+                } else {
+                    return pregunta;
+                }
+            }
+        }
+    }
+    return pregunta;
 }
 
 // ============================================
-// CARGAR BIENVENIDA DESDE FAQS.TXT
+// CARGAR BIENVENIDA (igual)
 // ============================================
 async function cargarBienvenida() {
     try {
@@ -121,80 +192,11 @@ let estadoConfirmacion = {
     respuestaCorrecta: null
 };
 
-async function esTemaCompatible(tema, pregunta) {
-    if (!tema) return false;
-    const temaKey = tema.toLowerCase();
-    const prototipo = TEMAS_PROTOTIPOS[temaKey];
-    if (!prototipo) return false;
-    const similitud = await calcularSimilitud(pregunta, prototipo);
-    console.log(`🔍 Compatibilidad tema "${temaKey}" con pregunta "${pregunta}": similitud ${similitud.toFixed(3)} (umbral ${UMBRAL_COMPATIBILIDAD})`);
-    return similitud >= UMBRAL_COMPATIBILIDAD;
-}
-
-function preguntaTieneTemaPropio(pregunta) {
-    const preguntaNorm = normalizarTexto(pregunta);
-    for (const clave of Object.keys(COMPATIBILIDAD)) {
-        if (preguntaNorm.includes(normalizarTexto(clave))) return true;
-    }
-    return false;
-}
-
-async function esPreguntaDeProposito(pregunta) {
-    const preguntaNorm = normalizarTexto(pregunta);
-    // Si la pregunta es muy corta y no contiene palabras clave relevantes, evitar falsos positivos
-    if (preguntaNorm.split(/\s+/).length <= 2 && !preguntaNorm.includes('?')) {
-        return false;
-    }
-    const similitud = await calcularSimilitud(preguntaNorm, PROTOTIPO_PROPOSITO);
-    console.log(`🎯 Similitud con propósito: ${similitud.toFixed(3)} (pregunta: "${pregunta}")`);
-    return similitud >= UMBRAL_PROPOSITO;
-}
-
-async function enriquecerConContexto(pregunta) {
-    // ========== DETECCIÓN SEMÁNTICA DE PREGUNTAS DE PROPÓSITO ==========
-    const esPropositoGenerico = await esPreguntaDeProposito(pregunta);
-    
-    if (esPropositoGenerico && historialConversacion.length > 0) {
-        for (let i = historialConversacion.length - 1; i >= 0; i--) {
-            const entry = historialConversacion[i];
-            if (entry.rol === 'bot' && entry.tema && !entry.texto.includes('🤔 Te refieres a')) {
-                const tema = entry.tema;
-                let temaCapitalizado = tema.charAt(0).toUpperCase() + tema.slice(1);
-                const preguntaCanonica = `¿Para qué sirve ${temaCapitalizado}?`;
-                console.log(`🔄 Reescribiendo propósito (semántico): "${pregunta}" -> "${preguntaCanonica}" (tema: ${tema})`);
-                return preguntaCanonica;
-            }
-        }
-    }
-    // ================================================================
-
-    // Si la pregunta ya tiene su propio tema explícito, se devuelve tal cual
-    if (preguntaTieneTemaPropio(pregunta)) {
-        return pregunta;
-    }
-    
-    // En caso contrario, se intenta enriquecer con el último tema del historial (compatibilidad semántica)
-    if (historialConversacion.length > 0) {
-        for (let i = historialConversacion.length - 1; i >= 0; i--) {
-            const entry = historialConversacion[i];
-            if (entry.rol === 'bot' && entry.tema && !entry.texto.includes('🤔 Te refieres a')) {
-                if (await esTemaCompatible(entry.tema, pregunta)) {
-                    return `${pregunta} (refiriéndose a ${entry.tema})`;
-                } else {
-                    return pregunta;
-                }
-            }
-        }
-    }
-    return pregunta;
-}
-
 export async function procesarPregunta() {
     const input = document.getElementById('asistente-input');
     let textoUsuario = input.value.trim();
     if (!textoUsuario) return;
 
-    // 1. MANEJO DE CONFIRMACIÓN PENDIENTE (sí/no)
     if (estadoConfirmacion.activo) {
         agregarMensaje(textoUsuario, true);
         const respuestaUsuario = textoUsuario.toLowerCase();
@@ -215,7 +217,7 @@ export async function procesarPregunta() {
         return;
     }
 
-    // 2. NUEVA PREGUNTA: validación de saludos, signos, etc.
+    // Saludos (lista completa, omitida por brevedad, pero mantenla igual a tu original)
     const saludos = [
         'hola', 'buenas', 'buenos días', 'buenas tardes', 'buenas noches', 'holis',
         'buena tarde', 'buena noche', 'buen dia',
@@ -228,7 +230,6 @@ export async function procesarPregunta() {
         'ayuda', 'auxilio', 'socorro', 'mano', 'chino', 'vecx', 'pana', 'llave',
         'comoves', 'comovai', 'tal', 'qhubo', 'qmas'
     ];
-
     const textoLower = textoUsuario.toLowerCase().trim();
     const numeroPalabras = textoLower.split(/\s+/).length;
     const esSaludo = (numeroPalabras <= 3) && saludos.some(saludo => 
@@ -244,7 +245,6 @@ export async function procesarPregunta() {
         return;
     }
 
-    // Extraer la pregunta real (casos 4 y 5)
     let preguntaParaBuscar = textoUsuario;
     let tieneSignos = textoUsuario.startsWith('¿') && textoUsuario.endsWith('?');
     if (!tieneSignos) {
@@ -256,7 +256,6 @@ export async function procesarPregunta() {
         }
     }
 
-    // Validar signos
     if (!tieneSignos) {
         agregarMensaje(textoUsuario, true);
         agregarMensaje("❌ Para procesar tu pregunta, debe comenzar con el símbolo **¿** y terminar con **?**.\n\nEjemplo: ¿Qué es el modo estudio?\n\nPor favor, reformula tu pregunta usando ambos signos.", false);
@@ -264,11 +263,9 @@ export async function procesarPregunta() {
         return;
     }
 
-    // Mostrar el mensaje original del usuario
     agregarMensaje(textoUsuario, true);
     input.value = '';
 
-    // Procesar la pregunta
     const preguntaEnriquecida = await enriquecerConContexto(preguntaParaBuscar);
     console.log('🧠 Original:', textoUsuario);
     console.log('🧠 Pregunta a buscar:', preguntaParaBuscar);

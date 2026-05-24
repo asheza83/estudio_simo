@@ -282,3 +282,401 @@ El Decreto 1011 sirve para establecer el Sistema Obligatorio de Garantía de Cal
 
 ¿Qué aporta el Decreto 1011 al sistema de salud?
 El Decreto 1011 sirve para establecer el Sistema Obligatorio de Garantía de Calidad de la atención de salud, incluyendo mecanismos como la habilitación, acreditación, auditoría y medición de indicadores.
+
+
+¿Puedo retomar un examen después de cerrar el navegador?
+No, el guardado de progreso solo funciona al cambiar de pestaña dentro de la misma sesión. Si cierras el navegador o la pestaña, el progreso se pierde.
+
+¿Se puede continuar un examen si cierro el navegador sin querer?
+No, el guardado de progreso solo funciona al cambiar de pestaña dentro de la misma sesión. Si cierras el navegador o la pestaña, el progreso se pierde.
+
+¿Si cierro la ventana del navegador, luego puedo retomar el examen donde lo dejé?
+No, el guardado de progreso solo funciona al cambiar de pestaña dentro de la misma sesión. Si cierras el navegador o la pestaña, el progreso se pierde.
+
+¿El examen se guarda aunque cierre el navegador y vuelva a entrar después?
+No, el guardado de progreso solo funciona al cambiar de pestaña dentro de la misma sesión. Si cierras el navegador o la pestaña, el progreso se pierde.
+
+¿Pierdo el progreso si se me cierra la pestaña o el navegador?
+No, el guardado de progreso solo funciona al cambiar de pestaña dentro de la misma sesión. Si cierras el navegador o la pestaña, el progreso se pierde.
+
+¿Cómo hago para que el examen no se pierda si se cierra el navegador?
+No, el guardado de progreso solo funciona al cambiar de pestaña dentro de la misma sesión. Si cierras el navegador o la pestaña, el progreso se pierde.
+
+¿Al repetir un examen en Modo Estudio, las preguntas son las mismas?
+No, en ambos modos (Estudio y Simulacro) al hacer clic en REPETIR EXAMEN se cargan preguntas diferentes (aleatorias) del mismo banco. La diferencia entre modos está en el tiempo, los intentos y el feedback, no en la fijeza de las preguntas.
+
+¿En Modo Estudio, si le doy a repetir examen, me salen las mismas preguntas o cambian?
+No, en ambos modos (Estudio y Simulacro) al hacer clic en REPETIR EXAMEN se cargan preguntas diferentes (aleatorias) del mismo banco. La diferencia entre modos está en el tiempo, los intentos y el feedback, no en la fijeza de las preguntas.
+
+¿Las preguntas del Modo Estudio son siempre las mismas o se renuevan?
+No, en ambos modos (Estudio y Simulacro) al hacer clic en REPETIR EXAMEN se cargan preguntas diferentes (aleatorias) del mismo banco. La diferencia entre modos está en el tiempo, los intentos y el feedback, no en la fijeza de las preguntas.
+
+¿Repetir examen en Modo Estudio me muestra el mismo conjunto de preguntas?
+No, en ambos modos (Estudio y Simulacro) al hacer clic en REPETIR EXAMEN se cargan preguntas diferentes (aleatorias) del mismo banco. La diferencia entre modos está en el tiempo, los intentos y el feedback, no en la fijeza de las preguntas.
+
+¿En el modo estudio, las preguntas se repiten o son diferentes cada vez que reinicio el examen?
+No, en ambos modos (Estudio y Simulacro) al hacer clic en REPETIR EXAMEN se cargan preguntas diferentes (aleatorias) del mismo banco. La diferencia entre modos está en el tiempo, los intentos y el feedback, no en la fijeza de las preguntas.
+
+¿Al presionar repetir examen en estudio, vuelven a salir las preguntas que ya vi o salen otras?
+No, en ambos modos (Estudio y Simulacro) al hacer clic en REPETIR EXAMEN se cargan preguntas diferentes (aleatorias) del mismo banco. La diferencia entre modos está en el tiempo, los intentos y el feedback, no en la fijeza de las preguntas.
+
+¿Cómo limpio los filtros del glosario rápidamente?
+Debes seleccionar "TODAS" en los filtros de categoría y hacer clic en "Todas las letras" o desmarcar la letra seleccionada. No hay un botón único de "Limpiar filtros".
+
+¿Hay un botón para borrar todos los filtros del glosario de una sola vez?
+Debes seleccionar "TODAS" en los filtros de categoría y hacer clic en "Todas las letras" o desmarcar la letra seleccionada. No hay un botón único de "Limpiar filtros".
+
+¿Cómo hago para quitar la categoría y la letra que seleccioné en el glosario?
+Debes seleccionar "TODAS" en los filtros de categoría y hacer clic en "Todas las letras" o desmarcar la letra seleccionada. No hay un botón único de "Limpiar filtros".
+
+¿Se puede reiniciar la búsqueda del glosario sin tener que desmarcar manualmente?
+Debes seleccionar "TODAS" en los filtros de categoría y hacer clic en "Todas las letras" o desmarcar la letra seleccionada. No hay un botón único de "Limpiar filtros".
+
+¿Cuál es la forma más rápida de volver a ver todos los términos del glosario sin filtros?
+Debes seleccionar "TODAS" en los filtros de categoría y hacer clic en "Todas las letras" o desmarcar la letra seleccionada. No hay un botón único de "Limpiar filtros".
+
+¿Existe un atajo o botón para limpiar los filtros del glosario?
+Debes seleccionar "TODAS" en los filtros de categoría y hacer clic en "Todas las letras" o desmarcar la letra seleccionada. No hay un botón único de "Limpiar filtros".
+
+¿El botón Subir en la sección de leyes me lleva al listado de normas?
+No, el botón Subir te lleva al inicio de la página actual (la ley que estás viendo). Para volver al listado de todas las normas, usa el botón "← Volver a normas" dentro de cada ley.
+
+¿Si estoy leyendo una ley y presiono el botón Subir, me devuelve al listado de todas las normas?
+No, el botón Subir te lleva al inicio de la página actual (la ley que estás viendo). Para volver al listado de todas las normas, usa el botón "← Volver a normas" dentro de cada ley.
+
+¿Para qué sirve el botón Subir dentro de una ley? ¿Me saca de la ley?
+No, el botón Subir te lleva al inicio de la página actual (la ley que estás viendo). Para volver al listado de todas las normas, usa el botón "← Volver a normas" dentro de cada ley.
+
+¿El botón flotante Subir funciona como atajo para volver al menú de normas?
+No, el botón Subir te lleva al inicio de la página actual (la ley que estás viendo). Para volver al listado de todas las normas, usa el botón "← Volver a normas" dentro de cada ley.
+
+¿Si presiono la flecha Subir mientras veo una ley, voy a la lista de todas las normas o solo subo dentro de la misma ley?
+No, el botón Subir te lleva al inicio de la página actual (la ley que estás viendo). Para volver al listado de todas las normas, usa el botón "← Volver a normas" dentro de cada ley.
+
+¿Al hacer clic en Subir en la página de una ley, se cierra la ley y me muestra el listado de normas?
+No, el botón Subir te lleva al inicio de la página actual (la ley que estás viendo). Para volver al listado de todas las normas, usa el botón "← Volver a normas" dentro de cada ley.
+
+¿Cancelar examen borra solo las respuestas o también el tiempo del simulacro?
+Cancelar examen borra todo el progreso (respuestas, intentos, tiempo transcurrido) y te saca del examen. No hay confirmación adicional. El tiempo no se puede recuperar.
+
+¿Qué pasa con el tiempo cuando le doy a Cancelar examen en el simulacro?
+Cancelar examen borra todo el progreso (respuestas, intentos, tiempo transcurrido) y te saca del examen. No hay confirmación adicional. El tiempo no se puede recuperar.
+
+¿Si cancelo un examen se reinicia el temporizador al empezar uno nuevo?
+Cancelar examen borra todo el progreso (respuestas, intentos, tiempo transcurrido) y te saca del examen. No hay confirmación adicional. El tiempo no se puede recuperar.
+
+¿Al presionar Cancelar examen, el tiempo que ya había pasado se guarda o se pierde?
+Cancelar examen borra todo el progreso (respuestas, intentos, tiempo transcurrido) y te saca del examen. No hay confirmación adicional. El tiempo no se puede recuperar.
+
+¿Cancelar examen borra mis respuestas parciales y el cronómetro?
+Cancelar examen borra todo el progreso (respuestas, intentos, tiempo transcurrido) y te saca del examen. No hay confirmación adicional. El tiempo no se puede recuperar.
+
+¿Si cancelo el examen, puedo recuperar el tiempo que ya había usado?
+Cancelar examen borra todo el progreso (respuestas, intentos, tiempo transcurrido) y te saca del examen. No hay confirmación adicional. El tiempo no se puede recuperar.
+
+¿Por qué no puedo exportar a PDF en Modo Estudio?
+La exportación a PDF solo está disponible en Modo Simulacro, para que puedas guardar evidencia de tu desempeño en condiciones similares al examen real. En Modo Estudio, la función no está implementada.
+
+¿En Modo Estudio hay botón para descargar resultados?
+La exportación a PDF solo está disponible en Modo Simulacro, para que puedas guardar evidencia de tu desempeño en condiciones similares al examen real. En Modo Estudio, la función no está implementada.
+
+¿Cómo guardo mis resultados en Modo Estudio si no está la opción de exportar?
+La exportación a PDF solo está disponible en Modo Simulacro, para que puedas guardar evidencia de tu desempeño en condiciones similares al examen real. En Modo Estudio, la función no está implementada.
+
+¿Por qué el Modo Estudio no permite exportar a PDF como el simulacro?
+La exportación a PDF solo está disponible en Modo Simulacro, para que puedas guardar evidencia de tu desempeño en condiciones similares al examen real. En Modo Estudio, la función no está implementada.
+
+¿Se puede imprimir o guardar los resultados del Modo Estudio?
+La exportación a PDF solo está disponible en Modo Simulacro, para que puedas guardar evidencia de tu desempeño en condiciones similares al examen real. En Modo Estudio, la función no está implementada.
+
+¿Cómo hago para tener un respaldo de mis respuestas en Modo Estudio si no deja exportar a PDF?
+La exportación a PDF solo está disponible en Modo Simulacro, para que puedas guardar evidencia de tu desempeño en condiciones similares al examen real. En Modo Estudio, la función no está implementada.
+
+¿El asistente IA guarda mis conversaciones?
+No, el asistente no guarda historial de conversaciones. Al cerrar la ventana del chat, todo se borra. Cada sesión es nueva y anónima.
+
+¿Puedo recuperar lo que hablé con el asistente ayer?
+No, el asistente no guarda historial de conversaciones. Al cerrar la ventana del chat, todo se borra. Cada sesión es nueva y anónima.
+
+¿El chat del asistente tiene memoria o se olvida cuando cierro la ventana?
+No, el asistente no guarda historial de conversaciones. Al cerrar la ventana del chat, todo se borra. Cada sesión es nueva y anónima.
+
+¿Dónde puedo ver el historial de preguntas que le he hecho al asistente?
+No, el asistente no guarda historial de conversaciones. Al cerrar la ventana del chat, todo se borra. Cada sesión es nueva y anónima.
+
+¿Si cierro el chat y lo vuelvo a abrir, me reconoce y recuerda lo que estábamos hablando?
+No, el asistente no guarda historial de conversaciones. Al cerrar la ventana del chat, todo se borra. Cada sesión es nueva y anónima.
+
+¿El asistente guarda lo que le pregunto para futuras conversaciones?
+No, el asistente no guarda historial de conversaciones. Al cerrar la ventana del chat, todo se borra. Cada sesión es nueva y anónima.
+
+
+¿Puedo continuar un examen si cambio de computador o celular?
+No, el progreso solo se guarda en el mismo dispositivo y navegador mientras no cierres la ventana. Si cambias de dispositivo o cierras el navegador, el progreso se pierde.
+
+¿Si empiezo un examen en mi computador, puedo terminarlo en mi celular?
+No, el progreso solo se guarda en el mismo dispositivo y navegador mientras no cierres la ventana. Si cambias de dispositivo o cierras el navegador, el progreso se pierde.
+
+¿El examen se sincroniza entre varios dispositivos?
+No, el progreso solo se guarda en el mismo dispositivo y navegador mientras no cierres la ventana. Si cambias de dispositivo o cierras el navegador, el progreso se pierde.
+
+¿Puedo retomar un examen empezado en mi PC desde el teléfono?
+No, el progreso solo se guarda en el mismo dispositivo y navegador mientras no cierres la ventana. Si cambias de dispositivo o cierras el navegador, el progreso se pierde.
+
+¿Si abro ESTUDIO SIMO en otro computador, me reconoce el examen que tenía a medias?
+No, el progreso solo se guarda en el mismo dispositivo y navegador mientras no cierres la ventana. Si cambias de dispositivo o cierras el navegador, el progreso se pierde.
+
+¿Se me acaba la batería del celular durante un simulacro, se guarda lo que llevaba?
+No, el progreso solo se guarda mientras la ventana está abierta. Si se apaga el dispositivo, se cierra la pestaña o el navegador, el progreso se pierde. Te recomendamos cargar la batería antes de iniciar un simulacro.
+
+¿Si se descarga la batería mientras hago un examen, puedo recuperar las respuestas?
+No, el progreso solo se guarda mientras la ventana está abierta. Si se apaga el dispositivo, se cierra la pestaña o el navegador, el progreso se pierde. Te recomendamos cargar la batería antes de iniciar un simulacro.
+
+¿Pierdo el progreso si mi celular se apaga por batería baja durante el simulacro?
+No, el progreso solo se guarda mientras la ventana está abierta. Si se apaga el dispositivo, se cierra la pestaña o el navegador, el progreso se pierde. Te recomendamos cargar la batería antes de iniciar un simulacro.
+
+¿El examen se guarda si se me descarga el celular?
+No, el progreso solo se guarda mientras la ventana está abierta. Si se apaga el dispositivo, se cierra la pestaña o el navegador, el progreso se pierde. Te recomendamos cargar la batería antes de iniciar un simulacro.
+
+¿Qué hago para no perder el examen si la batería está baja?
+No, el progreso solo se guarda mientras la ventana está abierta. Si se apaga el dispositivo, se cierra la pestaña o el navegador, el progreso se pierde. Te recomendamos cargar la batería antes de iniciar un simulacro.
+
+¿Cómo hago para que el examen siempre tenga las mismas preguntas?
+No es posible fijar las preguntas. Tanto en Modo Estudio como en Simulacro, al hacer clic en REPETIR EXAMEN se cargan preguntas diferentes (aleatorias). La única forma de repetir exactamente las mismas es no usar "Repetir examen" y volver a seleccionar la misma competencia desde la pantalla de inicio sin finalizar el examen anterior (cancelándolo o sin terminar).
+
+¿Puedo practicar siempre con el mismo conjunto de preguntas?
+No es posible fijar las preguntas. Tanto en Modo Estudio como en Simulacro, al hacer clic en REPETIR EXAMEN se cargan preguntas diferentes (aleatorias). La única forma de repetir exactamente las mismas es no usar "Repetir examen" y volver a seleccionar la misma competencia desde la pantalla de inicio sin finalizar el examen anterior (cancelándolo o sin terminar).
+
+¿Cómo evito que cambien las preguntas cuando repito el examen?
+No es posible fijar las preguntas. Tanto en Modo Estudio como en Simulacro, al hacer clic en REPETIR EXAMEN se cargan preguntas diferentes (aleatorias). La única forma de repetir exactamente las mismas es no usar "Repetir examen" y volver a seleccionar la misma competencia desde la pantalla de inicio sin finalizar el examen anterior (cancelándolo o sin terminar).
+
+¿Quiero que el examen me muestre siempre las mismas 5 preguntas para repasar, se puede?
+No es posible fijar las preguntas. Tanto en Modo Estudio como en Simulacro, al hacer clic en REPETIR EXAMEN se cargan preguntas diferentes (aleatorias). La única forma de repetir exactamente las mismas es no usar "Repetir examen" y volver a seleccionar la misma competencia desde la pantalla de inicio sin finalizar el examen anterior (cancelándolo o sin terminar).
+
+¿Cómo hago para que el simulacro no me cambie las preguntas cada vez?
+No es posible fijar las preguntas. Tanto en Modo Estudio como en Simulacro, al hacer clic en REPETIR EXAMEN se cargan preguntas diferentes (aleatorias). La única forma de repetir exactamente las mismas es no usar "Repetir examen" y volver a seleccionar la misma competencia desde la pantalla de inicio sin finalizar el examen anterior (cancelándolo o sin terminar).
+
+¿El PDF exportado incluye las preguntas que acerté o solo las falladas?
+El PDF generado en Modo Simulacro incluye TODAS las preguntas del examen, tanto las acertadas como las falladas. Las falladas aparecen con fondo rojo y muestran la respuesta correcta. Las acertadas aparecen con fondo verde. También incluye el puntaje, los tiempos y el resumen general.
+
+¿En el PDF de resultados salen también las preguntas buenas o solo las malas?
+El PDF generado en Modo Simulacro incluye TODAS las preguntas del examen, tanto las acertadas como las falladas. Las falladas aparecen con fondo rojo y muestran la respuesta correcta. Las acertadas aparecen con fondo verde. También incluye el puntaje, los tiempos y el resumen general.
+
+¿El informe PDF del simulacro muestra todas las preguntas o solo las que fallé?
+El PDF generado en Modo Simulacro incluye TODAS las preguntas del examen, tanto las acertadas como las falladas. Las falladas aparecen con fondo rojo y muestran la respuesta correcta. Las acertadas aparecen con fondo verde. También incluye el puntaje, los tiempos y el resumen general.
+
+¿Qué información viene en el PDF exportado del simulacro, solo los errores?
+El PDF generado en Modo Simulacro incluye TODAS las preguntas del examen, tanto las acertadas como las falladas. Las falladas aparecen con fondo rojo y muestran la respuesta correcta. Las acertadas aparecen con fondo verde. También incluye el puntaje, los tiempos y el resumen general.
+
+¿El PDF descargado trae el listado completo de preguntas o solo un resumen?
+El PDF generado en Modo Simulacro incluye TODAS las preguntas del examen, tanto las acertadas como las falladas. Las falladas aparecen con fondo rojo y muestran la respuesta correcta. Las acertadas aparecen con fondo verde. También incluye el puntaje, los tiempos y el resumen general.
+
+¿El asistente IA funciona sin internet después de la primera carga?
+No, el asistente IA necesita conexión a internet en cada sesión para procesar las preguntas. El modelo se descarga la primera vez (unos 70 MB), pero para cada consulta se requiere comunicación con el modelo cargado en el navegador, que depende de la conexión. Sin internet, el chat no podrá responder.
+
+¿Puedo usar el chat del asistente sin conexión a internet?
+No, el asistente IA necesita conexión a internet en cada sesión para procesar las preguntas. El modelo se descarga la primera vez (unos 70 MB), pero para cada consulta se requiere comunicación con el modelo cargado en el navegador, que depende de la conexión. Sin internet, el chat no podrá responder.
+
+¿Si estoy sin internet, el asistente me responde igual?
+No, el asistente IA necesita conexión a internet en cada sesión para procesar las preguntas. El modelo se descarga la primera vez (unos 70 MB), pero para cada consulta se requiere comunicación con el modelo cargado en el navegador, que depende de la conexión. Sin internet, el chat no podrá responder.
+
+¿El robot ese necesita datos móviles para funcionar?
+No, el asistente IA necesita conexión a internet en cada sesión para procesar las preguntas. El modelo se descarga la primera vez (unos 70 MB), pero para cada consulta se requiere comunicación con el modelo cargado en el navegador, que depende de la conexión. Sin internet, el chat no podrá responder.
+
+¿Puedo preguntarle al asistente si no tengo wifi?
+No, el asistente IA necesita conexión a internet en cada sesión para procesar las preguntas. El modelo se descarga la primera vez (unos 70 MB), pero para cada consulta se requiere comunicación con el modelo cargado en el navegador, que depende de la conexión. Sin internet, el chat no podrá responder.
+
+¿Los casos prácticos tienen un buscador para encontrar casos por palabras clave?
+No, la sección de casos prácticos no tiene buscador. Solo puedes filtrar por competencia (TODAS, Básicas, Funcionales, Comportamentales) y navegar con paginación. Si necesitas buscar un tema específico, te recomendamos usar el Asistente IA.
+
+¿Puedo buscar un caso práctico que hable de "depresión" o "crisis"?
+No, la sección de casos prácticos no tiene buscador. Solo puedes filtrar por competencia (TODAS, Básicas, Funcionales, Comportamentales) y navegar con paginación. Si necesitas buscar un tema específico, te recomendamos usar el Asistente IA.
+
+¿Hay una lupa para buscar casos prácticos por palabras?
+No, la sección de casos prácticos no tiene buscador. Solo puedes filtrar por competencia (TODAS, Básicas, Funcionales, Comportamentales) y navegar con paginación. Si necesitas buscar un tema específico, te recomendamos usar el Asistente IA.
+
+¿Cómo encuentro un caso práctico sobre ética o agresividad rápidamente?
+No, la sección de casos prácticos no tiene buscador. Solo puedes filtrar por competencia (TODAS, Básicas, Funcionales, Comportamentales) y navegar con paginación. Si necesitas buscar un tema específico, te recomendamos usar el Asistente IA.
+
+¿Puedo escribir una palabra para buscar casos prácticos como en el glosario?
+No, la sección de casos prácticos no tiene buscador. Solo puedes filtrar por competencia (TODAS, Básicas, Funcionales, Comportamentales) y navegar con paginación. Si necesitas buscar un tema específico, te recomendamos usar el Asistente IA.
+
+¿Los procedimientos de enfermería tienen alguna certificación o fuente oficial?
+Los procedimientos incluidos en ESTUDIO SIMO son de carácter informativo y están basados en guías clínicas estándar y protocolos de enfermería, pero no son documentos oficiales del Ministerio de Salud. No reemplazan la práctica supervisada ni los protocolos institucionales. Para fuentes oficiales, consulta el Ministerio de Salud o las resoluciones respectivas.
+
+¿De dónde sacaron los procedimientos de enfermería? ¿Son oficiales?
+Los procedimientos incluidos en ESTUDIO SIMO son de carácter informativo y están basados en guías clínicas estándar y protocolos de enfermería, pero no son documentos oficiales del Ministerio de Salud. No reemplazan la práctica supervisada ni los protocolos institucionales. Para fuentes oficiales, consulta el Ministerio de Salud o las resoluciones respectivas.
+
+¿Los procedimientos están avalados por el Ministerio de Salud?
+Los procedimientos incluidos en ESTUDIO SIMO son de carácter informativo y están basados en guías clínicas estándar y protocolos de enfermería, pero no son documentos oficiales del Ministerio de Salud. No reemplazan la práctica supervisada ni los protocolos institucionales. Para fuentes oficiales, consulta el Ministerio de Salud o las resoluciones respectivas.
+
+¿Puedo usar los procedimientos de ESTUDIO SIMO como referencia en mi trabajo?
+Los procedimientos incluidos en ESTUDIO SIMO son de carácter informativo y están basados en guías clínicas estándar y protocolos de enfermería, pero no son documentos oficiales del Ministerio de Salud. No reemplazan la práctica supervisada ni los protocolos institucionales. Para fuentes oficiales, consulta el Ministerio de Salud o las resoluciones respectivas.
+
+¿Los pasos de los procedimientos son los mismos que enseñan en el SENA o en la universidad?
+Los procedimientos incluidos en ESTUDIO SIMO son de carácter informativo y están basados en guías clínicas estándar y protocolos de enfermería, pero no son documentos oficiales del Ministerio de Salud. No reemplazan la práctica supervisada ni los protocolos institucionales. Para fuentes oficiales, consulta el Ministerio de Salud o las resoluciones respectivas.
+
+¿Qué hago si perdí el PIN después de pagarlo?
+Si perdiste el PIN, puedes recuperarlo desde la plataforma SIMO (simo.cnsc.gov.co). Inicia sesión, ve a la convocatoria donde te inscribiste, y en la sección de pago o inscripción debería aparecer el número del PIN generado. También puedes buscarlo en tu correo electrónico (la CNSC envía un comprobante). No es necesario pagar de nuevo.
+
+¿Cómo recupero mi PIN si lo borré o no lo anoté?
+Si perdiste el PIN, puedes recuperarlo desde la plataforma SIMO (simo.cnsc.gov.co). Inicia sesión, ve a la convocatoria donde te inscribiste, y en la sección de pago o inscripción debería aparecer el número del PIN generado. También puedes buscarlo en tu correo electrónico (la CNSC envía un comprobante). No es necesario pagar de nuevo.
+
+¿Se puede pedir que reenvíen el PIN por correo?
+Si perdiste el PIN, puedes recuperarlo desde la plataforma SIMO (simo.cnsc.gov.co). Inicia sesión, ve a la convocatoria donde te inscribiste, y en la sección de pago o inscripción debería aparecer el número del PIN generado. También puedes buscarlo en tu correo electrónico (la CNSC envía un comprobante). No es necesario pagar de nuevo.
+
+¿Dónde encuentro el PIN si se me perdió?
+Si perdiste el PIN, puedes recuperarlo desde la plataforma SIMO (simo.cnsc.gov.co). Inicia sesión, ve a la convocatoria donde te inscribiste, y en la sección de pago o inscripción debería aparecer el número del PIN generado. También puedes buscarlo en tu correo electrónico (la CNSC envía un comprobante). No es necesario pagar de nuevo.
+
+¿Olvidé anotar el PIN, cómo lo vuelvo a ver?
+Si perdiste el PIN, puedes recuperarlo desde la plataforma SIMO (simo.cnsc.gov.co). Inicia sesión, ve a la convocatoria donde te inscribiste, y en la sección de pago o inscripción debería aparecer el número del PIN generado. También puedes buscarlo en tu correo electrónico (la CNSC envía un comprobante). No es necesario pagar de nuevo.
+
+¿Puedo pagar el PIN con tarjeta de crédito o débito?
+La plataforma SIMO ofrece diferentes métodos de pago que pueden incluir PSE, tarjetas débito/crédito, y otros según la convocatoria. Al generar el PIN, se te mostrarán las opciones disponibles. Generalmente aceptan tarjetas de crédito (Visa, Mastercard) y débito a través de PSE. Revisa en el momento de la inscripción.
+
+¿El pago del PIN se puede hacer con tarjeta de crédito?
+La plataforma SIMO ofrece diferentes métodos de pago que pueden incluir PSE, tarjetas débito/crédito, y otros según la convocatoria. Al generar el PIN, se te mostrarán las opciones disponibles. Generalmente aceptan tarjetas de crédito (Visa, Mastercard) y débito a través de PSE. Revisa en el momento de la inscripción.
+
+¿Aceptan tarjeta débito para pagar el PIN?
+La plataforma SIMO ofrece diferentes métodos de pago que pueden incluir PSE, tarjetas débito/crédito, y otros según la convocatoria. Al generar el PIN, se te mostrarán las opciones disponibles. Generalmente aceptan tarjetas de crédito (Visa, Mastercard) y débito a través de PSE. Revisa en el momento de la inscripción.
+
+¿Cómo puedo pagar el PIN si no tengo cuenta bancaria?
+La plataforma SIMO ofrece diferentes métodos de pago que pueden incluir PSE, tarjetas débito/crédito, y otros según la convocatoria. Al generar el PIN, se te mostrarán las opciones disponibles. Generalmente aceptan tarjetas de crédito (Visa, Mastercard) y débito a través de PSE. Revisa en el momento de la inscripción.
+
+¿El PIN se puede pagar en efectivo en alguna parte?
+La plataforma SIMO ofrece diferentes métodos de pago que pueden incluir PSE, tarjetas débito/crédito, y otros según la convocatoria. Al generar el PIN, se te mostrarán las opciones disponibles. Generalmente aceptan tarjetas de crédito (Visa, Mastercard) y débito a través de PSE. Revisa en el momento de la inscripción.
+
+¿Si me inscribí en ascenso pero debí hacerlo en abierto, puedo cambiar de modalidad?
+No, una vez formalizada la inscripción y pagado el PIN, no se puede cambiar la modalidad (ascenso por abierto o viceversa). Tendrías que esperar una nueva convocatoria o, si la convocatoria aún está abierta, podrías intentar contactar a la CNSC para solicitar el cambio, pero no está garantizado. Revisa bien los requisitos antes de inscribirte.
+
+¿Me equivoqué de modalidad al inscribirme, se puede corregir?
+No, una vez formalizada la inscripción y pagado el PIN, no se puede cambiar la modalidad (ascenso por abierto o viceversa). Tendrías que esperar una nueva convocatoria o, si la convocatoria aún está abierta, podrías intentar contactar a la CNSC para solicitar el cambio, pero no está garantizado. Revisa bien los requisitos antes de inscribirte.
+
+¿Puedo cambiar de abierto general a ascenso después de pagar el PIN?
+No, una vez formalizada la inscripción y pagado el PIN, no se puede cambiar la modalidad (ascenso por abierto o viceversa). Tendrías que esperar una nueva convocatoria o, si la convocatoria aún está abierta, podrías intentar contactar a la CNSC para solicitar el cambio, pero no está garantizado. Revisa bien los requisitos antes de inscribirte.
+
+¿Si me inscribí mal, puedo modificar la modalidad de participación?
+No, una vez formalizada la inscripción y pagado el PIN, no se puede cambiar la modalidad (ascenso por abierto o viceversa). Tendrías que esperar una nueva convocatoria o, si la convocatoria aún está abierta, podrías intentar contactar a la CNSC para solicitar el cambio, pero no está garantizado. Revisa bien los requisitos antes de inscribirte.
+
+¿Hay posibilidad de cambiar de modalidad después de pagar el PIN?
+No, una vez formalizada la inscripción y pagado el PIN, no se puede cambiar la modalidad (ascenso por abierto o viceversa). Tendrías que esperar una nueva convocatoria o, si la convocatoria aún está abierta, podrías intentar contactar a la CNSC para solicitar el cambio, pero no está garantizado. Revisa bien los requisitos antes de inscribirte.
+
+¿Qué significa cuando el asistente me pregunta "¿Te refieres al Modo Estudio?" y me pide responder sí o no?
+El asistente hace eso cuando no entendió bien tu pregunta, pero cree que puede ser sobre el Modo Estudio. Para no equivocarse, te pide que confirmes. Si es correcto, responde "sí" y te dará la respuesta. Si no es eso, responde "no" y vuelve a preguntar con más detalles.
+
+¿Por qué el chat a veces me dice "¿Te refieres a la convocatoria?" y me pide que responda sí o no?
+Porque el asistente no está seguro de lo que preguntaste, pero tiene una pista. Te pregunta si ese es el tema para no darte una respuesta equivocada. Responde "sí" si es correcto, o "no" y reformula tu pregunta con otras palabras.
+
+¿Qué significa que el asistente me diga "¿Te refieres al PIN?" y me pida responder sí o no?
+Significa que el asistente cree que tu pregunta puede ser sobre el PIN, pero no está completamente seguro. Para evitar un error, prefiere que confirmes. Responde "sí" si eso es lo que querías saber, o "no" y explícate mejor.
+
+¿A qué se debe que el asistente me pregunte "¿Te refieres a la Ley 100?" antes de responderme?
+Se debe a que tu pregunta fue confusa o muy corta. El asistente tiene una posible coincidencia y necesita que la confirmes. Responde "sí" si es lo que buscabas, o "no" y escribe tu pregunta de forma más clara.
+
+¿Por qué el asistente a veces me pide confirmación con un "¿Te refieres a los casos prácticos?" en lugar de responder directamente?
+Porque el asistente no entendió bien lo que preguntaste, pero intuye que puede ser sobre los casos prácticos. Para no inventar una respuesta, te pide que le digas si acertó. Responde "sí" para recibir la respuesta, o "no" para intentar de nuevo.
+
+¿Qué pasa con el simulacro si mi teléfono se apaga por batería baja a mitad del examen?
+No, el progreso del simulacro no se guarda si tu teléfono se apaga por batería baja. El examen solo guarda el avance mientras la ventana del navegador está abierta. Si el dispositivo se apaga o cierras la pestaña, perderás las respuestas que llevabas. Te recomendamos cargar bien la batería antes de empezar un simulacro.
+
+Si se me descarga el celular mientras hago el simulacro, ¿se pierde lo que ya respondí?
+No, el progreso del simulacro no se guarda si tu teléfono se apaga por batería baja. El examen solo guarda el avance mientras la ventana del navegador está abierta. Si el dispositivo se apaga o cierras la pestaña, perderás las respuestas que llevabas. Te recomendamos cargar bien la batería antes de empezar un simulacro.
+
+¿El examen guarda el progreso si mi celular se queda sin batería y se apaga?
+No, el progreso del simulacro no se guarda si tu teléfono se apaga por batería baja. El examen solo guarda el avance mientras la ventana del navegador está abierta. Si el dispositivo se apaga o cierras la pestaña, perderás las respuestas que llevabas. Te recomendamos cargar bien la batería antes de empezar un simulacro.
+
+¿Pierdo las respuestas si mi teléfono se apaga por falta de carga durante el simulacro?
+No, el progreso del simulacro no se guarda si tu teléfono se apaga por batería baja. El examen solo guarda el avance mientras la ventana del navegador está abierta. Si el dispositivo se apaga o cierras la pestaña, perderás las respuestas que llevabas. Te recomendamos cargar bien la batería antes de empezar un simulacro.
+
+¿Qué hago para no perder el simulacro si la batería está baja y el celular se apaga?
+No, el progreso del simulacro no se guarda si tu teléfono se apaga por batería baja. El examen solo guarda el avance mientras la ventana del navegador está abierta. Si el dispositivo se apaga o cierras la pestaña, perderás las respuestas que llevabas. Te recomendamos cargar bien la batería antes de empezar un simulacro.
+
+¿Cómo puedo recuperar el número de PIN si lo pagué pero después lo perdí o no lo anoté?
+Sí, puedes recuperar el PIN si lo perdiste o no lo anotaste. Ingresa a la plataforma SIMO (simo.cnsc.gov.co), inicia sesión, ve a la convocatoria donde te inscribiste y en la sección de pago o inscripción aparecerá el número del PIN. También puedes revisar tu correo electrónico, porque la CNSC envía un comprobante. No necesitas pagar de nuevo.
+
+Perdí mi PIN de inscripción, ¿hay forma de volverlo a ver o me toca pagar otra vez?
+Sí, puedes recuperar el PIN si lo perdiste o no lo anotaste. Ingresa a la plataforma SIMO (simo.cnsc.gov.co), inicia sesión, ve a la convocatoria donde te inscribiste y en la sección de pago o inscripción aparecerá el número del PIN. También puedes revisar tu correo electrónico, porque la CNSC envía un comprobante. No necesitas pagar de nuevo.
+
+¿Se puede recuperar el PIN olvidado desde la plataforma SIMO o toca pagar de nuevo?
+Sí, puedes recuperar el PIN si lo perdiste o no lo anotaste. Ingresa a la plataforma SIMO (simo.cnsc.gov.co), inicia sesión, ve a la convocatoria donde te inscribiste y en la sección de pago o inscripción aparecerá el número del PIN. También puedes revisar tu correo electrónico, porque la CNSC envía un comprobante. No necesitas pagar de nuevo.
+
+No anoté mi PIN cuando pagué, ¿cómo hago para encontrarlo?
+Sí, puedes recuperar el PIN si lo perdiste o no lo anotaste. Ingresa a la plataforma SIMO (simo.cnsc.gov.co), inicia sesión, ve a la convocatoria donde te inscribiste y en la sección de pago o inscripción aparecerá el número del PIN. También puedes revisar tu correo electrónico, porque la CNSC envía un comprobante. No necesitas pagar de nuevo.
+
+¿Dónde puedo consultar el PIN que ya pagué si no lo guardé?
+Sí, puedes recuperar el PIN si lo perdiste o no lo anotaste. Ingresa a la plataforma SIMO (simo.cnsc.gov.co), inicia sesión, ve a la convocatoria donde te inscribiste y en la sección de pago o inscripción aparecerá el número del PIN. También puedes revisar tu correo electrónico, porque la CNSC envía un comprobante. No necesitas pagar de nuevo.
+
+¿Los procedimientos de enfermería que aparecen en la herramienta están avalados por alguna entidad oficial como el Ministerio de Salud?
+Los procedimientos de enfermería que ves en ESTUDIO SIMO son solo informativos. No están avalados oficialmente por el Ministerio de Salud ni por ninguna entidad gubernamental. Están basados en guías clínicas estándar y protocolos de enfermería, pero no reemplazan la práctica supervisada ni los protocolos institucionales. Para fuentes oficiales, consulta directamente al Ministerio de Salud o las resoluciones respectivas.
+
+¿Los pasos de los procedimientos de la herramienta tienen el respaldo del Ministerio de Salud?
+Los procedimientos de enfermería que ves en ESTUDIO SIMO son solo informativos. No están avalados oficialmente por el Ministerio de Salud ni por ninguna entidad gubernamental. Están basados en guías clínicas estándar y protocolos de enfermería, pero no reemplazan la práctica supervisada ni los protocolos institucionales. Para fuentes oficiales, consulta directamente al Ministerio de Salud o las resoluciones respectivas.
+
+¿Puedo usar los procedimientos de ESTUDIO SIMO como si fueran oficiales para mi trabajo?
+Los procedimientos de enfermería que ves en ESTUDIO SIMO son solo informativos. No están avalados oficialmente por el Ministerio de Salud ni por ninguna entidad gubernamental. Están basados en guías clínicas estándar y protocolos de enfermería, pero no reemplazan la práctica supervisada ni los protocolos institucionales. Para fuentes oficiales, consulta directamente al Ministerio de Salud o las resoluciones respectivas.
+
+¿Los procedimientos de enfermería están certificados por alguna autoridad de salud?
+Los procedimientos de enfermería que ves en ESTUDIO SIMO son solo informativos. No están avalados oficialmente por el Ministerio de Salud ni por ninguna entidad gubernamental. Están basados en guías clínicas estándar y protocolos de enfermería, pero no reemplazan la práctica supervisada ni los protocolos institucionales. Para fuentes oficiales, consulta directamente al Ministerio de Salud o las resoluciones respectivas.
+
+¿Quién avala los procedimientos de enfermería que muestra la herramienta? ¿El Ministerio los reconoce?
+Los procedimientos de enfermería que ves en ESTUDIO SIMO son solo informativos. No están avalados oficialmente por el Ministerio de Salud ni por ninguna entidad gubernamental. Están basados en guías clínicas estándar y protocolos de enfermería, pero no reemplazan la práctica supervisada ni los protocolos institucionales. Para fuentes oficiales, consulta directamente al Ministerio de Salud o las resoluciones respectivas.
+
+¿Para qué sirve el Modo Simulacro?
+El Modo Simulacro sirve para entrenar velocidad, resistencia y manejo del tiempo, simulando las condiciones reales del examen SIMO (60 segundos por pregunta, sin feedback hasta el final, un solo intento). Te ayuda a medir tu rendimiento bajo presión real.
+
+¿Qué utilidad tiene el Modo Simulacro?
+El Modo Simulacro sirve para entrenar velocidad, resistencia y manejo del tiempo, simulando las condiciones reales del examen SIMO (60 segundos por pregunta, sin feedback hasta el final, un solo intento). Te ayuda a medir tu rendimiento bajo presión real.
+
+¿Para qué se usa el Modo Simulacro?
+El Modo Simulacro sirve para entrenar velocidad, resistencia y manejo del tiempo, simulando las condiciones reales del examen SIMO (60 segundos por pregunta, sin feedback hasta el final, un solo intento). Te ayuda a medir tu rendimiento bajo presión real.
+
+¿Qué función cumple el Modo Simulacro?
+El Modo Simulacro sirve para entrenar velocidad, resistencia y manejo del tiempo, simulando las condiciones reales del examen SIMO (60 segundos por pregunta, sin feedback hasta el final, un solo intento). Te ayuda a medir tu rendimiento bajo presión real.
+
+¿En qué ayuda el Modo Simulacro?
+El Modo Simulacro sirve para entrenar velocidad, resistencia y manejo del tiempo, simulando las condiciones reales del examen SIMO (60 segundos por pregunta, sin feedback hasta el final, un solo intento). Te ayuda a medir tu rendimiento bajo presión real.
+
+¿Para qué sirve el glosario?
+El glosario sirve para consultar definiciones de términos clave del concurso (siglas, entidades, principios, carrera administrativa). Te ayuda a entender rápidamente conceptos sin salir de la herramienta.
+
+¿Qué utilidad tiene el glosario?
+El glosario sirve para consultar definiciones de términos clave del concurso (siglas, entidades, principios, carrera administrativa). Te ayuda a entender rápidamente conceptos sin salir de la herramienta.
+
+¿Para qué se usa el glosario?
+El glosario sirve para consultar definiciones de términos clave del concurso (siglas, entidades, principios, carrera administrativa). Te ayuda a entender rápidamente conceptos sin salir de la herramienta.
+
+¿Qué función cumple el glosario?
+El glosario sirve para consultar definiciones de términos clave del concurso (siglas, entidades, principios, carrera administrativa). Te ayuda a entender rápidamente conceptos sin salir de la herramienta.
+
+¿En qué ayuda el glosario?
+El glosario sirve para consultar definiciones de términos clave del concurso (siglas, entidades, principios, carrera administrativa). Te ayuda a entender rápidamente conceptos sin salir de la herramienta.
+
+¿Para qué sirve el PIN?
+El PIN (Número de Identificación Personal) sirve como derecho de participación para inscribirte en un concurso de méritos de la CNSC. Sin el PIN pagado, no puedes formalizar tu aspiración a una vacante.
+
+¿Qué utilidad tiene el PIN?
+El PIN (Número de Identificación Personal) sirve como derecho de participación para inscribirte en un concurso de méritos de la CNSC. Sin el PIN pagado, no puedes formalizar tu aspiración a una vacante.
+
+¿Para qué se usa el PIN?
+El PIN (Número de Identificación Personal) sirve como derecho de participación para inscribirte en un concurso de méritos de la CNSC. Sin el PIN pagado, no puedes formalizar tu aspiración a una vacante.
+
+¿Qué función cumple el PIN?
+El PIN (Número de Identificación Personal) sirve como derecho de participación para inscribirte en un concurso de méritos de la CNSC. Sin el PIN pagado, no puedes formalizar tu aspiración a una vacante.
+
+¿En qué ayuda el PIN?
+El PIN (Número de Identificación Personal) sirve como derecho de participación para inscribirte en un concurso de méritos de la CNSC. Sin el PIN pagado, no puedes formalizar tu aspiración a una vacante.
+
+¿Para qué sirven los casos prácticos?
+Los casos prácticos sirven para aplicar tus conocimientos a situaciones reales de enfermería en salud mental. Te ayudan a desarrollar criterio ético, trabajo en equipo y orientación al servicio, y puedes comparar tu respuesta con la orientativa.
+
+¿Qué utilidad tienen los casos prácticos?
+Los casos prácticos sirven para aplicar tus conocimientos a situaciones reales de enfermería en salud mental. Te ayudan a desarrollar criterio ético, trabajo en equipo y orientación al servicio, y puedes comparar tu respuesta con la orientativa.
+
+¿Para qué se usan los casos prácticos?
+Los casos prácticos sirven para aplicar tus conocimientos a situaciones reales de enfermería en salud mental. Te ayudan a desarrollar criterio ético, trabajo en equipo y orientación al servicio, y puedes comparar tu respuesta con la orientativa.
+
+¿Qué función cumplen los casos prácticos?
+Los casos prácticos sirven para aplicar tus conocimientos a situaciones reales de enfermería en salud mental. Te ayudan a desarrollar criterio ético, trabajo en equipo y orientación al servicio, y puedes comparar tu respuesta con la orientativa.
+
+¿En qué ayudan los casos prácticos?
+Los casos prácticos sirven para aplicar tus conocimientos a situaciones reales de enfermería en salud mental. Te ayudan a desarrollar criterio ético, trabajo en equipo y orientación al servicio, y puedes comparar tu respuesta con la orientativa.
