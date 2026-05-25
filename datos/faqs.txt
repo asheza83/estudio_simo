@@ -276,7 +276,7 @@ Esa "cosita que parece un robot" es el Asistente SIMO. Es un chat inteligente qu
 ¿Qué hago con esto o para qué sirve esto?
 No sé exactamente a qué te refieres con "esto". ¿Podrías decirme de qué elemento o sección de la aplicación estás hablando? Por ejemplo: "el botón de ajustes", "el temporizador del simulacro", "los resultados del examen", etc. Así puedo ayudarte mejor
 
-Qué es esa cosita que parece un robot o el asistente o el botón flotante?
+¿Qué es esa cosita que parece un robot o el asistente o el botón flotante?
 Esa "cosita que parece un robot" es el Asistente SIMO. Es un chat inteligente que puedes abrir haciendo clic en el botón 🤖 IA. En computador está abajo a la derecha, en celular está en el header. Puedes preguntarme cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2.
 
 ----------------------------------
@@ -299,7 +299,7 @@ Las inscripciones son en el segundo semestre de 2026, aproximadamente entre juli
 ¿Cuál es el plazo de inscripción para enfermería?
 Las inscripciones son en el segundo semestre de 2026, aproximadamente entre julio y agosto
 
-No sé cuándo son las inscripciones de la ESE 2
+No sé ¿cuándo son las inscripciones de la ESE 2?
 Las inscripciones son en el segundo semestre de 2026, aproximadamente entre julio y agosto.
 
 ---------------------------------
@@ -313,19 +313,19 @@ El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, pued
 ¿Para qué sirve el modo estudio?
 El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta
 
-Explícame el modo estudio?
+Explícame ¿el modo estudio?
 El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta.
 
-Qué es eso de modo estudio?
+¿Qué es eso de modo estudio?
 El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta.
 
-Quiero aprender sin estrés, qué uso?
+Quiero aprender sin estrés, ¿qué uso?
 El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta.
 
-Para estudiar tranquilo, qué me recomiendas
+Para estudiar tranquilo, ¿qué me recomiendas?
 El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta.
 
-No entiendo cómo funciona el modo estudio?
+No entiendo ¿cómo funciona el modo estudio?
 El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, puedes intentar hasta 4 veces por pregunta, recibes feedback inmediato con explicaciones, y al final se muestra la respuesta correcta.
 
 ---------------------------------
@@ -333,31 +333,31 @@ El Modo Estudio es ideal para aprender sin presión. Sin límite de tiempo, pued
 ¿Qué es el Asistente IA?
 Es un chat flotante que puedes abrir desde el botón flotante 🤖 IA (en PC) o desde el botón 🤖 IA del header (en celular). Saluda al usuario, tiene historial de preguntas y respuestas anteriores, y puedes escribir cualquier duda sobre la aplicación o el concurso.
 
-Qué es esa cosita que parece un robot?
+¿Qué es esa cosita que parece un robot?
 Es un chat flotante que puedes abrir desde el botón flotante 🤖 IA (en PC) o desde el botón 🤖 IA del header (en celular). Puedes preguntarme cualquier cosa sobre ESTUDIO SIMO.
 
-Para qué sirve el botón flotante con forma de robot
+¿Para qué sirve el botón flotante con forma de robot?
 Es el Asistente SIMO. Un chat inteligente que puedes abrir haciendo clic en el botón 🤖 IA. Estoy aquí para ayudarte con tus dudas.
 
-Cómo abro el asistente?
+¿Cómo abro el asistente?
 Haz clic en el botón 🤖 IA. En computador está en la esquina inferior derecha. En celular está en el header, junto a Ajustes e Instrucciones.
 
-Qué es ese robot que aparece en la pantalla?
+¿Qué es ese robot que aparece en la pantalla?
 Ese soy yo, el Asistente SIMO. Puedes hacerme preguntas sobre la convocatoria, los exámenes, el glosario o cualquier tema de ESTUDIO SIMO.
 
-Para qué sirve el chat
+¿Para qué sirve el chat?
 El chat es el Asistente SIMO. Sirve para resolver tus dudas sobre el concurso, la herramienta o cualquier tema relacionado con enfermería y la CNSC.
 
-Cómo uso el asistente virtual?
+¿Cómo uso el asistente virtual?
 Solo escribe tu pregunta en el cuadro de texto y presiona Enviar. Yo te responderé con la información que tengo en mi base de conocimiento.
 
-Qué es ese ícono de robot en la esquina?
+¿Qué es ese ícono de robot en la esquina?
 Es el botón para abrir el Asistente SIMO. Haz clic allí y podrás hacerme preguntas. ¡Estoy aquí para ayudarte!
 
-No encuentro el asistente?
+¿No encuentro el asistente?
 En computador está el botón flotante 🤖 IA abajo a la derecha. En celular está en el header superior, junto a los botones de Ajustes (⚙️) e Instrucciones (📖).
 
-El botón del robot no aparece?
+¿El botón del robot no aparece?
 Asegúrate de hacer scroll hacia arriba. En celular, el botón está en el header. En PC, es el botón flotante en la esquina inferior derecha. Si no lo ves, recarga la página.
 
 -------------------------------
@@ -365,19 +365,19 @@ Asegúrate de hacer scroll hacia arriba. En celular, el botón está en el heade
 ¿Cómo busco convocatorias de enfermería en SIMO?
 Utiliza los filtros de búsqueda de SIMO. Puedes buscar por proceso de selección, por rango salarial, por departamento, o usando palabras clave como "enfermería", "salud", "enfermero", "hospital", "ESE" o "clínica pública"
 
-Cómo encuentro vacantes de enfermería?
+¿Cómo encuentro vacantes de enfermería?
 Usa los filtros de SIMO con palabras clave como "enfermería", "enfermero", "hospital público" o "ESE". También puedes buscar por departamento o ciudad.
 
-Dónde busco empleos para enfermeros en el Estado?
+¿Dónde busco empleos para enfermeros en el Estado?
 En la plataforma SIMO de la CNSC. Usa las palabras clave "enfermería", "salud", "hospital" o "ESE" en los filtros de búsqueda.
 
-Cómo hago para ver las vacantes de enfermería?
+¿Cómo hago para ver las vacantes de enfermería?
 Ingresa a SIMO, ve a la sección de convocatorias y usa los filtros con palabras clave como "enfermería" o "enfermero". También puedes filtrar por departamento.
 
-Qué palabras clave usar para buscar trabajo de enfermería?
+¿Qué palabras clave usar para buscar trabajo de enfermería?
 Las más efectivas son: "enfermería", "enfermero", "salud", "hospital", "ESE", "clínica pública" y "atención primaria".
 
-No encuentro vacantes de enfermería en SIMO?
+No encuentro ¿vacantes de enfermería en SIMO?
 Revisa que estés usando las palabras clave correctas: "enfermería", "enfermero", "salud". También puedes filtrar por departamento o consultar las convocatorias activas en la página principal de SIMO.
 
 ------------------------------
@@ -385,129 +385,129 @@ Revisa que estés usando las palabras clave correctas: "enfermería", "enfermero
 ¿Qué son los casos prácticos?
 Los casos prácticos son situaciones reales que podrías enfrentar en HOMERIS. Tienen filtros por competencia (TODAS, Básicas, Funcionales, Comportamentales), paginación de 10 casos por página, y cada caso tiene una respuesta orientativa
 
-Cómo funcionan los casos prácticos?
+¿Cómo funcionan los casos prácticos?
 Ve a Estudio SIMO > Casos prácticos. Puedes filtrar por competencia, navegar con los botones Anterior/Siguiente (10 casos por página), y hacer clic en "Ver respuesta orientativa" para desplegar la respuesta.
 
-Para qué sirven los casos prácticos
+¿Para qué sirven los casos prácticos?
 Sirven para prepararte con situaciones reales que podrías enfrentar en el Hospital Mental de Risaralda. Te ayudan a aplicar tus conocimientos en contexto.
 
-Dónde están los casos prácticos?
+¿Dónde están los casos prácticos?
 En la pestaña Estudio SIMO, selecciona "Casos prácticos" en el menú desplegable. Allí encontrarás situaciones reales clasificadas por competencia.
 
-Cómo ver las respuestas de los casos prácticos?
+¿Cómo ver las respuestas de los casos prácticos?
 Haz clic en "👁️ Ver respuesta orientativa" debajo de cada caso. Se desplegará una explicación de cómo abordar esa situación. Haz clic en "🙈 Ocultar respuesta" para cerrarla.
 
-No entiendo cómo usar los casos prácticos?
+¿No entiendo cómo usar los casos prácticos?
 Ve a Estudio SIMO, selecciona "Casos prácticos", elige un filtro de competencia si quieres, haz clic en un caso y luego en "Ver respuesta orientativa". Es así de fácil. ¿Necesitas ayuda con algún caso en específico?
 
 ---------------------------------------
 
-Quiero aprender sin estrés o sin presión, qué uso?
+Quiero aprender sin estrés o sin presión, ¿qué uso?
 Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo, sin estrés.
 
-Quiero aprender relajado, sin afán, qué me recomiendas?
+Quiero aprender relajado, sin afán, ¿qué me recomiendas?
 Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo, sin estrés.
 
-Necesito estudiar sin presión, sin tiempo límite?
+Necesito estudiar sin presión, ¿sin tiempo límite?
 Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo, sin estrés.
 
-No quiero estrés al estudiar, qué hago?
+No quiero estrés al estudiar, ¿qué hago?
 Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo, sin estrés.
 
-Para aprender tranquilo, sin preocuparme por el tiempo
+¿Para aprender tranquilo, sin preocuparme por el tiempo?
 Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo, sin estrés.
 
-Estudiar sin afán, sin reloj, cómo le hago?
+Estudiar sin afán, sin reloj, ¿cómo le hago?
 Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo, sin estrés.
 
-Qué modo uso para aprender sin que me corra el tiempo?
+¿Qué modo uso para aprender sin que me corra el tiempo?
 Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo, sin estrés.
 
-No me gusta la presión, qué modo de estudio me sirve?
+No me gusta la presión, ¿qué modo de estudio me sirve?
 Te recomiendo el **Modo Estudio**. No tiene límite de tiempo, puedes intentar varias veces por pregunta y recibes feedback inmediato con explicaciones. Es ideal para aprender a tu ritmo, sin estrés.
 
 --------------------------------
 
-Qué es ese robot o esa cosita o ese icono redondo en la esquina?
+Qué es ese robot o esa co¿sita o ese icono redondo en la esquina?
 Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
 
-Mi hermano, qué es ese robot que aparece en la pantalla?
+Mi hermano, ¿qué es ese robot que aparece en la pantalla?
 Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
 
-Parcero, qué es esa cosita gris con forma de robot?
+Parcero, ¿qué es esa cosita gris con forma de robot?
 Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
 
-Qué es ese icono de robot que está siempre ahí?
+¿Qué es ese icono de robot que está siempre ahí?
 Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
 
-Para qué sirve ese robot que parece una cara
+¿Para qué sirve ese robot que parece una cara?
 Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
 
-Qué es esa cosa que parece un robot en la esquina derecha?
+¿Qué es esa cosa que parece un robot en la esquina derecha?
 Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
 
-Oye, qué es ese muñequito de robot?
+Oye, ¿qué es ese muñequito de robot?
 Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
 
-Explícame qué es ese botón con forma de robot?
+¿Explícame qué es ese botón con forma de robot?
 Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
 
-No sé qué es ese robot que aparece en la página?
+¿No sé qué es ese robot que aparece en la página?
 Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
 
-Qué es ese ícono flotante que parece un robot?
+¿Qué es ese ícono flotante que parece un robot?
 Ese soy yo, el Asistente SIMO. Soy un chat inteligente al que puedes preguntarle cualquier cosa sobre ESTUDIO SIMO o el concurso ESE 2. Haz clic en el botón 🤖 IA (en PC está abajo a la derecha, en celular está en el header) y escríbeme.
 
 -----------------------------------
 
-Cómo busco vacantes de enfermería o empleos, estoy perdido?
+¿Cómo busco vacantes de enfermería o empleos, estoy perdido?
 Para buscar vacantes de enfermería en SIMO, usa los filtros de búsqueda con palabras clave como "enfermería", "enfermero", "salud", "hospital", "ESE" o "clínica pública". También puedes filtrar por departamento o ciudad. ¿Necesitas ayuda con algún término específico?
 
-Estoy perdido, cómo encuentro trabajo de enfermería en el Estado?
+Estoy perdido, ¿cómo encuentro trabajo de enfermería en el Estado?
 Para buscar vacantes de enfermería en SIMO, usa los filtros de búsqueda con palabras clave como "enfermería", "enfermero", "salud", "hospital", "ESE" o "clínica pública". También puedes filtrar por departamento o ciudad. ¿Necesitas ayuda con algún término específico?
 
-No encuentro vacantes de enfermería, qué hago?
+No encuentro vacantes de enfermería, ¿qué hago?
 Para buscar vacantes de enfermería en SIMO, usa los filtros de búsqueda con palabras clave como "enfermería", "enfermero", "salud", "hospital", "ESE" o "clínica pública". También puedes filtrar por departamento o ciudad. ¿Necesitas ayuda con algún término específico?
 
-Cómo busco empleos para enfermero en SIMO?
+¿Cómo busco empleos para enfermero en SIMO?
 Para buscar vacantes de enfermería en SIMO, usa los filtros de búsqueda con palabras clave como "enfermería", "enfermero", "salud", "hospital", "ESE" o "clínica pública". También puedes filtrar por departamento o ciudad. ¿Necesitas ayuda con algún término específico?
 
-Dónde encuentro ofertas de trabajo para enfermería?
+¿Dónde encuentro ofertas de trabajo para enfermería?
 Para buscar vacantes de enfermería en SIMO, usa los filtros de búsqueda con palabras clave como "enfermería", "enfermero", "salud", "hospital", "ESE" o "clínica pública". También puedes filtrar por departamento o ciudad. ¿Necesitas ayuda con algún término específico?
 
-Ayuda, no sé cómo buscar vacantes de enfermería?
+Ayuda, ¿no sé cómo buscar vacantes de enfermería?
 Para buscar vacantes de enfermería en SIMO, usa los filtros de búsqueda con palabras clave como "enfermería", "enfermero", "salud", "hospital", "ESE" o "clínica pública". También puedes filtrar por departamento o ciudad. ¿Necesitas ayuda con algún término específico?
 
-Qué palabras clave usar para buscar trabajo de enfermera?
+¿Qué palabras clave usar para buscar trabajo de enfermera?
 Para buscar vacantes de enfermería en SIMO, usa los filtros de búsqueda con palabras clave como "enfermería", "enfermero", "salud", "hospital", "ESE" o "clínica pública". También puedes filtrar por departamento o ciudad. ¿Necesitas ayuda con algún término específico?
 
-Cómo hago para ver las vacantes de enfermería disponibles?
+¿Cómo hago para ver las vacantes de enfermería disponibles?
 Para buscar vacantes de enfermería en SIMO, usa los filtros de búsqueda con palabras clave como "enfermería", "enfermero", "salud", "hospital", "ESE" o "clínica pública". También puedes filtrar por departamento o ciudad. ¿Necesitas ayuda con algún término específico?
 
 ---------------------------------
 
-Qué es esto o para qué sirve esto?
+¿Qué es esto o para qué sirve esto?
 No sé exactamente a qué te refieres con "esto". ¿Podrías decirme de qué elemento, botón o sección de la aplicación estás hablando? Por ejemplo: "el botón de ajustes", "el temporizador del simulacro", "la pestaña de preguntas", etc.
 
-Esto qué es?
+¿Esto qué es?
 No sé exactamente a qué te refieres con "esto". ¿Podrías decirme de qué elemento, botón o sección de la aplicación estás hablando? Por ejemplo: "el botón de ajustes", "el temporizador del simulacro", "la pestaña de preguntas", etc.
 
-Y eso para qué sirve?
+¿Y eso para qué sirve?
 No sé exactamente a qué te refieres con "eso". ¿Podrías decirme de qué elemento, botón o sección de la aplicación estás hablando? Por ejemplo: "el botón de ajustes", "el temporizador del simulacro", "la pestaña de preguntas", etc.
 
-Eso cómo funciona?
+¿Eso cómo funciona?
 No sé exactamente a qué te refieres con "eso". ¿Podrías decirme de qué elemento, botón o sección de la aplicación estás hablando? Por ejemplo: "el botón de ajustes", "el temporizador del simulacro", "la pestaña de preguntas", etc.
 
-Para qué sirve esa cosa
+¿Para qué sirve esa cosa?
 No sé exactamente a qué te refieres con "esa cosa". ¿Podrías describirme mejor el elemento o botón que te genera duda? Así puedo ayudarte mejor.
 
-Cómo se usa eso?
+¿Cómo se usa eso?
 No sé exactamente a qué te refieres con "eso". ¿Podrías decirme de qué elemento, botón o sección de la aplicación estás hablando? Te explico cómo funciona.
 
-A qué te refieres con eso?
+¿A qué te refieres con eso?
 Creo que hay una confusión. Yo no dije nada, tú preguntaste "eso". ¿A qué elemento o parte de la pantalla te refieres? Dime específicamente y te ayudo.
 
-Esto está confuso?
+¿Esto está confuso?
 ¿Qué es lo que te parece confuso? La aplicación tiene tres pestañas: Estudio SIMO (teoría), Preguntas (exámenes) y Glosario (términos). ¿Cuál de ellas o qué botón te está generando duda?
 
 -----------------------------

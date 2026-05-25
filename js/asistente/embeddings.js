@@ -1,6 +1,6 @@
 // js/asistente/embeddings.js
 // Versión OPTIMIZADA - Usa embeddings pre-calculados (soporta float16)
-// Siempre carga y fusiona el archivo grande (base) y el pequeño (parche)
+// Carga y fusiona TRES archivos: base (grande) + parche (dev) + extra (dev2)
 
 import { pipeline, env } from 'https://cdn.jsdelivr.net/npm/@xenova/transformers@2.7.0';
 
@@ -94,14 +94,15 @@ function limpiarTema(tema) {
 }
 
 // ============================================
-// CARGAR EMBEDDINGS (fusiona grande + pequeño)
+// CARGAR EMBEDDINGS (fusiona base + dev + dev2)
 // ============================================
 async function cargarEmbeddings() {
     console.log('🔍 Cargando embeddings pre-calculados en segundo plano...');
     
     let todosLosFaqs = [];
+    let mapPreguntas = new Map(); // para evitar duplicados (prevalece el último cargado)
     
-    // Función auxiliar para cargar un archivo y devolver sus FAQs
+    // Función auxiliar para cargar un archivo y devolver sus FAQs (sin fusionar aún)
     async function cargarArchivo(archivo, nombre) {
         try {
             const response = await fetch(archivo);
@@ -133,17 +134,38 @@ async function cargarEmbeddings() {
         }
     }
     
-    // Cargar archivo grande (base)
-    const grande = await cargarArchivo('datos/faqs_embeddings.json', 'Base (grande)');
-    if (grande) todosLosFaqs.push(...grande);
+    // Cargar archivo grande (base) - el más antiguo
+    const base = await cargarArchivo('datos/faqs_embeddings.json', 'Base (grande)');
+    if (base) {
+        for (const item of base) {
+            mapPreguntas.set(item.pregunta, item);
+        }
+        todosLosFaqs.push(...base);
+        console.log(`📦 Base cargada: ${base.length} preguntas`);
+    }
     
-    // Cargar archivo pequeño (parche)
-    const pequeno = await cargarArchivo('datos/faqs_dev_embeddings.json', 'Parche (pequeño)');
-    if (pequeno) {
-        todosLosFaqs.push(...pequeno);
-        console.log(`➕ Fusionado: ${grande?.length || 0} (base) + ${pequeno.length} (parche) = ${todosLosFaqs.length} total`);
+    // Cargar archivo dev (parche) - prevalece sobre base
+    const dev = await cargarArchivo('datos/faqs_dev_embeddings.json', 'Parche (dev)');
+    if (dev) {
+        for (const item of dev) {
+            mapPreguntas.set(item.pregunta, item);
+        }
+        // Reconstruir la lista completa a partir del mapa (para mantener orden pero asegurar unicidad)
+        // Nota: esto rompe el orden, pero el embedding funciona igual.
+        todosLosFaqs = Array.from(mapPreguntas.values());
+        console.log(`➕ Fusionado con dev: ${dev.length} preguntas (${todosLosFaqs.length} total únicas)`);
+    }
+    
+    // Cargar archivo dev2 (nuevo activo) - prevalece sobre base y dev
+    const dev2 = await cargarArchivo('datos/faqs_dev2_embeddings.json', 'Extra (dev2)');
+    if (dev2) {
+        for (const item of dev2) {
+            mapPreguntas.set(item.pregunta, item);
+        }
+        todosLosFaqs = Array.from(mapPreguntas.values());
+        console.log(`➕ Fusionado con dev2: ${dev2.length} preguntas (${todosLosFaqs.length} total únicas)`);
     } else {
-        console.log(`📦 Solo base: ${grande?.length || 0} preguntas`);
+        console.log(`ℹ️ No se encontró el archivo faqs_dev2_embeddings.json. Solo usando base + dev.`);
     }
     
     if (todosLosFaqs.length === 0) {
@@ -161,7 +183,7 @@ async function cargarEmbeddings() {
     }
     
     modeloListo = true;
-    console.log(`✅ ${faqs.length} FAQs cargadas en total`);
+    console.log(`✅ Total FAQs cargadas (únicas): ${faqs.length}`);
     
     colaDeEspera.forEach(cb => cb());
     colaDeEspera = [];

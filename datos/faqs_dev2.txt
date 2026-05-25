@@ -1,0 +1,149 @@
+¿El asistente entiende si hablo como costeño o con acento antioqueño?
+Sí, el asistente entiende el significado semántico de la pregunta, no depende del acento. Puedes escribir con tus propias palabras, usando modismos regionales, y el modelo intentará interpretar la intención. Sin embargo, si usas palabras muy locales que no son comunes en el español estándar, es posible que la similitud baje un poco. Se recomienda usar un lenguaje claro pero puedes incluir expresiones coloquiales colombianas.
+
+¿El robot del chat capta si escribo con jerga de la costa?
+Sí, el asistente entiende el significado semántico de la pregunta, no depende del acento. Puedes escribir con tus propias palabras, usando modismos regionales, y el modelo intentará interpretar la intención. Sin embargo, si usas palabras muy locales que no son comunes en el español estándar, es posible que la similitud baje un poco. Se recomienda usar un lenguaje claro pero puedes incluir expresiones coloquiales colombianas.
+
+¿El asistente IA funciona si escribo "vos" en lugar de "tú"?
+Sí, el asistente entiende el significado semántico de la pregunta, no depende del acento. Puedes escribir con tus propias palabras, usando modismos regionales, y el modelo intentará interpretar la intención. Sin embargo, si usas palabras muy locales que no son comunes en el español estándar, es posible que la similitud baje un poco. Se recomienda usar un lenguaje claro pero puedes incluir expresiones coloquiales colombianas.
+
+¿Puedo preguntar usando palabras como "chévere" o "bacano"?
+Sí, el asistente entiende el significado semántico de la pregunta, no depende del acento. Puedes escribir con tus propias palabras, usando modismos regionales, y el modelo intentará interpretar la intención. Sin embargo, si usas palabras muy locales que no son comunes en el español estándar, es posible que la similitud baje un poco. Se recomienda usar un lenguaje claro pero puedes incluir expresiones coloquiales colombianas.
+
+¿El asistente falla si uso modismos de la región andina?
+Sí, el asistente entiende el significado semántico de la pregunta, no depende del acento. Puedes escribir con tus propias palabras, usando modismos regionales, y el modelo intentará interpretar la intención. Sin embargo, si usas palabras muy locales que no son comunes en el español estándar, es posible que la similitud baje un poco. Se recomienda usar un lenguaje claro pero puedes incluir expresiones coloquiales colombianas.
+
+¿Hay un registro de las preguntas que ya respondí en exámenes anteriores?
+No, la herramienta no guarda un historial de los exámenes que has realizado. Cada examen es independiente y los resultados se muestran al final, pero no se almacenan. Puedes exportar a PDF si quieres guardar un registro manual.
+
+¿Puedo ver las preguntas que ya contesté en simulacros pasados?
+No, la herramienta no guarda un historial de los exámenes que has realizado. Cada examen es independiente y los resultados se muestran al final, pero no se almacenan. Puedes exportar a PDF si quieres guardar un registro manual.
+
+¿Dónde encuentro el listado de las preguntas que ya hice en modo estudio?
+No, la herramienta no guarda un historial de los exámenes que has realizado. Cada examen es independiente y los resultados se muestran al final, pero no se almacenan. Puedes exportar a PDF si quieres guardar un registro manual.
+
+¿La aplicación recuerda las preguntas que fallé la semana pasada?
+No, la herramienta no guarda un historial de los exámenes que has realizado. Cada examen es independiente y los resultados se muestran al final, pero no se almacenan. Puedes exportar a PDF si quieres guardar un registro manual.
+
+¿Hay un botón para ver mi historial de respuestas en simulacros anteriores?
+No, la herramienta no guarda un historial de los exámenes que has realizado. Cada examen es independiente y los resultados se muestran al final, pero no se almacenan. Puedes exportar a PDF si quieres guardar un registro manual.
+
+¿La herramienta funciona completamente desconectada de internet después de la primera carga?
+No completamente. El asistente IA necesita conexión a internet en cada sesión. Sin embargo, la mayoría de las otras funciones (pestañas Estudio SIMO, Preguntas, Glosario) sí funcionan offline si descargaste el proyecto completo y tienes los archivos JSON. El asistente IA no funcionará sin internet.
+
+¿Puedo estudiar sin wifi una vez que haya cargado la página?
+Puedes estudiar las secciones de teoría, normas y glosario offline, pero el asistente IA no responderá sin internet. Además, los exámenes (modo estudio y simulacro) no requieren internet una vez que la página está cargada, siempre que hayas descargado todo el proyecto.
+
+¿Necesito estar conectado a internet todo el tiempo para usar ESTUDIO SIMO?
+No todo el tiempo. Para usar el asistente IA sí necesitas internet. Para las demás funciones (leer la convocatoria, normas, hacer exámenes, consultar glosario) puedes hacerlo offline si descargaste el proyecto previamente.
+
+¿El asistente IA funciona offline después de la primera descarga del modelo?
+No, el asistente IA necesita conexión a internet en cada sesión para procesar las preguntas, aunque el modelo ya esté descargado. Sin internet, el chat no responderá.
+
+¿Puedo instalar ESTUDIO SIMO en mi computador para usarlo sin internet para siempre?
+Puedes descargar todos los archivos y abrir index.html localmente, pero el asistente IA seguirá requiriendo internet. El resto de la herramienta funcionará offline.
+
+¿Si pregunto solo "¿Qué es PIN?" sin más palabras, el asistente entiende?
+Sí, la pregunta es válida y el asistente la responderá. El modelo de embeddings busca el significado, no la longitud. "¿Qué es PIN?" es suficientemente clara. Sin embargo, si la pregunta es demasiado ambigua como "¿Eso?" o "¿Aquello?", el asistente te pedirá que seas más específico.
+
+¿Puedo preguntar solo "¿Qué es eso?" y que me responda?
+No, preguntas demasiado cortas y sin contexto como "¿Qué es eso?" o "¿Eso?" no serán entendidas. El asistente te pedirá que especifiques a qué te refieres. Debes incluir el tema, por ejemplo: "¿Qué es el PIN?".
+
+¿Funciona una pregunta de una sola palabra como "¿PIN?"?
+No, el asistente necesita una frase con sentido. "¿PIN?" no es una pregunta completa. Debes formular "¿Qué es el PIN?" o "¿Para qué sirve el PIN?".
+
+¿Qué pasa si escribo solo "¿Cómo?" en el chat?
+El asistente no podrá entender a qué te refieres. Te responderá que no está seguro y te pedirá que reformules con más detalles. Es mejor escribir preguntas completas.
+
+¿Puedo preguntar "¿Cuánto?" y que el asistente adivine que me refiero al costo del PIN?
+No, el contexto no es suficiente. El asistente no adivina. Debes escribir la pregunta completa: "¿Cuánto cuesta el PIN?".
+
+¿Se puede poner el simulacro con más tiempo, por ejemplo 2 minutos por pregunta?
+No, el tiempo del simulacro es fijo: 60 segundos por pregunta (5 minutos para 5 preguntas). No se puede modificar. Está diseñado para simular las condiciones reales del examen SIMO. Si necesitas más tiempo, usa el Modo Estudio, que no tiene límite.
+
+¿Puedo ajustar la velocidad del temporizador del simulacro?
+No, el tiempo del simulacro es fijo. No hay opción para hacerlo más rápido o más lento. La única alternativa es el Modo Estudio, que no tiene temporizador.
+
+¿Hay un modo "práctica" con tiempo extendido?
+No, el simulacro es único. El Modo Estudio no tiene tiempo límite, pero no es un simulacro real. Si quieres practicar sin presión, usa el Modo Estudio.
+
+¿Cómo hago para que el simulacro me dé más tiempo por pregunta?
+No se puede. El tiempo es fijo. Debes entrenar tu velocidad. En el examen real también tendrás 60 segundos por pregunta.
+
+¿Puedo desactivar el temporizador en el simulacro?
+No, el temporizador es parte esencial del simulacro. Si no quieres tiempo, cambia al Modo Estudio.
+
+¿Si el botón SIGUIENTE no funciona, cómo continúo el examen?
+Primero, asegúrate de haber seleccionado una opción de respuesta. El botón SIGUIENTE solo se activa cuando hay una opción elegida. Si ya seleccionaste y sigue sin funcionar, recarga la página (perderás el progreso). También puede ser un error temporal del navegador. Prueba a usar otro navegador actualizado.
+
+El botón SIGUIENTE está gris, ¿qué hago?
+Selecciona una de las opciones de respuesta (haz clic en el círculo). El botón se pondrá azul y podrás avanzar. Si no se activa, recarga la página.
+
+En el simulacro, no me deja pasar a la siguiente pregunta aunque ya elegí una respuesta.
+Asegúrate de que la opción seleccionada esté marcada (el círculo debe estar relleno). Si sigue sin funcionar, prueba a salir del examen (cancelar) y volver a empezar.
+
+¿Hay un atajo de teclado para avanzar en el simulacro si el botón no responde?
+No hay atajo. Dependes del botón. Si no responde, recarga la página. No hay forma de saltar sin usar el botón.
+
+¿El botón SIGUIENTE puede fallar por mi navegador?
+Sí, algunos navegadores antiguos o con extensiones pueden interferir. Prueba en modo incógnito o con otro navegador actualizado.
+
+¿Hay un contador de personas conectadas en la plataforma?
+No, la herramienta no muestra estadísticas de uso ni cuántas personas están conectadas. Es una aplicación privada que no recopila datos de usuarios. No hay contador ni chat general.
+
+¿Puedo ver cuántos enfermeros están estudiando ahora mismo?
+No, la herramienta no tiene funciones sociales ni muestra cuántos usuarios están activos. Cada persona usa la herramienta de forma anónima e independiente.
+
+¿Hay un ranking o tabla de posiciones con otros usuarios?
+No, no hay rankings, no hay comparaciones con otros usuarios. La herramienta es individual y no guarda datos de rendimiento de otros.
+
+¿Qué popularidad tiene ESTUDIO SIMO? ¿Cuántos usuarios hay?
+No se publican cifras de usuarios. La herramienta es gratuita y abierta, pero no se comparten estadísticas de uso.
+
+¿Puedo ver el número de veces que se ha descargado la herramienta?
+No, no hay contadores de descargas. La herramienta se usa en línea o descargando el proyecto, pero no se registran esas métricas.
+
+¿Se puede agrandar o achicar la ventana del chat?
+No, la ventana del asistente tiene un tamaño fijo. No se puede redimensionar manualmente. Sin embargo, en dispositivos móviles se adapta al ancho de la pantalla. En computador, la ventana es de tamaño moderado y no se puede cambiar.
+
+¿Puedo hacer más grande el cuadro del asistente para ver mejor?
+No, el tamaño es fijo. Puedes usar el zoom del navegador (Ctrl +) para agrandar todo, pero la ventana del chat se mantiene proporcionada.
+
+¿Hay opción para poner el chat a pantalla completa?
+No, no hay modo pantalla completa para el chat. La ventana es flotante y tiene un tamaño predefinido.
+
+¿Puedo mover la ventana del asistente a otra posición?
+No, la ventana está fija en la esquina inferior derecha (en PC) o en el header (en celular). No es arrastrable.
+
+¿Cómo ajusto el tamaño del chat si no veo bien las respuestas?
+No se puede ajustar. Te recomendamos usar el modo oscuro y aumentar el tamaño de letra desde los ajustes generales (⚙️) para mejorar la legibilidad.
+
+¿Dónde veo el número de versión de la herramienta?
+Actualmente la herramienta no muestra un número de versión visible en la interfaz. Puedes consultar el repositorio de GitHub (si es de código abierto) o revisar la fecha de modificación de los archivos. En futuras versiones podría incluirse un indicador.
+
+¿Cómo sé si tengo la última versión de ESTUDIO SIMO?
+No hay un sistema de actualización automática. Debes comparar manualmente la fecha de descarga con la última publicación del repositorio. La herramienta en línea se actualiza cuando se sube una nueva versión al servidor.
+
+¿Hay un apartado "Acerca de" o "Créditos" con la versión?
+No, actualmente no hay una sección "Acerca de". Puedes revisar el archivo `Contexto.txt` que a veces incluye la versión, pero no está en la interfaz.
+
+¿Puedo consultar la versión desde la consola del navegador?
+Técnicamente, si el código expone una variable global, podrías verla. Pero no es una funcionalidad para el usuario común. No hay una forma sencilla.
+
+¿Cómo me entero de las novedades de la herramienta?
+Las novedades se publican en el repositorio de GitHub o en la página de la herramienta. El asistente IA no envía notificaciones. Debes revisar periódicamente.
+
+¿Hay un modo para practicar solo las preguntas que respondí mal en simulacros anteriores?
+No, la herramienta no guarda el historial de preguntas falladas entre sesiones. Sin embargo, en el simulacro actual, al final puedes ver las preguntas falladas (sección "VER PREGUNTAS FALLADAS") y puedes copiarlas o anotarlas para repasar después. No hay un modo que genere un examen automático solo con las que fallaste.
+
+¿Puedo crear un examen personalizado con mis errores?
+No, no hay función para generar exámenes personalizados. Puedes repetir el mismo simulacro varias veces, pero las preguntas son aleatorias. Para repasar tus fallos, te recomendamos copiarlos manualmente.
+
+¿La aplicación guarda un banco de mis preguntas incorrectas para repasarlas después?
+No, no guarda históricamente. Solo en el resultado del simulacro actual puedes ver las falladas. Si quieres conservarlas, exporta el PDF o copia el texto.
+
+¿Cómo hago para repasar únicamente lo que he fallado?
+Puedes, después de cada simulacro, abrir la sección "VER PREGUNTAS FALLADAS", copiar las preguntas y respuestas correctas a un documento aparte, y luego estudiar ese documento. La herramienta no automatiza ese proceso.
+
+¿Hay un modo "repaso de errores" como en otras plataformas?
+No, ESTUDIO SIMO no tiene esa funcionalidad. Es una herramienta de práctica y estudio, pero no incluye seguimiento de errores entre sesiones.

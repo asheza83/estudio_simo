@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generador de FAQs (desarrollo) - faqs_dev_embeddings.json</title>
+    <title>Generador de FAQs (dinámico) - embeddings</title>
     <style>
         * { box-sizing: border-box; }
         body {
@@ -46,16 +46,17 @@
 </head>
 <body>
 <div class="container">
-    <h1>🧪 Generador de FAQs (modo desarrollo)</h1>
-    <div class="sub">Carga <code>faqs_dev.txt</code> → obtendrás <code>faqs_dev_embeddings.json</code> (float16).</div>
+    <h1>🧪 Generador de FAQs (dinámico)</h1>
+    <div class="sub">Carga cualquier archivo <code>faqs_*.txt</code> → obtendrás <code>faqs_*_embeddings.json</code> (float16).</div>
 
     <div class="card">
-        <label>📂 1. Selecciona tu archivo <code>faqs_dev.txt</code></label>
+        <label>📂 1. Selecciona tu archivo <code>faqs_devX.txt</code> (o cualquier nombre)</label>
         <input type="file" id="fileInput" accept=".txt,.text/plain">
         <p style="font-size:0.8rem; margin-top:0.5rem; color:#4b5563">
-            Formato: pregunta en una línea, respuesta en la siguiente, opcional línea en blanco entre pares.
+            Formato: pregunta en una línea (con ¿ y ?), respuesta en la siguiente, línea en blanco entre pares.
         </p>
         <button id="generateBtn" disabled>⚙️ Generar embeddings (float16) y descargar JSON</button>
+        <div id="outputNameInfo" style="margin-top: 0.8rem; font-size: 0.85rem; color: #1e6f9f;"></div>
     </div>
 
     <div id="statusArea" class="progress-area" style="display: none;">
@@ -66,8 +67,8 @@
     <div id="downloadSection" style="display: none;"></div>
     <div class="footer">
         ⚡ Modelo <strong>Xenova/all-MiniLM-L6-v2</strong> (384 dims). Los embeddings se convierten a float16.<br>
-        ✅ <strong>Archivo generado:</strong> <code>faqs_dev_embeddings.json</code> (versión float16).<br>
-        💡 Recuerda usar <code>?modo=dev</code> en la URL de tu aplicación para que cargue este archivo.
+        ✅ <strong>Archivo generado:</strong> <code>[nombre_base]_embeddings.json</code> (versión float16).<br>
+        💡 Coloca el archivo generado en la carpeta <code>datos/</code> y actualiza <code>embeddings.js</code> para cargarlo.
     </div>
 </div>
 
@@ -122,6 +123,7 @@
     
     let extractor = null;
     let modelLoading = false;
+    let currentBaseName = null;   // nombre base sin extensión del archivo cargado
     
     const fileInput = document.getElementById('fileInput');
     const generateBtn = document.getElementById('generateBtn');
@@ -129,6 +131,7 @@
     const progressText = document.getElementById('progressText');
     const logArea = document.getElementById('logArea');
     const downloadSection = document.getElementById('downloadSection');
+    const outputNameInfo = document.getElementById('outputNameInfo');
     
     function addLog(msg, isError = false) {
         const prefix = isError ? '❌ ' : '✅ ';
@@ -222,7 +225,7 @@
         return faqsWithFloat16;
     }
     
-    function downloadJSON(data, filename = 'faqs_dev_embeddings.json') {
+    function downloadJSON(data, filename) {
         const jsonStr = JSON.stringify(data, null, 2);
         const blob = new Blob([jsonStr], { type: 'application/json' });
         const url = URL.createObjectURL(blob);
@@ -240,8 +243,16 @@
         if (!file) {
             generateBtn.disabled = true;
             downloadSection.style.display = 'none';
+            outputNameInfo.innerHTML = '';
+            currentBaseName = null;
             return;
         }
+        // Obtener nombre base sin extensión
+        const fullName = file.name;
+        const lastDot = fullName.lastIndexOf('.');
+        const baseName = lastDot === -1 ? fullName : fullName.substring(0, lastDot);
+        currentBaseName = baseName;
+        outputNameInfo.innerHTML = `📝 Archivo de salida: <strong>${baseName}_embeddings.json</strong>`;
         generateBtn.disabled = false;
         downloadSection.innerHTML = '';
         downloadSection.style.display = 'none';
@@ -271,17 +282,18 @@
                 };
                 addLog(`✨ Generados ${faqsWithFloat16.length} embeddings en formato float16.`);
                 progressText.innerText = '¡Proceso completado! Haz clic para descargar.';
+                const outputFilename = `${currentBaseName}_embeddings.json`;
                 downloadSection.style.display = 'block';
                 downloadSection.innerHTML = `
                     <div class="success">
                         🎉 ¡Éxito! Se generaron ${faqsWithFloat16.length} preguntas con vectores float16.
                         <br><br>
-                        <button id="downloadBtn">📥 Descargar faqs_dev_embeddings.json</button>
+                        <button id="downloadBtn">📥 Descargar ${outputFilename}</button>
                     </div>
                 `;
                 const downloadBtn = document.getElementById('downloadBtn');
                 downloadBtn.addEventListener('click', () => {
-                    downloadJSON(outputData, 'faqs_dev_embeddings.json');
+                    downloadJSON(outputData, outputFilename);
                 });
                 generateBtn.disabled = false;
             } catch (err) {
@@ -293,7 +305,7 @@
         reader.readAsText(file, 'UTF-8');
     });
     
-    addLog('Esperando archivo faqs_dev.txt... El modelo se descargará al procesar.');
+    addLog('Esperando archivo FAQ (ej. faqs_dev2.txt). El modelo se descargará al procesar.');
 </script>
 </body>
 </html>
