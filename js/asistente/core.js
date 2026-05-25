@@ -33,7 +33,84 @@ const COMPATIBILIDAD = {
     'resultados examen': ['calificacion', 'puntaje', 'nota', 'aciertos', 'fallos', 'preguntas falladas'],
     'tiempos': ['temporizador', 'barra de tiempo', 'segundos restantes'],
     'historial': ['guardar progreso', 'continuar examen', 'retomar'],
-    'cancelar': ['cancelar examen', 'borrar progreso']
+    'cancelar': ['cancelar examen', 'borrar progreso'],
+    'triage': ['triage', 'triaje', 'clasificacion', 'clasificaciones', 'tipos', 'niveles', 'prioridad', 'urgencias', 'codigo', 'atencion'],
+    'bipolar': ['bipolar', 'trastorno bipolar', 'mania', 'depresion', 'ciclotimia', 'episodios', 'estabilizadores'],
+    'depresion': ['depresion', 'tristeza', 'trastorno depresivo', 'antidepresivos', 'sintomas', 'tratamiento'],
+    'ansiedad': ['ansiedad', 'ataque de panico', 'fobia', 'estres', 'ansioliticos', 'preocupacion'],
+    'psicosis': ['psicosis', 'esquizofrenia', 'delirios', 'alucinaciones', 'antipsicoticos'],
+    'farmacos': ['medicamentos', 'psicofarmacos', 'antidepresivos', 'antipsicoticos', 'estabilizadores', 'benzodiacepinas'],
+    'niveles atencion': ['niveles de atencion', 'primario', 'secundario', 'terciario', 'complejidad'],
+    'caidas': ['caidas', 'riesgo de caidas', 'morse', 'prevencion de caidas', 'barandas'],
+    // ========== NUEVAS ENTRADAS PARA CONTEXTO CLÍNICO Y DE ENFERMERÍA ==========
+    'esquizofrenia': ['esquizofrenia', 'psicosis', 'delirios', 'alucinaciones', 'trastorno psicotico', 'antipsicoticos'],
+    'toc': ['toc', 'trastorno obsesivo compulsivo', 'obsesiones', 'compulsiones'],
+    'tept': ['tept', 'estres postraumatico', 'trauma', 'estres post-traumatico', 'pesadillas'],
+    'trastorno alimentario': ['anorexia', 'bulimia', 'trastorno alimentario', 'trastorno de la conducta alimentaria', 'atracones'],
+    'tdah': ['tdah', 'deficit atencion', 'hiperactividad', 'trastorno por deficit de atencion', 'impulsividad'],
+    'sustancias': ['abuso de sustancias', 'drogas', 'alcohol', 'farmacodependencia', 'adiccion', 'sustancias psicoactivas'],
+    'panico': ['ataque de panico', 'crisis de panico', 'panic', 'agorafobia'],
+    'ansiedad social': ['ansiedad social', 'fobia social', 'timidez extrema', 'miedo a hablar en publico'],
+    'tag': ['tag', 'ansiedad generalizada', 'preocupacion excesiva'],
+    'insomnio': ['insomnio', 'dificultad para dormir', 'trastorno del sueño', 'hipersomnia'],
+    'demencia': ['demencia', 'alzheimer', 'deterioro cognitivo', 'perdida de memoria'],
+    // Procedimientos y cuidados
+    'administracion medicamentos': ['administracion de medicamentos', '5 correctos', 'dosis', 'via oral', 'via intravenosa', 'via intramuscular', 'inyeccion', 'jarabe'],
+    'signos vitales': ['signos vitales', 'temperatura', 'pulso', 'respiracion', 'presion arterial', 'saturacion', 'toma de signos'],
+    'curaciones': ['curacion', 'cura de heridas', 'aposito', 'vendaje', 'limpieza de herida', 'antisepsia'],
+    'sondas': ['sonda nasogastrica', 'sonda vesical', 'sonda foley', 'colocacion de sonda', 'retiro de sonda'],
+    'bioseguridad': ['bioseguridad', 'lavado de manos', 'guantes', 'bata', 'mascarilla', 'epi', 'residuos hospitalarios', 'gafas'],
+    'rcp': ['rcp', 'reanimacion cardiopulmonar', 'codigo azul', 'paro cardiaco', 'maniobras de reanimacion', 'desfibrilador'],
+    'contencion': ['contencion', 'contencion mecanica', 'contencion fisica', 'sujecion', 'paciente agresivo', 'crisis de agitacion'],
+    'historia clinica': ['historia clinica', 'registro clinico', 'evolucion', 'nota de enfermeria', 'resolucion 1995'],
+    'consentimiento informado': ['consentimiento informado', 'autorizacion', 'procedimiento invasivo', 'informacion al paciente', 'firma'],
+    'escalas valoracion': ['escala morse', 'escala de braden', 'escala de glasgow', 'escala de downton', 'valoracion riesgo', 'escala de norton'],
+    // Normas y entidades del sistema de salud
+    'sgsss': ['sgsss', 'sistema general de seguridad social en salud', 'ley 100', 'seguridad social'],
+    'eps': ['eps', 'entidad promotora de salud', 'aseguramiento'],
+    'ips': ['ips', 'institucion prestadora de servicios de salud', 'clinica', 'hospital'],
+    'ese': ['ese', 'empresa social del estado', 'hospital publico'],
+    'adres': ['adres', 'administradora de recursos del sgsss', 'fosyga', 'giros'],
+    'supersalud': ['supersalud', 'superintendencia nacional de salud', 'vigilancia', 'control', 'queja'],
+    'pbs': ['pbs', 'plan de beneficios en salud', 'pos', 'servicios garantizados'],
+    'rias': ['rias', 'rutas integrales de atencion en salud', 'ruta de atencion'],
+    'sogc': ['sogc', 'sistema obligatorio de garantia de calidad', 'calidad', 'habilitacion', 'acreditacion'],
+    'decreto1011': ['decreto 1011', 'decreto 1011 de 2006', 'sogc', 'calidad'],
+    'decreto780': ['decreto 780', 'decreto unico reglamentario', 'compilado normas'],
+    'resolucion2292': ['resolucion 2292', 'pbs', 'plan de beneficios'],
+    'resolucion3100': ['resolucion 3100', 'habilitacion', 'estandares minimos'],
+    'resolucion3280': ['resolucion 3280', 'rias', 'rutas atencion'],
+    'resolucion1995': ['resolucion 1995', 'historia clinica', 'registros'],
+    'resolucion1444': ['resolucion 1444', 'talento humano', 'recertificacion'],
+    'resolucion256': ['resolucion 256', 'indicadores calidad', 'tasa errores'],
+    // Competencias SIMO (refuerzo)
+    'logica': ['razonamiento logico', 'silogismo', 'premisa', 'conclusion', 'contrarreciproco'],
+    'matematicas': ['razonamiento matematico', 'regla de tres', 'porcentaje', 'dosis', 'calculo personal'],
+    'lectura': ['comprension lectora', 'idea principal', 'inferencia', 'sinonimos', 'hecho vs opinion'],
+    'etica': ['etica profesional', 'confidencialidad', 'reporte error', 'autonomia', 'dilema etico'],
+    'trabajo equipo': ['trabajo en equipo', 'roles', 'cambio de turno', 'coordinacion', 'crisis'],
+    'servicio': ['orientacion al servicio', 'empatia', 'comunicacion con familiares', 'paciente ansioso'],
+    // Funcionalidades de la herramienta
+    'guardar progreso': ['guardar progreso', 'cambiar pestaña', 'continuar examen', 'retomar examen'],
+    'preguntas falladas': ['preguntas falladas', 'ver preguntas falladas', 'errores simulacro', 'fallos'],
+    'exportar pdf': ['exportar pdf', 'descargar resultados', 'pdf simulacro', 'resultados pdf'],
+    'modo oscuro': ['modo oscuro', 'tema oscuro', 'noche', 'oscurecer interfaz'],
+    'tamaño letra': ['tamaño letra', 'fuente', 'agrandar letra', 'disminuir letra', 'zoom texto'],
+    'boton subir': ['boton subir', 'flecha subir', 'scroll arriba', 'volver arriba', 'subir pagina'],
+    'asistente ia': ['asistente', 'chat', 'bot', 'preguntar al asistente', 'ia', 'inteligencia artificial', 'confirmacion', 'zona gris'],
+    'glosario': ['glosario', 'termino', 'definicion', 'siglas', 'buscar palabra', 'filtrar', 'categoria', 'letra inicial'],
+    'casos practicos': ['caso practico', 'casos practicos', 'dilema etico', 'situacion real', 'respuesta orientativa'],
+    'procedimientos': ['procedimiento de enfermeria', 'procedimientos', 'cuidado', 'protocolo', 'seguridad del paciente'],
+    // Convocatoria y trámites
+    'inscripciones': ['inscripciones', 'fechas inscripcion', 'segundo semestre 2026', 'julio agosto'],
+    'modalidades': ['ascenso', 'abierto', 'ascenso general', 'abierto general', 'discapacidad', 'modalidad'],
+    'pin': ['pin', 'costo pin', 'pago pin', 'recuperar pin', 'derecho participacion'],
+    'antecedentes': ['procuraduria', 'policia', 'contraloria', 'fiscales', 'judiciales', 'disciplinarios', 'certificado'],
+    'verificacion requisitos': ['verificacion requisitos', 'verificacion documental', 'requisitos minimos', 'subsanar'],
+    'pruebas escritas': ['pruebas escritas', 'examen escrito', 'preguntas concurso', 'tiempo prueba'],
+    'lista elegibles': ['lista elegibles', 'orden merito', 'resultados', 'publicacion resultados'],
+    'periodo prueba': ['periodo prueba', 'periodo de prueba', 'seis meses', 'evaluacion desempeño'],
+    'opec': ['opec', 'oferta publica empleo carrera', 'vacante', 'numero opec']
 };
 
 // Palabras clave para detectar preguntas de propósito (sin embeddings)
@@ -87,7 +164,15 @@ export function agregarMensaje(texto, esUsuario, tema = null) {
     div.textContent = texto;
     body.appendChild(div);
     body.scrollTop = body.scrollHeight;
-    historialConversacion.push({ rol: esUsuario ? 'usuario' : 'bot', texto: texto, tema: tema });
+    
+    // Normalizar tema: eliminar artículos, espacios, minúsculas
+    let temaNormalizado = tema;
+    if (temaNormalizado) {
+        temaNormalizado = temaNormalizado.toLowerCase()
+            .replace(/^(el |la |los |las )/, '')  // quita artículo al inicio
+            .trim();
+    }
+    historialConversacion.push({ rol: esUsuario ? 'usuario' : 'bot', texto: texto, tema: temaNormalizado });
     if (historialConversacion.length > 10) historialConversacion.shift();
 }
 

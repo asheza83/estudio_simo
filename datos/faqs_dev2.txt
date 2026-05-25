@@ -147,3 +147,1517 @@ Puedes, después de cada simulacro, abrir la sección "VER PREGUNTAS FALLADAS", 
 
 ¿Hay un modo "repaso de errores" como en otras plataformas?
 No, ESTUDIO SIMO no tiene esa funcionalidad. Es una herramienta de práctica y estudio, pero no incluye seguimiento de errores entre sesiones.
+
+¿En modo estudio puedo reorganizar las opciones de respuesta para que salgan en otro orden?
+No, el orden de las opciones de respuesta es fijo. Las preguntas tienen una opción correcta y tres incorrectas en un orden que no se puede cambiar dentro de la misma pregunta. Si quieres ver las opciones en otro orden, debes repetir el examen y se cargarán preguntas diferentes, pero dentro de cada pregunta el orden sigue siendo fijo.
+
+¿Puedo cambiar el orden en que aparecen las opciones de respuesta en modo estudio?
+No, el orden de las opciones de respuesta es fijo. Las preguntas tienen una opción correcta y tres incorrectas en un orden que no se puede cambiar dentro de la misma pregunta. Si quieres ver las opciones en otro orden, debes repetir el examen y se cargarán preguntas diferentes, pero dentro de cada pregunta el orden sigue siendo fijo.
+
+¿Las respuestas múltiples se pueden reordenar para que no salgan siempre igual?
+No, el orden de las opciones de respuesta es fijo. Las preguntas tienen una opción correcta y tres incorrectas en un orden que no se puede cambiar dentro de la misma pregunta. Si quieres ver las opciones en otro orden, debes repetir el examen y se cargarán preguntas diferentes, pero dentro de cada pregunta el orden sigue siendo fijo.
+
+¿En modo estudio, puedo mezclar las opciones de respuesta para que no sean las mismas siempre?
+No, el orden de las opciones de respuesta es fijo. Las preguntas tienen una opción correcta y tres incorrectas en un orden que no se puede cambiar dentro de la misma pregunta. Si quieres ver las opciones en otro orden, debes repetir el examen y se cargarán preguntas diferentes, pero dentro de cada pregunta el orden sigue siendo fijo.
+
+¿Hay forma de que las alternativas de respuesta aparezcan en orden aleatorio en modo estudio?
+No, el orden de las opciones de respuesta es fijo. Las preguntas tienen una opción correcta y tres incorrectas en un orden que no se puede cambiar dentro de la misma pregunta. Si quieres ver las opciones en otro orden, debes repetir el examen y se cargarán preguntas diferentes, pero dentro de cada pregunta el orden sigue siendo fijo.
+
+¿Qué hace el botón CAMBIAR DE COMPETENCIA que aparece al final del examen?
+El botón "CAMBIAR DE COMPETENCIA" te lleva de vuelta a la pantalla donde puedes elegir otro tipo de competencia (básicas, funcionales o comportamentales) y otra subcategoría para practicar. No guarda el examen que acabas de hacer; simplemente te permite cambiar de área de estudio.
+
+¿Para qué sirve el botón "CAMBIAR DE COMPETENCIA" después de terminar el examen?
+El botón "CAMBIAR DE COMPETENCIA" te lleva de vuelta a la pantalla donde puedes elegir otro tipo de competencia (básicas, funcionales o comportamentales) y otra subcategoría para practicar. No guarda el examen que acabas de hacer; simplemente te permite cambiar de área de estudio.
+
+¿Qué pasa si le doy a "CAMBIAR DE COMPETENCIA" en los resultados?
+El botón "CAMBIAR DE COMPETENCIA" te lleva de vuelta a la pantalla donde puedes elegir otro tipo de competencia (básicas, funcionales o comportamentales) y otra subcategoría para practicar. No guarda el examen que acabas de hacer; simplemente te permite cambiar de área de estudio.
+
+¿El botón "CAMBIAR DE COMPETENCIA" me lleva a elegir otro tipo de preguntas?
+El botón "CAMBIAR DE COMPETENCIA" te lleva de vuelta a la pantalla donde puedes elegir otro tipo de competencia (básicas, funcionales o comportamentales) y otra subcategoría para practicar. No guarda el examen que acabas de hacer; simplemente te permite cambiar de área de estudio.
+
+¿Después del examen, "CAMBIAR DE COMPETENCIA" me deja practicar otra área?
+El botón "CAMBIAR DE COMPETENCIA" te lleva de vuelta a la pantalla donde puedes elegir otro tipo de competencia (básicas, funcionales o comportamentales) y otra subcategoría para practicar. No guarda el examen que acabas de hacer; simplemente te permite cambiar de área de estudio.
+
+¿En el simulacro puedo ver cuántas llevo buenas hasta el momento?
+No, durante el simulacro no se muestra cuántas preguntas has acertado. Solo al final obtienes el resumen con tu puntaje total y las respuestas correctas e incorrectas. Esto es igual que en el examen real de la CNSC, donde tampoco hay feedback durante la prueba.
+
+¿El simulacro muestra un contador de aciertos en tiempo real?
+No, durante el simulacro no se muestra cuántas preguntas has acertado. Solo al final obtienes el resumen con tu puntaje total y las respuestas correctas e incorrectas. Esto es igual que en el examen real de la CNSC, donde tampoco hay feedback durante la prueba.
+
+¿Puedo ver cuántas preguntas he respondido bien durante el examen?
+No, durante el simulacro no se muestra cuántas preguntas has acertado. Solo al final obtienes el resumen con tu puntaje total y las respuestas correctas e incorrectas. Esto es igual que en el examen real de la CNSC, donde tampoco hay feedback durante la prueba.
+
+¿Mientras hago el simulacro, puedo saber mi puntaje parcial?
+No, durante el simulacro no se muestra cuántas preguntas has acertado. Solo al final obtienes el resumen con tu puntaje total y las respuestas correctas e incorrectas. Esto es igual que en el examen real de la CNSC, donde tampoco hay feedback durante la prueba.
+
+¿Hay forma de ver cuántas correctas llevo sin tener que terminar el simulacro?
+No, durante el simulacro no se muestra cuántas preguntas has acertado. Solo al final obtienes el resumen con tu puntaje total y las respuestas correctas e incorrectas. Esto es igual que en el examen real de la CNSC, donde tampoco hay feedback durante la prueba.
+
+¿Hay opción de marcar preguntas como "dudosas" para revisarlas al final del simulacro?
+No, el simulacro no tiene función para marcar preguntas. Tampoco puedes volver atrás una vez que avanzas. Debes responder cada pregunta en el orden dado y no puedes revisar respuestas anteriores. Es una simulación fiel del examen real de la CNSC.
+
+¿Puedo señalar una pregunta en el simulacro para volver a ella más tarde?
+No, el simulacro no tiene función para marcar preguntas. Tampoco puedes volver atrás una vez que avanzas. Debes responder cada pregunta en el orden dado y no puedes revisar respuestas anteriores. Es una simulación fiel del examen real de la CNSC.
+
+¿Existe una función de "marcar para revisar" en el simulacro?
+No, el simulacro no tiene función para marcar preguntas. Tampoco puedes volver atrás una vez que avanzas. Debes responder cada pregunta en el orden dado y no puedes revisar respuestas anteriores. Es una simulación fiel del examen real de la CNSC.
+
+¿Puedo dejar una pregunta pendiente y responderla después en el simulacro?
+No, el simulacro no tiene función para marcar preguntas. Tampoco puedes volver atrás una vez que avanzas. Debes responder cada pregunta en el orden dado y no puedes revisar respuestas anteriores. Es una simulación fiel del examen real de la CNSC.
+
+¿El simulacro permite marcar preguntas que quiero repasar al final?
+No, el simulacro no tiene función para marcar preguntas. Tampoco puedes volver atrás una vez que avanzas. Debes responder cada pregunta en el orden dado y no puedes revisar respuestas anteriores. Es una simulación fiel del examen real de la CNSC.
+
+¿Qué pasa si tengo una emergencia y debo salir del examen? ¿Puedo reanudarlo después?
+Sí, si cambias de pestaña dentro de la misma ventana del navegador (por ejemplo, vas a la pestaña Glosario o Estudio SIMO), el progreso se guarda automáticamente. Al volver a la pestaña Preguntas, te preguntará si quieres continuar donde lo dejaste. Pero si cierras el navegador o la pestaña, el progreso se pierde.
+
+¿Si me voy a otra pestaña durante el examen, puedo retomarlo después?
+Sí, si cambias de pestaña dentro de la misma ventana del navegador (por ejemplo, vas a la pestaña Glosario o Estudio SIMO), el progreso se guarda automáticamente. Al volver a la pestaña Preguntas, te preguntará si quieres continuar donde lo dejaste. Pero si cierras el navegador o la pestaña, el progreso se pierde.
+
+¿Puedo salir del examen a la mitad y volver a entrar sin perder las respuestas?
+Sí, si cambias de pestaña dentro de la misma ventana del navegador (por ejemplo, vas a la pestaña Glosario o Estudio SIMO), el progreso se guarda automáticamente. Al volver a la pestaña Preguntas, te preguntará si quieres continuar donde lo dejaste. Pero si cierras el navegador o la pestaña, el progreso se pierde.
+
+¿Si cierro la ventana del examen por error, puedo recuperar lo que llevaba?
+No, el progreso solo se guarda al cambiar de pestaña dentro de la misma ventana. Si cierras el navegador o la pestaña, el progreso se pierde permanentemente. No hay forma de recuperarlo.
+
+¿Cómo hago para no perder el examen si me urge salir?
+Cambia a otra pestaña dentro de la misma ventana (por ejemplo, a Estudio SIMO o Glosario). El sistema guarda automáticamente. Luego puedes cerrar la ventana del navegador sin problemas, pero al volver a abrir la página, deberás ir a la pestaña Preguntas y el sistema te preguntará si quieres retomar el examen. Eso sí, no cierres la pestaña directamente; primero cambia de pestaña interna.
+
+¿El temporizador del simulacro hace algún sonido cuando se acaba el tiempo?
+No, el temporizador del simulacro no emite ningún sonido. La alerta es completamente visual: la barra de tiempo cambia de color a rojo y los últimos 5 segundos parpadean, pero nunca suena nada. Puedes estar tranquilo, no te asustará un pitido.
+
+¿Puedo activar un sonido para el final del tiempo en el simulacro?
+No, el simulacro no tiene sonidos de ningún tipo. Todas las alertas son visuales. No hay opción para activar sonidos.
+
+¿Hay alguna notificación sonora cuando se acaba el tiempo del simulacro?
+No, no hay sonido. Solo verás que la barra de tiempo se pone roja y parpadea. Si quieres una alarma, puedes poner una externa en tu teléfono, pero la herramienta no la genera.
+
+¿Por qué no suena nada cuando se acaba el tiempo?
+Por diseño, la herramienta es completamente silenciosa para no distraer. Las alertas son solo visuales (cambios de color y parpadeo).
+
+¿Puedo poner un pitido personalizado para el final del tiempo?
+No, la herramienta no tiene sonidos. No se puede personalizar nada relacionado con sonido.
+
+¿En modo estudio el botón se llama verificar y en simulacro siguiente? ¿Por qué son diferentes?
+Sí, son diferentes porque los modos tienen objetivos distintos. En modo estudio, el botón se llama VERIFICAR y al hacer clic te dice si acertaste o fallaste inmediatamente. En modo simulacro, el botón se llama SIGUIENTE y solo avanza a la siguiente pregunta sin darte feedback hasta el final. Así se simula el examen real.
+
+¿Por qué en modo estudio hay un botón VERIFICAR y en simulacro no?
+En modo estudio necesitas verificar para recibir retroalimentación y aprender. En simulacro no hay retroalimentación hasta el final, por eso solo hay un botón para avanzar.
+
+¿En el simulacro puedo verificar mi respuesta antes de seguir?
+No, en simulacro no hay botón VERIFICAR. Solo puedes avanzar con SIGUIENTE y no sabes si acertaste hasta el final del examen.
+
+¿Qué pasa si en modo estudio no verifico y trato de pasar a la siguiente pregunta?
+No puedes. El botón "Siguiente" está deshabilitado hasta que hagas clic en VERIFICAR. Primero debes comprobar tu respuesta.
+
+¿En modo estudio, después de verificar, puedo cambiar la respuesta?
+No, una vez que verificas, la respuesta queda guardada. Pero tienes hasta 4 intentos por pregunta; puedes volver a intentar con otra respuesta usando el botón que aparece después de fallar.
+
+¿Puedo hacer el simulacro con mis compañeros al mismo tiempo y comparar resultados?
+No hay modo grupal. Cada persona debe hacer el simulacro en su propio dispositivo. Luego pueden exportar los resultados a PDF y compararlos manualmente. La herramienta no tiene funciones de multijugador ni chat en vivo.
+
+¿Hay una función para competir con otros usuarios en el simulacro?
+No, la herramienta es individual. No hay rankings, tablas de posiciones ni comparaciones automáticas. Cada quien practica por su cuenta.
+
+¿Puedo invitar a un amigo a hacer el simulacro conmigo en la misma sesión?
+No, no hay sesiones compartidas. Cada uno debe abrir la herramienta en su navegador y hacer su propio simulacro. Pueden compartir pantalla si quieren verse, pero la herramienta no lo facilita.
+
+¿El simulacro tiene modo multijugador?
+No, es una herramienta de estudio personal. No tiene funciones sociales ni competitivas.
+
+¿Cómo puedo hacer un simulacro con mis compañeros y ver quién saca más puntaje?
+Cada uno hace el simulacro por separado, exporta su PDF, y luego comparan los puntajes manualmente. No hay una tabla de clasificación automática.
+
+¿Puedo agrandar la letra solo en las preguntas del examen sin que se agrande todo lo demás?
+No, el ajuste de tamaño de letra en el botón de Ajustes (⚙️) es global: aumenta o disminuye el tamaño de toda la interfaz (preguntas, botones, menús, glosario, etc.). No se puede personalizar solo para las preguntas.
+
+¿Hay forma de aumentar el tamaño de la letra únicamente en las preguntas del test?
+No, el ajuste de tamaño de letra en el botón de Ajustes (⚙️) es global: aumenta o disminuye el tamaño de toda la interfaz (preguntas, botones, menús, glosario, etc.). No se puede personalizar solo para las preguntas.
+
+¿Puedo hacer más grande el texto de las preguntas pero que los menús sigan igual?
+No, el ajuste de tamaño de letra en el botón de Ajustes (⚙️) es global: aumenta o disminuye el tamaño de toda la interfaz (preguntas, botones, menús, glosario, etc.). No se puede personalizar solo para las preguntas.
+
+¿El ajuste de tamaño de letra afecta solo a las preguntas o a toda la página?
+No, el ajuste de tamaño de letra en el botón de Ajustes (⚙️) es global: aumenta o disminuye el tamaño de toda la interfaz (preguntas, botones, menús, glosario, etc.). No se puede personalizar solo para las preguntas.
+
+¿Cómo agrando solo la fuente de los enunciados del examen?
+No, el ajuste de tamaño de letra en el botón de Ajustes (⚙️) es global: aumenta o disminuye el tamaño de toda la interfaz (preguntas, botones, menús, glosario, etc.). No se puede personalizar solo para las preguntas.
+
+¿Qué significa el ícono del reloj que sale en los resultados del modo estudio?
+El ícono ⏰ significa que el tiempo se acabó para esa pregunta. Pero en el modo estudio no hay límite de tiempo, por lo que este ícono no debería aparecer (es un vestigio que podría aparecer en algunos casos excepcionales). Si lo ves, ignóralo; el modo estudio no tiene temporizador.
+
+¿Para qué sirve ese relojito que aparece en los resultados?
+El ícono ⏰ significa que el tiempo se acabó para esa pregunta. Pero en el modo estudio no hay límite de tiempo, por lo que este ícono no debería aparecer (es un vestigio que podría aparecer en algunos casos excepcionales). Si lo ves, ignóralo; el modo estudio no tiene temporizador.
+
+¿Qué indica el icono de tiempo en el resumen del modo estudio?
+El ícono ⏰ significa que el tiempo se acabó para esa pregunta. Pero en el modo estudio no hay límite de tiempo, por lo que este ícono no debería aparecer (es un vestigio que podría aparecer en algunos casos excepcionales). Si lo ves, ignóralo; el modo estudio no tiene temporizador.
+
+En modo estudio, ¿qué significa cuando me sale un reloj en la corrección?
+El ícono ⏰ significa que el tiempo se acabó para esa pregunta. Pero en el modo estudio no hay límite de tiempo, por lo que este ícono no debería aparecer (es un vestigio que podría aparecer en algunos casos excepcionales). Si lo ves, ignóralo; el modo estudio no tiene temporizador.
+
+¿Qué quiere decir el símbolo ⏰ al lado de una pregunta en modo estudio?
+El ícono ⏰ significa que el tiempo se acabó para esa pregunta. Pero en el modo estudio no hay límite de tiempo, por lo que este ícono no debería aparecer (es un vestigio que podría aparecer en algunos casos excepcionales). Si lo ves, ignóralo; el modo estudio no tiene temporizador.
+
+¿Hay un modo para generar un examen solo con las preguntas que fallé en simulacros pasados?
+No, la herramienta no guarda un historial de tus fallos entre sesiones. Solo en el simulacro actual puedes ver las preguntas falladas (sección "VER PREGUNTAS FALLADAS"), pero no puedes generar un examen nuevo con solo esas. Puedes copiarlas manualmente para repasarlas después.
+
+¿Puedo practicar únicamente las preguntas que respondí mal antes?
+No, la herramienta no guarda un historial de tus fallos entre sesiones. Solo en el simulacro actual puedes ver las preguntas falladas (sección "VER PREGUNTAS FALLADAS"), pero no puedes generar un examen nuevo con solo esas. Puedes copiarlas manualmente para repasarlas después.
+
+¿La herramienta guarda mis errores y me hace un examen personalizado?
+No, la herramienta no guarda un historial de tus fallos entre sesiones. Solo en el simulacro actual puedes ver las preguntas falladas (sección "VER PREGUNTAS FALLADAS"), pero no puedes generar un examen nuevo con solo esas. Puedes copiarlas manualmente para repasarlas después.
+
+¿Cómo repaso solo las preguntas que he fallado en simulacros anteriores?
+No, la herramienta no guarda un historial de tus fallos entre sesiones. Solo en el simulacro actual puedes ver las preguntas falladas (sección "VER PREGUNTAS FALLADAS"), pero no puedes generar un examen nuevo con solo esas. Puedes copiarlas manualmente para repasarlas después.
+
+¿Puedo hacer un simulacro con solo las preguntas que me salieron mal la última vez?
+No, la herramienta no guarda un historial de tus fallos entre sesiones. Solo en el simulacro actual puedes ver las preguntas falladas (sección "VER PREGUNTAS FALLADAS"), pero no puedes generar un examen nuevo con solo esas. Puedes copiarlas manualmente para repasarlas después.
+
+¿Qué significa cuando la barra de tiempo se pone amarilla en el simulacro?
+El color amarillo (o ámbar) indica que el tiempo restante es moderado: entre el 20% y el 50% del tiempo total del examen. No es crítico aún, pero debes apresurarte un poco. Verde es suficiente (>50%), rojo es crítico (<20%). Los últimos 5 segundos parpadean en rojo.
+
+¿Por qué la barra de tiempo cambia a naranja durante el simulacro?
+El color amarillo (o ámbar) indica que el tiempo restante es moderado: entre el 20% y el 50% del tiempo total del examen. No es crítico aún, pero debes apresurarte un poco. Verde es suficiente (>50%), rojo es crítico (<20%). Los últimos 5 segundos parpadean en rojo.
+
+¿Qué indica el color amarillo en el temporizador del simulacro?
+El color amarillo (o ámbar) indica que el tiempo restante es moderado: entre el 20% y el 50% del tiempo total del examen. No es crítico aún, pero debes apresurarte un poco. Verde es suficiente (>50%), rojo es crítico (<20%). Los últimos 5 segundos parpadean en rojo.
+
+¿La barra de tiempo se pone amarilla cuando voy regular?
+El color amarillo (o ámbar) indica que el tiempo restante es moderado: entre el 20% y el 50% del tiempo total del examen. No es crítico aún, pero debes apresurarte un poco. Verde es suficiente (>50%), rojo es crítico (<20%). Los últimos 5 segundos parpadean en rojo.
+
+¿Qué significa el color ámbar en la barra de progreso del tiempo?
+El color amarillo (o ámbar) indica que el tiempo restante es moderado: entre el 20% y el 50% del tiempo total del examen. No es crítico aún, pero debes apresurarte un poco. Verde es suficiente (>50%), rojo es crítico (<20%). Los últimos 5 segundos parpadean en rojo.
+
+¿Se pueden reordenar las pestañas de la parte superior para que queden en otro orden?
+No, el orden de las pestañas es fijo: Estudio SIMO, Preguntas, Glosario. No se puede modificar desde la interfaz. Es un diseño fijo de la herramienta.
+
+¿Puedo mover la pestaña de Preguntas a la izquierda?
+No, el orden de las pestañas es fijo: Estudio SIMO, Preguntas, Glosario. No se puede modificar desde la interfaz. Es un diseño fijo de la herramienta.
+
+¿Hay forma de cambiar el orden de las pestañas principales?
+No, el orden de las pestañas es fijo: Estudio SIMO, Preguntas, Glosario. No se puede modificar desde la interfaz. Es un diseño fijo de la herramienta.
+
+¿Las pestañas SIMO, Preguntas y Glosario se pueden reorganizar?
+No, el orden de las pestañas es fijo: Estudio SIMO, Preguntas, Glosario. No se puede modificar desde la interfaz. Es un diseño fijo de la herramienta.
+
+¿Puedo intercambiar la posición de las pestañas?
+No, el orden de las pestañas es fijo: Estudio SIMO, Preguntas, Glosario. No se puede modificar desde la interfaz. Es un diseño fijo de la herramienta.
+
+¿Si abro el chat y le doy al botón Subir, qué sucede?
+Cuando el chat del asistente está abierto, el botón flotante Subir se oculta automáticamente para no interferir. Por lo tanto, no puedes hacer clic en él mientras el chat está visible. Al cerrar el chat, el botón Subir vuelve a aparecer si has hecho scroll.
+
+¿El botón Subir funciona cuando el asistente está visible?
+No, el botón Subir se oculta automáticamente cuando abres el chat. Solo vuelve a aparecer después de cerrar el chat (si has hecho scroll hacia abajo).
+
+¿Puedo usar la flecha Subir mientras tengo abierto el chat?
+No, el botón Subir se oculta automáticamente mientras el chat está abierto. No puedes usarlo hasta que cierres el chat.
+
+¿Qué hace el botón flotante Subir si el asistente IA está abierto?
+No hace nada porque el botón está oculto. El chat tiene prioridad y el botón Subir se esconde para evitar confusiones.
+
+¿El botón Subir se puede usar con el chat abierto?
+No, se oculta automáticamente. Cierra el chat primero y luego podrás usar el botón Subir.
+
+¿Puedo quitarle el sonido al temporizador del simulacro?
+El temporizador del simulacro no tiene sonido. Todas las alertas son visuales (cambio de color y parpadeo). No hay nada que silenciar porque nunca suena.
+
+¿El reloj del simulacro hace algún pitido?
+No, el simulacro es completamente silencioso. No emite ningún sonido, ni al empezar, ni durante, ni al finalizar.
+
+¿Hay forma de desactivar un sonido molesto del temporizador?
+No hay sonido que desactivar. Si escuchas algo, es de otro programa o de tu navegador, no de ESTUDIO SIMO.
+
+¿Por qué a veces suena algo cuando se acaba el tiempo?
+No debería sonar nada. Si escuchas un pitido, revisa las notificaciones de tu sistema operativo o del navegador, porque la herramienta no los genera.
+
+¿Puedo ponerle una alarma sonora al final del tiempo?
+No, la herramienta no tiene sonidos. No se puede activar ninguna alarma. La alerta es solo visual.
+
+¿Se puede hacer más grande la ventana donde aparecen las preguntas del simulacro?
+No, el tamaño del área de preguntas es fijo y no se puede redimensionar. Puedes usar el zoom del navegador (Ctrl +) para agrandar todo, pero no hay un control específico para la ventana del simulacro.
+
+¿Puedo maximizar la ventana del simulacro para ver mejor las preguntas?
+No, el tamaño del área de preguntas es fijo y no se puede redimensionar. Puedes usar el zoom del navegador (Ctrl +) para agrandar todo, pero no hay un control específico para la ventana del simulacro.
+
+¿Hay forma de ampliar el área del examen?
+No, el tamaño del área de preguntas es fijo y no se puede redimensionar. Puedes usar el zoom del navegador (Ctrl +) para agrandar todo, pero no hay un control específico para la ventana del simulacro.
+
+¿El tamaño de la ventana de preguntas se puede ajustar?
+No, el tamaño del área de preguntas es fijo y no se puede redimensionar. Puedes usar el zoom del navegador (Ctrl +) para agrandar todo, pero no hay un control específico para la ventana del simulacro.
+
+¿Cómo agrando la caja donde se muestran las preguntas del simulacro?
+No, el tamaño del área de preguntas es fijo y no se puede redimensionar. Puedes usar el zoom del navegador (Ctrl +) para agrandar todo, pero no hay un control específico para la ventana del simulacro.
+
+¿La herramienta tiene un cronómetro que mida cuánto tiempo llevo usando la página hoy?
+No, la herramienta no guarda estadísticas de tiempo de uso. Cada examen muestra el tiempo empleado en ese simulacro, pero no hay un acumulador diario ni histórico.
+
+¿Hay un contador de tiempo de estudio acumulado por día?
+No, la herramienta no guarda estadísticas de tiempo de uso. Cada examen muestra el tiempo empleado en ese simulacro, pero no hay un acumulador diario ni histórico.
+
+¿Puedo saber cuántos minutos he estado practicando hoy?
+No, la herramienta no guarda estadísticas de tiempo de uso. Cada examen muestra el tiempo empleado en ese simulacro, pero no hay un acumulador diario ni histórico.
+
+¿La aplicación registra el tiempo que paso en los exámenes?
+Solo registra el tiempo del simulacro actual, pero no acumula ni guarda histórico. Puedes ver el tiempo que tardaste en ese examen al final, pero no se suma a un total.
+
+¿Dónde veo las horas totales que he estudiado?
+No hay un registro de horas totales. Solo puedes ver el tiempo de cada simulacro individual.
+
+¿Hay una función de texto a voz para que me lean las preguntas?
+No, la herramienta no tiene función de texto a voz. Puedes usar los lectores de pantalla de tu sistema operativo o navegador (como NVDA, VoiceOver) que son compatibles con la página, pero la aplicación en sí no incluye voz.
+
+¿Puedo pedirle al asistente que me lea las preguntas en voz alta?
+No, la herramienta no tiene función de texto a voz. Puedes usar los lectores de pantalla de tu sistema operativo o navegador (como NVDA, VoiceOver) que son compatibles con la página, pero la aplicación en sí no incluye voz.
+
+¿La herramienta tiene locución para los enunciados?
+No, la herramienta no tiene función de texto a voz. Puedes usar los lectores de pantalla de tu sistema operativo o navegador (como NVDA, VoiceOver) que son compatibles con la página, pero la aplicación en sí no incluye voz.
+
+¿Cómo activo la lectura automática de las preguntas?
+No hay una función de lectura automática. Debes usar las herramientas de accesibilidad de tu sistema.
+
+¿Puedo usar el asistente IA para que me lea el examen?
+No, el asistente IA no lee en voz alta. Solo responde por texto.
+
+¿Hay más colores de fondo además del claro y el oscuro?
+No, solo hay dos modos: claro (por defecto) y oscuro (activable en ajustes). No hay más opciones de personalización de colores.
+
+¿Puedo ponerle un color diferente al fondo, como gris o beige?
+No, solo hay dos modos: claro (por defecto) y oscuro (activable en ajustes). No hay más opciones de personalización de colores.
+
+¿Hay otros temas de color aparte de claro y oscuro?
+No, solo hay dos modos: claro (por defecto) y oscuro (activable en ajustes). No hay más opciones de personalización de colores.
+
+¿Cómo personalizo el color de fondo de la pantalla?
+No se puede personalizar. Solo puedes alternar entre modo claro y modo oscuro.
+
+¿Puedo elegir un tono de azul para el fondo?
+No, los colores de fondo son fijos. Solo claro o oscuro.
+
+¿Por qué el asistente a veces dice que no está seguro?
+El asistente muestra "No estoy seguro de haber entendido tu pregunta" cuando la similitud semántica entre tu pregunta y las FAQs es baja (generalmente por debajo del umbral de 0.65). Esto puede pasar si la pregunta es muy ambigua, muy corta (ej. "¿Eso?"), o combina temas que no están en la base de conocimiento. Te recomiendo reformular con más detalles.
+
+¿Qué significa cuando el chat responde "No estoy seguro de haber entendido tu pregunta"?
+Significa que el asistente no encontró una coincidencia suficientemente clara en su base de conocimiento. Puede deberse a que la pregunta es confusa o demasiado genérica. Intenta escribirla de otra forma.
+
+¿El asistente se equivoca si dice que no está seguro?
+No se equivoca, simplemente no logra asociar tu pregunta con ninguna respuesta confiable. Es mejor que admita la duda antes que darte una respuesta incorrecta.
+
+¿Cómo hago para que el asistente no diga que no está seguro?
+Escribe preguntas claras, completas, con los signos ¿ y ?, y evita frases sueltas como "¿Eso?" o "¿Aquello?". Incluye el tema específico.
+
+¿Por qué a veces el asistente no entiende lo que le pregunto?
+Puede ser por falta de claridad, errores ortográficos graves, o porque el tema no está cubierto en el FAQ. Reformula la pregunta con otras palabras.
+
+¿Puedo hacer un simulacro que tenga solo preguntas de ética profesional?
+Sí. En la pestaña Preguntas, selecciona el Modo Simulacro, luego elige el tipo de competencia "comportamentales" y luego la subcategoría "Ética profesional". El simulacro generará preguntas solo de esa área.
+
+¿Cómo practico únicamente las preguntas de trabajo en equipo?
+Selecciona Modo Simulacro, luego "comportamentales" y después "Trabajo en equipo". El examen incluirá solo preguntas de esa competencia.
+
+¿Puedo filtrar el simulacro por una subcategoría específica?
+Sí, los selectores anidados te permiten elegir primero el tipo de competencia (básicas, funcionales, comportamentales) y luego una subcategoría (ej. lógica, matemáticas, lectura, ética, trabajo en equipo, orientación al servicio). El simulacro se generará solo con preguntas de esa subcategoría.
+
+¿Hay simulacro solo de razonamiento matemático?
+Sí. Ve a la pestaña Preguntas, elige Modo Simulacro, selecciona "competencias básicas" y luego "Razonamiento matemático". Todas las preguntas serán de ese tema.
+
+¿Puedo hacer un examen solo de leyes (funcionales)?
+Sí. En Modo Simulacro, elige "competencias funcionales" y luego la subcategoría "Leyes". El simulacro contendrá preguntas solo de normatividad.
+
+¿Si dejo el chat abierto y hago clic en otra sección, se cierra solo?
+No, el chat permanece abierto hasta que lo cierres manualmente con el botón ✖. Puedes navegar a otras pestañas (SIMO, Preguntas, Glosario) y el chat seguirá visible. Solo se cierra cuando haces clic en la ✖.
+
+¿El chat se cierra automáticamente si cambio de pestaña?
+No, el chat es independiente. Puedes ir a otra pestaña de la herramienta y el chat se mantiene abierto. Para cerrarlo, debes usar el botón de cierre.
+
+¿Puedo tener el chat abierto mientras hago un examen?
+Sí, puedes tener el chat flotante mientras realizas un examen. No interfiere con la navegación. Para cerrarlo, haz clic en la ✖.
+
+¿Si hago clic fuera del chat, se oculta?
+No, el chat solo se cierra con el botón ✖. No se oculta al hacer clic fuera.
+
+¿Cómo evito que el chat estorbe mientras estudio?
+Puedes cerrarlo con la ✖. El botón flotante para abrirlo vuelve a aparecer en la esquina inferior derecha.
+
+¿Puedo saltar a la pregunta 5 sin responder la 1?
+No, el examen es secuencial. Debes responder en el orden que aparecen. No puedes saltar preguntas ni cambiar el orden.
+
+¿Cómo reordeno las preguntas del simulacro?
+No se puede reordenar. El orden es fijo una vez iniciado el examen. Si quieres un orden diferente, cancela el examen y empieza uno nuevo (las preguntas serán aleatorias, pero el orden seguirá siendo el que toque).
+
+¿Puedo responder primero las preguntas fáciles y luego las difíciles?
+No, debes seguir el orden dado. No hay forma de elegir qué pregunta responder primero.
+
+¿El examen permite ir a una pregunta específica?
+No, no hay navegación por número de pregunta. Avanzas linealmente con SIGUIENTE.
+
+¿Hay un índice de preguntas para saltar?
+No, solo el contador de "Pregunta X de Y" y los botones Siguiente (y en modo estudio, después de verificar).
+
+¿Qué significa el aspa roja ❌ que sale en los resultados del modo estudio?
+El aspa roja ❌ indica que respondiste incorrectamente esa pregunta en el modo estudio. Si además ves un número, significa que fallaste todos los intentos (4 intentos). Si ves el aspa en simulacro, es que la respuesta fue incorrecta o se acabó el tiempo.
+
+¿El icono ❌ es solo para errores?
+Sí, tanto en modo estudio como en simulacro, ❌ representa respuesta incorrecta. En modo estudio puede acompañarse de 🔴 si fallaste los 4 intentos.
+
+¿Qué diferencia hay entre ❌ y 🔴 en modo estudio?
+❌ significa que la respuesta fue incorrecta en ese intento (pero aún puedes tener más intentos). 🔴 significa que agotaste los 4 intentos y la pregunta se marcó como fallida definitivamente.
+
+¿En el simulacro también sale ❌?
+Sí, en la tabla de resultados del simulacro, las preguntas incorrectas aparecen con fondo rojo y el texto "Incorrecta" o un ícono ❌.
+
+¿Cómo sé si fallé una pregunta por tiempo o por respuesta mala?
+En el simulacro, si se acabó el tiempo, la pregunta se marca como incorrecta igual que si respondiste mal. No hay distinción visual. En modo estudio no hay tiempo.
+
+¿Puedo poner el simulacro en pantalla completa?
+Sí, puedes usar la función de pantalla completa de tu navegador (generalmente F11 en Windows o Ctrl+Cmd+F en Mac). Esto no es una función de ESTUDIO SIMO, sino del navegador, pero funciona para que las preguntas ocupen toda la pantalla.
+
+¿Hay un botón de pantalla completa dentro de la herramienta?
+No, la herramienta no tiene su propio botón de pantalla completa. Debes usar el atajo de teclado de tu navegador (F11).
+
+¿Cómo hago para que el examen ocupe toda la pantalla?
+Presiona F11 (Windows) o Ctrl+Cmd+F (Mac). Para salir, vuelve a presionar la misma tecla.
+
+¿El modo pantalla completa afecta al chat del asistente?
+El chat sigue funcionando normalmente. Si abres el chat en pantalla completa, se superpondrá igual que en modo normal.
+
+¿Puedo salir de pantalla completa fácilmente?
+Sí, presionando nuevamente F11 o Esc (dependiendo del navegador).
+
+¿Qué hago si la página se demora mucho en cargar por mi internet lento?
+La primera carga puede tardar porque descarga el modelo MiniLM (~70 MB) y los embeddings. Puedes intentar: 1) Usar una conexión más rápida (WiFi en lugar de datos móviles). 2) Recargar la página después de que haya pasado un minuto. 3) Usar la versión descargada del proyecto (offline) después de la primera carga exitosa.
+
+¿La herramienta se pone lenta si mi internet es malo?
+Sí, la primera carga puede ser lenta. Las siguientes cargas son más rápidas porque los archivos se almacenan en caché. El asistente IA requiere internet cada vez, así que respuestas lentas pueden deberse a mala conexión.
+
+¿Puedo usar ESTUDIO SIMO con internet de datos móviles?
+Sí, pero consume datos (aprox 70 MB la primera vez para descargar el modelo). Si tienes un plan limitado, es recomendable usar WiFi para la primera carga.
+
+¿Cómo acelero la carga si tengo mala conexión?
+Cierra otras pestañas y programas que usen internet. Usa un navegador actualizado. Desactiva extensiones que puedan bloquear scripts. Si es posible, conecta por cable en lugar de WiFi.
+
+¿Hay una versión liviana de la herramienta para conexiones lentas?
+No hay versión liviana. La herramienta está optimizada, pero requiere la descarga del modelo MiniLM. Puedes descargar el proyecto completo y abrirlo offline después de la primera carga exitosa.
+
+
+
+
+
+
+
+
+¿Puedo cambiar la respuesta varias veces antes de darle a siguiente?
+Sí, mientras no hayas hecho clic en VERIFICAR (modo estudio) o en SIGUIENTE (modo simulacro), puedes cambiar de opción las veces que quieras. Una vez que avanzas, la respuesta queda guardada y no puedes modificarla.
+
+¿Si me arrepiento, puedo elegir otra opción antes de avanzar?
+Sí, mientras no hayas hecho clic en VERIFICAR (modo estudio) o en SIGUIENTE (modo simulacro), puedes cambiar de opción las veces que quieras. Una vez que avanzas, la respuesta queda guardada y no puedes modificarla.
+
+¿Puedo seleccionar y deseleccionar respuestas mientras estoy en la misma pregunta?
+Sí, mientras no hayas hecho clic en VERIFICAR (modo estudio) o en SIGUIENTE (modo simulacro), puedes cambiar de opción las veces que quieras. Una vez que avanzas, la respuesta queda guardada y no puedes modificarla.
+
+¿Hay límite de cambios de respuesta antes de verificar?
+No, no hay límite. Puedes cambiar las veces que quieras mientras no hayas verificado o avanzado.
+
+¿Cómo corrijo mi respuesta antes de enviarla?
+Simplemente haz clic en otra opción. El sistema no guarda nada hasta que presiones VERIFICAR o SIGUIENTE.
+
+¿Qué es el trastorno bipolar?
+El trastorno bipolar es una enfermedad mental que causa cambios extremos en el estado de ánimo, con episodios de manía (euforia, energía elevada, irritabilidad) y episodios de depresión (tristeza profunda, falta de energía). No es lo mismo que los altibajos normales.
+
+¿Qué significa ser bipolar?
+El trastorno bipolar es una enfermedad mental que causa cambios extremos en el estado de ánimo, con episodios de manía (euforia, energía elevada, irritabilidad) y episodios de depresión (tristeza profunda, falta de energía). No es lo mismo que los altibajos normales.
+
+¿En qué consiste el trastorno bipolar?
+El trastorno bipolar es una enfermedad mental que causa cambios extremos en el estado de ánimo, con episodios de manía (euforia, energía elevada, irritabilidad) y episodios de depresión (tristeza profunda, falta de energía). No es lo mismo que los altibajos normales.
+
+¿Cuáles son los síntomas del trastorno bipolar?
+Los síntomas incluyen episodios de manía (euforia exagerada, aumento de energía, hablar muy rápido, comportamientos riesgosos) y episodios de depresión (tristeza, pérdida de interés, fatiga, pensamientos de muerte). Entre episodios, el estado de ánimo puede ser normal.
+
+¿Cómo reconocer a una persona con trastorno bipolar?
+Los síntomas incluyen episodios de manía (euforia exagerada, aumento de energía, hablar muy rápido, comportamientos riesgosos) y episodios de depresión (tristeza, pérdida de interés, fatiga, pensamientos de muerte). El diagnóstico debe hacerlo un psiquiatra.
+
+¿Cuántos tipos de trastorno bipolar existen?
+Existen tres tipos principales: Bipolar I (con episodios maníacos completos), Bipolar II (con hipomanía y depresión mayor) y Ciclotimia (cambios de ánimo menos graves pero crónicos). También hay otros especificadores.
+
+¿Qué diferencia hay entre bipolar I y bipolar II?
+El Bipolar I incluye episodios de manía completa (al menos una semana), mientras que el Bipolar II tiene episodios de hipomanía (menos graves, de 4 días) y depresión mayor. El Bipolar I es más grave en la fase de manía.
+
+¿Qué es la ciclotimia?
+La ciclotimia es un trastorno bipolar leve y crónico, con cambios de ánimo que no alcanzan la intensidad de la manía o la depresión mayor, pero que duran al menos dos años en adultos.
+
+¿El trastorno bipolar tiene solo dos tipos?
+No, hay al menos tres: Bipolar I, Bipolar II y Ciclotimia. También se reconocen otros especificadores como "ciclo rápido" o "con características mixtas".
+
+¿Cuál es el tipo más grave de trastorno bipolar?
+El Bipolar I es el más grave en cuanto a los episodios de manía, que pueden requerir hospitalización. El Bipolar II tiene depresiones más graves, pero la hipomanía es menos incapacitante.
+
+¿Qué tratamientos hay para el trastorno bipolar?
+El tratamiento incluye medicamentos estabilizadores del ánimo (litio, valproato, lamotrigina), antipsicóticos, psicoterapia (terapia cognitivo-conductual), psicoeducación y apoyo familiar. Es crónico, pero controlable.
+
+¿Cómo se trata el trastorno bipolar?
+El tratamiento incluye medicamentos estabilizadores del ánimo (litio, valproato, lamotrigina), antipsicóticos, psicoterapia (terapia cognitivo-conductual), psicoeducación y apoyo familiar. Es crónico, pero controlable.
+
+¿Cuáles son los medicamentos para el trastorno bipolar?
+Los más comunes son el litio, el ácido valproico, la lamotrigina, la carbamazepina, y algunos antipsicóticos atípicos como olanzapina, risperidona o quetiapina. Siempre bajo supervisión médica.
+
+¿Qué psicoterapia es eficaz en el trastorno bipolar?
+La terapia cognitivo-conductual (TCC) y la psicoeducación son las más estudiadas. También la terapia interpersonal y de ritmo social (TIR) puede ayudar a prevenir recaídas.
+
+¿Se puede curar el trastorno bipolar?
+No tiene cura, pero con tratamiento adecuado la mayoría de las personas pueden llevar una vida normal, con pocos o ningún episodio. El cumplimiento del tratamiento es clave.
+
+¿Cuántas clases de triage hay?
+El triage hospitalario tiene generalmente 5 niveles de prioridad: I (resucitación, atención inmediata), II (emergencia, atención en 10 minutos), III (urgente, atención en 30-60 minutos), IV (menos urgente, atención en 1-2 horas) y V (no urgente, atención hasta 4 horas). También puede haber versiones de 4 o 3 niveles según el país.
+
+¿Cuáles son los niveles de triage en urgencias?
+Los niveles son: I (rojo, riesgo vital inmediato), II (naranja, muy urgente), III (amarillo, urgente), IV (verde, menos urgente), V (azul, no urgente). Los colores pueden variar según el sistema.
+
+¿Qué significa triage nivel I?
+Nivel I significa que el paciente tiene riesgo vital inminente y debe ser atendido de inmediato (paro cardíaco, dificultad respiratoria grave, shock). Es el código rojo.
+
+¿Cómo se clasifica a un paciente en triage?
+Se clasifica según su gravedad: frecuencia cardíaca, respiratoria, nivel de conciencia, dolor, mecanismo de lesión, etc. Se usan escalas estandarizadas como el índice de triaje de Manchester o el sistema ESI.
+
+¿Qué es el triaje de Manchester?
+Es un sistema de triage usado en muchos hospitales, que clasifica en 5 niveles mediante algoritmos de decisión basados en quejas principales. Cada nivel tiene un color y un tiempo máximo de espera.
+
+¿Qué es la depresión?
+La depresión es un trastorno mental caracterizado por tristeza persistente, pérdida de interés o placer, cambios en el apetito y sueño, fatiga, sentimientos de inutilidad y pensamientos de muerte. Dura al menos dos semanas y afecta la vida diaria.
+
+¿Cuáles son los síntomas de la depresión?
+Los síntomas incluyen: estado de ánimo triste casi todo el día, pérdida de interés en actividades que antes gustaban, cambios de peso, insomnio o hipersomnia, agitación o lentitud, fatiga, sentimientos de culpa, dificultad para concentrarse y pensamientos suicidas.
+
+¿Cómo se trata la depresión?
+Se trata con psicoterapia (cognitivo-conductual, interpersonal), medicamentos antidepresivos (ISRS, IRSN, tricíclicos), y en casos graves, terapia electroconvulsiva. El tratamiento debe ser individualizado.
+
+
+¿Qué diferencia hay entre depresión y tristeza normal?
+La tristeza normal es transitoria y no impide funcionar. La depresión dura al menos dos semanas, interfiere significativamente con la vida diaria y se acompaña de otros síntomas como cambios de sueño, apetito y pensamientos de muerte.
+
+¿La depresión tiene cura?
+Sí, la mayoría de los episodios depresivos se pueden tratar con éxito. Sin embargo, es una enfermedad recurrente, por lo que se recomienda tratamiento de mantenimiento para prevenir recaídas.
+
+¿Qué clasificaciones de triage existen?
+El triage tiene generalmente 5 niveles de prioridad: I (resucitación, atención inmediata), II (emergencia, atención en 10 minutos), III (urgente, atención en 30-60 minutos), IV (menos urgente, atención en 1-2 horas) y V (no urgente, atención hasta 4 horas). También hay sistemas de 4 o 3 niveles.
+
+¿Qué tipos de clasificación hay en triage?
+Los niveles son: I (rojo, riesgo vital inmediato), II (naranja, muy urgente), III (amarillo, urgente), IV (verde, menos urgente), V (azul, no urgente). Los colores pueden variar según el sistema.
+
+¿Cuáles son los niveles del triage hospitalario?
+En el sistema de 5 niveles: I = resucitación (0 min), II = emergencia (10 min), III = urgente (30-60 min), IV = menos urgente (1-2 h), V = no urgente (hasta 4 h). En sistemas de 4 niveles se unifican algunos.
+
+¿Cómo se clasifica a un paciente en triage?
+Se clasifica según su gravedad: signos vitales, nivel de conciencia, dolor, mecanismo de lesión, usando escalas estandarizadas como el índice de triaje de Manchester o el sistema ESI (Emergency Severity Index).
+
+¿Qué sistemas de clasificación de triage existen?
+Los más usados son: el índice de triaje de Manchester (5 niveles), el sistema ESI (Emergency Severity Index, 5 niveles), el sistema canadiense (CTAS, 5 niveles) y el sistema australiano (ATS, 5 niveles). En algunos países hay versiones de 4 o 3 niveles.
+
+¿Qué clasificaciones de trastornos mentales existen?
+Los trastornos mentales se clasifican en grupos: trastornos del estado de ánimo (depresión, bipolar), trastornos de ansiedad (fobia, pánico, TAG), trastornos psicóticos (esquizofrenia), trastornos de la personalidad, trastornos alimentarios, entre otros. La clasificación principal es el DSM-5 o la CIE-11.
+
+¿Cuántos tipos de trastornos de ansiedad hay?
+Los principales son: trastorno de pánico, agorafobia, fobia específica, trastorno de ansiedad social, trastorno de ansiedad generalizada (TAG), trastorno de ansiedad por separación y mutismo selectivo.
+
+¿Cómo se clasifican los trastornos del estado de ánimo?
+Se dividen en trastornos depresivos (depresión mayor, distimia, trastorno disfórico premenstrual) y trastornos bipolares (bipolar I, bipolar II, ciclotimia, otros especificados).
+
+¿Qué tipos de psicosis existen?
+Las principales son: esquizofrenia, trastorno esquizofreniforme, trastorno esquizoafectivo, trastorno psicótico breve, trastorno delirante y psicosis inducida por sustancias.
+
+¿Cuál es la diferencia entre neurosis y psicosis?
+La neurosis (término antiguo) se refiere a trastornos sin pérdida de contacto con la realidad (ansiedad, depresión). La psicosis implica pérdida de contacto con la realidad (alucinaciones, delirios). Hoy se usan clasificaciones más precisas.
+
+¿Qué niveles de atención en salud existen?
+Hay tres niveles: primario (primer contacto, centros de salud, consultorios), secundario (hospitales con especialidades básicas) y terciario (hospitales de alta complejidad, UCI, cirugías especializadas). Algunos añaden un cuaternario.
+
+¿Cómo se clasifican los niveles de complejidad hospitalaria?
+Primer nivel: baja complejidad (atención ambulatoria básica). Segundo nivel: mediana complejidad (hospitalización general, cirugías comunes). Tercer nivel: alta complejidad (UCI, neurocirugía, trasplantes). Cuarto nivel: máxima complejidad (procedimientos experimentales).
+
+¿Qué es el nivel primario de atención?
+Es el primer contacto del paciente con el sistema de salud: consultorios médicos, centros de salud, vacunación, control de enfermedades crónicas. Resuelve la mayoría de los problemas de salud.
+
+¿Qué se atiende en el nivel secundario?
+Hospitales con especialidades básicas: medicina interna, pediatría, ginecología, cirugía general, hospitalización, laboratorio, imagenología básica. No manejan UCI o cirugías muy complejas.
+
+¿Cuándo se deriva a nivel terciario?
+Cuando el paciente requiere cuidados intensivos (UCI), cirugía especializada (neurocirugía, cardiotorácica), procedimientos complejos de diagnóstico (RMN, PET), o tratamientos como hemodiálisis o quimioterapia.
+
+¿Cuáles son las prioridades en urgencias?
+Las prioridades se clasifican en 5 niveles: I (inmediato, riesgo vital), II (muy urgente, 10 minutos), III (urgente, 30-60 minutos), IV (menos urgente, 1-2 horas), V (no urgente, hasta 4 horas). Los códigos de colores son rojo, naranja, amarillo, verde, azul.
+
+¿Qué significa código rojo en urgencias?
+Código rojo significa prioridad I: riesgo vital inminente. El paciente debe ser atendido inmediatamente (paro cardíaco, shock, falla respiratoria grave). No puede esperar.
+
+¿Cómo se decide si un paciente es código amarillo?
+Código amarillo (prioridad III) indica urgente pero no inminente. Ejemplos: dolor abdominal moderado, fractura no complicada, fiebre alta. El tiempo máximo de espera es de 30 a 60 minutos.
+
+¿Qué colores se usan en el triage de urgencias?
+Los colores estándar son: rojo (I, inmediato), naranja (II, muy urgente), amarillo (III, urgente), verde (IV, menos urgente), azul (V, no urgente). Algunos sistemas usan blanco o gris para fallecidos.
+
+¿Qué prioridad tiene un paciente con dolor torácico?
+Depende de los signos vitales y la sospecha. Si hay inestabilidad, es prioridad I (rojo). Si está estable, puede ser prioridad II (naranja) o III (amarillo) según el protocolo de triaje.
+
+¿Qué clasificaciones de medicamentos psiquiátricos existen?
+Se clasifican en: antidepresivos (ISRS, IRSN, tricíclicos, MAOIs), antipsicóticos (típicos y atípicos), estabilizadores del ánimo (litio, valproato, lamotrigina), ansiolíticos (benzodiacepinas, buspirona), hipnóticos y estimulantes.
+
+¿Cómo se clasifican los antipsicóticos?
+En típicos (primera generación: haloperidol, clorpromazina) y atípicos (segunda generación: olanzapina, risperidona, quetiapina, clozapina). Los atípicos tienen menos efectos extrapiramidales.
+
+¿Qué tipos de antidepresivos hay?
+Los principales grupos: ISRS (fluoxetina, sertralina), IRSN (venlafaxina, duloxetina), tricíclicos (amitriptilina), MAOIs (tranilcipromina), y otros atípicos (bupropión, mirtazapina).
+
+¿Cuál es la diferencia entre benzodiacepinas de acción corta y larga?
+Benzodiacepinas de acción corta (lorazepam, alprazolam) son para ansiedad aguda o insomnio. Las de acción larga (diazepam, clonazepam) son para epilepsia, ansiedad generalizada o abstinencia alcohólica.
+
+¿Qué son los estabilizadores del ánimo?
+Son medicamentos que previenen los episodios maníacos y depresivos en el trastorno bipolar. Los principales son litio, ácido valproico, lamotrigina y carbamazepina. Algunos antipsicóticos atípicos también tienen efecto estabilizador.
+
+¿Cómo se clasifica el riesgo de caídas en pacientes hospitalizados?
+Se clasifica en bajo, moderado y alto riesgo. Se usan escalas como la de Morse o Downton. Los factores incluyen edad, historia de caídas, movilidad, medicamentos sedantes, estado mental, etc.
+
+¿Qué pacientes tienen alto riesgo de caídas?
+Adultos mayores de 65 años, con historia previa de caídas, con alteración de la marcha, que toman sedantes o antihipertensivos, con deterioro cognitivo, o con incontinencia urinaria (necesitan ir al baño urgente).
+
+¿Cuáles son los niveles de la escala de Morse?
+La escala de Morse clasifica el riesgo: 0-24 puntos = bajo riesgo, 25-44 = moderado riesgo, ≥45 = alto riesgo. Se evalúan ítems como historia de caídas, diagnóstico secundario, ayuda para deambular, medicación endovenosa, etc.
+
+¿Qué intervenciones se hacen según el nivel de riesgo de caídas?
+Bajo riesgo: educación al paciente. Moderado riesgo: barandas, supervisión, calzado adecuado. Alto riesgo: barandas siempre arriba, acompañante, alarma de cama o silla, señalización de riesgo.
+
+¿Qué color identifica al paciente con alto riesgo de caídas?
+En muchos hospitales se usa una pulsera o cartel color amarillo. También puede ser naranja o rojo según cada protocolo institucional.
+
+¿Qué clasificaciones de triage existen?
+El triage tiene generalmente 5 niveles de prioridad: I (resucitación, atención inmediata), II (emergencia, atención en 10 minutos), III (urgente, atención en 30-60 minutos), IV (menos urgente, atención en 1-2 horas) y V (no urgente, atención hasta 4 horas). También hay sistemas de 4 o 3 niveles.
+
+¿Qué tipos de clasificación hay en triage?
+Los niveles son: I (rojo, riesgo vital inmediato), II (naranja, muy urgente), III (amarillo, urgente), IV (verde, menos urgente), V (azul, no urgente). Los colores pueden variar según el sistema.
+
+¿Cuáles son las categorías del triage?
+Las categorías son: resucitación (rojo), emergencia (naranja), urgente (amarillo), menos urgente (verde) y no urgente (azul). Cada una tiene un tiempo máximo de espera.
+
+¿Cómo se clasifica a un paciente en triage?
+Se clasifica según su gravedad: signos vitales, nivel de conciencia, dolor, mecanismo de lesión, usando escalas estandarizadas como el índice de triaje de Manchester o el sistema ESI (Emergency Severity Index).
+
+¿Qué sistemas de clasificación de triage existen?
+Los más usados son: el índice de triaje de Manchester (5 niveles), el sistema ESI (Emergency Severity Index, 5 niveles), el sistema canadiense (CTAS, 5 niveles) y el sistema australiano (ATS, 5 niveles). En algunos países hay versiones de 4 o 3 niveles.
+
+¿Qué clasificación hay?
+Depende del contexto. ¿Te refieres a clasificación de triage (niveles de prioridad en urgencias), de trastornos mentales (bipolar, depresión, ansiedad), de niveles de atención en salud (primario, secundario, terciario), de medicamentos psicotrópicos, de riesgo de caídas, o de otra cosa? Por favor, especifica el área para darte una respuesta precisa.
+
+¿Qué clasificaciones hay?
+Depende del contexto. ¿Te refieres a clasificaciones de triage (niveles de prioridad en urgencias), de trastornos mentales (bipolar, depresión, ansiedad), de niveles de atención en salud (primario, secundario, terciario), de medicamentos psicotrópicos, de riesgo de caídas, o de otra cosa? Por favor, especifica el área para darte una respuesta precisa.
+
+¿Qué tipos de clasificación existen?
+Depende del contexto. ¿Te refieres a clasificación de triage, de trastornos mentales, de niveles de atención, de fármacos, de riesgo de caídas, o de otra cosa? Indícalo para ayudarte mejor.
+
+¿Cómo se clasifican las cosas en general?
+En ESTUDIO SIMO, las clasificaciones más relevantes son: triage (5 niveles de prioridad), trastornos mentales (depresión, bipolar, ansiedad, psicosis), niveles de atención (primario, secundario, terciario), medicamentos psiquiátricos (antidepresivos, antipsicóticos, etc.) y riesgo de caídas (bajo, moderado, alto). Si necesitas una clasificación específica, indícala.
+
+¿Cuáles son las categorías o grupos que existen?
+Depende del tema. Por ejemplo, en triage hay 5 niveles; en trastornos bipolares hay bipolar I, II y ciclotimia; en niveles de atención hay primario, secundario y terciario. ¿Sobre qué área específica quieres saber?
+
+¿Qué clasificaciones hay en triage?
+El triage tiene 5 niveles de prioridad: I (resucitación, atención inmediata), II (emergencia, atención en 10 minutos), III (urgente, atención en 30-60 minutos), IV (menos urgente, atención en 1-2 horas) y V (no urgente, atención hasta 4 horas). Los colores asociados son rojo, naranja, amarillo, verde y azul respectivamente.
+
+¿Qué clasificaciones tiene el triage?
+El triage se clasifica en 5 niveles: I (rojo, riesgo vital inmediato), II (naranja, muy urgente), III (amarillo, urgente), IV (verde, menos urgente), V (azul, no urgente). Cada nivel tiene un tiempo máximo de atención.
+
+¿Cuáles son las clasificaciones de triage?
+Las clasificaciones de triage son: nivel I (resucitación), nivel II (emergencia), nivel III (urgente), nivel IV (menos urgente) y nivel V (no urgente). Se diferencian por el tiempo máximo de espera y el color asignado.
+
+¿Qué niveles de clasificación tiene el triage?
+Los niveles de clasificación del triage son 5: I (inmediato, código rojo), II (muy urgente, naranja), III (urgente, amarillo), IV (menos urgente, verde), V (no urgente, azul). El tiempo de atención varía desde 0 minutos hasta 4 horas.
+
+¿Cómo se clasifica el triage en niveles?
+El triage se clasifica en 5 niveles de prioridad: nivel I (atención inmediata), nivel II (10 minutos), nivel III (30-60 minutos), nivel IV (1-2 horas) y nivel V (hasta 4 horas). Los colores son rojo, naranja, amarillo, verde y azul.
+
+¿Qué tratamientos existen para la ansiedad?
+La ansiedad se trata con psicoterapia (cognitivo-conductual, terapia de exposición), medicamentos ansiolíticos (benzodiacepinas para crisis agudas) y antidepresivos (ISRS para tratamiento a largo plazo), además de técnicas de relajación y cambios en el estilo de vida.
+
+¿Cómo se trata la ansiedad?
+La ansiedad se trata con psicoterapia (cognitivo-conductual, terapia de exposición), medicamentos ansiolíticos (benzodiacepinas para crisis agudas) y antidepresivos (ISRS para tratamiento a largo plazo), además de técnicas de relajación y cambios en el estilo de vida.
+
+¿Cuál es el tratamiento para los trastornos de ansiedad?
+La ansiedad se trata con psicoterapia (cognitivo-conductual, terapia de exposición), medicamentos ansiolíticos (benzodiacepinas para crisis agudas) y antidepresivos (ISRS para tratamiento a largo plazo), además de técnicas de relajación y cambios en el estilo de vida.
+
+¿Qué medicamentos se usan para la ansiedad?
+La ansiedad se trata con psicoterapia (cognitivo-conductual, terapia de exposición), medicamentos ansiolíticos (benzodiacepinas para crisis agudas) y antidepresivos (ISRS para tratamiento a largo plazo), además de técnicas de relajación y cambios en el estilo de vida.
+
+¿Se puede curar la ansiedad?
+La ansiedad se trata con psicoterapia (cognitivo-conductual, terapia de exposición), medicamentos ansiolíticos (benzodiacepinas para crisis agudas) y antidepresivos (ISRS para tratamiento a largo plazo), además de técnicas de relajación y cambios en el estilo de vida.
+
+¿Cuáles son los síntomas de la esquizofrenia?
+Los síntomas de la esquizofrenia incluyen delirios (creencias falsas), alucinaciones (ver u oír cosas que no existen), pensamiento desorganizado, comportamiento catatónico, síntomas negativos (falta de motivación, aislamiento social) y deterioro cognitivo (problemas de memoria o atención).
+
+¿Cómo reconocer la esquizofrenia?
+Los síntomas de la esquizofrenia incluyen delirios (creencias falsas), alucinaciones (ver u oír cosas que no existen), pensamiento desorganizado, comportamiento catatónico, síntomas negativos (falta de motivación, aislamiento social) y deterioro cognitivo (problemas de memoria o atención).
+
+¿Qué síntomas presenta un paciente con esquizofrenia?
+Los síntomas de la esquizofrenia incluyen delirios (creencias falsas), alucinaciones (ver u oír cosas que no existen), pensamiento desorganizado, comportamiento catatónico, síntomas negativos (falta de motivación, aislamiento social) y deterioro cognitivo (problemas de memoria o atención).
+
+¿Qué es la esquizofrenia y cuáles son sus síntomas?
+Los síntomas de la esquizofrenia incluyen delirios (creencias falsas), alucinaciones (ver u oír cosas que no existen), pensamiento desorganizado, comportamiento catatónico, síntomas negativos (falta de motivación, aislamiento social) y deterioro cognitivo (problemas de memoria o atención).
+
+¿Cuáles son las manifestaciones clínicas de la esquizofrenia?
+Los síntomas de la esquizofrenia incluyen delirios (creencias falsas), alucinaciones (ver u oír cosas que no existen), pensamiento desorganizado, comportamiento catatónico, síntomas negativos (falta de motivación, aislamiento social) y deterioro cognitivo (problemas de memoria o atención).
+
+¿Qué es el TOC y cómo se trata?
+El trastorno obsesivo-compulsivo (TOC) se caracteriza por obsesiones (pensamientos recurrentes no deseados) y compulsiones (comportamientos repetitivos para aliviar la ansiedad). El tratamiento incluye psicoterapia (cognitivo-conductual con exposición y prevención de respuesta) y medicamentos (ISRS como fluoxetina o sertralina).
+
+¿Cómo se trata el trastorno obsesivo-compulsivo?
+El trastorno obsesivo-compulsivo (TOC) se caracteriza por obsesiones (pensamientos recurrentes no deseados) y compulsiones (comportamientos repetitivos para aliviar la ansiedad). El tratamiento incluye psicoterapia (cognitivo-conductual con exposición y prevención de respuesta) y medicamentos (ISRS como fluoxetina o sertralina).
+
+¿Cuál es el tratamiento para el TOC?
+El trastorno obsesivo-compulsivo (TOC) se caracteriza por obsesiones (pensamientos recurrentes no deseados) y compulsiones (comportamientos repetitivos para aliviar la ansiedad). El tratamiento incluye psicoterapia (cognitivo-conductual con exposición y prevención de respuesta) y medicamentos (ISRS como fluoxetina o sertralina).
+
+¿Qué medicamentos son eficaces para el TOC?
+El trastorno obsesivo-compulsivo (TOC) se caracteriza por obsesiones (pensamientos recurrentes no deseados) y compulsiones (comportamientos repetitivos para aliviar la ansiedad). El tratamiento incluye psicoterapia (cognitivo-conductual con exposición y prevención de respuesta) y medicamentos (ISRS como fluoxetina o sertralina).
+
+¿Se puede curar el TOC?
+El trastorno obsesivo-compulsivo (TOC) se caracteriza por obsesiones (pensamientos recurrentes no deseados) y compulsiones (comportamientos repetitivos para aliviar la ansiedad). El tratamiento incluye psicoterapia (cognitivo-conductual con exposición y prevención de respuesta) y medicamentos (ISRS como fluoxetina o sertralina).
+
+¿Cuáles son los síntomas del TEPT?
+El trastorno por estrés postraumático (TEPT) se caracteriza por reexperimentación del trauma (recuerdos intrusivos, pesadillas), evitación de estímulos relacionados, alteraciones negativas en pensamientos y estado de ánimo, e hiperactivación (irritabilidad, insomnio, hipervigilancia).
+
+¿Cómo se manifiesta el trastorno por estrés postraumático?
+El trastorno por estrés postraumático (TEPT) se caracteriza por reexperimentación del trauma (recuerdos intrusivos, pesadillas), evitación de estímulos relacionados, alteraciones negativas en pensamientos y estado de ánimo, e hiperactivación (irritabilidad, insomnio, hipervigilancia).
+
+¿Qué síntomas tiene una persona con TEPT?
+El trastorno por estrés postraumático (TEPT) se caracteriza por reexperimentación del trauma (recuerdos intrusivos, pesadillas), evitación de estímulos relacionados, alteraciones negativas en pensamientos y estado de ánimo, e hiperactivación (irritabilidad, insomnio, hipervigilancia).
+
+¿Cómo reconocer el estrés postraumático?
+El trastorno por estrés postraumático (TEPT) se caracteriza por reexperimentación del trauma (recuerdos intrusivos, pesadillas), evitación de estímulos relacionados, alteraciones negativas en pensamientos y estado de ánimo, e hiperactivación (irritabilidad, insomnio, hipervigilancia).
+
+¿Qué es el TEPT y cuáles son sus signos?
+El trastorno por estrés postraumático (TEPT) se caracteriza por reexperimentación del trauma (recuerdos intrusivos, pesadillas), evitación de estímulos relacionados, alteraciones negativas en pensamientos y estado de ánimo, e hiperactivación (irritabilidad, insomnio, hipervigilancia).
+
+¿Qué es el trastorno de pánico y cómo se diagnostica?
+El trastorno de pánico se caracteriza por ataques de pánico recurrentes e inesperados, seguidos de preocupación persistente por tener más ataques. El diagnóstico es clínico, basado en criterios del DSM-5, y se confirma cuando los ataques no se deben a sustancias ni a otra enfermedad mental.
+
+¿Cómo se diagnostica el trastorno de pánico?
+El trastorno de pánico se caracteriza por ataques de pánico recurrentes e inesperados, seguidos de preocupación persistente por tener más ataques. El diagnóstico es clínico, basado en criterios del DSM-5, y se confirma cuando los ataques no se deben a sustancias ni a otra enfermedad mental.
+
+¿Qué criterios se usan para diagnosticar el trastorno de pánico?
+El trastorno de pánico se caracteriza por ataques de pánico recurrentes e inesperados, seguidos de preocupación persistente por tener más ataques. El diagnóstico es clínico, basado en criterios del DSM-5, y se confirma cuando los ataques no se deben a sustancias ni a otra enfermedad mental.
+
+¿Cuándo se considera que alguien tiene trastorno de pánico?
+El trastorno de pánico se caracteriza por ataques de pánico recurrentes e inesperados, seguidos de preocupación persistente por tener más ataques. El diagnóstico es clínico, basado en criterios del DSM-5, y se confirma cuando los ataques no se deben a sustancias ni a otra enfermedad mental.
+
+¿Cómo saber si es un ataque de pánico o algo más grave?
+El trastorno de pánico se caracteriza por ataques de pánico recurrentes e inesperados, seguidos de preocupación persistente por tener más ataques. El diagnóstico es clínico, basado en criterios del DSM-5, y se confirma cuando los ataques no se deben a sustancias ni a otra enfermedad mental.
+
+¿Qué tratamientos existen para la fobia social?
+La fobia social (trastorno de ansiedad social) se trata con psicoterapia (cognitivo-conductual, terapia de exposición), medicamentos (ISRS, inhibidores de la MAO, betabloqueadores para situaciones específicas) y entrenamiento en habilidades sociales.
+
+¿Cómo se trata la ansiedad social?
+La fobia social (trastorno de ansiedad social) se trata con psicoterapia (cognitivo-conductual, terapia de exposición), medicamentos (ISRS, inhibidores de la MAO, betabloqueadores para situaciones específicas) y entrenamiento en habilidades sociales.
+
+¿Qué medicamentos ayudan para la fobia social?
+La fobia social (trastorno de ansiedad social) se trata con psicoterapia (cognitivo-conductual, terapia de exposición), medicamentos (ISRS, inhibidores de la MAO, betabloqueadores para situaciones específicas) y entrenamiento en habilidades sociales.
+
+¿Se puede curar la fobia social?
+La fobia social (trastorno de ansiedad social) se trata con psicoterapia (cognitivo-conductual, terapia de exposición), medicamentos (ISRS, inhibidores de la MAO, betabloqueadores para situaciones específicas) y entrenamiento en habilidades sociales.
+
+¿Qué terapias son efectivas para el miedo a hablar en público?
+La fobia social (trastorno de ansiedad social) se trata con psicoterapia (cognitivo-conductual, terapia de exposición), medicamentos (ISRS, inhibidores de la MAO, betabloqueadores para situaciones específicas) y entrenamiento en habilidades sociales.
+
+¿Cuánto dura el trastorno de ansiedad generalizada (TAG)?
+El trastorno de ansiedad generalizada (TAG) es crónico; los síntomas de preocupación excesiva y tensión deben durar al menos 6 meses para el diagnóstico. Sin tratamiento, puede persistir años, pero con terapia y medicación mejora significativamente.
+
+¿El TAG es una enfermedad de por vida?
+El trastorno de ansiedad generalizada (TAG) es crónico; los síntomas de preocupación excesiva y tensión deben durar al menos 6 meses para el diagnóstico. Sin tratamiento, puede persistir años, pero con terapia y medicación mejora significativamente.
+
+¿Cuánto tiempo duran los síntomas del TAG?
+El trastorno de ansiedad generalizada (TAG) es crónico; los síntomas de preocupación excesiva y tensión deben durar al menos 6 meses para el diagnóstico. Sin tratamiento, puede persistir años, pero con terapia y medicación mejora significativamente.
+
+¿El TAG tiene cura o es para siempre?
+El trastorno de ansiedad generalizada (TAG) es crónico; los síntomas de preocupación excesiva y tensión deben durar al menos 6 meses para el diagnóstico. Sin tratamiento, puede persistir años, pero con terapia y medicación mejora significativamente.
+
+¿Cuánto tiempo se necesita para tratar el TAG?
+El trastorno de ansiedad generalizada (TAG) es crónico; los síntomas de preocupación excesiva y tensión deben durar al menos 6 meses para el diagnóstico. Sin tratamiento, puede persistir años, pero con terapia y medicación mejora significativamente.
+
+¿Cuál es la diferencia entre psicosis y esquizofrenia?
+La psicosis es un síntoma (pérdida de contacto con la realidad, con alucinaciones o delirios), mientras que la esquizofrenia es un trastorno mental específico que incluye psicosis como parte de sus síntomas, pero también afecta el pensamiento, la emoción y el comportamiento. No toda psicosis es esquizofrenia.
+
+¿Es lo mismo psicosis que esquizofrenia?
+No. La psicosis es un síntoma (pérdida de contacto con la realidad, con alucinaciones o delirios), mientras que la esquizofrenia es un trastorno mental específico que incluye psicosis como parte de sus síntomas, pero también afecta el pensamiento, la emoción y el comportamiento. No toda psicosis es esquizofrenia.
+
+¿En qué se diferencian la psicosis y la esquizofrenia?
+La psicosis es un síntoma (pérdida de contacto con la realidad, con alucinaciones o delirios), mientras que la esquizofrenia es un trastorno mental específico que incluye psicosis como parte de sus síntomas, pero también afecta el pensamiento, la emoción y el comportamiento. No toda psicosis es esquizofrenia.
+
+¿La esquizofrenia es lo mismo que tener psicosis?
+No. La psicosis es un síntoma (pérdida de contacto con la realidad, con alucinaciones o delirios), mientras que la esquizofrenia es un trastorno mental específico que incluye psicosis como parte de sus síntomas, pero también afecta el pensamiento, la emoción y el comportamiento. No toda psicosis es esquizofrenia.
+
+¿Puede haber psicosis sin esquizofrenia?
+Sí. La psicosis es un síntoma (pérdida de contacto con la realidad, con alucinaciones o delirios), mientras que la esquizofrenia es un trastorno mental específico que incluye psicosis como parte de sus síntomas, pero también afecta el pensamiento, la emoción y el comportamiento. No toda psicosis es esquizofrenia.
+
+¿Cuáles son los efectos secundarios de los antipsicóticos?
+Los efectos secundarios comunes de los antipsicóticos incluyen: sedación, aumento de peso, síndrome metabólico (diabetes, dislipidemia), síntomas extrapiramidales (rigidez, temblores, acatisia), hiperprolactinemia, y en casos raros, discinesia tardía. Los atípicos tienen menos efectos motores pero más metabólicos.
+
+¿Qué efectos adversos tienen los antipsicóticos?
+Los efectos secundarios comunes de los antipsicóticos incluyen: sedación, aumento de peso, síndrome metabólico (diabetes, dislipidemia), síntomas extrapiramidales (rigidez, temblores, acatisia), hiperprolactinemia, y en casos raros, discinesia tardía. Los atípicos tienen menos efectos motores pero más metabólicos.
+
+¿Los antipsicóticos engordan?
+Los efectos secundarios comunes de los antipsicóticos incluyen: sedación, aumento de peso, síndrome metabólico (diabetes, dislipidemia), síntomas extrapiramidales (rigidez, temblores, acatisia), hiperprolactinemia, y en casos raros, discinesia tardía. Los atípicos tienen menos efectos motores pero más metabólicos.
+
+¿Qué efectos secundarios tiene el haloperidol?
+Los efectos secundarios comunes de los antipsicóticos incluyen: sedación, aumento de peso, síndrome metabólico (diabetes, dislipidemia), síntomas extrapiramidales (rigidez, temblores, acatisia), hiperprolactinemia, y en casos raros, discinesia tardía. Los atípicos tienen menos efectos motores pero más metabólicos.
+
+¿Qué riesgos tienen los antipsicóticos atípicos?
+Los efectos secundarios comunes de los antipsicóticos incluyen: sedación, aumento de peso, síndrome metabólico (diabetes, dislipidemia), síntomas extrapiramidales (rigidez, temblores, acatisia), hiperprolactinemia, y en casos raros, discinesia tardía. Los atípicos tienen menos efectos motores pero más metabólicos.
+
+¿Cómo actúan los antidepresivos en el cerebro?
+Los antidepresivos aumentan la disponibilidad de neurotransmisores como serotonina, noradrenalina y dopamina en la sinapsis, mejorando la transmisión neuronal. Los ISRS bloquean la recaptación de serotonina; los IRSN bloquean serotonina y noradrenalina; los tricíclicos actúan sobre varios neurotransmisores; los MAOIs inhiben la monoaminooxidasa.
+
+¿Cuál es el mecanismo de acción de los antidepresivos?
+Los antidepresivos aumentan la disponibilidad de neurotransmisores como serotonina, noradrenalina y dopamina en la sinapsis, mejorando la transmisión neuronal. Los ISRS bloquean la recaptación de serotonina; los IRSN bloquean serotonina y noradrenalina; los tricíclicos actúan sobre varios neurotransmisores; los MAOIs inhiben la monoaminooxidasa.
+
+¿Cómo funcionan los ISRS?
+Los antidepresivos aumentan la disponibilidad de neurotransmisores como serotonina, noradrenalina y dopamina en la sinapsis, mejorando la transmisión neuronal. Los ISRS bloquean la recaptación de serotonina; los IRSN bloquean serotonina y noradrenalina; los tricíclicos actúan sobre varios neurotransmisores; los MAOIs inhiben la monoaminooxidasa.
+
+¿Qué hacen los antidepresivos en el organismo?
+Los antidepresivos aumentan la disponibilidad de neurotransmisores como serotonina, noradrenalina y dopamina en la sinapsis, mejorando la transmisión neuronal. Los ISRS bloquean la recaptación de serotonina; los IRSN bloquean serotonina y noradrenalina; los tricíclicos actúan sobre varios neurotransmisores; los MAOIs inhiben la monoaminooxidasa.
+
+¿Por qué los antidepresivos tardan semanas en hacer efecto?
+Los antidepresivos aumentan la disponibilidad de neurotransmisores como serotonina, noradrenalina y dopamina en la sinapsis, mejorando la transmisión neuronal. Los ISRS bloquean la recaptación de serotonina; los IRSN bloquean serotonina y noradrenalina; los tricíclicos actúan sobre varios neurotransmisores; los MAOIs inhiben la monoaminooxidasa.
+
+¿Para qué sirve el litio en psiquiatría?
+El litio es un estabilizador del ánimo usado principalmente para el trastorno bipolar: previene episodios de manía y depresión, reduce el riesgo de suicidio y puede potenciar antidepresivos en depresión resistente. También se usa en algunos casos de cefaleas en racimo.
+
+¿Qué función cumple el litio?
+El litio es un estabilizador del ánimo usado principalmente para el trastorno bipolar: previene episodios de manía y depresión, reduce el riesgo de suicidio y puede potenciar antidepresivos en depresión resistente. También se usa en algunos casos de cefaleas en racimo.
+
+¿Para qué enfermedades se usa el litio?
+El litio es un estabilizador del ánimo usado principalmente para el trastorno bipolar: previene episodios de manía y depresión, reduce el riesgo de suicidio y puede potenciar antidepresivos en depresión resistente. También se usa en algunos casos de cefaleas en racimo.
+
+¿Qué trata el carbonato de litio?
+El litio es un estabilizador del ánimo usado principalmente para el trastorno bipolar: previene episodios de manía y depresión, reduce el riesgo de suicidio y puede potenciar antidepresivos en depresión resistente. También se usa en algunos casos de cefaleas en racimo.
+
+¿El litio es solo para el trastorno bipolar?
+El litio es un estabilizador del ánimo usado principalmente para el trastorno bipolar: previene episodios de manía y depresión, reduce el riesgo de suicidio y puede potenciar antidepresivos en depresión resistente. También se usa en algunos casos de cefaleas en racimo.
+
+¿Qué es la terapia electroconvulsiva (TEC) y cuándo se usa?
+La terapia electroconvulsiva (TEC) consiste en inducir una convulsión breve bajo anestesia general para tratar trastornos psiquiátricos graves. Se usa en depresión mayor resistente a medicamentos, catatonia, manía severa, y algunos casos de esquizofrenia. Es segura y eficaz.
+
+¿En qué casos se aplica la TEC?
+La terapia electroconvulsiva (TEC) consiste en inducir una convulsión breve bajo anestesia general para tratar trastornos psiquiátricos graves. Se usa en depresión mayor resistente a medicamentos, catatonia, manía severa, y algunos casos de esquizofrenia. Es segura y eficaz.
+
+¿Cuándo se recomienda la terapia electroconvulsiva?
+La terapia electroconvulsiva (TEC) consiste en inducir una convulsión breve bajo anestesia general para tratar trastornos psiquiátricos graves. Se usa en depresión mayor resistente a medicamentos, catatonia, manía severa, y algunos casos de esquizofrenia. Es segura y eficaz.
+
+¿Para qué sirve la electroconvulsiva?
+La terapia electroconvulsiva (TEC) consiste en inducir una convulsión breve bajo anestesia general para tratar trastornos psiquiátricos graves. Se usa en depresión mayor resistente a medicamentos, catatonia, manía severa, y algunos casos de esquizofrenia. Es segura y eficaz.
+
+¿La TEC aún se usa hoy en día?
+La terapia electroconvulsiva (TEC) consiste en inducir una convulsión breve bajo anestesia general para tratar trastornos psiquiátricos graves. Se usa en depresión mayor resistente a medicamentos, catatonia, manía severa, y algunos casos de esquizofrenia. Es segura y eficaz.
+
+¿Qué factores aumentan el riesgo de caídas en pacientes hospitalizados?
+Factores de riesgo: edad >65 años, historia previa de caídas, alteración de la marcha o equilibrio, uso de medicamentos sedantes o antihipertensivos, deterioro cognitivo, incontinencia urinaria, debilidad muscular, y entornos con barreras físicas.
+
+¿Cuáles son los principales factores de riesgo para caídas?
+Factores de riesgo: edad >65 años, historia previa de caídas, alteración de la marcha o equilibrio, uso de medicamentos sedantes o antihipertensivos, deterioro cognitivo, incontinencia urinaria, debilidad muscular, y entornos con barreras físicas.
+
+¿Qué pacientes tienen más probabilidad de caerse en el hospital?
+Factores de riesgo: edad >65 años, historia previa de caídas, alteración de la marcha o equilibrio, uso de medicamentos sedantes o antihipertensivos, deterioro cognitivo, incontinencia urinaria, debilidad muscular, y entornos con barreras físicas.
+
+¿Por qué los adultos mayores se caen más?
+Factores de riesgo: edad >65 años, historia previa de caídas, alteración de la marcha o equilibrio, uso de medicamentos sedantes o antihipertensivos, deterioro cognitivo, incontinencia urinaria, debilidad muscular, y entornos con barreras físicas.
+
+¿Qué medicamentos aumentan el riesgo de caídas?
+Factores de riesgo: edad >65 años, historia previa de caídas, alteración de la marcha o equilibrio, uso de medicamentos sedantes o antihipertensivos, deterioro cognitivo, incontinencia urinaria, debilidad muscular, y entornos con barreras físicas.
+
+¿Cómo se interpreta la escala de Morse?
+La escala de Morse evalúa riesgo de caídas: 0-24 puntos = bajo riesgo; 25-44 = moderado riesgo; ≥45 = alto riesgo. Considera historia de caídas, diagnóstico secundario, ayuda para deambular, terapia intravenosa, marcha y estado mental.
+
+¿Qué significa la puntuación de la escala de Morse?
+La escala de Morse evalúa riesgo de caídas: 0-24 puntos = bajo riesgo; 25-44 = moderado riesgo; ≥45 = alto riesgo. Considera historia de caídas, diagnóstico secundario, ayuda para deambular, terapia intravenosa, marcha y estado mental.
+
+¿Cómo saber si un paciente tiene alto riesgo de caídas con la escala de Morse?
+La escala de Morse evalúa riesgo de caídas: 0-24 puntos = bajo riesgo; 25-44 = moderado riesgo; ≥45 = alto riesgo. Considera historia de caídas, diagnóstico secundario, ayuda para deambular, terapia intravenosa, marcha y estado mental.
+
+¿Qué valores indican riesgo alto en la escala de Morse?
+La escala de Morse evalúa riesgo de caídas: 0-24 puntos = bajo riesgo; 25-44 = moderado riesgo; ≥45 = alto riesgo. Considera historia de caídas, diagnóstico secundario, ayuda para deambular, terapia intravenosa, marcha y estado mental.
+
+¿Para qué sirve la escala de Morse?
+La escala de Morse evalúa riesgo de caídas: 0-24 puntos = bajo riesgo; 25-44 = moderado riesgo; ≥45 = alto riesgo. Considera historia de caídas, diagnóstico secundario, ayuda para deambular, terapia intravenosa, marcha y estado mental.
+
+¿Cuáles son las medidas básicas de bioseguridad?
+Las medidas básicas de bioseguridad incluyen: lavado de manos (antes y después del contacto con pacientes), uso de elementos de protección personal (guantes, bata, mascarilla, gafas), manejo seguro de objetos cortopunzantes, desinfección de superficies y eliminación correcta de residuos hospitalarios.
+
+¿Qué debe hacer el personal de salud para prevenir infecciones?
+Las medidas básicas de bioseguridad incluyen: lavado de manos (antes y después del contacto con pacientes), uso de elementos de protección personal (guantes, bata, mascarilla, gafas), manejo seguro de objetos cortopunzantes, desinfección de superficies y eliminación correcta de residuos hospitalarios.
+
+¿Cuáles son los principios de bioseguridad en enfermería?
+Las medidas básicas de bioseguridad incluyen: lavado de manos (antes y después del contacto con pacientes), uso de elementos de protección personal (guantes, bata, mascarilla, gafas), manejo seguro de objetos cortopunzantes, desinfección de superficies y eliminación correcta de residuos hospitalarios.
+
+¿Cómo se protege el personal de enfermería de infecciones?
+Las medidas básicas de bioseguridad incluyen: lavado de manos (antes y después del contacto con pacientes), uso de elementos de protección personal (guantes, bata, mascarilla, gafas), manejo seguro de objetos cortopunzantes, desinfección de superficies y eliminación correcta de residuos hospitalarios.
+
+¿Qué equipos de protección personal se deben usar?
+Las medidas básicas de bioseguridad incluyen: lavado de manos (antes y después del contacto con pacientes), uso de elementos de protección personal (guantes, bata, mascarilla, gafas), manejo seguro de objetos cortopunzantes, desinfección de superficies y eliminación correcta de residuos hospitalarios.
+
+¿Cuándo debe realizarse el lavado de manos en el ámbito hospitalario?
+El lavado de manos debe realizarse: antes y después del contacto con cada paciente, antes de un procedimiento aséptico, después de estar en contacto con fluidos corporales, después de tocar superficies del entorno del paciente, y al quitarse los guantes.
+
+¿En qué momentos es obligatorio lavarse las manos?
+El lavado de manos debe realizarse: antes y después del contacto con cada paciente, antes de un procedimiento aséptico, después de estar en contacto con fluidos corporales, después de tocar superficies del entorno del paciente, y al quitarse los guantes.
+
+¿Cuándo debo lavarme las manos en el hospital?
+El lavado de manos debe realizarse: antes y después del contacto con cada paciente, antes de un procedimiento aséptico, después de estar en contacto con fluidos corporales, después de tocar superficies del entorno del paciente, y al quitarse los guantes.
+
+¿Qué dice la OMS sobre los 5 momentos del lavado de manos?
+El lavado de manos debe realizarse: antes y después del contacto con cada paciente, antes de un procedimiento aséptico, después de estar en contacto con fluidos corporales, después de tocar superficies del entorno del paciente, y al quitarse los guantes.
+
+¿Cuándo usar alcohol en gel y cuándo agua y jabón?
+El lavado de manos debe realizarse: antes y después del contacto con cada paciente, antes de un procedimiento aséptico, después de estar en contacto con fluidos corporales, después de tocar superficies del entorno del paciente, y al quitarse los guantes.
+
+¿Cómo se previenen las úlceras por presión?
+La prevención incluye: cambios de posición cada 2 horas, uso de superficies especiales (colchones de baja presión o de aire), mantener la piel limpia y seca, nutrición adecuada (proteínas, hidratación), y evaluación diaria con escalas como Braden o Norton.
+
+¿Qué cuidados evitar las úlceras por decúbito?
+La prevención incluye: cambios de posición cada 2 horas, uso de superficies especiales (colchones de baja presión o de aire), mantener la piel limpia y seca, nutrición adecuada (proteínas, hidratación), y evaluación diaria con escalas como Braden o Norton.
+
+¿Cómo evitar las escaras en pacientes encamados?
+La prevención incluye: cambios de posición cada 2 horas, uso de superficies especiales (colchones de baja presión o de aire), mantener la piel limpia y seca, nutrición adecuada (proteínas, hidratación), y evaluación diaria con escalas como Braden o Norton.
+
+¿Qué medidas de enfermería previenen las úlceras por presión?
+La prevención incluye: cambios de posición cada 2 horas, uso de superficies especiales (colchones de baja presión o de aire), mantener la piel limpia y seca, nutrición adecuada (proteínas, hidratación), y evaluación diaria con escalas como Braden o Norton.
+
+¿Cada cuánto hay que movilizar a un paciente encamado?
+La prevención incluye: cambios de posición cada 2 horas, uso de superficies especiales (colchones de baja presión o de aire), mantener la piel limpia y seca, nutrición adecuada (proteínas, hidratación), y evaluación diaria con escalas como Braden o Norton.
+
+¿Cuáles son los cuidados de una sonda vesical?
+Los cuidados incluyen: higiene diaria del meato urinario con agua y jabón, mantener la bolsa de drenaje por debajo del nivel de la vejiga, evitar tracciones, asegurar flujo libre, vaciar la bolsa regularmente, y monitorizar signos de infección (orina turbia, fiebre).
+
+¿Cómo se cuida a un paciente con sonda vesical?
+Los cuidados incluyen: higiene diaria del meato urinario con agua y jabón, mantener la bolsa de drenaje por debajo del nivel de la vejiga, evitar tracciones, asegurar flujo libre, vaciar la bolsa regularmente, y monitorizar signos de infección (orina turbia, fiebre).
+
+¿Qué debe hacer el auxiliar de enfermería con una sonda Foley?
+Los cuidados incluyen: higiene diaria del meato urinario con agua y jabón, mantener la bolsa de drenaje por debajo del nivel de la vejiga, evitar tracciones, asegurar flujo libre, vaciar la bolsa regularmente, y monitorizar signos de infección (orina turbia, fiebre).
+
+¿Cada cuánto se cambia una sonda vesical?
+Los cuidados incluyen: higiene diaria del meato urinario con agua y jabón, mantener la bolsa de drenaje por debajo del nivel de la vejiga, evitar tracciones, asegurar flujo libre, vaciar la bolsa regularmente, y monitorizar signos de infección (orina turbia, fiebre).
+
+¿Qué complicaciones tiene el uso de sonda vesical?
+Los cuidados incluyen: higiene diaria del meato urinario con agua y jabón, mantener la bolsa de drenaje por debajo del nivel de la vejiga, evitar tracciones, asegurar flujo libre, vaciar la bolsa regularmente, y monitorizar signos de infección (orina turbia, fiebre).
+
+¿Quién debe firmar el consentimiento informado?
+Debe firmarlo el paciente si es mayor de edad y está en pleno uso de sus facultades mentales. Si es menor de edad o no tiene capacidad legal, firma su representante legal (padres, tutores). En urgencias vitales sin representante, puede actuar el médico.
+
+¿El consentimiento informado lo firma el paciente o un familiar?
+Debe firmarlo el paciente si es mayor de edad y está en pleno uso de sus facultades mentales. Si es menor de edad o no tiene capacidad legal, firma su representante legal (padres, tutores). En urgencias vitales sin representante, puede actuar el médico.
+
+¿Quién puede dar el consentimiento si el paciente está inconsciente?
+Debe firmarlo el paciente si es mayor de edad y está en pleno uso de sus facultades mentales. Si es menor de edad o no tiene capacidad legal, firma su representante legal (padres, tutores). En urgencias vitales sin representante, puede actuar el médico.
+
+¿Qué pasa si el paciente se niega a firmar el consentimiento?
+Debe firmarlo el paciente si es mayor de edad y está en pleno uso de sus facultades mentales. Si es menor de edad o no tiene capacidad legal, firma su representante legal (padres, tutores). En urgencias vitales sin representante, puede actuar el médico.
+
+¿El consentimiento informado siempre lo firma el paciente?
+Debe firmarlo el paciente si es mayor de edad y está en pleno uso de sus facultades mentales. Si es menor de edad o no tiene capacidad legal, firma su representante legal (padres, tutores). En urgencias vitales sin representante, puede actuar el médico.
+
+¿Qué es el trastorno límite de la personalidad y cuáles son sus síntomas?
+El trastorno límite de la personalidad (TLP) se caracteriza por inestabilidad emocional intensa, relaciones interpersonales caóticas, impulsividad, miedo al abandono, cambios rápidos de identidad, sentimiento crónico de vacío, ira incontrolable y autolesiones. Los síntomas deben ser estables y de larga duración.
+
+¿Cuáles son los síntomas del trastorno límite de la personalidad?
+El trastorno límite de la personalidad (TLP) se caracteriza por inestabilidad emocional intensa, relaciones interpersonales caóticas, impulsividad, miedo al abandono, cambios rápidos de identidad, sentimiento crónico de vacío, ira incontrolable y autolesiones. Los síntomas deben ser estables y de larga duración.
+
+¿Cómo reconocer a una persona con TLP?
+El trastorno límite de la personalidad (TLP) se caracteriza por inestabilidad emocional intensa, relaciones interpersonales caóticas, impulsividad, miedo al abandono, cambios rápidos de identidad, sentimiento crónico de vacío, ira incontrolable y autolesiones. Los síntomas deben ser estables y de larga duración.
+
+¿Qué síntomas presenta el trastorno límite de la personalidad?
+El trastorno límite de la personalidad (TLP) se caracteriza por inestabilidad emocional intensa, relaciones interpersonales caóticas, impulsividad, miedo al abandono, cambios rápidos de identidad, sentimiento crónico de vacío, ira incontrolable y autolesiones. Los síntomas deben ser estables y de larga duración.
+
+¿Qué es el TLP y cómo se manifiesta?
+El trastorno límite de la personalidad (TLP) se caracteriza por inestabilidad emocional intensa, relaciones interpersonales caóticas, impulsividad, miedo al abandono, cambios rápidos de identidad, sentimiento crónico de vacío, ira incontrolable y autolesiones. Los síntomas deben ser estables y de larga duración.
+
+¿Cómo se trata la anorexia nerviosa?
+El tratamiento de la anorexia nerviosa incluye: recuperación nutricional y restauración del peso, psicoterapia (cognitivo-conductual, terapia familiar en adolescentes), medicación (antidepresivos para comorbilidades), y manejo de complicaciones médicas. La hospitalización puede ser necesaria si hay riesgo vital.
+
+¿Qué tratamiento existe para la anorexia?
+El tratamiento de la anorexia nerviosa incluye: recuperación nutricional y restauración del peso, psicoterapia (cognitivo-conductual, terapia familiar en adolescentes), medicación (antidepresivos para comorbilidades), y manejo de complicaciones médicas. La hospitalización puede ser necesaria si hay riesgo vital.
+
+¿Cómo se trata la bulimia nerviosa?
+El tratamiento de la anorexia nerviosa incluye: recuperación nutricional y restauración del peso, psicoterapia (cognitivo-conductual, terapia familiar en adolescentes), medicación (antidepresivos para comorbilidades), y manejo de complicaciones médicas. La hospitalización puede ser necesaria si hay riesgo vital.
+
+¿Cuál es el tratamiento para los trastornos de la conducta alimentaria?
+El tratamiento de la anorexia nerviosa incluye: recuperación nutricional y restauración del peso, psicoterapia (cognitivo-conductual, terapia familiar en adolescentes), medicación (antidepresivos para comorbilidades), y manejo de complicaciones médicas. La hospitalización puede ser necesaria si hay riesgo vital.
+
+¿Qué terapias son efectivas para la anorexia?
+El tratamiento de la anorexia nerviosa incluye: recuperación nutricional y restauración del peso, psicoterapia (cognitivo-conductual, terapia familiar en adolescentes), medicación (antidepresivos para comorbilidades), y manejo de complicaciones médicas. La hospitalización puede ser necesaria si hay riesgo vital.
+
+¿Qué medicamentos se usan para el TDAH en adultos?
+En adultos, los medicamentos para el TDAH incluyen estimulantes (metilfenidato, anfetaminas) y no estimulantes (atomoxetina, guanfacina, clonidina). También pueden usarse antidepresivos como la bupropión. El tratamiento debe ser individualizado y supervisado por psiquiatra.
+
+¿Cómo se trata el TDAH en adultos?
+En adultos, los medicamentos para el TDAH incluyen estimulantes (metilfenidato, anfetaminas) y no estimulantes (atomoxetina, guanfacina, clonidina). También pueden usarse antidepresivos como la bupropión. El tratamiento debe ser individualizado y supervisado por psiquiatra.
+
+¿Qué fármacos son eficaces para el TDAH en la edad adulta?
+En adultos, los medicamentos para el TDAH incluyen estimulantes (metilfenidato, anfetaminas) y no estimulantes (atomoxetina, guanfacina, clonidina). También pueden usarse antidepresivos como la bupropión. El tratamiento debe ser individualizado y supervisado por psiquiatra.
+
+¿Cuál es el tratamiento farmacológico del TDAH en adultos?
+En adultos, los medicamentos para el TDAH incluyen estimulantes (metilfenidato, anfetaminas) y no estimulantes (atomoxetina, guanfacina, clonidina). También pueden usarse antidepresivos como la bupropión. El tratamiento debe ser individualizado y supervisado por psiquiatra.
+
+¿Qué medicamentos existen para el déficit de atención en adultos?
+En adultos, los medicamentos para el TDAH incluyen estimulantes (metilfenidato, anfetaminas) y no estimulantes (atomoxetina, guanfacina, clonidina). También pueden usarse antidepresivos como la bupropión. El tratamiento debe ser individualizado y supervisado por psiquiatra.
+
+¿Cómo se diagnostica el trastorno disfórico premenstrual?
+El diagnóstico del trastorno disfórico premenstrual es clínico, basado en al menos 5 síntomas (afectivos, físicos y conductuales) que aparecen en la semana previa a la menstruación, mejoran con el inicio de la regla y desaparecen después. Se requiere un registro prospectivo de al menos dos ciclos.
+
+¿Qué criterios se usan para diagnosticar el trastorno disfórico premenstrual?
+El diagnóstico del trastorno disfórico premenstrual es clínico, basado en al menos 5 síntomas (afectivos, físicos y conductuales) que aparecen en la semana previa a la menstruación, mejoran con el inicio de la regla y desaparecen después. Se requiere un registro prospectivo de al menos dos ciclos.
+
+¿Cómo saber si tengo trastorno disfórico premenstrual?
+El diagnóstico del trastorno disfórico premenstrual es clínico, basado en al menos 5 síntomas (afectivos, físicos y conductuales) que aparecen en la semana previa a la menstruación, mejoran con el inicio de la regla y desaparecen después. Se requiere un registro prospectivo de al menos dos ciclos.
+
+¿Qué es el trastorno disfórico premenstrual y cómo se diagnostica?
+El diagnóstico del trastorno disfórico premenstrual es clínico, basado en al menos 5 síntomas (afectivos, físicos y conductuales) que aparecen en la semana previa a la menstruación, mejoran con el inicio de la regla y desaparecen después. Se requiere un registro prospectivo de al menos dos ciclos.
+
+¿Cuándo se debe sospechar trastorno disfórico premenstrual?
+El diagnóstico del trastorno disfórico premenstrual es clínico, basado en al menos 5 síntomas (afectivos, físicos y conductuales) que aparecen en la semana previa a la menstruación, mejoran con el inicio de la regla y desaparecen después. Se requiere un registro prospectivo de al menos dos ciclos.
+
+¿Qué tipos de alucinaciones existen?
+Las alucinaciones se clasifican por modalidad sensorial: auditivas (oír voces o ruidos), visuales (ver cosas), táctiles (sentir algo en la piel), olfatorias (oler olores inexistentes), gustativas (sabores anormales) y cenestésicas (sensaciones corporales extrañas). Las más frecuentes en psicosis son las auditivas.
+
+¿Cuáles son las clases de alucinaciones?
+Las alucinaciones se clasifican por modalidad sensorial: auditivas (oír voces o ruidos), visuales (ver cosas), táctiles (sentir algo en la piel), olfatorias (oler olores inexistentes), gustativas (sabores anormales) y cenestésicas (sensaciones corporales extrañas). Las más frecuentes en psicosis son las auditivas.
+
+¿Qué tipos de alucinaciones hay en psiquiatría?
+Las alucinaciones se clasifican por modalidad sensorial: auditivas (oír voces o ruidos), visuales (ver cosas), táctiles (sentir algo en la piel), olfatorias (oler olores inexistentes), gustativas (sabores anormales) y cenestésicas (sensaciones corporales extrañas). Las más frecuentes en psicosis son las auditivas.
+
+¿Cómo se clasifican las alucinaciones?
+Las alucinaciones se clasifican por modalidad sensorial: auditivas (oír voces o ruidos), visuales (ver cosas), táctiles (sentir algo en la piel), olfatorias (oler olores inexistentes), gustativas (sabores anormales) y cenestésicas (sensaciones corporales extrañas). Las más frecuentes en psicosis son las auditivas.
+
+¿Qué tipos de alucinaciones existen en los trastornos mentales?
+Las alucinaciones se clasifican por modalidad sensorial: auditivas (oír voces o ruidos), visuales (ver cosas), táctiles (sentir algo en la piel), olfatorias (oler olores inexistentes), gustativas (sabores anormales) y cenestésicas (sensaciones corporales extrañas). Las más frecuentes en psicosis son las auditivas.
+
+¿En qué enfermedades aparecen los delirios?
+Los delirios aparecen en trastornos psicóticos como esquizofrenia, trastorno delirante, trastorno esquizoafectivo, psicosis inducida por sustancias, trastorno bipolar con síntomas psicóticos, depresión mayor psicótica, demencias (especialmente cuerpos de Lewy) y delirium.
+
+¿Qué trastornos cursan con delirios?
+Los delirios aparecen en trastornos psicóticos como esquizofrenia, trastorno delirante, trastorno esquizoafectivo, psicosis inducida por sustancias, trastorno bipolar con síntomas psicóticos, depresión mayor psicótica, demencias (especialmente cuerpos de Lewy) y delirium.
+
+¿En qué enfermedades mentales hay delirios?
+Los delirios aparecen en trastornos psicóticos como esquizofrenia, trastorno delirante, trastorno esquizoafectivo, psicosis inducida por sustancias, trastorno bipolar con síntomas psicóticos, depresión mayor psicótica, demencias (especialmente cuerpos de Lewy) y delirium.
+
+¿Cuándo aparecen los delirios?
+Los delirios aparecen en trastornos psicóticos como esquizofrenia, trastorno delirante, trastorno esquizoafectivo, psicosis inducida por sustancias, trastorno bipolar con síntomas psicóticos, depresión mayor psicótica, demencias (especialmente cuerpos de Lewy) y delirium.
+
+¿Qué enfermedades causan delirios?
+Los delirios aparecen en trastornos psicóticos como esquizofrenia, trastorno delirante, trastorno esquizoafectivo, psicosis inducida por sustancias, trastorno bipolar con síntomas psicóticos, depresión mayor psicótica, demencias (especialmente cuerpos de Lewy) y delirium.
+
+¿Cómo se trata la catatonia?
+La catatonia se trata con benzodiacepinas (lorazepam es el de elección), terapia electroconvulsiva (muy eficaz), y tratamiento de la causa subyacente (psicosis, trastorno afectivo, enfermedad médica). En casos graves, se puede usar amantadina o memantina.
+
+¿Qué tratamiento existe para la catatonia?
+La catatonia se trata con benzodiacepinas (lorazepam es el de elección), terapia electroconvulsiva (muy eficaz), y tratamiento de la causa subyacente (psicosis, trastorno afectivo, enfermedad médica). En casos graves, se puede usar amantadina o memantina.
+
+¿Cuál es el manejo de la catatonia?
+La catatonia se trata con benzodiacepinas (lorazepam es el de elección), terapia electroconvulsiva (muy eficaz), y tratamiento de la causa subyacente (psicosis, trastorno afectivo, enfermedad médica). En casos graves, se puede usar amantadina o memantina.
+
+¿Qué medicamentos se usan para la catatonia?
+La catatonia se trata con benzodiacepinas (lorazepam es el de elección), terapia electroconvulsiva (muy eficaz), y tratamiento de la causa subyacente (psicosis, trastorno afectivo, enfermedad médica). En casos graves, se puede usar amantadina o memantina.
+
+¿Se puede curar la catatonia?
+La catatonia se trata con benzodiacepinas (lorazepam es el de elección), terapia electroconvulsiva (muy eficaz), y tratamiento de la causa subyacente (psicosis, trastorno afectivo, enfermedad médica). En casos graves, se puede usar amantadina o memantina.
+
+¿Qué medicamentos causan acatisia?
+La acatisia es un efecto secundario común de los antipsicóticos (especialmente los típicos como haloperidol), pero también puede ser causada por ISRS, inhibidores de la recaptación de serotonina y noradrenalina, y algunos antieméticos. Es más frecuente con dosis altas y aumentos rápidos.
+
+¿Por qué aparece la acatisia?
+La acatisia es un efecto secundario común de los antipsicóticos (especialmente los típicos como haloperidol), pero también puede ser causada por ISRS, inhibidores de la recaptación de serotonina y noradrenalina, y algunos antieméticos. Es más frecuente con dosis altas y aumentos rápidos.
+
+¿Qué fármacos producen acatisia?
+La acatisia es un efecto secundario común de los antipsicóticos (especialmente los típicos como haloperidol), pero también puede ser causada por ISRS, inhibidores de la recaptación de serotonina y noradrenalina, y algunos antieméticos. Es más frecuente con dosis altas y aumentos rápidos.
+
+¿La acatisia es solo por antipsicóticos?
+La acatisia es un efecto secundario común de los antipsicóticos (especialmente los típicos como haloperidol), pero también puede ser causada por ISRS, inhibidores de la recaptación de serotonina y noradrenalina, y algunos antieméticos. Es más frecuente con dosis altas y aumentos rápidos.
+
+¿Qué medicamentos generan acatisia?
+La acatisia es un efecto secundario común de los antipsicóticos (especialmente los típicos como haloperidol), pero también puede ser causada por ISRS, inhibidores de la recaptación de serotonina y noradrenalina, y algunos antieméticos. Es más frecuente con dosis altas y aumentos rápidos.
+
+¿Cuáles son los signos de alarma del síndrome neuroléptico maligno?
+Los signos de alarma del síndrome neuroléptico maligno son: rigidez muscular severa, fiebre alta (>38°C), alteración del estado mental (delirio, estupor), disautonomía (inestabilidad de presión, taquicardia, diaforesis), elevación de creatinfosfoquinasa (CPK) y rabdomiólisis. Es una emergencia médica.
+
+¿Cómo reconocer el síndrome neuroléptico maligno?
+Los signos de alarma del síndrome neuroléptico maligno son: rigidez muscular severa, fiebre alta (>38°C), alteración del estado mental (delirio, estupor), disautonomía (inestabilidad de presión, taquicardia, diaforesis), elevación de creatinfosfoquinasa (CPK) y rabdomiólisis. Es una emergencia médica.
+
+¿Qué síntomas indican síndrome neuroléptico maligno?
+Los signos de alarma del síndrome neuroléptico maligno son: rigidez muscular severa, fiebre alta (>38°C), alteración del estado mental (delirio, estupor), disautonomía (inestabilidad de presión, taquicardia, diaforesis), elevación de creatinfosfoquinasa (CPK) y rabdomiólisis. Es una emergencia médica.
+
+¿Cuándo sospechar síndrome neuroléptico maligno?
+Los signos de alarma del síndrome neuroléptico maligno son: rigidez muscular severa, fiebre alta (>38°C), alteración del estado mental (delirio, estupor), disautonomía (inestabilidad de presión, taquicardia, diaforesis), elevación de creatinfosfoquinasa (CPK) y rabdomiólisis. Es una emergencia médica.
+
+¿Qué es el síndrome neuroléptico maligno y cuáles son sus signos?
+Los signos de alarma del síndrome neuroléptico maligno son: rigidez muscular severa, fiebre alta (>38°C), alteración del estado mental (delirio, estupor), disautonomía (inestabilidad de presión, taquicardia, diaforesis), elevación de creatinfosfoquinasa (CPK) y rabdomiólisis. Es una emergencia médica.
+
+¿Cómo se previene la discinesia tardía?
+La prevención de la discinesia tardía se basa en: usar la dosis mínima efectiva de antipsicóticos, preferir antipsicóticos atípicos (menor riesgo), evitar el uso prolongado innecesario, realizar evaluaciones periódicas con escalas (como AIMS), y considerar pausas o cambio de medicación si aparecen síntomas iniciales.
+
+¿Qué hacer para evitar la discinesia tardía?
+La prevención de la discinesia tardía se basa en: usar la dosis mínima efectiva de antipsicóticos, preferir antipsicóticos atípicos (menor riesgo), evitar el uso prolongado innecesario, realizar evaluaciones periódicas con escalas (como AIMS), y considerar pausas o cambio de medicación si aparecen síntomas iniciales.
+
+¿Cómo reducir el riesgo de discinesia tardía?
+La prevención de la discinesia tardía se basa en: usar la dosis mínima efectiva de antipsicóticos, preferir antipsicóticos atípicos (menor riesgo), evitar el uso prolongado innecesario, realizar evaluaciones periódicas con escalas (como AIMS), y considerar pausas o cambio de medicación si aparecen síntomas iniciales.
+
+¿Qué medidas previenen la discinesia tardía?
+La prevención de la discinesia tardía se basa en: usar la dosis mínima efectiva de antipsicóticos, preferir antipsicóticos atípicos (menor riesgo), evitar el uso prolongado innecesario, realizar evaluaciones periódicas con escalas (como AIMS), y considerar pausas o cambio de medicación si aparecen síntomas iniciales.
+
+¿Se puede evitar la discinesia tardía?
+La prevención de la discinesia tardía se basa en: usar la dosis mínima efectiva de antipsicóticos, preferir antipsicóticos atípicos (menor riesgo), evitar el uso prolongado innecesario, realizar evaluaciones periódicas con escalas (como AIMS), y considerar pausas o cambio de medicación si aparecen síntomas iniciales.
+
+¿Qué efectos secundarios tiene la terapia electroconvulsiva?
+Los efectos secundarios de la TEC incluyen: cefalea, náuseas, mialgias, confusión postictal (transitoria), pérdida de memoria anterógrada y retrógrada (generalmente reversible), y complicaciones anestésicas. La mortalidad es muy baja, similar a la de procedimientos anestésicos menores.
+
+¿La TEC tiene efectos adversos?
+Los efectos secundarios de la TEC incluyen: cefalea, náuseas, mialgias, confusión postictal (transitoria), pérdida de memoria anterógrada y retrógrada (generalmente reversible), y complicaciones anestésicas. La mortalidad es muy baja, similar a la de procedimientos anestésicos menores.
+
+¿Qué riesgos tiene la terapia electroconvulsiva?
+Los efectos secundarios de la TEC incluyen: cefalea, náuseas, mialgias, confusión postictal (transitoria), pérdida de memoria anterógrada y retrógrada (generalmente reversible), y complicaciones anestésicas. La mortalidad es muy baja, similar a la de procedimientos anestésicos menores.
+
+¿La TEC daña la memoria?
+Los efectos secundarios de la TEC incluyen: cefalea, náuseas, mialgias, confusión postictal (transitoria), pérdida de memoria anterógrada y retrógrada (generalmente reversible), y complicaciones anestésicas. La mortalidad es muy baja, similar a la de procedimientos anestésicos menores.
+
+¿Cuáles son los efectos secundarios de la electroconvulsiva?
+Los efectos secundarios de la TEC incluyen: cefalea, náuseas, mialgias, confusión postictal (transitoria), pérdida de memoria anterógrada y retrógrada (generalmente reversible), y complicaciones anestésicas. La mortalidad es muy baja, similar a la de procedimientos anestésicos menores.
+
+¿Para qué sirve la psicoeducación en el trastorno bipolar?
+La psicoeducación en el trastorno bipolar ayuda al paciente y a su familia a reconocer los síntomas prodrómicos (inicio de episodios), mejorar la adherencia al tratamiento, evitar factores desencadenantes (falta de sueño, estrés), y promover hábitos regulares de sueño, alimentación y actividad. Reduce el número de recaídas.
+
+¿Qué función cumple la psicoeducación en el trastorno bipolar?
+La psicoeducación en el trastorno bipolar ayuda al paciente y a su familia a reconocer los síntomas prodrómicos (inicio de episodios), mejorar la adherencia al tratamiento, evitar factores desencadenantes (falta de sueño, estrés), y promover hábitos regulares de sueño, alimentación y actividad. Reduce el número de recaídas.
+
+¿Para qué se usa la psicoeducación en pacientes bipolares?
+La psicoeducación en el trastorno bipolar ayuda al paciente y a su familia a reconocer los síntomas prodrómicos (inicio de episodios), mejorar la adherencia al tratamiento, evitar factores desencadenantes (falta de sueño, estrés), y promover hábitos regulares de sueño, alimentación y actividad. Reduce el número de recaídas.
+
+¿Qué beneficios tiene la psicoeducación en el trastorno bipolar?
+La psicoeducación en el trastorno bipolar ayuda al paciente y a su familia a reconocer los síntomas prodrómicos (inicio de episodios), mejorar la adherencia al tratamiento, evitar factores desencadenantes (falta de sueño, estrés), y promover hábitos regulares de sueño, alimentación y actividad. Reduce el número de recaídas.
+
+¿En qué ayuda la psicoeducación a los pacientes bipolares?
+La psicoeducación en el trastorno bipolar ayuda al paciente y a su familia a reconocer los síntomas prodrómicos (inicio de episodios), mejorar la adherencia al tratamiento, evitar factores desencadenantes (falta de sueño, estrés), y promover hábitos regulares de sueño, alimentación y actividad. Reduce el número de recaídas.
+
+¿En qué trastornos es eficaz la terapia cognitivo-conductual?
+La terapia cognitivo-conductual (TCC) es eficaz en: trastornos de ansiedad (pánico, fobia social, TAG), depresión, trastorno obsesivo-compulsivo, trastorno de estrés postraumático, trastornos de la conducta alimentaria, insomnio, y como coadyuvante en psicosis y trastorno bipolar.
+
+¿Para qué sirve la terapia cognitivo-conductual?
+La terapia cognitivo-conductual (TCC) es eficaz en: trastornos de ansiedad (pánico, fobia social, TAG), depresión, trastorno obsesivo-compulsivo, trastorno de estrés postraumático, trastornos de la conducta alimentaria, insomnio, y como coadyuvante en psicosis y trastorno bipolar.
+
+¿En qué enfermedades ayuda la TCC?
+La terapia cognitivo-conductual (TCC) es eficaz en: trastornos de ansiedad (pánico, fobia social, TAG), depresión, trastorno obsesivo-compulsivo, trastorno de estrés postraumático, trastornos de la conducta alimentaria, insomnio, y como coadyuvante en psicosis y trastorno bipolar.
+
+¿Qué trastornos se tratan con terapia cognitivo-conductual?
+La terapia cognitivo-conductual (TCC) es eficaz en: trastornos de ansiedad (pánico, fobia social, TAG), depresión, trastorno obsesivo-compulsivo, trastorno de estrés postraumático, trastornos de la conducta alimentaria, insomnio, y como coadyuvante en psicosis y trastorno bipolar.
+
+¿Cuándo está indicada la TCC?
+La terapia cognitivo-conductual (TCC) es eficaz en: trastornos de ansiedad (pánico, fobia social, TAG), depresión, trastorno obsesivo-compulsivo, trastorno de estrés postraumático, trastornos de la conducta alimentaria, insomnio, y como coadyuvante en psicosis y trastorno bipolar.
+
+¿Para qué sirve la terapia dialéctica conductual?
+La terapia dialéctica conductual (TDC) está diseñada para el trastorno límite de la personalidad (TLP). Su objetivo es enseñar habilidades de regulación emocional, tolerancia al malestar, eficacia interpersonal y atención plena (mindfulness), reduciendo las conductas autolesivas y las crisis.
+
+¿Qué es la terapia dialéctica conductual y para qué sirve?
+La terapia dialéctica conductual (TDC) está diseñada para el trastorno límite de la personalidad (TLP). Su objetivo es enseñar habilidades de regulación emocional, tolerancia al malestar, eficacia interpersonal y atención plena (mindfulness), reduciendo las conductas autolesivas y las crisis.
+
+¿En qué ayuda la terapia dialéctica conductual?
+La terapia dialéctica conductual (TDC) está diseñada para el trastorno límite de la personalidad (TLP). Su objetivo es enseñar habilidades de regulación emocional, tolerancia al malestar, eficacia interpersonal y atención plena (mindfulness), reduciendo las conductas autolesivas y las crisis.
+
+¿Para qué se usa la TDC?
+La terapia dialéctica conductual (TDC) está diseñada para el trastorno límite de la personalidad (TLP). Su objetivo es enseñar habilidades de regulación emocional, tolerancia al malestar, eficacia interpersonal y atención plena (mindfulness), reduciendo las conductas autolesivas y las crisis.
+
+¿Cuál es el propósito de la terapia dialéctica conductual?
+La terapia dialéctica conductual (TDC) está diseñada para el trastorno límite de la personalidad (TLP). Su objetivo es enseñar habilidades de regulación emocional, tolerancia al malestar, eficacia interpersonal y atención plena (mindfulness), reduciendo las conductas autolesivas y las crisis.
+
+¿Para qué sirve la sertralina?
+La sertralina es un antidepresivo ISRS usado para tratar depresión, trastorno de ansiedad generalizada (TAG), trastorno obsesivo-compulsivo (TOC), trastorno de pánico, trastorno de estrés postraumático (TEPT), fobia social y trastorno disfórico premenstrual.
+
+¿Qué trata la sertralina?
+La sertralina es un antidepresivo ISRS usado para tratar depresión, trastorno de ansiedad generalizada (TAG), trastorno obsesivo-compulsivo (TOC), trastorno de pánico, trastorno de estrés postraumático (TEPT), fobia social y trastorno disfórico premenstrual.
+
+¿Para qué se receta sertralina?
+La sertralina es un antidepresivo ISRS usado para tratar depresión, trastorno de ansiedad generalizada (TAG), trastorno obsesivo-compulsivo (TOC), trastorno de pánico, trastorno de estrés postraumático (TEPT), fobia social y trastorno disfórico premenstrual.
+
+¿En qué trastornos se usa la sertralina?
+La sertralina es un antidepresivo ISRS usado para tratar depresión, trastorno de ansiedad generalizada (TAG), trastorno obsesivo-compulsivo (TOC), trastorno de pánico, trastorno de estrés postraumático (TEPT), fobia social y trastorno disfórico premenstrual.
+
+¿Qué indicaciones tiene la sertralina?
+La sertralina es un antidepresivo ISRS usado para tratar depresión, trastorno de ansiedad generalizada (TAG), trastorno obsesivo-compulsivo (TOC), trastorno de pánico, trastorno de estrés postraumático (TEPT), fobia social y trastorno disfórico premenstrual.
+
+¿Cuáles son los efectos secundarios de la fluoxetina?
+Los efectos secundarios comunes de la fluoxetina incluyen: náuseas, insomnio, nerviosismo, somnolencia, fatiga, anorexia, disfunción sexual, y a veces síndrome de abstinencia al suspender. También puede causar acatisia, y en raras ocasiones, síndrome serotoninérgico.
+
+¿Qué efectos adversos tiene la fluoxetina?
+Los efectos secundarios comunes de la fluoxetina incluyen: náuseas, insomnio, nerviosismo, somnolencia, fatiga, anorexia, disfunción sexual, y a veces síndrome de abstinencia al suspender. También puede causar acatisia, y en raras ocasiones, síndrome serotoninérgico.
+
+¿La fluoxetina tiene efectos secundarios graves?
+Los efectos secundarios comunes de la fluoxetina incluyen: náuseas, insomnio, nerviosismo, somnolencia, fatiga, anorexia, disfunción sexual, y a veces síndrome de abstinencia al suspender. También puede causar acatisia, y en raras ocasiones, síndrome serotoninérgico.
+
+¿Qué reacciones adversas produce la fluoxetina?
+Los efectos secundarios comunes de la fluoxetina incluyen: náuseas, insomnio, nerviosismo, somnolencia, fatiga, anorexia, disfunción sexual, y a veces síndrome de abstinencia al suspender. También puede causar acatisia, y en raras ocasiones, síndrome serotoninérgico.
+
+¿Cuáles son los efectos indeseables de la fluoxetina?
+Los efectos secundarios comunes de la fluoxetina incluyen: náuseas, insomnio, nerviosismo, somnolencia, fatiga, anorexia, disfunción sexual, y a veces síndrome de abstinencia al suspender. También puede causar acatisia, y en raras ocasiones, síndrome serotoninérgico.
+
+¿Para qué se usa el clonazepam?
+El clonazepam es una benzodiacepina de acción prolongada indicada para: trastorno de pánico (con o sin agorafobia), crisis epilépticas (mioclónicas, ausencias, tónico-clónicas), ansiedad generalizada, trastorno de ansiedad social, y como coadyuvante en trastorno bipolar en fase aguda.
+
+¿Qué indica el clonazepam?
+El clonazepam es una benzodiacepina de acción prolongada indicada para: trastorno de pánico (con o sin agorafobia), crisis epilépticas (mioclónicas, ausencias, tónico-clónicas), ansiedad generalizada, trastorno de ansiedad social, y como coadyuvante en trastorno bipolar en fase aguda.
+
+¿Para qué sirve el clonazepam en psiquiatría?
+El clonazepam es una benzodiacepina de acción prolongada indicada para: trastorno de pánico (con o sin agorafobia), crisis epilépticas (mioclónicas, ausencias, tónico-clónicas), ansiedad generalizada, trastorno de ansiedad social, y como coadyuvante en trastorno bipolar en fase aguda.
+
+¿Qué trastornos trata el clonazepam?
+El clonazepam es una benzodiacepina de acción prolongada indicada para: trastorno de pánico (con o sin agorafobia), crisis epilépticas (mioclónicas, ausencias, tónico-clónicas), ansiedad generalizada, trastorno de ansiedad social, y como coadyuvante en trastorno bipolar en fase aguda.
+
+¿Cuándo se receta clonazepam?
+El clonazepam es una benzodiacepina de acción prolongada indicada para: trastorno de pánico (con o sin agorafobia), crisis epilépticas (mioclónicas, ausencias, tónico-clónicas), ansiedad generalizada, trastorno de ansiedad social, y como coadyuvante en trastorno bipolar en fase aguda.
+
+¿Cuánto tiempo se puede tomar alprazolam?
+El alprazolam (benzodiacepina de acción corta) está indicado solo para uso a corto plazo (generalmente 2-4 semanas) en crisis de pánico o ansiedad aguda. El uso prolongado (>4-6 semanas) aumenta el riesgo de tolerancia, dependencia y síndrome de abstinencia. No debe usarse como tratamiento crónico.
+
+¿Cuál es la duración recomendada del tratamiento con alprazolam?
+El alprazolam (benzodiacepina de acción corta) está indicado solo para uso a corto plazo (generalmente 2-4 semanas) en crisis de pánico o ansiedad aguda. El uso prolongado (>4-6 semanas) aumenta el riesgo de tolerancia, dependencia y síndrome de abstinencia. No debe usarse como tratamiento crónico.
+
+¿Hasta cuándo se puede tomar alprazolam?
+El alprazolam (benzodiacepina de acción corta) está indicado solo para uso a corto plazo (generalmente 2-4 semanas) en crisis de pánico o ansiedad aguda. El uso prolongado (>4-6 semanas) aumenta el riesgo de tolerancia, dependencia y síndrome de abstinencia. No debe usarse como tratamiento crónico.
+
+¿Se puede tomar alprazolam por meses?
+El alprazolam (benzodiacepina de acción corta) está indicado solo para uso a corto plazo (generalmente 2-4 semanas) en crisis de pánico o ansiedad aguda. El uso prolongado (>4-6 semanas) aumenta el riesgo de tolerancia, dependencia y síndrome de abstinencia. No debe usarse como tratamiento crónico.
+
+¿Cuánto tiempo es seguro tomar alprazolam?
+El alprazolam (benzodiacepina de acción corta) está indicado solo para uso a corto plazo (generalmente 2-4 semanas) en crisis de pánico o ansiedad aguda. El uso prolongado (>4-6 semanas) aumenta el riesgo de tolerancia, dependencia y síndrome de abstinencia. No debe usarse como tratamiento crónico.
+
+¿Para qué sirve la quetiapina?
+La quetiapina es un antipsicótico atípico usado en: esquizofrenia, trastorno bipolar (episodios maníacos, depresivos y mantenimiento), trastorno depresivo mayor como adyuvante, y en dosis bajas para insomnio en trastornos psiquiátricos. También se usa en trastorno de ansiedad generalizada y TOC resistente.
+
+¿Qué trata la quetiapina?
+La quetiapina es un antipsicótico atípico usado en: esquizofrenia, trastorno bipolar (episodios maníacos, depresivos y mantenimiento), trastorno depresivo mayor como adyuvante, y en dosis bajas para insomnio en trastornos psiquiátricos. También se usa en trastorno de ansiedad generalizada y TOC resistente.
+
+¿Para qué enfermedades se receta quetiapina?
+La quetiapina es un antipsicótico atípico usado en: esquizofrenia, trastorno bipolar (episodios maníacos, depresivos y mantenimiento), trastorno depresivo mayor como adyuvante, y en dosis bajas para insomnio en trastornos psiquiátricos. También se usa en trastorno de ansiedad generalizada y TOC resistente.
+
+¿Qué indicaciones tiene la quetiapina?
+La quetiapina es un antipsicótico atípico usado en: esquizofrenia, trastorno bipolar (episodios maníacos, depresivos y mantenimiento), trastorno depresivo mayor como adyuvante, y en dosis bajas para insomnio en trastornos psiquiátricos. También se usa en trastorno de ansiedad generalizada y TOC resistente.
+
+¿Cuándo se usa quetiapina?
+La quetiapina es un antipsicótico atípico usado en: esquizofrenia, trastorno bipolar (episodios maníacos, depresivos y mantenimiento), trastorno depresivo mayor como adyuvante, y en dosis bajas para insomnio en trastornos psiquiátricos. También se usa en trastorno de ansiedad generalizada y TOC resistente.
+
+¿Cuáles son los efectos secundarios de la olanzapina?
+Los efectos secundarios de olanzapina incluyen: aumento de peso significativo, sedación, síndrome metabólico (aumento de colesterol, triglicéridos, glucosa), boca seca, estreñimiento, mareos, y ocasionalmente síntomas extrapiramidales. También puede elevar prolactina.
+
+¿Qué efectos adversos tiene la olanzapina?
+Los efectos secundarios de olanzapina incluyen: aumento de peso significativo, sedación, síndrome metabólico (aumento de colesterol, triglicéridos, glucosa), boca seca, estreñimiento, mareos, y ocasionalmente síntomas extrapiramidales. También puede elevar prolactina.
+
+¿La olanzapina engorda?
+Los efectos secundarios de olanzapina incluyen: aumento de peso significativo, sedación, síndrome metabólico (aumento de colesterol, triglicéridos, glucosa), boca seca, estreñimiento, mareos, y ocasionalmente síntomas extrapiramidales. También puede elevar prolactina.
+
+¿Qué riesgos tiene la olanzapina?
+Los efectos secundarios de olanzapina incluyen: aumento de peso significativo, sedación, síndrome metabólico (aumento de colesterol, triglicéridos, glucosa), boca seca, estreñimiento, mareos, y ocasionalmente síntomas extrapiramidales. También puede elevar prolactina.
+
+¿Qué efectos metabólicos produce la olanzapina?
+Los efectos secundarios de olanzapina incluyen: aumento de peso significativo, sedación, síndrome metabólico (aumento de colesterol, triglicéridos, glucosa), boca seca, estreñimiento, mareos, y ocasionalmente síntomas extrapiramidales. También puede elevar prolactina.
+
+¿En qué dosis se usa la risperidona?
+La dosis de risperidona varía según la indicación: en esquizofrenia y trastorno bipolar, 2-8 mg/día. En trastornos conductuales en demencia o TDAH, 0.5-2 mg/día. En trastorno de Tourette, 0.5-3 mg/día. La dosis inicial suele ser baja (0.5-1 mg/día) y se titula gradualmente.
+
+¿Cuál es la dosis de risperidona en adultos?
+La dosis de risperidona varía según la indicación: en esquizofrenia y trastorno bipolar, 2-8 mg/día. En trastornos conductuales en demencia o TDAH, 0.5-2 mg/día. En trastorno de Tourette, 0.5-3 mg/día. La dosis inicial suele ser baja (0.5-1 mg/día) y se titula gradualmente.
+
+¿Qué dosis de risperidona es habitual?
+La dosis de risperidona varía según la indicación: en esquizofrenia y trastorno bipolar, 2-8 mg/día. En trastornos conductuales en demencia o TDAH, 0.5-2 mg/día. En trastorno de Tourette, 0.5-3 mg/día. La dosis inicial suele ser baja (0.5-1 mg/día) y se titula gradualmente.
+
+¿Cómo se dosifica la risperidona?
+La dosis de risperidona varía según la indicación: en esquizofrenia y trastorno bipolar, 2-8 mg/día. En trastornos conductuales en demencia o TDAH, 0.5-2 mg/día. En trastorno de Tourette, 0.5-3 mg/día. La dosis inicial suele ser baja (0.5-1 mg/día) y se titula gradualmente.
+
+¿Cuántos mg de risperidona se administran?
+La dosis de risperidona varía según la indicación: en esquizofrenia y trastorno bipolar, 2-8 mg/día. En trastornos conductuales en demencia o TDAH, 0.5-2 mg/día. En trastorno de Tourette, 0.5-3 mg/día. La dosis inicial suele ser baja (0.5-1 mg/día) y se titula gradualmente.
+
+¿Qué síndrome de abstinencia produce la venlafaxina?
+La venlafaxina (IRSN) produce un síndrome de abstinencia (discontinuación) caracterizado por: mareos, náuseas, cefalea, parestesias (sensación de descargas eléctricas, “brain zaps”), irritabilidad, insomnio, fatiga y ansiedad. Es más grave que con ISRS y puede aparecer incluso tras una dosis omitida.
+
+¿Por qué la venlafaxina da abstinencia?
+La venlafaxina (IRSN) produce un síndrome de abstinencia (discontinuación) caracterizado por: mareos, náuseas, cefalea, parestesias (sensación de descargas eléctricas, “brain zaps”), irritabilidad, insomnio, fatiga y ansiedad. Es más grave que con ISRS y puede aparecer incluso tras una dosis omitida.
+
+¿Cuáles son los síntomas de retirada de venlafaxina?
+La venlafaxina (IRSN) produce un síndrome de abstinencia (discontinuación) caracterizado por: mareos, náuseas, cefalea, parestesias (sensación de descargas eléctricas, “brain zaps”), irritabilidad, insomnio, fatiga y ansiedad. Es más grave que con ISRS y puede aparecer incluso tras una dosis omitida.
+
+¿Qué efectos produce dejar de tomar venlafaxina de golpe?
+La venlafaxina (IRSN) produce un síndrome de abstinencia (discontinuación) caracterizado por: mareos, náuseas, cefalea, parestesias (sensación de descargas eléctricas, “brain zaps”), irritabilidad, insomnio, fatiga y ansiedad. Es más grave que con ISRS y puede aparecer incluso tras una dosis omitida.
+
+¿La venlafaxina causa síndrome de discontinuación?
+La venlafaxina (IRSN) produce un síndrome de abstinencia (discontinuación) caracterizado por: mareos, náuseas, cefalea, parestesias (sensación de descargas eléctricas, “brain zaps”), irritabilidad, insomnio, fatiga y ansiedad. Es más grave que con ISRS y puede aparecer incluso tras una dosis omitida.
+
+¿Para qué sirve la mirtazapina?
+La mirtazapina es un antidepresivo atípico usado en: depresión mayor (especialmente con insomnio y pérdida de apetito), ansiedad, trastorno obsesivo-compulsivo, trastorno de estrés postraumático, y como potenciador en depresión resistente. También se usa para tratar náuseas y como estimulante del apetito.
+
+¿Qué trata la mirtazapina?
+La mirtazapina es un antidepresivo atípico usado en: depresión mayor (especialmente con insomnio y pérdida de apetito), ansiedad, trastorno obsesivo-compulsivo, trastorno de estrés postraumático, y como potenciador en depresión resistente. También se usa para tratar náuseas y como estimulante del apetito.
+
+¿Para qué se receta mirtazapina?
+La mirtazapina es un antidepresivo atípico usado en: depresión mayor (especialmente con insomnio y pérdida de apetito), ansiedad, trastorno obsesivo-compulsivo, trastorno de estrés postraumático, y como potenciador en depresión resistente. También se usa para tratar náuseas y como estimulante del apetito.
+
+¿Cuándo se indica mirtazapina?
+La mirtazapina es un antidepresivo atípico usado en: depresión mayor (especialmente con insomnio y pérdida de apetito), ansiedad, trastorno obsesivo-compulsivo, trastorno de estrés postraumático, y como potenciador en depresión resistente. También se usa para tratar náuseas y como estimulante del apetito.
+
+¿Qué beneficios tiene la mirtazapina?
+La mirtazapina es un antidepresivo atípico usado en: depresión mayor (especialmente con insomnio y pérdida de apetito), ansiedad, trastorno obsesivo-compulsivo, trastorno de estrés postraumático, y como potenciador en depresión resistente. También se usa para tratar náuseas y como estimulante del apetito.
+
+¿El bupropión puede causar convulsiones?
+Sí, el bupropión puede reducir el umbral convulsivo y causar crisis epilépticas, especialmente en dosis altas (>450 mg/día) o en pacientes con factores de riesgo (epilepsia, anorexia, bulimia, daño cerebral, uso de otros medicamentos proconvulsivantes). El riesgo es bajo (<0.4% en dosis terapéuticas).
+
+¿Qué riesgos tiene el bupropión?
+Sí, el bupropión puede reducir el umbral convulsivo y causar crisis epilépticas, especialmente en dosis altas (>450 mg/día) o en pacientes con factores de riesgo (epilepsia, anorexia, bulimia, daño cerebral, uso de otros medicamentos proconvulsivantes). El riesgo es bajo (<0.4% en dosis terapéuticas).
+
+¿El bupropión es peligroso para las convulsiones?
+Sí, el bupropión puede reducir el umbral convulsivo y causar crisis epilépticas, especialmente en dosis altas (>450 mg/día) o en pacientes con factores de riesgo (epilepsia, anorexia, bulimia, daño cerebral, uso de otros medicamentos proconvulsivantes). El riesgo es bajo (<0.4% en dosis terapéuticas).
+
+¿Por qué el bupropión está contraindicado en epilepsia?
+Sí, el bupropión puede reducir el umbral convulsivo y causar crisis epilépticas, especialmente en dosis altas (>450 mg/día) o en pacientes con factores de riesgo (epilepsia, anorexia, bulimia, daño cerebral, uso de otros medicamentos proconvulsivantes). El riesgo es bajo (<0.4% en dosis terapéuticas).
+
+¿Qué efecto adverso neurológico tiene el bupropión?
+Sí, el bupropión puede reducir el umbral convulsivo y causar crisis epilépticas, especialmente en dosis altas (>450 mg/día) o en pacientes con factores de riesgo (epilepsia, anorexia, bulimia, daño cerebral, uso de otros medicamentos proconvulsivantes). El riesgo es bajo (<0.4% en dosis terapéuticas).
+
+¿Para qué se usa la metformina en psiquiatría?
+La metformina se usa en psiquiatría para contrarrestar el aumento de peso y el síndrome metabólico inducidos por antipsicóticos atípicos (especialmente olanzapina y clozapina). También puede mejorar la resistencia a la insulina. No es un tratamiento psiquiátrico primario, sino un complemento metabólico.
+
+¿Qué función tiene la metformina en salud mental?
+La metformina se usa en psiquiatría para contrarrestar el aumento de peso y el síndrome metabólico inducidos por antipsicóticos atípicos (especialmente olanzapina y clozapina). También puede mejorar la resistencia a la insulina. No es un tratamiento psiquiátrico primario, sino un complemento metabólico.
+
+¿Para qué se prescribe metformina en pacientes con trastorno mental?
+La metformina se usa en psiquiatría para contrarrestar el aumento de peso y el síndrome metabólico inducidos por antipsicóticos atípicos (especialmente olanzapina y clozapina). También puede mejorar la resistencia a la insulina. No es un tratamiento psiquiátrico primario, sino un complemento metabólico.
+
+¿Cuándo se indica metformina en psiquiatría?
+La metformina se usa en psiquiatría para contrarrestar el aumento de peso y el síndrome metabólico inducidos por antipsicóticos atípicos (especialmente olanzapina y clozapina). También puede mejorar la resistencia a la insulina. No es un tratamiento psiquiátrico primario, sino un complemento metabólico.
+
+¿Qué beneficio tiene la metformina en pacientes con antipsicóticos?
+La metformina se usa en psiquiatría para contrarrestar el aumento de peso y el síndrome metabólico inducidos por antipsicóticos atípicos (especialmente olanzapina y clozapina). También puede mejorar la resistencia a la insulina. No es un tratamiento psiquiátrico primario, sino un complemento metabólico.
+
+¿Para qué sirve la escala de Braden?
+La escala de Braden predice el riesgo de úlceras por presión. Evalúa: percepción sensorial, exposición a la humedad, actividad, movilidad, nutrición, y fricción/deslizamiento. La puntuación total (6-23) clasifica el riesgo: ≤9 muy alto, 10-12 alto, 13-14 moderado, 15-18 leve, ≥19 sin riesgo.
+
+¿Qué mide la escala de Braden?
+La escala de Braden predice el riesgo de úlceras por presión. Evalúa: percepción sensorial, exposición a la humedad, actividad, movilidad, nutrición, y fricción/deslizamiento. La puntuación total (6-23) clasifica el riesgo: ≤9 muy alto, 10-12 alto, 13-14 moderado, 15-18 leve, ≥19 sin riesgo.
+
+¿Cómo se interpreta la escala de Braden?
+La escala de Braden predice el riesgo de úlceras por presión. Evalúa: percepción sensorial, exposición a la humedad, actividad, movilidad, nutrición, y fricción/deslizamiento. La puntuación total (6-23) clasifica el riesgo: ≤9 muy alto, 10-12 alto, 13-14 moderado, 15-18 leve, ≥19 sin riesgo.
+
+¿Para qué se usa la escala de Braden en enfermería?
+La escala de Braden predice el riesgo de úlceras por presión. Evalúa: percepción sensorial, exposición a la humedad, actividad, movilidad, nutrición, y fricción/deslizamiento. La puntuación total (6-23) clasifica el riesgo: ≤9 muy alto, 10-12 alto, 13-14 moderado, 15-18 leve, ≥19 sin riesgo.
+
+¿Qué puntuación en la escala de Braden indica alto riesgo?
+La escala de Braden predice el riesgo de úlceras por presión. Evalúa: percepción sensorial, exposición a la humedad, actividad, movilidad, nutrición, y fricción/deslizamiento. La puntuación total (6-23) clasifica el riesgo: ≤9 muy alto, 10-12 alto, 13-14 moderado, 15-18 leve, ≥19 sin riesgo.
+
+¿Cómo se interpreta la escala de Norton?
+La escala de Norton clasifica el riesgo de úlceras por presión evaluando 5 ítems: estado físico, estado mental, actividad, movilidad, e incontinencia. Cada ítem se puntúa de 1 a 4 (menor = peor). Puntuación total ≤14 = alto riesgo; 15-18 = riesgo moderado; ≥19 = bajo riesgo.
+
+¿Qué significa la puntuación de la escala de Norton?
+La escala de Norton clasifica el riesgo de úlceras por presión evaluando 5 ítems: estado físico, estado mental, actividad, movilidad, e incontinencia. Cada ítem se puntúa de 1 a 4 (menor = peor). Puntuación total ≤14 = alto riesgo; 15-18 = riesgo moderado; ≥19 = bajo riesgo.
+
+¿Para qué sirve la escala de Norton?
+La escala de Norton clasifica el riesgo de úlceras por presión evaluando 5 ítems: estado físico, estado mental, actividad, movilidad, e incontinencia. Cada ítem se puntúa de 1 a 4 (menor = peor). Puntuación total ≤14 = alto riesgo; 15-18 = riesgo moderado; ≥19 = bajo riesgo.
+
+¿Cómo se calcula el riesgo con la escala de Norton?
+La escala de Norton clasifica el riesgo de úlceras por presión evaluando 5 ítems: estado físico, estado mental, actividad, movilidad, e incontinencia. Cada ítem se puntúa de 1 a 4 (menor = peor). Puntuación total ≤14 = alto riesgo; 15-18 = riesgo moderado; ≥19 = bajo riesgo.
+
+¿Cuándo se usa la escala de Norton?
+La escala de Norton clasifica el riesgo de úlceras por presión evaluando 5 ítems: estado físico, estado mental, actividad, movilidad, e incontinencia. Cada ítem se puntúa de 1 a 4 (menor = peor). Puntuación total ≤14 = alto riesgo; 15-18 = riesgo moderado; ≥19 = bajo riesgo.
+
+¿Cómo se ve una úlcera por presión grado I?
+Una úlcera por presión grado I es una zona de piel intacta con eritema que no palidece (se queda roja al presionar). Puede estar caliente o fría, indurada, y dolorosa. No hay pérdida de continuidad de la piel. Es la fase más precoz.
+
+¿Qué aspecto tiene una úlcera de presión estadio I?
+Una úlcera por presión grado I es una zona de piel intacta con eritema que no palidece (se queda roja al presionar). Puede estar caliente o fría, indurada, y dolorosa. No hay pérdida de continuidad de la piel. Es la fase más precoz.
+
+¿Cómo reconocer una escara grado I?
+Una úlcera por presión grado I es una zona de piel intacta con eritema que no palidece (se queda roja al presionar). Puede estar caliente o fría, indurada, y dolorosa. No hay pérdida de continuidad de la piel. Es la fase más precoz.
+
+¿Qué características tiene la úlcera por presión en su primer grado?
+Una úlcera por presión grado I es una zona de piel intacta con eritema que no palidece (se queda roja al presionar). Puede estar caliente o fría, indurada, y dolorosa. No hay pérdida de continuidad de la piel. Es la fase más precoz.
+
+¿Cuándo se considera úlcera por presión grado I?
+Una úlcera por presión grado I es una zona de piel intacta con eritema que no palidece (se queda roja al presionar). Puede estar caliente o fría, indurada, y dolorosa. No hay pérdida de continuidad de la piel. Es la fase más precoz.
+
+¿Cuándo está indicada la sujeción mecánica?
+La sujeción mecánica está indicada solo en situaciones de agitación psicomotriz severa con riesgo inminente de daño para el paciente o terceros, y cuando otras medidas (contención verbal, farmacológica) han fallado o no son posibles. Debe ser prescrita por un médico, por el menor tiempo posible, y con vigilancia continua.
+
+¿En qué casos se usa la sujeción física?
+La sujeción mecánica está indicada solo en situaciones de agitación psicomotriz severa con riesgo inminente de daño para el paciente o terceros, y cuando otras medidas (contención verbal, farmacológica) han fallado o no son posibles. Debe ser prescrita por un médico, por el menor tiempo posible, y con vigilancia continua.
+
+¿Cuándo se aplica la contención mecánica?
+La sujeción mecánica está indicada solo en situaciones de agitación psicomotriz severa con riesgo inminente de daño para el paciente o terceros, y cuando otras medidas (contención verbal, farmacológica) han fallado o no son posibles. Debe ser prescrita por un médico, por el menor tiempo posible, y con vigilancia continua.
+
+¿Qué criterios indican sujeción mecánica?
+La sujeción mecánica está indicada solo en situaciones de agitación psicomotriz severa con riesgo inminente de daño para el paciente o terceros, y cuando otras medidas (contención verbal, farmacológica) han fallado o no son posibles. Debe ser prescrita por un médico, por el menor tiempo posible, y con vigilancia continua.
+
+¿Para qué sirve la sujeción mecánica en psiquiatría?
+La sujeción mecánica está indicada solo en situaciones de agitación psicomotriz severa con riesgo inminente de daño para el paciente o terceros, y cuando otras medidas (contención verbal, farmacológica) han fallado o no son posibles. Debe ser prescrita por un médico, por el menor tiempo posible, y con vigilancia continua.
+
+¿Quién activa el código azul en psiquiatría?
+El código azul (paro cardiorrespiratorio o emergencia vital) lo activa cualquier miembro del equipo de salud que detecte la emergencia. En unidades de psiquiatría, el personal de enfermería es el primero en activarlo. No es exclusivo de médicos. Se debe llamar al número de emergencia interno y comenzar RCP.
+
+¿Cómo se activa el código azul en un hospital psiquiátrico?
+El código azul (paro cardiorrespiratorio o emergencia vital) lo activa cualquier miembro del equipo de salud que detecte la emergencia. En unidades de psiquiatría, el personal de enfermería es el primero en activarlo. No es exclusivo de médicos. Se debe llamar al número de emergencia interno y comenzar RCP.
+
+¿Quién puede llamar al código azul?
+El código azul (paro cardiorrespiratorio o emergencia vital) lo activa cualquier miembro del equipo de salud que detecte la emergencia. En unidades de psiquiatría, el personal de enfermería es el primero en activarlo. No es exclusivo de médicos. Se debe llamar al número de emergencia interno y comenzar RCP.
+
+¿Qué hacer si hay un paro en una unidad de salud mental?
+El código azul (paro cardiorrespiratorio o emergencia vital) lo activa cualquier miembro del equipo de salud que detecte la emergencia. En unidades de psiquiatría, el personal de enfermería es el primero en activarlo. No es exclusivo de médicos. Se debe llamar al número de emergencia interno y comenzar RCP.
+
+¿Qué es el código azul y quién lo activa?
+El código azul (paro cardiorrespiratorio o emergencia vital) lo activa cualquier miembro del equipo de salud que detecte la emergencia. En unidades de psiquiatría, el personal de enfermería es el primero en activarlo. No es exclusivo de médicos. Se debe llamar al número de emergencia interno y comenzar RCP.
+
+¿Qué debe incluir un plan de seguridad en salud mental?
+Un plan de seguridad incluye: identificación de señales de advertencia de crisis, estrategias de distracción internas (actividades), personas de apoyo social, profesionales a contactar, reducción de medios letales (armas, pastillas), y un plan de emergencia con números de teléfono (línea de crisis, familia, psiquiatra).
+
+¿Cómo se elabora un plan de seguridad para pacientes con riesgo suicida?
+Un plan de seguridad incluye: identificación de señales de advertencia de crisis, estrategias de distracción internas (actividades), personas de apoyo social, profesionales a contactar, reducción de medios letales (armas, pastillas), y un plan de emergencia con números de teléfono (línea de crisis, familia, psiquiatra).
+
+¿Qué elementos tiene un plan de prevención del suicidio?
+Un plan de seguridad incluye: identificación de señales de advertencia de crisis, estrategias de distracción internas (actividades), personas de apoyo social, profesionales a contactar, reducción de medios letales (armas, pastillas), y un plan de emergencia con números de teléfono (línea de crisis, familia, psiquiatra).
+
+¿Qué datos debe contener un plan de seguridad en salud mental?
+Un plan de seguridad incluye: identificación de señales de advertencia de crisis, estrategias de distracción internas (actividades), personas de apoyo social, profesionales a contactar, reducción de medios letales (armas, pastillas), y un plan de emergencia con números de teléfono (línea de crisis, familia, psiquiatra).
+
+¿Cómo hacer un plan de seguridad para un paciente con ideación suicida?
+Un plan de seguridad incluye: identificación de señales de advertencia de crisis, estrategias de distracción internas (actividades), personas de apoyo social, profesionales a contactar, reducción de medios letales (armas, pastillas), y un plan de emergencia con números de teléfono (línea de crisis, familia, psiquiatra).
+
+¿Qué datos debe contener un informe de enfermería?
+El informe de enfermería debe incluir: datos de identificación del paciente, fecha y hora, valoración de signos vitales y estado general, cuidados realizados, medicamentos administrados (nombre, dosis, vía), procedimientos, evolución, incidencias, educación brindada, y firma del profesional.
+
+¿Qué información se registra en la nota de enfermería?
+El informe de enfermería debe incluir: datos de identificación del paciente, fecha y hora, valoración de signos vitales y estado general, cuidados realizados, medicamentos administrados (nombre, dosis, vía), procedimientos, evolución, incidencias, educación brindada, y firma del profesional.
+
+¿Cómo se hace un informe de enfermería?
+El informe de enfermería debe incluir: datos de identificación del paciente, fecha y hora, valoración de signos vitales y estado general, cuidados realizados, medicamentos administrados (nombre, dosis, vía), procedimientos, evolución, incidencias, educación brindada, y firma del profesional.
+
+¿Qué elementos son obligatorios en el registro de enfermería?
+El informe de enfermería debe incluir: datos de identificación del paciente, fecha y hora, valoración de signos vitales y estado general, cuidados realizados, medicamentos administrados (nombre, dosis, vía), procedimientos, evolución, incidencias, educación brindada, y firma del profesional.
+
+¿Qué se escribe en un informe de enfermería diario?
+El informe de enfermería debe incluir: datos de identificación del paciente, fecha y hora, valoración de signos vitales y estado general, cuidados realizados, medicamentos administrados (nombre, dosis, vía), procedimientos, evolución, incidencias, educación brindada, y firma del profesional.
+
+¿Qué información se entrega en el pase de visita?
+En el pase de visita (cambio de turno), se entrega: número de pacientes, identificación de los críticos, diagnósticos, evolución reciente, tratamientos activos, órdenes pendientes, alergias, riesgo de caídas, úlceras por presión, y cualquier incidente o recomendación. Debe ser claro, conciso y veraz.
+
+¿Qué datos se comunican durante el cambio de turno en enfermería?
+En el pase de visita (cambio de turno), se entrega: número de pacientes, identificación de los críticos, diagnósticos, evolución reciente, tratamientos activos, órdenes pendientes, alergias, riesgo de caídas, úlceras por presión, y cualquier incidente o recomendación. Debe ser claro, conciso y veraz.
+
+¿Qué debe incluir el pase de enfermería?
+En el pase de visita (cambio de turno), se entrega: número de pacientes, identificación de los críticos, diagnósticos, evolución reciente, tratamientos activos, órdenes pendientes, alergias, riesgo de caídas, úlceras por presión, y cualquier incidente o recomendación. Debe ser claro, conciso y veraz.
+
+¿Cómo se hace un pase de visita efectivo?
+En el pase de visita (cambio de turno), se entrega: número de pacientes, identificación de los críticos, diagnósticos, evolución reciente, tratamientos activos, órdenes pendientes, alergias, riesgo de caídas, úlceras por presión, y cualquier incidente o recomendación. Debe ser claro, conciso y veraz.
+
+¿Qué información no debe faltar en el pase de visita?
+En el pase de visita (cambio de turno), se entrega: número de pacientes, identificación de los críticos, diagnósticos, evolución reciente, tratamientos activos, órdenes pendientes, alergias, riesgo de caídas, úlceras por presión, y cualquier incidente o recomendación. Debe ser claro, conciso y veraz.
+
+¿Para qué sirve la referencia y contrarreferencia?
+La referencia y contrarreferencia es el proceso de derivación de pacientes entre niveles de atención para garantizar la continuidad del cuidado. La referencia envía al paciente a un nivel superior; la contrarreferencia devuelve información sobre el diagnóstico y tratamiento al nivel de origen para el seguimiento.
+
+¿Qué es la referencia y contrarreferencia en salud?
+La referencia y contrarreferencia es el proceso de derivación de pacientes entre niveles de atención para garantizar la continuidad del cuidado. La referencia envía al paciente a un nivel superior; la contrarreferencia devuelve información sobre el diagnóstico y tratamiento al nivel de origen para el seguimiento.
+
+¿Por qué es importante la contrarreferencia?
+La referencia y contrarreferencia es el proceso de derivación de pacientes entre niveles de atención para garantizar la continuidad del cuidado. La referencia envía al paciente a un nivel superior; la contrarreferencia devuelve información sobre el diagnóstico y tratamiento al nivel de origen para el seguimiento.
+
+¿Cómo funciona el sistema de referencia en salud?
+La referencia y contrarreferencia es el proceso de derivación de pacientes entre niveles de atención para garantizar la continuidad del cuidado. La referencia envía al paciente a un nivel superior; la contrarreferencia devuelve información sobre el diagnóstico y tratamiento al nivel de origen para el seguimiento.
+
+¿Qué evita la contrarreferencia?
+La referencia y contrarreferencia es el proceso de derivación de pacientes entre niveles de atención para garantizar la continuidad del cuidado. La referencia envía al paciente a un nivel superior; la contrarreferencia devuelve información sobre el diagnóstico y tratamiento al nivel de origen para el seguimiento.
+
+¿Se puede omitir el consentimiento informado en urgencias?
+En urgencias vitales, cuando el paciente no puede dar su consentimiento (inconsciente, intoxicado, con deterioro cognitivo severo) y no hay un representante legal disponible, el médico puede actuar sin consentimiento para salvar la vida. También se puede omitir si el paciente está en peligro inminente de muerte o daño grave.
+
+¿Cuándo no es necesario el consentimiento informado?
+En urgencias vitales, cuando el paciente no puede dar su consentimiento (inconsciente, intoxicado, con deterioro cognitivo severo) y no hay un representante legal disponible, el médico puede actuar sin consentimiento para salvar la vida. También se puede omitir si el paciente está en peligro inminente de muerte o daño grave.
+
+¿El consentimiento informado se puede saltar en una emergencia?
+En urgencias vitales, cuando el paciente no puede dar su consentimiento (inconsciente, intoxicado, con deterioro cognitivo severo) y no hay un representante legal disponible, el médico puede actuar sin consentimiento para salvar la vida. También se puede omitir si el paciente está en peligro inminente de muerte o daño grave.
+
+¿Qué excepciones tiene el consentimiento informado?
+En urgencias vitales, cuando el paciente no puede dar su consentimiento (inconsciente, intoxicado, con deterioro cognitivo severo) y no hay un representante legal disponible, el médico puede actuar sin consentimiento para salvar la vida. También se puede omitir si el paciente está en peligro inminente de muerte o daño grave.
+
+¿En qué casos no se pide consentimiento informado?
+En urgencias vitales, cuando el paciente no puede dar su consentimiento (inconsciente, intoxicado, con deterioro cognitivo severo) y no hay un representante legal disponible, el médico puede actuar sin consentimiento para salvar la vida. También se puede omitir si el paciente está en peligro inminente de muerte o daño grave.
+
+¿Cómo se clasifica el triaje en salud mental?
+El triaje en salud mental prioriza según riesgo de daño inminente: nivel I (rojo, riesgo vital, conducta violenta o suicida activa), nivel II (naranja, agitación severa o riesgo moderado), nivel III (amarillo, crisis emocional sin riesgo), nivel IV (verde, síntomas leves), nivel V (azul, consulta programable). Los tiempos y colores pueden variar.
+
+¿Qué escalas se usan para triaje psiquiátrico?
+El triaje en salud mental prioriza según riesgo de daño inminente: nivel I (rojo, riesgo vital, conducta violenta o suicida activa), nivel II (naranja, agitación severa o riesgo moderado), nivel III (amarillo, crisis emocional sin riesgo), nivel IV (verde, síntomas leves), nivel V (azul, consulta programable). Los tiempos y colores pueden variar.
+
+¿Cómo se evalúa a un paciente psiquiátrico en urgencias?
+El triaje en salud mental prioriza según riesgo de daño inminente: nivel I (rojo, riesgo vital, conducta violenta o suicida activa), nivel II (naranja, agitación severa o riesgo moderado), nivel III (amarillo, crisis emocional sin riesgo), nivel IV (verde, síntomas leves), nivel V (azul, consulta programable). Los tiempos y colores pueden variar.
+
+¿Qué colores tiene el triaje en psiquiatría?
+El triaje en salud mental prioriza según riesgo de daño inminente: nivel I (rojo, riesgo vital, conducta violenta o suicida activa), nivel II (naranja, agitación severa o riesgo moderado), nivel III (amarillo, crisis emocional sin riesgo), nivel IV (verde, síntomas leves), nivel V (azul, consulta programable). Los tiempos y colores pueden variar.
+
+¿Qué niveles de prioridad hay en el triaje de salud mental?
+El triaje en salud mental prioriza según riesgo de daño inminente: nivel I (rojo, riesgo vital, conducta violenta o suicida activa), nivel II (naranja, agitación severa o riesgo moderado), nivel III (amarillo, crisis emocional sin riesgo), nivel IV (verde, síntomas leves), nivel V (azul, consulta programable). Los tiempos y colores pueden variar.
+
+¿Cuándo se usa la contención verbal?
+La contención verbal se usa en pacientes agitados o con crisis emocional, pero sin riesgo inminente de daño físico. Se aplica como primera medida, hablando con calma, mostrando empatía, ofreciendo opciones y evitando desafíos. Es efectiva en la mayoría de las crisis leves a moderadas.
+
+¿Qué es la contención verbal y cuándo aplica?
+La contención verbal se usa en pacientes agitados o con crisis emocional, pero sin riesgo inminente de daño físico. Se aplica como primera medida, hablando con calma, mostrando empatía, ofreciendo opciones y evitando desafíos. Es efectiva en la mayoría de las crisis leves a moderadas.
+
+¿En qué situaciones se utiliza la contención verbal en psiquiatría?
+La contención verbal se usa en pacientes agitados o con crisis emocional, pero sin riesgo inminente de daño físico. Se aplica como primera medida, hablando con calma, mostrando empatía, ofreciendo opciones y evitando desafíos. Es efectiva en la mayoría de las crisis leves a moderadas.
+
+¿Cuándo es suficiente la contención verbal?
+La contención verbal se usa en pacientes agitados o con crisis emocional, pero sin riesgo inminente de daño físico. Se aplica como primera medida, hablando con calma, mostrando empatía, ofreciendo opciones y evitando desafíos. Es efectiva en la mayoría de las crisis leves a moderadas.
+
+¿Qué es la desescalada verbal?
+La contención verbal se usa en pacientes agitados o con crisis emocional, pero sin riesgo inminente de daño físico. Se aplica como primera medida, hablando con calma, mostrando empatía, ofreciendo opciones y evitando desafíos. Es efectiva en la mayoría de las crisis leves a moderadas.
+
+¿Qué medicamentos se usan para la contención farmacológica?
+Los medicamentos más usados para contención farmacológica en agitación psicomotriz son: antipsicóticos (haloperidol, olanzapina, risperidona), benzodiacepinas (lorazepam, midazolam), y combinaciones. La elección depende de la causa, comorbilidades y vía de administración (oral, IM, IV).
+
+¿Cuál es la medicación para la agitación psicomotriz?
+Los medicamentos más usados para contención farmacológica en agitación psicomotriz son: antipsicóticos (haloperidol, olanzapina, risperidona), benzodiacepinas (lorazepam, midazolam), y combinaciones. La elección depende de la causa, comorbilidades y vía de administración (oral, IM, IV).
+
+¿Qué fármacos se utilizan en la contención química?
+Los medicamentos más usados para contención farmacológica en agitación psicomotriz son: antipsicóticos (haloperidol, olanzapina, risperidona), benzodiacepinas (lorazepam, midazolam), y combinaciones. La elección depende de la causa, comorbilidades y vía de administración (oral, IM, IV).
+
+¿Cómo se maneja farmacológicamente a un paciente agitado?
+Los medicamentos más usados para contención farmacológica en agitación psicomotriz son: antipsicóticos (haloperidol, olanzapina, risperidona), benzodiacepinas (lorazepam, midazolam), y combinaciones. La elección depende de la causa, comorbilidades y vía de administración (oral, IM, IV).
+
+¿Qué medicamentos se usan en emergencias psiquiátricas?
+Los medicamentos más usados para contención farmacológica en agitación psicomotriz son: antipsicóticos (haloperidol, olanzapina, risperidona), benzodiacepinas (lorazepam, midazolam), y combinaciones. La elección depende de la causa, comorbilidades y vía de administración (oral, IM, IV).
+
+¿Qué hacer ante una crisis hipertensiva inducida por estrés?
+Ante una crisis hipertensiva por estrés (picos de presión muy altos), se debe: mantener la calma, sentar al paciente, monitorizar presión, administrar ansiolíticos (benzodiacepinas) si hay agitación, y referir a urgencias si la presión es muy elevada (ej. >180/120) o hay síntomas de alarma (dolor torácico, disnea, déficit neurológico).
+
+¿Cómo manejar la presión arterial alta por ansiedad?
+Ante una crisis hipertensiva por estrés (picos de presión muy altos), se debe: mantener la calma, sentar al paciente, monitorizar presión, administrar ansiolíticos (benzodiacepinas) si hay agitación, y referir a urgencias si la presión es muy elevada (ej. >180/120) o hay síntomas de alarma (dolor torácico, disnea, déficit neurológico).
+
+¿Qué se hace en una crisis de hipertensión por estrés emocional?
+Ante una crisis hipertensiva por estrés (picos de presión muy altos), se debe: mantener la calma, sentar al paciente, monitorizar presión, administrar ansiolíticos (benzodiacepinas) si hay agitación, y referir a urgencias si la presión es muy elevada (ej. >180/120) o hay síntomas de alarma (dolor torácico, disnea, déficit neurológico).
+
+¿Cómo tratar una crisis de presión alta por nervios?
+Ante una crisis hipertensiva por estrés (picos de presión muy altos), se debe: mantener la calma, sentar al paciente, monitorizar presión, administrar ansiolíticos (benzodiacepinas) si hay agitación, y referir a urgencias si la presión es muy elevada (ej. >180/120) o hay síntomas de alarma (dolor torácico, disnea, déficit neurológico).
+
+¿Qué hacer si la tensión sube por ansiedad severa?
+Ante una crisis hipertensiva por estrés (picos de presión muy altos), se debe: mantener la calma, sentar al paciente, monitorizar presión, administrar ansiolíticos (benzodiacepinas) si hay agitación, y referir a urgencias si la presión es muy elevada (ej. >180/120) o hay síntomas de alarma (dolor torácico, disnea, déficit neurológico).
+
+¿Cómo se maneja el síndrome de abstinencia alcohólica?
+El manejo incluye: reposición de líquidos y electrolitos, tiamina (para prevenir encefalopatía de Wernicke), benzodiacepinas (lorazepam, diazepam) para controlar síntomas de abstinencia y prevenir convulsiones, y seguimiento en UCI si hay delirium tremens (agitación, fiebre, alucinaciones).
+
+¿Qué tratamiento tiene la abstinencia alcohólica?
+El manejo incluye: reposición de líquidos y electrolitos, tiamina (para prevenir encefalopatía de Wernicke), benzodiacepinas (lorazepam, diazepam) para controlar síntomas de abstinencia y prevenir convulsiones, y seguimiento en UCI si hay delirium tremens (agitación, fiebre, alucinaciones).
+
+¿Cómo se trata el síndrome de abstinencia del alcohol?
+El manejo incluye: reposición de líquidos y electrolitos, tiamina (para prevenir encefalopatía de Wernicke), benzodiacepinas (lorazepam, diazepam) para controlar síntomas de abstinencia y prevenir convulsiones, y seguimiento en UCI si hay delirium tremens (agitación, fiebre, alucinaciones).
+
+¿Cuál es el manejo de la abstinencia alcohólica?
+El manejo incluye: reposición de líquidos y electrolitos, tiamina (para prevenir encefalopatía de Wernicke), benzodiacepinas (lorazepam, diazepam) para controlar síntomas de abstinencia y prevenir convulsiones, y seguimiento en UCI si hay delirium tremens (agitación, fiebre, alucinaciones).
+
+¿Qué medicamentos se usan en la abstinencia alcohólica?
+El manejo incluye: reposición de líquidos y electrolitos, tiamina (para prevenir encefalopatía de Wernicke), benzodiacepinas (lorazepam, diazepam) para controlar síntomas de abstinencia y prevenir convulsiones, y seguimiento en UCI si hay delirium tremens (agitación, fiebre, alucinaciones).
+
+
+
+
+
+

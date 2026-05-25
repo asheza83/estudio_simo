@@ -35,12 +35,21 @@ const EXCEPCIONES = [
     'guardar:progreso al cambiar pestaña', 'guardar:progreso del examen',
     'guardar:preferencias en ajustes', 'guardar:modo oscuro', 'guardar:tamaño de letra',
     'cambiar:competencia después del examen', 'cambiar:respuesta antes de verificar',
-    'cambiar:tamaño de letra en ajustes', 'cambiar:modo oscuro en ajustes', 'cambiar:opción en modo estudio',
+    'cambiar:respuesta antes de siguiente', 'cambiar:opción en modo estudio',
+    'cambiar:opción',  // <-- nueva
+    'cambiar:competencia',  // ya existía
+    'cambio:opción',  // <-- nueva
+    'cambio:competencia',  // ya existía
+    'cambiar:respuesta',  // <-- nueva
+    'cambio:respuesta',  // <-- nueva
+    'cambio:respuestas',  // <-- nueva
+    'cambiar:tamaño de letra en ajustes', 'cambiar:modo oscuro en ajustes',
     'compartir:pdf de resultados', 'compartir:archivo pdf',
-    'imprimir:página con ctrl+p', 'imprimir:página', 'imprimir:con ctrl+p', 'imprimir:pantalla con ctrl+p', 'imprimir:pantalla',
-    'imprimir:resultados',
+    'imprimir:página con ctrl+p', 'imprimir:página', 'imprimir:con ctrl+p',
+    'imprimir:pantalla con ctrl+p', 'imprimir:pantalla', 'imprimir:resultados',
     'descargar:app',
-    'recuperar:pago'
+    'recuperar:pago',
+    'reanudar:examen después de emergencia', 'reanudar:examen'
 ];
 
 let glosarioData = null;
