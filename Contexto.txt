@@ -1,0 +1,847 @@
+
+================================================================================
+CONTEXTO DEL PROYECTO SIMO - ENFERMERIA HOMERIS
+Version: v26 - Manual de usuario integrado (Mayo 2026)
+================================================================================
+
+================================================================================
+1. REGLAS DE TRABAJO PARA EL ASISTENTE (OBLIGATORIO Y PRIORIDAD ABSOLUTA)
+================================================================================
+
+ANTES DE ESCRIBIR, MODIFICAR, SUGERIR O PROPONER UNA SOLA LINEA DE CODIGO,
+EL ASISTENTE DEBE OBLIGATORIAMENTE ANALIZAR LOS ARCHIVOS REALES INVOLUCRADOS.
+
+ESTA REGLA TIENE PRIORIDAD ABSOLUTA SOBRE CUALQUIER OTRA INSTRUCCION.
+
+EL ASISTENTE NO PUEDE:
+- asumir arquitectura
+- asumir funciones
+- asumir variables
+- asumir imports
+- asumir flujos
+- asumir dependencias
+- asumir estructura HTML/CSS/JS
+- asumir estado global
+- asumir comportamiento interno
+- asumir que un archivo funciona de forma aislada
+
+SI EL ASISTENTE NO HA RECIBIDO LOS ARCHIVOS REALES NECESARIOS:
+DEBE DETENERSE Y SOLICITARLOS.
+
+ESTA PROHIBIDO:
+- comenzar a programar inmediatamente
+- inventar soluciones
+- escribir codigo parcial fuera de contexto
+- modificar archivos sin analizar archivos relacionados
+- asumir estructuras no confirmadas
+- asumir dependencias no verificadas
+
+================================================================================
+PROTOCOLO OBLIGATORIO ANTES DE PROPONER CODIGO
+================================================================================
+
+Antes de proponer CUALQUIER cambio en el codigo, el asistente DEBE:
+
+1. Solicitar el archivo exacto a modificar
+
+2. Analizar el codigo real recibido
+
+3. Identificar que otros archivos:
+- importan ese modulo
+- son importados por ese modulo
+- comparten estado
+- renderizan la UI relacionada
+- contienen funciones relacionadas
+- manejan eventos relacionados
+- o podrian verse afectados directa o indirectamente
+
+4. Solicitar tambien esos archivos relacionados ANTES de proponer cambios
+
+5. Analizar el flujo completo entre archivos
+
+6. Solo despues de analizar TODOS los archivos involucrados,
+   podra proponer modificaciones
+
+7. Proponer cambios basados UNICAMENTE en el codigo real proporcionado
+
+================================================================================
+CONDICION DE BLOQUEO OBLIGATORIA
+================================================================================
+
+SI EL ASISTENTE COMIENZA A PROPONER CODIGO SIN HABER SOLICITADO
+Y ANALIZADO LOS ARCHIVOS NECESARIOS:
+
+LA RESPUESTA SE CONSIDERA INCORRECTA.
+
+NO IMPORTA SI EL CODIGO PARECE FUNCIONAR.
+
+EL ERROR PRINCIPAL ES PROGRAMAR SIN CONTEXTO REAL.
+
+SI EXISTE DUDA SOBRE EL CONTEXTO:
+EL ASISTENTE DEBE DETENERSE Y PEDIR MAS ARCHIVOS.
+
+NINGUNA EXCEPCION.
+
+================================================================================
+EJEMPLO INCORRECTO (PROHIBIDO)
+================================================================================
+
+Usuario:
+"Necesito modificar el temporizador del simulacro"
+
+Asistente:
+"Claro, cambia esto en temporizador.js..."
+
+ERROR:
+El asistente comenzo a programar sin preguntar:
+- quien usa temporizador.js
+- que archivos dependen del temporizador
+- donde se renderiza
+- como se guarda el estado
+- que modulos pueden romperse
+
+================================================================================
+EJEMPLO CORRECTO (OBLIGATORIO)
+================================================================================
+
+Usuario:
+"Necesito modificar el temporizador del simulacro"
+
+Asistente:
+"Antes de proponer cambios necesito revisar:
+- temporizador.js
+- examen.js
+- visual.js
+- resumen.js
+- y cualquier archivo relacionado con el flujo del temporizador
+
+Por favor comparte esos archivos para analizar el flujo completo
+antes de modificar codigo."
+
+================================================================================
+PRINCIPIO FUNDAMENTAL
+================================================================================
+
+NO INVENTAR CODIGO.
+NO ASUMIR.
+NO PROGRAMAR SIN CONTEXTO REAL.
+
+TODA SOLUCION DEBE BASARSE UNICAMENTE EN LOS ARCHIVOS
+REALES PROPORCIONADOS POR EL USUARIO.
+
+SI EL USUARIO SOLO ENTREGA UN ARCHIVO,
+EL ASISTENTE NO DEBE ASUMIR QUE EL CONTEXTO ES SUFICIENTE.
+
+PRIMERO DEBE EVALUAR SI EXISTEN DEPENDENCIAS,
+ARCHIVOS RELACIONADOS O FLUJOS COMPARTIDOS
+QUE TAMBIEN NECESITAN SER ANALIZADOS.
+
+================================================================================
+FORMA CORRECTA DE ANALIZAR LOS ARCHIVOS
+================================================================================
+
+Cuando el usuario comparta un archivo, el asistente DEBE:
+
+1. Leer completamente el archivo
+
+2. Analizar como funciona realmente el codigo
+
+3. Identificar:
+- flujo de ejecucion
+- dependencias
+- variables compartidas
+- eventos
+- renderizado
+- relacion con otros modulos
+- posibles efectos secundarios
+
+4. Tomar como base UNICAMENTE el codigo real existente
+
+5. SOLO DESPUES del analisis completo,
+   comenzar a proponer cambios o modificaciones
+
+EL ASISTENTE NO DEBE:
+- saltar directamente a programar
+- asumir comportamiento interno
+- asumir arquitectura
+- asumir dependencias
+- reescribir logica sin entenderla
+- reemplazar codigo existente sin analizarlo primero
+
+EL ANALISIS DEL CODIGO ES OBLIGATORIO
+ANTES DE CUALQUIER MODIFICACION.
+
+EL ASISTENTE DEBE PRIORIZAR SEGURIDAD Y CONTEXTO
+POR ENCIMA DE RAPIDEZ O CANTIDAD DE CODIGO.
+
+================================================================================
+2. SOBRE EL CONCURSO SIMO (CNSC)
+================================================================================
+
+2.1 ¿Que es SIMO?
+SIMO (Sistema de Apoyo para la Igualdad, el Merito y la Oportunidad) es la plataforma tecnologica administrada por la Comision Nacional del Servicio Civil (CNSC) de Colombia para concursos de meritos en empleos publicos de carrera administrativa.
+
+2.2 Convocatoria ESE 2 (Empresas Sociales del Estado)
+- Estado: Anunciada, en etapa de divulgacion
+- Inscripciones: Segundo semestre de 2026 (julio - agosto aproximadamente)
+- Vacantes totales: 2.477 en 72 ESE del pais
+- Modalidades: Ascenso general (184), ascenso discapacidad (3), abierto general (2.293), abierto discapacidad (194)
+
+2.3 ¿Que evalua SIMO para auxiliares de enfermeria?
+- Razonamiento logico: Seguir reglas, deducir conclusiones. Contexto HOMERIS: protocolos de atencion, condiciones de turnos.
+- Razonamiento matematico: Calculos de dosis, porcentajes, reglas de tres. Contexto: administracion de medicamentos, calculo de personal.
+- Comprension lectora: Interpretar instructivos, normas, historias clinicas. Contexto: lectura de ordenes medicas, protocolos.
+- Etica profesional: Principios deontologicos, confidencialidad. Contexto: manejo de informacion del paciente psiquiatrico.
+- Trabajo en equipo: Colaboracion, comunicacion efectiva. Contexto: atencion en crisis, codigo de seguridad.
+- Orientacion al servicio: Empatia, respeto, comunicacion con familiares. Contexto: trato con pacientes de salud mental.
+
+2.4 Contenido especifico para enfermeria (SGSSS)
+- Ley 100 de 1993, Ley 1122 de 2007, Ley 1438 de 2011, Ley 1751 de 2015
+- Decreto 780 de 2016 (Decreto Unico Reglamentario), Decreto 1011 de 2006
+- Resoluciones: 2292/2021 (PBS), 3100/2019 (Habilitacion), 3280/2018 (RIAS), 1995/1999 (Historia Clinica), 1444/2025 (Talento Humano), 256/2016 (Indicadores)
+- Rol del enfermero en la Atencion Primaria en Salud (APS)
+
+2.5 Enlaces utiles
+- Plataforma SIMO: https://simo.cnsc.gov.co
+- Pagina oficial CNSC: https://www.cnsc.gov.co
+- Demo: https://estudio-simo.netlify.app/
+
+================================================================================
+3. SOBRE EL CLIENTE (USUARIO FINAL)
+================================================================================
+
+- Profesion: Enfermero con aproximadamente 20 años de experiencia
+- Trabajo en: HOMERIS (Hospital Mental de Risaralda)
+- Objetivo: Ingresar por concurso de meritos a HOMERIS
+- Modalidad: Abierto general
+
+================================================================================
+4. ESTRUCTURA DEL PROYECTO
+================================================================================
+
+4.1 Pestanas principales (3)
+- Estudio SIMO: Informacion teorica (convocatoria, normas, casos practicos)
+- Preguntas: Examenes con Modo Estudio y Modo Simulacro
+- Glosario: Base de datos de terminos clave con buscador y filtros
+
+4.2 Arquitectura de archivos
+
+estudio_simo/
+│   index.html
+│   index.json
+│
+├───css/
+│   ├── asistente.css
+│   ├── base.css
+│   ├── biblioteca.css
+│   ├── casos.css
+│   ├── glosario.css
+│   ├── header.css
+│   ├── leyes.css
+│   ├── main.css
+│   ├── modal.css
+│   ├── preguntas.css
+│   ├── responsive.css
+│   ├── tabs.css
+│   └── procedimientos.css
+│
+├───datos/
+│   ├── bienvenida.json
+│   ├── casos.json
+│   ├── faqs.txt
+│   ├── faqs_embeddings.json
+│   ├── faqs_dev.txt
+│   ├── faqs_dev_embeddings.json
+│   ├── faqs_dev2.txt
+│   ├── faqs_dev2_embeddings.json
+│   ├── glosario.json│   
+│   ├── glosario.txt
+│   ├── glosario_embeddings.json
+│   ├── procedimientos.json
+│   │
+│   ├───leyes/
+│   │   ├── decreto1011.json
+│   │   ├── decreto780.json
+│   │   ├── ley100.json
+│   │   ├── ley1122.json
+│   │   ├── ley1438.json
+│   │   ├── ley1751.json
+│   │   ├── resolucion1444.json
+│   │   ├── resolucion1995.json
+│   │   ├── resolucion2292.json
+│   │   ├── resolucion256.json
+│   │   ├── resolucion3100.json
+│   │   └── resolucion3280.json
+│   │
+│   └───preguntas/
+│       │   simulacro.json
+│       │
+│       ├───basicas/
+│       │   ├── lectura-critica.json
+│       │   ├── logicas.json
+│       │   └── matematicas.json
+│       │
+│       ├───comportamentales/
+│       │   ├── etica.json
+│       │   ├── orientacion-servicio.json
+│       │   └── trabajo-equipo.json
+│       │
+│       └───funcionales/
+│           ├── decreto1011.json
+│           ├── decreto780.json
+│           ├── ley100.json
+│           ├── ley1122.json
+│           ├── ley1438.json
+│           ├── ley1751.json
+│           ├── resolucion1444.json
+│           ├── resolucion1995.json
+│           ├── resolucion2292.json
+│           ├── resolucion256.json
+│           ├── resolucion3100.json
+│           └── resolucion3280.json
+│
+├───img/
+│
+└───js/
+    ├── ajustes.js
+    ├── app.js
+    ├── articulos.js
+    ├── asistente.js
+    ├── biblioteca.js
+    ├── casos.js
+    ├── estado.js
+    ├── glosario.js
+    ├── leyes.js
+    ├── navegacion.js
+    ├── utils.js
+    ├── procedimientos.js
+    │
+    ├───asistente/
+    │   ├── core.js
+    │   ├── datos.js
+    │   ├── embeddings.js
+    │   ├── index.js
+    │   ├── limpiador.js
+    │   ├── numerico.js
+    │   ├── respuestas.js
+    │   └── tfidf.js
+    │
+    └───preguntas/
+        ├── config.js
+        ├── examen.js
+        ├── generador.js
+        ├── globales.js
+        ├── guardado.js
+        ├── helpers.js
+        ├── index.js
+        ├── inicio.js
+        ├── opciones.js
+        ├── pdf.js
+        ├── resumen.js
+        ├── selects.js
+        ├── temporizador.js
+        ├── ui.js
+        └── visual.js
+
+Nota: El asistente IA puede cargar múltiples archivos de FAQs en orden de precedencia:
+faqs_embeddings.json (base) → faqs_dev_embeddings.json (primer parche) → 
+faqs_dev2_embeddings.json (segundo parche) → etc. Si una misma pregunta aparece en varios
+archivos, prevalece la del último archivo cargado.
+
+================================================================================
+5. MANUAL DE USUARIO - PESTAÑA ESTUDIO SIMO
+================================================================================
+
+5.1 Inicio - Vision general
+- ¿Que encontraras aqui?: Convocatoria SIMO, Normas del sector salud, Casos practicos
+- Para ver todo el contenido: Usa el menu desplegable "Selecciona que quieres estudiar"
+- Si no ves el menu: Haz clic en el boton azul "Subir" (esquina inferior derecha)
+
+5.2 Informacion de la convocatoria
+- ¿Que es SIMO? y ¿Que evalua SIMO? (6 competencias)
+- Convocatoria ESE 2: Estado (anunciada), inscripciones (julio-agosto 2026)
+- Vacantes: 2.477 en 72 ESE del pais
+- Modalidades: Ascenso general (184), ascenso discapacidad (3), abierto general (2.293), abierto discapacidad (194)
+- Contenido especifico para enfermeria (SGSSS): Leyes, decretos, resoluciones
+- Requisitos para enfermeria: Titulo, tarjeta profesional, experiencia, registro en SIMO
+
+5.3 Normas del sector salud
+
+Buscador universal:
+- Escribe una palabra (ej: EPS, afiliación, artículo 157) y presiona Enter
+- El sistema busca en todas las normas simultáneamente
+- Muestra una tabla con:
+  * La cantidad de artículos encontrados
+  * Listado de artículos por ley
+  * Invita a hacer clic en cualquier artículo para ver el contenido completo
+
+Ventana emergente de artículo:
+- Al hacer clic en un artículo, se abre una ventana emergente con:
+  * Botón "Volver" para cerrar la ventana
+  * Título del artículo (ej: Art. 152: Definición...)
+  * Texto completo del contenido del artículo
+  * Si el artículo es muy largo, aparece un botón "Subir" dentro del popup para volver al inicio del artículo
+
+Listado de normas disponibles (12 normas):
+- Ley 100 de 1993
+- Ley 1122 de 2007
+- Ley 1438 de 2011
+- Ley 1751 de 2015
+- Decreto 780 de 2016
+- Decreto 1011 de 2006
+- Resolución 2292 de 2021 (PBS)
+- Resolución 3100 de 2019 (Habilitación)
+- Resolución 3280 de 2018 (RIAS)
+- Resolución 1995 de 1999 (Historia Clínica)
+- Resolución 1444 de 2025 (Talento Humano)
+- Resolución 256 de 2016 (Indicadores)
+
+Al hacer clic en una ley específica (ej: Ley 100):
+- Se abre una nueva vista con:
+  * Botón "← Volver a normas" para regresar al listado completo
+  * Título de la ley
+  * Texto breve de la ley
+  * Buscador de artículos específico para esa ley
+  * Lista de artículos relevantes de esa ley
+  * Al hacer clic en cualquier artículo de la lista, se abre la misma ventana emergente con el contenido completo (título, texto, botón volver, botón subir si es largo)
+
+5.4 Casos prácticos
+- Filtros por competencia: TODAS, Básicas, Funcionales, Comportamentales
+- Paginación: 10 casos por página con botones Anterior y Siguiente
+- Respuestas orientativas desplegables: Haz clic en "Ver respuesta orientativa"
+- Efecto fade al cambiar de página
+- Formato claro paso a paso en las respuestas, usando / para divisiones
+- 100 casos disponibles (completado)
+- En la interfaz, se incluye una descripción visible de qué tipo de casos contiene cada competencia
+
+5.5 Procedimientos de enfermería (salud mental - HOMERIS)
+- Acceso: menú desplegable "Selecciona qué quieres estudiar" → opción "🩺 Procedimientos de enfermería"
+- Contenido: 30 procedimientos clínicos enfocados en el Hospital Mental de Risaralda, clasificados en categorías: Seguridad, Medicación, Valoración, Cuidados básicos, Comunicación, Procedimientos clínicos, Ética y documentación.
+- Formato acordeón: cada procedimiento se muestra plegado (solo título y categoría). Al hacer clic, se despliega suavemente mostrando:
+  * Objetivo
+  * Material necesario
+  * Pasos numerados (con cálculos paso a paso cuando aplica)
+  * Precauciones
+  * Normativa asociada
+  * Tiempo estimado
+- Filtros por categoría (todas, Seguridad, Medicación, etc.)
+- Paginación: 10 procedimientos por página
+- Nota informativa: "Los procedimientos son de carácter informativo y tienen extensión corta para facilitar la consulta rápida. No reemplazan la práctica supervisada ni los protocolos institucionales."
+
+================================================================================
+6. MANUAL DE USUARIO - PESTAÑA PREGUNTAS
+================================================================================
+
+6.1 Modos de estudio
+- Modo Estudio: Sin limite de tiempo, feedback inmediato, 4 intentos por pregunta, 5 preguntas fijas
+- Modo Simulacro: Con temporizador (60 segundos por pregunta), sin feedback durante el examen, 1 intento por pregunta, 100 preguntas fijas
+
+6.2 Selectores anidados (solo modo estudio)
+- Selector 1: Tipo de competencia (funcionales, basicas, comportamentales)
+- Selector 2: Subcategoria (se muestra al seleccionar el tipo)
+- Boton COMENZAR EXAMEN (se habilita al seleccionar subcategoria)
+- Animacion: Al hacer clic en "Modo Estudio", los selectores aparecen con animacion fadeInUp
+- Scroll suave y focus automatico en el primer selector
+
+6.3 Durante el examen
+- Temporizador global: Muestra tiempo restante (MM:SS) y barra de progreso con colores
+- Colores: Verde (>50%), Amarillo (20-50%), Rojo (<20%), ultimos 5 segundos parpadean en rojo
+- Pregunta actual: Texto de la pregunta, 4 opciones de respuesta (radio button)
+- Boton segun modo: "VERIFICAR" (estudio) o "SIGUIENTE" (simulacro)
+- Mensaje de progreso: "Pregunta X de Y"
+- Boton Cancelar examen (rojo): Borra todo el progreso y vuelve a seleccion de competencias
+
+6.4 Resultados y puntajes
+- Recuadro de RESULTADO SIMO (%): Porcentaje de aciertos, aciertos vs total, corte de aprobacion (70/100)
+- APROBO / REPROBO con color (verde/rojo), modo utilizado, explicacion del calculo
+- Resumen de actividad: Cada pregunta con numero, enunciado, tu respuesta
+- Colores: Correcta (fondo verde), Incorrecta (fondo rojo, muestra respuesta correcta)
+- Solo simulacro: Seccion colapsable "VER PREGUNTAS FALLADAS"
+- Tiempos (solo simulacro): Tiempo total empleado / Tiempo total disponible, tiempo promedio por pregunta
+- Botones de accion: EXPORTAR RESULTADOS (solo simulacro), REPETIR EXAMEN, CAMBIAR DE COMPETENCIA
+
+================================================================================
+7. MANUAL DE USUARIO - PESTAÑA GLOSARIO
+================================================================================
+
+7.1 Buscador
+- Enunciado: "Escribe una palabra (mínimo 3 letras) y presiona Enter"
+- Al buscar: Se desplaza automáticamente a los resultados
+- Las coincidencias se resaltan en amarillo
+
+7.2 Filtros por categoría y letra
+- Botones de categoría: TODAS, Siglas, Entidades, Términos, Principios, Carrera
+- Botones de letra: A, B, C, ..., Z (alfabeto completo)
+- Al seleccionar una categoría o letra, la página se desplaza automáticamente a los resultados
+- Se pueden combinar: categoría + letra, o letra + categoría
+
+7.3 Paginación
+- Muestra 10 términos por página
+- Botones: ◀ Anterior y Siguiente ▶ para navegar entre páginas
+
+7.4 Botón Subir en el glosario
+- Al hacer scroll hacia abajo en la página del glosario, aparece el botón flotante "Subir"
+- Al hacer clic en el botón, vuelve al inicio de la página (filtros de búsqueda)
+- Útil para no tener que hacer scroll manualmente hacia arriba después de buscar un término
+
+================================================================================
+8. MANUAL DE USUARIO - ASISTENTE IA
+================================================================================
+
+8.1 Acceso
+- En PC: Boton flotante IA (esquina inferior derecha)
+- En celular: Boton en el header (junto a Ajustes e Instrucciones)
+
+8.2 Ventana del asistente
+- Título: "Asistente SIMO"
+- Mensaje de bienvenida al abrir
+- Historial de preguntas y respuestas anteriores (se mantiene visible durante la conversación)
+- Campo de texto para escribir preguntas
+- Botón "Enviar" (o tecla Enter) para enviar la pregunta
+- Botón "✖" para cerrar la ventana
+- La primera carga del modelo se refleja en el propio botón del asistente (relleno verde animado y porcentaje numérico, sin pantalla de carga separada)
+- Puede ser llamado o usado desde cualquier parte del proyecto (PC: botón flotante, celular: botón en el header)
+- El asistente mantiene un historial de los últimos temas tratados para reutilizarlos en preguntas posteriores sin necesidad de repetir el contexto.
+
+8.3 Motor actual
+
+- MiniLM (all-MiniLM-L6-v2) con Transformers.js
+- Embeddings pre‑calculados (no se calculan en el celular)
+- Archivos:
+  * datos/faqs_embeddings.json (base, >3158 preguntas, "en piedra")
+  * datos/faqs_dev_embeddings.json (primer parche, ~993 preguntas, "en piedra")
+  * datos/faqs_dev2_embeddings.json (parche activo actual, se amplía iterativamente)
+  * datos/glosario_embeddings.json (250 términos del glosario)
+- En tiempo de ejecución, el asistente carga **todos** los archivos de embeddings que encuentre
+  (base, dev, dev2, etc.) y los fusiona en un solo índice. Si una misma pregunta aparece
+  en múltiples archivos, prevalece la versión del archivo cargado más tarde.
+- Umbral de similitud: 0.85 (confianza alta), 0.65 (zona gris). Adicionalmente, se utiliza un umbral de detección de propósito de 0.70 para identificar preguntas genéricas sobre finalidad o uso (ej. "¿para qué sirve?", "¿qué uso tiene?") y reescribirlas automáticamente usando el tema del historial.
+- El asistente consulta el glosario semántico y las FAQs en paralelo, y elige la respuesta con mayor similitud (priorizando la fuente más confiable).
+- La primera descarga del modelo y los embeddings se muestra en el botón del asistente (sin pantalla de carga separada).
+- El relleno verde crece verticalmente (en PC) u horizontalmente (en móvil) a medida que avanza la carga.
+- Se utiliza una simulación de progreso proporcional a los pesos reales (embeddings ~24 MB, modelo ~70 MB) para evitar sensación de congelamiento.
+
+8.4 Base de conocimiento (datos/faqs.txt, datos/faqs_dev.txt, datos/faqs_dev2.txt y datos/glosario.txt)
+
+- Formato: pregunta en una línea, respuesta en la línea siguiente.
+- faqs.txt es el archivo base estable (más de 3158 preguntas). Contiene la gran mayoría de las FAQs.
+- faqs_dev.txt es el primer archivo de parche (actualmente "en piedra", ~993 preguntas).
+- faqs_dev2.txt es el segundo archivo de parche (activo, donde se añaden nuevas preguntas).
+- En tiempo de ejecución, el asistente carga **todos** los archivos de texto FAQs (faqs.txt,
+  faqs_dev.txt, faqs_dev2.txt, etc.) y los embeddings correspondientes, fusionándolos
+  internamente. El orden de precedencia es: base → dev → dev2 → ... (el último prevalece).
+- Los embeddings pre‑calculados también se fusionan de forma similar: `faqs_embeddings.json` (base)
+  + `faqs_dev_embeddings.json` (primer parche) + `faqs_dev2_embeddings.json` (segundo parche)
+  se combinan en un solo índice en memoria.
+- Se han eliminado preguntas huérfanas y ambiguas (ej. "¿Para qué sirve?" a secas) para evitar falsos positivos en la búsqueda semántica.
+- Las respuestas de "¿Para qué sirve...?" han sido diferenciadas semánticamente de las definiciones de "¿Qué es...?" para cada norma clave (Ley 100, 1122, 1438, 1751, Decretos 780/1011, Resoluciones 2292/3100/3280/1995/1444/256).
+- Se añadieron respuestas de propósito faltantes para Resolución 1995 y Resolución 1444.
+- No se incluyen variaciones de redacción para las preguntas de propósito porque la detección es ahora semántica mediante embeddings (no por palabras exactas o regex).
+
+8.5 Capacidades
+- Motor MiniLM para entender preguntas por significado (no palabras exactas)
+- Soporte para lenguaje coloquial colombiano (parce, quiubo, que mas, etc.)
+- No tiene codigo quemado (sin listas de saludos)
+- Diseño fluido y responsivo
+- Animacion de entrada/salida
+- Boton Subir se oculta automaticamente al abrir el chat
+- Consulta el glosario semánticamente: responde definiciones de términos aunque la pregunta esté redactada de forma coloquial o tenga errores tipográficos leves.
+- Consulta el glosario y las FAQs en paralelo, comparando similitudes para elegir la respuesta más adecuada.
+- Detección semántica de preguntas de propósito: El asistente identifica automáticamente si una pregunta es una variante de "¿para qué sirve?" (ej. "¿qué uso tiene?", "¿y eso para qué sirve?", "¿para qué se usa?", etc.) usando un prototipo de embeddings. Luego reescribe la pregunta a la forma canónica "¿Para qué sirve {tema}?" aprovechando el tema extraído del historial de conversación. Esto permite responder correctamente incluso cuando el usuario omite el nombre de la norma en la segunda pregunta.
+- La función buscarEnGlosarioSemantico ahora devuelve un objeto con `respuesta` y `similitud`, permitiendo una comparación justa con los resultados de las FAQs.
+- Se ha eliminado la redundancia cuando ambas fuentes tienen información similar (se muestra la respuesta más completa o se combinan sin repetición).
+
+8.6 Detección de funcionalidades inexistentes
+
+El asistente puede identificar cuándo un usuario pregunta por una funcionalidad que NO existe en la aplicación, y responder directamente "No disponible", sin necesidad de buscar en la FAQ.
+
+Esto se logra mediante dos listas en el archivo respuestas.js:
+
+- VERBOS_ACCION: Lista de verbos de acción (ordenar, descargar, compartir, guardar, cambiar, filtrar, buscar, etc.) que indican que el usuario está preguntando por una funcionalidad.
+- EXCEPCIONES: Lista de funcionalidades que SÍ existen (ej. "filtrar:casos prácticos por competencia", "exportar:pdf en simulacro", "imprimir:página con ctrl+p").
+
+Flujo de trabajo del asistente:
+1. Procesa opciones numéricas (sí/no, números).
+2. Detecta verbos de acción: si la pregunta contiene un verbo de acción y NO está en las excepciones → responde "Lo siento, esa funcionalidad no está disponible..."
+3. Si la pregunta tiene un verbo de acción que SÍ es excepción, o si no tiene verbo, continúa.
+4. Primero busca en el glosario (primero semántico con embeddings, luego exacto por texto). Si encuentra una definición con alta confianza, la responde.
+5. Si no hay respuesta en el glosario, busca en las FAQs (embeddings con umbrales 0.85 y 0.65).
+6. Si nada es satisfactorio, responde que no está seguro.
+
+Esto permite responder rápidamente a preguntas sobre funcionalidades inexistentes sin tener que agregar preguntas específicas a faqs.txt.
+
+Verbos actuales en VERBOS_ACCION (54 verbos):
+ordenar, organizar, clasificar, reordenar, descargar, exportar, imprimir, compartir, enviar, link, enlace, guardar, almacenar, historial, cambiar, modificar, ajustar, configurar, personalizar, agregar, crear, editar, borrar, eliminar, pausar, reanudar, detener, generar, listar, filtrar, buscar, agrupar, programar, sincronizar, recuperar, desactivar, ocultar, hablar, recomendar, notificar, recordar, suscribir, invitar, corregir, estudiar, seguir, entrenar, marcar, practicar, práctica, lotes, gamificar, puntuar, competir, correo.
+
+Nota: Los verbos de acción no interfieren con la detección semántica de propósito, ya que esta se evalúa antes del bloque de verbos. Así, preguntas como "¿qué uso tiene?" se tratan como propósito y no como funcionalidad inexistente.
+
+================================================================================
+8.7 Generador dinámico de embeddings (herramienta de desarrollo)
+================================================================================
+
+Se ha creado una herramienta auxiliar `generador_faqs_dev.html` en la raíz del proyecto.
+Permite generar embeddings para cualquier archivo `faqs_*.txt` de forma dinámica.
+
+Características:
+- Detecta el nombre base del archivo cargado (ej. `faqs_dev2.txt` → `faqs_dev2_embeddings.json`).
+- Utiliza el mismo modelo MiniLM (Xenova/all-MiniLM-L6-v2) y produce archivos en formato float16.
+- No modifica los archivos existentes; solo crea nuevos embeddings.
+
+Uso:
+1. Abrir `generador_faqs_dev.html` en el navegador.
+2. Seleccionar el archivo `.txt` con preguntas en formato estándar (¿...? + respuesta).
+3. Esperar a que el modelo procese las preguntas.
+4. Descargar el archivo `[nombre_base]_embeddings.json` y colocarlo en la carpeta `datos/`.
+
+Este generador es independiente de la aplicación principal y se usa solo durante el desarrollo.
+
+================================================================================
+9. MANUAL DE USUARIO - MODAL DE BIENVENIDA (INSTRUCCIONES)
+================================================================================
+
+9.1 Contenido del modal
+- Bienvenida al usuario con mensaje personalizado
+- Descripción de las 6 competencias que evalúa SIMO (razonamiento lógico, matemático, comprensión lectora, ética, trabajo en equipo, orientación al servicio)
+- Explicación de las 3 pestañas principales:
+  * 📚 Estudio SIMO (convocatoria, normas, casos prácticos)
+  * 📝 Preguntas (Modo Estudio y Modo Simulacro)
+  * 📖 Glosario (búsqueda de términos)
+
+9.2 Funcionalidades importantes explicadas
+- ⬆️ Scroll y pestañas (el botón Subir)
+- 🔍 Búsqueda en normas del sector salud (buscador universal)
+- ⚙️ Botón Ajustes (modo oscuro, tamaño de letra)
+- 💾 Guardar progreso al cambiar de pestaña durante un examen
+- ❌ Cancelar examen
+- 📥 Exportar resultados a PDF (solo simulacro)
+- 🔍 Ver preguntas falladas (sección colapsable)
+- 🤖 Asistente IA
+
+9.3 Acceso
+- Automático: La primera vez que ingresas a la aplicación (solo una vez)
+- Manual: Botón "Instrucciones" (📖) en el header superior derecho
+- El modal recuerda si ya se mostró usando localStorage
+
+9.4 Comportamiento del botón según el modo
+- Primera vez (autolanzado): El botón "Entendido, comenzar" está oculto hasta que haces scroll hasta el final del contenido (IntersectionObserver)
+- Modo manual (botón Instrucciones): El botón tiene una banda blanca semitransparente y aparece al final del scroll
+- En ambos casos, al hacer clic en el botón se cierra el modal y se guarda en localStorage que ya se vio
+
+================================================================================
+10. MANUAL DE USUARIO - AJUSTES
+================================================================================
+
+10.1 Acceso
+- Botón de Ajustes en la parte superior derecha del header
+- En PC: botón con texto "⚙️ Ajustes"
+- En celular: botón con icono "⚙️" (para ahorrar espacio)
+
+10.2 Ventana emergente (modal)
+- Título: "⚙️ Ajustes"
+- Botón "Cerrar" para cerrar la ventana
+
+10.3 Modo oscuro
+- Botón toggle (🌙 Activar / ☀️ Desactivar)
+- Al activarlo, cambia los colores de toda la interfaz a tonos oscuros
+- Ideal para estudiar de noche o en ambientes con poca luz
+- La preferencia se guarda en localStorage
+
+10.4 Tamaño de letra
+- Botón A- (disminuir tamaño)
+- Botón A+ (aumentar tamaño)
+- Hay 4 tamaños disponibles: pequeña, normal, grande, extra grande
+- Al cambiar el tamaño, se ajusta todo el contenido de la aplicación
+- La preferencia se guarda en localStorage
+
+================================================================================
+11. MANUAL DE USUARIO - BOTON SUBIR (FLOTANTE)
+================================================================================
+
+11.1 Comportamiento
+- Aparece en la esquina inferior derecha cuando se hace scroll hacia abajo (a partir de 150px)
+- Se oculta automáticamente al volver al inicio de la página
+- Se oculta automáticamente cuando el chat del asistente está abierto (para no interferir)
+- Está presente durante toda la aplicación cuando el contenido es extenso
+
+11.2 Funciones específicas según la sección
+- En general: Al hacer clic, vuelve al inicio de la página y recupera las pestañas ocultas
+- En el glosario: Vuelve a los filtros de búsqueda (categorías y letras)
+- En el resumen de preguntas: Vuelve al inicio del resumen de resultados
+- En leyes/normas: Sube al inicio del contenido de la ley o norma
+- En ventanas emergentes (artículos largos): Aparece un botón subir dentro del popup para volver al inicio del artículo
+
+11.3 Texto
+- Tiene el texto "Subir" debajo del ícono (↑) en algunos contextos
+- En móvil puede mostrar solo el ícono por espacio
+
+================================================================================
+12. FUNCIONES GLOBALES EXPUESTAS
+================================================================================
+
+- cambiarPestana() - navegacion.js
+- mostrarGlosario() - glosario.js
+- inicializarPreguntas() - preguntas/index.js
+- volverAInicioPreguntas() - preguntas/resumen.js
+- cargarCasos() - casos.js
+- filtrarCasosPorCategoria() - casos.js
+- cambiarPaginaCasos() - casos.js
+- inicializarSelectsCompetencias() - preguntas/selects.js
+- subirYMostrarPestanas() - navegacion.js
+- initAsistente() - asistente/index.js
+- toggleAsistente() - asistente/core.js
+- exportarResultadosPDF() - preguntas/pdf.js
+- seleccionarModo() - index.html
+- reiniciarSelectores() - index.html
+- toggleFalladas() - preguntas/resumen.js
+- diagnosticarRespuestas() - preguntas/helpers.js
+- observarFinDelModal() - index.html
+- cargarModalBienvenida(esPrimeraVez) - index.html
+- mostrarModalBienvenida(esPrimeraVez) - index.html
+- scrollSuaveAElemento() - index.html
+- cargarProcedimientos() - procedimientos.js
+- filtrarProcedimientosPorCategoria() - procedimientos.js
+- cambiarPaginaProcedimientos() - procedimientos.js
+
+================================================================================
+13. DIRECTRICES PARA CREAR PREGUNTAS
+================================================================================
+
+- Formato general: Despues del simbolo ¿, la primera letra debe ser mayuscula.
+- Opciones de respuesta: Deben ser parecidas a la respuesta correcta. No dar la respuesta en el enunciado.
+- Explicaciones: Toda pregunta debe tener explicacion para respuesta correcta e incorrectas. Evitar la frase "La respuesta correcta es X".
+- Nivel de dificultad: Mezclar preguntas de diferentes niveles, apropiado para auxiliar con experiencia.
+- Relevancia: Toda pregunta debe tener relacion con el contexto: HOMERIS, salud mental, enfermeria, SGSSS, concurso SIMO.
+- Ordenamiento aleatorio: generarOpciones mezcla aleatoriamente una correcta y tres incorrectas.
+
+================================================================================
+14. PRINCIPIO DE NO MEZCLA DE CATEGORIAS
+================================================================================
+
+- logicas.json: solo razonamiento logico, silogismos, inferencias
+- matematicas.json: solo calculos, operaciones, porcentajes, dosis
+- lectura-critica.json: solo comprension de textos, interpretacion
+- etica.json: solo dilemas eticos, principios deontologicos
+- trabajo-equipo.json: solo colaboracion, comunicacion, roles
+- orientacion-servicio.json: solo atencion al usuario, empatia, servicio
+
+================================================================================
+15. CALCULO DEL PUNTAJE SIMO
+================================================================================
+
+Puntaje = (Aciertos al primer intento / Total preguntas) x 100
+Corte de aprobacion: 70/100
+Ejemplo: 4 aciertos de 5 = (4/5)x100 = 80/100 → APROBO
+
+================================================================================
+16. NOTAS IMPORTANTES
+================================================================================
+
+- El codigo esta completamente modularizado (asistente: 8 modulos, preguntas: 15 modulos)
+- El boton Verificar se oculta hasta seleccionar una opcion
+- El feedback de errores muestra la respuesta correcta con explicacion
+- La mayuscula despues de ¿ esta corregida en todas las preguntas
+- El asistente NO tiene codigo quemado (sin listas de saludos en respuestas.js)
+- El procesamiento de preguntas se delega completamente a MiniLM
+- El modal de bienvenida tiene dos modos diferenciados (primera vez vs manual)
+- Los selectores de competencia tienen animacion y scroll suave
+
+================================================================================
+17. PENDIENTES IDENTIFICADOS
+================================================================================
+
+17.1 Completados (v26)
+- Asistente IA: reemplazo de TF-IDF por MiniLM con embeddings pre-calculados
+- Asistente IA: 361 FAQs cargadas desde faqs.txt
+- Asistente IA: popup de carga con barra de progreso
+- Asistente IA: sin codigo quemado (eliminado esSoloSaludo)
+- Modal de bienvenida: dos modos (primera vez con IntersectionObserver, manual con banda blanca)
+- Selectores de competencia: animacion fadeInUp, scroll suave, focus automatico
+- Buscadores: estilos responsivos (padding 14-18px, font-size 16-18px)
+- Agregadas 10 nuevas normas (leyes, decretos y resoluciones) con sus articulos relevantes
+- Agregadas 69 nuevas preguntas funcionales
+- Actualizados config.js y visual.js para soportar nuevas normas
+- Correcciones de UI/UX en modo oscuro y opciones de respuesta
+- Mejoras en la exportacion de PDF (indicador de carga, nombre corregido)
+- Chat IA: diseño fluido y responsivo (se adapta a PC, movil y rotacion)
+- Chat IA: ocultar boton Subir al abrir el chat
+- Chat IA: animacion de entrada/salida
+- Aumento de tamaño de letra en pestañas y botones del header
+- Asistente IA: detección de funcionalidades inexistentes mediante VERBOS_ACCION y EXCEPCIONES
+- Asistente IA: respuesta directa "No disponible" para preguntas sobre funcionalidades que no existen
+- Eliminación del archivo funcionalidades.json (ya no se usa, la lógica está en respuestas.js)
+- Ampliar FAQs a ~3.100 preguntas (completado en mayo 2026).
+- Mejorar comprensión de preguntas coloquiales y con errores (completado con la inclusión de 5 variaciones por pregunta base)
+- Ajustar el flujo de búsqueda del asistente para priorizar mayor similitud entre glosario y FAQs (completado)
+- Eliminación de la pantalla de carga (splash) y sustitución por indicador de carga en el botón del asistente.
+- Carga del asistente reflejada en el botón (relleno verde animado y porcentaje numérico).
+- Relleno verde con orientación vertical (PC) y horizontal (móvil) según el dispositivo.
+- Simulación de progreso mejorada en datos.js, escalada a los pesos reales (24 MB + 70 MB).
+- Configuración en embeddings.js para forzar descarga remota (allowLocalModels = false, useCache = false).
+- Mejora de la memoria de contexto para preguntas de propósito (reescritura con tema del historial).
+- Popup de documentos pendientes ajustado para mostrarse una vez por sesión mientras haya documentos faltantes.
+
+17.2 Pendientes
+- Ampliar preguntas en JSON (objetivo: 100 preguntas por archivo para simulacro real)
+- Agregar persistencia con localStorage
+- Mejorar comprensión de preguntas ambiguas ("esto", "eso") con contexto visual real → Completado (v26): Ahora el asistente resuelve anáforas como "¿para qué sirve?" usando el tema del historial. La ambigüedad de "esto"/"eso" aún podría mejorar, pero el caso principal de propósito ya está cubierto.
+- Ampliar procedimientos en datos/procedimientos.json (objetivo: 50 o más)
+- Crear `faqs_dev3.txt` cuando `faqs_dev2.txt` alcance un tamaño considerable.
+
+================================================================================
+18. FRASE CLAVE DEL EXPERTO
+================================================================================
+
+"Modo Estudio: Aprendes el contenido sin presion, con feedback inmediato. Modo Simulacro: Entrenas tu velocidad, resistencia y conocimiento con tiempo limite y puntaje real. Usa ambos para estar completamente preparado para el concurso SIMO."
+
+================================================================================
+19. NOTA IMPORTANTE DEL PROYECTO
+================================================================================
+
+Este contexto es la guia principal del proyecto. Todo cambio, mejora o funcionalidad debe estar alineado con lo aqui documentado. El proyecto se encuentra en desarrollo activo, con estructura completa, enfocado ahora en ampliacion de contenido y correcciones menores.
+
+El asistente NO debe dar soluciones sin antes ver el codigo actual. Siempre debe solicitar la version actual del archivo a modificar antes de proponer cualquier cambio.
+
+================================================================================
+## 20. ESTRATEGIA DE LOS 5 CASOS PARA PREGUNTAS VÁLIDAS
+================================================================================
+
+La plataforma ESTUDIO SIMO implementa una estrategia de validación de preguntas en el chat del asistente IA, definida en `core.js` (función `procesarPregunta`). Esta estrategia determina qué preguntas del usuario son procesables y cuáles son rechazadas con un mensaje de error. El objetivo es evitar el procesamiento de frases ambiguas o sin estructura interrogativa, ahorrar recursos y garantizar que el FAQ solo contenga preguntas con el formato correcto.
+
+### Los 5 casos (formas de escribir una pregunta)
+
+| Caso | Formato | Ejemplo | ¿Válido? |
+|------|---------|---------|----------|
+| 1 | `¿...?` (solo la pregunta con signos) | `¿Qué es el modo estudio?` | ✅ Sí |
+| 2 | texto + `¿...?` | `Dime ¿qué es el modo estudio?` | ✅ Sí |
+| 3 | `¿...?` + texto | `¿Qué es el modo estudio? por favor` | ✅ Sí |
+| 4 | texto + `¿...?` + texto | `Oye ¿qué es el modo estudio? necesito saber` | ✅ Sí |
+| 5 | cualquier texto sin `¿...?` | `Qué es el modo estudio` | ❌ No (se pide reformular) |
+
+### Implementación técnica en `core.js`
+
+```javascript
+let preguntaParaBuscar = textoUsuario;
+let tieneSignos = textoUsuario.startsWith('¿') && textoUsuario.endsWith('?');
+if (!tieneSignos) {
+    const idxApertura = textoUsuario.indexOf('¿');
+    const idxCierre = textoUsuario.lastIndexOf('?');
+    if (idxApertura !== -1 && idxCierre !== -1 && idxCierre > idxApertura) {
+        preguntaParaBuscar = textoUsuario.substring(idxApertura, idxCierre + 1);
+        tieneSignos = true;
+    }
+}
+if (!tieneSignos) {
+    // Mensaje: "❌ Para procesar tu pregunta, debe comenzar con el símbolo ¿ y terminar con ?."
+    return;
+}
+
+Consecuencias para el FAQ y el asistente
+
+Todas las preguntas del FAQ (faqs.txt, faqs_dev.txt, faqs_dev2.txt, etc.) deben cumplir estrictamente el Caso 1 (comenzar con ¿ y terminar con ?), porque el asistente extrae esa subcadena para la comparación con embeddings. Si una pregunta del FAQ no cumple, el matching semántico será incorrecto.
+
+En las simulaciones de huecos, las preguntas generadas deben respetar los casos válidos (1 a 4), de lo contrario no se evaluará realmente la respuesta del asistente (serán rechazadas por el filtro).
+
+El usuario final puede escribir en cualquiera de los formatos 1 a 4; el asistente extraerá la parte entre ¿ y ? y la procesará. Si escribe sin signos (caso 5), se le pedirá que reformule.
+
+Esta estrategia asegura que el asistente solo procese preguntas bien delimitadas, mejorando la precisión y reduciendo el ruido.
+

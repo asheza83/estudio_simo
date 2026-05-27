@@ -2,7 +2,7 @@
 // CORE - Funciones principales del chat (versión estable con palabras clave)
 // ============================================
 
-import { getConocimientoData } from './datos.js';
+import { getConocimientoData, isModeloListo } from './datos.js';  // 👈 importar isModeloListo
 import { buscarRespuesta } from './respuestas.js';
 
 let historialConversacion = [];
@@ -364,6 +364,38 @@ function toggleBotonSubir(chatAbierto) {
 }
 
 export function toggleAsistente() {
+    // Verificar si el modelo está listo; si no, mostrar mensaje y no abrir
+    if (!isModeloListo()) {
+        // Si el chat ya está visible, agregar mensaje dentro
+        const modal = document.getElementById('asistente-modal');
+        const body = document.getElementById('asistente-body');
+        if (modal && modal.classList.contains('visible') && body) {
+            const msgDiv = document.createElement('div');
+            msgDiv.className = 'mensaje mensaje-bot';
+            msgDiv.textContent = '⏳ El asistente aún se está preparando (descargando inteligencia artificial). Por favor espera unos segundos y vuelve a intentar.';
+            body.appendChild(msgDiv);
+            body.scrollTop = body.scrollHeight;
+        } else {
+            // Mostrar un pequeño aviso temporal (toast)
+            const toast = document.createElement('div');
+            toast.textContent = '⏳ Asistente cargando por primera vez... espera unos segundos';
+            toast.style.position = 'fixed';
+            toast.style.bottom = '80px';
+            toast.style.right = '20px';
+            toast.style.backgroundColor = '#0d6efd';
+            toast.style.color = 'white';
+            toast.style.padding = '8px 16px';
+            toast.style.borderRadius = '20px';
+            toast.style.fontSize = '0.8rem';
+            toast.style.zIndex = '10000';
+            toast.style.fontFamily = 'sans-serif';
+            document.body.appendChild(toast);
+            setTimeout(() => toast.remove(), 4000);
+        }
+        return;
+    }
+
+    // Si el modelo está listo, proceder normalmente
     const modal = document.getElementById('asistente-modal');
     const overlay = document.getElementById('asistente-overlay');
     if (modal.classList.contains('visible')) {

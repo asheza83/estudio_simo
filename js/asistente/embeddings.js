@@ -4,12 +4,16 @@
 
 import { pipeline, env } from 'https://cdn.jsdelivr.net/npm/@xenova/transformers@2.7.0';
 
-env.allowRemoteModels = true;
+// 🔥 NUEVA CONFIGURACIÓN 🔥
+env.allowRemoteModels = true;    // Permite la descarga remota (ya lo tenías)
+env.allowLocalModels = false;    // 👈 CLAVE: Ignora los modelos cacheados localmente
+env.useCache = false;             // 👈 CLAVE: No intenta guardar el modelo en caché
 
 let faqs = [];
 let modeloListo = false;
 let colaDeEspera = [];
 let queryModel = null;
+let cargaModeloPromise = null;  // Promesa única para el pipeline
 
 // ============================================
 // CONVERSIÓN float16 -> float32
@@ -100,9 +104,8 @@ async function cargarEmbeddings() {
     console.log('🔍 Cargando embeddings pre-calculados en segundo plano...');
     
     let todosLosFaqs = [];
-    let mapPreguntas = new Map(); // para evitar duplicados (prevalece el último cargado)
+    let mapPreguntas = new Map();
     
-    // Función auxiliar para cargar un archivo y devolver sus FAQs (sin fusionar aún)
     async function cargarArchivo(archivo, nombre) {
         try {
             const response = await fetch(archivo);
@@ -134,7 +137,6 @@ async function cargarEmbeddings() {
         }
     }
     
-    // Cargar archivo grande (base) - el más antiguo
     const base = await cargarArchivo('datos/faqs_embeddings.json', 'Base (grande)');
     if (base) {
         for (const item of base) {
@@ -144,19 +146,15 @@ async function cargarEmbeddings() {
         console.log(`📦 Base cargada: ${base.length} preguntas`);
     }
     
-    // Cargar archivo dev (parche) - prevalece sobre base
     const dev = await cargarArchivo('datos/faqs_dev_embeddings.json', 'Parche (dev)');
     if (dev) {
         for (const item of dev) {
             mapPreguntas.set(item.pregunta, item);
         }
-        // Reconstruir la lista completa a partir del mapa (para mantener orden pero asegurar unicidad)
-        // Nota: esto rompe el orden, pero el embedding funciona igual.
         todosLosFaqs = Array.from(mapPreguntas.values());
         console.log(`➕ Fusionado con dev: ${dev.length} preguntas (${todosLosFaqs.length} total únicas)`);
     }
     
-    // Cargar archivo dev2 (nuevo activo) - prevalece sobre base y dev
     const dev2 = await cargarArchivo('datos/faqs_dev2_embeddings.json', 'Extra (dev2)');
     if (dev2) {
         for (const item of dev2) {
@@ -190,14 +188,37 @@ async function cargarEmbeddings() {
 }
 
 // ============================================
-// CARGAR MODELO MINILM
+// CARGAR MODELO MINILM (con progreso, una sola vez)
 // ============================================
-async function getQueryModel() {
-    if (!queryModel) {
-        console.log('🔄 Cargando modelo para preguntas...');
-        queryModel = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
-        console.log('✅ Modelo de preguntas listo');
+async function inicializarModeloConProgreso(callbackProgreso = null) {   // 👈 SIN export aquí
+    if (cargaModeloPromise) {
+        return cargaModeloPromise;
     }
+    
+    console.log('🔄 Iniciando carga del modelo MiniLM...');
+    cargaModeloPromise = pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2', {
+        progress_callback: (data) => {
+            if (data.status === 'progress' && callbackProgreso) {
+                callbackProgreso(data.progress);
+            }
+        }
+    }).then(pipe => {
+        queryModel = pipe;
+        console.log('✅ Modelo de preguntas listo');
+        return pipe;
+    }).catch(err => {
+        console.error('❌ Error cargando modelo:', err);
+        cargaModeloPromise = null;
+        throw err;
+    });
+    
+    return cargaModeloPromise;
+}
+
+// Función interna para obtener el modelo (asegura que esté cargado)
+async function getQueryModel() {
+    if (queryModel) return queryModel;
+    await inicializarModeloConProgreso();
     return queryModel;
 }
 
@@ -285,11 +306,10 @@ async function buscarRespuestaTFIDF(preguntaUsuario) {
 // ============================================
 // GLOSARIO SEMÁNTICO (usando embeddings)
 // ============================================
-let glosarioEmbeddings = null;
 let glosarioLista = null;
 
 async function cargarGlosarioEmbeddings() {
-    if (glosarioEmbeddings) return;
+    if (glosarioLista) return;
     try {
         const response = await fetch('datos/glosario_embeddings.json');
         const data = await response.json();
@@ -349,7 +369,8 @@ async function buscarEnGlosarioSemantico(preguntaUsuario) {
         console.log(`📖 Glosario semántico: "${mejorItem.pregunta}" (sim: ${mejorSimilitud.toFixed(3)})`);
         return {
             respuesta: mejorItem.respuesta,
-            similitud: mejorSimilitud
+            similitud: mejorSimilitud,
+            termino: mejorItem.pregunta
         };
     }
     return null;
@@ -373,4 +394,11 @@ async function obtenerFAQsLista() {
     return faqs.map(f => ({ pregunta: f.pregunta, respuesta: f.respuesta }));
 }
 
-export { buscarRespuestaTFIDF, cargarFAQsVectorizadas, obtenerFAQsLista, buscarEnGlosarioSemantico, calcularSimilitud };
+export { 
+    buscarRespuestaTFIDF, 
+    cargarFAQsVectorizadas, 
+    obtenerFAQsLista, 
+    buscarEnGlosarioSemantico, 
+    calcularSimilitud,
+    inicializarModeloConProgreso   // única exportación
+};
